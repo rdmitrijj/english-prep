@@ -160,6 +160,7 @@ class Question(Base):
     group_id: Mapped[int] = mapped_column(ForeignKey("question_groups.id", ondelete="CASCADE"))
     number: Mapped[int] = mapped_column(SmallInteger)  # 1–40 within its section
     prompt: Mapped[str] = mapped_column(Text)
+    options: Mapped[list[dict[str, Any]] | None] = mapped_column(JSONB)  # per-question options (single-answer MCQ)
     difficulty: Mapped[int] = mapped_column(SmallInteger)  # 1–5
     sub_skill: Mapped[SubSkill | None] = mapped_column(str_enum(SubSkill))
     explanation: Mapped[dict[str, Any]] = mapped_column(JSONB)  # {correct, distractors: {letter: why}}
