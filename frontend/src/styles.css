@@ -1,0 +1,77 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #1a1a1a;
+  background: #fff;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+button {
+  font: inherit;
+  cursor: pointer;
+}
+.center {
+  text-align: center;
+  margin-top: 20vh;
+}
+.topbar {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 10px 16px;
+  background: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+}
+.topbar nav {
+  display: flex;
+  gap: 16px;
+  flex: 1;
+}
+.topbar a {
+  color: inherit;
+  text-decoration: none;
+}
+.topbar a.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+.login {
+  display: grid;
+  gap: 12px;
+  max-width: 320px;
+  margin: 15vh auto;
+}
+.login label {
+  display: grid;
+  gap: 4px;
+}
+.login input {
+  font: inherit;
+  padding: 8px;
+}
+.error {
+  color: #b00020;
+}
+.cards {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+.cards li {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 16px;
+  display: grid;
+  gap: 4px;
+}
+.disclaimer {
+  color: #666;
+  font-size: 0.9em;
+}
