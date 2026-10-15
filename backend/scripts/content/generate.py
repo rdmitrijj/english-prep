@@ -127,6 +127,9 @@ def finalize(test: CTest) -> CTest:
     # Listening can only be published with its audio (python -m scripts.content.audio render <slug>).
     test.check_errors += [f"L{p.number}: audio not rendered yet" for s in test.sections for p in s.parts
                           if p.script and p.audio is None]
+    # ponytail: only Listening records its blind check here; Reading (M2) was verified before this field existed.
+    if any(s.skill == Skill.listening for s in test.sections) and Skill.listening not in test.generator_meta.get("verified", []):
+        test.check_errors.append("listening: not blind-verified yet (offline finalize --skill listening)")
     disputed = any(q.review for q in test.questions())
     test.status = ContentStatus.needs_review if test.check_errors or disputed else ContentStatus.published
     return test

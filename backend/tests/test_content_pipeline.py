@@ -159,3 +159,28 @@ async def test_adding_a_listening_section_keeps_an_answered_reading_section(db, 
         assert await seed_test(s, both) == "unchanged"
         assert await count(s, Question) == 8 + 3
         assert (await s.scalar(select(AudioAsset))).duration_ms == 9000
+
+
+async def test_rerendered_audio_updates_in_place_even_when_answered(db, user):
+    from scripts.content.schema import CSection
+    from tests.listening_fixture import listening_part
+
+    t = make()
+    t.sections = [CSection(skill="listening", duration_s=None, parts=[listening_part()])]
+    async with db() as s:
+        assert await seed_test(s, t) == "created"
+        q = await s.scalar(select(Question).limit(1))
+        attempt = Attempt(user_id=user.id, mode="practice")
+        s.add(attempt)
+        await s.flush()
+        sec = AttemptSection(attempt_id=attempt.id, skill="listening")
+        s.add(sec)
+        await s.flush()
+        s.add(Response(attempt_section_id=sec.id, question_id=q.id, answer="x"))
+        await s.commit()
+    t.sections[0].parts[0].audio.tts_provider = "elevenlabs"
+    t.sections[0].parts[0].audio.duration_ms = 9500
+    async with db() as s:
+        assert await seed_test(s, t) == "listening: audio updated"
+        assert (await s.scalar(select(AudioAsset))).duration_ms == 9500
+        assert await seed_test(s, t) == "unchanged"

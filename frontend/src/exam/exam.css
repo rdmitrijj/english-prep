@@ -490,3 +490,20 @@ fieldset.qbody {
   border-radius: 50%;
   font-size: 0.75em;
 }
+.layout {
+  overflow-x: auto;
+}
+.layout table.grid {
+  width: 100%;
+}
+.layout td input.gap {
+  width: 100%;
+  min-width: 5em;
+  box-sizing: border-box;
+}
+input.gap.right {
+  border: 2px solid #1e8558;
+}
+input.gap.wrong {
+  border: 2px solid #c0343c;
+}

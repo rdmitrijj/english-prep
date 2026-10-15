@@ -63,10 +63,14 @@ async def seed_test(session: AsyncSession, t: CTest) -> str:
         if any(p.script and not p.audio for p in cs.parts):
             outcomes.append(f"{cs.skill}: skipped (audio not rendered yet)")
             continue
-        digest = hashlib.sha256(cs.model_dump_json(exclude_none=True).encode()).hexdigest()  # new optional fields keep hashes
+        # Without None fields (new optional fields keep old hashes) and without audio: new voices change no question.
+        digest = hashlib.sha256(cs.model_dump_json(
+            exclude_none=True, exclude={"parts": {"__all__": {"audio"}}}).encode()).hexdigest()
         current = await session.scalar(select(Section).where(Section.test_id == test.id, Section.skill == cs.skill))
         if current and (legacy or hashes.get(cs.skill) == digest):
             hashes[cs.skill] = digest
+            if await sync_audio(session, current.id, cs):
+                outcomes.append(f"{cs.skill}: audio updated")
             continue
         if current:
             if await answered(session, current.id):
@@ -80,6 +84,29 @@ async def seed_test(session: AsyncSession, t: CTest) -> str:
     test.generator_meta = meta
     await session.commit()
     return "created" if created else "; ".join(outcomes) or "unchanged"
+
+
+def audio_row(part_id: int, audio) -> dict:
+    return dict(part_id=part_id, url=audio.url, duration_ms=audio.duration_ms, tts_provider=audio.tts_provider,
+                voices=audio.voices, segments=[seg.model_dump() for seg in audio.segments])
+
+
+async def sync_audio(session: AsyncSession, section_id: int, cs: CSection) -> bool:
+    """Re-rendered audio (e.g. real voices replacing test tones) updates in place, even after answers exist."""
+    changed = False
+    for cp in (p for p in cs.parts if p.audio):
+        part = await session.scalar(select(Part).where(Part.section_id == section_id, Part.number == cp.number))
+        row = await session.scalar(select(AudioAsset).where(AudioAsset.part_id == part.id))
+        new = audio_row(part.id, cp.audio)
+        if row is None:
+            session.add(AudioAsset(**new))
+        elif any(getattr(row, k) != v for k, v in new.items()):
+            for k, v in new.items():
+                setattr(row, k, v)
+        else:
+            continue
+        changed = True
+    return changed
 
 
 async def insert_section(session: AsyncSession, test_id: int, order: int, cs: CSection) -> None:
@@ -101,11 +128,7 @@ async def insert_section(session: AsyncSession, test_id: int, order: int, cs: CS
                 glossary={g.term: g.definition for g in cp.passage.glossary},
             ))
         if cp.audio:
-            session.add(AudioAsset(
-                part_id=part.id, url=cp.audio.url, duration_ms=cp.audio.duration_ms,
-                segments=[seg.model_dump() for seg in cp.audio.segments],
-                tts_provider=cp.audio.tts_provider, voices=cp.audio.voices,
-            ))
+            session.add(AudioAsset(**audio_row(part.id, cp.audio)))
         for g_order, cg in enumerate(cp.groups):
             group = QuestionGroup(
                 part_id=part.id, order=g_order, qtype=cg.qtype, instructions=cg.instructions,

@@ -43,7 +43,7 @@ function Body(props: Props) {
     const gap = (q: Question) => (
       <input
         id={`q-${q.number}`}
-        className="gap"
+        className={`gap${props.results?.[q.id] === undefined ? "" : props.results[q.id] ? " right" : " wrong"}`}
         aria-label={`Question ${q.number}`}
         placeholder={String(q.number)}
         value={text(q)}

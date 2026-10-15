@@ -59,8 +59,10 @@ def apply_answers(test: CTest, answers: VerifierAnswers, skill: Skill | None = N
     for g in (g for s in test.sections if skill in (None, s.skill) for p in s.parts for g in p.groups):
         for q in g.questions:
             q.review = compare(g, q, by_number.get(q.number))
+    verified = set(test.generator_meta.get("verified", [])) | ({skill} if skill else {s.skill for s in test.sections})
     test.generator_meta = {"prompt_version": PROMPT_VERSION, "generated_at": datetime.now(UTC).isoformat(timespec="seconds"),
-                           "models": {"generate": "claude-code", "verify": "claude-code blind subagent"}}
+                           "models": {"generate": "claude-code", "verify": "claude-code blind subagent"},
+                           "verified": sorted(verified)}
     return finalize(test)
 
 
