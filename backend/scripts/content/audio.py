@@ -45,10 +45,12 @@ def stitch(chunks: list[tuple[bytes, float]]) -> tuple[bytes, list[tuple[int, in
     return bytes(pcm), spans
 
 
-def assign_voices(speakers: list[Speaker], pool: dict, rng: random.Random) -> dict[str, str]:
-    """A distinct voice per speaker, matching accent and gender (with a near accent as fallback)."""
-    used, out = set(), {}
-    for sp in speakers:
+def assign_voices(speakers: list[Speaker], pool: dict, rng: random.Random, fixed: dict[str, str] | None = None) -> dict[str, str]:
+    """A distinct voice per speaker, matching accent and gender (with a near accent as fallback).
+    `fixed` pins voices, e.g. the same narrator throughout a test."""
+    out = {sp.id: (fixed or {})[sp.id] for sp in speakers if sp.id in (fixed or {})}
+    used = set(out.values())
+    for sp in (sp for sp in speakers if sp.id not in out):
         for accent in [sp.accent, *FALLBACK[sp.accent]]:
             choices = [v for v in pool.get(accent, {}).get(sp.gender, []) if v not in used]
             if choices:
@@ -81,8 +83,8 @@ def encode_mp3(pcm: bytes, out: Path) -> None:
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", tmp.name, "-ac", "1", "-b:a", "64k", str(out)], check=True)
 
 
-def render_part(part: CPart, name: str, provider: str) -> CAudio:
-    voices = assign_voices(part.script.speakers, voice_pool(provider), random.Random(name))
+def render_part(part: CPart, name: str, provider: str, fixed: dict[str, str] | None = None) -> CAudio:
+    voices = assign_voices(part.script.speakers, voice_pool(provider), random.Random(name), fixed)
     accents = {sp.id: sp.accent for sp in part.script.speakers}
     lines = part.script.lines
     chunks = [(cached_synthesize(ln.text, voices[ln.speaker], provider), LINE_GAP_S + ln.pause_after_s) for ln in lines]
@@ -103,8 +105,12 @@ def main() -> None:
     args = parser.parse_args()
     provider = args.provider or get_settings().tts_provider
     test = load(args.slug)
-    for part in (p for s in test.sections for p in s.parts if p.script):
-        part.audio = render_part(part, f"{args.slug}-p{part.number}", provider)
+    parts = [p for s in test.sections for p in s.parts if p.script]
+    # One narrator for the whole test, as in the real recordings.
+    narrator = next(sp for sp in parts[0].script.speakers if sp.id == "narrator")
+    fixed = assign_voices([narrator], voice_pool(provider), random.Random(args.slug))
+    for part in parts:
+        part.audio = render_part(part, f"{args.slug}-p{part.number}", provider, fixed)
         print(f"L{part.number}: {part.audio.duration_ms / 60000:.1f} min, voices {part.audio.voices}")
     save(finalize(test))
     total = sum(p.audio.duration_ms for s in test.sections for p in s.parts if p.audio) / 60000

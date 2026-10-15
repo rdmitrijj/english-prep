@@ -68,3 +68,10 @@ def test_render_uses_one_tts_call_per_line_and_writes_segments(monkeypatch, tmp_
     assert rendered.duration_ms == 5 * 1400 + 5000
     audio.render_part(part, "t-p1", "fake")
     assert len(calls) == 5  # the second render comes from the cache
+
+
+def test_fixed_voices_are_pinned_and_never_reused():
+    part = listening_part()
+    pool = {"en-GB": {"male": ["gb-m1", "gb-m2"], "female": ["gb-f"]}, "en-AU": {"male": ["au-m"]}}
+    voices = audio.assign_voices(part.script.speakers, pool, random.Random(3), fixed={"narrator": "gb-m2"})
+    assert voices == {"narrator": "gb-m2", "clerk": "au-m", "woman": "gb-f"}
