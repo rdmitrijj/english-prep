@@ -1,0 +1,625 @@
+{
+  "slug": "practice-reading-health-medicine-01",
+  "kind": "practice",
+  "title": "Taking the Pressure",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-14T15:46:07+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    }
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "reading",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_reading",
+          "topic": "health-medicine",
+          "passage": {
+            "title": "Taking the Pressure",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "Of all the measurements taken in a doctor's surgery, blood pressure is probably the most familiar. Two figures are recorded: the higher, systolic, reading reflects the force exerted on the artery walls as the heart contracts, while the lower, diastolic, reading reflects the pressure that remains as the heart relaxes between beats. Persistently high blood pressure, or hypertension, greatly increases the risk of stroke and heart disease, yet it rarely produces noticeable symptoms, which is why it has earned the nickname 'the silent killer'. Because most people with the condition feel perfectly well, the only way to detect it is to measure it. How best to do so has been debated for almost three centuries, and the argument is far from settled."
+              },
+              {
+                "label": "B",
+                "text": "The first recorded measurement was made not on a person but on a horse. In 1733 the English clergyman and scientist Stephen Hales published an account of an experiment in which he had inserted a brass pipe into an artery in the animal's leg and connected it to a vertical glass tube. Blood rose in the tube to a height of more than eight feet and then bobbed up and down with each heartbeat. Hales had shown that the circulation was under pressure and that this pressure could be quantified. His method, however, required an artery to be opened, and it was plainly unsuitable for routine use on human patients. For well over a century afterwards, physicians interested in the force of the pulse had little to rely on but the sensitivity of their own fingertips."
+              },
+              {
+                "label": "C",
+                "text": "A practical alternative emerged in 1896, when the Italian physician Scipione Riva-Rocci wrapped an inflatable rubber cuff around a patient's upper arm and connected it to a column of mercury. As the cuff was pumped up, it squeezed the main artery of the arm until blood flow stopped; the doctor then released the air slowly and noted the height of the mercury at the moment the pulse could again be felt at the wrist. The technique was simple and harmless, but it revealed only the systolic figure. Nine years later, the Russian surgeon Nikolai Korotkov discovered that by placing a stethoscope over the artery just below the cuff, a doctor could hear a series of tapping sounds as the cuff deflated. The point at which these sounds began marked the systolic pressure, and the point at which they disappeared marked the diastolic. The combination of cuff, mercury column and stethoscope remained the clinical standard for most of the twentieth century."
+              },
+              {
+                "label": "D",
+                "text": "Its eventual decline had two causes. The first was concern about mercury itself, a toxic metal that posed a hazard to staff and to the environment whenever an instrument broke. Many hospitals replaced their mercury columns with aneroid gauges, which use a spring and a dial instead, but these can drift out of accuracy and need regular checking. The second cause was automation. From the 1970s onwards, electronic monitors were developed that rely on what is known as the oscillometric method: a sensor inside the device detects the tiny vibrations transmitted to the cuff by the pulsing artery, and an algorithm converts them into systolic and diastolic values. Because no listening is involved, these machines do not depend on the hearing or training of the operator, and inexpensive versions soon became available for people to use themselves."
+              },
+              {
+                "label": "E",
+                "text": "Automation solved one problem but drew attention to another: a single reading taken in a clinic may not represent a patient's usual blood pressure at all. Some people become anxious in medical settings, and their pressure rises accordingly, a phenomenon known as the 'white-coat effect'. In a study of 640 adults, Dr Helena Marsh of Brackenford University found that almost one in five of those diagnosed with hypertension in the clinic had normal readings when they measured their own pressure at home. For this reason, many guidelines now recommend ambulatory monitoring, in which a portable device worn for 24 hours inflates a cuff automatically every half an hour or so. Although this is widely regarded as the most reliable approach, patients often find it uncomfortable, and many report that the repeated inflations disturb their sleep."
+              },
+              {
+                "label": "F",
+                "text": "The latest development promises to do away with the cuff altogether. Wristbands, rings and even smartphone cameras are being designed to estimate blood pressure continuously, using light sensors that track changes in the volume of blood beneath the skin. Supporters argue that such devices could reveal patterns that occasional readings miss, such as sudden surges during the night. Professor Tomasz Wilk of the Elmridge Institute is more cautious. In his view, most cuff-less devices still have to be calibrated against a conventional cuff reading every few weeks, and their accuracy tends to drift between calibrations. 'A number that appears every minute is not necessarily a number you can trust,' he says. Until independent testing confirms their reliability, Wilk believes, the humble inflatable cuff, which is essentially Riva-Rocci's invention, is likely to remain in use for some time yet."
+              }
+            ],
+            "glossary": []
+          },
+          "groups": [
+            {
+              "options": null,
+              "layout": {
+                "title": "Methods of measuring blood pressure",
+                "template": null,
+                "table": {
+                  "columns": [
+                    "Method",
+                    "Date",
+                    "How the reading was obtained",
+                    "Comment"
+                  ],
+                  "rows": [
+                    [
+                      "Hales",
+                      "1733",
+                      "blood from a horse's leg rose up a vertical {1}",
+                      "the artery had to be opened"
+                    ],
+                    [
+                      "Riva-Rocci",
+                      "1896",
+                      "cuff linked to a mercury column; pressure noted when the pulse returned at the {2}",
+                      "showed only the upper figure"
+                    ],
+                    [
+                      "Korotkov",
+                      "1905",
+                      "tapping sounds heard through a {3} placed below the cuff",
+                      "gave both figures"
+                    ],
+                    [
+                      "Oscillometric monitors",
+                      "1970s onwards",
+                      "a sensor picks up small {4} passed to the cuff by the artery",
+                      "no need for a trained listener"
+                    ]
+                  ]
+                },
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "Hales: blood rose up a vertical …",
+                  "options": null,
+                  "answer": [
+                    "glass tube",
+                    "tube"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'rose up a vertical ___' paraphrases 'Blood rose in the tube'; the tube is described as a 'vertical glass tube'.",
+                    "distractors": [
+                      {
+                        "option": "brass pipe",
+                        "why_wrong": "The brass pipe was inserted into the artery; the blood rose in the glass tube connected to it."
+                      },
+                      {
+                        "option": "artery",
+                        "why_wrong": "The artery is where the pipe was inserted, not what the blood rose up."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "connected it to a vertical glass tube"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "Riva-Rocci: pressure noted when the pulse returned at the …",
+                  "options": null,
+                  "answer": [
+                    "wrist"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'the pulse returned' paraphrases 'the pulse could again be felt'; this happened at the wrist.",
+                    "distractors": [
+                      {
+                        "option": "upper arm",
+                        "why_wrong": "The cuff was placed on the upper arm; the pulse was checked at the wrist."
+                      },
+                      {
+                        "option": "fingertips",
+                        "why_wrong": "Fingertips are mentioned in paragraph B for the period before Riva-Rocci, not as the place the pulse was felt."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "the pulse could again be felt at the wrist"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "Korotkov: tapping sounds heard through a … placed below the cuff",
+                  "options": null,
+                  "answer": [
+                    "stethoscope"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'heard through a ___ placed below the cuff' paraphrases 'placing a stethoscope over the artery just below the cuff, a doctor could hear'.",
+                    "distractors": [
+                      {
+                        "option": "mercury column",
+                        "why_wrong": "The mercury column shows the pressure value; it is not used to hear the sounds."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "by placing a stethoscope over the artery just below the cuff"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "Oscillometric monitors: a sensor picks up small … passed to the cuff by the artery",
+                  "options": null,
+                  "answer": [
+                    "vibrations",
+                    "tiny vibrations"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'picks up small ___ passed to the cuff' paraphrases 'detects the tiny vibrations transmitted to the cuff'.",
+                    "distractors": [
+                      {
+                        "option": "sounds",
+                        "why_wrong": "Sounds belong to Korotkov's method; the passage stresses that 'no listening is involved' in oscillometric devices."
+                      },
+                      {
+                        "option": "values",
+                        "why_wrong": "Systolic and diastolic values are what the algorithm produces, not what the sensor detects."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "detects the tiny vibrations transmitted to the cuff by the pulsing artery"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "table_completion",
+              "instructions": "Complete the table below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 2,
+              "allow_number": true,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 5,
+                  "prompt": "What type of instrument, which must be checked often to stay accurate, did many hospitals introduce in place of mercury columns?",
+                  "options": null,
+                  "answer": [
+                    "aneroid gauges",
+                    "aneroid gauge",
+                    "aneroid"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'introduce in place of mercury columns' paraphrases 'replaced their mercury columns with'; 'must be checked often to stay accurate' paraphrases 'can drift out of accuracy and need regular checking'.",
+                    "distractors": [
+                      {
+                        "option": "electronic monitors",
+                        "why_wrong": "Electronic monitors are the second, separate cause of the decline (automation); the instruments needing regular checking are the aneroid gauges."
+                      },
+                      {
+                        "option": "spring",
+                        "why_wrong": "A spring and a dial are parts of the aneroid gauge, not the type of instrument."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "Many hospitals replaced their mercury columns with aneroid gauges"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 6,
+                  "prompt": "In Dr Marsh's study, where did nearly a fifth of the patients diagnosed with hypertension obtain normal readings?",
+                  "options": null,
+                  "answer": [
+                    "at home",
+                    "home"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'nearly a fifth' paraphrases 'almost one in five'; these patients had normal readings when measuring their own pressure at home.",
+                    "distractors": [
+                      {
+                        "option": "in the clinic",
+                        "why_wrong": "The clinic is where they were diagnosed with hypertension, i.e. where readings were high."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "had normal readings when they measured their own pressure at home"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "For how long is the portable device used in ambulatory monitoring worn?",
+                  "options": null,
+                  "answer": [
+                    "24 hours",
+                    "twenty-four hours",
+                    "a day",
+                    "one day"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "The passage states the ambulatory device is 'worn for 24 hours'.",
+                    "distractors": [
+                      {
+                        "option": "half an hour",
+                        "why_wrong": "Every half an hour is how often the cuff inflates, not how long the device is worn."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "a portable device worn for 24 hours"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "What do the new wristbands and rings use to follow variations in the amount of blood under the skin?",
+                  "options": null,
+                  "answer": [
+                    "light sensors",
+                    "light sensor"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'follow variations in the amount of blood under the skin' paraphrases 'track changes in the volume of blood beneath the skin'; the devices use light sensors.",
+                    "distractors": [
+                      {
+                        "option": "smartphone cameras",
+                        "why_wrong": "Smartphone cameras are a further type of device, not what wristbands and rings use."
+                      },
+                      {
+                        "option": "cuff",
+                        "why_wrong": "These devices are described as cuff-less; a cuff is used only for calibration."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "using light sensors that track changes in the volume of blood beneath the skin"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "short_answer",
+              "instructions": "Answer the questions below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 2,
+              "allow_number": true,
+              "pick": 1
+            },
+            {
+              "options": [
+                {
+                  "letter": "i",
+                  "text": "A wearable future that has yet to prove itself"
+                },
+                {
+                  "letter": "ii",
+                  "text": "How the heart produces two different pressures"
+                },
+                {
+                  "letter": "iii",
+                  "text": "Two discoveries that together set a lasting standard"
+                },
+                {
+                  "letter": "iv",
+                  "text": "Questioning whether one appointment tells the whole story"
+                },
+                {
+                  "letter": "v",
+                  "text": "The risks of handling mercury"
+                },
+                {
+                  "letter": "vi",
+                  "text": "An early method that proved a point but was impractical for patients"
+                },
+                {
+                  "letter": "vii",
+                  "text": "Why doctors must learn to listen carefully"
+                },
+                {
+                  "letter": "viii",
+                  "text": "Safety worries and automation end a long tradition"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 9,
+                  "prompt": "Paragraph B",
+                  "options": null,
+                  "answer": [
+                    "vi"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Hales 'had shown that the circulation was under pressure' (proved a point) but the method 'was plainly unsuitable for routine use on human patients' (impractical).",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "This summarises paragraph F (cuff-less wearables whose reliability is still doubted)."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "Only a detail of paragraph A (systolic and diastolic readings); no paragraph is mainly about this."
+                      },
+                      {
+                        "option": "iii",
+                        "why_wrong": "This summarises paragraph C (Riva-Rocci's cuff plus Korotkov's sounds became the standard)."
+                      },
+                      {
+                        "option": "iv",
+                        "why_wrong": "This summarises paragraph E (a single clinic reading may be misleading)."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Mercury's toxicity is only one of two causes mentioned in paragraph D, not a paragraph's main idea."
+                      },
+                      {
+                        "option": "vii",
+                        "why_wrong": "Listening is mentioned in C and D, but no paragraph is about training doctors to listen."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "This summarises paragraph D (mercury concerns and automation end the mercury-and-stethoscope era)."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "it was plainly unsuitable for routine use on human patients"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "Paragraph C",
+                  "options": null,
+                  "answer": [
+                    "iii"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Riva-Rocci's cuff and Korotkov's stethoscope technique (two discoveries) 'remained the clinical standard for most of the twentieth century' (a lasting standard).",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "This summarises paragraph F (cuff-less wearables whose reliability is still doubted)."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "Only a detail of paragraph A (systolic and diastolic readings); no paragraph is mainly about this."
+                      },
+                      {
+                        "option": "iv",
+                        "why_wrong": "This summarises paragraph E (a single clinic reading may be misleading)."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Mercury's toxicity is only one of two causes mentioned in paragraph D, not a paragraph's main idea."
+                      },
+                      {
+                        "option": "vi",
+                        "why_wrong": "This summarises paragraph B (Hales's invasive horse experiment)."
+                      },
+                      {
+                        "option": "vii",
+                        "why_wrong": "Listening is mentioned in C and D, but no paragraph is about training doctors to listen."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "This summarises paragraph D (mercury concerns and automation end the mercury-and-stethoscope era)."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "The combination of cuff, mercury column and stethoscope remained the clinical standard for most of the twentieth century"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 11,
+                  "prompt": "Paragraph D",
+                  "options": null,
+                  "answer": [
+                    "viii"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "The paragraph explains the 'decline' of the traditional method (end of a long tradition) through concern about mercury (safety worries) and automation.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "This summarises paragraph F (cuff-less wearables whose reliability is still doubted)."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "Only a detail of paragraph A (systolic and diastolic readings); no paragraph is mainly about this."
+                      },
+                      {
+                        "option": "iii",
+                        "why_wrong": "This summarises paragraph C (Riva-Rocci's cuff plus Korotkov's sounds became the standard)."
+                      },
+                      {
+                        "option": "iv",
+                        "why_wrong": "This summarises paragraph E (a single clinic reading may be misleading)."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Mercury's toxicity is only one of two causes mentioned in paragraph D, not a paragraph's main idea."
+                      },
+                      {
+                        "option": "vi",
+                        "why_wrong": "This summarises paragraph B (Hales's invasive horse experiment)."
+                      },
+                      {
+                        "option": "vii",
+                        "why_wrong": "Listening is mentioned in C and D, but no paragraph is about training doctors to listen."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "Its eventual decline had two causes"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 12,
+                  "prompt": "Paragraph E",
+                  "options": null,
+                  "answer": [
+                    "iv"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "'one appointment' paraphrases 'a single reading taken in a clinic'; 'may not tell the whole story' paraphrases 'may not represent a patient's usual blood pressure'.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "This summarises paragraph F (cuff-less wearables whose reliability is still doubted)."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "Only a detail of paragraph A (systolic and diastolic readings); no paragraph is mainly about this."
+                      },
+                      {
+                        "option": "iii",
+                        "why_wrong": "This summarises paragraph C (Riva-Rocci's cuff plus Korotkov's sounds became the standard)."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Mercury's toxicity is only one of two causes mentioned in paragraph D, not a paragraph's main idea."
+                      },
+                      {
+                        "option": "vi",
+                        "why_wrong": "This summarises paragraph B (Hales's invasive horse experiment)."
+                      },
+                      {
+                        "option": "vii",
+                        "why_wrong": "Listening is mentioned in C and D, but no paragraph is about training doctors to listen."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "This summarises paragraph D (mercury concerns and automation end the mercury-and-stethoscope era)."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "a single reading taken in a clinic may not represent a patient's usual blood pressure at all"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 13,
+                  "prompt": "Paragraph F",
+                  "options": null,
+                  "answer": [
+                    "i"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Wristbands and rings are wearable devices; Wilk's doubts and the need for 'independent testing' show they have 'yet to prove' themselves.",
+                    "distractors": [
+                      {
+                        "option": "ii",
+                        "why_wrong": "Only a detail of paragraph A (systolic and diastolic readings); no paragraph is mainly about this."
+                      },
+                      {
+                        "option": "iii",
+                        "why_wrong": "This summarises paragraph C (Riva-Rocci's cuff plus Korotkov's sounds became the standard)."
+                      },
+                      {
+                        "option": "iv",
+                        "why_wrong": "This summarises paragraph E (a single clinic reading may be misleading)."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Mercury's toxicity is only one of two causes mentioned in paragraph D, not a paragraph's main idea."
+                      },
+                      {
+                        "option": "vi",
+                        "why_wrong": "This summarises paragraph B (Hales's invasive horse experiment)."
+                      },
+                      {
+                        "option": "vii",
+                        "why_wrong": "Listening is mentioned in C and D, but no paragraph is about training doctors to listen."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "This summarises paragraph D (mercury concerns and automation end the mercury-and-stethoscope era)."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "Until independent testing confirms their reliability"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_headings",
+              "instructions": "Reading Passage 1 has 6 paragraphs, A–F.\nChoose the correct heading for each paragraph from the list of headings below.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

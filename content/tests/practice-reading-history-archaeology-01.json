@@ -1,0 +1,589 @@
+{
+  "slug": "practice-reading-history-archaeology-01",
+  "kind": "practice",
+  "title": "Saving the Sunken Timbers",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-14T15:46:37+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    }
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "reading",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_reading",
+          "topic": "history-archaeology",
+          "passage": {
+            "title": "Saving the Sunken Timbers",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "A wooden ship buried in soft mud can survive for many centuries. The fungi and most of the bacteria that normally break down wood need oxygen, which waterlogged sediment largely lacks. Yet the condition of such wood is often deceptive. Over time, slow-acting bacteria consume much of the cellulose that gives timber its strength, leaving a fragile framework of lignin whose empty cells are filled with water. A plank may look solid when it is first lifted, but in severe cases it can hold several times its own dry weight in water, and it is this water alone that keeps it in shape. If it is simply left to dry, it may shrink, split and twist beyond recognition within weeks."
+              },
+              {
+                "label": "B",
+                "text": "Conservators have been wrestling with this problem for well over a century. From the 1850s, museums in Scandinavia commonly boiled waterlogged objects in a concentrated solution of alum, a mineral salt that crystallised inside the wood as it cooled and gave it an apparently stone-like hardness. The method was cheap and the results looked convincing, so it was applied to thousands of finds, including some of the most celebrated carvings of the Viking Age. Only much later did its drawbacks become clear. Alum slowly generates acid, and many of the treated pieces are now so brittle that they are crumbling from within, even though their surfaces appear intact. They are a warning that a treatment can seem successful for decades before it fails."
+              },
+              {
+                "label": "C",
+                "text": "Its replacement, still the most widely used method today, relies on polyethylene glycol, or PEG, a water-soluble synthetic wax. The procedure followed by Dr Ruth Okafor's team at the Fenmouth Maritime Trust, which raised a sixteenth-century merchant vessel from an English estuary in 2009, is typical. First, the timbers were placed in tanks of fresh water, which was changed regularly over many months to wash out the salts and iron compounds absorbed on the seabed. While still wet, each piece was scanned so that a digital model would exist in case later stages caused unexpected distortion. The timbers were then soaked in a dilute solution of PEG with small molecules, able to penetrate the most decayed inner cells. Over the following four years, the concentration was gradually raised and a grade with larger molecules was added to consolidate the outer surfaces. Finally, the timbers were transferred to a vacuum chamber for freeze-drying, in which the remaining water is frozen and then turned directly into vapour. This avoids the forces that pull weakened cell walls together when liquid water evaporates."
+              },
+              {
+                "label": "D",
+                "text": "Even PEG is not a perfect answer. The Swedish warship Vasa, which sank in Stockholm harbour on its maiden voyage in 1628 and was raised in 1961, was sprayed with the wax for many years before being allowed to dry slowly. Around the turn of this century, however, yellow and white deposits began appearing on its timbers. Analysis showed that sulphur absorbed from the polluted harbour water was reacting with oxygen and with iron from the ship's corroded bolts to form sulphuric acid, which attacks the wood from inside. The hull is now kept under tightly controlled humidity and light, and research into ways of neutralising the acid is continuing. The episode has led some conservators to ask whether lifting wrecks at all is wise."
+              },
+              {
+                "label": "E",
+                "text": "That question lies behind a significant shift in policy. The UNESCO Convention on the Protection of the Underwater Cultural Heritage, adopted in 2001, states that preservation in situ, meaning leaving remains where they lie, should be considered as the first option. Supporters such as Professor Henrik Dahl of the Nordvik Institute of Marine Archaeology argue that the seabed is often the safest store available. A wreck that has reached a stable state with its surroundings, he points out, may decay more slowly if left undisturbed than in a museum, and covering exposed timbers with sandbags or protective sheeting can extend its life further. Dahl's team has monitored test samples of oak buried beside three Baltic wrecks since 2012 and has found almost no measurable loss. The Baltic is, however, an unusually favourable environment: its low salinity keeps out the shipworm, a wood-boring mollusc that can destroy exposed timber within a few decades in saltier seas."
+              },
+              {
+                "label": "F",
+                "text": "Critics of this approach accept the risks of excavation but question the alternative. Dr Okafor argues that reburial too often amounts to postponing a decision rather than making one, since few heritage bodies have the funds to check buried sites regularly. Storms, dredging and shifting currents can strip away a protective covering unnoticed. She also stresses that a wreck on the seabed is invisible to almost everyone. The Fenmouth vessel attracted more than 200,000 visitors in its first year on display, and Okafor believes that public interest of this kind is what persuades governments to pay for marine archaeology."
+              },
+              {
+                "label": "G",
+                "text": "In practice, most specialists now favour a case-by-case approach. Small, threatened sites or objects of exceptional importance may justify the expense of recovery, which for a large hull can run to tens of millions of pounds over several decades, while stable sites are recorded in detail and left in place. Improvements in underwater scanning mean that a wreck can now be studied, and even visited virtually, without being moved. Whether future generations will judge today's choices kindly is, as the history of alum shows, impossible to know."
+              }
+            ],
+            "glossary": []
+          },
+          "groups": [
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "Paragraph A"
+                },
+                {
+                  "letter": "B",
+                  "text": "Paragraph B"
+                },
+                {
+                  "letter": "C",
+                  "text": "Paragraph C"
+                },
+                {
+                  "letter": "D",
+                  "text": "Paragraph D"
+                },
+                {
+                  "letter": "E",
+                  "text": "Paragraph E"
+                },
+                {
+                  "letter": "F",
+                  "text": "Paragraph F"
+                },
+                {
+                  "letter": "G",
+                  "text": "Paragraph G"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "an explanation of how the absence of a particular creature helps to protect wood in one area",
+                  "options": null,
+                  "answer": [
+                    "E"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "Paragraph E says the Baltic's low salinity 'keeps out the shipworm, a wood-boring mollusc' — the absence of this creature is why Baltic wrecks survive so well.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "A mentions fungi and bacteria, but as organisms that are present in limited numbers because of low oxygen, not a creature kept out of a region."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "B is about alum treatment; no organism is mentioned."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "C describes the PEG process; no organism is mentioned."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "D attributes damage to sulphuric acid, a chemical cause."
+                      },
+                      {
+                        "option": "F",
+                        "why_wrong": "F lists storms, dredging and currents as threats, not creatures."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "G discusses cost and scanning, not organisms."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "its low salinity keeps out the shipworm, a wood-boring mollusc"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "a reference to a conservation method being adopted partly because it was inexpensive",
+                  "options": null,
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "Paragraph B: alum treatment 'was cheap and the results looked convincing, so it was applied to thousands of finds' — 'cheap' = inexpensive, 'applied to thousands' = widely adopted.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "A describes how wood decays; no conservation method is discussed."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "C describes PEG treatment but gives no information about its cost."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "D describes problems with the Vasa, not the cost of its treatment."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "E mentions sandbags and sheeting, but not as a cheap option."
+                      },
+                      {
+                        "option": "F",
+                        "why_wrong": "F mentions a lack of funds for monitoring, not a method chosen for being cheap."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "G mentions the high expense of recovery, the opposite idea."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "The method was cheap and the results looked convincing, so it was applied to thousands of finds"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "a figure showing how popular one recovered ship became with the public",
+                  "options": null,
+                  "answer": [
+                    "F"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "Paragraph F: 'The Fenmouth vessel attracted more than 200,000 visitors in its first year on display' — the visitor number is the figure showing public popularity.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "A contains no figures about visitors."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "B mentions 'thousands of finds', which is about treated objects, not visitors."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "C gives dates (2009, four years) about the Fenmouth vessel's treatment, not its popularity."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "D gives dates for the Vasa (1628, 1961) but no visitor figures."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "E's figures (2001, 2012, three wrecks) concern policy and monitoring."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "G's figure is the cost of recovery, not public interest."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "The Fenmouth vessel attracted more than 200,000 visitors in its first year on display"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "an example of contaminated water contributing to damage after an object had been treated",
+                  "options": null,
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "Paragraph D: sulphur 'absorbed from the polluted harbour water' later formed acid in the Vasa's PEG-treated timbers — 'polluted' = contaminated.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "A says water preserves the shape of wood; it is not described as contaminated."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "B describes later damage from alum, but the cause is the alum itself, not polluted water."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "C mentions salts and iron absorbed on the seabed, but they are washed out before treatment; no later damage is described."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "E mentions salinity, but as a protective factor."
+                      },
+                      {
+                        "option": "F",
+                        "why_wrong": "F mentions dredging and currents removing coverings, not contaminated water."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "G does not mention water quality."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "sulphur absorbed from the polluted harbour water was reacting with oxygen and with iron from the ship's corroded bolts to form sulphuric acid"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_information",
+              "instructions": "Reading Passage 1 has 7 paragraphs, A–G.\nWhich paragraph contains the following information?\nNB You may use any letter more than once.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": {
+                "title": "Conserving the Fenmouth timbers",
+                "template": null,
+                "table": null,
+                "steps": [
+                  "Timbers stored in fresh water, renewed for many months, to remove salts and {5}",
+                  "Every wet timber scanned to produce a {6} in case it later becomes distorted",
+                  "Timbers immersed in a weak, small-molecule PEG solution, which can reach the most damaged {7}",
+                  "Strength of solution increased and a larger-molecule grade added to reinforce the outside",
+                  "Remaining water frozen and removed as vapour inside a {8}"
+                ]
+              },
+              "questions": [
+                {
+                  "number": 5,
+                  "prompt": "remove salts and …",
+                  "options": null,
+                  "answer": [
+                    "iron compounds"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The fresh-water tanks were used 'to wash out the salts and iron compounds' — 'wash out' = remove.",
+                    "distractors": [
+                      {
+                        "option": "seabed",
+                        "why_wrong": "This is where the substances were absorbed, not what is removed."
+                      },
+                      {
+                        "option": "sulphur",
+                        "why_wrong": "Sulphur is mentioned only for the Vasa in paragraph D."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "to wash out the salts and iron compounds absorbed on the seabed"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 6,
+                  "prompt": "scanned to produce a …",
+                  "options": null,
+                  "answer": [
+                    "digital model"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Each piece 'was scanned so that a digital model would exist in case later stages caused unexpected distortion' — 'produce' paraphrases 'would exist'.",
+                    "distractors": [
+                      {
+                        "option": "distortion",
+                        "why_wrong": "Distortion is the risk the model guards against, not what the scan produces."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "each piece was scanned so that a digital model would exist in case later stages caused unexpected distortion"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "reach the most damaged …",
+                  "options": null,
+                  "answer": [
+                    "inner cells"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Small-molecule PEG is 'able to penetrate the most decayed inner cells' — 'reach' = penetrate, 'damaged' = decayed.",
+                    "distractors": [
+                      {
+                        "option": "outer surfaces",
+                        "why_wrong": "The outer surfaces are consolidated later by the larger-molecule grade, not by the first dilute solution."
+                      },
+                      {
+                        "option": "cell walls",
+                        "why_wrong": "Cell walls are mentioned in connection with freeze-drying, not with the first PEG solution."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "soaked in a dilute solution of PEG with small molecules, able to penetrate the most decayed inner cells"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "removed as vapour inside a …",
+                  "options": null,
+                  "answer": [
+                    "vacuum chamber"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The timbers were 'transferred to a vacuum chamber for freeze-drying', where water is frozen and 'turned directly into vapour'.",
+                    "distractors": [
+                      {
+                        "option": "tanks",
+                        "why_wrong": "Tanks of fresh water were used at the first stage, not for drying."
+                      },
+                      {
+                        "option": "museum",
+                        "why_wrong": "The text says nothing about drying taking place in a museum."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "the timbers were transferred to a vacuum chamber for freeze-drying"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "flowchart_completion",
+              "instructions": "Complete the flow-chart below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 2,
+              "allow_number": true,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 9,
+                  "prompt": "The water in which the Fenmouth timbers were first kept was replaced at intervals.",
+                  "options": null,
+                  "answer": [
+                    "TRUE"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The tanks held fresh water 'which was changed regularly over many months' — 'replaced at intervals' paraphrases 'changed regularly'.",
+                    "distractors": [
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "Nothing says the water was left unchanged; the text says the opposite."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The text states this directly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "the timbers were placed in tanks of fresh water, which was changed regularly over many months"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "The freeze-drying of the Fenmouth timbers took longer than their treatment with PEG.",
+                  "options": null,
+                  "answer": [
+                    "NOT GIVEN"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The PEG stage lasted 'four years', but no length of time is given for the freeze-drying, so the two cannot be compared.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "No duration is given for freeze-drying, so it cannot be confirmed as longer."
+                      },
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "Nor can it be shown to be shorter; 'Finally' only shows it came last, not how long it took."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "Finally, the timbers were transferred to a vacuum chamber for freeze-drying"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 11,
+                  "prompt": "After being treated with PEG, the Vasa was dried as quickly as possible.",
+                  "options": null,
+                  "answer": [
+                    "FALSE"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The Vasa was sprayed with PEG 'before being allowed to dry slowly', which contradicts 'as quickly as possible'.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "The text says the drying was slow."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The speed of drying is stated explicitly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "was sprayed with the wax for many years before being allowed to dry slowly"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 12,
+                  "prompt": "The deposits on the Vasa's timbers were first noticed by members of the public.",
+                  "options": null,
+                  "answer": [
+                    "NOT GIVEN"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The text says only that deposits 'began appearing' around the turn of the century; it does not say who first noticed them.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "No mention is made of visitors or the public noticing the deposits."
+                      },
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "The text does not say that staff or scientists noticed them first either."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "Around the turn of this century, however, yellow and white deposits began appearing on its timbers."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 13,
+                  "prompt": "Wood placed near some Baltic shipwrecks for research purposes has shown very little decay.",
+                  "options": null,
+                  "answer": [
+                    "TRUE"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Dahl's team monitored 'test samples of oak buried beside three Baltic wrecks' and found 'almost no measurable loss' — 'very little decay'.",
+                    "distractors": [
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "The samples showed almost no loss, which agrees with the statement."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The result of the monitoring is stated directly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "Dahl's team has monitored test samples of oak buried beside three Baltic wrecks since 2012 and has found almost no measurable loss."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 14,
+                  "prompt": "Dr Okafor thinks that most heritage organisations are able to pay for frequent inspections of reburied wrecks.",
+                  "options": null,
+                  "answer": [
+                    "FALSE"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Okafor argues that 'few heritage bodies have the funds to check buried sites regularly', which contradicts 'most ... are able to pay'.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "She says few, not most, can afford it."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "Her view on funding for monitoring is stated explicitly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "few heritage bodies have the funds to check buried sites regularly"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "tfng",
+              "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nChoose\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

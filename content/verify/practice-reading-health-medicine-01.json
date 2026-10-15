@@ -1,0 +1,15 @@
+{"answers":[
+{"number":1,"answer":["glass tube"],"confidence":0.9,"note":"'tube' alone might also be accepted"},
+{"number":2,"answer":["wrist"],"confidence":0.97,"note":""},
+{"number":3,"answer":["stethoscope"],"confidence":0.97,"note":""},
+{"number":4,"answer":["vibrations"],"confidence":0.97,"note":""},
+{"number":5,"answer":["aneroid gauges"],"confidence":0.95,"note":""},
+{"number":6,"answer":["at home"],"confidence":0.95,"note":""},
+{"number":7,"answer":["24 hours"],"confidence":0.97,"note":""},
+{"number":8,"answer":["light sensors"],"confidence":0.95,"note":""},
+{"number":9,"answer":["vi"],"confidence":0.93,"note":""},
+{"number":10,"answer":["iii"],"confidence":0.9,"note":""},
+{"number":11,"answer":["viii"],"confidence":0.92,"note":""},
+{"number":12,"answer":["iv"],"confidence":0.95,"note":""},
+{"number":13,"answer":["i"],"confidence":0.95,"note":""}
+]}

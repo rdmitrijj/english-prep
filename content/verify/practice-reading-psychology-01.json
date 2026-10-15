@@ -1,0 +1,15 @@
+{"answers":[
+{"number":1,"answer":["YES"],"confidence":0.95,"note":""},
+{"number":2,"answer":["NO"],"confidence":0.95,"note":""},
+{"number":3,"answer":["NOT GIVEN"],"confidence":0.9,"note":""},
+{"number":4,"answer":["YES"],"confidence":0.85,"note":""},
+{"number":5,"answer":["NO"],"confidence":0.9,"note":""},
+{"number":6,"answer":["invoices"],"confidence":0.9,"note":""},
+{"number":7,"answer":["tablet computer"],"confidence":0.85,"note":"'tablet' alone might also be accepted"},
+{"number":8,"answer":["exhausting"],"confidence":0.95,"note":""},
+{"number":9,"answer":["details"],"confidence":0.95,"note":""},
+{"number":10,"answer":["B"],"confidence":0.95,"note":""},
+{"number":11,"answer":["C"],"confidence":0.95,"note":""},
+{"number":12,"answer":["C"],"confidence":0.95,"note":""},
+{"number":13,"answer":["B"],"confidence":0.95,"note":""}
+]}

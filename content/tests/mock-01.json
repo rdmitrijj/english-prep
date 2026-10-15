@@ -1,0 +1,1593 @@
+{
+  "slug": "mock-01",
+  "kind": "mock",
+  "title": "Academic mock test 01",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-14T15:49:17+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    }
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "reading",
+      "duration_s": 3600,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_reading",
+          "topic": "technology-engineering",
+          "passage": {
+            "title": "The return of the windcatcher",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "Long before electric air conditioning was invented, people living in the hot, dry regions of the Middle East had found a way to keep their homes cool without burning any fuel. Their solution was the windcatcher, a tall tower rising above the roof of a building and open near the top on one or more sides. Known in Persian as the badgir, the windcatcher became a defining feature of desert towns across Iran and the shores of the Persian Gulf. The central Iranian city of Yazd, where hundreds of these towers still stand, is often called the city of windcatchers. Historians are not certain when the first towers were built, but similar roof structures appear in paintings of Egyptian houses made more than three thousand years ago."
+              },
+              {
+                "label": "B",
+                "text": "A windcatcher works by exploiting two simple physical principles. The first is the pressure of moving air. When the wind strikes the open side of a tower, the air is forced down a vertical shaft and into the rooms below. As this fresh air enters the house, it pushes warmer, stale air out through doors and windows on the opposite side. The second principle comes into play when there is no wind at all. Because warm air is lighter than cool air, it naturally rises. On still days, air that has been heated inside the house drifts up the tower and escapes from the top, drawing cooler air in at ground level to replace it. This process is known as the stack effect, and it means that a well-designed tower continues to ventilate a building even in calm weather."
+              },
+              {
+                "label": "C",
+                "text": "Over the centuries, builders added several refinements to make the system more effective. Inside the tower, the shaft was usually divided by thin walls into a number of separate channels, so that air arriving from one direction could descend through one channel while warm air left through another. The towers themselves were generally built of thick mud brick, a material that absorbs heat slowly during the day and releases it at night. In some houses, the incoming air was led across a shallow pool or past porous clay jars filled with water. As the water evaporated, it absorbed heat from the air, lowering its temperature by several degrees. The most sophisticated designs connected the tower to a qanat, an underground channel that carried water from distant hills, so that air was cooled as it passed over the flowing water deep beneath the building."
+              },
+              {
+                "label": "D",
+                "text": "The shape and height of windcatchers varied considerably from place to place. In areas where the wind blew mainly from one direction, a tower open on a single side was sufficient. Where the wind was less predictable, builders preferred towers with four or even eight openings, so that at least one would always face the breeze. Height mattered too. Air moves faster further above the ground and carries less dust, so taller towers delivered stronger and cleaner airflow. In wealthy households, the height and decoration of a windcatcher also served as a visible sign of the owner's status."
+              },
+              {
+                "label": "E",
+                "text": "During the twentieth century, many windcatchers fell into disrepair. Electric fans and, later, mechanical air conditioning offered a more convenient way to stay cool, and new buildings were rarely designed with towers. Yet mechanical cooling comes at a considerable cost. According to Dr Leila Farahani, an energy analyst at the Institute for Desert Architecture, air conditioning now accounts for a large share of summer electricity demand in many hot countries. The units themselves also release heat into the surrounding streets, which makes cities even warmer and increases the demand for cooling still further."
+              },
+              {
+                "label": "F",
+                "text": "Concerns of this kind have led to renewed interest in the old technology. In 2019, an engineering team led by Professor Martin Okafor at the University of Carran fitted a modern windcatcher to a two-storey office building. Their tower was made of lightweight aluminium rather than brick, and its openings were fitted with movable louvres that a computer opened and closed according to the direction of the wind. Sensors measured the temperature inside the building, and whenever it rose too high, a fine mist of water was sprayed into the shaft to cool the incoming air. Over two summers, the team found that the building needed mechanical cooling on only a quarter of the days on which it would normally have been switched on."
+              },
+              {
+                "label": "G",
+                "text": "Okafor admits that windcatchers are not suitable everywhere. They work best in dry climates, because evaporative cooling is far less effective when the air is already humid. They are also difficult to add to tall apartment blocks, where air would have to travel long distances through the building. Nevertheless, he believes that the principle behind the towers deserves far wider attention. 'For centuries, builders understood how to work with the climate rather than against it,' he says. 'Modern engineering has a great deal to learn from them.'"
+              }
+            ],
+            "glossary": []
+          },
+          "groups": [
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "Windcatchers offered a means of cooling homes that did not depend on fuel.",
+                  "options": null,
+                  "answer": [
+                    "TRUE"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'without burning any fuel' = 'did not depend on fuel'.",
+                    "distractors": [
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "The passage states the opposite of a fuel requirement."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "Paragraph A says directly that no fuel was burned."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "A",
+                    "quote": "had found a way to keep their homes cool without burning any fuel"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "The period in which the first windcatchers were constructed is known precisely.",
+                  "options": null,
+                  "answer": [
+                    "FALSE"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'not certain when the first towers were built' contradicts 'known precisely'.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "Historians are explicitly said to be uncertain."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The passage does address the date, and says it is uncertain."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "A",
+                    "quote": "Historians are not certain when the first towers were built"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "A windcatcher is able to move air through a house even on days without wind.",
+                  "options": null,
+                  "answer": [
+                    "TRUE"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'continues to ventilate … even in calm weather' = 'move air … on days without wind' (the stack effect).",
+                    "distractors": [
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "The stack effect works precisely when there is no wind."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "Paragraph B explains this directly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "a well-designed tower continues to ventilate a building even in calm weather"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "Towers with several openings were more expensive to build than those open on one side.",
+                  "options": null,
+                  "answer": [
+                    "NOT GIVEN"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Paragraph D explains why multi-sided towers were chosen (unpredictable wind) but says nothing about cost.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "No comparison of building costs is made; wealth is linked only to height and decoration."
+                      },
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "Nothing in the passage says multi-sided towers were cheaper or equally priced."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "builders preferred towers with four or even eight openings"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "According to Farahani, air-conditioning units help to lower the temperature of city streets.",
+                  "options": null,
+                  "answer": [
+                    "FALSE"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The units 'release heat into the surrounding streets', making cities 'even warmer' – the opposite of lowering street temperatures.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "The passage says they make streets warmer, not cooler."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "Farahani's point about street heat is stated explicitly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "The units themselves also release heat into the surrounding streets, which makes cities even warmer"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 6,
+                  "prompt": "Okafor's windcatcher design has since been copied by engineers in other countries.",
+                  "options": null,
+                  "answer": [
+                    "NOT GIVEN"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Paragraph F describes only Okafor's own building and its results; nothing is said about others copying the design.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "There is no mention of the design being used elsewhere."
+                      },
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "Nothing states that the design has not been copied."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "fitted a modern windcatcher to a two-storey office building"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "tfng",
+              "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nChoose\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": {
+                "title": "Windcatchers: how they work",
+                "template": "Traditional towers\n- shaft split by thin walls into several {7}\n- mud brick takes in heat by day and gives it out at {8}\n- air sometimes passes a pool or clay {9} holding water\n- evaporation removes {10} from the air\n- best designs linked to a {11} (an underground water channel)\nOkafor's modern tower (2019)\n- made of {12}, not brick\n- computer opens and closes louvres to suit the {13} of the wind\n- water mist sprayed in when indoor temperature is too high",
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 7,
+                  "prompt": "shaft split by thin walls into several …",
+                  "options": null,
+                  "answer": [
+                    "channels"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'divided … into a number of separate channels' = 'split into several channels'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "the shaft was usually divided by thin walls into a number of separate channels"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "mud brick … gives it out at …",
+                  "options": null,
+                  "answer": [
+                    "night"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'releases it at night' = 'gives it out at night'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "absorbs heat slowly during the day and releases it at night"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 9,
+                  "prompt": "a pool or clay … holding water",
+                  "options": null,
+                  "answer": [
+                    "jars"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'clay jars filled with water' = 'clay jars holding water'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "porous clay jars filled with water"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "evaporation removes … from the air",
+                  "options": null,
+                  "answer": [
+                    "heat"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Evaporating water 'absorbed heat from the air', i.e. removed heat from it.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "As the water evaporated, it absorbed heat from the air"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 11,
+                  "prompt": "linked to a … (an underground water channel)",
+                  "options": null,
+                  "answer": [
+                    "qanat"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The tower was 'connected to a qanat', defined as an underground channel carrying water.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "connected the tower to a qanat, an underground channel that carried water"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 12,
+                  "prompt": "made of …, not brick",
+                  "options": null,
+                  "answer": [
+                    "aluminium",
+                    "aluminum"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "'aluminium rather than brick' = 'aluminium, not brick'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "Their tower was made of lightweight aluminium rather than brick"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 13,
+                  "prompt": "louvres opened and closed to suit the … of the wind",
+                  "options": null,
+                  "answer": [
+                    "direction"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'according to the direction of the wind' = 'to suit the direction of the wind'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "a computer opened and closed according to the direction of the wind"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "note_completion",
+              "instructions": "Complete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 1,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "context": "academic_reading",
+          "topic": "biology-ecology",
+          "passage": {
+            "title": "The puzzle of the dawn chorus",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "Anyone who wakes before sunrise in a temperate woodland in spring will hear it: a swelling wave of birdsong that begins in near-darkness, reaches a peak around first light and fades within an hour or two. The dawn chorus is one of the most familiar events in the natural world, yet it has proved surprisingly difficult to explain. Singing is not free. It consumes energy, it takes time that could otherwise be spent feeding, and it can reveal a bird's position to predators. Why, then, do so many species concentrate their most intense singing into the hour when they are hungriest after a long night without food? Over the past half-century, biologists have proposed a range of answers, and the debate is still far from settled."
+              },
+              {
+                "label": "B",
+                "text": "One of the earliest explanations focused on the physics of sound. At dawn the air is usually cool and still, without the turbulence that develops later in the day as the sun heats the ground. In theory, these conditions should allow songs to travel further and remain clearer over distance. The ornithologist Harriet Vance, working in English beech woods in the 1970s, played recorded songs at different times of day and reported that a song broadcast at dawn could be detected up to twice as far away as the same song at midday. However, later studies in other habitats produced mixed results. Critics also pointed out that if sound transmission were the main factor, birds ought to sing just as intensely at dusk, when conditions are often similar. Few of them do."
+              },
+              {
+                "label": "C",
+                "text": "A second idea concerns food rather than sound. Many songbirds feed on insects, and in the dim light before sunrise their prey is both hard to see and relatively inactive in the cold. According to this view, argued most forcefully by the behavioural ecologist Tomás Ibarra, the early morning is simply a poor time to search for food, so a bird loses little by singing instead. Once the light improves and the air warms, it becomes more profitable to stop singing and start foraging. Ibarra points to his own observations of warblers in northern Spain, which suggest that the chorus ends almost exactly when the light becomes strong enough for efficient hunting."
+              },
+              {
+                "label": "D",
+                "text": "Other researchers regard the chorus as a form of advertisement. A small bird may lose up to a tenth of its body weight during a cold night, simply keeping warm. A male that sings vigorously at dawn is therefore demonstrating that he has come through the night with energy to spare, a message that rivals and potential mates cannot easily fake. Experiments by the Kessler Research Group in Austria appeared to support this idea: when wild great tits were given extra food the previous evening, they began singing earlier and sang for longer the next morning. Yet the same group noted that the effect was modest, and that birds which received no extra food still sang at length. Energy reserves, they concluded, are only part of the story."
+              },
+              {
+                "label": "E",
+                "text": "A fourth explanation looks instead at the social lives of birds. In many species, a female lays her eggs early in the morning and is thought to be most fertile shortly afterwards. A male who sings loudly at this time may be guarding his partner, warning other males to keep away when the risk of a rival mating with her is greatest. The field biologist Ruth Adeyemi adds a further, territorial dimension. In her view, the chorus works as a kind of daily roll call: each male announces that he is still alive and still in possession of his territory. A male whose neighbour falls silent can quickly move to claim the vacant ground, so remaining quiet at dawn carries a real risk."
+              },
+              {
+                "label": "F",
+                "text": "In recent years, towns and cities have provided researchers with an unplanned experiment. Street lighting means that urban birds experience something like daybreak long before the sun rises, and morning traffic noise can drown out songs once the rush hour begins. A study led by Dr Paolo Ricci in Milan found that blackbirds living near bright street lamps began their song up to an hour earlier than those in darker parks, and that birds in noisy districts started earlier still. For Ricci, the second finding suggests that birds are trying to be heard before traffic noise makes communication difficult, which supports the importance of sound transmission. The first, however, implies that timing is also linked to light levels, which fits Ibarra's argument. His conclusion is that the chorus is probably shaped by several pressures at once, and that their relative importance differs from one species to another."
+              }
+            ],
+            "glossary": []
+          },
+          "groups": [
+            {
+              "options": [
+                {
+                  "letter": "i",
+                  "text": "Singing when there is little else worth doing"
+                },
+                {
+                  "letter": "ii",
+                  "text": "Why some species prefer to sing at dusk"
+                },
+                {
+                  "letter": "iii",
+                  "text": "Keeping watch over partners and neighbours"
+                },
+                {
+                  "letter": "iv",
+                  "text": "A costly behaviour that remains unexplained"
+                },
+                {
+                  "letter": "v",
+                  "text": "How young birds learn their songs"
+                },
+                {
+                  "letter": "vi",
+                  "text": "Lessons from birds living alongside people"
+                },
+                {
+                  "letter": "vii",
+                  "text": "A theory based on how sound travels"
+                },
+                {
+                  "letter": "viii",
+                  "text": "Predators that hunt by listening for song"
+                },
+                {
+                  "letter": "ix",
+                  "text": "A display of fitness that is hard to fake"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 14,
+                  "prompt": "Paragraph A",
+                  "options": null,
+                  "answer": [
+                    "iv"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Paragraph A presents the chorus as costly ('Singing is not free') and still unexplained ('far from settled').",
+                    "distractors": [
+                      {
+                        "option": "viii",
+                        "why_wrong": "Predators are only one of the costs listed."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "Dusk is mentioned only in paragraph B, as a criticism; few birds sing intensely then."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Song learning is not discussed anywhere in the passage."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "Predators are a minor detail in paragraph A, not a paragraph's main idea."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "A",
+                    "quote": "yet it has proved surprisingly difficult to explain"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 15,
+                  "prompt": "Paragraph B",
+                  "options": null,
+                  "answer": [
+                    "vii"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "The paragraph sets out and evaluates the sound-transmission theory.",
+                    "distractors": [
+                      {
+                        "option": "ii",
+                        "why_wrong": "Dusk is raised only as an objection to the theory."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "Dusk is mentioned only in paragraph B, as a criticism; few birds sing intensely then."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Song learning is not discussed anywhere in the passage."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "Predators are a minor detail in paragraph A, not a paragraph's main idea."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "One of the earliest explanations focused on the physics of sound"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 16,
+                  "prompt": "Paragraph C",
+                  "options": null,
+                  "answer": [
+                    "i"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Birds sing because feeding is unprofitable before sunrise – there is 'little else worth doing'.",
+                    "distractors": [
+                      {
+                        "option": "vii",
+                        "why_wrong": "Paragraph C is about food, not sound."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "Dusk is mentioned only in paragraph B, as a criticism; few birds sing intensely then."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Song learning is not discussed anywhere in the passage."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "Predators are a minor detail in paragraph A, not a paragraph's main idea."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "the early morning is simply a poor time to search for food, so a bird loses little by singing instead"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 17,
+                  "prompt": "Paragraph D",
+                  "options": null,
+                  "answer": [
+                    "ix"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Dawn song shows the male has energy to spare – an honest signal of condition.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "Feeding appears in D only as an experimental treatment."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "Dusk is mentioned only in paragraph B, as a criticism; few birds sing intensely then."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Song learning is not discussed anywhere in the passage."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "Predators are a minor detail in paragraph A, not a paragraph's main idea."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "a message that rivals and potential mates cannot easily fake"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 18,
+                  "prompt": "Paragraph E",
+                  "options": null,
+                  "answer": [
+                    "iii"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Mate guarding (partners) and the territorial 'roll call' (neighbours) are the paragraph's two strands.",
+                    "distractors": [
+                      {
+                        "option": "ix",
+                        "why_wrong": "E is about guarding and territory, not proving condition."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "Dusk is mentioned only in paragraph B, as a criticism; few birds sing intensely then."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Song learning is not discussed anywhere in the passage."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "Predators are a minor detail in paragraph A, not a paragraph's main idea."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "may be guarding his partner"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 19,
+                  "prompt": "Paragraph F",
+                  "options": null,
+                  "answer": [
+                    "vi"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Urban birds, affected by human lighting and traffic, are used to test the theories.",
+                    "distractors": [
+                      {
+                        "option": "vii",
+                        "why_wrong": "Sound transmission is only one of the two theories Ricci's results bear on."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "Dusk is mentioned only in paragraph B, as a criticism; few birds sing intensely then."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Song learning is not discussed anywhere in the passage."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "Predators are a minor detail in paragraph A, not a paragraph's main idea."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "towns and cities have provided researchers with an unplanned experiment"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_headings",
+              "instructions": "Reading Passage 2 has 6 paragraphs, A–F.\nChoose the correct heading for each paragraph from the list of headings below.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "Harriet Vance"
+                },
+                {
+                  "letter": "B",
+                  "text": "Tomás Ibarra"
+                },
+                {
+                  "letter": "C",
+                  "text": "the Kessler Research Group"
+                },
+                {
+                  "letter": "D",
+                  "text": "Ruth Adeyemi"
+                },
+                {
+                  "letter": "E",
+                  "text": "Paolo Ricci"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 20,
+                  "prompt": "A bird that stays silent at dawn may lose its territory to a neighbour.",
+                  "options": null,
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Adeyemi's 'roll call' view: a silent male's territory can be claimed by a neighbour.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Vance studied how far songs carry."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Ibarra links singing to poor feeding conditions."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Kessler studied the effect of extra food."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "Ricci studied light and noise in cities."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "A male whose neighbour falls silent can quickly move to claim the vacant ground"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 21,
+                  "prompt": "The chorus stops at about the time when conditions for catching prey improve.",
+                  "options": null,
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Ibarra's warbler observations: the chorus ends when light allows 'efficient hunting'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Vance compared song detection at dawn and midday, not the end of the chorus."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Kessler looked at when singing started and how long it lasted, after extra food."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Adeyemi focuses on territory."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "Ricci found light affects the start of singing; he only says this fits Ibarra's argument."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "the chorus ends almost exactly when the light becomes strong enough for efficient hunting"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 22,
+                  "prompt": "Birds that have been well fed tend to start singing sooner.",
+                  "options": null,
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Kessler's great tits given extra food 'began singing earlier'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Vance did not study feeding."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Ibarra discusses foraging conditions, not extra food."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Adeyemi does not discuss food."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "Ricci's birds started earlier because of light and noise, not food."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "when wild great tits were given extra food the previous evening, they began singing earlier"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_features",
+              "instructions": "Look at the following statements (Questions 20–22) and the list below.\nMatch each statement with the correct option, A–E.\nNB You may use any letter more than once.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 23,
+                  "prompt": "Singing can make a bird's location obvious to ______.",
+                  "options": null,
+                  "answer": [
+                    "predators"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'reveal a bird's position' = 'make a bird's location obvious'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "A",
+                    "quote": "it can reveal a bird's position to predators"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 24,
+                  "prompt": "Vance carried out her research in ______ in England.",
+                  "options": null,
+                  "answer": [
+                    "beech woods",
+                    "beechwoods"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'working in English beech woods' = research carried out in beech woods in England.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "working in English beech woods in the 1970s"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 25,
+                  "prompt": "During a cold night, a small bird can lose as much as ten per cent of its ______.",
+                  "options": null,
+                  "answer": [
+                    "body weight",
+                    "weight"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'up to a tenth' = 'as much as ten per cent'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "A small bird may lose up to a tenth of its body weight during a cold night"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 26,
+                  "prompt": "In cities, both street lighting and ______ make birds begin singing earlier.",
+                  "options": null,
+                  "answer": [
+                    "traffic noise",
+                    "noise"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Ricci found earlier singing near street lamps and 'earlier still' in noisy districts; the noise is 'traffic noise'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "and that birds in noisy districts started earlier still"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "sentence_completion",
+              "instructions": "Complete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 2,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "context": "academic_reading",
+          "topic": "earth-science-climate",
+          "passage": {
+            "title": "Dimming the sun",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "In June 1991, Mount Pinatubo in the Philippines erupted, blasting millions of tonnes of sulphur dioxide into the stratosphere. There the gas formed a fine haze of sulphate particles that reflected a small fraction of incoming sunlight back into space, and over the following year average global temperatures fell by roughly half a degree Celsius. For a number of scientists, the episode raised a tantalising possibility: if a volcano could cool the planet by accident, perhaps humans could do so deliberately. The proposal that grew out of this thought, known as stratospheric aerosol injection, would involve high-altitude aircraft releasing reflective particles into the upper atmosphere. Within two decades it has travelled from the fringes of climate science to the agendas of respected research bodies. That shift is understandable, but I shall argue that much of the enthusiasm surrounding it rests on a misunderstanding of what the technique can and cannot achieve."
+              },
+              {
+                "label": "B",
+                "text": "The attraction is easy to see. Cutting greenhouse gas emissions is slow, expensive and politically fraught, and even if emissions stopped tomorrow, the carbon dioxide already in the atmosphere would go on warming the planet for decades. Aerosol injection, by contrast, promises results within months, at a cost that some estimates put at a few billion dollars a year, a trivial sum when set against the damage caused by heatwaves, droughts and failed harvests. The atmospheric physicist Daniel Moreau has gone so far as to call it 'the only lever we have that works on a human timescale'. It would be dishonest to dismiss this case out of hand. The speed and cheapness of the approach are real advantages, and anyone who opposes it must take them seriously."
+              },
+              {
+                "label": "C",
+                "text": "The difficulty is that aerosols treat a symptom rather than the disease. They would lower temperatures, but they would do nothing to slow the build-up of carbon dioxide itself, nor to stop the oceans from growing more acidic as they absorb it, a change that threatens corals and shellfish however cool the water may be. Moreover, the particles drift out of the stratosphere within a year or two, so they would have to be replenished continuously, perhaps for a century or more. If injection were ever halted abruptly, whether because of war, economic collapse or political disagreement, the warming it had been masking would return within a few years, far faster than ecosystems or societies could adapt. Climate scientists call this 'termination shock', and in my view it is the most serious objection to the whole enterprise, because it would bind future generations to a programme they never chose."
+              },
+              {
+                "label": "D",
+                "text": "A second problem concerns fairness. Global average temperature is a convenient figure, but nobody actually lives in the global average. Simulations run at the Nordhavn Climate Centre suggest that reflecting sunlight would alter rainfall unevenly, possibly weakening the monsoons on which hundreds of millions of farmers in South Asia and West Africa depend. Other models are less pessimistic, and the honest answer is that no one yet knows. But that uncertainty is precisely the point. A technology whose regional effects cannot be predicted, and which a single wealthy nation could deploy on its own, raises questions of governance that existing international institutions are simply not equipped to answer."
+              },
+              {
+                "label": "E",
+                "text": "Opponents frequently add a third argument, often described as 'moral hazard': the fear that the mere prospect of a technological fix will weaken the determination to cut emissions. I find this argument less convincing than its supporters suppose. Surveys conducted by the sociologist Ingrid Halvorsen found that members of the public who learned about geoengineering became, if anything, slightly more worried about climate change, not less. The real risk lies elsewhere. It is not ordinary citizens who are likely to relax, but governments and industries already searching for reasons to delay, who may seize on the idea as a convenient excuse. That is a political danger rather than a psychological one, and it must be met with political rather than scientific answers."
+              },
+              {
+                "label": "F",
+                "text": "None of this means that research should stop. Some campaigners have called for an international ban not only on deployment but on outdoor experiments of any kind. This seems to me mistaken. If the climate warms faster than expected, future leaders may come under intense pressure to attempt aerosol injection, and it would be far better for them to decide on the basis of careful evidence than in a state of panic. Small, openly reported field trials, supervised by bodies that include representatives of the countries most at risk, would allow scientists to test their predictions without committing anyone to deployment."
+              },
+              {
+                "label": "G",
+                "text": "What research must never become is an alibi. At best, solar geoengineering might buy time in which to cut emissions and draw carbon out of the air; it cannot replace either effort. Describing it as a form of insurance is reasonable only if we remember what insurance is for. It reduces the cost of a disaster, but it is no reason to drive more recklessly. The technology deserves careful study. It does not yet deserve our hopes."
+              }
+            ],
+            "glossary": [
+              {
+                "term": "stratosphere",
+                "definition": "the layer of the atmosphere from roughly 10 to 50 km above the Earth's surface"
+              }
+            ]
+          },
+          "groups": [
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 27,
+                  "prompt": "According to the writer, the eruption of Mount Pinatubo",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "produced a cooling effect that lasted for several decades."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "led some scientists to consider cooling the climate on purpose."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "released more sulphur dioxide than any earlier eruption."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "demonstrated that sulphate particles absorb heat from the sun."
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The eruption 'raised a tantalising possibility' for scientists: cooling the planet 'deliberately' = 'on purpose'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Temperatures fell 'over the following year', not for decades."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "No comparison with earlier eruptions is made."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "The particles 'reflected' sunlight; they did not absorb heat."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "A",
+                    "quote": "if a volcano could cool the planet by accident, perhaps humans could do so deliberately"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 28,
+                  "prompt": "What does the writer accept about aerosol injection in paragraph B?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "It would be welcomed by most governments."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "It could remove the carbon dioxide already in the atmosphere."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "It is the only effective response to climate change."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "Its rapid effect and low cost are genuine benefits."
+                    }
+                  ],
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer concedes that 'speed and cheapness … are real advantages' = rapid effect and low cost are genuine benefits.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Governments' views are not mentioned."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Paragraph C says aerosols do nothing about the carbon dioxide itself."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "This is Moreau's claim, which the writer goes on to reject."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "The speed and cheapness of the approach are real advantages"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 29,
+                  "prompt": "Why does the writer consider termination shock to be the most serious objection?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "It would leave later generations dependent on a decision they did not make."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "It would cause the oceans to absorb carbon dioxide more quickly."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "It would make the particles stay in the stratosphere for longer."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "It could only be avoided by continuing to cut emissions."
+                    }
+                  ],
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "'bind future generations to a programme they never chose' = leave later generations dependent on a decision they did not make.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "Acidification is a separate point and is not linked to stopping injection."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The particles leave the stratosphere within a year or two; nothing makes them stay longer."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Termination shock is caused by halting injection, not avoided by cutting emissions."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "because it would bind future generations to a programme they never chose"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 30,
+                  "prompt": "The writer mentions the simulations run at the Nordhavn Climate Centre in order to",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "prove that monsoon rainfall would certainly decline."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "show that other climate models are unreliable."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "highlight the possibility that some regions could suffer more than others."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "suggest that farmers in West Africa might gain from geoengineering."
+                    }
+                  ],
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "inference",
+                  "explanation": {
+                    "correct": "The simulations illustrate the fairness problem: rainfall would change 'unevenly', so some regions could suffer more.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The effect is only 'possibly' a weakening, and 'no one yet knows'."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Other models are called 'less pessimistic', not unreliable."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "The farmers are presented as potential victims, not beneficiaries."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "reflecting sunlight would alter rainfall unevenly"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 31,
+                  "prompt": "What is the writer's opinion of the 'moral hazard' argument?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "It is supported by Halvorsen's research."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "It is right that a risk exists but wrong about where it comes from."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "It is the strongest reason to oppose further research."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "It describes a psychological danger that scientists can solve."
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 5,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer accepts there is a risk ('The real risk lies elsewhere') but says it comes from governments and industries, not the public.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Halvorsen's surveys contradict the argument."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The writer finds it 'less convincing' and supports research in paragraph F."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "The writer calls it a political danger, not a psychological one, needing political answers."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "It is not ordinary citizens who are likely to relax, but governments and industries already searching for reasons to delay"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose the correct letter, A, B, C or D.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 32,
+                  "prompt": "Aerosol injection would reduce the threat that increasing ocean acidity poses to marine life.",
+                  "options": null,
+                  "answer": [
+                    "NO"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer says aerosols do nothing to stop acidification, which threatens corals and shellfish 'however cool the water may be'.",
+                    "distractors": [
+                      {
+                        "option": "YES",
+                        "why_wrong": "The writer claims the opposite."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer states this view explicitly in paragraph C."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "nor to stop the oceans from growing more acidic as they absorb it, a change that threatens corals and shellfish however cool the water may be"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 33,
+                  "prompt": "It is not yet possible to say with confidence how rainfall in particular regions would be affected.",
+                  "options": null,
+                  "answer": [
+                    "YES"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "'no one yet knows' = it is not yet possible to say with confidence; 'regional effects cannot be predicted'.",
+                    "distractors": [
+                      {
+                        "option": "NO",
+                        "why_wrong": "The writer explicitly accepts the uncertainty."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer gives a clear view on this."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "the honest answer is that no one yet knows"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 34,
+                  "prompt": "Wealthy nations are likely to begin aerosol injection within the next ten years.",
+                  "options": null,
+                  "answer": [
+                    "NOT GIVEN"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer says one wealthy nation 'could' act alone, but makes no prediction about whether or when this will happen.",
+                    "distractors": [
+                      {
+                        "option": "YES",
+                        "why_wrong": "'could deploy' expresses possibility, not likelihood or a timescale."
+                      },
+                      {
+                        "option": "NO",
+                        "why_wrong": "The writer does not say deployment is unlikely either."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "which a single wealthy nation could deploy on its own"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 35,
+                  "prompt": "Most climate scientists support the campaigners' demand for a ban on experiments.",
+                  "options": null,
+                  "answer": [
+                    "NOT GIVEN"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer mentions the campaigners' call but says nothing about how many scientists share it.",
+                    "distractors": [
+                      {
+                        "option": "YES",
+                        "why_wrong": "No support from scientists is mentioned."
+                      },
+                      {
+                        "option": "NO",
+                        "why_wrong": "The writer disagrees with the ban personally but says nothing about other scientists' views."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "Some campaigners have called for an international ban"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 36,
+                  "prompt": "Prohibiting all outdoor experiments would be an error.",
+                  "options": null,
+                  "answer": [
+                    "YES"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer calls a ban on 'outdoor experiments of any kind' 'mistaken' = an error.",
+                    "distractors": [
+                      {
+                        "option": "NO",
+                        "why_wrong": "The writer clearly opposes the ban."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer states a view directly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "This seems to me mistaken"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "ynng",
+              "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3?\nChoose\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "would weaken public concern about climate change."
+                },
+                {
+                  "letter": "B",
+                  "text": "could allow hidden warming to return very quickly."
+                },
+                {
+                  "letter": "C",
+                  "text": "would remove the need to reduce emissions."
+                },
+                {
+                  "letter": "D",
+                  "text": "would need to be replaced on a continuing basis."
+                },
+                {
+                  "letter": "E",
+                  "text": "could create problems that current institutions are unable to handle."
+                },
+                {
+                  "letter": "F",
+                  "text": "would let scientists check their forecasts without any commitment to deployment."
+                },
+                {
+                  "letter": "G",
+                  "text": "would cause ocean acidity to rise more quickly."
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 37,
+                  "prompt": "The reflective particles used in aerosol injection",
+                  "options": null,
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Particles drift out within a year or two, so they 'would have to be replenished continuously' = replaced on a continuing basis.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Halvorsen found the public became slightly more worried, not less."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The writer insists geoengineering cannot replace cutting emissions."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "The passage says aerosols do nothing to stop acidification, not that they speed it up."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Warming returns when injection stops, not because of the particles themselves."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "Governance problems arise from one nation acting alone."
+                      },
+                      {
+                        "option": "F",
+                        "why_wrong": "This describes field trials."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "so they would have to be replenished continuously"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 38,
+                  "prompt": "A sudden end to aerosol injection",
+                  "options": null,
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'warming it had been masking' = hidden warming; 'within a few years' = very quickly (termination shock).",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Halvorsen found the public became slightly more worried, not less."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The writer insists geoengineering cannot replace cutting emissions."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "The passage says aerosols do nothing to stop acidification, not that they speed it up."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "This describes the particles."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "This describes one nation acting alone."
+                      },
+                      {
+                        "option": "F",
+                        "why_wrong": "This describes field trials."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "the warming it had been masking would return within a few years"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 39,
+                  "prompt": "The ability of a single country to act alone",
+                  "options": null,
+                  "answer": [
+                    "E"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'not equipped to answer' questions of governance = problems current institutions are unable to handle.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Halvorsen found the public became slightly more worried, not less."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The writer insists geoengineering cannot replace cutting emissions."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "The passage says aerosols do nothing to stop acidification, not that they speed it up."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "This describes halting injection."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "This describes the particles."
+                      },
+                      {
+                        "option": "F",
+                        "why_wrong": "This describes field trials."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "raises questions of governance that existing international institutions are simply not equipped to answer"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 40,
+                  "prompt": "Small, openly reported field trials",
+                  "options": null,
+                  "answer": [
+                    "F"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'test their predictions without committing anyone to deployment' = check forecasts without any commitment.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Halvorsen found the public became slightly more worried, not less."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The writer insists geoengineering cannot replace cutting emissions."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "The passage says aerosols do nothing to stop acidification, not that they speed it up."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "This describes halting injection."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "This describes the particles."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "This describes one nation acting alone."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "would allow scientists to test their predictions without committing anyone to deployment"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_sentence_endings",
+              "instructions": "Complete each sentence with the correct ending, A–G, below.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

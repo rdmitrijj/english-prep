@@ -1,0 +1,515 @@
+{
+  "slug": "practice-reading-psychology-01",
+  "kind": "practice",
+  "title": "The Case for Boredom",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-14T15:46:12+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    }
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "reading",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_reading",
+          "topic": "psychology",
+          "passage": {
+            "title": "The Case for Boredom",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "Few emotions have been as thoroughly disparaged as boredom. Parents treat it as a problem to be solved, teachers as evidence of a lesson that has failed, and technology companies as a market to be captured: many of us now reach for a phone within seconds of having nothing to do. Behind all of this lies a single assumption – that boredom is merely an absence, a gap in experience that should be filled as quickly as possible. I want to argue that this assumption is mistaken, and that in our eagerness to abolish boredom we may be discarding one of the mind's more useful signals."
+              },
+              {
+                "label": "B",
+                "text": "It is worth being clear about what boredom actually is. Psychologists generally define it as an unpleasant state in which a person wants to be absorbed in some satisfying activity but cannot manage to be. The definition matters because it separates boredom from simple rest. Someone lying contentedly in a hammock on a summer afternoon is not bored; someone stuck in a slow-moving queue, unable to leave and unable to concentrate on anything worthwhile, very often is. Boredom, in other words, is not the absence of feeling but a feeling in its own right, and an uncomfortable one. Like hunger or pain, its discomfort seems to exist for a purpose."
+              },
+              {
+                "label": "C",
+                "text": "That purpose, a growing number of researchers believe, is to push us towards change. In a series of experiments at the University of Wexmoor, the psychologist Hanna Lindqvist asked volunteers to spend twenty-five minutes sorting several hundred buttons by colour before attempting a standard test of creative thinking: listing as many uses as they could for an empty shoebox. Compared with a control group who had spent the same period watching a nature documentary, the button-sorters produced more ideas, and independent judges rated those ideas as more original. Lindqvist's interpretation is that boredom drives the mind to wander in search of stimulation, and that this wandering throws up connections that focused thought would miss. I find this persuasive, though the effect she found was modest and has not appeared in every attempt to repeat the experiment."
+              },
+              {
+                "label": "D",
+                "text": "Others have gone further. Marcus Oyelaran, a social psychologist at the Halden Institute, describes boredom as a kind of internal audit: a signal that what we are doing no longer matches what we care about. In a survey of 1,400 office workers, he found that those who reported frequent boredom at work were more likely to have changed jobs two years later, and more likely to describe their new role as meaningful. It is an attractive idea, and I think it is broadly right. But the survey cannot carry the weight Oyelaran places on it. People who change jobs may simply be more restless by temperament, and anyone who has just made a major decision has good reason to believe it was the right one."
+              },
+              {
+                "label": "E",
+                "text": "None of this means that boredom is harmless. People who are prone to it – a stable trait that psychologists measure with questionnaires – are more likely than others to overeat, to gamble and to take risks when driving. Yet the most revealing work on the costs of boredom suggests that the damage is done less by the feeling itself than by our methods of escaping it. At the Brennan Centre for Attention Studies, Tomas Achterberg gave volunteers half an hour of deliberately tedious work: checking columns of invoices for errors. Half of them had a tablet computer loaded with games beside them; the rest had nothing. Those with the tablet glanced away from their work roughly every four minutes, and they reported feeling less bored while the session lasted. Afterwards, however, they rated the half-hour as more exhausting than the other group did, and they recalled far fewer details of the invoices they had checked. Escaping boredom, Achterberg concludes, did not remove its cost; it merely postponed it and added the effort of constantly switching attention."
+              },
+              {
+                "label": "F",
+                "text": "It would be foolish, of course, to celebrate boredom indiscriminately. The monotony endured by prisoners in solitary confinement, or by people trapped for years in work that offers no variety or prospect of change, is not a spur to creativity but a genuine harm, and nothing in the research described here suggests otherwise. The boredom I am defending is the ordinary, short-lived kind: ten minutes on a delayed train, an empty afternoon in the school holidays. It is precisely this kind that we have become most efficient at eliminating, and it is this kind, I suspect, that does us the most good."
+              },
+              {
+                "label": "G",
+                "text": "What would taking boredom seriously involve? For parents and schools, it might mean resisting the urge to fill every hour of a child's day with organised activity; some unstructured time, in which children must find their own occupation, seems to me a necessary part of growing up rather than a failure of planning. For the rest of us, it might mean noticing the impulse to reach for a phone and, occasionally, declining it – not out of puritanical self-denial, but to find out what the restlessness is trying to tell us. Boredom is an uncomfortable messenger. That is no reason to stop listening to it."
+              }
+            ],
+            "glossary": []
+          },
+          "groups": [
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "The widespread effort to get rid of boredom is based on a false belief.",
+                  "options": null,
+                  "answer": [
+                    "YES"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer says the common assumption that boredom is 'merely an absence' to be filled is 'mistaken'. 'Effort to get rid of' paraphrases 'eagerness to abolish'; 'false belief' paraphrases 'assumption ... is mistaken'.",
+                    "distractors": [
+                      {
+                        "option": "NO",
+                        "why_wrong": "The writer agrees with the statement; he explicitly calls the assumption mistaken."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer states this view directly in the last sentence of paragraph A."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "A",
+                    "quote": "I want to argue that this assumption is mistaken, and that in our eagerness to abolish boredom we may be discarding one of the mind's more useful signals."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "Boredom is best understood as a lack of any emotion.",
+                  "options": null,
+                  "answer": [
+                    "NO"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer says boredom 'is not the absence of feeling but a feeling in its own right', which directly contradicts 'a lack of any emotion'.",
+                    "distractors": [
+                      {
+                        "option": "YES",
+                        "why_wrong": "This is the popular view the writer rejects, not his own view."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer states the opposite view explicitly in paragraph B."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "Boredom, in other words, is not the absence of feeling but a feeling in its own right, and an uncomfortable one."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "Creative people tend to find boredom less unpleasant than other people do.",
+                  "options": null,
+                  "answer": [
+                    "NOT GIVEN"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer discusses whether boredom can increase creativity, but says nothing about how creative people experience boredom compared with others.",
+                    "distractors": [
+                      {
+                        "option": "YES",
+                        "why_wrong": "The link the writer accepts runs from boredom to creative ideas; he never claims creative people find boredom less unpleasant."
+                      },
+                      {
+                        "option": "NO",
+                        "why_wrong": "Nothing in the passage says creative people find boredom equally or more unpleasant either."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "Lindqvist's interpretation is that boredom drives the mind to wander in search of stimulation, and that this wandering throws up connections that focused thought would miss."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "The notion that boredom helps us check whether our activities reflect our priorities is an appealing one.",
+                  "options": null,
+                  "answer": [
+                    "YES"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "Of Oyelaran's 'internal audit' idea (a signal that what we do no longer matches what we care about), the writer says 'It is an attractive idea, and I think it is broadly right'. 'Appealing' paraphrases 'attractive'.",
+                    "distractors": [
+                      {
+                        "option": "NO",
+                        "why_wrong": "The writer criticises the survey evidence, not the idea itself, which he finds attractive and broadly right."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer gives his opinion of the idea directly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "It is an attractive idea, and I think it is broadly right."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "Schools should try to reduce the amount of unstructured time in children's lives.",
+                  "options": null,
+                  "answer": [
+                    "NO"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer says schools should resist filling every hour with organised activity and that unstructured time is 'a necessary part of growing up', which contradicts the statement.",
+                    "distractors": [
+                      {
+                        "option": "YES",
+                        "why_wrong": "The writer argues for keeping unstructured time, not reducing it."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer clearly states his view on unstructured time for children in paragraph G."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "some unstructured time, in which children must find their own occupation, seems to me a necessary part of growing up rather than a failure of planning"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "ynng",
+              "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 1?\nChoose\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": {
+                "title": "Avoiding boredom at work",
+                "template": "In a study by Tomas Achterberg, volunteers spent thirty minutes looking for mistakes in {6}. Some of them were given a {7} containing games, which they turned to about every four minutes. Although this group felt less bored during the task, they later judged the session to be more {8} than the other group did, and their memory for the {9} of the documents was weaker. Achterberg believes that avoiding boredom only delays its cost.",
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 6,
+                  "prompt": "looking for mistakes in …",
+                  "options": null,
+                  "answer": [
+                    "invoices"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "The volunteers were 'checking columns of invoices for errors'; 'looking for mistakes in' paraphrases 'checking ... for errors'. 'Columns of invoices' would exceed the two-word limit.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "checking columns of invoices for errors"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "given a … containing games",
+                  "options": null,
+                  "answer": [
+                    "tablet computer",
+                    "tablet"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'Half of them had a tablet computer loaded with games beside them'; 'containing games' paraphrases 'loaded with games'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "Half of them had a tablet computer loaded with games beside them"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "judged the session to be more …",
+                  "options": null,
+                  "answer": [
+                    "exhausting"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "They 'rated the half-hour as more exhausting than the other group did'; 'judged the session' paraphrases 'rated the half-hour'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "they rated the half-hour as more exhausting than the other group did"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 9,
+                  "prompt": "their memory for the … of the documents was weaker",
+                  "options": null,
+                  "answer": [
+                    "details"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "They 'recalled far fewer details of the invoices'; 'memory ... was weaker' paraphrases 'recalled far fewer', and 'documents' refers to the invoices.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "they recalled far fewer details of the invoices they had checked"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "summary_completion",
+              "instructions": "Complete the summary below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 2,
+              "allow_number": true,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 10,
+                  "prompt": "Why does the writer contrast a person in a hammock with a person in a queue?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "to illustrate how common boredom is in everyday life"
+                    },
+                    {
+                      "letter": "B",
+                      "text": "to distinguish boredom from relaxation"
+                    },
+                    {
+                      "letter": "C",
+                      "text": "to suggest that physical comfort prevents boredom"
+                    },
+                    {
+                      "letter": "D",
+                      "text": "to argue that waiting is the main cause of boredom"
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "inference",
+                  "explanation": {
+                    "correct": "The examples follow the claim that the definition 'separates boredom from simple rest': the relaxed person in the hammock is not bored, while the person who wants to be engaged but cannot be is.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The writer does not use the examples to show how often boredom occurs."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The point is wanting but failing to be engaged, not physical comfort."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "The queue is one example of a boring situation; the writer does not call waiting the main cause."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "The definition matters because it separates boredom from simple rest."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 11,
+                  "prompt": "According to Lindqvist, why did the button-sorters perform better on the creativity test?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "They had been given longer to prepare for it."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "The documentary had left the control group too tired to think."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "Their dull task had made their thoughts drift in search of interest."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "Sorting by colour had trained them to notice unusual features."
+                    }
+                  ],
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Lindqvist's interpretation is that 'boredom drives the mind to wander in search of stimulation'; 'thoughts drift' paraphrases 'the mind ... wander', and 'interest' paraphrases 'stimulation'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The control group spent 'the same period' on their activity, so neither group had longer."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Nothing is said about the documentary tiring the control group."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Sorting by colour is mentioned as the boring task, not as training in noticing features."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "Lindqvist's interpretation is that boredom drives the mind to wander in search of stimulation"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 12,
+                  "prompt": "What is the writer's criticism of Oyelaran's survey?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "It involved too few participants to be reliable."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "Office workers are not typical of the wider population."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "Its findings could be explained in other ways."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "The workers were questioned too soon after changing jobs."
+                    }
+                  ],
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer says the survey 'cannot carry the weight' placed on it and offers alternative explanations: job-changers may just be restless by temperament, and people tend to believe their big decisions were right.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The survey had 1,400 workers and the writer never complains about its size."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "The writer does not question whether office workers are representative."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "The two-year interval is mentioned only as a detail; the writer does not criticise the timing."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "But the survey cannot carry the weight Oyelaran places on it. People who change jobs may simply be more restless by temperament"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 13,
+                  "prompt": "The writer mentions prisoners in solitary confinement in order to",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "support the claim that boredom encourages creativity."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "acknowledge that some forms of boredom are damaging."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "criticise the methods used in boredom research."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "show that long-term boredom is rarer than short-term boredom."
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer concedes it would be 'foolish ... to celebrate boredom indiscriminately' and calls the monotony of solitary confinement 'a genuine harm'; 'damaging' paraphrases 'genuine harm'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The writer says this kind of boredom is 'not a spur to creativity'."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "He says the research does not contradict this point; he does not criticise its methods."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "The writer compares the effects of the two kinds, not how often they occur."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "is not a spur to creativity but a genuine harm, and nothing in the research described here suggests otherwise"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose the correct letter, A, B, C or D.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
