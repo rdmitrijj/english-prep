@@ -346,3 +346,94 @@ input.gap::placeholder {
   color: inherit;
   font-size: inherit;
 }
+.passage mark.evidence:not(.user):not(.noted) {
+  background: #d7f0df;
+}
+.passage mark.evidence {
+  box-shadow: inset 0 -2px #1e8558;
+  cursor: default;
+}
+.passage mark.pulse {
+  animation: pulse 1.2s ease-out 2;
+}
+@keyframes pulse {
+  50% {
+    background: #9ad9b0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .timer .flash,
+  .passage mark.pulse {
+    animation: none;
+  }
+}
+.q.right {
+  border-left-color: #1e8558;
+}
+.q.wrong {
+  border-left-color: #c0343c;
+}
+fieldset.qbody {
+  border: none;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+/* Practice reuses the exam layout with the app's friendlier look (PLAN §2). */
+.exam.practice {
+  --accent: #2b4fc7;
+  --bar: #f4f6fa;
+  --line: #dde2eb;
+  --fg: #18223a;
+  font-family: "Atkinson Hyperlegible Next", system-ui, sans-serif;
+}
+.practice .examhead .muted {
+  color: #5b6578;
+  margin-left: 8px;
+}
+.practice .examhead button.primary {
+  border-radius: 999px;
+  padding: 4px 18px;
+}
+.practice .elapsed {
+  font-variant-numeric: tabular-nums;
+  color: #5b6578;
+}
+.practice .partbar {
+  align-items: center;
+}
+.checkrow {
+  margin: -12px 0 28px 2.6em;
+}
+.feedback {
+  margin: -12px 0 32px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 4px 16px 8px;
+  background: var(--bar);
+}
+.fbscore {
+  font-weight: 700;
+}
+.fb {
+  border-top: 1px solid var(--line);
+  padding: 8px 0;
+}
+.fb p {
+  margin: 4px 0;
+}
+.fb ul {
+  margin: 4px 0;
+  padding-left: 20px;
+  color: #5b6578;
+}
+.fb.right > p:first-child b:first-child {
+  color: #1e8558;
+}
+.fb.wrong > p:first-child b:first-child {
+  color: #c0343c;
+}
+.fb .why {
+  color: #5b6578;
+}

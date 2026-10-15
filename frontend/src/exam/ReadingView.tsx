@@ -1,14 +1,20 @@
 import { Fragment, type MouseEvent, type ReactNode, useEffect, useRef, useState } from "react";
 import type { Highlight, Part } from "../api";
 
-type Props = { part: Part; highlights: Highlight[]; setHighlights: (h: Highlight[]) => void; children: ReactNode };
+type Props = {
+  part: Part;
+  highlights: Highlight[];
+  setHighlights: (h: Highlight[]) => void;
+  evidence?: { qid: number; paragraph: string; quote: string }[]; // practice: shown after a group is checked
+  children: ReactNode;
+};
 type Menu = { x: number; y: number; sel?: Omit<Highlight, "id">; hid?: string };
 
 const elementOf = (n: Node) => (n instanceof Element ? n : n.parentElement);
 const newId = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
 
 /** Passage on the left, questions on the right, a draggable splitter, and highlight/note support. */
-export default function ReadingView({ part, highlights, setHighlights, children }: Props) {
+export default function ReadingView({ part, highlights, setHighlights, evidence = [], children }: Props) {
   const [left, setLeft] = useState(50);
   const [menu, setMenu] = useState<Menu | null>(null);
   const [showNotes, setShowNotes] = useState(true);
@@ -49,6 +55,11 @@ export default function ReadingView({ part, highlights, setHighlights, children 
     const p = passage.paragraphs.find((p) => key(p.label) === h.p);
     return p?.text.slice(h.start, h.end) ?? "";
   };
+  // Evidence quotes become read-only marks, found by text so content never stores character offsets.
+  const evidenceMarks: Highlight[] = evidence.flatMap((e) => {
+    const start = passage.paragraphs.find((p) => p.label === e.paragraph)?.text.indexOf(e.quote) ?? -1;
+    return start < 0 ? [] : [{ id: `ev${e.qid}`, p: key(e.paragraph), start, end: start + e.quote.length, ev: e.qid }];
+  });
   const notes = highlights.filter((h) => h.note && h.p.startsWith(`${part.number}-`));
 
   return (
@@ -65,7 +76,7 @@ export default function ReadingView({ part, highlights, setHighlights, children 
             <Paragraph
               pkey={key(p.label)}
               text={p.text}
-              highlights={highlights}
+              highlights={[...evidenceMarks, ...highlights]}
               onMark={(hid, e) => setMenu({ x: e.clientX, y: e.clientY, hid })}
             />
           </div>
@@ -156,14 +167,17 @@ function Paragraph(props: {
     <p data-p={pkey}>
       {cuts.slice(0, -1).map((start, i) => {
         const end = cuts[i + 1];
-        const h = hs.findLast((h) => h.start <= start && h.end >= end);
+        const covering = hs.filter((h) => h.start <= start && h.end >= end);
+        const h = covering.findLast((h) => !h.ev); // the reader's own highlight, if any
+        const evs = covering.filter((h) => h.ev).map((h) => h.ev);
         const piece = text.slice(start, end);
-        return h ? (
+        return covering.length ? (
           <mark
             key={start}
-            className={h.note ? "noted" : undefined}
-            title={h.note}
-            onClick={(e) => window.getSelection()?.isCollapsed && props.onMark(h.id, e)}
+            className={[h && (h.note ? "noted" : "user"), evs.length && "evidence"].filter(Boolean).join(" ")}
+            data-ev={evs.join(" ") || undefined}
+            title={h?.note}
+            onClick={(e) => h && window.getSelection()?.isCollapsed && props.onMark(h.id, e)}
           >
             {piece}
           </mark>

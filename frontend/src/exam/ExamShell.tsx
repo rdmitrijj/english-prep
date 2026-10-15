@@ -1,24 +1,13 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Navigate, useNavigate, useParams } from "react-router";
-import {
-  api,
-  ApiError,
-  type Answer,
-  type Attempt,
-  type AttemptSection,
-  type Highlight,
-  type SaveOut,
-  type User,
-} from "../api";
+import { api, type Attempt, type AttemptSection, type User } from "../api";
 import "./exam.css";
 import QuestionGroup from "./Questions";
 import ReadingView from "./ReadingView";
+import { isAnswered, useResponses } from "./useResponses";
 
-const AUTOSAVE_MS = 5000;
 const GRACE_MS = 11_000; // the server accepts saves for 10 s after the deadline, then auto-submits
-
-export const isAnswered = (a: Answer | undefined) => (Array.isArray(a) ? a.length > 0 : !!a?.trim());
 
 /** Loads the attempt and shows the intro screen, the running exam, or (when finished) the report. */
 export default function ExamPage({ user }: { user: User }) {
@@ -91,115 +80,25 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
     () => parts.flatMap((p) => p.groups.flatMap((g) => g.questions.map((q) => ({ id: q.id, number: q.number, part: p.number })))),
     [parts],
   );
-  const idOf = useMemo(() => new Map(questions.map((q) => [q.number, q.id])), [questions]);
-
-  const [answers, setAnswers] = useState<Record<number, Answer>>(() =>
-    Object.fromEntries(section.responses.map((r) => [r.question_id, r.answer])),
-  );
-  const [flags, setFlags] = useState<Record<number, boolean>>(() =>
-    Object.fromEntries(section.responses.map((r) => [r.question_id, r.flagged])),
-  );
-  const [highlights, setHighlightsState] = useState<Highlight[]>(section.ui_state.highlights ?? []);
-  const [current, setCurrentState] = useState(section.ui_state.current ?? questions[0].number);
+  const r = useResponses(attempt, section);
+  const { answers, flags, current } = r;
   const [overlay, setOverlay] = useState<null | "settings" | "help" | "hidden">(null);
   const [timeUp, setTimeUp] = useState(false);
   const [prefs, setPrefs] = usePrefs();
 
-  // ---- autosave: changes collect here and go out every 5 s, on tab hide, and before submit ----
-  const pending = useRef({ ids: new Set<number>(), time: new Map<number, number>(), ui: false });
-  const latest = useRef({ answers, flags, highlights, current });
-  latest.current = { answers, flags, highlights, current };
-  const clockOffset = useRef(Date.parse(attempt.server_now) - Date.now());
-  const chain = useRef(Promise.resolve()); // saves run one after another, never in parallel
-  const url = `/attempts/${attempt.id}/sections/${section.id}`;
-
-  const refresh = useCallback(() => qc.invalidateQueries({ queryKey: ["attempt", attempt.id] }), [qc, attempt.id]);
-
-  const save = useCallback(
-    (keepalive = false) => {
-      const run = async () => {
-        const p = pending.current;
-        const ids = new Set([...p.ids, ...p.time.keys()]);
-        if (!ids.size && !p.ui) return;
-        const { answers, flags, highlights, current } = latest.current;
-        pending.current = { ids: new Set(), time: new Map(), ui: false };
-        try {
-          const r = await api<SaveOut>(`${url}/responses`, {
-            method: "PUT",
-            keepalive,
-            body: {
-              responses: [...ids].map((qid) => ({
-                question_id: qid,
-                answer: answers[qid] ?? null,
-                flagged: !!flags[qid],
-                time_ms: p.time.get(qid) ?? 0,
-              })),
-              ui_state: p.ui ? { highlights, current } : undefined,
-            },
-          });
-          clockOffset.current = Date.parse(r.server_now) - Date.now();
-        } catch (e) {
-          if (e instanceof ApiError && e.status === 409) return void refresh(); // closed by the server → report
-          const n = pending.current; // network trouble: keep the changes for the next attempt
-          p.ids.forEach((i) => n.ids.add(i));
-          p.time.forEach((t, i) => n.time.set(i, (n.time.get(i) ?? 0) + t));
-          n.ui ||= p.ui;
-        }
-      };
-      chain.current = chain.current.then(run);
-      return chain.current;
-    },
-    [url, refresh],
-  );
-
-  useEffect(() => {
-    const autosave = setInterval(() => save(), AUTOSAVE_MS);
-    // ponytail: 1 s ticks, no idle detection yet; M4's useQuestionTimer adds the 45 s idle pause.
-    const tick = setInterval(() => {
-      if (document.hidden) return;
-      const qid = idOf.get(latest.current.current)!;
-      pending.current.time.set(qid, (pending.current.time.get(qid) ?? 0) + 1000);
-    }, 1000);
-    const onHide = () => document.visibilityState === "hidden" && save(true);
-    document.addEventListener("visibilitychange", onHide);
-    window.addEventListener("pagehide", onHide);
-    return () => {
-      clearInterval(autosave);
-      clearInterval(tick);
-      document.removeEventListener("visibilitychange", onHide);
-      window.removeEventListener("pagehide", onHide);
-    };
-  }, [save, idOf]);
-
-  const setAnswer = (ids: number[], value: Answer) => {
-    setAnswers((a) => ({ ...a, ...Object.fromEntries(ids.map((i) => [i, value])) }));
-    ids.forEach((i) => pending.current.ids.add(i));
-  };
-  const setHighlights = (h: Highlight[]) => {
-    setHighlightsState(h);
-    pending.current.ui = true;
-  };
-  const setCurrent = (n: number) => {
-    setCurrentState(n);
-    pending.current.ui = true;
-  };
-  const go = (n: number) => {
-    setCurrent(n);
+  const go = (q: { id: number; number: number }) => {
+    r.setCurrent(q.id);
     requestAnimationFrame(() => {
-      const el = document.getElementById(`q-${n}`);
+      const el = document.getElementById(`q-${q.number}`);
       el?.scrollIntoView({ block: "center", behavior: "smooth" });
       (el instanceof HTMLInputElement ? el : el?.querySelector("input"))?.focus({ preventScroll: true });
     });
   };
-  const currentId = idOf.get(current)!;
-  const toggleFlag = () => {
-    setFlags((f) => ({ ...f, [currentId]: !f[currentId] }));
-    pending.current.ids.add(currentId);
-  };
 
+  const url = `/attempts/${attempt.id}/sections/${section.id}`;
   const submit = useMutation({
     mutationFn: async () => {
-      await save();
+      await r.save();
       return api<Attempt>(`${url}/submit`, { method: "POST" });
     },
     onSuccess: (a) => {
@@ -207,6 +106,7 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
       navigate(`/report/${attempt.id}`, { replace: true });
     },
   });
+  const { save, refresh } = r;
   const onExpire = useCallback(() => {
     setTimeUp(true);
     save().then(() => setTimeout(refresh, GRACE_MS));
@@ -218,14 +118,14 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
     if (window.confirm(msg)) submit.mutate();
   };
 
-  const part = parts.find((p) => p.number === questions.find((q) => q.number === current)!.part)!;
-  const index = questions.findIndex((q) => q.number === current);
+  const index = questions.findIndex((q) => q.id === current);
+  const part = parts.find((p) => p.number === questions[index].part)!;
 
   return (
     <div className={`exam font-${prefs.font} scheme-${prefs.scheme}`}>
       <header className="examhead">
         <span>{user.display_name}</span>
-        <Timer deadline={section.deadline_at!} offset={clockOffset} onExpire={onExpire} />
+        <Timer deadline={section.deadline_at!} offset={r.clockOffset} onExpire={onExpire} />
         <span className="tools">
           <button onClick={() => setOverlay("settings")}>Settings</button>
           <button onClick={() => setOverlay("help")}>Help</button>
@@ -238,9 +138,9 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
         <span>Read the text and answer questions {part.groups[0].questions[0].number}–{part.groups.at(-1)!.questions.at(-1)!.number}.</span>
       </div>
 
-      <ReadingView key={part.number} part={part} highlights={highlights} setHighlights={setHighlights}>
+      <ReadingView key={part.number} part={part} highlights={r.highlights} setHighlights={r.setHighlights}>
         {part.groups.map((g) => (
-          <QuestionGroup key={g.id} group={g} answers={answers} setAnswer={setAnswer} current={current} focus={setCurrent} />
+          <QuestionGroup key={g.id} group={g} answers={answers} setAnswer={r.setAnswer} current={current} focus={r.setCurrent} />
         ))}
       </ReadingView>
 
@@ -249,7 +149,7 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
           const qs = questions.filter((q) => q.part === p.number);
           return (
             <div key={p.number} className={`navpart${p.number === part.number ? " active" : ""}`}>
-              <button className="partlabel" onClick={() => go(qs[0].number)}>
+              <button className="partlabel" onClick={() => go(qs[0])}>
                 Part {p.number}
               </button>
               {p.number === part.number ? (
@@ -260,10 +160,10 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
                       "qnum",
                       isAnswered(answers[q.id]) && "answered",
                       flags[q.id] && "flagged",
-                      q.number === current && "current",
+                      q.id === current && "current",
                     ].filter(Boolean).join(" ")}
                     aria-label={`Question ${q.number}${isAnswered(answers[q.id]) ? ", answered" : ""}${flags[q.id] ? ", marked for review" : ""}`}
-                    onClick={() => go(q.number)}
+                    onClick={() => go(q)}
                   >
                     {q.number}
                   </button>
@@ -277,19 +177,18 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
           );
         })}
         <label className="review">
-          <input type="checkbox" checked={!!flags[currentId]} onChange={toggleFlag} /> Review
+          <input type="checkbox" checked={!!flags[current]} onChange={() => r.toggleFlag(current)} /> Review
         </label>
-        <button aria-label="Previous question" disabled={index === 0} onClick={() => go(questions[index - 1].number)}>
+        <button aria-label="Previous question" disabled={index === 0} onClick={() => go(questions[index - 1])}>
           ◀
         </button>
-        <button aria-label="Next question" disabled={index === questions.length - 1} onClick={() => go(questions[index + 1].number)}>
+        <button aria-label="Next question" disabled={index === questions.length - 1} onClick={() => go(questions[index + 1])}>
           ▶
         </button>
         <button className="primary" disabled={submit.isPending || timeUp} onClick={confirmSubmit}>
           Submit
         </button>
       </footer>
-
       {submit.error && <p className="toast error">{submit.error.message}</p>}
       {timeUp && (
         <div className="cover">

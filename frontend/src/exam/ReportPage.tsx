@@ -2,25 +2,12 @@ import { useQuery } from "@tanstack/react-query";
 import { Link, useParams } from "react-router";
 import { api, type Answer, type Report, type User } from "../api";
 import BandScale from "../components/BandScale";
+import { errorLabel as error, qtypeLabel as qtype } from "../labels";
 
 const TARGET_S = 90; // Reading pace target per question (PLAN §4.4)
 const secs = (ms: number) => Math.round(ms / 1000);
 const mmss = (ms: number) => `${Math.floor(ms / 60000)}:${String(secs(ms) % 60).padStart(2, "0")}`;
 const show = (a: Answer) => (Array.isArray(a) ? a.join(", ") : a) || "—";
-const QTYPE: Record<string, string> = {
-  tfng: "True / False / Not given",
-  ynng: "Yes / No / Not given",
-  mcq: "Multiple choice",
-};
-const CHOICE: Record<string, string> = { T: "TRUE", F: "FALSE", NG: "NOT GIVEN", Y: "YES", N: "NO" };
-const qtype = (t: string) => QTYPE[t] ?? t[0].toUpperCase() + t.slice(1).replaceAll("_", " ");
-/** "tfng:NG→T" → "NOT GIVEN read as TRUE"; "wrong_word" → "Wrong word". */
-const error = (e: string | null) => {
-  const m = e?.match(/^\w+:(\w+)→(\w+)$/);
-  if (m) return `${CHOICE[m[1]]} read as ${CHOICE[m[2]]}`;
-  return e ? e[0].toUpperCase() + e.slice(1).replaceAll("_", " ") : "Wrong";
-};
-
 export default function ReportPage() {
   const id = Number(useParams().attemptId);
   const report = useQuery({ queryKey: ["report", id], queryFn: () => api<Report>(`/attempts/${id}/report`) });
@@ -29,6 +16,8 @@ export default function ReportPage() {
   if (report.isPending) return <p className="muted">Loading…</p>;
   if (report.error) return <p className="error">{report.error.message}</p>;
   const r = report.data;
+  const practice = r.mode === "practice";
+  const unit = practice ? "Passage" : "Part";
 
   return (
     <>
@@ -38,15 +27,28 @@ export default function ReportPage() {
             <p className="muted">
               {r.test_title}, {new Date(r.finished_at).toLocaleDateString(undefined, { day: "numeric", month: "long" })}
             </p>
-            <h1>
-              {s.skill[0].toUpperCase() + s.skill.slice(1)} band {s.band.toFixed(1)}
-            </h1>
-            <p className="lead">
-              {s.raw} of {s.total} correct in {mmss(s.time_used_ms)}.
-              {s.submit_reason === "timeout" && " Time ran out, so your saved answers were submitted automatically."}
-            </p>
-            <BandScale band={s.band} target={me.data?.target_band ?? 7} estimate={s.band_is_estimate} />
-            {s.band_is_estimate && <p className="muted">* Below the official conversion table, so this band is an estimate.</p>}
+            {s.band === null ? (
+              <>
+                <h1>
+                  Practice: {s.raw} of {s.total} correct
+                </h1>
+                <p className="lead">
+                  {mmss(s.time_on_questions_ms)} of active time on the questions (idle minutes and hidden-tab time don't count).
+                </p>
+              </>
+            ) : (
+              <>
+                <h1>
+                  {s.skill[0].toUpperCase() + s.skill.slice(1)} band {s.band.toFixed(1)}
+                </h1>
+                <p className="lead">
+                  {s.raw} of {s.total} correct in {mmss(s.time_used_ms)}.
+                  {s.submit_reason === "timeout" && " Time ran out, so your saved answers were submitted automatically."}
+                </p>
+                <BandScale band={s.band} target={me.data?.target_band ?? 7} estimate={s.band_is_estimate} />
+                {s.band_is_estimate && <p className="muted">* Below the official conversion table, so this band is an estimate.</p>}
+              </>
+            )}
           </section>
 
           <div className="panels">
@@ -67,13 +69,15 @@ export default function ReportPage() {
               </ul>
             </section>
             <section>
-              <h2 className="section-title">Pace by part</h2>
+              <h2 className="section-title">Pace by {unit.toLowerCase()}</h2>
               <p className="muted">Target: {TARGET_S} s per question.</p>
               <table className="grid">
                 <tbody>
                   {s.parts.map((p) => (
                     <tr key={p.number}>
-                      <td>Part {p.number}</td>
+                      <td>
+                        {unit} {p.number}
+                      </td>
                       <td>
                         {p.correct}/{p.total}
                       </td>
@@ -126,9 +130,7 @@ export default function ReportPage() {
           </table>
         </article>
       ))}
-      <p>
-        <Link to="/mock">Back to mock exams</Link>
-      </p>
+      <p>{practice ? <Link to="/practice">Back to practice</Link> : <Link to="/mock">Back to mock exams</Link>}</p>
       <p className="disclaimer">Bands are AI/heuristic estimates, not official IELTS results.</p>
     </>
   );

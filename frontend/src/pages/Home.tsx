@@ -7,7 +7,7 @@ type Props = { user: User; sections: { path: string; label: string; blurb: strin
 
 export default function Home({ user, sections }: Props) {
   const attempts = useQuery({ queryKey: ["attempts"], queryFn: () => api<AttemptSummary[]>("/attempts") });
-  const latest = attempts.data?.find((a) => a.status === "completed" && a.skills[0] === "reading");
+  const latest = attempts.data?.find((a) => a.mode !== "practice" && a.status === "completed" && a.skills[0] === "reading");
 
   return (
     <>

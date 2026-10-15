@@ -394,3 +394,49 @@ table.grid th {
     display: none;
   }
 }
+
+/* practice filters */
+.filter {
+  border: none;
+  padding: 0;
+  margin: 0 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.filter legend {
+  font-weight: 600;
+  margin-bottom: 8px;
+  padding: 0;
+}
+.pick {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 999px;
+  padding: 5px 14px;
+  color: var(--ink);
+}
+.pick span {
+  color: var(--muted);
+  font-size: 0.85em;
+  margin-left: 4px;
+}
+.pick[aria-pressed="true"] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+.pick[aria-pressed="true"] span {
+  color: #c9d0dd;
+}
+.pick:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.startbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}

@@ -14,6 +14,7 @@ export default function Mock() {
     onSuccess: (a) => navigate(`/exam/${a.id}`),
   });
 
+  const mocks = attempts.data?.filter((a) => a.mode !== "practice") ?? [];
   return (
     <>
       <section className="hero">
@@ -46,9 +47,9 @@ export default function Mock() {
       {tests.data?.length === 0 && <p className="lead">No mock tests yet. Load content with the seed command first.</p>}
 
       <h2 className="section-title">Your attempts</h2>
-      {attempts.data?.length === 0 && <p className="muted">Attempts you start will appear here.</p>}
+      {mocks.length === 0 && <p className="muted">Attempts you start will appear here.</p>}
       <ul className="attempts">
-        {attempts.data?.map((a) => (
+        {mocks.map((a) => (
           <li key={a.id}>
             <span className="when">{new Date(a.started_at).toLocaleDateString(undefined, { day: "numeric", month: "short" })}</span>
             <span className="what">

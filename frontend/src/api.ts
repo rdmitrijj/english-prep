@@ -51,7 +51,7 @@ export type Group = {
 export type Passage = { title: string; paragraphs: { label: string; text: string }[]; glossary: Record<string, string> };
 export type Part = { number: number; passage: Passage | null; groups: Group[] };
 
-export type Highlight = { id: string; p: string; start: number; end: number; note?: string };
+export type Highlight = { id: string; p: string; start: number; end: number; note?: string; ev?: number /* practice evidence: question id */ };
 export type UiState = { highlights?: Highlight[]; current?: number };
 
 export type AttemptSection = {
@@ -65,6 +65,27 @@ export type AttemptSection = {
   ui_state: UiState;
   responses: { question_id: number; answer: Answer; flagged: boolean }[];
   parts: Part[] | null;
+  feedback: Feedback[];
+};
+export type Feedback = {
+  question_id: number;
+  group_id: number;
+  number: number;
+  answer: Answer;
+  accepted: string[];
+  is_correct: boolean;
+  error_class: string | null;
+  explanation: { correct: string; distractors: { option: string; why_wrong: string }[] };
+  evidence: { paragraph: string; quote: string };
+};
+export type PracticeGroup = {
+  group_id: number;
+  qtype: string;
+  topic: string;
+  topic_label: string;
+  level: "easy" | "medium" | "hard";
+  questions: number;
+  seen: boolean;
 };
 export type Attempt = {
   id: number;
@@ -101,10 +122,11 @@ export type ReportSection = {
   skill: Skill;
   raw: number;
   total: number;
-  band: number;
+  band: number | null; // null for practice
   band_is_estimate: boolean;
   submit_reason: "user" | "timeout";
   time_used_ms: number;
+  time_on_questions_ms: number;
   by_type: { qtype: string; correct: number; total: number }[];
   parts: { number: number; correct: number; total: number; time_ms: number }[];
   slowest: { number: number; time_ms: number }[];

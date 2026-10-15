@@ -6,10 +6,12 @@ import ReportPage from "./exam/ReportPage";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Mock from "./pages/Mock";
+import PracticePage from "./practice/PracticePage";
+import PracticeSession from "./practice/PracticeSession";
 
 const SECTIONS = [
   { path: "/mock", label: "Mock exam", blurb: "A full section under real exam conditions, timed and marked.", ready: true },
-  { path: "/practice", label: "Practice", blurb: "Untimed question sets with instant feedback and the evidence in the text.", ready: false },
+  { path: "/practice", label: "Practice", blurb: "Untimed question sets with instant feedback and the evidence in the text.", ready: true },
   { path: "/trainer", label: "Weakness trainer", blurb: "Short sessions built from the question types you miss most.", ready: false },
   { path: "/dashboard", label: "Progress", blurb: "Your bands over time, accuracy per question type, and pace.", ready: false },
 ];
@@ -58,11 +60,13 @@ export default function App() {
     <Routes>
       {/* The exam is full-screen, like the real computer-delivered test: no app navigation. */}
       <Route path="/exam/:attemptId" element={<ExamPage user={me.data} />} />
+      <Route path="/practice/:attemptId" element={<PracticeSession />} />
       <Route element={layout}>
         <Route path="/" element={<Home user={me.data} sections={SECTIONS} />} />
         <Route path="/mock" element={<Mock />} />
+        <Route path="/practice" element={<PracticePage />} />
         <Route path="/report/:attemptId" element={<ReportPage />} />
-        {SECTIONS.slice(1).map((s) => (
+        {SECTIONS.filter((s) => !s.ready).map((s) => (
           <Route key={s.path} path={s.path} element={<p className="lead">{s.label} is coming soon.</p>} />
         ))}
       </Route>

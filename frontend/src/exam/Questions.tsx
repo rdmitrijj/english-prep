@@ -5,8 +5,10 @@ type Props = {
   group: Group;
   answers: Record<number, Answer>;
   setAnswer: (ids: number[], value: Answer) => void;
-  current: number;
-  focus: (n: number) => void;
+  current: number; // question id
+  focus: (qid: number) => void;
+  locked?: boolean; // practice: the group was checked, answers can't change
+  results?: Record<number, boolean>; // practice: question id → correct?
 };
 
 const TFNG = ["TRUE", "FALSE", "NOT GIVEN"];
@@ -23,7 +25,10 @@ export default function QuestionGroup(props: Props) {
         {nums.length > 1 && `–${nums.at(-1)}`}
       </h3>
       <p className="rubric">{props.group.instructions}</p>
-      <Body {...props} />
+      {/* a disabled fieldset disables every input, radio, checkbox and button inside it */}
+      <fieldset className="qbody" disabled={props.locked}>
+        <Body {...props} />
+      </fieldset>
     </section>
   );
 }
@@ -43,7 +48,7 @@ function Body(props: Props) {
         placeholder={String(q.number)}
         value={text(q)}
         onChange={(e) => setAnswer([q.id], e.target.value)}
-        onFocus={() => props.focus(q.number)}
+        onFocus={() => props.focus(q.id)}
         spellCheck={false}
         autoComplete="off"
         autoCapitalize="off"
@@ -80,7 +85,7 @@ function Body(props: Props) {
                 name={`q${q.id}`}
                 checked={answers[q.id] === o.letter}
                 onChange={() => setAnswer([q.id], o.letter)}
-                onFocus={() => props.focus(q.number)}
+                onFocus={() => props.focus(q.id)}
               />
               <b>{o.letter}</b> {o.text}
             </label>
@@ -94,11 +99,12 @@ function Body(props: Props) {
 /** A numbered question row; clicking anywhere in it makes it the current question. */
 function Item(props: Props & { q: Question; anchor?: boolean; children: ReactNode }) {
   const { q } = props;
+  const result = props.results?.[q.id];
   return (
     <div
       id={props.anchor === false ? undefined : `q-${q.number}`}
-      className={`q${props.current === q.number ? " current" : ""}`}
-      onPointerDown={() => props.focus(q.number)}
+      className={`q${props.current === q.id ? " current" : ""}${result === undefined ? "" : result ? " right" : " wrong"}`}
+      onPointerDown={() => props.focus(q.id)}
     >
       <b className="qno">{q.number}</b>
       <div>{props.children}</div>
@@ -165,9 +171,10 @@ function Matching(props: Props) {
   const zone = (q: Question) => {
     const value = answers[q.id] as string | null;
     const place = () => {
+      if (props.locked) return;
       setAnswer([q.id], selected ?? null);
       setSelected(null);
-      props.focus(q.number);
+      props.focus(q.id);
     };
     return (
       <span
@@ -179,8 +186,9 @@ function Matching(props: Props) {
         onDragOver={(e) => e.preventDefault()}
         onDrop={(e) => {
           e.preventDefault();
+          if (props.locked) return;
           setAnswer([q.id], e.dataTransfer.getData("text/plain"));
-          props.focus(q.number);
+          props.focus(q.id);
         }}
         onClick={place}
         onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), place())}
