@@ -18,7 +18,8 @@ export default function Login() {
 
   return (
     <form className="login" onSubmit={submit}>
-      <h1>English-prep</h1>
+      <h1 className="wordmark">English-prep</h1>
+      <p className="muted">Sign in to continue your preparation.</p>
       <label>
         Email
         <input type="email" autoComplete="username" required value={email} onChange={(e) => setEmail(e.target.value)} />
@@ -34,7 +35,7 @@ export default function Login() {
         />
       </label>
       {login.error && <p className="error">{login.error.message}</p>}
-      <button type="submit" disabled={login.isPending}>
+      <button type="submit" className="button" disabled={login.isPending}>
         {login.isPending ? "Signing in…" : "Sign in"}
       </button>
     </form>

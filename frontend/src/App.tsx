@@ -8,10 +8,10 @@ import Login from "./pages/Login";
 import Mock from "./pages/Mock";
 
 const SECTIONS = [
-  { path: "/mock", label: "Mock exam", milestone: "M3 / M8" },
-  { path: "/practice", label: "Practice", milestone: "M4" },
-  { path: "/trainer", label: "Weakness Trainer", milestone: "M7" },
-  { path: "/dashboard", label: "Dashboard", milestone: "M7" },
+  { path: "/mock", label: "Mock exam", blurb: "A full section under real exam conditions, timed and marked.", ready: true },
+  { path: "/practice", label: "Practice", blurb: "Untimed question sets with instant feedback and the evidence in the text.", ready: false },
+  { path: "/trainer", label: "Weakness trainer", blurb: "Short sessions built from the question types you miss most.", ready: false },
+  { path: "/dashboard", label: "Progress", blurb: "Your bands over time, accuracy per question type, and pace.", ready: false },
 ];
 
 export default function App() {
@@ -31,17 +31,21 @@ export default function App() {
   const layout = (
     <>
       <header className="topbar">
-        <strong>English-prep</strong>
+        <NavLink to="/" className="wordmark">
+          English-prep
+        </NavLink>
         <nav>
-          <NavLink to="/">Home</NavLink>
           {SECTIONS.map((s) => (
             <NavLink key={s.path} to={s.path}>
               {s.label}
             </NavLink>
           ))}
         </nav>
-        <span>
-          {me.data.display_name} · <button onClick={() => logout.mutate()}>Log out</button>
+        <span className="who">
+          {me.data.display_name}
+          <button className="quiet" onClick={() => logout.mutate()}>
+            Log out
+          </button>
         </span>
       </header>
       <main>
@@ -59,7 +63,7 @@ export default function App() {
         <Route path="/mock" element={<Mock />} />
         <Route path="/report/:attemptId" element={<ReportPage />} />
         {SECTIONS.slice(1).map((s) => (
-          <Route key={s.path} path={s.path} element={<p>{s.label} arrives in {s.milestone}.</p>} />
+          <Route key={s.path} path={s.path} element={<p className="lead">{s.label} is coming soon.</p>} />
         ))}
       </Route>
     </Routes>

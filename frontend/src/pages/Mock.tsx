@@ -16,41 +16,58 @@ export default function Mock() {
 
   return (
     <>
-      <h1>Mock exam</h1>
-      <p>Section mocks run under real conditions: a server-side timer, and automatic submission when time is up.</p>
+      <section className="hero">
+        <h1>Mock exam</h1>
+        <p className="lead">One section under real conditions: the clock runs on the server, and your answers are submitted when time is up.</p>
+      </section>
       {start.error && <p className="error">{start.error.message}</p>}
-      <ul className="cards">
+
+      <ul className="modes">
         {tests.data?.map((t) => (
           <li key={t.id}>
-            <strong>{t.title}</strong>
-            {t.sections
-              .filter((s) => READY.includes(s.skill))
-              .map((s) => (
-                <button key={s.skill} disabled={start.isPending} onClick={() => start.mutate({ test_id: t.id, skill: s.skill })}>
-                  Start {s.skill} ({Math.round((s.duration_s ?? 0) / 60)} min)
-                </button>
-              ))}
+            <h2>{t.title}</h2>
+            <div className="actions">
+              {t.sections
+                .filter((s) => READY.includes(s.skill))
+                .map((s) => (
+                  <button
+                    key={s.skill}
+                    className="button"
+                    disabled={start.isPending}
+                    onClick={() => start.mutate({ test_id: t.id, skill: s.skill })}
+                  >
+                    Start {s.skill}, {Math.round((s.duration_s ?? 0) / 60)} min
+                  </button>
+                ))}
+            </div>
           </li>
         ))}
       </ul>
-      {tests.data?.length === 0 && <p>No mock tests yet. Seed content first.</p>}
+      {tests.data?.length === 0 && <p className="lead">No mock tests yet. Load content with the seed command first.</p>}
 
-      <h2>Your attempts</h2>
-      {attempts.data?.length === 0 && <p>None yet.</p>}
-      <table className="grid">
-        <tbody>
-          {attempts.data?.map((a) => (
-            <tr key={a.id}>
-              <td>{new Date(a.started_at).toLocaleString()}</td>
-              <td>
-                {a.test_title} · {a.skills.join(", ")}
-              </td>
-              <td>{a.status === "completed" ? `Band ${a.bands.map((b) => b?.toFixed(1)).join(" / ")}` : "In progress"}</td>
-              <td>{a.status === "completed" ? <Link to={`/report/${a.id}`}>Report</Link> : <Link to={`/exam/${a.id}`}>Resume</Link>}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <h2 className="section-title">Your attempts</h2>
+      {attempts.data?.length === 0 && <p className="muted">Attempts you start will appear here.</p>}
+      <ul className="attempts">
+        {attempts.data?.map((a) => (
+          <li key={a.id}>
+            <span className="when">{new Date(a.started_at).toLocaleDateString(undefined, { day: "numeric", month: "short" })}</span>
+            <span className="what">
+              {a.test_title}, {a.skills.join(", ")}
+            </span>
+            {a.status === "completed" ? (
+              <>
+                <span className="chip">Band {a.bands.map((b) => b?.toFixed(1)).join(" / ")}</span>
+                <Link to={`/report/${a.id}`}>View report</Link>
+              </>
+            ) : (
+              <>
+                <span className="chip live">In progress</span>
+                <Link to={`/exam/${a.id}`}>Resume</Link>
+              </>
+            )}
+          </li>
+        ))}
+      </ul>
     </>
   );
 }
