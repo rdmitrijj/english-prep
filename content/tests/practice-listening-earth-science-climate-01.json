@@ -1,0 +1,552 @@
+{
+  "slug": "practice-listening-earth-science-climate-01",
+  "kind": "practice",
+  "title": "Peat Bogs as Climate Diaries",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-15T07:02:04+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "listening"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "listening",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_lecture",
+          "topic": "earth-science-climate",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "narrator",
+                "role": "Narrator",
+                "accent": "en-GB",
+                "gender": "male"
+              },
+              {
+                "id": "lecturer",
+                "role": "Lecturer in physical geography",
+                "accent": "en-GB",
+                "gender": "female"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "narrator",
+                "text": "You will hear a lecturer talking about how peat bogs can be used to study past climate. First, you have some time to look at questions 1 to 10.",
+                "pause_after_s": 45.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen carefully and answer questions 1 to 10.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Good morning, everyone. Last week we looked at ice cores, and today I want to turn to a climate archive that's much closer to home for most of us, and a lot less glamorous: the peat bog. Peatlands cover only about three per cent of the world's land surface, and yet they matter enormously.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "You'll sometimes read that they store more carbon than the entire atmosphere. That figure is actually disputed, so I won't make that claim. What is well established is that they hold more carbon than all of the world's forests put together, which is remarkable for such a small area.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "So why does peat build up at all? In most environments, when a plant dies, bacteria and fungi break it down fairly quickly. But in a bog the ground is saturated, and that water keeps out oxygen. Without it, decay slows almost to a standstill, so dead plant material simply accumulates, year after year.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "The type of bog we're interested in today is the raised bog. It gets its name because, over thousands of years, the peat grows into a gentle dome that sits above the surrounding landscape. Once the surface is lifted above the local groundwater, the plants on top can't take water from streams or from the soil beneath them. Their only supply is rainfall.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "And that's exactly what makes a raised bog so sensitive to climate. In a wet period the surface stays waterlogged; in a dry period it dries out, and the plants and tiny creatures living there change accordingly. Then all of that gets buried and preserved under the next layer.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "People often describe a bog as an archive, but I prefer to think of it as a diary. An archive is just a store of material, whereas in a diary every entry has a date, and as you'll see, each layer of peat can be dated too.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "So how do we read this diary? There are several clues, such as the remains of particular mosses, but the one I've worked with most is a group of single-celled organisms called testate amoebae. That's testate, T-E-S-T-A-T-E. They build tiny shells, and different species prefer different levels of wetness, so the mix of shells in a layer tells us how wet the bog surface was at the time.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Let me now take you through how we actually produce a climate record from a bog. The first decision is where to sample. It's tempting to take a core near the edge, where access is easy, but the edges have often been disturbed by drainage ditches. So we always go to the centre of the dome, where the peat is deepest and the record is most complete.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Next, we extract the core. A traditional piston corer pushes a tube straight down, but that tends to squash soft peat, and squashed layers are no good for dating. Instead, we use what's known as a Russian corer. It has a sharp blade that turns sideways and cuts out a half-cylinder of peat without compressing it.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Each section of core then has to be protected on its way back to the lab. For years we wrapped them in plastic film, but we found the plastic could contaminate some of our samples. So these days we wrap every section in foil, and it goes straight into a cold store at four degrees.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "In the laboratory, the core is cut into slices one centimetre thick, and then comes dating. We use radiocarbon dating on selected slices, of course, but radiocarbon dates have quite wide margins of error. So we also search for very thin layers of volcanic ash. These were blown over from eruptions in places like Iceland, and because many of those eruptions have known dates, each layer gives us a precise marker.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "The next stage is the slow one. Under the microscope, we identify and count the amoeba shells in each slice, usually around a hundred and fifty per sample, and we convert those counts into an estimate of how far below the surface the water table was.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Finally, we need to check that the method actually works. For roughly the last hundred and fifty years, we can compare the bog record with measurements from local weather stations. Where the two agree, we can be more confident about the older parts of the record, which go back thousands of years before any instruments existed.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Sadly, many bogs have been drained for farming or cut for fuel, and once that happens the diary is lost for good. After the break, I'll show you some results from a bog where the record is still intact.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "That is the end of the recording. You now have half a minute to check your answers.",
+                "pause_after_s": 30.0
+              }
+            ]
+          },
+          "audio": {
+            "url": "/media/audio/practice-listening-earth-science-climate-01-p1.mp3",
+            "duration_ms": 399107,
+            "segments": [
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 11153,
+                "text": "You will hear a lecturer talking about how peat bogs can be used to study past climate. First, you have some time to look at questions 1 to 10."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 56553,
+                "end_ms": 60015,
+                "text": "Now listen carefully and answer questions 1 to 10."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-GB",
+                "start_ms": 60415,
+                "end_ms": 81184,
+                "text": "Good morning, everyone. Last week we looked at ice cores, and today I want to turn to a climate archive that's much closer to home for most of us, and a lot less glamorous: the peat bog. Peatlands cover only about three per cent of the world's land surface, and yet they matter enormously."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-GB",
+                "start_ms": 81584,
+                "end_ms": 100430,
+                "text": "You'll sometimes read that they store more carbon than the entire atmosphere. That figure is actually disputed, so I won't make that claim. What is well established is that they hold more carbon than all of the world's forests put together, which is remarkable for such a small area."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-GB",
+                "start_ms": 100830,
+                "end_ms": 121599,
+                "text": "So why does peat build up at all? In most environments, when a plant dies, bacteria and fungi break it down fairly quickly. But in a bog the ground is saturated, and that water keeps out oxygen. Without it, decay slows almost to a standstill, so dead plant material simply accumulates, year after year."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-GB",
+                "start_ms": 121999,
+                "end_ms": 146230,
+                "text": "The type of bog we're interested in today is the raised bog. It gets its name because, over thousands of years, the peat grows into a gentle dome that sits above the surrounding landscape. Once the surface is lifted above the local groundwater, the plants on top can't take water from streams or from the soil beneath them. Their only supply is rainfall."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-GB",
+                "start_ms": 146630,
+                "end_ms": 165476,
+                "text": "And that's exactly what makes a raised bog so sensitive to climate. In a wet period the surface stays waterlogged; in a dry period it dries out, and the plants and tiny creatures living there change accordingly. Then all of that gets buried and preserved under the next layer."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-GB",
+                "start_ms": 165876,
+                "end_ms": 183953,
+                "text": "People often describe a bog as an archive, but I prefer to think of it as a diary. An archive is just a store of material, whereas in a diary every entry has a date, and as you'll see, each layer of peat can be dated too."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-GB",
+                "start_ms": 184353,
+                "end_ms": 210507,
+                "text": "So how do we read this diary? There are several clues, such as the remains of particular mosses, but the one I've worked with most is a group of single-celled organisms called testate amoebae. That's testate, T-E-S-T-A-T-E. They build tiny shells, and different species prefer different levels of wetness, so the mix of shells in a layer tells us how wet the bog surface was at the time."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-GB",
+                "start_ms": 210907,
+                "end_ms": 236676,
+                "text": "Let me now take you through how we actually produce a climate record from a bog. The first decision is where to sample. It's tempting to take a core near the edge, where access is easy, but the edges have often been disturbed by drainage ditches. So we always go to the centre of the dome, where the peat is deepest and the record is most complete."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-GB",
+                "start_ms": 237076,
+                "end_ms": 258615,
+                "text": "Next, we extract the core. A traditional piston corer pushes a tube straight down, but that tends to squash soft peat, and squashed layers are no good for dating. Instead, we use what's known as a Russian corer. It has a sharp blade that turns sideways and cuts out a half-cylinder of peat without compressing it."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-GB",
+                "start_ms": 259015,
+                "end_ms": 280169,
+                "text": "Each section of core then has to be protected on its way back to the lab. For years we wrapped them in plastic film, but we found the plastic could contaminate some of our samples. So these days we wrap every section in foil, and it goes straight into a cold store at four degrees."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-GB",
+                "start_ms": 280569,
+                "end_ms": 307876,
+                "text": "In the laboratory, the core is cut into slices one centimetre thick, and then comes dating. We use radiocarbon dating on selected slices, of course, but radiocarbon dates have quite wide margins of error. So we also search for very thin layers of volcanic ash. These were blown over from eruptions in places like Iceland, and because many of those eruptions have known dates, each layer gives us a precise marker."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-GB",
+                "start_ms": 308276,
+                "end_ms": 325199,
+                "text": "The next stage is the slow one. Under the microscope, we identify and count the amoeba shells in each slice, usually around a hundred and fifty per sample, and we convert those counts into an estimate of how far below the surface the water table was."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-GB",
+                "start_ms": 325599,
+                "end_ms": 346368,
+                "text": "Finally, we need to check that the method actually works. For roughly the last hundred and fifty years, we can compare the bog record with measurements from local weather stations. Where the two agree, we can be more confident about the older parts of the record, which go back thousands of years before any instruments existed."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-GB",
+                "start_ms": 346768,
+                "end_ms": 361768,
+                "text": "Sadly, many bogs have been drained for farming or cut for fuel, and once that happens the diary is lost for good. After the break, I'll show you some results from a bog where the record is still intact."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 362168,
+                "end_ms": 368707,
+                "text": "That is the end of the recording. You now have half a minute to check your answers."
+              }
+            ],
+            "tts_provider": "fake",
+            "voices": {
+              "narrator": "fake-en-GB-male-1",
+              "lecturer": "fake-en-GB-female-1"
+            }
+          },
+          "groups": [
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "Although peatlands cover a small area, they contain more carbon than all the world's ______.",
+                  "options": null,
+                  "answer": [
+                    "forests"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'They hold more carbon than all of the world's forests put together': 'hold' is paraphrased as 'contain'.",
+                    "distractors": [
+                      {
+                        "option": "atmosphere",
+                        "why_wrong": "The lecturer says the claim about the atmosphere is disputed and refuses to make it."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "3",
+                    "quote": "they hold more carbon than all of the world's forests put together"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "Dead plants decay very slowly in a bog because the water there excludes ______.",
+                  "options": null,
+                  "answer": [
+                    "oxygen"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'That water keeps out oxygen' is paraphrased as 'the water there excludes oxygen'.",
+                    "distractors": [
+                      {
+                        "option": "bacteria",
+                        "why_wrong": "Bacteria and fungi are what normally break plants down; the water keeps out oxygen, not bacteria."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "4",
+                    "quote": "that water keeps out oxygen"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "The plants on the surface of a raised bog get all their water from ______.",
+                  "options": null,
+                  "answer": [
+                    "rainfall",
+                    "rain"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'Their only supply is rainfall' is paraphrased as 'get all their water from rainfall'.",
+                    "distractors": [
+                      {
+                        "option": "streams",
+                        "why_wrong": "The lecturer says the plants cannot take water from streams."
+                      },
+                      {
+                        "option": "groundwater",
+                        "why_wrong": "The bog surface is lifted above the local groundwater, so it cannot be the source."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "5",
+                    "quote": "Their only supply is rainfall"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "The lecturer compares a peat bog to a ______, because each layer can be dated.",
+                  "options": null,
+                  "answer": [
+                    "diary"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "She rejects the usual word 'archive' and says 'I prefer to think of it as a diary', because every entry has a date.",
+                    "distractors": [
+                      {
+                        "option": "archive",
+                        "why_wrong": "This is how other people describe a bog; the lecturer says an archive is 'just a store of material'."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "7",
+                    "quote": "I prefer to think of it as a diary"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "The indicator the lecturer has studied most is a type of shelled organism called ______.",
+                  "options": null,
+                  "answer": [
+                    "testate amoebae",
+                    "testate amoeba"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'The one I've worked with most' matches 'studied most'; the organisms are 'testate amoebae', and the lecturer spells 'testate'.",
+                    "distractors": [
+                      {
+                        "option": "mosses",
+                        "why_wrong": "Mosses are mentioned only as one of 'several clues', not the one she has worked with most."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "8",
+                    "quote": "a group of single-celled organisms called testate amoebae"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "sentence_completion",
+              "instructions": "Complete the sentences below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+              "max_words": 2,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": {
+                "title": "Producing a climate record from a raised bog",
+                "template": null,
+                "table": null,
+                "steps": [
+                  "Choose a sampling site in the {6} of the bog, where the peat is deepest",
+                  "Extract the core with a {7} corer, which does not compress the peat",
+                  "Wrap each section in {8} and keep it in a cold store",
+                  "Cut the core into 1 cm slices and date them using radiocarbon and thin layers of volcanic {9}",
+                  "Count amoeba shells under the microscope to estimate the depth of the water table",
+                  "Compare the most recent part of the record with measurements from local weather {10}"
+                ]
+              },
+              "questions": [
+                {
+                  "number": 6,
+                  "prompt": "Sampling site",
+                  "options": null,
+                  "answer": [
+                    "centre",
+                    "center"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'We always go to the centre of the dome, where the peat is deepest'; the dome is the raised bog.",
+                    "distractors": [
+                      {
+                        "option": "edge",
+                        "why_wrong": "The edge is tempting because access is easy, but it is rejected because drainage ditches disturb it."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "9",
+                    "quote": "we always go to the centre of the dome"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "Type of corer",
+                  "options": null,
+                  "answer": [
+                    "Russian"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The lecturer uses 'a Russian corer', which cuts 'without compressing it'.",
+                    "distractors": [
+                      {
+                        "option": "piston",
+                        "why_wrong": "The traditional piston corer is rejected because it squashes soft peat."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "10",
+                    "quote": "we use what's known as a Russian corer"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "Wrapping material",
+                  "options": null,
+                  "answer": [
+                    "foil"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'These days we wrap every section in foil' gives the current method.",
+                    "distractors": [
+                      {
+                        "option": "plastic",
+                        "why_wrong": "Plastic film was used 'for years' but abandoned because it could contaminate samples."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "11",
+                    "quote": "these days we wrap every section in foil"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 9,
+                  "prompt": "Dating marker",
+                  "options": null,
+                  "answer": [
+                    "ash"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Besides radiocarbon, they look for 'very thin layers of volcanic ash' from eruptions with known dates.",
+                    "distractors": [
+                      {
+                        "option": "radiocarbon",
+                        "why_wrong": "Radiocarbon is already given in the flow-chart."
+                      },
+                      {
+                        "option": "eruptions",
+                        "why_wrong": "The eruptions produced the layers; the material in the layers is ash."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "12",
+                    "quote": "we also search for very thin layers of volcanic ash"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "Checking the record",
+                  "options": null,
+                  "answer": [
+                    "stations"
+                  ],
+                  "difficulty": 5,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Compare the bog record with measurements from local weather stations' to check the method for the last 150 years.",
+                    "distractors": [
+                      {
+                        "option": "instruments",
+                        "why_wrong": "Instruments are mentioned only as not existing for the older part of the record."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "14",
+                    "quote": "measurements from local weather stations"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "flowchart_completion",
+              "instructions": "Complete the flow-chart below.\nWrite ONE WORD ONLY for each answer.",
+              "max_words": 1,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

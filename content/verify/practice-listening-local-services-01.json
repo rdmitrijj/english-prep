@@ -1,0 +1,11 @@
+{"answers":[
+{"number":1,"answer":["padlock"],"confidence":0.97,"note":""},
+{"number":2,"answer":["Wednesday"],"confidence":0.95,"note":"Tuesday is the distractor"},
+{"number":3,"answer":["35"],"confidence":0.95,"note":"30 is the old fee"},
+{"number":4,"answer":["indoor shoes"],"confidence":0.9,"note":"'indoor shoes' is the spoken phrase"},
+{"number":5,"answer":["two weeks"],"confidence":0.93,"note":"'2 weeks' also fine; one week is the correction distractor"},
+{"number":6,"answer":["B"],"confidence":0.97,"note":""},
+{"number":7,"answer":["A"],"confidence":0.95,"note":""},
+{"number":8,"answer":["C"],"confidence":0.97,"note":""},
+{"number":9,"answer":["B"],"confidence":0.97,"note":""},
+{"number":10,"answer":["A"],"confidence":0.97,"note":""}]}

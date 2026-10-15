@@ -1,0 +1,11 @@
+{"answers":[
+{"number":1,"answer":["forests"],"confidence":0.95,"note":""},
+{"number":2,"answer":["oxygen"],"confidence":0.97,"note":""},
+{"number":3,"answer":["rainfall"],"confidence":0.95,"note":"'rain' not spoken as such; rainfall is the word"},
+{"number":4,"answer":["diary"],"confidence":0.97,"note":""},
+{"number":5,"answer":["testate amoebae"],"confidence":0.88,"note":"'testate' alone or 'amoebae' alone might also be accepted; spelling was given"},
+{"number":6,"answer":["centre"],"confidence":0.93,"note":"British spelling 'centre'; 'center' variant"},
+{"number":7,"answer":["Russian"],"confidence":0.97,"note":""},
+{"number":8,"answer":["foil"],"confidence":0.95,"note":"plastic film is the rejected option"},
+{"number":9,"answer":["ash"],"confidence":0.97,"note":""},
+{"number":10,"answer":["stations"],"confidence":0.95,"note":""}]}

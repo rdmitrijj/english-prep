@@ -1,0 +1,857 @@
+{
+  "slug": "practice-listening-local-services-01",
+  "kind": "practice",
+  "title": "Joining a Community Centre",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-15T07:02:02+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "listening"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "listening",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "social_dialogue",
+          "topic": "local-services",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "narrator",
+                "role": "Narrator",
+                "accent": "en-GB",
+                "gender": "male"
+              },
+              {
+                "id": "receptionist",
+                "role": "Community centre receptionist",
+                "accent": "en-NZ",
+                "gender": "female"
+              },
+              {
+                "id": "man",
+                "role": "Caller, new to the area",
+                "accent": "en-CA",
+                "gender": "male"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "narrator",
+                "text": "You will hear a man phoning a community centre to ask about becoming a member. First, you have some time to look at questions 1 to 5.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen carefully and answer questions 1 to 5.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "receptionist",
+                "text": "Good morning, Harbourside Community Centre, Kate speaking. How can I help?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "man",
+                "text": "Hi there. I've just moved to the area and I'm thinking about joining the centre. I was hoping you could tell me what's on offer for members.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "receptionist",
+                "text": "Of course. An individual membership is 60 dollars a year, and that gives you a discount on most of our activities. Is there anything in particular you're interested in?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "man",
+                "text": "Well, I swim most days, so I'd want to use the pool. Is lap swimming available early in the morning?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "receptionist",
+                "text": "It is. The lap lanes are open from six till eight on weekdays, and that's free for members. Towels are provided, so you don't need to bring one of those, but you will need your own padlock for the lockers.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "man",
+                "text": "Right, a padlock. I'll remember that. And I saw something online about a pottery class?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "receptionist",
+                "text": "Yes, that one's very popular. It used to run on Tuesday evenings, but the tutor changed her timetable, so it's on Wednesday evenings now. It's 18 dollars a session for members, and that includes all the clay and glazes.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "man",
+                "text": "Sounds good. What about the community garden? My apartment doesn't have any outdoor space at all.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "receptionist",
+                "text": "We've got a few plots left. They're two metres by three, and the volunteers meet on Saturday mornings if you'd like some help. The fee was 30 dollars a year, but it went up in July, so it's 35 dollars now. That covers the water and the shared tools.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "man",
+                "text": "That's pretty reasonable. I also play a bit of soccer. Is there anything like that?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "receptionist",
+                "text": "There's five-a-side football in the sports hall on Friday nights at half past seven, and it's six dollars a game. The only rule is about footwear. No boots with studs, obviously, and they don't want people wearing their outdoor running shoes on the new floor either. You have to bring indoor shoes.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "man",
+                "text": "Good to know. And the last thing on my list: someone told me you lend out tools?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "receptionist",
+                "text": "That's right, it's called the tool library, and it's free for members. You can borrow things like drills and ladders for a week. Oh, sorry, I'm out of date there. They extended it last month, so it's two weeks now.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen and answer questions 6 to 10.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "man",
+                "text": "Great. So how do I actually sign up? Do I need to bring anything with me?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "receptionist",
+                "text": "Just come in to reception. People often think they need a passport photo, but we take your picture here at the desk. And you can pay by card or cash, it doesn't matter which. The one thing we do need is proof of address, so a power bill or a bank statement is fine.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "man",
+                "text": "No problem. Is it easy to park near the centre?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "receptionist",
+                "text": "Well, the car park belongs to the council, so members don't get a discount, I'm afraid. It's two dollars an hour, weekends included. The real issue is that it's usually full by nine in the morning, so a lot of our regulars cycle in.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "man",
+                "text": "I'll probably walk, then. It's only about ten minutes from my place. Actually, I wanted to ask about volunteering, too. I've got quite a bit of free time at the moment.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "receptionist",
+                "text": "Oh, wonderful, we always need people. There's the café, there's the community van, and there are our computer help sessions for older residents. Do any of those appeal?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "man",
+                "text": "Well, I drove a delivery van for years, so I did think about the van, but to be honest, I'd like a change. And I'm hopeless in a kitchen. I used to work in IT support, so the computer sessions sound like the best fit.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "receptionist",
+                "text": "Perfect. The volunteer coordinator will be at our open day, so you could meet her there.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "man",
+                "text": "When's that?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "receptionist",
+                "text": "It was going to be Saturday the 12th, but that's the day of the harbour fun run and the roads will be closed, so we've moved it to Sunday the 13th. It runs from ten till two.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "man",
+                "text": "The 13th suits me. I'm away on the 19th and 20th, so I'm glad it isn't the weekend after. And how do I get my membership card?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "receptionist",
+                "text": "We used to post them out, but too many went missing, so now you pick your card up from reception on your first visit. We'll email you a receipt straight away, though.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "man",
+                "text": "Brilliant. Thanks so much for your help.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "receptionist",
+                "text": "You're welcome. See you soon.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "That is the end of the recording. You now have half a minute to check your answers.",
+                "pause_after_s": 30.0
+              }
+            ]
+          },
+          "audio": {
+            "url": "/media/audio/practice-listening-local-services-01-p1.mp3",
+            "duration_ms": 412030,
+            "segments": [
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 10384,
+                "text": "You will hear a man phoning a community centre to ask about becoming a member. First, you have some time to look at questions 1 to 5."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 40784,
+                "end_ms": 44246,
+                "text": "Now listen carefully and answer questions 1 to 5."
+              },
+              {
+                "speaker": "receptionist",
+                "accent": "en-NZ",
+                "start_ms": 44646,
+                "end_ms": 48876,
+                "text": "Good morning, Harbourside Community Centre, Kate speaking. How can I help?"
+              },
+              {
+                "speaker": "man",
+                "accent": "en-CA",
+                "start_ms": 49276,
+                "end_ms": 59661,
+                "text": "Hi there. I've just moved to the area and I'm thinking about joining the centre. I was hoping you could tell me what's on offer for members."
+              },
+              {
+                "speaker": "receptionist",
+                "accent": "en-NZ",
+                "start_ms": 60061,
+                "end_ms": 71215,
+                "text": "Of course. An individual membership is 60 dollars a year, and that gives you a discount on most of our activities. Is there anything in particular you're interested in?"
+              },
+              {
+                "speaker": "man",
+                "accent": "en-CA",
+                "start_ms": 71615,
+                "end_ms": 79307,
+                "text": "Well, I swim most days, so I'd want to use the pool. Is lap swimming available early in the morning?"
+              },
+              {
+                "speaker": "receptionist",
+                "accent": "en-NZ",
+                "start_ms": 79707,
+                "end_ms": 95092,
+                "text": "It is. The lap lanes are open from six till eight on weekdays, and that's free for members. Towels are provided, so you don't need to bring one of those, but you will need your own padlock for the lockers."
+              },
+              {
+                "speaker": "man",
+                "accent": "en-CA",
+                "start_ms": 95492,
+                "end_ms": 101261,
+                "text": "Right, a padlock. I'll remember that. And I saw something online about a pottery class?"
+              },
+              {
+                "speaker": "receptionist",
+                "accent": "en-NZ",
+                "start_ms": 101661,
+                "end_ms": 116661,
+                "text": "Yes, that one's very popular. It used to run on Tuesday evenings, but the tutor changed her timetable, so it's on Wednesday evenings now. It's 18 dollars a session for members, and that includes all the clay and glazes."
+              },
+              {
+                "speaker": "man",
+                "accent": "en-CA",
+                "start_ms": 117061,
+                "end_ms": 123215,
+                "text": "Sounds good. What about the community garden? My apartment doesn't have any outdoor space at all."
+              },
+              {
+                "speaker": "receptionist",
+                "accent": "en-NZ",
+                "start_ms": 123615,
+                "end_ms": 142461,
+                "text": "We've got a few plots left. They're two metres by three, and the volunteers meet on Saturday mornings if you'd like some help. The fee was 30 dollars a year, but it went up in July, so it's 35 dollars now. That covers the water and the shared tools."
+              },
+              {
+                "speaker": "man",
+                "accent": "en-CA",
+                "start_ms": 142861,
+                "end_ms": 148630,
+                "text": "That's pretty reasonable. I also play a bit of soccer. Is there anything like that?"
+              },
+              {
+                "speaker": "receptionist",
+                "accent": "en-NZ",
+                "start_ms": 149030,
+                "end_ms": 169030,
+                "text": "There's five-a-side football in the sports hall on Friday nights at half past seven, and it's six dollars a game. The only rule is about footwear. No boots with studs, obviously, and they don't want people wearing their outdoor running shoes on the new floor either. You have to bring indoor shoes."
+              },
+              {
+                "speaker": "man",
+                "accent": "en-CA",
+                "start_ms": 169430,
+                "end_ms": 175968,
+                "text": "Good to know. And the last thing on my list: someone told me you lend out tools?"
+              },
+              {
+                "speaker": "receptionist",
+                "accent": "en-NZ",
+                "start_ms": 176368,
+                "end_ms": 191753,
+                "text": "That's right, it's called the tool library, and it's free for members. You can borrow things like drills and ladders for a week. Oh, sorry, I'm out of date there. They extended it last month, so it's two weeks now."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 192153,
+                "end_ms": 199461,
+                "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 229861,
+                "end_ms": 232938,
+                "text": "Now listen and answer questions 6 to 10."
+              },
+              {
+                "speaker": "man",
+                "accent": "en-CA",
+                "start_ms": 233338,
+                "end_ms": 239491,
+                "text": "Great. So how do I actually sign up? Do I need to bring anything with me?"
+              },
+              {
+                "speaker": "receptionist",
+                "accent": "en-NZ",
+                "start_ms": 239891,
+                "end_ms": 260661,
+                "text": "Just come in to reception. People often think they need a passport photo, but we take your picture here at the desk. And you can pay by card or cash, it doesn't matter which. The one thing we do need is proof of address, so a power bill or a bank statement is fine."
+              },
+              {
+                "speaker": "man",
+                "accent": "en-CA",
+                "start_ms": 261061,
+                "end_ms": 264907,
+                "text": "No problem. Is it easy to park near the centre?"
+              },
+              {
+                "speaker": "receptionist",
+                "accent": "en-NZ",
+                "start_ms": 265307,
+                "end_ms": 282230,
+                "text": "Well, the car park belongs to the council, so members don't get a discount, I'm afraid. It's two dollars an hour, weekends included. The real issue is that it's usually full by nine in the morning, so a lot of our regulars cycle in."
+              },
+              {
+                "speaker": "man",
+                "accent": "en-CA",
+                "start_ms": 282630,
+                "end_ms": 294553,
+                "text": "I'll probably walk, then. It's only about ten minutes from my place. Actually, I wanted to ask about volunteering, too. I've got quite a bit of free time at the moment."
+              },
+              {
+                "speaker": "receptionist",
+                "accent": "en-NZ",
+                "start_ms": 294953,
+                "end_ms": 305722,
+                "text": "Oh, wonderful, we always need people. There's the café, there's the community van, and there are our computer help sessions for older residents. Do any of those appeal?"
+              },
+              {
+                "speaker": "man",
+                "accent": "en-CA",
+                "start_ms": 306122,
+                "end_ms": 323430,
+                "text": "Well, I drove a delivery van for years, so I did think about the van, but to be honest, I'd like a change. And I'm hopeless in a kitchen. I used to work in IT support, so the computer sessions sound like the best fit."
+              },
+              {
+                "speaker": "receptionist",
+                "accent": "en-NZ",
+                "start_ms": 323830,
+                "end_ms": 329984,
+                "text": "Perfect. The volunteer coordinator will be at our open day, so you could meet her there."
+              },
+              {
+                "speaker": "man",
+                "accent": "en-CA",
+                "start_ms": 330384,
+                "end_ms": 331153,
+                "text": "When's that?"
+              },
+              {
+                "speaker": "receptionist",
+                "accent": "en-NZ",
+                "start_ms": 331553,
+                "end_ms": 345784,
+                "text": "It was going to be Saturday the 12th, but that's the day of the harbour fun run and the roads will be closed, so we've moved it to Sunday the 13th. It runs from ten till two."
+              },
+              {
+                "speaker": "man",
+                "accent": "en-CA",
+                "start_ms": 346184,
+                "end_ms": 356568,
+                "text": "The 13th suits me. I'm away on the 19th and 20th, so I'm glad it isn't the weekend after. And how do I get my membership card?"
+              },
+              {
+                "speaker": "receptionist",
+                "accent": "en-NZ",
+                "start_ms": 356968,
+                "end_ms": 369276,
+                "text": "We used to post them out, but too many went missing, so now you pick your card up from reception on your first visit. We'll email you a receipt straight away, though."
+              },
+              {
+                "speaker": "man",
+                "accent": "en-CA",
+                "start_ms": 369676,
+                "end_ms": 372368,
+                "text": "Brilliant. Thanks so much for your help."
+              },
+              {
+                "speaker": "receptionist",
+                "accent": "en-NZ",
+                "start_ms": 372768,
+                "end_ms": 374691,
+                "text": "You're welcome. See you soon."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 375091,
+                "end_ms": 381630,
+                "text": "That is the end of the recording. You now have half a minute to check your answers."
+              }
+            ],
+            "tts_provider": "fake",
+            "voices": {
+              "narrator": "fake-en-GB-male-0",
+              "receptionist": "fake-en-NZ-female-2",
+              "man": "fake-en-CA-male-2"
+            }
+          },
+          "groups": [
+            {
+              "options": null,
+              "layout": {
+                "title": "Harbourside Community Centre: activities for members",
+                "template": null,
+                "table": {
+                  "columns": [
+                    "Activity",
+                    "Details",
+                    "Cost for members",
+                    "Notes"
+                  ],
+                  "rows": [
+                    [
+                      "Lap swimming",
+                      "6–8 am, weekdays",
+                      "free",
+                      "towels provided; bring a {1} for the lockers"
+                    ],
+                    [
+                      "Pottery class",
+                      "{2} evenings",
+                      "$18 per session",
+                      "clay and glazes included"
+                    ],
+                    [
+                      "Community garden",
+                      "volunteers meet on Saturday mornings",
+                      "${3} per year",
+                      "plots are 2 m × 3 m"
+                    ],
+                    [
+                      "Five-a-side football",
+                      "Friday, 7.30 pm, sports hall",
+                      "$6 per game",
+                      "players must wear {4}"
+                    ],
+                    [
+                      "Tool library",
+                      "loan period: up to {5}",
+                      "free",
+                      "e.g. drills, ladders"
+                    ]
+                  ]
+                },
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "Lap swimming: item for the lockers",
+                  "options": null,
+                  "answer": [
+                    "padlock"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The receptionist says 'you will need your own padlock for the lockers'; 'need your own' is paraphrased as 'bring'.",
+                    "distractors": [
+                      {
+                        "option": "towel",
+                        "why_wrong": "Towels are provided, so the man does not need to bring one."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "6",
+                    "quote": "you will need your own padlock for the lockers"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "Pottery class: day",
+                  "options": null,
+                  "answer": [
+                    "Wednesday",
+                    "Wednesdays"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The class 'used to run on Tuesday evenings' but the tutor changed her timetable, 'so it's on Wednesday evenings now'.",
+                    "distractors": [
+                      {
+                        "option": "Tuesday",
+                        "why_wrong": "This was the old day; the receptionist says it used to run then."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "8",
+                    "quote": "so it's on Wednesday evenings now"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "Community garden: cost per year",
+                  "options": null,
+                  "answer": [
+                    "35",
+                    "thirty-five",
+                    "thirty five"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The fee 'went up in July, so it's 35 dollars now'.",
+                    "distractors": [
+                      {
+                        "option": "30",
+                        "why_wrong": "This was the old fee before it went up in July."
+                      },
+                      {
+                        "option": "60",
+                        "why_wrong": "This is the price of an individual membership, not a garden plot."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "10",
+                    "quote": "so it's 35 dollars now"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "Football: required footwear",
+                  "options": null,
+                  "answer": [
+                    "indoor shoes"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'You have to bring indoor shoes' matches 'players must wear'.",
+                    "distractors": [
+                      {
+                        "option": "boots",
+                        "why_wrong": "Boots with studs are not allowed."
+                      },
+                      {
+                        "option": "running shoes",
+                        "why_wrong": "Outdoor running shoes are not allowed on the new floor."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "12",
+                    "quote": "You have to bring indoor shoes"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "Tool library: loan period",
+                  "options": null,
+                  "answer": [
+                    "two weeks",
+                    "2 weeks"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The receptionist first says 'for a week', then corrects herself: 'They extended it last month, so it's two weeks now.'",
+                    "distractors": [
+                      {
+                        "option": "a week",
+                        "why_wrong": "This is out of date; the receptionist corrects herself straight away."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "14",
+                    "quote": "so it's two weeks now"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "table_completion",
+              "instructions": "Complete the table below.\nWrite NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+              "max_words": 2,
+              "allow_number": true,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 6,
+                  "prompt": "What does the man need to take with him when he joins?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "a passport photo"
+                    },
+                    {
+                      "letter": "B",
+                      "text": "proof of address"
+                    },
+                    {
+                      "letter": "C",
+                      "text": "a bank card"
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'The one thing we do need is proof of address', for example a power bill or bank statement.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "People often think they need a passport photo, but the picture is taken at the desk."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "He can pay by card or cash, 'it doesn't matter which', so a bank card is not required."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "18",
+                    "quote": "The one thing we do need is proof of address"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "What does the receptionist say about parking?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "It can be hard to find a space in the morning."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "Members pay a reduced rate."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "It is free at weekends."
+                    }
+                  ],
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'It's usually full by nine in the morning' is paraphrased as 'it can be hard to find a space in the morning'.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "'Members don't get a discount' because the car park belongs to the council."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Parking costs two dollars an hour, 'weekends included', so it is not free at weekends."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "20",
+                    "quote": "it's usually full by nine in the morning"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "Which volunteering role does the man prefer?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "working in the café"
+                    },
+                    {
+                      "letter": "B",
+                      "text": "driving the community van"
+                    },
+                    {
+                      "letter": "C",
+                      "text": "helping people with computers"
+                    }
+                  ],
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "inference",
+                  "explanation": {
+                    "correct": "He used to work in IT support, 'so the computer sessions sound like the best fit', which means helping older residents with computers.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "He says he is 'hopeless in a kitchen', which rules out the café."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "He thought about the van because he drove one for years, but says he would 'like a change'."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "23",
+                    "quote": "so the computer sessions sound like the best fit"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 9,
+                  "prompt": "When will the open day take place?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "Saturday 12th"
+                    },
+                    {
+                      "letter": "B",
+                      "text": "Sunday 13th"
+                    },
+                    {
+                      "letter": "C",
+                      "text": "Saturday 19th"
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The open day 'was going to be Saturday the 12th', but because of the fun run it was moved 'to Sunday the 13th'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "This was the original date, changed because of the harbour fun run."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The 19th is when the man will be away, not the date of the open day."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "26",
+                    "quote": "so we've moved it to Sunday the 13th"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "How will the man get his membership card?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "He will collect it at reception."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "It will be sent by email."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "It will be posted to him."
+                    }
+                  ],
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'Now you pick your card up from reception' is paraphrased as 'collect it at reception'.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "Only the receipt is emailed, not the card."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Cards 'used to' be posted out, but this stopped because too many went missing."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "28",
+                    "quote": "now you pick your card up from reception on your first visit"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose the correct letter, A, B or C.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
