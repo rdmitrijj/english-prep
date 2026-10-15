@@ -75,3 +75,39 @@ button {
   color: #666;
   font-size: 0.9em;
 }
+
+/* report and lists (inside the normal app layout) */
+table.grid {
+  border-collapse: collapse;
+}
+table.grid td,
+table.grid th {
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+table.grid caption {
+  text-align: left;
+  font-weight: 600;
+  padding-bottom: 4px;
+}
+.report .cols {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+.report .answers {
+  width: 100%;
+}
+.report tr.wrong td:nth-child(5) {
+  color: #b00020;
+}
+.report tr.right td:nth-child(5) {
+  color: #1b7a1b;
+}
+.report .slow {
+  color: #b00020;
+}

@@ -28,6 +28,7 @@ services:
       JWT_SECRET: dev-only-secret-change-me-in-production-0123456789
       COOKIE_SECURE: "false"
       CONTENT_DIR: /srv/content
+      EXAM_TIME_SCALE: ${EXAM_TIME_SCALE:-1}  # e.g. `EXAM_TIME_SCALE=0.05 docker compose up -d` → 3-minute Reading
     volumes:
       - ./backend:/srv/backend
       - ./content:/srv/content
