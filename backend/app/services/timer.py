@@ -25,11 +25,13 @@ def scaled(duration_s: int) -> int:
     return max(1, round(duration_s * get_settings().exam_time_scale))
 
 
-def start(asec: AttemptSection, duration_s: int | None) -> None:
-    """Idempotent: starting twice (double click, refresh) keeps the first deadline."""
+def start(asec: AttemptSection, duration_s: int | None, scale: bool = True) -> None:
+    """Idempotent: starting twice (double click, refresh) keeps the first deadline.
+    `scale=False` for Listening: its time is the recording's length, which EXAM_TIME_SCALE can't shrink."""
     if asec.started_at is None:
         asec.started_at = now()
-        asec.deadline_at = asec.started_at + timedelta(seconds=scaled(duration_s)) if duration_s else None
+        seconds = (scaled(duration_s) if scale else duration_s) if duration_s else None
+        asec.deadline_at = asec.started_at + timedelta(seconds=seconds) if seconds else None
 
 
 def accepts_saves(asec: AttemptSection) -> bool:

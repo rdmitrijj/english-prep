@@ -47,9 +47,23 @@ class PassageOut(Orm):
     glossary: dict[str, str]
 
 
+class AudioOut(Orm):
+    url: str
+    duration_ms: int
+
+
+class SegmentOut(BaseModel):
+    speaker: str
+    start_ms: int
+    end_ms: int
+    text: str
+
+
 class PartOut(Orm):
     number: int
     passage: PassageOut | None
+    audio: AudioOut | None = None
+    transcript: list[SegmentOut] | None = None  # practice only: in a mock the transcript would give answers away
     groups: list[GroupOut]
 
 
@@ -163,7 +177,7 @@ class PracticeGroup(BaseModel):
 
 
 class PracticeCreate(BaseModel):
-    skill: Literal[Skill.reading]  # ponytail: listening practice arrives in M5
+    skill: Literal[Skill.reading, Skill.listening]
     qtype: QType | None = None
     topic: str | None = None
     level: Literal["easy", "medium", "hard"] | None = None

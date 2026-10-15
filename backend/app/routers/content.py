@@ -4,10 +4,9 @@ from sqlalchemy.orm import selectinload
 
 from app.models.content import Test
 from app.models.enums import ContentStatus, TestKind
-from app.routers.attempts import Session
+from app.routers.attempts import Session, shown_seconds
 from app.schemas.attempts import TestOut, TestSectionOut
 from app.security import CurrentUser
-from app.services import timer
 
 router = APIRouter(tags=["content"])
 
@@ -20,5 +19,5 @@ async def list_mock_tests(user: CurrentUser, session: Session):
         .where(Test.kind == TestKind.mock, Test.status == ContentStatus.published).order_by(Test.slug)
     )
     return [TestOut(id=t.id, title=t.title, sections=[
-        TestSectionOut(skill=s.skill, duration_s=timer.scaled(s.duration_s) if s.duration_s else None) for s in t.sections
+        TestSectionOut(skill=s.skill, duration_s=await shown_seconds(session, s)) for s in t.sections
     ]) for t in tests]

@@ -7,11 +7,11 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.db import get_session
 from app.models.attempts import Attempt, AttemptSection, Response
 from app.models.content import Section, Test
-from app.models.enums import AttemptStatus, ContentStatus, SubmitReason, TestKind
+from app.models.enums import AttemptStatus, ContentStatus, Skill, SubmitReason, TestKind
 from app.repositories import attempts as repo
 from app.schemas.attempts import (
-    AttemptCreate, AttemptOut, AttemptSummary, FeedbackOut, GroupOut, PartOut, PassageOut, QuestionOut, ReportOut, ResponseOut,
-    SaveIn, SaveOut, SectionOut,
+    AttemptCreate, AttemptOut, AttemptSummary, AudioOut, FeedbackOut, GroupOut, PartOut, PassageOut, QuestionOut, ReportOut, ResponseOut,
+    SaveIn, SaveOut, SectionOut, SegmentOut,
 )
 from app.security import CurrentUser
 from app.services import scoring, timer
@@ -46,6 +46,11 @@ async def feedback(session: AsyncSession, asec: AttemptSection) -> list[Feedback
     ) for q, g, _, k in await repo.items(session, asec) if (r := responses.get(q.id)) and r.is_correct is not None]
 
 
+async def shown_seconds(session: AsyncSession, section: Section | None) -> int | None:
+    seconds = await repo.section_seconds(session, section) if section else None
+    return seconds and (seconds if section.skill == Skill.listening else timer.scaled(seconds))
+
+
 async def attempt_out(session: AsyncSession, attempt: Attempt) -> AttemptOut:
     test = await session.get(Test, attempt.test_id) if attempt.test_id else None
     sections = []
@@ -56,16 +61,18 @@ async def attempt_out(session: AsyncSession, attempt: Attempt) -> AttemptOut:
             parts = [PartOut(
                 number=part.number if section else i + 1,  # practice: passages numbered within the session
                 passage=PassageOut.model_validate(passage) if passage else None,
+                audio=AudioOut.model_validate(audio) if audio else None,
+                transcript=[SegmentOut.model_validate(seg) for seg in audio.segments] if audio and not section else None,
                 groups=[GroupOut(
                     id=g.id, qtype=g.qtype, instructions=g.instructions, max_words=g.max_words,
                     options=g.options, layout=g.layout,
                     pick=len(g.questions) if scoring.is_multi_answer(g.qtype, g.options) else 1,
                     questions=[QuestionOut.model_validate(q) for q in g.questions],
                 ) for g in groups],
-            ) for i, (part, passage, groups) in enumerate(await repo.parts_with_groups(session, asec))]
+            ) for i, (part, passage, audio, groups) in enumerate(await repo.parts_with_groups(session, asec))]
         sections.append(SectionOut(
             id=asec.id, skill=asec.skill,
-            duration_s=timer.scaled(section.duration_s) if section and section.duration_s else None,
+            duration_s=await shown_seconds(session, section),
             started_at=asec.started_at, deadline_at=asec.deadline_at,
             submitted_at=asec.submitted_at, submit_reason=asec.submit_reason, ui_state=asec.ui_state,
             responses=[ResponseOut.model_validate(r) for r in (await repo.responses_by_question(session, asec.id)).values()],
@@ -113,7 +120,9 @@ async def get_attempt(attempt_id: int, user: CurrentUser, session: Session):
 async def start_section(attempt_id: int, asec_id: int, user: CurrentUser, session: Session):
     attempt = await load(session, attempt_id, user.id)
     asec = find_section(attempt, asec_id)
-    timer.start(asec, (await session.get(Section, asec.section_id)).duration_s if asec.section_id else None)
+    section = await session.get(Section, asec.section_id) if asec.section_id else None
+    if section:
+        timer.start(asec, await repo.section_seconds(session, section), scale=section.skill != Skill.listening)
     await session.commit()
     return await attempt_out(session, attempt)
 

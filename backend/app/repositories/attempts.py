@@ -3,7 +3,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import selectinload
 
 from app.models.attempts import Attempt, AttemptSection, Response
-from app.models.content import AnswerKey, Part, Passage, Question, QuestionGroup, Section, Tag, Test
+from app.models.content import AnswerKey, AudioAsset, Part, Passage, Question, QuestionGroup, Section, Tag, Test
 from app.models.enums import AttemptStatus, ContentStatus, Skill, TestKind
 
 
@@ -28,7 +28,10 @@ def _in_scope(query: Select, asec: AttemptSection) -> Select:
     return query.where(QuestionGroup.id.in_(asec.group_ids or []))
 
 
-async def parts_with_groups(session: AsyncSession, asec: AttemptSection) -> list[tuple[Part, Passage | None, list[QuestionGroup]]]:
+Content = tuple[Part, Passage | None, AudioAsset | None, list[QuestionGroup]]
+
+
+async def parts_with_groups(session: AsyncSession, asec: AttemptSection) -> list[Content]:
     """Content the candidate sees, part by part — never answer keys."""
     groups = list(await session.scalars(
         _in_scope(select(QuestionGroup).join(Part, QuestionGroup.part_id == Part.id), asec)
@@ -41,14 +44,27 @@ async def parts_with_groups(session: AsyncSession, asec: AttemptSection) -> list
         for g in groups:
             first[g.part_id] = min(first.get(g.part_id, len(rank)), rank[g.id])
         groups.sort(key=lambda g: (first[g.part_id], g.order))
-    passages = {p.part_id: p for p in await session.scalars(
-        select(Passage).where(Passage.part_id.in_({g.part_id for g in groups})))}
-    out: list[tuple[Part, Passage | None, list[QuestionGroup]]] = []
+    part_ids = {g.part_id for g in groups}
+    passages = {p.part_id: p for p in await session.scalars(select(Passage).where(Passage.part_id.in_(part_ids)))}
+    audios = {a.part_id: a for a in await session.scalars(select(AudioAsset).where(AudioAsset.part_id.in_(part_ids)))}
+    out: list[Content] = []
     for g in groups:
         if not out or out[-1][0].id != g.part_id:
-            out.append((g.part, passages.get(g.part_id), []))
-        out[-1][2].append(g)
+            out.append((g.part, passages.get(g.part_id), audios.get(g.part_id), []))
+        out[-1][3].append(g)
     return out
+
+
+LISTENING_REVIEW_S = 120  # the 2-minute review after the recording (RESEARCH §2.1)
+
+
+async def section_seconds(session: AsyncSession, section: Section) -> int | None:
+    """Reading/Writing: the fixed duration. Listening: the recording's length plus the review."""
+    if section.skill != Skill.listening:
+        return section.duration_s
+    total_ms = await session.scalar(
+        select(func.sum(AudioAsset.duration_ms)).join(Part, AudioAsset.part_id == Part.id).where(Part.section_id == section.id))
+    return -(-(total_ms or 0) // 1000) + LISTENING_REVIEW_S
 
 
 async def items(session: AsyncSession, asec: AttemptSection) -> list[tuple[Question, QuestionGroup, Part, AnswerKey]]:
