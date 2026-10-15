@@ -1,8 +1,23 @@
-"""Band arithmetic. Conversion tables live in the `band_tables` DB rows, never in this code."""
+"""Band arithmetic, section scoring and the attempt report. Conversion tables live in the
+`band_tables` DB rows, never in this code."""
 
 import math
+from collections import defaultdict
 from collections.abc import Iterable
+from datetime import datetime
+from itertools import groupby
 from typing import Any
+
+from sqlalchemy import select
+from sqlalchemy.ext.asyncio import AsyncSession
+
+from app.models.attempts import Attempt, AttemptSection, Response
+from app.models.content import BandTable
+from app.models.enums import AttemptStatus, QType, Skill, SubmitReason
+from app.repositories import attempts as repo
+from app.services.normalize import classify_choice, classify_text
+
+BAND_TABLE_SKILL = {Skill.reading: "reading_academic", Skill.listening: "listening"}
 
 
 def band_for_raw(rows: list[dict[str, Any]], raw: int) -> tuple[float, bool]:
@@ -21,3 +36,96 @@ def round_half_up(value: float) -> float:
 def overall_band(section_bands: Iterable[float]) -> float:
     bands = list(section_bands)
     return round_half_up(sum(bands) / len(bands))
+
+
+def is_multi_answer(qtype: QType, group_options: list | None) -> bool:
+    """'Choose TWO letters': one checkbox list shared by several question numbers."""
+    return qtype == QType.mcq and bool(group_options)
+
+
+async def score_section(session: AsyncSession, asec: AttemptSection) -> None:
+    """Mark every question (unanswered ones get a `blank` response row), then raw → band."""
+    items = await repo.section_items(session, asec.section_id)
+    responses = await repo.responses_by_question(session, asec.id)
+    for q, _, _, _ in items:
+        if q.id not in responses:
+            responses[q.id] = Response(attempt_section_id=asec.id, question_id=q.id, answer=None,
+                                       time_ms=0, change_count=0, flagged=False)
+            session.add(responses[q.id])
+
+    for _, group_items in groupby(items, key=lambda it: it[1].id):
+        group_items = list(group_items)
+        group = group_items[0][1]
+        if is_multi_answer(group.qtype, group.options):
+            # Every question in the group stores the same selection; each correct letter earns one mark.
+            answer = responses[group_items[0][0].id].answer
+            chosen = {str(a).upper() for a in answer} if isinstance(answer, list) else set()
+            key = {a.upper() for a in group_items[0][3].accepted}
+            hits = len(chosen & key) if len(chosen) <= len(group_items) else 0
+            for i, (q, _, _, _) in enumerate(group_items):
+                r = responses[q.id]
+                r.error_class = None if i < hits else ("blank" if not chosen else "wrong_option")
+                r.is_correct = r.error_class is None
+            continue
+        for q, g, _, k in group_items:
+            r = responses[q.id]
+            answer = r.answer if isinstance(r.answer, str) else None
+            if g.max_words is not None and not g.options:
+                r.error_class = classify_text(answer, k.accepted, g.max_words)
+            else:
+                r.error_class = classify_choice(answer, k.accepted, g.qtype)
+            r.is_correct = r.error_class is None
+
+    asec.raw_score = sum(r.is_correct for r in responses.values())
+    table = await session.scalar(select(BandTable).where(
+        BandTable.skill == BAND_TABLE_SKILL[asec.skill], BandTable.is_active))
+    asec.band, _ = band_for_raw(table.rows, asec.raw_score)
+    asec.band_table_id = table.id
+
+
+async def submit_section(session: AsyncSession, attempt: Attempt, asec: AttemptSection,
+                         reason: SubmitReason, at: datetime) -> None:
+    await score_section(session, asec)
+    asec.submitted_at, asec.submit_reason = at, reason
+    if all(s.submitted_at for s in attempt.sections):
+        attempt.status, attempt.finished_at = AttemptStatus.completed, at
+        attempt.report = await build_report(session, attempt)
+
+
+async def build_report(session: AsyncSession, attempt: Attempt) -> dict[str, Any]:
+    """A frozen snapshot, so later content edits never change a past report."""
+    sections = []
+    for asec in attempt.sections:
+        items = await repo.section_items(session, asec.section_id)
+        responses = await repo.responses_by_question(session, asec.id)
+        table = await session.get(BandTable, asec.band_table_id)
+        questions = [{
+            "number": q.number, "part": p.number, "qtype": g.qtype.value,
+            "answer": responses[q.id].answer, "accepted": k.accepted,
+            "is_correct": responses[q.id].is_correct, "error_class": responses[q.id].error_class,
+            "time_ms": responses[q.id].time_ms, "flagged": responses[q.id].flagged,
+        } for q, g, p, k in items]
+
+        by_type: dict[str, list[int]] = defaultdict(lambda: [0, 0])
+        by_part: dict[int, dict[str, int]] = defaultdict(lambda: {"correct": 0, "total": 0, "time_ms": 0})
+        for x in questions:
+            by_type[x["qtype"]][0] += x["is_correct"]
+            by_type[x["qtype"]][1] += 1
+            part = by_part[x["part"]]
+            part["correct"] += x["is_correct"]
+            part["total"] += 1
+            part["time_ms"] += x["time_ms"]
+
+        sections.append({
+            "skill": asec.skill.value, "raw": asec.raw_score, "total": len(questions),
+            "band": asec.band, "band_is_estimate": band_for_raw(table.rows, asec.raw_score)[1],
+            "submit_reason": asec.submit_reason.value,
+            "time_used_ms": int((asec.submitted_at - asec.started_at).total_seconds() * 1000),
+            "by_type": [{"qtype": t, "correct": c, "total": n} for t, (c, n) in by_type.items()],
+            "parts": [{"number": n, **v} for n, v in sorted(by_part.items())],
+            "slowest": sorted(({"number": x["number"], "time_ms": x["time_ms"]} for x in questions),
+                              key=lambda x: -x["time_ms"])[:5],
+            "questions": questions,
+        })
+    # ponytail: top-3 weaknesses and next-step links arrive with weakness scoring in M7.
+    return {"sections": sections}

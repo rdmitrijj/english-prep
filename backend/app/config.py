@@ -19,6 +19,7 @@ class Settings(BaseSettings):
     llm_model_evaluate: str = "gpt-6.1-sol"
     llm_model_verify: str = "gpt-5.6-terra"
 
+    exam_time_scale: float = 1.0  # dev only: 0.05 turns a 60-minute section into 3 minutes
     content_dir: str = "/srv/content"  # generated JSON + media (repo-root content/)
 
 
