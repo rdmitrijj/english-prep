@@ -116,3 +116,16 @@ def test_missing_api_key_is_a_clear_error(monkeypatch):
     with pytest.raises(llm.LLMError, match="OPENAI_API_KEY"):
         llm._client()
     llm._client.cache_clear()
+
+
+def test_offline_rubrics_and_verifier_answers():
+    from scripts.content.offline import apply_answers, set_rubrics
+    from scripts.content.schema import VerifierAnswers
+
+    test = set_rubrics(make())
+    assert test.sections[0].parts[0].groups[0].instructions.startswith("Do the following statements agree")
+    answers = [{"number": q.number, "answer": q.answer, "confidence": 0.9, "note": ""} for q in test.questions()]
+    answers[0]["answer"] = ["TRUE"]  # key is FALSE
+    apply_answers(test, VerifierAnswers.model_validate({"answers": answers}))
+    assert [q.number for q in test.questions() if q.review] == [1]
+    assert test.status == ContentStatus.needs_review
