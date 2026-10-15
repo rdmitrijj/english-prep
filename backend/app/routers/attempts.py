@@ -131,14 +131,15 @@ async def save_responses(attempt_id: int, asec_id: int, body: SaveIn, user: Curr
         if item.question_id not in valid_ids:
             raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY, f"Question {item.question_id} is not in this section")
         r = existing.get(item.question_id)
-        if r is not None and r.is_correct is not None:  # practice: answers lock once the group is checked
+        answer = item.answer or None  # "" and [] mean "no answer"
+        # Practice: once a group is checked its answers are locked (time and the review flag still update).
+        if r is not None and r.is_correct is not None and answer != r.answer:
             raise HTTPException(status.HTTP_409_CONFLICT, f"Question {item.question_id} was already checked")
         if r is None:
             r = Response(attempt_section_id=asec.id, question_id=item.question_id, answer=None,
                          time_ms=0, change_count=0, flagged=False)
             session.add(r)
             existing[item.question_id] = r
-        answer = item.answer or None  # "" and [] mean "no answer"
         if answer != r.answer:
             if r.answer is not None:
                 r.change_count += 1

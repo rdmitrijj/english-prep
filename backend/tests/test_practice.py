@@ -64,6 +64,8 @@ async def test_session_feedback_only_after_answering_and_answers_lock(client, us
     assert fb[1]["evidence"]["paragraph"] == "A" and fb[1]["explanation"]["correct"]
 
     assert (await client.put(save, json={"responses": [{"question_id": q[1], "answer": "FALSE"}]})).status_code == 409
+    # time keeps counting on a checked question, as long as the answer is unchanged
+    assert (await client.put(save, json={"responses": [{"question_id": q[1], "answer": "TRUE", "time_ms": 2000}]})).status_code == 200
     restored = (await client.get(f"/api/attempts/{aid}")).json()["sections"][0]
     assert len(restored["feedback"]) == 3  # feedback survives a refresh
 
@@ -72,7 +74,7 @@ async def test_session_feedback_only_after_answering_and_answers_lock(client, us
     assert report["test_title"] == "Practice"
     s = report["report"]["sections"][0]
     assert (s["raw"], s["total"], s["band"]) == (1, 3, None)
-    assert s["time_on_questions_ms"] == 3000
+    assert s["time_on_questions_ms"] == 5000
 
 
 async def test_filters_and_unknown_groups(client, user, content):
