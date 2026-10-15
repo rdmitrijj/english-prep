@@ -1,6 +1,6 @@
 from fastapi import APIRouter, FastAPI
 
-from app.routers import attempts, auth, content, health
+from app.routers import attempts, auth, content, health, practice
 
 app = FastAPI(title="English-prep API", docs_url="/api/docs", openapi_url="/api/openapi.json", redoc_url=None)
 
@@ -9,4 +9,5 @@ api.include_router(health.router)
 api.include_router(auth.router)
 api.include_router(content.router)
 api.include_router(attempts.router)
+api.include_router(practice.router)
 app.include_router(api)

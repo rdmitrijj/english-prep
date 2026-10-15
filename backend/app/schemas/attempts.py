@@ -59,6 +59,20 @@ class ResponseOut(Orm):
     flagged: bool
 
 
+class FeedbackOut(BaseModel):
+    """Practice only, and only for groups already checked: the key, why it is right, and where in the text."""
+
+    question_id: int
+    group_id: int
+    number: int
+    answer: Any
+    accepted: list[str]
+    is_correct: bool
+    error_class: str | None
+    explanation: dict[str, Any]  # {correct, distractors: [{option, why_wrong}]}
+    evidence: dict[str, Any]  # {paragraph, quote}
+
+
 class SectionOut(Orm):
     id: int
     skill: Skill
@@ -70,6 +84,7 @@ class SectionOut(Orm):
     ui_state: dict[str, Any]
     responses: list[ResponseOut]
     parts: list[PartOut] | None  # only once the section has started
+    feedback: list[FeedbackOut] = []  # practice: checked groups only
 
 
 class AttemptOut(BaseModel):
@@ -135,3 +150,24 @@ class TestOut(Orm):
 class SaveOut(BaseModel):
     server_now: datetime
     deadline_at: datetime | None
+
+
+class PracticeGroup(BaseModel):
+    group_id: int
+    qtype: QType
+    topic: str
+    topic_label: str
+    level: Literal["easy", "medium", "hard"]
+    questions: int
+    seen: bool
+
+
+class PracticeCreate(BaseModel):
+    skill: Literal[Skill.reading]  # ponytail: listening practice arrives in M5
+    qtype: QType | None = None
+    topic: str | None = None
+    level: Literal["easy", "medium", "hard"] | None = None
+
+
+class CheckIn(BaseModel):
+    group_id: int

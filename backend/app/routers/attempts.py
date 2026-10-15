@@ -10,7 +10,7 @@ from app.models.content import Section, Test
 from app.models.enums import AttemptStatus, ContentStatus, SubmitReason, TestKind
 from app.repositories import attempts as repo
 from app.schemas.attempts import (
-    AttemptCreate, AttemptOut, AttemptSummary, GroupOut, PartOut, PassageOut, QuestionOut, ReportOut, ResponseOut,
+    AttemptCreate, AttemptOut, AttemptSummary, FeedbackOut, GroupOut, PartOut, PassageOut, QuestionOut, ReportOut, ResponseOut,
     SaveIn, SaveOut, SectionOut,
 )
 from app.security import CurrentUser
@@ -38,33 +38,43 @@ def find_section(attempt: Attempt, asec_id: int) -> AttemptSection:
     return asec
 
 
+async def feedback(session: AsyncSession, asec: AttemptSection) -> list[FeedbackOut]:
+    responses = await repo.responses_by_question(session, asec.id)
+    return [FeedbackOut(
+        question_id=q.id, group_id=g.id, number=q.number, answer=r.answer, accepted=k.accepted,
+        is_correct=r.is_correct, error_class=r.error_class, explanation=q.explanation, evidence=q.evidence,
+    ) for q, g, _, k in await repo.items(session, asec) if (r := responses.get(q.id)) and r.is_correct is not None]
+
+
 async def attempt_out(session: AsyncSession, attempt: Attempt) -> AttemptOut:
-    test = await session.get(Test, attempt.test_id)
+    test = await session.get(Test, attempt.test_id) if attempt.test_id else None
     sections = []
     for asec in attempt.sections:
-        section = await session.get(Section, asec.section_id)
+        section = await session.get(Section, asec.section_id) if asec.section_id else None
         parts = None
         if asec.started_at:
             parts = [PartOut(
-                number=part.number,
+                number=part.number if section else i + 1,  # practice: passages numbered within the session
                 passage=PassageOut.model_validate(passage) if passage else None,
                 groups=[GroupOut(
                     id=g.id, qtype=g.qtype, instructions=g.instructions, max_words=g.max_words,
                     options=g.options, layout=g.layout,
                     pick=len(g.questions) if scoring.is_multi_answer(g.qtype, g.options) else 1,
                     questions=[QuestionOut.model_validate(q) for q in g.questions],
-                ) for g in part.question_groups],
-            ) for part, passage in await repo.section_parts(session, asec.section_id)]
+                ) for g in groups],
+            ) for i, (part, passage, groups) in enumerate(await repo.parts_with_groups(session, asec))]
         sections.append(SectionOut(
             id=asec.id, skill=asec.skill,
-            duration_s=timer.scaled(section.duration_s) if section.duration_s else None,
+            duration_s=timer.scaled(section.duration_s) if section and section.duration_s else None,
             started_at=asec.started_at, deadline_at=asec.deadline_at,
             submitted_at=asec.submitted_at, submit_reason=asec.submit_reason, ui_state=asec.ui_state,
             responses=[ResponseOut.model_validate(r) for r in (await repo.responses_by_question(session, asec.id)).values()],
             parts=parts,
+            # Keys only ever leave the server for practice groups the user has already checked.
+            feedback=await feedback(session, asec) if asec.section_id is None else [],
         ))
-    return AttemptOut(id=attempt.id, mode=attempt.mode, status=attempt.status, test_title=test.title,
-                      server_now=timer.now(), sections=sections)
+    return AttemptOut(id=attempt.id, mode=attempt.mode, status=attempt.status,
+                      test_title=test.title if test else "Practice", server_now=timer.now(), sections=sections)
 
 
 @router.get("", response_model=list[AttemptSummary])
@@ -74,7 +84,7 @@ async def list_attempts(user: CurrentUser, session: Session):
         if a.status == AttemptStatus.in_progress:
             await timer.finalize_if_expired(session, a)
     titles = dict((await session.execute(select(Test.id, Test.title).where(Test.id.in_({a.test_id for a in attempts})))).all())
-    return [AttemptSummary(id=a.id, mode=a.mode, status=a.status, test_title=titles.get(a.test_id, ""),
+    return [AttemptSummary(id=a.id, mode=a.mode, status=a.status, test_title=titles.get(a.test_id, "Practice"),
                            skills=[s.skill for s in a.sections], started_at=a.started_at,
                            bands=[s.band for s in a.sections]) for a in attempts]
 
@@ -103,7 +113,7 @@ async def get_attempt(attempt_id: int, user: CurrentUser, session: Session):
 async def start_section(attempt_id: int, asec_id: int, user: CurrentUser, session: Session):
     attempt = await load(session, attempt_id, user.id)
     asec = find_section(attempt, asec_id)
-    timer.start(asec, (await session.get(Section, asec.section_id)).duration_s)
+    timer.start(asec, (await session.get(Section, asec.section_id)).duration_s if asec.section_id else None)
     await session.commit()
     return await attempt_out(session, attempt)
 
@@ -115,12 +125,14 @@ async def save_responses(attempt_id: int, asec_id: int, body: SaveIn, user: Curr
     asec = find_section(attempt, asec_id)
     if not timer.accepts_saves(asec):
         raise HTTPException(status.HTTP_409_CONFLICT, "This section is closed")
-    valid_ids = await repo.section_question_ids(session, asec.section_id)
+    valid_ids = await repo.question_ids(session, asec)
     existing = await repo.responses_by_question(session, asec.id)
     for item in body.responses:
         if item.question_id not in valid_ids:
             raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY, f"Question {item.question_id} is not in this section")
         r = existing.get(item.question_id)
+        if r is not None and r.is_correct is not None:  # practice: answers lock once the group is checked
+            raise HTTPException(status.HTTP_409_CONFLICT, f"Question {item.question_id} was already checked")
         if r is None:
             r = Response(attempt_section_id=asec.id, question_id=item.question_id, answer=None,
                          time_ms=0, change_count=0, flagged=False)
@@ -158,6 +170,6 @@ async def get_report(attempt_id: int, user: CurrentUser, session: Session):
     attempt = await load(session, attempt_id, user.id)
     if attempt.status != AttemptStatus.completed:
         raise HTTPException(status.HTTP_409_CONFLICT, "This attempt is not finished yet")
-    test = await session.get(Test, attempt.test_id)
-    return ReportOut(id=attempt.id, test_title=test.title, mode=attempt.mode, finished_at=attempt.finished_at,
+    test = await session.get(Test, attempt.test_id) if attempt.test_id else None
+    return ReportOut(id=attempt.id, test_title=test.title if test else "Practice", mode=attempt.mode, finished_at=attempt.finished_at,
                      overall_band=attempt.overall_band, report=attempt.report)

@@ -12,7 +12,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.models.attempts import Attempt, AttemptSection, Response
-from app.models.content import BandTable
+from app.models.content import AnswerKey, BandTable, Part, Question, QuestionGroup
 from app.models.enums import AttemptStatus, QType, Skill, SubmitReason
 from app.repositories import attempts as repo
 from app.services.normalize import classify_choice, classify_text
@@ -43,40 +43,54 @@ def is_multi_answer(qtype: QType, group_options: list | None) -> bool:
     return qtype == QType.mcq and bool(group_options)
 
 
-async def score_section(session: AsyncSession, asec: AttemptSection) -> None:
-    """Mark every question (unanswered ones get a `blank` response row), then raw → band."""
-    items = await repo.section_items(session, asec.section_id)
+Item = tuple[Question, QuestionGroup, Part, AnswerKey]
+
+
+def mark_group(group_items: list[Item], responses: dict[int, Response]) -> None:
+    """Set is_correct / error_class on every response of one question group."""
+    group = group_items[0][1]
+    if is_multi_answer(group.qtype, group.options):
+        # Every question in the group stores the same selection; each correct letter earns one mark.
+        answer = responses[group_items[0][0].id].answer
+        chosen = {str(a).upper() for a in answer} if isinstance(answer, list) else set()
+        key = {a.upper() for a in group_items[0][3].accepted}
+        hits = len(chosen & key) if len(chosen) <= len(group_items) else 0
+        for i, (q, _, _, _) in enumerate(group_items):
+            r = responses[q.id]
+            r.error_class = None if i < hits else ("blank" if not chosen else "wrong_option")
+            r.is_correct = r.error_class is None
+        return
+    for q, g, _, k in group_items:
+        r = responses[q.id]
+        answer = r.answer if isinstance(r.answer, str) else None
+        if g.max_words is not None and not g.options:
+            r.error_class = classify_text(answer, k.accepted, g.max_words)
+        else:
+            r.error_class = classify_choice(answer, k.accepted, g.qtype)
+        r.is_correct = r.error_class is None
+
+
+async def mark(session: AsyncSession, asec: AttemptSection, only_group: int | None = None) -> list[Item]:
+    """Mark all questions in scope (or one group). Unanswered ones get a `blank` response row."""
+    items = [it for it in await repo.items(session, asec) if only_group is None or it[1].id == only_group]
     responses = await repo.responses_by_question(session, asec.id)
     for q, _, _, _ in items:
         if q.id not in responses:
             responses[q.id] = Response(attempt_section_id=asec.id, question_id=q.id, answer=None,
                                        time_ms=0, change_count=0, flagged=False)
             session.add(responses[q.id])
-
     for _, group_items in groupby(items, key=lambda it: it[1].id):
-        group_items = list(group_items)
-        group = group_items[0][1]
-        if is_multi_answer(group.qtype, group.options):
-            # Every question in the group stores the same selection; each correct letter earns one mark.
-            answer = responses[group_items[0][0].id].answer
-            chosen = {str(a).upper() for a in answer} if isinstance(answer, list) else set()
-            key = {a.upper() for a in group_items[0][3].accepted}
-            hits = len(chosen & key) if len(chosen) <= len(group_items) else 0
-            for i, (q, _, _, _) in enumerate(group_items):
-                r = responses[q.id]
-                r.error_class = None if i < hits else ("blank" if not chosen else "wrong_option")
-                r.is_correct = r.error_class is None
-            continue
-        for q, g, _, k in group_items:
-            r = responses[q.id]
-            answer = r.answer if isinstance(r.answer, str) else None
-            if g.max_words is not None and not g.options:
-                r.error_class = classify_text(answer, k.accepted, g.max_words)
-            else:
-                r.error_class = classify_choice(answer, k.accepted, g.qtype)
-            r.is_correct = r.error_class is None
+        mark_group(list(group_items), responses)
+    return items
 
-    asec.raw_score = sum(r.is_correct for r in responses.values())
+
+async def score_section(session: AsyncSession, asec: AttemptSection) -> None:
+    """Mark everything, then raw → band (mock sections only; practice has no band)."""
+    await mark(session, asec)
+    responses = await repo.responses_by_question(session, asec.id)
+    asec.raw_score = sum(bool(r.is_correct) for r in responses.values())
+    if asec.section_id is None:
+        return
     table = await session.scalar(select(BandTable).where(
         BandTable.skill == BAND_TABLE_SKILL[asec.skill], BandTable.is_active))
     asec.band, _ = band_for_raw(table.rows, asec.raw_score)
@@ -96,11 +110,14 @@ async def build_report(session: AsyncSession, attempt: Attempt) -> dict[str, Any
     """A frozen snapshot, so later content edits never change a past report."""
     sections = []
     for asec in attempt.sections:
-        items = await repo.section_items(session, asec.section_id)
+        items = await repo.items(session, asec)
         responses = await repo.responses_by_question(session, asec.id)
-        table = await session.get(BandTable, asec.band_table_id)
+        table = await session.get(BandTable, asec.band_table_id) if asec.band_table_id else None
+        part_no: dict[int, int] = {}  # 1, 2, 3… in order of appearance (practice may mix tests)
+        for _, _, p, _ in items:
+            part_no.setdefault(p.id, len(part_no) + 1)
         questions = [{
-            "number": q.number, "part": p.number, "qtype": g.qtype.value,
+            "number": q.number, "part": part_no[p.id], "qtype": g.qtype.value,
             "answer": responses[q.id].answer, "accepted": k.accepted,
             "is_correct": responses[q.id].is_correct, "error_class": responses[q.id].error_class,
             "time_ms": responses[q.id].time_ms, "flagged": responses[q.id].flagged,
@@ -118,9 +135,10 @@ async def build_report(session: AsyncSession, attempt: Attempt) -> dict[str, Any
 
         sections.append({
             "skill": asec.skill.value, "raw": asec.raw_score, "total": len(questions),
-            "band": asec.band, "band_is_estimate": band_for_raw(table.rows, asec.raw_score)[1],
+            "band": asec.band, "band_is_estimate": bool(table and band_for_raw(table.rows, asec.raw_score)[1]),
             "submit_reason": asec.submit_reason.value,
             "time_used_ms": int((asec.submitted_at - asec.started_at).total_seconds() * 1000),
+            "time_on_questions_ms": sum(x["time_ms"] for x in questions),
             "by_type": [{"qtype": t, "correct": c, "total": n} for t, (c, n) in by_type.items()],
             "parts": [{"number": n, **v} for n, v in sorted(by_part.items())],
             "slowest": sorted(({"number": x["number"], "time_ms": x["time_ms"]} for x in questions),

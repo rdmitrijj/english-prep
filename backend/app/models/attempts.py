@@ -45,6 +45,7 @@ class AttemptSection(Base):
     band: Mapped[float | None] = mapped_column(Band)
     band_table_id: Mapped[int | None] = mapped_column(ForeignKey("band_tables.id"))
     ui_state: Mapped[dict[str, Any]] = mapped_column(JSONB, default=dict)  # highlights, notes, current question
+    group_ids: Mapped[list[int] | None] = mapped_column(JSONB)  # practice: the question groups picked for this session
 
     attempt: Mapped[Attempt] = relationship(back_populates="sections")
 
