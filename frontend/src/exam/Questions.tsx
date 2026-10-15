@@ -213,14 +213,17 @@ function Matching(props: Props) {
           </button>
         ))}
       </div>
-      {g.layout ? (
+      {g.layout?.template || g.layout?.table || g.layout?.steps ? (
         <LayoutView layout={g.layout} group={g} gap={zone} />
       ) : (
-        g.questions.map((q) => (
+        <>
+          {g.layout?.title && <p className="stem">{g.layout.title}</p>}
+          {g.questions.map((q) => (
           <Item key={q.id} q={q} {...props} anchor={false}>
             {q.prompt} {zone(q)}
           </Item>
-        ))
+          ))}
+        </>
       )}
     </>
   );

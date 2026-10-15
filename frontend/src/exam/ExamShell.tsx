@@ -4,6 +4,7 @@ import { Navigate, useNavigate, useParams } from "react-router";
 import { api, type Attempt, type AttemptSection, type User } from "../api";
 import "./exam.css";
 import QuestionGroup from "./Questions";
+import ListeningAudio from "./ListeningAudio";
 import ReadingView from "./ReadingView";
 import { isAnswered, useResponses } from "./useResponses";
 
@@ -32,15 +33,25 @@ export default function ExamPage({ user }: { user: User }) {
 
   if (!section.started_at) {
     const minutes = Math.round((section.duration_s ?? 0) / 60);
+    const listening = section.skill === "listening";
     return (
       <div className="intro">
-        <h1>{a.test_title}: Academic Reading</h1>
-        <p>Time: {minutes} minutes. Three passages, 40 questions.</p>
+        <h1>
+          {a.test_title}: {listening ? "Listening" : "Academic Reading"}
+        </h1>
+        <p>
+          {listening
+            ? `About ${minutes} minutes. Four parts, 40 questions.`
+            : `Time: ${minutes} minutes. Three passages, 40 questions.`}
+        </p>
         <ul>
+          {listening && <li>You will hear each recording ONCE only. It cannot be paused or replayed.</li>}
+          {listening && <li>Answer while you listen. After the recording you have 2 minutes to check your answers.</li>}
           <li>Answer all the questions. You can change your answers at any time during the test.</li>
           <li>The timer starts when you press Start and cannot be paused. Your answers are saved automatically.</li>
           <li>When time is up, the test is submitted with the answers saved so far.</li>
         </ul>
+        {listening && <SoundCheck />}
         {start.error && <p className="error">{start.error.message}</p>}
         <button className="primary" disabled={start.isPending} onClick={() => start.mutate(section.id)}>
           Start test
@@ -51,14 +62,19 @@ export default function ExamPage({ user }: { user: User }) {
   return <ExamShell key={section.id} attempt={a} section={section} user={user} />;
 }
 
-type Prefs = { font: "standard" | "large" | "xlarge"; scheme: "standard" | "white-on-black" | "yellow-on-black" };
+type Prefs = {
+  font: "standard" | "large" | "xlarge";
+  scheme: "standard" | "white-on-black" | "yellow-on-black";
+  volume: number; // 0–1, Listening
+};
+const DEFAULT_PREFS: Prefs = { font: "standard", scheme: "standard", volume: 0.8 };
 
 function usePrefs(): [Prefs, (p: Prefs) => void] {
   const [prefs, setPrefs] = useState<Prefs>(() => {
     try {
-      return { font: "standard", scheme: "standard", ...JSON.parse(localStorage.getItem("exam-prefs") ?? "{}") };
+      return { ...DEFAULT_PREFS, ...JSON.parse(localStorage.getItem("exam-prefs") ?? "{}") };
     } catch {
-      return { font: "standard", scheme: "standard" };
+      return DEFAULT_PREFS;
     }
   });
   const save = (p: Prefs) => {
@@ -85,6 +101,9 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
   const [overlay, setOverlay] = useState<null | "settings" | "help" | "hidden">(null);
   const [timeUp, setTimeUp] = useState(false);
   const [prefs, setPrefs] = usePrefs();
+  const listening = section.skill === "listening";
+  const [reviewing, setReviewing] = useState(false); // Listening: the recording has ended
+  const audioPart = useRef(0);
 
   const go = (q: { id: number; number: number }) => {
     r.setCurrent(q.id);
@@ -118,6 +137,18 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
     if (window.confirm(msg)) submit.mutate();
   };
 
+  // Listening: when the recording moves to a new part, the questions follow (you can still navigate freely).
+  const { setCurrent } = r;
+  const onAudioPart = useCallback(
+    (n: number) => {
+      if (audioPart.current === n) return;
+      audioPart.current = n;
+      setCurrent(parts.find((p) => p.number === n)!.groups[0].questions[0].id);
+    },
+    [parts, setCurrent],
+  );
+  const onAudioDone = useCallback(() => setReviewing(true), []);
+
   const index = questions.findIndex((q) => q.id === current);
   const part = parts.find((p) => p.number === questions[index].part)!;
 
@@ -125,8 +156,21 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
     <div className={`exam font-${prefs.font} scheme-${prefs.scheme}`}>
       <header className="examhead">
         <span>{user.display_name}</span>
-        <Timer deadline={section.deadline_at!} offset={r.clockOffset} onExpire={onExpire} />
+        <Timer deadline={section.deadline_at!} offset={r.clockOffset} onExpire={onExpire} flash={!listening} />
         <span className="tools">
+          {listening && (
+            <label className="volume">
+              Volume{" "}
+              <input
+                type="range"
+                min={0}
+                max={1}
+                step={0.05}
+                value={prefs.volume}
+                onChange={(e) => setPrefs({ ...prefs, volume: Number(e.target.value) })}
+              />
+            </label>
+          )}
           <button onClick={() => setOverlay("settings")}>Settings</button>
           <button onClick={() => setOverlay("help")}>Help</button>
           <button onClick={() => setOverlay("hidden")}>Hide</button>
@@ -135,14 +179,36 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
 
       <div className="partbar">
         <strong>Part {part.number}</strong>
-        <span>Read the text and answer questions {part.groups[0].questions[0].number}–{part.groups.at(-1)!.questions.at(-1)!.number}.</span>
+        <span>
+          {listening ? "Listen and answer" : "Read the text and answer"} questions {part.groups[0].questions[0].number}–
+          {part.groups.at(-1)!.questions.at(-1)!.number}.
+        </span>
+        {reviewing && <span className="reviewing">The recording has ended. Check your answers before the time runs out.</span>}
       </div>
 
-      <ReadingView key={part.number} part={part} highlights={r.highlights} setHighlights={r.setHighlights}>
-        {part.groups.map((g) => (
-          <QuestionGroup key={g.id} group={g} answers={answers} setAnswer={r.setAnswer} current={current} focus={r.setCurrent} />
-        ))}
-      </ReadingView>
+      {listening ? (
+        <div className="listening">
+          <ListeningAudio
+            parts={parts}
+            startedAt={section.started_at!}
+            offset={r.clockOffset}
+            volume={prefs.volume}
+            onPart={onAudioPart}
+            onDone={onAudioDone}
+          />
+          <div className="questions">
+            {part.groups.map((g) => (
+              <QuestionGroup key={g.id} group={g} answers={answers} setAnswer={r.setAnswer} current={current} focus={r.setCurrent} />
+            ))}
+          </div>
+        </div>
+      ) : (
+        <ReadingView key={part.number} part={part} highlights={r.highlights} setHighlights={r.setHighlights}>
+          {part.groups.map((g) => (
+            <QuestionGroup key={g.id} group={g} answers={answers} setAnswer={r.setAnswer} current={current} focus={r.setCurrent} />
+          ))}
+        </ReadingView>
+      )}
 
       <footer className="navbar">
         {parts.map((p) => {
@@ -247,7 +313,8 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
 }
 
 /** "37 minutes left". Red in the last 10 minutes, flashing for 10 s at the 10- and 5-minute marks. */
-function Timer({ deadline, offset, onExpire }: { deadline: string; offset: { current: number }; onExpire: () => void }) {
+function Timer(props: { deadline: string; offset: { current: number }; onExpire: () => void; flash: boolean }) {
+  const { deadline, offset, onExpire } = props;
   const end = Date.parse(deadline);
   const remainingS = () => Math.ceil((end - (Date.now() + offset.current)) / 1000);
   const [left, setLeft] = useState(remainingS);
@@ -267,7 +334,7 @@ function Timer({ deadline, offset, onExpire }: { deadline: string; offset: { cur
 
   const s = Math.max(0, left);
   const text = s >= 60 ? `${Math.ceil(s / 60)} minutes left` : `${s} seconds left`;
-  const flashing = (s <= 600 && s > 590) || (s <= 300 && s > 290);
+  const flashing = props.flash && ((s <= 600 && s > 590) || (s <= 300 && s > 290)); // Reading/Writing only (R§7)
   return (
     <span className="timer">
       {!hidden && <span className={`${s <= 600 ? "warn" : ""} ${flashing ? "flash" : ""}`}>{text}</span>}{" "}
@@ -275,5 +342,39 @@ function Timer({ deadline, offset, onExpire }: { deadline: string; offset: { cur
         {hidden ? "Show timer" : "Hide timer"}
       </button>
     </span>
+  );
+}
+
+/** Before a Listening test: set the volume with a test tone (generated in the browser, no test audio needed). */
+function SoundCheck() {
+  const [prefs, setPrefs] = usePrefs();
+  const beep = () => {
+    const ctx = new AudioContext();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    gain.gain.value = prefs.volume * 0.3;
+    osc.frequency.value = 440;
+    osc.connect(gain).connect(ctx.destination);
+    osc.start();
+    osc.stop(ctx.currentTime + 1);
+    osc.onended = () => ctx.close();
+  };
+  return (
+    <div className="soundcheck">
+      <strong>Sound check</strong>
+      <p>Put on your headphones, play the test sound and set a comfortable volume.</p>
+      <button onClick={beep}>Play test sound</button>{" "}
+      <label>
+        Volume{" "}
+        <input
+          type="range"
+          min={0}
+          max={1}
+          step={0.05}
+          value={prefs.volume}
+          onChange={(e) => setPrefs({ ...prefs, volume: Number(e.target.value) })}
+        />
+      </label>
+    </div>
   );
 }

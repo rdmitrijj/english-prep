@@ -10,11 +10,15 @@ const LEVELS = { easy: "Easy", medium: "Medium", hard: "Hard" } as const;
 
 export default function PracticePage() {
   const navigate = useNavigate();
-  const options = useQuery({ queryKey: ["practice-options"], queryFn: () => api<PracticeGroup[]>("/practice/options") });
+  const [skill, setSkill] = useState<"reading" | "listening">("reading");
+  const options = useQuery({
+    queryKey: ["practice-options", skill],
+    queryFn: () => api<PracticeGroup[]>(`/practice/options?skill=${skill}`),
+  });
   const attempts = useQuery({ queryKey: ["attempts"], queryFn: () => api<AttemptSummary[]>("/attempts") });
   const [filters, setFilters] = useState<Filters>({});
   const start = useMutation({
-    mutationFn: () => api<Attempt>("/practice/sessions", { method: "POST", body: { skill: "reading", ...filters } }),
+    mutationFn: () => api<Attempt>("/practice/sessions", { method: "POST", body: { skill, ...filters } }),
     onSuccess: (a) => navigate(`/practice/${a.id}`),
   });
 
@@ -61,10 +65,26 @@ export default function PracticePage() {
         <h1>Practice</h1>
         <p className="lead">
           No clock. Check each group of questions when you're ready to see the answer, why it's right, and where it is in the
-          passage.
+          passage or recording.
         </p>
       </section>
 
+      <fieldset className="filter">
+        <legend>Section</legend>
+        {(["reading", "listening"] as const).map((s) => (
+          <button
+            key={s}
+            className="pick"
+            aria-pressed={skill === s}
+            onClick={() => {
+              setSkill(s);
+              setFilters({});
+            }}
+          >
+            {s === "reading" ? "Reading" : "Listening"}
+          </button>
+        ))}
+      </fieldset>
       {options.error && <p className="error">{options.error.message}</p>}
       {row("qtype", "Question type", (g) => qtypeLabel(g.qtype))}
       {row("topic", "Topic", (g) => g.topic_label)}
@@ -86,7 +106,7 @@ export default function PracticePage() {
         {sessions.map((a) => (
           <li key={a.id}>
             <span className="when">{new Date(a.started_at).toLocaleDateString(undefined, { day: "numeric", month: "short" })}</span>
-            <span className="what">Reading practice</span>
+            <span className="what">{a.skills[0] === "listening" ? "Listening" : "Reading"} practice</span>
             {a.status === "completed" ? (
               <Link to={`/report/${a.id}`}>View summary</Link>
             ) : (

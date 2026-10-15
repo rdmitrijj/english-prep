@@ -49,7 +49,14 @@ export type Group = {
   questions: Question[];
 };
 export type Passage = { title: string; paragraphs: { label: string; text: string }[]; glossary: Record<string, string> };
-export type Part = { number: number; passage: Passage | null; groups: Group[] };
+export type Segment = { speaker: string; start_ms: number; end_ms: number; text: string };
+export type Part = {
+  number: number;
+  passage: Passage | null;
+  audio: { url: string; duration_ms: number } | null;
+  transcript: Segment[] | null; // practice only
+  groups: Group[];
+};
 
 export type Highlight = { id: string; p: string; start: number; end: number; note?: string; ev?: number /* practice evidence: question id */ };
 export type UiState = { highlights?: Highlight[]; current?: number };

@@ -2,7 +2,7 @@ import { useMutation, useQuery } from "@tanstack/react-query";
 import { Link, useNavigate } from "react-router";
 import { api, type Attempt, type AttemptSummary, type MockTest, type Skill } from "../api";
 
-const READY: Skill[] = ["reading"]; // ponytail: listening (M5) and writing (M6) join this list later
+const READY: Skill[] = ["listening", "reading"]; // ponytail: writing joins in M6
 
 export default function Mock() {
   const navigate = useNavigate();

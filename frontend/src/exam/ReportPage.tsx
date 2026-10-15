@@ -70,7 +70,9 @@ export default function ReportPage() {
             </section>
             <section>
               <h2 className="section-title">Pace by {unit.toLowerCase()}</h2>
-              <p className="muted">Target: {TARGET_S} s per question.</p>
+              <p className="muted">
+                {s.skill === "listening" ? "The recording sets the pace in Listening." : `Target: ${TARGET_S} s per question.`}
+              </p>
               <table className="grid">
                 <tbody>
                   {s.parts.map((p) => (
@@ -82,7 +84,7 @@ export default function ReportPage() {
                         {p.correct}/{p.total}
                       </td>
                       <td>{mmss(p.time_ms)}</td>
-                      <td className={p.time_ms / p.total / 1000 > TARGET_S ? "slow" : undefined}>
+                      <td className={s.skill !== "listening" && p.time_ms / p.total / 1000 > TARGET_S ? "slow" : undefined}>
                         {secs(p.time_ms / p.total)} s per question
                       </td>
                     </tr>

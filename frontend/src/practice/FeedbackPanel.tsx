@@ -3,8 +3,8 @@ import { errorLabel } from "../labels";
 
 const show = (a: Answer) => (Array.isArray(a) ? a.join(", ") : a) || "no answer";
 
-/** Scroll to a question's evidence in the passage and pulse it. */
-function showEvidence(qid: number) {
+/** Scroll to a question's evidence in the passage or transcript and pulse it. */
+export function showEvidence(qid: number) {
   const mark = document.querySelector(`mark[data-ev~="${qid}"]`);
   if (!mark) return;
   mark.scrollIntoView({ block: "center", behavior: "smooth" });
@@ -12,7 +12,11 @@ function showEvidence(qid: number) {
   setTimeout(() => mark.classList.remove("pulse"), 2500);
 }
 
-export default function FeedbackPanel({ results }: { results: Feedback[] }) {
+export default function FeedbackPanel({ results, onShow = showEvidence, where = "passage" }: {
+  results: Feedback[];
+  onShow?: (qid: number) => void;
+  where?: "passage" | "transcript";
+}) {
   const sorted = [...results].sort((a, b) => a.number - b.number);
   const correct = sorted.filter((f) => f.is_correct).length;
   return (
@@ -44,8 +48,8 @@ export default function FeedbackPanel({ results }: { results: Feedback[] }) {
               ))}
             </ul>
           )}
-          <button className="link" onClick={() => showEvidence(f.question_id)}>
-            Show in passage
+          <button className="link" onClick={() => onShow(f.question_id)}>
+            Show in {where}
           </button>
         </div>
       ))}

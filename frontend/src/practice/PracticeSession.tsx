@@ -7,7 +7,8 @@ import QuestionGroup from "../exam/Questions";
 import ReadingView from "../exam/ReadingView";
 import { isAnswered, useResponses } from "../exam/useResponses";
 import { qtypeLabel } from "../labels";
-import FeedbackPanel from "./FeedbackPanel";
+import FeedbackPanel, { showEvidence } from "./FeedbackPanel";
+import ListeningPracticeView from "./ListeningPracticeView";
 
 export default function PracticeSession() {
   const id = Number(useParams().attemptId);
@@ -32,6 +33,11 @@ function Session({ attempt, section }: { attempt: Attempt; section: AttemptSecti
   const partOf = (qid: number) => parts.findIndex((p) => p.groups.some((g) => g.questions.some((q) => q.id === qid)));
   const [partIndex, setPartIndex] = useState(() => Math.max(0, partOf(r.current)));
   const part = parts[partIndex];
+  const [showTranscript, setShowTranscript] = useState(false);
+  const showInTranscript = (qid: number) => {
+    setShowTranscript(true);
+    requestAnimationFrame(() => requestAnimationFrame(() => showEvidence(qid))); // after the transcript renders
+  };
   const url = `/attempts/${attempt.id}/sections/${section.id}`;
 
   const check = useMutation({
@@ -91,7 +97,7 @@ function Session({ attempt, section }: { attempt: Attempt; section: AttemptSecti
             ◀
           </button>
           <strong>
-            Passage {partIndex + 1} of {parts.length}
+            {part.audio ? "Recording" : "Passage"} {partIndex + 1} of {parts.length}
           </strong>
           <button aria-label="Next passage" disabled={partIndex === parts.length - 1} onClick={() => goPart(partIndex + 1)}>
             ▶
@@ -99,8 +105,8 @@ function Session({ attempt, section }: { attempt: Attempt; section: AttemptSecti
         </div>
       )}
 
-      <ReadingView key={part.number} part={part} highlights={r.highlights} setHighlights={r.setHighlights} evidence={evidence}>
-        {part.groups.map((g) => {
+      {(() => {
+        const questions = part.groups.map((g) => {
           const done = checked.has(g.id);
           const answered = g.questions.some((q) => isAnswered(r.answers[q.id]));
           return (
@@ -115,7 +121,10 @@ function Session({ attempt, section }: { attempt: Attempt; section: AttemptSecti
                 results={results}
               />
               {done ? (
-                <FeedbackPanel results={feedback.filter((f) => f.group_id === g.id)} />
+                <FeedbackPanel
+                  results={feedback.filter((f) => f.group_id === g.id)}
+                  {...(part.audio ? { onShow: showInTranscript, where: "transcript" as const } : {})}
+                />
               ) : (
                 <p className="checkrow">
                   <button className="primary" disabled={!answered || check.isPending} onClick={() => check.mutate(g.id)}>
@@ -126,9 +135,29 @@ function Session({ attempt, section }: { attempt: Attempt; section: AttemptSecti
               )}
             </div>
           );
-        })}
-        {check.error && <p className="error">{check.error.message}</p>}
-      </ReadingView>
+        });
+        const body = (
+          <>
+            {questions}
+            {check.error && <p className="error">{check.error.message}</p>}
+          </>
+        );
+        return part.audio ? (
+          <ListeningPracticeView
+            key={part.number}
+            part={part}
+            evidence={evidence}
+            showTranscript={showTranscript}
+            setShowTranscript={setShowTranscript}
+          >
+            {body}
+          </ListeningPracticeView>
+        ) : (
+          <ReadingView key={part.number} part={part} highlights={r.highlights} setHighlights={r.setHighlights} evidence={evidence}>
+            {body}
+          </ReadingView>
+        );
+      })()}
       {finish.error && <p className="toast error">{finish.error.message}</p>}
     </div>
   );

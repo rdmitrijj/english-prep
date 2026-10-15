@@ -151,7 +151,8 @@ export default function ReadingView({ part, highlights, setHighlights, evidence 
   );
 }
 
-function Paragraph(props: {
+/** Text with highlight and evidence marks; also used for Listening transcript lines. */
+export function Paragraph(props: {
   pkey: string;
   text: string;
   highlights: Highlight[];
