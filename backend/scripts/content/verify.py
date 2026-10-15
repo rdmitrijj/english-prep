@@ -9,13 +9,17 @@ from scripts.content.prompts import VERIFY_SYSTEM
 from scripts.content.schema import CGroup, CPart, CQuestion, Review, VerifierAnswer, VerifierAnswers
 
 MIN_CONFIDENCE = 0.7
-TEXT_ANSWER = {QType.sentence_completion, QType.note_completion, QType.table_completion,
+TEXT_ANSWER = {QType.sentence_completion, QType.note_completion, QType.table_completion, QType.form_completion,
                QType.flowchart_completion, QType.short_answer, QType.summary_completion}
 
 
 def candidate_view(part: CPart) -> str:
     """Render a part as the candidate sees it — no answers, explanations or evidence."""
     out = []
+    if part.script:  # the blind solver can't listen, so it reads exactly what is spoken
+        roles = {sp.id: sp.role for sp in part.script.speakers}
+        out.append(f"LISTENING PART {part.number}: the candidate hears this recording ONCE (transcript):\n")
+        out += [f"[{roles[ln.speaker]}] {ln.text}" for ln in part.script.lines]
     if part.passage:
         out.append(f"READING PASSAGE: {part.passage.title}\n")
         out += [f"[{p.label}] {p.text}\n" for p in part.passage.paragraphs]

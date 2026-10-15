@@ -4,7 +4,7 @@
 The `C*` models extend them with fields the pipeline adds, and are what `seed` loads into the DB.
 """
 
-from typing import Any
+from typing import Any, Literal
 
 from pydantic import BaseModel, Field
 
@@ -17,8 +17,8 @@ class Option(BaseModel):
 
 
 class Evidence(BaseModel):
-    paragraph: str  # paragraph label, e.g. "C"
-    quote: str  # exact substring of that paragraph
+    paragraph: str  # Reading: paragraph label, e.g. "C". Listening: script line index, filled in by the pipeline
+    quote: str  # exact substring of that paragraph / line
 
 
 class DistractorNote(BaseModel):
@@ -120,11 +120,54 @@ class CPassage(PassageDraft):
     pass
 
 
+Accent = Literal["en-GB", "en-AU", "en-NZ", "en-US", "en-CA"]
+
+
+class Speaker(BaseModel):
+    id: str  # used by lines, e.g. "narrator", "woman", "tutor"
+    role: str  # who they are, e.g. "hotel receptionist"
+    accent: Accent
+    gender: Literal["female", "male"]
+
+
+class Line(BaseModel):
+    speaker: str  # a Speaker.id
+    text: str
+    pause_after_s: float = 0.0  # extra silence after the line: reading time before questions, review time
+
+
+class CScript(BaseModel):
+    """A Listening recording, narration included ("You will hear… First, you have some time to look at questions 1 to 5")."""
+
+    speakers: list[Speaker]
+    lines: list[Line]
+
+
+class Segment(BaseModel):
+    speaker: str
+    accent: str
+    start_ms: int
+    end_ms: int
+    text: str
+
+
+class CAudio(BaseModel):
+    """Written by `scripts.content.audio render`; one segment per script line, with exact timestamps."""
+
+    url: str  # /media/audio/<slug>-p<n>.mp3
+    duration_ms: int
+    segments: list[Segment]
+    tts_provider: str
+    voices: dict[str, str]  # speaker id → voice id
+
+
 class CPart(BaseModel):
     number: int
     context: str
     topic: str  # topic tag slug, e.g. "biology-ecology"
     passage: CPassage | None = None
+    script: CScript | None = None  # listening
+    audio: CAudio | None = None  # listening, after rendering
     groups: list[CGroup]
 
 

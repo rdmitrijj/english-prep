@@ -6,7 +6,7 @@ import pytest
 from sqlalchemy import func, select
 
 from app.models.attempts import Attempt, AttemptSection, Response
-from app.models.content import AnswerKey, Question, Tag, Test
+from app.models.content import AnswerKey, AudioAsset, Question, Tag, Test
 from app.models.enums import ContentStatus
 from app.models.usage import AiUsage
 from app.services import llm, usage
@@ -27,10 +27,16 @@ async def test_seed_is_idempotent_and_replaces_changed_content(db):
         assert await seed_test(s, make()) == "unchanged"
         assert (await count(s, Test), await count(s, Question), await count(s, AnswerKey), await count(s, Tag)) == (1, 8, 8, 1)
 
+    retitled = make()
+    retitled.title = "Keeping bees, revised"
+    async with db() as s:
+        assert await seed_test(s, retitled) == "updated"  # sections untouched
+
     changed = make()
     changed.title = "Keeping bees, revised"
+    changed.sections[0].parts[0].passage.title = "Bees, revised"
     async with db() as s:
-        assert await seed_test(s, changed) == "replaced"
+        assert await seed_test(s, changed) == "reading: replaced"
         assert await count(s, Test) == 1
         assert await count(s, Question) == 8
         key = await s.scalar(select(AnswerKey).join(Question).where(Question.number == 4))
@@ -53,9 +59,9 @@ async def test_seed_skips_unpublished_and_answered_tests(db, user):
         s.add(Response(attempt_section_id=sec.id, question_id=q.id, answer="x"))
         await s.commit()
     changed = make()
-    changed.title = "changed"
+    changed.sections[0].parts[0].passage.title = "changed"
     async with db() as s:
-        assert "already has answers" in await seed_test(s, changed)
+        assert "reading: changed but already has answers" in await seed_test(s, changed)
 
 
 def test_verifier_comparison():
@@ -129,3 +135,27 @@ def test_offline_rubrics_and_verifier_answers():
     apply_answers(test, VerifierAnswers.model_validate({"answers": answers}))
     assert [q.number for q in test.questions() if q.review] == [1]
     assert test.status == ContentStatus.needs_review
+
+
+async def test_adding_a_listening_section_keeps_an_answered_reading_section(db, user):
+    from scripts.content.schema import CSection
+    from tests.listening_fixture import listening_part
+
+    async with db() as s:
+        assert await seed_test(s, make()) == "created"
+        q = await s.scalar(select(Question).limit(1))
+        attempt = Attempt(user_id=user.id, mode="practice")
+        s.add(attempt)
+        await s.flush()
+        sec = AttemptSection(attempt_id=attempt.id, skill="reading")
+        s.add(sec)
+        await s.flush()
+        s.add(Response(attempt_section_id=sec.id, question_id=q.id, answer="x"))
+        await s.commit()
+    both = make()
+    both.sections.insert(0, CSection(skill="listening", duration_s=None, parts=[listening_part()]))
+    async with db() as s:
+        assert await seed_test(s, both) == "listening: added"
+        assert await seed_test(s, both) == "unchanged"
+        assert await count(s, Question) == 8 + 3
+        assert (await s.scalar(select(AudioAsset))).duration_ms == 9000

@@ -124,6 +124,9 @@ async def build_part(spec: PassageSpec, number: int, passage_no: int, first: int
 
 def finalize(test: CTest) -> CTest:
     test.check_errors = check_test(test)
+    # Listening can only be published with its audio (python -m scripts.content.audio render <slug>).
+    test.check_errors += [f"L{p.number}: audio not rendered yet" for s in test.sections for p in s.parts
+                          if p.script and p.audio is None]
     disputed = any(q.review for q in test.questions())
     test.status = ContentStatus.needs_review if test.check_errors or disputed else ContentStatus.published
     return test

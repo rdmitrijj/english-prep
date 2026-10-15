@@ -3,7 +3,10 @@
 from app.models.enums import QType, Skill, TestKind
 from app.services.normalize import count_words, normalize_answer
 from scripts.content.schema import CGroup, CPart, CTest, PassageDraft
-from scripts.content.spec import ORDERED_TYPES, READING_TOTAL_WORDS, READING_WORDS, TEXT_TYPES, letters
+from scripts.content.spec import (
+    LINE_GAP_S, LISTENING_AUDIO_MIN, LISTENING_CONTEXTS, ORDERED_TYPES, READING_TOTAL_WORDS, READING_WORDS, SPEECH_WPS,
+    TEXT_TYPES, letters,
+)
 
 TFNG = {"TRUE", "FALSE", "NOT GIVEN"}
 YNNG = {"YES", "NO", "NOT GIVEN"}
@@ -12,6 +15,9 @@ YNNG = {"YES", "NO", "NOT GIVEN"}
 def check_test(test: CTest, word_range: tuple[int, int] = READING_WORDS) -> list[str]:
     errors: list[str] = []
     for section in test.sections:
+        if section.skill == Skill.listening:
+            errors += check_listening_section(section, test.kind)
+            continue
         if section.skill != Skill.reading:
             continue
         numbers = [q.number for p in section.parts for g in p.groups for q in g.questions]
@@ -51,7 +57,64 @@ def check_reading_part(part: CPart, word_range: tuple[int, int]) -> list[str]:
     return errors
 
 
-def check_group(g: CGroup, labels: list[str], paragraphs: dict[str, str], full_text: str) -> list[str]:
+def estimated_seconds(part: CPart) -> float:
+    lines = part.script.lines if part.script else []
+    return sum(count_words(line.text) / SPEECH_WPS + LINE_GAP_S + line.pause_after_s for line in lines)
+
+
+def check_listening_section(section, kind: TestKind) -> list[str]:
+    errors: list[str] = []
+    numbers = [q.number for p in section.parts for g in p.groups for q in g.questions]
+    if numbers != list(range(1, len(numbers) + 1)):
+        errors.append(f"listening: question numbers must run 1..n without gaps, got {numbers}")
+    if kind == TestKind.mock:
+        if [p.number for p in section.parts] != [1, 2, 3, 4] or len(numbers) != 40:
+            errors.append(f"listening mock: need parts 1–4 and 40 questions, got {len(section.parts)} / {len(numbers)}")
+        minutes = sum(estimated_seconds(p) for p in section.parts) / 60
+        if not LISTENING_AUDIO_MIN[0] <= minutes <= LISTENING_AUDIO_MIN[1]:
+            errors.append(f"listening mock: about {minutes:.1f} min of audio, expected {LISTENING_AUDIO_MIN} (+2 min review)")
+        accents = {s.accent for p in section.parts if p.script for s in p.script.speakers if s.id != "narrator"}
+        if len(accents) < 3:
+            errors.append(f"listening mock: use at least 3 accents across the parts, got {sorted(accents)}")
+    for part in section.parts:
+        errors += [f"L{part.number} {e}" for e in check_listening_part(part)]
+    return errors
+
+
+# How many voices (narrator excluded) each context needs: (min, max).
+CAST = {"social_dialogue": (2, 2), "social_monologue": (1, 2), "academic_discussion": (2, 4), "academic_lecture": (1, 1)}
+
+
+def check_listening_part(part: CPart) -> list[str]:
+    if part.script is None:
+        return ["missing script"]
+    errors: list[str] = []
+    ids = [s.id for s in part.script.speakers]
+    if "narrator" not in ids:
+        errors.append("needs a narrator speaker for the rubric announcements")
+    if part.context not in LISTENING_CONTEXTS:
+        errors.append(f"context must be one of {LISTENING_CONTEXTS}, got {part.context!r}")
+    else:
+        cast = {line.speaker for line in part.script.lines} - {"narrator"}
+        lo, hi = CAST[part.context]
+        if not lo <= len(cast) <= hi:
+            errors.append(f"{part.context} needs {lo}–{hi} speakers besides the narrator, got {len(cast)}")
+    for i, line in enumerate(part.script.lines):
+        if line.speaker not in ids:
+            errors.append(f"line {i}: unknown speaker {line.speaker!r}")
+        if not line.text.strip():
+            errors.append(f"line {i}: empty text")
+    if part.audio and len(part.audio.segments) != len(part.script.lines):
+        errors.append("audio is out of date with the script: render it again")
+    # The checks below reuse the Reading rules with each script line as a "paragraph" keyed by its index.
+    lines = {str(i): normalize_answer(line.text) for i, line in enumerate(part.script.lines)}
+    full_text = " ".join(lines.values())
+    for group in part.groups:
+        errors += [f"{group.qtype} {e}" for e in check_group(group, list(lines), lines, full_text, listening=True)]
+    return errors
+
+
+def check_group(g: CGroup, labels: list[str], paragraphs: dict[str, str], full_text: str, listening: bool = False) -> list[str]:
     errors: list[str] = []
     qs = g.questions
     group_letters = [o.letter for o in g.options or []]
@@ -72,8 +135,9 @@ def check_group(g: CGroup, labels: list[str], paragraphs: dict[str, str], full_t
             positions.append((labels.index(q.evidence.paragraph), par.index(quote)))
         if not q.explanation.correct.strip():
             err(q, "empty explanation")
-    if g.qtype in ORDERED_TYPES and len(positions) == len(qs) and positions != sorted(positions):
-        errors.append("questions must follow the order of the passage")
+    # Listening questions always follow the recording (RESEARCH §2.1); in Reading only some types do.
+    if (listening or g.qtype in ORDERED_TYPES) and len(positions) == len(qs) and positions != sorted(positions):
+        errors.append("questions must follow the order of the " + ("recording" if listening else "passage"))
 
     # --- answer validity per type ---
     single = [q.answer[0].upper() if len(q.answer) == 1 else None for q in qs]
@@ -95,10 +159,11 @@ def check_group(g: CGroup, labels: list[str], paragraphs: dict[str, str], full_t
                 if sorted(q.answer) != key or len(key) != g.pick or not set(key) <= set(group_letters):
                     err(q, f"each question must carry the same {g.pick} correct letters from the options, got {q.answer}")
         case QType.mcq:
+            n_opts = 3 if listening else 4  # Listening MCQ has A–C (RESEARCH §3.1)
             for q in qs:
                 opts = [o.letter for o in q.options or []]
-                if opts != letters(4):
-                    err(q, f"needs options A–D, got {opts}")
+                if opts != letters(n_opts):
+                    err(q, f"needs options A–{letters(n_opts)[-1]}, got {opts}")
                 if len(q.answer) != 1 or q.answer[0] not in opts:
                     err(q, f"answer must be one option letter, got {q.answer}")
         case QType.matching_information:
@@ -114,6 +179,12 @@ def check_group(g: CGroup, labels: list[str], paragraphs: dict[str, str], full_t
                     err(q, f"answer must be a heading numeral from the list, got {q.answer}")
             if len(set(answers)) != len(answers):
                 errors.append("a heading is used more than once")
+        case QType.matching:
+            if len(group_letters) < len(qs) + 1:
+                errors.append(f"need ≥{len(qs) + 1} options in the box, got {len(group_letters)}")
+            for q, a in zip(qs, single):
+                if a not in group_letters:
+                    err(q, f"answer must be an option letter, got {q.answer}")
         case QType.matching_features | QType.matching_sentence_endings:
             min_opts = 3 if g.qtype == QType.matching_features else len(qs) + 2
             if len(group_letters) < min_opts:
@@ -140,12 +211,13 @@ def check_group(g: CGroup, labels: list[str], paragraphs: dict[str, str], full_t
                     if count_words(variant) > (g.max_words or 0):
                         err(q, f"answer {variant!r} exceeds {g.max_words} word(s)")
                 if normalize_answer(q.answer[0]) not in full_text:
-                    err(q, f"first answer {q.answer[0]!r} must appear verbatim in the passage")
+                    err(q, f"first answer {q.answer[0]!r} must appear verbatim in the " + ("recording" if listening else "passage"))
                 if not g.allow_number and any(ch.isdigit() for ch in q.answer[0]):
                     err(q, f"answer {q.answer[0]!r} contains a number but the rubric allows words only")
 
     # --- layouts carry one gap marker per question ---
-    if g.qtype in (QType.summary_completion, QType.note_completion, QType.table_completion, QType.flowchart_completion):
+    if g.qtype in (QType.summary_completion, QType.note_completion, QType.table_completion, QType.flowchart_completion,
+                   QType.form_completion):
         layout = g.layout
         text = ""
         if layout:

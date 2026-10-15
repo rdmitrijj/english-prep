@@ -7,5 +7,7 @@ WORKDIR /srv/backend
 COPY backend/pyproject.toml backend/uv.lock ./
 
 FROM backend-base AS dev
+# ffmpeg encodes Listening audio to MP3 when building content (scripts/content/audio.py)
+RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg && rm -rf /var/lib/apt/lists/*
 RUN uv sync --frozen
 CMD ["sh", "-c", "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"]

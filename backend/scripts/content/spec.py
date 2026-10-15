@@ -26,10 +26,26 @@ READING_TOPICS = {
     "astronomy-physics": "Astronomy and physics",
 }
 
+# Listening contexts (RESEARCH §2.1 / §8): Parts 1–2 everyday life, Parts 3–4 education and training.
+LISTENING_TOPICS = {
+    "accommodation": "Accommodation and housing",
+    "travel-transport": "Travel and transport",
+    "local-services": "Local services and facilities",
+    "leisure-events": "Leisure, clubs and events",
+    "work-jobs": "Work and jobs",
+    "study-courses": "Study, courses and assignments",
+    "health-fitness": "Health and fitness",
+}
+TOPIC_LABELS = READING_TOPICS | LISTENING_TOPICS
+LISTENING_CONTEXTS = ("social_dialogue", "social_monologue", "academic_discussion", "academic_lecture")
+SPEECH_WPS = 2.6  # words per second of natural TTS speech, for duration estimates before rendering
+LINE_GAP_S = 0.4  # silence between consecutive lines
+LISTENING_AUDIO_MIN = (26, 32)  # a whole mock recording; + 2 min review = the official 30–34 min (RESEARCH §2.1)
+
 TEXT_TYPES = {
-    QType.sentence_completion, QType.summary_completion, QType.note_completion,
+    QType.sentence_completion, QType.summary_completion, QType.note_completion, QType.form_completion,
     QType.table_completion, QType.flowchart_completion, QType.short_answer,
-}  # answers are words copied from the passage (unless `from_list`)
+}  # answers are words copied from the passage or recording (unless `from_list`)
 ORDERED_TYPES = TEXT_TYPES | {QType.tfng, QType.ynng}  # these follow the order of the text
 
 
@@ -86,6 +102,26 @@ MOCK_READING: dict[str, list[PassageSpec]] = {
     ],
 }
 
+@dataclass
+class RecordingSpec:
+    groups: list[GroupSpec]
+    context: str  # one of LISTENING_CONTEXTS
+    level: str
+
+    @property
+    def count(self) -> int:
+        return sum(g.count for g in self.groups)
+
+
+MOCK_LISTENING: dict[str, list[RecordingSpec]] = {
+    "mock-01": [
+        RecordingSpec([G(QType.form_completion, 10, max_words=1, allow_number=True)], "social_dialogue", "easier"),
+        RecordingSpec([G(QType.mcq, 4), G(QType.matching, 6)], "social_monologue", "easier"),
+        RecordingSpec([G(QType.mcq, 2, pick=2), G(QType.mcq, 3), G(QType.matching, 5)], "academic_discussion", "medium"),
+        RecordingSpec([G(QType.note_completion, 10, max_words=1)], "academic_lecture", "harder"),
+    ],
+}
+
 # ---------- rubric wording ----------
 
 _LIMITS = {
@@ -96,7 +132,7 @@ _LIMITS = {
     (3, False): "NO MORE THAN THREE WORDS",
     (3, True): "NO MORE THAN THREE WORDS AND/OR A NUMBER",
 }
-_NUMBERS = {2: "TWO", 3: "THREE"}
+_NUMBERS = {2: "TWO", 3: "THREE", 4: "FOUR", 5: "FIVE", 6: "SIX", 7: "SEVEN", 8: "EIGHT"}
 
 
 def letters(n: int) -> list[str]:
@@ -105,6 +141,28 @@ def letters(n: int) -> list[str]:
 
 def roman(n: int) -> list[str]:
     return "i ii iii iv v vi vii viii ix x xi xii".split()[:n]
+
+
+def listening_instructions(g: GroupSpec, first: int, last: int, n_options: int) -> str:
+    """Listening rubric: limits say "Write …", MCQ has three options (RESEARCH §3.1, §3.3)."""
+    last_opt = letters(n_options)[-1] if n_options else ""
+    limit = f"Write {_LIMITS[(g.max_words, g.allow_number)]} for each answer." if g.max_words else ""
+    noun = {QType.form_completion: "form", QType.note_completion: "notes", QType.table_completion: "table",
+            QType.flowchart_completion: "flow-chart", QType.sentence_completion: "sentences",
+            QType.summary_completion: "summary"}
+    match g.qtype:
+        case QType.mcq if g.pick > 1:
+            return f"Choose {_NUMBERS[g.pick]} letters, A–{last_opt}."
+        case QType.mcq:
+            return "Choose the correct letter, A, B or C."
+        case QType.matching:
+            return (f"Choose {_NUMBERS.get(last - first + 1, last - first + 1)} answers from the box and move them "
+                    f"into the gaps next to Questions {first}–{last}.")
+        case QType.short_answer:
+            return f"Answer the questions below.\n{limit}"
+        case t if t in noun:
+            return f"Complete the {noun[t]} below.\n{limit}"
+    raise ValueError(f"no listening rubric for {g.qtype}")
 
 
 def instructions(g: GroupSpec, first: int, last: int, passage_no: int, n_paragraphs: int, n_options: int) -> str:
