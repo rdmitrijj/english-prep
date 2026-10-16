@@ -8,7 +8,7 @@ Inputs: [BRIEF.md](../BRIEF.md) and [RESEARCH.md](RESEARCH.md). Exam facts cite 
 |---|---|---|
 | D1 | Dev machine is **Arch Linux**. All commands are bash or Docker. | User answer, Phase 0 |
 | D2 | Writing band = `round_half_up_to_0.5((T1 + 2·T2) / 3)`. Task scores stay unrounded until this final step. | User answer. Official weighting R§2.3; the rounding is our assumption |
-| D3 | TTS = **ElevenLabs**, behind a one-function provider seam (§6.6). | User answer |
+| D3 | TTS = **ElevenLabs**, behind a one-function provider seam (§6.6). Since 2026-10-16 the audio is rendered with **Kokoro** (free, local; British/American voices only) because there's no TTS budget. | User answer |
 | D4 | App name **English-prep**. The "IELTS" mark is never used in branding (R§11). | User answer |
 | D5–D12 | Changes to the brief, proposed below in **§9** | Awaiting approval |
 
@@ -434,6 +434,8 @@ Rendering a Listening part:
 Model: `eleven_v4`, the current recommended ElevenLabs model, at $0.08 per 1k characters.
 
 We use per-turn synthesis instead of ElevenLabs' Dialogue API. It is vendor-neutral, and Dialogue requests are capped at 2,000 characters anyway. If turn-to-turn prosody sounds flat, we can try Dialogue later.
+
+`TTS_PROVIDER=kokoro` renders free on the dev machine (`uv run --with kokoro-onnx …`, models in `~/.cache/kokoro`). Rendering is local-only: the MP3s are committed (§6.11), so production never needs a TTS provider.
 
 ### 6.7 LLM seam
 `services/llm.py`:

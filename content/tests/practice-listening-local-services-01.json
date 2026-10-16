@@ -211,238 +211,238 @@
           },
           "audio": {
             "url": "/media/audio/practice-listening-local-services-01-p1.mp3",
-            "duration_ms": 412030,
+            "duration_ms": 346768,
             "segments": [
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 0,
-                "end_ms": 10384,
+                "end_ms": 8960,
                 "text": "You will hear a man phoning a community centre to ask about becoming a member. First, you have some time to look at questions 1 to 5."
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
-                "start_ms": 40784,
-                "end_ms": 44246,
+                "start_ms": 39360,
+                "end_ms": 43178,
                 "text": "Now listen carefully and answer questions 1 to 5."
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-NZ",
-                "start_ms": 44646,
-                "end_ms": 48876,
+                "start_ms": 43578,
+                "end_ms": 47888,
                 "text": "Good morning, Harbourside Community Centre, Kate speaking. How can I help?"
               },
               {
                 "speaker": "man",
                 "accent": "en-CA",
-                "start_ms": 49276,
-                "end_ms": 59661,
+                "start_ms": 48288,
+                "end_ms": 56160,
                 "text": "Hi there. I've just moved to the area and I'm thinking about joining the centre. I was hoping you could tell me what's on offer for members."
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-NZ",
-                "start_ms": 60061,
-                "end_ms": 71215,
+                "start_ms": 56560,
+                "end_ms": 66544,
                 "text": "Of course. An individual membership is 60 dollars a year, and that gives you a discount on most of our activities. Is there anything in particular you're interested in?"
               },
               {
                 "speaker": "man",
                 "accent": "en-CA",
-                "start_ms": 71615,
-                "end_ms": 79307,
+                "start_ms": 66944,
+                "end_ms": 72917,
                 "text": "Well, I swim most days, so I'd want to use the pool. Is lap swimming available early in the morning?"
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-NZ",
-                "start_ms": 79707,
-                "end_ms": 95092,
+                "start_ms": 73317,
+                "end_ms": 84090,
                 "text": "It is. The lap lanes are open from six till eight on weekdays, and that's free for members. Towels are provided, so you don't need to bring one of those, but you will need your own padlock for the lockers."
               },
               {
                 "speaker": "man",
                 "accent": "en-CA",
-                "start_ms": 95492,
-                "end_ms": 101261,
+                "start_ms": 84490,
+                "end_ms": 89546,
                 "text": "Right, a padlock. I'll remember that. And I saw something online about a pottery class?"
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-NZ",
-                "start_ms": 101661,
-                "end_ms": 116661,
+                "start_ms": 89946,
+                "end_ms": 102746,
                 "text": "Yes, that one's very popular. It used to run on Tuesday evenings, but the tutor changed her timetable, so it's on Wednesday evenings now. It's 18 dollars a session for members, and that includes all the clay and glazes."
               },
               {
                 "speaker": "man",
                 "accent": "en-CA",
-                "start_ms": 117061,
-                "end_ms": 123215,
+                "start_ms": 103146,
+                "end_ms": 108778,
                 "text": "Sounds good. What about the community garden? My apartment doesn't have any outdoor space at all."
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-NZ",
-                "start_ms": 123615,
-                "end_ms": 142461,
+                "start_ms": 109178,
+                "end_ms": 123408,
                 "text": "We've got a few plots left. They're two metres by three, and the volunteers meet on Saturday mornings if you'd like some help. The fee was 30 dollars a year, but it went up in July, so it's 35 dollars now. That covers the water and the shared tools."
               },
               {
                 "speaker": "man",
                 "accent": "en-CA",
-                "start_ms": 142861,
-                "end_ms": 148630,
+                "start_ms": 123808,
+                "end_ms": 128437,
                 "text": "That's pretty reasonable. I also play a bit of soccer. Is there anything like that?"
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-NZ",
-                "start_ms": 149030,
-                "end_ms": 169030,
+                "start_ms": 128837,
+                "end_ms": 144837,
                 "text": "There's five-a-side football in the sports hall on Friday nights at half past seven, and it's six dollars a game. The only rule is about footwear. No boots with studs, obviously, and they don't want people wearing their outdoor running shoes on the new floor either. You have to bring indoor shoes."
               },
               {
                 "speaker": "man",
                 "accent": "en-CA",
-                "start_ms": 169430,
-                "end_ms": 175968,
+                "start_ms": 145237,
+                "end_ms": 149632,
                 "text": "Good to know. And the last thing on my list: someone told me you lend out tools?"
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-NZ",
-                "start_ms": 176368,
-                "end_ms": 191753,
+                "start_ms": 150032,
+                "end_ms": 161253,
                 "text": "That's right, it's called the tool library, and it's free for members. You can borrow things like drills and ladders for a week. Oh, sorry, I'm out of date there. They extended it last month, so it's two weeks now."
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
-                "start_ms": 192153,
-                "end_ms": 199461,
+                "start_ms": 161653,
+                "end_ms": 167370,
                 "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10."
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
-                "start_ms": 229861,
-                "end_ms": 232938,
+                "start_ms": 197770,
+                "end_ms": 201098,
                 "text": "Now listen and answer questions 6 to 10."
               },
               {
                 "speaker": "man",
                 "accent": "en-CA",
-                "start_ms": 233338,
-                "end_ms": 239491,
+                "start_ms": 201498,
+                "end_ms": 205509,
                 "text": "Great. So how do I actually sign up? Do I need to bring anything with me?"
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-NZ",
-                "start_ms": 239891,
-                "end_ms": 260661,
+                "start_ms": 205909,
+                "end_ms": 220437,
                 "text": "Just come in to reception. People often think they need a passport photo, but we take your picture here at the desk. And you can pay by card or cash, it doesn't matter which. The one thing we do need is proof of address, so a power bill or a bank statement is fine."
               },
               {
                 "speaker": "man",
                 "accent": "en-CA",
-                "start_ms": 261061,
-                "end_ms": 264907,
+                "start_ms": 220837,
+                "end_ms": 223717,
                 "text": "No problem. Is it easy to park near the centre?"
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-NZ",
-                "start_ms": 265307,
-                "end_ms": 282230,
+                "start_ms": 224117,
+                "end_ms": 237237,
                 "text": "Well, the car park belongs to the council, so members don't get a discount, I'm afraid. It's two dollars an hour, weekends included. The real issue is that it's usually full by nine in the morning, so a lot of our regulars cycle in."
               },
               {
                 "speaker": "man",
                 "accent": "en-CA",
-                "start_ms": 282630,
-                "end_ms": 294553,
+                "start_ms": 237637,
+                "end_ms": 247600,
                 "text": "I'll probably walk, then. It's only about ten minutes from my place. Actually, I wanted to ask about volunteering, too. I've got quite a bit of free time at the moment."
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-NZ",
-                "start_ms": 294953,
-                "end_ms": 305722,
+                "start_ms": 248000,
+                "end_ms": 257642,
                 "text": "Oh, wonderful, we always need people. There's the café, there's the community van, and there are our computer help sessions for older residents. Do any of those appeal?"
               },
               {
                 "speaker": "man",
                 "accent": "en-CA",
-                "start_ms": 306122,
-                "end_ms": 323430,
+                "start_ms": 258042,
+                "end_ms": 271653,
                 "text": "Well, I drove a delivery van for years, so I did think about the van, but to be honest, I'd like a change. And I'm hopeless in a kitchen. I used to work in IT support, so the computer sessions sound like the best fit."
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-NZ",
-                "start_ms": 323830,
-                "end_ms": 329984,
+                "start_ms": 272053,
+                "end_ms": 276981,
                 "text": "Perfect. The volunteer coordinator will be at our open day, so you could meet her there."
               },
               {
                 "speaker": "man",
                 "accent": "en-CA",
-                "start_ms": 330384,
-                "end_ms": 331153,
+                "start_ms": 277381,
+                "end_ms": 278213,
                 "text": "When's that?"
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-NZ",
-                "start_ms": 331553,
-                "end_ms": 345784,
+                "start_ms": 278613,
+                "end_ms": 288682,
                 "text": "It was going to be Saturday the 12th, but that's the day of the harbour fun run and the roads will be closed, so we've moved it to Sunday the 13th. It runs from ten till two."
               },
               {
                 "speaker": "man",
                 "accent": "en-CA",
-                "start_ms": 346184,
-                "end_ms": 356568,
+                "start_ms": 289082,
+                "end_ms": 297381,
                 "text": "The 13th suits me. I'm away on the 19th and 20th, so I'm glad it isn't the weekend after. And how do I get my membership card?"
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-NZ",
-                "start_ms": 356968,
-                "end_ms": 369276,
+                "start_ms": 297781,
+                "end_ms": 306634,
                 "text": "We used to post them out, but too many went missing, so now you pick your card up from reception on your first visit. We'll email you a receipt straight away, though."
               },
               {
                 "speaker": "man",
                 "accent": "en-CA",
-                "start_ms": 369676,
-                "end_ms": 372368,
+                "start_ms": 307034,
+                "end_ms": 308933,
                 "text": "Brilliant. Thanks so much for your help."
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-NZ",
-                "start_ms": 372768,
-                "end_ms": 374691,
+                "start_ms": 309333,
+                "end_ms": 311210,
                 "text": "You're welcome. See you soon."
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
-                "start_ms": 375091,
-                "end_ms": 381630,
+                "start_ms": 311610,
+                "end_ms": 316368,
                 "text": "That is the end of the recording. You now have half a minute to check your answers."
               }
             ],
-            "tts_provider": "fake",
+            "tts_provider": "kokoro",
             "voices": {
-              "narrator": "fake-en-GB-male-0",
-              "receptionist": "fake-en-NZ-female-2",
-              "man": "fake-en-CA-male-2"
+              "narrator": "bm_george",
+              "receptionist": "bf_alice",
+              "man": "am_puck"
             }
           },
           "groups": [

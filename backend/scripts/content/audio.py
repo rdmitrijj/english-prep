@@ -4,6 +4,7 @@ transcript timestamps are exact and free.
 
     python -m scripts.content.audio render mock-01                     # TTS_PROVIDER from .env
     python -m scripts.content.audio render mock-01 --provider fake     # free tones, for trying the app
+    uv run --with kokoro-onnx python -m scripts.content.audio render mock-01 --provider kokoro   # free local voices
 
 Synthesised lines are cached in content/.tts-cache/, so re-rendering after an edit only pays for changed lines.
 """
@@ -21,7 +22,7 @@ from scripts.content.generate import finalize, save
 from scripts.content.offline import load
 from scripts.content.schema import CAudio, CPart, Segment, Speaker
 from scripts.content.spec import LINE_GAP_S
-from scripts.content.tts import SAMPLE_RATE, synthesize, voice_pool
+from scripts.content.tts import PROVIDERS, SAMPLE_RATE, synthesize, voice_pool
 
 FALLBACK = {"en-NZ": ["en-AU", "en-GB"], "en-CA": ["en-US"], "en-AU": ["en-GB"], "en-US": ["en-CA"], "en-GB": []}
 
@@ -101,7 +102,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(prog="python -m scripts.content.audio")
     parser.add_argument("cmd", choices=["render"])
     parser.add_argument("slug")
-    parser.add_argument("--provider", choices=["elevenlabs", "fake"])
+    parser.add_argument("--provider", choices=list(PROVIDERS))
     args = parser.parse_args()
     provider = args.provider or get_settings().tts_provider
     test = load(args.slug)

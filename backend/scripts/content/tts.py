@@ -3,6 +3,9 @@ Swapping vendor = one function in PROVIDERS + one block in voices.json.
 
     python -m scripts.content.tts voices            # list your ElevenLabs voices with their labels
     python -m scripts.content.tts voices --write    # pick voices by accent/gender into voices.json
+
+TTS_PROVIDER=kokoro is free and local (Kokoro-82M, Apache-2.0): it needs `uv run --with kokoro-onnx` and the model
+files in KOKORO_DIR (kokoro-v1.0.onnx + voices-v1.0.bin from github.com/thewh1teagle/kokoro-onnx releases).
 """
 
 import argparse
@@ -12,6 +15,7 @@ import urllib.parse
 import urllib.request
 import zlib
 from array import array
+from functools import cache
 from pathlib import Path
 
 from app.config import get_settings
@@ -54,7 +58,28 @@ def _fake(text: str, voice_id: str) -> bytes:
     return (second.tobytes() * (n // SAMPLE_RATE + 1))[: n * 2]
 
 
-PROVIDERS = {"elevenlabs": _elevenlabs, "fake": _fake}
+@cache
+def _kokoro_model():
+    from kokoro_onnx import Kokoro  # optional: only the local render needs it
+
+    d = Path(get_settings().kokoro_dir).expanduser()
+    return Kokoro(str(d / "kokoro-v1.0.onnx"), str(d / "voices-v1.0.bin"))
+
+
+def _kokoro(text: str, voice_id: str) -> bytes:
+    import numpy as np  # comes with kokoro-onnx
+
+    samples, rate = _kokoro_model().create(text, voice=voice_id, lang="en-gb" if voice_id[0] == "b" else "en-us")
+    assert rate == SAMPLE_RATE
+    return (np.clip(samples, -1, 1) * 32767).astype("<i2").tobytes()
+
+
+PROVIDERS = {"elevenlabs": _elevenlabs, "fake": _fake, "kokoro": _kokoro}
+# Kokoro has British and American voices only; the other accents fall back to these (audio.FALLBACK).
+KOKORO_VOICES = {
+    "en-GB": {"female": ["bf_emma", "bf_isabella", "bf_alice"], "male": ["bm_george", "bm_fable", "bm_lewis", "bm_daniel"]},
+    "en-US": {"female": ["af_heart", "af_bella", "af_nicole", "af_sarah"], "male": ["am_michael", "am_fenrir", "am_puck"]},
+}
 
 
 def synthesize(text: str, voice_id: str, provider: str | None = None) -> bytes:
@@ -66,6 +91,8 @@ def voice_pool(provider: str) -> dict[str, dict[str, list[str]]]:
     if provider == "fake":
         return {a: {g: [f"fake-{a}-{g}-{i}" for i in range(3)] for g in ("female", "male")}
                 for a in ("en-GB", "en-AU", "en-NZ", "en-US", "en-CA")}
+    if provider == "kokoro":
+        return KOKORO_VOICES
     pools = json.loads(VOICES_FILE.read_text()) if VOICES_FILE.exists() else {}
     if provider not in pools:
         raise TTSError(f"no {provider} voices in {VOICES_FILE.name}: run python -m scripts.content.tts voices --write")

@@ -19,9 +19,10 @@ class Settings(BaseSettings):
     llm_model_evaluate: str = "gpt-6.1-sol"
     llm_model_verify: str = "gpt-5.6-terra"
 
-    tts_provider: str = "elevenlabs"  # or "fake": free tones for development, see scripts/content/tts.py
+    tts_provider: str = "elevenlabs"  # or "kokoro" (free, local) or "fake" (tones), see scripts/content/tts.py
     elevenlabs_api_key: str | None = None
     elevenlabs_model: str = "eleven_multilingual_v2"  # the API's documented default; newer models via env
+    kokoro_dir: str = "~/.cache/kokoro"
 
     exam_time_scale: float = 1.0  # dev only: 0.05 turns a 60-minute section into 3 minutes
     content_dir: str = "/srv/content"  # generated JSON + media (repo-root content/)

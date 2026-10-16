@@ -130,132 +130,132 @@
           },
           "audio": {
             "url": "/media/audio/practice-listening-earth-science-climate-01-p1.mp3",
-            "duration_ms": 399107,
+            "duration_ms": 333234,
             "segments": [
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 0,
-                "end_ms": 11153,
+                "end_ms": 8576,
                 "text": "You will hear a lecturer talking about how peat bogs can be used to study past climate. First, you have some time to look at questions 1 to 10."
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
-                "start_ms": 56553,
-                "end_ms": 60015,
+                "start_ms": 53976,
+                "end_ms": 57474,
                 "text": "Now listen carefully and answer questions 1 to 10."
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-GB",
-                "start_ms": 60415,
-                "end_ms": 81184,
+                "start_ms": 57874,
+                "end_ms": 73960,
                 "text": "Good morning, everyone. Last week we looked at ice cores, and today I want to turn to a climate archive that's much closer to home for most of us, and a lot less glamorous: the peat bog. Peatlands cover only about three per cent of the world's land surface, and yet they matter enormously."
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-GB",
-                "start_ms": 81584,
-                "end_ms": 100430,
+                "start_ms": 74360,
+                "end_ms": 89378,
                 "text": "You'll sometimes read that they store more carbon than the entire atmosphere. That figure is actually disputed, so I won't make that claim. What is well established is that they hold more carbon than all of the world's forests put together, which is remarkable for such a small area."
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-GB",
-                "start_ms": 100830,
-                "end_ms": 121599,
+                "start_ms": 89778,
+                "end_ms": 107549,
                 "text": "So why does peat build up at all? In most environments, when a plant dies, bacteria and fungi break it down fairly quickly. But in a bog the ground is saturated, and that water keeps out oxygen. Without it, decay slows almost to a standstill, so dead plant material simply accumulates, year after year."
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-GB",
-                "start_ms": 121999,
-                "end_ms": 146230,
+                "start_ms": 107949,
+                "end_ms": 128066,
                 "text": "The type of bog we're interested in today is the raised bog. It gets its name because, over thousands of years, the peat grows into a gentle dome that sits above the surrounding landscape. Once the surface is lifted above the local groundwater, the plants on top can't take water from streams or from the soil beneath them. Their only supply is rainfall."
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-GB",
-                "start_ms": 146630,
-                "end_ms": 165476,
+                "start_ms": 128466,
+                "end_ms": 143869,
                 "text": "And that's exactly what makes a raised bog so sensitive to climate. In a wet period the surface stays waterlogged; in a dry period it dries out, and the plants and tiny creatures living there change accordingly. Then all of that gets buried and preserved under the next layer."
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-GB",
-                "start_ms": 165876,
-                "end_ms": 183953,
+                "start_ms": 144269,
+                "end_ms": 157048,
                 "text": "People often describe a bog as an archive, but I prefer to think of it as a diary. An archive is just a store of material, whereas in a diary every entry has a date, and as you'll see, each layer of peat can be dated too."
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-GB",
-                "start_ms": 184353,
-                "end_ms": 210507,
+                "start_ms": 157448,
+                "end_ms": 178354,
                 "text": "So how do we read this diary? There are several clues, such as the remains of particular mosses, but the one I've worked with most is a group of single-celled organisms called testate amoebae. That's testate, T-E-S-T-A-T-E. They build tiny shells, and different species prefer different levels of wetness, so the mix of shells in a layer tells us how wet the bog surface was at the time."
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-GB",
-                "start_ms": 210907,
-                "end_ms": 236676,
+                "start_ms": 178754,
+                "end_ms": 197421,
                 "text": "Let me now take you through how we actually produce a climate record from a bog. The first decision is where to sample. It's tempting to take a core near the edge, where access is easy, but the edges have often been disturbed by drainage ditches. So we always go to the centre of the dome, where the peat is deepest and the record is most complete."
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-GB",
-                "start_ms": 237076,
-                "end_ms": 258615,
+                "start_ms": 197821,
+                "end_ms": 215165,
                 "text": "Next, we extract the core. A traditional piston corer pushes a tube straight down, but that tends to squash soft peat, and squashed layers are no good for dating. Instead, we use what's known as a Russian corer. It has a sharp blade that turns sideways and cuts out a half-cylinder of peat without compressing it."
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-GB",
-                "start_ms": 259015,
-                "end_ms": 280169,
+                "start_ms": 215565,
+                "end_ms": 230776,
                 "text": "Each section of core then has to be protected on its way back to the lab. For years we wrapped them in plastic film, but we found the plastic could contaminate some of our samples. So these days we wrap every section in foil, and it goes straight into a cold store at four degrees."
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-GB",
-                "start_ms": 280569,
-                "end_ms": 307876,
+                "start_ms": 231176,
+                "end_ms": 254792,
                 "text": "In the laboratory, the core is cut into slices one centimetre thick, and then comes dating. We use radiocarbon dating on selected slices, of course, but radiocarbon dates have quite wide margins of error. So we also search for very thin layers of volcanic ash. These were blown over from eruptions in places like Iceland, and because many of those eruptions have known dates, each layer gives us a precise marker."
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-GB",
-                "start_ms": 308276,
-                "end_ms": 325199,
+                "start_ms": 255192,
+                "end_ms": 269058,
                 "text": "The next stage is the slow one. Under the microscope, we identify and count the amoeba shells in each slice, usually around a hundred and fifty per sample, and we convert those counts into an estimate of how far below the surface the water table was."
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-GB",
-                "start_ms": 325599,
-                "end_ms": 346368,
+                "start_ms": 269458,
+                "end_ms": 286632,
                 "text": "Finally, we need to check that the method actually works. For roughly the last hundred and fifty years, we can compare the bog record with measurements from local weather stations. Where the two agree, we can be more confident about the older parts of the record, which go back thousands of years before any instruments existed."
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-GB",
-                "start_ms": 346768,
-                "end_ms": 361768,
+                "start_ms": 287032,
+                "end_ms": 297805,
                 "text": "Sadly, many bogs have been drained for farming or cut for fuel, and once that happens the diary is lost for good. After the break, I'll show you some results from a bog where the record is still intact."
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
-                "start_ms": 362168,
-                "end_ms": 368707,
+                "start_ms": 298205,
+                "end_ms": 302834,
                 "text": "That is the end of the recording. You now have half a minute to check your answers."
               }
             ],
-            "tts_provider": "fake",
+            "tts_provider": "kokoro",
             "voices": {
-              "narrator": "fake-en-GB-male-1",
-              "lecturer": "fake-en-GB-female-1"
+              "narrator": "bm_lewis",
+              "lecturer": "bf_isabella"
             }
           },
           "groups": [
