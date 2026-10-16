@@ -3,17 +3,19 @@ import { NavLink, Outlet, Route, Routes } from "react-router";
 import { api, ApiError, type User } from "./api";
 import ExamPage from "./exam/ExamShell";
 import ReportPage from "./exam/ReportPage";
+import DashboardPage from "./pages/Dashboard";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Mock from "./pages/Mock";
+import Trainer from "./pages/Trainer";
 import PracticePage from "./practice/PracticePage";
 import PracticeSession from "./practice/PracticeSession";
 
 const SECTIONS = [
   { path: "/mock", label: "Mock exam", blurb: "A full section under real exam conditions, timed and marked.", ready: true },
   { path: "/practice", label: "Practice", blurb: "Untimed question sets with instant feedback and the evidence in the text.", ready: true },
-  { path: "/trainer", label: "Weakness trainer", blurb: "Short sessions built from the question types you miss most.", ready: false },
-  { path: "/dashboard", label: "Progress", blurb: "Your bands over time, accuracy per question type, and pace.", ready: false },
+  { path: "/trainer", label: "Weakness trainer", blurb: "Short sessions built from the question types you miss most.", ready: true },
+  { path: "/dashboard", label: "Progress", blurb: "Your bands over time, accuracy per question type, and pace.", ready: true },
 ];
 
 export default function App() {
@@ -66,6 +68,8 @@ export default function App() {
         <Route path="/mock" element={<Mock />} />
         <Route path="/practice" element={<PracticePage />} />
         <Route path="/report/:attemptId" element={<ReportPage />} />
+        <Route path="/trainer" element={<Trainer />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
         {SECTIONS.filter((s) => !s.ready).map((s) => (
           <Route key={s.path} path={s.path} element={<p className="lead">{s.label} is coming soon.</p>} />
         ))}

@@ -73,12 +73,17 @@ async def create_session(body: PracticeCreate, user: CurrentUser, session: Sessi
         picked.append(g.group_id)
         total += g.questions
 
-    asec = AttemptSection(section_id=None, skill=body.skill, ui_state={}, group_ids=picked)
+    return await attempt_out(session, await new_session(session, user.id, AttemptMode.practice, body.skill, picked))
+
+
+async def new_session(session, user_id: int, mode: AttemptMode, skill: Skill, group_ids: list[int]) -> Attempt:
+    """An untimed session over the given question groups (practice and trainer)."""
+    asec = AttemptSection(section_id=None, skill=skill, ui_state={}, group_ids=group_ids)
     timer.start(asec, None)  # no deadline, but time is still measured
-    attempt = Attempt(user_id=user.id, mode=AttemptMode.practice, test_id=None, sections=[asec])
+    attempt = Attempt(user_id=user_id, mode=mode, test_id=None, sections=[asec])
     session.add(attempt)
     await session.commit()
-    return await attempt_out(session, attempt)
+    return attempt
 
 
 @router.post("/sessions/{attempt_id}/check-group", response_model=list[FeedbackOut])
@@ -86,7 +91,7 @@ async def check_group(attempt_id: int, body: CheckIn, user: CurrentUser, session
     """Mark one group and return its feedback. Its answers are locked from then on."""
     attempt = await load(session, attempt_id, user.id)
     asec = attempt.sections[0]
-    if attempt.mode != AttemptMode.practice or body.group_id not in (asec.group_ids or []):
+    if attempt.mode not in (AttemptMode.practice, AttemptMode.trainer) or body.group_id not in (asec.group_ids or []):
         raise HTTPException(status.HTTP_404_NOT_FOUND, "Group not in this practice session")
     if asec.submitted_at:
         raise HTTPException(status.HTTP_409_CONFLICT, "This practice session is finished")

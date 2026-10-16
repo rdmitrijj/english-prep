@@ -188,3 +188,36 @@ export type WritingOption = {
   topic_label: string;
   seen: boolean;
 };
+
+export type TagStat = {
+  skill: "reading" | "listening";
+  kind: "qtype" | "topic" | "sub_skill";
+  key: string;
+  label: string;
+  n: number;
+  accuracy: number; // smoothed toward the section accuracy
+  raw_accuracy: number;
+  median_s: number | null;
+  pace: number | null; // median time ÷ target (Reading only)
+  score: number;
+  weak: boolean;
+};
+export type SkillStats = {
+  accuracy: number;
+  answers: number;
+  goal: number; // share correct needed for the target band
+  target_s: number | null;
+  tags: TagStat[];
+  errors: { error_class: string; count: number }[];
+};
+export type Dashboard = {
+  target_band: number;
+  bands: { attempt_id: number; skill: Skill; band: number; date: string }[];
+  reviews_due: number;
+  weaknesses: TagStat[];
+  skills: Partial<Record<"reading" | "listening", SkillStats>>;
+  writing: {
+    criteria: { key: string; n: number; average: number; weak: boolean }[];
+    errors: { category: string; count: number; essays: number; per_100_words: number; weak: boolean }[];
+  };
+};

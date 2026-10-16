@@ -17,7 +17,7 @@ export default function ReportPage() {
   if (report.isPending) return <p className="muted">Loading…</p>;
   if (report.error) return <p className="error">{report.error.message}</p>;
   const r = report.data;
-  const practice = r.mode === "practice";
+  const practice = r.mode === "practice" || r.mode === "trainer";
   const unit = practice ? "Passage" : "Part";
 
   return (
@@ -135,7 +135,15 @@ export default function ReportPage() {
           </table>
         </article>
       ))}
-      <p>{practice ? <Link to="/practice">Back to practice</Link> : <Link to="/mock">Back to mock exams</Link>}</p>
+      <p>
+        {r.mode === "trainer" ? (
+          <Link to="/trainer">Back to the trainer</Link>
+        ) : practice ? (
+          <Link to="/practice">Back to practice</Link>
+        ) : (
+          <Link to="/mock">Back to mock exams</Link>
+        )}
+      </p>
       <p className="disclaimer">Bands are AI/heuristic estimates, not official IELTS results.</p>
     </>
   );

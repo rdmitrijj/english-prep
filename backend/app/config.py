@@ -25,6 +25,7 @@ class Settings(BaseSettings):
     kokoro_dir: str = "~/.cache/kokoro"
 
     exam_time_scale: float = 1.0  # dev only: 0.05 turns a 60-minute section into 3 minutes
+    dev_clock_offset_days: float = 0  # dev only: 1 = the server lives one day ahead (to see reviews fall due)
     content_dir: str = "/srv/content"  # generated JSON + media (repo-root content/)
 
 

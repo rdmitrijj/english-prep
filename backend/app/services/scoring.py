@@ -15,7 +15,7 @@ from app.models.attempts import Attempt, AttemptSection, Response
 from app.models.content import AnswerKey, BandTable, Part, Question, QuestionGroup
 from app.models.enums import AttemptStatus, QType, Skill, SubmitReason
 from app.repositories import attempts as repo
-from app.services import writing  # module import: writing imports this module too
+from app.services import srs, timer, writing  # module imports: timer and writing import this module too
 from app.services.normalize import classify_choice, classify_text
 
 BAND_TABLE_SKILL = {Skill.reading: "reading_academic", Skill.listening: "listening"}
@@ -80,8 +80,12 @@ async def mark(session: AsyncSession, asec: AttemptSection, only_group: int | No
             responses[q.id] = Response(attempt_section_id=asec.id, question_id=q.id, answer=None,
                                        time_ms=0, change_count=0, flagged=False)
             session.add(responses[q.id])
+    unmarked = {q.id for q, _, _, _ in items if responses[q.id].is_correct is None}
     for _, group_items in groupby(items, key=lambda it: it[1].id):
         mark_group(list(group_items), responses)
+    # Each answer feeds the review queue once, when first marked (finishing a practice session re-marks checked groups).
+    user_id = await session.scalar(select(Attempt.user_id).where(Attempt.id == asec.attempt_id))
+    await srs.record(session, user_id, [(qid, bool(responses[qid].is_correct)) for qid in unmarked], timer.now())
     return items
 
 

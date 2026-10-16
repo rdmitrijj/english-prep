@@ -17,8 +17,8 @@ GRACE = timedelta(seconds=10)  # autosaves still accepted this long after the de
 
 
 def now() -> datetime:
-    """The only clock the exam code reads; tests replace it to freeze time."""
-    return datetime.now(UTC)
+    """The only clock the app reads; tests replace it to freeze time, DEV_CLOCK_OFFSET_DAYS shifts it in dev."""
+    return datetime.now(UTC) + timedelta(days=get_settings().dev_clock_offset_days)
 
 
 def scaled(duration_s: int) -> int:

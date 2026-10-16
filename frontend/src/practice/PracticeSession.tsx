@@ -40,6 +40,7 @@ function Session({ attempt, section }: { attempt: Attempt; section: AttemptSecti
     requestAnimationFrame(() => requestAnimationFrame(() => showEvidence(qid))); // after the transcript renders
   };
   const url = `/attempts/${attempt.id}/sections/${section.id}`;
+  const trainer = attempt.mode === "trainer";
 
   const check = useMutation({
     mutationFn: async (groupId: number) => {
@@ -55,6 +56,7 @@ function Session({ attempt, section }: { attempt: Attempt; section: AttemptSecti
     },
     onSuccess: () => {
       qc.invalidateQueries({ queryKey: ["attempts"] });
+      qc.invalidateQueries({ queryKey: ["dashboard"] });
       navigate(`/report/${attempt.id}`, { replace: true });
     },
   });
@@ -81,11 +83,11 @@ function Session({ attempt, section }: { attempt: Attempt; section: AttemptSecti
     <div className="exam practice">
       <header className="examhead">
         <span>
-          <strong>Practice</strong> <span className="muted">{title}</span>
+          <strong>{trainer ? "Trainer" : "Practice"}</strong> <span className="muted">{title}</span>
         </span>
         <Elapsed since={section.started_at!} offset={r.clockOffset} />
         <span className="tools">
-          <button onClick={() => r.save().then(() => navigate("/practice"))}>Leave</button>
+          <button onClick={() => r.save().then(() => navigate(trainer ? "/trainer" : "/practice"))}>Leave</button>
           <button className="primary" disabled={finish.isPending} onClick={confirmFinish}>
             Finish
           </button>

@@ -17,3 +17,16 @@ export function errorLabel(e: string | null) {
   if (m) return `${CHOICE[m[1]]} read as ${CHOICE[m[2]]}`;
   return e ? sentence(e) : "Wrong";
 }
+
+const CRITERION: Record<string, string> = {
+  task_achievement: "Task Achievement (Task 1)",
+  task_response: "Task Response (Task 2)",
+  coherence_cohesion: "Coherence and Cohesion",
+  lexical_resource: "Lexical Resource",
+  grammar: "Grammatical Range and Accuracy",
+};
+export const criterionLabel = (c: string) => CRITERION[c] ?? sentence(c);
+
+/** A weakness tag in words: "Matching headings", "Biology and ecology", "Inference". */
+export const tagLabel = (t: { kind: string; key: string; label: string }) =>
+  t.kind === "qtype" ? qtypeLabel(t.key) : t.kind === "topic" ? t.label : sentence(t.key);

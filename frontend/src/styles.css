@@ -486,3 +486,77 @@ table.grid th {
   border-left: 4px solid var(--cobalt);
   background: var(--surface);
 }
+
+/* Progress dashboard */
+.trend {
+  margin: 0;
+}
+.trend svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.trend .grid {
+  stroke: var(--line);
+}
+.trend .tick,
+.trend .direct {
+  font-size: 12px;
+  fill: var(--muted);
+}
+.trend .direct {
+  fill: var(--ink);
+}
+.trend .target {
+  stroke: var(--muted);
+  stroke-width: 1.5;
+  stroke-dasharray: 5 4;
+}
+.trend .hit {
+  fill: transparent;
+}
+.legend {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.swatch {
+  display: inline-block;
+  width: 14px;
+  height: 3px;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+.swatch.dashed {
+  background: repeating-linear-gradient(90deg, var(--muted) 0 5px, transparent 5px 8px);
+}
+.weak {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.weak li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.weak p {
+  margin: 2px 0 0;
+}
+.panels h3 {
+  font-size: 1rem;
+  margin: 0 0 8px;
+}
+.plain {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

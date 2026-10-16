@@ -639,6 +639,10 @@ SRS = the spaced-repetition system from §4.5.
 - **Endpoints:** `GET /api/dashboard`, `GET /api/weaknesses`, `POST /api/trainer/sessions`, `GET /api/history` with drill-down via `/api/attempts/{id}/report`.
 - **Tests:** weakness formula on hand-computed fixtures (prior pull, recency halving, pace cap, minimum sample of 8); Leitner transitions; trainer mix proportions.
 - **Verify:** after M3–M6 attempts, the dashboard shows trends and weaknesses → "Train this" opens a trainer session → a wrong answer reappears the next day (testable with a dev clock override).
+- **As built (2026-10-16):** one `GET /api/dashboard` carries the trend, weaknesses, per-tag stats, writing criteria and
+  the reviews-due count (no separate `/weaknesses` or `/history`: history reuses `GET /api/attempts`). The band trend is a
+  small inline SVG instead of Recharts (one chart doesn't justify ~100 KB). Error classes are shown as "most common
+  mistakes" rather than scored as tags (they have no accuracy of their own). The dev clock is `DEV_CLOCK_OFFSET_DAYS`.
 
 ### M8: Full mock flow + overall report
 - **Files:** a `FullMock` flow page with between-section screens. Complete the remaining content to **4 full mocks** and the full practice bank (§6.10).
