@@ -1,0 +1,36 @@
+{
+  "slug": "practice-writing-t1-process-01",
+  "kind": "practice",
+  "title": "Process: turning used cooking oil into biodiesel",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "environment",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The diagram below shows how used cooking oil is collected and turned into biodiesel fuel.",
+            "essay_type": null,
+            "visual": {
+              "type": "process",
+              "charts": [],
+              "description": "Process diagram titled \"Turning used cooking oil into biodiesel\", with eight numbered stages linked by arrows and one by-product. Stage 1: used oil is collected from restaurants. Stage 2: it is filtered to remove food scraps. Stage 3: it is heated to remove water. Stage 4: it is mixed with alcohol and a catalyst in a reactor. Stage 5: the mixture is left to settle and two layers form. From stage 5 the process divides: the bottom layer (glycerine) is separated as a by-product and sold to soap makers (shown in a dashed box, not numbered), while the top layer (biodiesel) continues to stage 6, where it is washed with water. Stage 7: the biodiesel is dried and stored in tanks. Stage 8: it is supplied as fuel for city buses.",
+              "url": "/media/visuals/practice-writing-t1-process-01-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-two-part-01",
+  "kind": "practice",
+  "title": "Two-part: adults living with their parents",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "society-family",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "These days, more and more adults in their twenties and thirties continue to live with their parents instead of in a home of their own.\n\nWhy is this happening? Is it a positive or negative development?",
+            "essay_type": "two_part",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

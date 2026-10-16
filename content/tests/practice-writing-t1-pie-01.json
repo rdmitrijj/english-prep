@@ -1,0 +1,74 @@
+{
+  "slug": "practice-writing-t1-pie-01",
+  "kind": "practice",
+  "title": "Pie charts: electricity sources in 2000 and 2020",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "energy-resources",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The pie charts below show the sources of electricity generated in one country in 2000 and 2020.",
+            "essay_type": null,
+            "visual": {
+              "type": "pie",
+              "charts": [
+                {
+                  "type": "pie",
+                  "title": "Electricity generation by source",
+                  "unit": "%",
+                  "categories": [
+                    "Coal",
+                    "Wind and solar",
+                    "Natural gas",
+                    "Other",
+                    "Nuclear",
+                    "Hydroelectric"
+                  ],
+                  "series": [
+                    {
+                      "name": "2000",
+                      "values": [
+                        45.0,
+                        2.0,
+                        28.0,
+                        3.0,
+                        15.0,
+                        7.0
+                      ]
+                    },
+                    {
+                      "name": "2020",
+                      "values": [
+                        12.0,
+                        29.0,
+                        34.0,
+                        3.0,
+                        14.0,
+                        8.0
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "url": "/media/visuals/practice-writing-t1-pie-01-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "practice-writing-t1-table-01",
+  "kind": "practice",
+  "title": "Table: visitors to city attractions",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "travel-tourism",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The table below shows the number of visitors to five tourist attractions in one city in 2005, 2012, 2019 and 2024.",
+            "essay_type": null,
+            "visual": {
+              "type": "table",
+              "charts": [
+                {
+                  "type": "table",
+                  "title": "Visitors to five city attractions",
+                  "unit": "thousands of visitors",
+                  "categories": [
+                    "Castle",
+                    "City Museum",
+                    "Science Centre",
+                    "Botanic Garden",
+                    "Harbour boat tours"
+                  ],
+                  "series": [
+                    {
+                      "name": "2005",
+                      "values": [
+                        820.0,
+                        610.0,
+                        150.0,
+                        300.0,
+                        90.0
+                      ]
+                    },
+                    {
+                      "name": "2012",
+                      "values": [
+                        900.0,
+                        580.0,
+                        390.0,
+                        310.0,
+                        180.0
+                      ]
+                    },
+                    {
+                      "name": "2019",
+                      "values": [
+                        1050.0,
+                        540.0,
+                        610.0,
+                        290.0,
+                        260.0
+                      ]
+                    },
+                    {
+                      "name": "2024",
+                      "values": [
+                        1120.0,
+                        490.0,
+                        700.0,
+                        305.0,
+                        420.0
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "url": "/media/visuals/practice-writing-t1-table-01-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

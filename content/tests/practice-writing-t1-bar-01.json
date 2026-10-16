@@ -1,0 +1,71 @@
+{
+  "slug": "practice-writing-t1-bar-01",
+  "kind": "practice",
+  "title": "Bar chart: doctor visits by age and sex",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "health",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The bar chart below shows the average number of times men and women in one country visited a family doctor in 2022, by age group.",
+            "essay_type": null,
+            "visual": {
+              "type": "bar",
+              "charts": [
+                {
+                  "type": "bar",
+                  "title": "Average visits to a family doctor per person, by age group (2022)",
+                  "unit": "visits per year",
+                  "categories": [
+                    "0–15",
+                    "16–34",
+                    "35–54",
+                    "55–74",
+                    "75+"
+                  ],
+                  "series": [
+                    {
+                      "name": "Men",
+                      "values": [
+                        3.1,
+                        1.8,
+                        2.6,
+                        4.9,
+                        7.8
+                      ]
+                    },
+                    {
+                      "name": "Women",
+                      "values": [
+                        2.9,
+                        4.2,
+                        4.0,
+                        5.6,
+                        8.1
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "url": "/media/visuals/practice-writing-t1-bar-01-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

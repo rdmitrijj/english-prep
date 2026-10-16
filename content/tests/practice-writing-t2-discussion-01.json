@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-discussion-01",
+  "kind": "practice",
+  "title": "Discussion: fines or community work for minor offences",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "government-law",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Some people think that minor offences, such as dropping litter or parking illegally, should be punished with unpaid community work. Others believe that fines are the most effective punishment for offences of this kind.\n\nDiscuss both these views and give your own opinion.",
+            "essay_type": "discussion",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

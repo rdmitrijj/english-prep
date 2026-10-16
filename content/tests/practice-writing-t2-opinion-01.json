@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-opinion-01",
+  "kind": "practice",
+  "title": "Opinion: navigation apps and finding your way",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "technology",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Navigation apps on mobile phones have made it unnecessary for people to learn how to find their way around on their own.\n\nTo what extent do you agree or disagree?",
+            "essay_type": "opinion",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

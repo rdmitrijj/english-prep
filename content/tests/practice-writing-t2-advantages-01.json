@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-advantages-01",
+  "kind": "practice",
+  "title": "Advantages: car-free city centres",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "cities-transport",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "In a growing number of cities, cars are being banned from the central streets, which are then reserved for pedestrians, cyclists and public transport.\n\nDo the advantages of this outweigh the disadvantages?",
+            "essay_type": "advantages_disadvantages",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

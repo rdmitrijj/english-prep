@@ -1,0 +1,36 @@
+{
+  "slug": "practice-writing-t1-map-01",
+  "kind": "practice",
+  "title": "Maps: changes to a harbour",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "cities-transport",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The maps below show the harbour area of Marrowby in 1990 and today.",
+            "essay_type": null,
+            "visual": {
+              "type": "map",
+              "charts": [],
+              "description": "Two maps of Marrowby harbour side by side, headed \"1990\" (left) and \"Today\" (right), with a north arrow (north is at the top) and a scale bar of 100 metres. In both maps the sea lies to the north, a lighthouse stands on a small headland in the north-west, a narrow pier runs north into the sea from the middle of the shore, Harbour Road runs east–west across the middle of the area, a railway station is south of the road on the west side, a car park is south of the road to the east of the station, and a railway line runs east–west along the southern edge. 1990: fishing boats are moored in the water between the headland and the pier; along the shore, north of Harbour Road, there is a boatyard in the west, a fish market in the centre and warehouses in the east (east of the pier); the car park is small. Today: the lighthouse, Harbour Road, the railway station and the railway line are unchanged. The pier has been extended further north and a ferry terminal has been built at its end. The fishing boats have gone and a marina (a pontoon with berths, attached to the pier) has been built in their place. The boatyard has been replaced by a park with trees. The fish market building has been converted into restaurants. The warehouses have been demolished and replaced by three small apartment blocks. The car park has been extended eastwards to almost twice its former size.",
+              "url": "/media/visuals/practice-writing-t1-map-01-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

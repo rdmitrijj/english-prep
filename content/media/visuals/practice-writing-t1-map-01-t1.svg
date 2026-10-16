@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#222">
+<rect width="900" height="560" fill="#fff"/>
+<text x="450" y="36" text-anchor="middle" font-size="20" font-weight="bold">Marrowby harbour</text>
+<text x="230" y="92" text-anchor="middle" font-size="18" font-weight="bold">1990</text>
+<text x="670" y="92" text-anchor="middle" font-size="18" font-weight="bold">Today</text>
+<path d="M855,30 L866,62 L855,55 L844,62 Z" fill="#333"/><text x="855" y="80" text-anchor="middle" font-weight="bold">N</text>
+<line x1="30" y1="60" x2="130" y2="60" stroke="#333" stroke-width="2"/><line x1="30" y1="54" x2="30" y2="66" stroke="#333" stroke-width="2"/><line x1="130" y1="54" x2="130" y2="66" stroke="#333" stroke-width="2"/>
+<text x="30" y="48" text-anchor="middle" font-size="14">0</text><text x="130" y="48" text-anchor="middle" font-size="14">100 m</text>
+<g transform="translate(20,110)"><rect x="0" y="0" width="420" height="420" fill="#fff"/>
+<path d="M0,0 H420 V170 H95 C80,170 75,120 50,118 C25,116 15,140 0,140 Z" fill="#dbe6ee"/>
+<path d="M420,170 H95 C80,170 75,120 50,118 C25,116 15,140 0,140" fill="none" stroke="#333" stroke-width="1.5"/>
+<text x="380" y="120" text-anchor="middle" font-style="italic">Sea</text>
+<circle cx="45" cy="140" r="9" fill="#fff" stroke="#333" stroke-width="1.5"/><circle cx="45" cy="140" r="3" fill="#333"/>
+<text x="52" y="100" text-anchor="middle">Lighthouse</text>
+<rect x="270" y="80" width="14" height="90" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="305" y="105" text-anchor="start">Pier</text>
+<path d="M123,135 L147,135 L143,142 L127,142 Z" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<path d="M163,148 L187,148 L183,155 L167,155 Z" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<path d="M203,132 L227,132 L223,139 L207,139 Z" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<path d="M148,112 L172,112 L168,119 L152,119 Z" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<path d="M213,155 L237,155 L233,162 L217,162 Z" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="180" y="90" text-anchor="middle">Fishing boats</text>
+<rect x="12" y="182" width="110" height="58" fill="#e7e2d8" stroke="#333" stroke-width="1.5"/><text x="67" y="216" text-anchor="middle">Boatyard</text>
+<rect x="135" y="182" width="120" height="58" fill="#e7e2d8" stroke="#333" stroke-width="1.5"/><text x="195" y="216" text-anchor="middle">Fish market</text>
+<rect x="298" y="182" width="110" height="58" fill="#e7e2d8" stroke="#333" stroke-width="1.5"/><text x="353" y="216" text-anchor="middle">Warehouses</text>
+<rect x="0" y="255" width="420" height="26" fill="#fff" stroke="none"/>
+<line x1="0" y1="255" x2="420" y2="255" stroke="#333" stroke-width="1.5"/><line x1="0" y1="281" x2="420" y2="281" stroke="#333" stroke-width="1.5"/>
+<text x="210" y="273" text-anchor="middle">Harbour Road</text>
+<rect x="240" y="300" width="110" height="70" fill="#e7e2d8" stroke="#333" stroke-width="1.5" stroke-dasharray="5 3"/><text x="295.0" y="340" text-anchor="middle">Car park</text>
+<rect x="20" y="300" width="150" height="70" fill="#e7e2d8" stroke="#333" stroke-width="1.5"/><text x="95" y="340" text-anchor="middle">Railway station</text>
+<line x1="0" y1="395" x2="420" y2="395" stroke="#333" stroke-width="2"/><line x1="0" y1="403" x2="420" y2="403" stroke="#333" stroke-width="2"/>
+<line x1="6" y1="391" x2="6" y2="407" stroke="#333"/><line x1="20" y1="391" x2="20" y2="407" stroke="#333"/><line x1="34" y1="391" x2="34" y2="407" stroke="#333"/><line x1="48" y1="391" x2="48" y2="407" stroke="#333"/><line x1="62" y1="391" x2="62" y2="407" stroke="#333"/><line x1="76" y1="391" x2="76" y2="407" stroke="#333"/><line x1="90" y1="391" x2="90" y2="407" stroke="#333"/><line x1="104" y1="391" x2="104" y2="407" stroke="#333"/><line x1="118" y1="391" x2="118" y2="407" stroke="#333"/><line x1="132" y1="391" x2="132" y2="407" stroke="#333"/><line x1="146" y1="391" x2="146" y2="407" stroke="#333"/><line x1="160" y1="391" x2="160" y2="407" stroke="#333"/><line x1="174" y1="391" x2="174" y2="407" stroke="#333"/><line x1="188" y1="391" x2="188" y2="407" stroke="#333"/><line x1="202" y1="391" x2="202" y2="407" stroke="#333"/><line x1="216" y1="391" x2="216" y2="407" stroke="#333"/><line x1="230" y1="391" x2="230" y2="407" stroke="#333"/><line x1="244" y1="391" x2="244" y2="407" stroke="#333"/><line x1="258" y1="391" x2="258" y2="407" stroke="#333"/><line x1="272" y1="391" x2="272" y2="407" stroke="#333"/><line x1="286" y1="391" x2="286" y2="407" stroke="#333"/><line x1="300" y1="391" x2="300" y2="407" stroke="#333"/><line x1="314" y1="391" x2="314" y2="407" stroke="#333"/><line x1="328" y1="391" x2="328" y2="407" stroke="#333"/><line x1="342" y1="391" x2="342" y2="407" stroke="#333"/><line x1="356" y1="391" x2="356" y2="407" stroke="#333"/><line x1="370" y1="391" x2="370" y2="407" stroke="#333"/><line x1="384" y1="391" x2="384" y2="407" stroke="#333"/><line x1="398" y1="391" x2="398" y2="407" stroke="#333"/><line x1="412" y1="391" x2="412" y2="407" stroke="#333"/>
+<rect x="0" y="0" width="420" height="420" fill="none" stroke="#333" stroke-width="2"/></g>
+<g transform="translate(460,110)"><rect x="0" y="0" width="420" height="420" fill="#fff"/>
+<path d="M0,0 H420 V170 H95 C80,170 75,120 50,118 C25,116 15,140 0,140 Z" fill="#dbe6ee"/>
+<path d="M420,170 H95 C80,170 75,120 50,118 C25,116 15,140 0,140" fill="none" stroke="#333" stroke-width="1.5"/>
+<text x="380" y="120" text-anchor="middle" font-style="italic">Sea</text>
+<circle cx="45" cy="140" r="9" fill="#fff" stroke="#333" stroke-width="1.5"/><circle cx="45" cy="140" r="3" fill="#333"/>
+<text x="52" y="100" text-anchor="middle">Lighthouse</text>
+<rect x="270" y="45" width="14" height="125" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<rect x="222" y="10" width="124" height="35" fill="#e7e2d8" stroke="#333" stroke-width="1.5"/><text x="284" y="33" text-anchor="middle">Ferry terminal</text>
+<text x="305" y="105" text-anchor="start">Pier</text>
+<line x1="120" y1="150" x2="270" y2="150" stroke="#333" stroke-width="1.5"/>
+<line x1="140" y1="150" x2="140" y2="122" stroke="#333" stroke-width="1.5"/>
+<line x1="175" y1="150" x2="175" y2="122" stroke="#333" stroke-width="1.5"/>
+<line x1="210" y1="150" x2="210" y2="122" stroke="#333" stroke-width="1.5"/>
+<line x1="245" y1="150" x2="245" y2="122" stroke="#333" stroke-width="1.5"/>
+<text x="188" y="106" text-anchor="middle">Marina</text>
+<rect x="12" y="182" width="110" height="58" fill="#d8e6cf" stroke="#333" stroke-width="1.5"/>
+<circle cx="28" cy="196" r="7" fill="#fff" stroke="#333"/>
+<circle cx="106" cy="196" r="7" fill="#fff" stroke="#333"/>
+<circle cx="28" cy="226" r="7" fill="#fff" stroke="#333"/>
+<circle cx="106" cy="226" r="7" fill="#fff" stroke="#333"/>
+<text x="67" y="216" text-anchor="middle">Park</text>
+<rect x="135" y="182" width="120" height="58" fill="#e7e2d8" stroke="#333" stroke-width="1.5"/><text x="195" y="216" text-anchor="middle">Restaurants</text>
+<rect x="300" y="182" width="30" height="40" fill="#e7e2d8" stroke="#333" stroke-width="1.5"/>
+<rect x="337" y="182" width="30" height="40" fill="#e7e2d8" stroke="#333" stroke-width="1.5"/>
+<rect x="374" y="182" width="30" height="40" fill="#e7e2d8" stroke="#333" stroke-width="1.5"/>
+<text x="352" y="241" text-anchor="middle">Apartments</text>
+<rect x="0" y="255" width="420" height="26" fill="#fff" stroke="none"/>
+<line x1="0" y1="255" x2="420" y2="255" stroke="#333" stroke-width="1.5"/><line x1="0" y1="281" x2="420" y2="281" stroke="#333" stroke-width="1.5"/>
+<text x="210" y="273" text-anchor="middle">Harbour Road</text>
+<rect x="215" y="300" width="190" height="70" fill="#e7e2d8" stroke="#333" stroke-width="1.5" stroke-dasharray="5 3"/><text x="310.0" y="340" text-anchor="middle">Car park</text>
+<rect x="20" y="300" width="150" height="70" fill="#e7e2d8" stroke="#333" stroke-width="1.5"/><text x="95" y="340" text-anchor="middle">Railway station</text>
+<line x1="0" y1="395" x2="420" y2="395" stroke="#333" stroke-width="2"/><line x1="0" y1="403" x2="420" y2="403" stroke="#333" stroke-width="2"/>
+<line x1="6" y1="391" x2="6" y2="407" stroke="#333"/><line x1="20" y1="391" x2="20" y2="407" stroke="#333"/><line x1="34" y1="391" x2="34" y2="407" stroke="#333"/><line x1="48" y1="391" x2="48" y2="407" stroke="#333"/><line x1="62" y1="391" x2="62" y2="407" stroke="#333"/><line x1="76" y1="391" x2="76" y2="407" stroke="#333"/><line x1="90" y1="391" x2="90" y2="407" stroke="#333"/><line x1="104" y1="391" x2="104" y2="407" stroke="#333"/><line x1="118" y1="391" x2="118" y2="407" stroke="#333"/><line x1="132" y1="391" x2="132" y2="407" stroke="#333"/><line x1="146" y1="391" x2="146" y2="407" stroke="#333"/><line x1="160" y1="391" x2="160" y2="407" stroke="#333"/><line x1="174" y1="391" x2="174" y2="407" stroke="#333"/><line x1="188" y1="391" x2="188" y2="407" stroke="#333"/><line x1="202" y1="391" x2="202" y2="407" stroke="#333"/><line x1="216" y1="391" x2="216" y2="407" stroke="#333"/><line x1="230" y1="391" x2="230" y2="407" stroke="#333"/><line x1="244" y1="391" x2="244" y2="407" stroke="#333"/><line x1="258" y1="391" x2="258" y2="407" stroke="#333"/><line x1="272" y1="391" x2="272" y2="407" stroke="#333"/><line x1="286" y1="391" x2="286" y2="407" stroke="#333"/><line x1="300" y1="391" x2="300" y2="407" stroke="#333"/><line x1="314" y1="391" x2="314" y2="407" stroke="#333"/><line x1="328" y1="391" x2="328" y2="407" stroke="#333"/><line x1="342" y1="391" x2="342" y2="407" stroke="#333"/><line x1="356" y1="391" x2="356" y2="407" stroke="#333"/><line x1="370" y1="391" x2="370" y2="407" stroke="#333"/><line x1="384" y1="391" x2="384" y2="407" stroke="#333"/><line x1="398" y1="391" x2="398" y2="407" stroke="#333"/><line x1="412" y1="391" x2="412" y2="407" stroke="#333"/>
+<rect x="0" y="0" width="420" height="420" fill="none" stroke="#333" stroke-width="2"/></g>
+</svg>

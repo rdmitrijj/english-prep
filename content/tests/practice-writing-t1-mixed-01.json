@@ -1,0 +1,95 @@
+{
+  "slug": "practice-writing-t1-mixed-01",
+  "kind": "practice",
+  "title": "Bar and pie: working from home",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "work-economy",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The bar chart below shows the percentage of employees in five sectors in one country who worked from home on one or more days a week in 2015 and 2023, and the pie chart shows the main reasons employees gave for working from home in 2023.",
+            "essay_type": null,
+            "visual": {
+              "type": "mixed",
+              "charts": [
+                {
+                  "type": "bar",
+                  "title": "Employees working from home weekly, by sector",
+                  "unit": "% of employees",
+                  "categories": [
+                    "Finance",
+                    "IT",
+                    "Education",
+                    "Retail",
+                    "Healthcare"
+                  ],
+                  "series": [
+                    {
+                      "name": "2015",
+                      "values": [
+                        14.0,
+                        26.0,
+                        6.0,
+                        3.0,
+                        4.0
+                      ]
+                    },
+                    {
+                      "name": "2023",
+                      "values": [
+                        58.0,
+                        71.0,
+                        22.0,
+                        7.0,
+                        11.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "pie",
+                  "title": "Main reason for working from home (2023)",
+                  "unit": "%",
+                  "categories": [
+                    "Fewer interruptions",
+                    "Family needs",
+                    "Lower costs",
+                    "Flexible hours",
+                    "No commute"
+                  ],
+                  "series": [
+                    {
+                      "name": "All sectors",
+                      "values": [
+                        21.0,
+                        17.0,
+                        9.0,
+                        15.0,
+                        38.0
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "url": "/media/visuals/practice-writing-t1-mixed-01-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

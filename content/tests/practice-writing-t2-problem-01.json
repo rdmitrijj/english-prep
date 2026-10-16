@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-problem-01",
+  "kind": "practice",
+  "title": "Problem and solution: throwaway clothing",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "environment",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Clothing has become so cheap that many people buy new items regularly, wear them only a few times and then throw them away.\n\nWhat problems does this cause? What solutions can you suggest?",
+            "essay_type": "problem_solution",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

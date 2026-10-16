@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" fill="#222">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="900" height="560" fill="#fff"/>
+<text x="450" y="42" text-anchor="middle" font-size="20" font-weight="bold">Turning used cooking oil into biodiesel</text>
+<rect x="22" y="95" width="180" height="100" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="112.0" y="146" text-anchor="middle">Used oil collected</text><text x="112.0" y="166" text-anchor="middle">from restaurants</text>
+<circle cx="112.0" cy="95" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="112.0" y="100" text-anchor="middle" font-weight="bold">1</text>
+<rect x="247" y="95" width="180" height="100" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="337.0" y="146" text-anchor="middle">Filtered to remove</text><text x="337.0" y="166" text-anchor="middle">food scraps</text>
+<circle cx="337.0" cy="95" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="337.0" y="100" text-anchor="middle" font-weight="bold">2</text>
+<rect x="472" y="95" width="180" height="100" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="562.0" y="146" text-anchor="middle">Heated to</text><text x="562.0" y="166" text-anchor="middle">remove water</text>
+<circle cx="562.0" cy="95" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="562.0" y="100" text-anchor="middle" font-weight="bold">3</text>
+<rect x="697" y="95" width="180" height="100" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="787.0" y="136" text-anchor="middle">Mixed with alcohol</text><text x="787.0" y="156" text-anchor="middle">and a catalyst</text><text x="787.0" y="176" text-anchor="middle">in a reactor</text>
+<circle cx="787.0" cy="95" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="787.0" y="100" text-anchor="middle" font-weight="bold">4</text>
+<rect x="697" y="300" width="180" height="100" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="787.0" y="351" text-anchor="middle">Left to settle;</text><text x="787.0" y="371" text-anchor="middle">two layers form</text>
+<circle cx="787.0" cy="300" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="787.0" y="305" text-anchor="middle" font-weight="bold">5</text>
+<rect x="472" y="300" width="180" height="100" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="562.0" y="341" text-anchor="middle">Top layer</text><text x="562.0" y="361" text-anchor="middle">(biodiesel) washed</text><text x="562.0" y="381" text-anchor="middle">with water</text>
+<circle cx="562.0" cy="300" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="562.0" y="305" text-anchor="middle" font-weight="bold">6</text>
+<rect x="247" y="300" width="180" height="100" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="337.0" y="351" text-anchor="middle">Dried and</text><text x="337.0" y="371" text-anchor="middle">stored in tanks</text>
+<circle cx="337.0" cy="300" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="337.0" y="305" text-anchor="middle" font-weight="bold">7</text>
+<rect x="22" y="300" width="180" height="100" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="112.0" y="351" text-anchor="middle">Supplied as fuel</text><text x="112.0" y="371" text-anchor="middle">for city buses</text>
+<circle cx="112.0" cy="300" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="112.0" y="305" text-anchor="middle" font-weight="bold">8</text>
+<line x1="206" y1="145" x2="243" y2="145" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<line x1="431" y1="145" x2="468" y2="145" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<line x1="656" y1="145" x2="693" y2="145" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<line x1="787" y1="199" x2="787" y2="281" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<line x1="693" y1="350" x2="656" y2="350" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<line x1="468" y1="350" x2="431" y2="350" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<line x1="243" y1="350" x2="206" y2="350" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<line x1="787" y1="404" x2="787" y2="441" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<rect x="697" y="445" width="180" height="95" rx="10" fill="#f1ebdf" stroke="#333" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="787" y="478" text-anchor="middle">Bottom layer</text><text x="787" y="498" text-anchor="middle">(glycerine) sold</text><text x="787" y="518" text-anchor="middle">to soap makers</text>
+</svg>
