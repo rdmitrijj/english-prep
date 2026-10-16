@@ -8,13 +8,23 @@ const AUTOSAVE_MS = 5000;
 export const isAnswered = (a: Answer | undefined) => (Array.isArray(a) ? a.length > 0 : !!a?.trim());
 
 /** Answers, review flags, highlights and the current question (an id) of one section. Changes are
- * autosaved every 5 s, when the tab is hidden, and before submit; time per question is measured too. */
+ * autosaved every 5 s, when the tab is hidden, and before submit; time per question is measured too.
+ * Writing reuses all of it: task ids stand in for question ids, and the essay text is the answer. */
 export function useResponses(attempt: Attempt, section: AttemptSection) {
   const qc = useQueryClient();
-  const ids = useMemo(() => section.parts!.flatMap((p) => p.groups.flatMap((g) => g.questions.map((q) => q.id))), [section]);
+  const writing = section.skill === "writing";
+  const ids = useMemo(
+    () =>
+      writing
+        ? section.parts!.map((p) => p.writing!.id)
+        : section.parts!.flatMap((p) => p.groups.flatMap((g) => g.questions.map((q) => q.id))),
+    [section, writing],
+  );
 
   const [answers, setAnswers] = useState<Record<number, Answer>>(() =>
-    Object.fromEntries(section.responses.map((r) => [r.question_id, r.answer])),
+    writing
+      ? Object.fromEntries(section.essays.map((e) => [e.writing_task_id, e.text]))
+      : Object.fromEntries(section.responses.map((r) => [r.question_id, r.answer])),
   );
   const [flags, setFlags] = useState<Record<number, boolean>>(() =>
     Object.fromEntries(section.responses.map((r) => [r.question_id, r.flagged])),
@@ -45,12 +55,11 @@ export function useResponses(attempt: Attempt, section: AttemptSection) {
             method: "PUT",
             keepalive,
             body: {
-              responses: [...changed].map((qid) => ({
-                question_id: qid,
-                answer: answers[qid] ?? null,
-                flagged: !!flags[qid],
-                time_ms: p.time.get(qid) ?? 0,
-              })),
+              [writing ? "essays" : "responses"]: [...changed].map((id) =>
+                writing
+                  ? { writing_task_id: id, text: answers[id] ?? "", time_ms: p.time.get(id) ?? 0 }
+                  : { question_id: id, answer: answers[id] ?? null, flagged: !!flags[id], time_ms: p.time.get(id) ?? 0 },
+              ),
               ui_state: p.ui ? { highlights, current } : undefined,
             },
           });
@@ -66,7 +75,7 @@ export function useResponses(attempt: Attempt, section: AttemptSection) {
       chain.current = chain.current.then(run);
       return chain.current;
     },
-    [url, refresh],
+    [url, refresh, writing],
   );
 
   useEffect(() => {

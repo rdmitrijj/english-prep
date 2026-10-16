@@ -50,11 +50,13 @@ export type Group = {
 };
 export type Passage = { title: string; paragraphs: { label: string; text: string }[]; glossary: Record<string, string> };
 export type Segment = { speaker: string; start_ms: number; end_ms: number; text: string };
+export type WritingTask = { id: number; task_number: number; prompt: string; visual_url: string | null };
 export type Part = {
   number: number;
   passage: Passage | null;
   audio: { url: string; duration_ms: number } | null;
   transcript: Segment[] | null; // practice only
+  writing: WritingTask | null;
   groups: Group[];
 };
 
@@ -73,6 +75,7 @@ export type AttemptSection = {
   responses: { question_id: number; answer: Answer; flagged: boolean }[];
   parts: Part[] | null;
   feedback: Feedback[];
+  essays: { writing_task_id: number; text: string }[];
 };
 export type Feedback = {
   question_id: number;
@@ -126,7 +129,7 @@ export type ReportQuestion = {
   flagged: boolean;
 };
 export type ReportSection = {
-  skill: Skill;
+  skill: Exclude<Skill, "writing">;
   raw: number;
   total: number;
   band: number | null; // null for practice
@@ -145,5 +148,43 @@ export type Report = {
   mode: string;
   finished_at: string;
   overall_band: number | null;
-  report: { sections: ReportSection[] };
+  report: { sections: (ReportSection | WritingReport)[] };
+};
+export type Criterion = { band: number; justification: string; evidence: string[] };
+export type EssayResult = {
+  criteria: Record<"task" | "coherence_cohesion" | "lexical_resource" | "grammar", Criterion>;
+  task_band: number; // unrounded mean of the four criteria
+  runs: number;
+  inconsistent: boolean;
+  errors: { category: string; original: string; correction: string; explanation: string }[];
+  weakness_tags: string[];
+  to_reach_next_half_band: string[];
+  improved_paragraph_example: string;
+  off_topic_flags: string[];
+};
+export type WritingReport = {
+  skill: "writing";
+  band: number | null; // mock only, once both essays are scored
+  submit_reason: "user" | "timeout";
+  time_used_ms: number;
+  tasks: {
+    task_number: number;
+    prompt: string;
+    visual_url: string | null;
+    text: string;
+    word_count: number;
+    min_words: number;
+    time_ms: number;
+    result: EssayResult | null; // null = waiting for the examiners
+  }[];
+};
+export type WritingOption = {
+  task_id: number;
+  task_number: number;
+  title: string;
+  kind: string;
+  kind_label: string;
+  topic: string;
+  topic_label: string;
+  seen: boolean;
 };

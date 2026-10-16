@@ -507,3 +507,36 @@ input.gap.right {
 input.gap.wrong {
   border: 2px solid #c0343c;
 }
+
+/* Writing: task on the left, answer box on the right */
+.writing .task {
+  line-height: 1.6;
+}
+.writing .task img {
+  display: block;
+  max-width: 100%;
+  margin: 8px 0 16px;
+  background: #fff; /* charts are drawn on white, also in the dark colour schemes */
+}
+.writing .answer {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.writing textarea {
+  flex: 1;
+  min-height: 300px;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  padding: 10px;
+  font: inherit;
+  line-height: 1.6;
+  color: var(--fg);
+  background: var(--bg);
+  border: 1px solid var(--line);
+}
+.writing .wordcount {
+  margin: 0;
+  font-size: 0.9em;
+}

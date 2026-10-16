@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router";
 import { api, type Answer, type Report, type User } from "../api";
 import BandScale from "../components/BandScale";
 import { errorLabel as error, qtypeLabel as qtype } from "../labels";
+import WritingReportView from "./WritingReport";
 
 const TARGET_S = 90; // Reading pace target per question (PLAN §4.4)
 const secs = (ms: number) => Math.round(ms / 1000);
@@ -21,7 +22,9 @@ export default function ReportPage() {
 
   return (
     <>
-      {r.report.sections.map((s) => (
+      {r.report.sections.map((s) => s.skill === "writing" ? (
+        <WritingReportView key={s.skill} s={s} practice={practice} target={me.data?.target_band ?? 7} />
+      ) : (
         <article key={s.skill} className="report">
           <section className="hero">
             <p className="muted">

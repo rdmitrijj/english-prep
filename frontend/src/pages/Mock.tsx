@@ -2,7 +2,7 @@ import { useMutation, useQuery } from "@tanstack/react-query";
 import { Link, useNavigate } from "react-router";
 import { api, type Attempt, type AttemptSummary, type MockTest, type Skill } from "../api";
 
-const READY: Skill[] = ["listening", "reading"]; // ponytail: writing joins in M6
+const READY: Skill[] = ["listening", "reading", "writing"];
 
 export default function Mock() {
   const navigate = useNavigate();
@@ -57,7 +57,9 @@ export default function Mock() {
             </span>
             {a.status === "completed" ? (
               <>
-                <span className="chip">Band {a.bands.map((b) => b?.toFixed(1)).join(" / ")}</span>
+                <span className="chip">
+                  {a.bands.includes(null) ? "Awaiting scoring" : `Band ${a.bands.map((b) => b!.toFixed(1)).join(" / ")}`}
+                </span>
                 <Link to={`/report/${a.id}`}>View report</Link>
               </>
             ) : (

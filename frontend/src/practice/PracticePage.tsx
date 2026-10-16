@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router";
 import { api, type Attempt, type AttemptSummary, type PracticeGroup } from "../api";
 import { qtypeLabel } from "../labels";
+import WritingPractice from "./WritingPractice";
 
 type Dim = "qtype" | "topic" | "level";
 type Filters = Partial<Record<Dim, string>>;
@@ -10,10 +11,11 @@ const LEVELS = { easy: "Easy", medium: "Medium", hard: "Hard" } as const;
 
 export default function PracticePage() {
   const navigate = useNavigate();
-  const [skill, setSkill] = useState<"reading" | "listening">("reading");
+  const [skill, setSkill] = useState<"reading" | "listening" | "writing">("reading");
   const options = useQuery({
     queryKey: ["practice-options", skill],
     queryFn: () => api<PracticeGroup[]>(`/practice/options?skill=${skill}`),
+    enabled: skill !== "writing",
   });
   const attempts = useQuery({ queryKey: ["attempts"], queryFn: () => api<AttemptSummary[]>("/attempts") });
   const [filters, setFilters] = useState<Filters>({});
@@ -71,7 +73,7 @@ export default function PracticePage() {
 
       <fieldset className="filter">
         <legend>Section</legend>
-        {(["reading", "listening"] as const).map((s) => (
+        {(["reading", "listening", "writing"] as const).map((s) => (
           <button
             key={s}
             className="pick"
@@ -81,24 +83,30 @@ export default function PracticePage() {
               setFilters({});
             }}
           >
-            {s === "reading" ? "Reading" : "Listening"}
+            {s[0].toUpperCase() + s.slice(1)}
           </button>
         ))}
       </fieldset>
-      {options.error && <p className="error">{options.error.message}</p>}
-      {row("qtype", "Question type", (g) => qtypeLabel(g.qtype))}
-      {row("topic", "Topic", (g) => g.topic_label)}
-      {row("level", "Difficulty", (g) => LEVELS[g.level], Object.keys(LEVELS))}
+      {skill === "writing" ? (
+        <WritingPractice />
+      ) : (
+        <>
+          {options.error && <p className="error">{options.error.message}</p>}
+          {row("qtype", "Question type", (g) => qtypeLabel(g.qtype))}
+          {row("topic", "Topic", (g) => g.topic_label)}
+          {row("level", "Difficulty", (g) => LEVELS[g.level], Object.keys(LEVELS))}
 
-      <div className="startbar">
-        <button className="button" disabled={!total || start.isPending} onClick={() => start.mutate()}>
-          Start practice
-        </button>
-        <span className="muted">
-          {total ? `${total} questions match, ${fresh} of them new to you. Each session picks about 10.` : "Nothing matches these filters."}
-        </span>
-      </div>
-      {start.error && <p className="error">{start.error.message}</p>}
+          <div className="startbar">
+            <button className="button" disabled={!total || start.isPending} onClick={() => start.mutate()}>
+              Start practice
+            </button>
+            <span className="muted">
+              {total ? `${total} questions match, ${fresh} of them new to you. Each session picks about 10.` : "Nothing matches these filters."}
+            </span>
+          </div>
+          {start.error && <p className="error">{start.error.message}</p>}
+        </>
+      )}
 
       <h2 className="section-title">Recent sessions</h2>
       {sessions.length === 0 && <p className="muted">Sessions you start will appear here.</p>}
@@ -106,7 +114,7 @@ export default function PracticePage() {
         {sessions.map((a) => (
           <li key={a.id}>
             <span className="when">{new Date(a.started_at).toLocaleDateString(undefined, { day: "numeric", month: "short" })}</span>
-            <span className="what">{a.skills[0] === "listening" ? "Listening" : "Reading"} practice</span>
+            <span className="what">{a.skills[0][0].toUpperCase() + a.skills[0].slice(1)} practice</span>
             {a.status === "completed" ? (
               <Link to={`/report/${a.id}`}>View summary</Link>
             ) : (

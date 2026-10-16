@@ -7,6 +7,7 @@ import QuestionGroup from "./Questions";
 import ListeningAudio from "./ListeningAudio";
 import ReadingView from "./ReadingView";
 import { isAnswered, useResponses } from "./useResponses";
+import WritingView, { wordCount } from "./WritingView";
 
 const GRACE_MS = 11_000; // the server accepts saves for 10 s after the deadline, then auto-submits
 
@@ -34,20 +35,25 @@ export default function ExamPage({ user }: { user: User }) {
   if (!section.started_at) {
     const minutes = Math.round((section.duration_s ?? 0) / 60);
     const listening = section.skill === "listening";
+    const writing = section.skill === "writing";
     return (
       <div className="intro">
         <h1>
-          {a.test_title}: {listening ? "Listening" : "Academic Reading"}
+          {a.test_title}: {listening ? "Listening" : writing ? "Academic Writing" : "Academic Reading"}
         </h1>
         <p>
           {listening
             ? `About ${minutes} minutes. Four parts, 40 questions.`
-            : `Time: ${minutes} minutes. Three passages, 40 questions.`}
+            : writing
+              ? `Time: ${minutes} minutes. Two tasks.`
+              : `Time: ${minutes} minutes. Three passages, 40 questions.`}
         </p>
         <ul>
           {listening && <li>You will hear each recording ONCE only. It cannot be paused or replayed.</li>}
           {listening && <li>Answer while you listen. After the recording you have 2 minutes to check your answers.</li>}
-          <li>Answer all the questions. You can change your answers at any time during the test.</li>
+          {writing && <li>Answer both tasks. Spend about 20 minutes on Task 1 and 40 minutes on Task 2.</li>}
+          {writing && <li>Task 2 counts twice as much as Task 1. Write full sentences and paragraphs, not notes.</li>}
+          {!writing && <li>Answer all the questions. You can change your answers at any time during the test.</li>}
           <li>The timer starts when you press Start and cannot be paused. Your answers are saved automatically.</li>
           <li>When time is up, the test is submitted with the answers saved so far.</li>
         </ul>
@@ -98,10 +104,11 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
   );
   const r = useResponses(attempt, section);
   const { answers, flags, current } = r;
-  const [overlay, setOverlay] = useState<null | "settings" | "help" | "hidden">(null);
+  const [overlay, setOverlay] = useState<null | OverlayKind>(null);
   const [timeUp, setTimeUp] = useState(false);
   const [prefs, setPrefs] = usePrefs();
   const listening = section.skill === "listening";
+  const writing = section.skill === "writing";
   const [reviewing, setReviewing] = useState(false); // Listening: the recording has ended
   const audioPart = useRef(0);
 
@@ -133,7 +140,11 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
 
   const unanswered = questions.filter((q) => !isAnswered(answers[q.id])).length;
   const confirmSubmit = () => {
-    const msg = unanswered ? `You have ${unanswered} unanswered questions. Submit anyway?` : "Submit your answers now?";
+    const msg = writing
+      ? "Submit your writing now? You won't be able to change it afterwards."
+      : unanswered
+        ? `You have ${unanswered} unanswered questions. Submit anyway?`
+        : "Submit your answers now?";
     if (window.confirm(msg)) submit.mutate();
   };
 
@@ -150,7 +161,59 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
   const onAudioDone = useCallback(() => setReviewing(true), []);
 
   const index = questions.findIndex((q) => q.id === current);
-  const part = parts.find((p) => p.number === questions[index].part)!;
+  const part = writing ? parts.find((p) => p.writing!.id === current)! : parts.find((p) => p.number === questions[index].part)!;
+  const overlays = overlay && (
+    <Overlay kind={overlay} close={() => setOverlay(null)} prefs={prefs} setPrefs={setPrefs} writing={writing} />
+  );
+
+  if (writing) {
+    const task = part.writing!;
+    return (
+      <div className={`exam font-${prefs.font} scheme-${prefs.scheme}`}>
+        <header className="examhead">
+          <span>{user.display_name}</span>
+          {section.deadline_at ? (
+            <Timer deadline={section.deadline_at} offset={r.clockOffset} onExpire={onExpire} flash />
+          ) : (
+            <span className="timer">Untimed practice</span>
+          )}
+          <span className="tools">
+            <button onClick={() => setOverlay("settings")}>Settings</button>
+            <button onClick={() => setOverlay("help")}>Help</button>
+            <button onClick={() => setOverlay("hidden")}>Hide</button>
+          </span>
+        </header>
+        <div className="partbar">
+          <strong>Part {task.task_number}</strong>
+          <span>
+            You should spend about {task.task_number === 1 ? 20 : 40} minutes on this task. Write at least{" "}
+            {task.task_number === 1 ? 150 : 250} words.
+          </span>
+        </div>
+        <WritingView key={task.id} task={task} text={(answers[task.id] as string) ?? ""} onChange={(t) => r.setAnswer([task.id], t)} />
+        <footer className="navbar">
+          {parts.map((p) => (
+            <div key={p.number} className={`navpart${p === part ? " active" : ""}`}>
+              <button className="partlabel" onClick={() => r.setCurrent(p.writing!.id)}>
+                Part {p.number}
+              </button>
+              <span className="count">{wordCount((answers[p.writing!.id] as string) ?? "")} words</span>
+            </div>
+          ))}
+          <button className="primary" disabled={submit.isPending || timeUp} onClick={confirmSubmit}>
+            Submit
+          </button>
+        </footer>
+        {submit.error && <p className="toast error">{submit.error.message}</p>}
+        {timeUp && (
+          <div className="cover">
+            <p>Time is up. Your writing is being submitted…</p>
+          </div>
+        )}
+        {overlays}
+      </div>
+    );
+  }
 
   return (
     <div className={`exam font-${prefs.font} scheme-${prefs.scheme}`}>
@@ -261,31 +324,56 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
           <p>Time is up. Your answers are being submitted…</p>
         </div>
       )}
-      {overlay === "hidden" && (
+      {overlays}
+    </div>
+  );
+}
+
+type OverlayKind = "settings" | "help" | "hidden";
+
+/** The Hide, Help and Settings screens. */
+function Overlay(props: { kind: OverlayKind; close: () => void; prefs: Prefs; setPrefs: (p: Prefs) => void; writing: boolean }) {
+  const { kind, close, prefs, setPrefs, writing } = props;
+  return (
+    <>
+      {kind === "hidden" && (
         <div className="cover">
           <p>The test is hidden. The timer is still running.</p>
-          <button className="primary" onClick={() => setOverlay(null)}>
+          <button className="primary" onClick={() => close()}>
             Show test
           </button>
         </div>
       )}
-      {overlay === "help" && (
-        <div className="cover" onClick={() => setOverlay(null)}>
+      {kind === "help" && (
+        <div className="cover" onClick={() => close()}>
           <div className="dialog" onClick={(e) => e.stopPropagation()}>
             <h2>Help</h2>
             <ul>
-              <li>Select words in the passage to highlight them or add a note. Click a highlight to clear it.</li>
-              <li>Drag the bar between the passage and the questions to resize them.</li>
-              <li>Matching questions: drag an option onto a gap, or click an option and then click the gap. Click a filled gap to empty it.</li>
-              <li>Tick <b>Review</b> to mark the current question; it turns into a circle in the bar below.</li>
-              <li>Answers are saved automatically every few seconds.</li>
+              {writing ? (
+                <>
+                  <li>Switch between the tasks with Part 1 and Part 2 in the bar below. Both are saved as you type.</li>
+                  <li>Drag the bar between the task and your answer to resize them.</li>
+                  <li>The word count updates as you type. Copy and paste work; spell check is off, as in the real test.</li>
+                </>
+              ) : (
+                <>
+                  <li>Select words in the passage to highlight them or add a note. Click a highlight to clear it.</li>
+                  <li>Drag the bar between the passage and the questions to resize them.</li>
+                  <li>
+                    Matching questions: drag an option onto a gap, or click an option and then click the gap. Click a filled gap to
+                    empty it.
+                  </li>
+                  <li>Tick <b>Review</b> to mark the current question; it turns into a circle in the bar below.</li>
+                  <li>Answers are saved automatically every few seconds.</li>
+                </>
+              )}
             </ul>
-            <button onClick={() => setOverlay(null)}>Close</button>
+            <button onClick={() => close()}>Close</button>
           </div>
         </div>
       )}
-      {overlay === "settings" && (
-        <div className="cover" onClick={() => setOverlay(null)}>
+      {kind === "settings" && (
+        <div className="cover" onClick={() => close()}>
           <div className="dialog" onClick={(e) => e.stopPropagation()}>
             <h2>Settings</h2>
             <label>
@@ -304,11 +392,11 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
                 <option value="yellow-on-black">Yellow on black</option>
               </select>
             </label>
-            <button onClick={() => setOverlay(null)}>Close</button>
+            <button onClick={() => close()}>Close</button>
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 }
 

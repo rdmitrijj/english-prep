@@ -21,6 +21,7 @@ export default function PracticeSession() {
   if (attempt.isPending) return <p className="center">Loading…</p>;
   if (attempt.error) return <p className="center error">{attempt.error.message}</p>;
   if (attempt.data.status === "completed") return <Navigate to={`/report/${id}`} replace />;
+  if (attempt.data.sections[0].skill === "writing") return <Navigate to={`/exam/${id}`} replace />; // the exam's writing screen, untimed
   return <Session attempt={attempt.data} section={attempt.data.sections[0]} />;
 }
 

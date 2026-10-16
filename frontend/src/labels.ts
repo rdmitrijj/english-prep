@@ -7,7 +7,7 @@ const QTYPE: Record<string, string> = {
 };
 const CHOICE: Record<string, string> = { T: "TRUE", F: "FALSE", NG: "NOT GIVEN", Y: "YES", N: "NO" };
 
-const sentence = (s: string) => s[0].toUpperCase() + s.slice(1).replaceAll("_", " ");
+export const sentence = (s: string) => s[0].toUpperCase() + s.slice(1).replaceAll("_", " ");
 
 export const qtypeLabel = (t: string) => QTYPE[t] ?? sentence(t);
 
