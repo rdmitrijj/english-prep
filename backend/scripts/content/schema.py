@@ -161,6 +161,39 @@ class CAudio(BaseModel):
     voices: dict[str, str]  # speaker id → voice id
 
 
+VisualType = Literal["line", "bar", "pie", "table", "mixed", "process", "map"]
+EssayType = Literal["opinion", "discussion", "advantages_disadvantages", "problem_solution", "two_part"]
+
+
+class Series(BaseModel):
+    name: str
+    values: list[float]
+
+
+class Chart(BaseModel):
+    """One chart or table, drawn from these numbers by `scripts.content.visuals`; the examiner gets the same numbers."""
+
+    type: Literal["line", "bar", "pie", "table"]
+    title: str
+    unit: str  # e.g. "%", "millions of tonnes": the y-axis label, or the table's unit line
+    categories: list[str]  # x-axis points (line), bar groups (bar), slices (pie), row labels (table)
+    series: list[Series]  # one line / bar colour / pie / table column each; len(values) == len(categories)
+
+
+class CVisual(BaseModel):
+    type: VisualType
+    charts: list[Chart] = []  # line/bar/pie/table: one; mixed: two
+    description: str | None = None  # process/map: every stage or feature in words, the examiner's source of truth
+    url: str | None = None  # /media/visuals/<file>.svg: rendered for charts, hand-drawn for process/map
+
+
+class CWriting(BaseModel):
+    task_number: Literal[1, 2]
+    prompt: str  # only the task's own text; the fixed rubric lines come from spec.writing_rubric
+    essay_type: EssayType | None = None  # Task 2
+    visual: CVisual | None = None  # Task 1
+
+
 class CPart(BaseModel):
     number: int
     context: str
@@ -168,7 +201,8 @@ class CPart(BaseModel):
     passage: CPassage | None = None
     script: CScript | None = None  # listening
     audio: CAudio | None = None  # listening, after rendering
-    groups: list[CGroup]
+    writing: CWriting | None = None
+    groups: list[CGroup] = []  # none for writing
 
 
 class CSection(BaseModel):

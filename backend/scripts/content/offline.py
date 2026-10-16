@@ -36,6 +36,8 @@ def set_rubrics(test: CTest) -> CTest:
         if part.script:
             listening_rubrics(part)
             continue
+        if part.writing:  # its rubric is added at seed time (spec.writing_rubric)
+            continue
         specs = [GroupSpec(g.qtype, len(g.questions), g.max_words, g.allow_number, pick=g.pick,
                            from_list=g.qtype == QType.summary_completion and bool(g.options)) for g in part.groups]
         first = part.groups[0].questions[0].number
@@ -89,7 +91,9 @@ def main() -> None:
         for part in (p for s in test.sections if args.skill in (None, s.skill) for p in s.parts):
             print(candidate_view(part), end="\n\n")
         return
-    if args.cmd == "check":
+    if args.cmd == "check" and all(s.skill == Skill.writing for s in test.sections):
+        finalize(test)  # writing has no blind solve: passing the checks publishes it
+    elif args.cmd == "check":
         test.check_errors = check_test(test)
     else:
         name = f"{args.slug}-{args.skill}" if args.skill else args.slug

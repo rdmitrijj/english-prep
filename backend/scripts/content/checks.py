@@ -1,11 +1,14 @@
 """Deterministic content checks (PLAN §6.9 step 3). Each returns human-readable error strings; [] = pass."""
 
+from pathlib import Path
+
+from app.config import get_settings
 from app.models.enums import QType, Skill, TestKind
 from app.services.normalize import count_words, normalize_answer
 from scripts.content.schema import CGroup, CPart, CTest, PassageDraft
 from scripts.content.spec import (
     LINE_GAP_S, LISTENING_AUDIO_MIN, LISTENING_CONTEXTS, ORDERED_TYPES, READING_TOTAL_WORDS, READING_WORDS, SPEECH_WPS,
-    TEXT_TYPES, letters,
+    TEXT_TYPES, WRITING_TOPICS, letters,
 )
 
 TFNG = {"TRUE", "FALSE", "NOT GIVEN"}
@@ -17,6 +20,9 @@ def check_test(test: CTest, word_range: tuple[int, int] = READING_WORDS) -> list
     for section in test.sections:
         if section.skill == Skill.listening:
             errors += check_listening_section(section, test.kind)
+            continue
+        if section.skill == Skill.writing:
+            errors += check_writing_section(section, test.kind)
             continue
         if section.skill != Skill.reading:
             continue
@@ -31,6 +37,55 @@ def check_test(test: CTest, word_range: tuple[int, int] = READING_WORDS) -> list
                 errors.append(f"reading mock: total {total} words outside {READING_TOTAL_WORDS}")
         for part in section.parts:
             errors += [f"P{part.number} {e}" for e in check_reading_part(part, word_range)]
+    return errors
+
+
+def check_writing_section(section, kind: TestKind) -> list[str]:
+    errors: list[str] = []
+    numbers = [p.number for p in section.parts]
+    if kind == TestKind.mock and (numbers != [1, 2] or section.duration_s != 3600):
+        errors.append(f"writing mock: need Task 1 and Task 2 in 60 minutes, got parts {numbers}, {section.duration_s} s")
+    for part in section.parts:
+        errors += [f"W{part.number} {e}" for e in check_writing_part(part)]
+    return errors
+
+
+def check_writing_part(part: CPart) -> list[str]:
+    w = part.writing
+    if w is None:
+        return ["missing writing task"]
+    errors = []
+    if part.groups:
+        errors.append("a writing part has no question groups")
+    if w.task_number != part.number:
+        errors.append(f"task_number {w.task_number} must equal the part number")
+    if part.topic not in WRITING_TOPICS:
+        errors.append(f"topic must be one of {sorted(WRITING_TOPICS)}, got {part.topic!r}")
+    if not w.prompt.strip() or "at least" in w.prompt.lower():
+        errors.append("prompt must hold only the task's own text (the rubric lines are added automatically)")
+    if w.task_number == 2:
+        if w.essay_type is None or w.visual is not None:
+            errors.append("Task 2 needs an essay_type and no visual")
+        return errors
+    v = w.visual
+    if v is None or w.essay_type is not None:
+        return errors + ["Task 1 needs a visual and no essay_type"]
+    drawn = v.type in ("process", "map")
+    if drawn and (v.charts or not (v.description or "").strip()):
+        errors.append(f"a {v.type} needs a description and no charts")
+    if not drawn and len(v.charts) != (2 if v.type == "mixed" else 1):
+        errors.append(f"a {v.type} visual needs {2 if v.type == 'mixed' else 1} chart(s), got {len(v.charts)}")
+    if not drawn and v.type != "mixed" and v.charts and v.charts[0].type != v.type:
+        errors.append(f"visual type {v.type} but chart type {v.charts[0].type}")
+    for c in v.charts:
+        if not c.series or any(len(sr.values) != len(c.categories) for sr in c.series):
+            errors.append(f"chart {c.title!r}: every series needs one value per category ({len(c.categories)})")
+        if c.type == "pie" and any(not 99 <= sum(sr.values) <= 101 for sr in c.series):
+            errors.append(f"pie {c.title!r}: each pie must add up to 100")
+    if v.url is None:
+        errors.append("visual not drawn yet (python -m scripts.content.visuals render <slug>)")
+    elif not (Path(get_settings().content_dir) / v.url.removeprefix("/")).exists():
+        errors.append(f"visual file missing: {v.url}")
     return errors
 
 

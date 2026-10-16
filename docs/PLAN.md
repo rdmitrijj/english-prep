@@ -11,6 +11,7 @@ Inputs: [BRIEF.md](../BRIEF.md) and [RESEARCH.md](RESEARCH.md). Exam facts cite 
 | D3 | TTS = **ElevenLabs**, behind a one-function provider seam (§6.6). Since 2026-10-16 the audio is rendered with **Kokoro** (free, local; British/American voices only) because there's no TTS budget. | User answer |
 | D4 | App name **English-prep**. The "IELTS" mark is never used in branding (R§11). | User answer |
 | D5–D12 | Changes to the brief, proposed below in **§9** | Awaiting approval |
+| D13 | Writing is scored by **Claude Code examiners** (two blind runs, third on a >1-band split), not an in-app LLM: no budget. See M6. | User answer, 2026-10-16 |
 
 ---
 
@@ -613,18 +614,24 @@ Commits are small, with `feat:` / `test:` / `chore:` messages.
   3. In practice: replay works, and the transcript is revealed with the evidence segment highlighted.
 
 ### M6: Writing + evaluator
-- **Files:** `scripts/content/render_visual.py`, `WritingView` (tabs, word count, no spellcheck), `services/writing_eval.py` + prompt file, `routers/writing.py`. Content: 1 mock Writing section + 6 T1 + 6 T2 practice prompts.
-- **Endpoints:**
-  - `POST /api/writing/submissions/{id}/evaluate` (async: returns 202, then the UI polls `GET /api/writing/submissions/{id}`)
-  - Writing practice sessions through `/api/practice`
-- **Tests:**
-  - band combination (D2);
-  - the double-run agreement rules (agree / differ by 1 / differ by >1 → third run);
-  - the 20-word hard rule;
-  - budget/rate guard → 402;
-  - an injection string stays inside the data block;
-  - all with a mocked LLM.
-- **Verify:** write a T2 essay → evaluation shows per-criterion bands, quotes, errors and next steps; the `ai_usage` row has the cost.
+**Changed 2026-10-16:** no budget for an in-app LLM, so **Claude Code scores the essays** (user decision). Essays are
+saved as "awaiting scoring"; when the user says "score my essays", Claude runs the scoring loop below. The
+`POST /evaluate` endpoint, the budget guard (402) and `ai_usage` costs for writing are dropped.
+- **Files:** `scripts/content/visuals.py` (charts and tables drawn from their numbers with matplotlib; process
+  diagrams and maps are hand-drawn SVGs), `exam/WritingView` (tabs, word count, no spellcheck),
+  `services/writing.py` (hard rules, run combining, D2 band, report), `scripts/essays.py` + `scripts/essays_examiner.md`
+  (the examiner prompt: Appendix A refined with RESEARCH §6.1). Content brief: `docs/WRITING_BRIEF.md`.
+  Content: mock-01 Writing (T1 line graph + T2 discussion) + 6 T1 (bar, pie, table, mixed, process, map) + 6 T2.
+- **Endpoints:** writing reuses `/attempts` (start creates the essays, autosave carries `essays`, submit freezes
+  them); `GET /api/practice/writing` lists tasks, `POST /api/practice/sessions` with `writing_task_id` starts one.
+- **Scoring loop:** `python -m scripts.essays pending --out <file>` → two blind examiner subagents each write
+  `{"evaluations": […]}` → `python -m scripts.essays apply <file>` for each → any essay whose runs differ by >1 on a
+  criterion appears in `pending` again for a third run. Quotes not found in the essay are rejected.
+  For production, run the same commands locally with `DATABASE_URL` pointing at Neon.
+- **Tests:** band combination (D2); the double-run rules; the ≤20-word and empty rules; the essay travels as JSON
+  data in the export; misquotes rejected; the mock exam and practice flows end to end.
+- **Verify:** write a mock (or a practice task) → the report says "waiting for the examiners" → "score my essays"
+  → the report shows per-criterion bands, quotes, errors, next steps and an improved paragraph.
 
 ### M7: Dashboard + weakness + Trainer + SRS
 SRS = the spaced-repetition system from §4.5.

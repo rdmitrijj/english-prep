@@ -36,7 +36,39 @@ LISTENING_TOPICS = {
     "study-courses": "Study, courses and assignments",
     "health-fitness": "Health and fitness",
 }
-TOPIC_LABELS = READING_TOPICS | LISTENING_TOPICS
+# Writing themes (RESEARCH §8, unofficial): Task 2 essays, and Task 1 data subjects.
+WRITING_TOPICS = {
+    "education": "Education",
+    "technology": "Technology",
+    "environment": "Environment",
+    "health": "Health",
+    "work-economy": "Work and the economy",
+    "government-law": "Government, law and crime",
+    "society-family": "Society and family",
+    "media-culture": "Media, advertising and culture",
+    "cities-transport": "Cities and transport",
+    "travel-tourism": "Travel and tourism",
+    "energy-resources": "Energy and resources",
+}
+TOPIC_LABELS = READING_TOPICS | LISTENING_TOPICS | WRITING_TOPICS
+VISUAL_LABELS = {"line": "Line graph", "bar": "Bar chart", "pie": "Pie chart", "table": "Table",
+                 "mixed": "Two charts", "process": "Process diagram", "map": "Maps"}
+ESSAY_LABELS = {"opinion": "Opinion (agree or disagree)", "discussion": "Discuss both views",
+                "advantages_disadvantages": "Advantages and disadvantages", "problem_solution": "Problem and solution",
+                "two_part": "Two-part question"}
+
+
+def writing_rubric(task_number: int, prompt: str) -> str:
+    """The exact CD-test wording around a task's own text (RESEARCH §2.3); paragraphs separated by blank lines."""
+    if task_number == 1:
+        lines = ["You should spend about 20 minutes on this task.", prompt,
+                 "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+                 "Write at least 150 words."]
+    else:
+        lines = ["You should spend about 40 minutes on this task.", "Write about the following topic:", prompt,
+                 "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+                 "Write at least 250 words."]
+    return "\n\n".join(lines)
 LISTENING_CONTEXTS = ("social_dialogue", "social_monologue", "academic_discussion", "academic_lecture")
 SPEECH_WPS = 2.6  # words per second of natural TTS speech, for duration estimates before rendering
 LINE_GAP_S = 0.4  # silence between consecutive lines

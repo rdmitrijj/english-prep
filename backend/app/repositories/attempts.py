@@ -3,8 +3,13 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import selectinload
 
 from app.models.attempts import Attempt, AttemptSection, Response
-from app.models.content import AnswerKey, AudioAsset, Part, Passage, Question, QuestionGroup, Section, Tag, Test
+from sqlalchemy.orm import aliased
+
+from app.models.content import (
+    AnswerKey, AudioAsset, Part, Passage, Question, QuestionGroup, Section, Tag, Test, WritingTask, writing_task_tags,
+)
 from app.models.enums import AttemptStatus, ContentStatus, Skill, TestKind
+from app.models.writing import WritingSubmission
 
 
 async def get_attempt(session: AsyncSession, attempt_id: int, user_id: int) -> Attempt | None:
@@ -88,11 +93,36 @@ async def responses_by_question(session: AsyncSession, asec_id: int) -> dict[int
     return {r.question_id: r for r in rows}
 
 
+def _completed_mocks(user_id: int) -> Select:
+    return select(Attempt.test_id).where(
+        Attempt.user_id == user_id, Attempt.status == AttemptStatus.completed, Attempt.test_id.is_not(None))
+
+
+async def writing_pool(session: AsyncSession, user_id: int) -> list:
+    """Writing tasks available for practice (same rule as practice_pool): (task, test title, kind tag, topic tag, seen)."""
+    kind, topic = aliased(Tag), aliased(Tag)
+    seen = (select(WritingSubmission.writing_task_id)
+            .join(AttemptSection, WritingSubmission.attempt_section_id == AttemptSection.id)
+            .join(Attempt, AttemptSection.attempt_id == Attempt.id)
+            .where(Attempt.user_id == user_id, WritingSubmission.submitted_at.is_not(None)))
+    rows = await session.execute(
+        select(WritingTask, Test.title, kind, topic, WritingTask.id.in_(seen))
+        .join(Part, WritingTask.part_id == Part.id).join(Section, Part.section_id == Section.id)
+        .join(Test, Section.test_id == Test.id)
+        .join(writing_task_tags, writing_task_tags.c.writing_task_id == WritingTask.id)
+        .join(kind, kind.id == writing_task_tags.c.tag_id)
+        .join(topic, topic.id == Part.topic_tag_id)
+        .where(Test.status == ContentStatus.published,
+               or_(Test.kind == TestKind.practice, Test.id.in_(_completed_mocks(user_id))))
+        .order_by(WritingTask.task_number, WritingTask.id)
+    )
+    return list(rows)
+
+
 async def practice_pool(session: AsyncSession, user_id: int, skill: Skill) -> list:
     """Question groups available for practice: all practice tests, plus mocks this user has completed
     (a mock's items join the pool only afterwards, so a mock is never spoiled). One row per group."""
-    completed_mocks = select(Attempt.test_id).where(
-        Attempt.user_id == user_id, Attempt.status == AttemptStatus.completed, Attempt.test_id.is_not(None))
+    completed_mocks = _completed_mocks(user_id)
     seen = (select(Question.group_id)
             .join(Response, Response.question_id == Question.id)
             .join(AttemptSection, Response.attempt_section_id == AttemptSection.id)

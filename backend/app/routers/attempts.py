@@ -6,15 +6,17 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db import get_session
 from app.models.attempts import Attempt, AttemptSection, Response
-from app.models.content import Section, Test
+from app.models.content import Part, Section, Test, WritingTask
 from app.models.enums import AttemptStatus, ContentStatus, Skill, SubmitReason, TestKind
+from app.models.writing import WritingSubmission
 from app.repositories import attempts as repo
 from app.schemas.attempts import (
-    AttemptCreate, AttemptOut, AttemptSummary, AudioOut, FeedbackOut, GroupOut, PartOut, PassageOut, QuestionOut, ReportOut, ResponseOut,
-    SaveIn, SaveOut, SectionOut, SegmentOut,
+    AttemptCreate, AttemptOut, AttemptSummary, AudioOut, EssayOut, FeedbackOut, GroupOut, PartOut, PassageOut, QuestionOut, ReportOut,
+    ResponseOut, SaveIn, SaveOut, SectionOut, SegmentOut, WritingTaskOut,
 )
 from app.security import CurrentUser
-from app.services import scoring, timer
+from app.services import scoring, timer, writing
+from app.services.normalize import count_words
 
 router = APIRouter(prefix="/attempts", tags=["attempts"])
 Session = Annotated[AsyncSession, Depends(get_session)]
@@ -56,8 +58,14 @@ async def attempt_out(session: AsyncSession, attempt: Attempt) -> AttemptOut:
     sections = []
     for asec in attempt.sections:
         section = await session.get(Section, asec.section_id) if asec.section_id else None
-        parts = None
-        if asec.started_at:
+        parts, essays = None, []
+        if asec.skill == Skill.writing:
+            rows = await writing.essays(session, asec.id)
+            essays = [EssayOut(writing_task_id=t.id, text=sub.text) for sub, t in rows]
+            if asec.started_at:
+                parts = [PartOut(number=t.task_number, passage=None, writing=WritingTaskOut.model_validate(t), groups=[])
+                         for _, t in rows]
+        elif asec.started_at:
             parts = [PartOut(
                 number=part.number if section else i + 1,  # practice: passages numbered within the session
                 passage=PassageOut.model_validate(passage) if passage else None,
@@ -79,6 +87,7 @@ async def attempt_out(session: AsyncSession, attempt: Attempt) -> AttemptOut:
             parts=parts,
             # Keys only ever leave the server for practice groups the user has already checked.
             feedback=await feedback(session, asec) if asec.section_id is None else [],
+            essays=essays,
         ))
     return AttemptOut(id=attempt.id, mode=attempt.mode, status=attempt.status,
                       test_title=test.title if test else "Practice", server_now=timer.now(), sections=sections)
@@ -123,6 +132,9 @@ async def start_section(attempt_id: int, asec_id: int, user: CurrentUser, sessio
     section = await session.get(Section, asec.section_id) if asec.section_id else None
     if section:
         timer.start(asec, await repo.section_seconds(session, section), scale=section.skill != Skill.listening)
+    if section and section.skill == Skill.writing and not await writing.essays(session, asec.id):
+        tasks = await session.scalars(select(WritingTask).join(Part).where(Part.section_id == section.id))
+        session.add_all(WritingSubmission(attempt_section_id=asec.id, writing_task_id=t.id) for t in tasks)
     await session.commit()
     return await attempt_out(session, attempt)
 
@@ -157,6 +169,13 @@ async def save_responses(attempt_id: int, asec_id: int, body: SaveIn, user: Curr
             r.answer = answer
         r.flagged = item.flagged
         r.time_ms += min(item.time_ms, MAX_TIME_DELTA_MS)
+    essays = {t.id: sub for sub, t in await writing.essays(session, asec.id)} if body.essays else {}
+    for item in body.essays:
+        sub = essays.get(item.writing_task_id)
+        if sub is None:
+            raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY, f"Task {item.writing_task_id} is not in this section")
+        sub.text, sub.word_count = item.text, count_words(item.text)
+        sub.time_ms += min(item.time_ms, MAX_TIME_DELTA_MS)
     if body.ui_state is not None:
         asec.ui_state = body.ui_state
     await session.commit()

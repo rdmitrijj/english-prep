@@ -15,6 +15,7 @@ from app.models.attempts import Attempt, AttemptSection, Response
 from app.models.content import AnswerKey, BandTable, Part, Question, QuestionGroup
 from app.models.enums import AttemptStatus, QType, Skill, SubmitReason
 from app.repositories import attempts as repo
+from app.services import writing  # module import: writing imports this module too
 from app.services.normalize import classify_choice, classify_text
 
 BAND_TABLE_SKILL = {Skill.reading: "reading_academic", Skill.listening: "listening"}
@@ -99,7 +100,10 @@ async def score_section(session: AsyncSession, asec: AttemptSection) -> None:
 
 async def submit_section(session: AsyncSession, attempt: Attempt, asec: AttemptSection,
                          reason: SubmitReason, at: datetime) -> None:
-    await score_section(session, asec)
+    if asec.skill == Skill.writing:
+        await writing.submit(session, asec, at)  # the band follows once the essays are scored
+    else:
+        await score_section(session, asec)
     asec.submitted_at, asec.submit_reason = at, reason
     if all(s.submitted_at for s in attempt.sections):
         attempt.status, attempt.finished_at = AttemptStatus.completed, at
@@ -110,6 +114,9 @@ async def build_report(session: AsyncSession, attempt: Attempt) -> dict[str, Any
     """A frozen snapshot, so later content edits never change a past report."""
     sections = []
     for asec in attempt.sections:
+        if asec.skill == Skill.writing:
+            sections.append(await writing.report_section(session, asec))
+            continue
         items = await repo.items(session, asec)
         responses = await repo.responses_by_question(session, asec.id)
         table = await session.get(BandTable, asec.band_table_id) if asec.band_table_id else None

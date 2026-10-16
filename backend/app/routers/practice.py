@@ -7,9 +7,10 @@ from fastapi import APIRouter, HTTPException, status
 
 from app.models.attempts import Attempt, AttemptSection
 from app.models.enums import AttemptMode, Skill
+from app.models.writing import WritingSubmission
 from app.repositories import attempts as repo
 from app.routers.attempts import Session, attempt_out, feedback, load
-from app.schemas.attempts import AttemptOut, CheckIn, FeedbackOut, PracticeCreate, PracticeGroup
+from app.schemas.attempts import AttemptOut, CheckIn, FeedbackOut, PracticeCreate, PracticeGroup, WritingOption
 from app.security import CurrentUser
 from app.services import scoring, timer
 
@@ -34,8 +35,31 @@ async def options(user: CurrentUser, session: Session, skill: Skill = Skill.read
     return await pool(session, user.id, skill)
 
 
+@router.get("/writing", response_model=list[WritingOption])
+async def writing_options(user: CurrentUser, session: Session):
+    """Every Writing task you can practise; the page filters them and you pick one."""
+    return [WritingOption(task_id=t.id, task_number=t.task_number, title=title, kind=kind.slug, kind_label=kind.label,
+                          topic=topic.slug, topic_label=topic.label, seen=seen)
+            for t, title, kind, topic, seen in await repo.writing_pool(session, user.id)]
+
+
+async def writing_session(body: PracticeCreate, user_id: int, session) -> Attempt:
+    if body.writing_task_id not in {o[0].id for o in await repo.writing_pool(session, user_id)}:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "Writing task not found")
+    asec = AttemptSection(section_id=None, skill=Skill.writing, ui_state={})
+    timer.start(asec, None)  # untimed, but time is still measured
+    attempt = Attempt(user_id=user_id, mode=AttemptMode.practice, test_id=None, sections=[asec])
+    session.add(attempt)
+    await session.flush()
+    session.add(WritingSubmission(attempt_section_id=asec.id, writing_task_id=body.writing_task_id))
+    await session.commit()
+    return attempt
+
+
 @router.post("/sessions", response_model=AttemptOut, status_code=status.HTTP_201_CREATED)
 async def create_session(body: PracticeCreate, user: CurrentUser, session: Session):
+    if body.skill == Skill.writing:
+        return await attempt_out(session, await writing_session(body, user.id, session))
     groups = [g for g in await pool(session, user.id, body.skill)
               if body.qtype in (None, g.qtype) and body.topic in (None, g.topic) and body.level in (None, g.level)]
     if not groups:

@@ -17,26 +17,43 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.config import get_settings
 from app.db import SessionLocal
 from app.models.attempts import Response
-from app.models.content import AnswerKey, AudioAsset, Part, Passage, Question, QuestionGroup, Section, Tag, Test
+from app.models.content import (
+    AnswerKey, AudioAsset, Part, Passage, Question, QuestionGroup, Section, Tag, Test, WritingTask,
+)
 from app.models.enums import ContentStatus, TagKind
+from app.models.writing import WritingSubmission
 from app.services.normalize import count_words
-from scripts.content.schema import CSection, CTest
-from scripts.content.spec import TOPIC_LABELS
+from scripts.content.schema import CSection, CTest, CWriting
+from scripts.content.spec import ESSAY_LABELS, TOPIC_LABELS, VISUAL_LABELS, writing_rubric
+
+LABELS = {TagKind.topic: TOPIC_LABELS, TagKind.visual_type: VISUAL_LABELS, TagKind.essay_type: ESSAY_LABELS}
 
 
-async def topic_tag(session: AsyncSession, slug: str) -> Tag:
-    tag = await session.scalar(select(Tag).where(Tag.kind == TagKind.topic, Tag.slug == slug))
+async def get_tag(session: AsyncSession, slug: str, kind: TagKind = TagKind.topic) -> Tag:
+    tag = await session.scalar(select(Tag).where(Tag.kind == kind, Tag.slug == slug))
     if tag is None:
-        tag = Tag(kind=TagKind.topic, slug=slug, label=TOPIC_LABELS.get(slug, slug.replace("-", " ").capitalize()))
+        tag = Tag(kind=kind, slug=slug, label=LABELS[kind].get(slug, slug.replace("-", " ").capitalize()))
         session.add(tag)
         await session.flush()
     return tag
 
 
+async def writing_task(session: AsyncSession, part_id: int, w: CWriting) -> WritingTask:
+    kind, slug = (TagKind.visual_type, w.visual.type) if w.visual else (TagKind.essay_type, w.essay_type)
+    return WritingTask(
+        part_id=part_id, task_number=w.task_number, prompt=writing_rubric(w.task_number, w.prompt),
+        visual_url=w.visual.url if w.visual else None,
+        visual_data=w.visual.model_dump(exclude={"url"}) if w.visual else None,  # the examiner's copy of the data
+        tags=[await get_tag(session, slug, kind)],
+    )
+
+
 async def answered(session: AsyncSession, section_id: int) -> bool:
+    """Someone answered a question or started an essay in this section."""
     return bool(await session.scalar(select(exists().where(
         Response.question_id == Question.id, Question.group_id == QuestionGroup.id,
-        QuestionGroup.part_id == Part.id, Part.section_id == section_id))))
+        QuestionGroup.part_id == Part.id, Part.section_id == section_id)))) or bool(await session.scalar(select(exists().where(
+            WritingSubmission.writing_task_id == WritingTask.id, WritingTask.part_id == Part.id, Part.section_id == section_id))))
 
 
 async def seed_test(session: AsyncSession, t: CTest) -> str:
@@ -116,7 +133,7 @@ async def insert_section(session: AsyncSession, test_id: int, order: int, cs: CS
     session.add(section)
     await session.flush()
     for cp in cs.parts:
-        tag = await topic_tag(session, cp.topic)
+        tag = await get_tag(session, cp.topic)
         part = Part(section_id=section.id, number=cp.number, context=cp.context, topic_tag_id=tag.id)
         session.add(part)
         await session.flush()
@@ -129,6 +146,8 @@ async def insert_section(session: AsyncSession, test_id: int, order: int, cs: CS
             ))
         if cp.audio:
             session.add(AudioAsset(**audio_row(part.id, cp.audio)))
+        if cp.writing:
+            session.add(await writing_task(session, part.id, cp.writing))
         for g_order, cg in enumerate(cp.groups):
             group = QuestionGroup(
                 part_id=part.id, order=g_order, qtype=cg.qtype, instructions=cg.instructions,

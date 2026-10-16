@@ -59,12 +59,25 @@ class SegmentOut(BaseModel):
     text: str
 
 
+class WritingTaskOut(Orm):
+    id: int
+    task_number: int
+    prompt: str  # paragraphs separated by blank lines, rubric included
+    visual_url: str | None
+
+
 class PartOut(Orm):
     number: int
     passage: PassageOut | None
     audio: AudioOut | None = None
     transcript: list[SegmentOut] | None = None  # practice only: in a mock the transcript would give answers away
+    writing: WritingTaskOut | None = None
     groups: list[GroupOut]
+
+
+class EssayOut(BaseModel):
+    writing_task_id: int
+    text: str
 
 
 class ResponseOut(Orm):
@@ -99,6 +112,7 @@ class SectionOut(Orm):
     responses: list[ResponseOut]
     parts: list[PartOut] | None  # only once the section has started
     feedback: list[FeedbackOut] = []  # practice: checked groups only
+    essays: list[EssayOut] = []  # writing
 
 
 class AttemptOut(BaseModel):
@@ -136,8 +150,15 @@ class ResponseIn(BaseModel):
     time_ms: int = Field(0, ge=0)  # time spent on this question since the last save
 
 
+class EssayIn(BaseModel):
+    writing_task_id: int
+    text: str = Field(max_length=20_000)  # ~3,000 words: far beyond any real answer
+    time_ms: int = Field(0, ge=0)
+
+
 class SaveIn(BaseModel):
-    responses: list[ResponseIn] = Field(max_length=100)
+    responses: list[ResponseIn] = Field([], max_length=100)
+    essays: list[EssayIn] = Field([], max_length=2)
     ui_state: dict[str, Any] | None = None
 
 
@@ -177,10 +198,22 @@ class PracticeGroup(BaseModel):
 
 
 class PracticeCreate(BaseModel):
-    skill: Literal[Skill.reading, Skill.listening]
+    skill: Literal[Skill.reading, Skill.listening, Skill.writing]
     qtype: QType | None = None
     topic: str | None = None
     level: Literal["easy", "medium", "hard"] | None = None
+    writing_task_id: int | None = None  # writing: the task picked from /practice/writing
+
+
+class WritingOption(BaseModel):
+    task_id: int
+    task_number: int
+    title: str
+    kind: str  # visual type (Task 1) or essay type (Task 2)
+    kind_label: str
+    topic: str
+    topic_label: str
+    seen: bool
 
 
 class CheckIn(BaseModel):
