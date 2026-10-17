@@ -7,7 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.db import get_session
 from app.models.attempts import Attempt, AttemptSection, Response
 from app.models.content import Part, Section, Test, WritingTask
-from app.models.enums import AttemptStatus, ContentStatus, Skill, SubmitReason, TestKind
+from app.models.enums import AttemptMode, AttemptStatus, ContentStatus, Skill, SubmitReason, TestKind
 from app.models.writing import WritingSubmission
 from app.repositories import attempts as repo
 from app.schemas.attempts import (
@@ -20,6 +20,8 @@ from app.services.normalize import count_words
 
 router = APIRouter(prefix="/attempts", tags=["attempts"])
 Session = Annotated[AsyncSession, Depends(get_session)]
+
+FULL_MOCK_ORDER = (Skill.listening, Skill.reading, Skill.writing)  # the real test's order, with no choice of skipping
 
 # Autosave runs every 5 s; a delta above 5 s + 3 s grace means a bug or a sleeping laptop, so it is capped.
 MAX_TIME_DELTA_MS = 8_000
@@ -110,11 +112,16 @@ async def create_attempt(body: AttemptCreate, user: CurrentUser, session: Sessio
     test = await session.get(Test, body.test_id)
     if test is None or test.kind != TestKind.mock or test.status != ContentStatus.published:
         raise HTTPException(status.HTTP_404_NOT_FOUND, "Mock test not found")
-    section = await session.scalar(select(Section).where(Section.test_id == test.id, Section.skill == body.skill))
-    if section is None:
+    if body.mode == AttemptMode.section_mock and body.skill is None:
+        raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY, "Pick a skill for a section mock")
+    by_skill = {s.skill: s for s in await session.scalars(select(Section).where(Section.test_id == test.id))}
+    skills = FULL_MOCK_ORDER if body.mode == AttemptMode.full_mock else (body.skill,)
+    picked = [by_skill[k] for k in skills if k in by_skill]
+    if not picked:
         raise HTTPException(status.HTTP_404_NOT_FOUND, f"This test has no {body.skill} section")
+    # Sections are created in exam order, so their ids (the attempt's section order) follow it.
     attempt = Attempt(user_id=user.id, mode=body.mode, test_id=test.id,
-                      sections=[AttemptSection(section_id=section.id, skill=section.skill, ui_state={})])
+                      sections=[AttemptSection(section_id=s.id, skill=s.skill, ui_state={}) for s in picked])
     session.add(attempt)
     await session.commit()
     return await attempt_out(session, attempt)
@@ -129,6 +136,8 @@ async def get_attempt(attempt_id: int, user: CurrentUser, session: Session):
 async def start_section(attempt_id: int, asec_id: int, user: CurrentUser, session: Session):
     attempt = await load(session, attempt_id, user.id)
     asec = find_section(attempt, asec_id)
+    if any(s.submitted_at is None for s in attempt.sections if s.id < asec.id):
+        raise HTTPException(status.HTTP_409_CONFLICT, "Finish the previous section first")
     section = await session.get(Section, asec.section_id) if asec.section_id else None
     if section:
         timer.start(asec, await repo.section_seconds(session, section), scale=section.skill != Skill.listening)
@@ -201,4 +210,4 @@ async def get_report(attempt_id: int, user: CurrentUser, session: Session):
         raise HTTPException(status.HTTP_409_CONFLICT, "This attempt is not finished yet")
     test = await session.get(Test, attempt.test_id) if attempt.test_id else None
     return ReportOut(id=attempt.id, test_title=test.title if test else "Practice", mode=attempt.mode, finished_at=attempt.finished_at,
-                     overall_band=attempt.overall_band, report=attempt.report)
+                     overall_band=attempt.overall_band, overall_is_estimate=attempt.overall_is_estimate, report=attempt.report)

@@ -135,9 +135,9 @@ class AttemptSummary(BaseModel):
 
 
 class AttemptCreate(BaseModel):
-    mode: Literal[AttemptMode.section_mock]  # ponytail: full_mock arrives in M8, practice in M4
+    mode: Literal[AttemptMode.section_mock, AttemptMode.full_mock]
     test_id: int
-    skill: Skill
+    skill: Skill | None = None  # section_mock only; a full mock takes every section
 
 
 Answer = Annotated[str, Field(max_length=200)] | Annotated[list[Annotated[str, Field(max_length=10)]], Field(max_length=10)] | None
@@ -167,7 +167,8 @@ class ReportOut(BaseModel):
     test_title: str
     mode: AttemptMode
     finished_at: datetime
-    overall_band: float | None
+    overall_band: float | None  # full mock only, once every section has a band
+    overall_is_estimate: bool  # no Speaking section, so the overall is an estimate
     report: dict[str, Any]
 
 

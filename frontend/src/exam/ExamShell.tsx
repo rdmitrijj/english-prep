@@ -38,6 +38,12 @@ export default function ExamPage({ user }: { user: User }) {
     const writing = section.skill === "writing";
     return (
       <div className="intro">
+        {a.sections.length > 1 && (
+          <p className="muted">
+            Full mock: section {a.sections.indexOf(section) + 1} of {a.sections.length}
+            {section !== a.sections[0] && ". The previous section is submitted; start this one when you are ready."}
+          </p>
+        )}
         <h1>
           {a.test_title}: {listening ? "Listening" : writing ? "Academic Writing" : "Academic Reading"}
         </h1>
@@ -129,7 +135,7 @@ function ExamShell({ attempt, section, user }: { attempt: Attempt; section: Atte
     },
     onSuccess: (a) => {
       qc.setQueryData(["attempt", attempt.id], a);
-      navigate(`/report/${attempt.id}`, { replace: true });
+      if (a.status === "completed") navigate(`/report/${attempt.id}`, { replace: true });
     },
   });
   const { save, refresh } = r;

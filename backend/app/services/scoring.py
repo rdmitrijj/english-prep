@@ -13,7 +13,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.models.attempts import Attempt, AttemptSection, Response
 from app.models.content import AnswerKey, BandTable, Part, Question, QuestionGroup
-from app.models.enums import AttemptStatus, QType, Skill, SubmitReason
+from app.models.enums import AttemptMode, AttemptStatus, QType, Skill, SubmitReason
 from app.repositories import attempts as repo
 from app.services import srs, timer, writing  # module imports: timer and writing import this module too
 from app.services.normalize import classify_choice, classify_text
@@ -156,5 +156,9 @@ async def build_report(session: AsyncSession, attempt: Attempt) -> dict[str, Any
                               key=lambda x: -x["time_ms"])[:5],
             "questions": questions,
         })
-    # ponytail: top-3 weaknesses and next-step links arrive with weakness scoring in M7.
+    # Rebuilt whenever a Writing band arrives too, so the overall appears with the last section band.
+    if attempt.mode == AttemptMode.full_mock:
+        bands = [s.band for s in attempt.sections]
+        attempt.overall_band = overall_band(bands) if None not in bands else None
+        attempt.overall_is_estimate = True  # Speaking is never taken here
     return {"sections": sections}

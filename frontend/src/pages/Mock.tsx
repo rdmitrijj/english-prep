@@ -3,14 +3,15 @@ import { Link, useNavigate } from "react-router";
 import { api, type Attempt, type AttemptSummary, type MockTest, type Skill } from "../api";
 
 const READY: Skill[] = ["listening", "reading", "writing"];
+const hours = (s: number) => `${Math.floor(s / 3600)} h ${Math.round((s % 3600) / 60)} min`;
 
 export default function Mock() {
   const navigate = useNavigate();
   const tests = useQuery({ queryKey: ["tests"], queryFn: () => api<MockTest[]>("/tests") });
   const attempts = useQuery({ queryKey: ["attempts"], queryFn: () => api<AttemptSummary[]>("/attempts") });
   const start = useMutation({
-    mutationFn: (v: { test_id: number; skill: Skill }) =>
-      api<Attempt>("/attempts", { method: "POST", body: { mode: "section_mock", ...v } }),
+    mutationFn: (v: { test_id: number; skill?: Skill }) =>
+      api<Attempt>("/attempts", { method: "POST", body: { mode: v.skill ? "section_mock" : "full_mock", ...v } }),
     onSuccess: (a) => navigate(`/exam/${a.id}`),
   });
 
@@ -19,7 +20,10 @@ export default function Mock() {
     <>
       <section className="hero">
         <h1>Mock exam</h1>
-        <p className="lead">One section under real conditions: the clock runs on the server, and your answers are submitted when time is up.</p>
+        <p className="lead">
+          The whole test (Listening, Reading, then Writing) or one section, under real conditions: the clock runs on the server, and
+          your answers are submitted when time is up.
+        </p>
       </section>
       {start.error && <p className="error">{start.error.message}</p>}
 
@@ -28,6 +32,9 @@ export default function Mock() {
           <li key={t.id}>
             <h2>{t.title}</h2>
             <div className="actions">
+              <button className="button" disabled={start.isPending} onClick={() => start.mutate({ test_id: t.id })}>
+                Full mock, {hours(t.sections.filter((s) => READY.includes(s.skill)).reduce((n, s) => n + (s.duration_s ?? 0), 0))}
+              </button>
               {t.sections
                 .filter((s) => READY.includes(s.skill))
                 .map((s) => (

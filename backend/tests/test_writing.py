@@ -5,7 +5,7 @@ import json
 import pytest
 
 from app.models.enums import TestKind as Kind
-from app.services import writing
+from app.services import scoring, writing
 from app.services.writing import Evaluation, combine, rule_band, writing_band
 from scripts.content.schema import CSection
 from scripts.content.seed import seed_test
@@ -135,3 +135,31 @@ async def test_writing_practice_session(client, user, db, clock):
     await client.put(f"{url}/responses", json={"essays": [{"writing_task_id": options[1]["task_id"], "text": ESSAY}]})
     assert (await client.post(f"{url}/submit")).json()["status"] == "completed"
     assert (await client.get("/api/practice/writing")).json()[1]["seen"]
+
+
+async def test_full_mock_runs_sections_in_order_and_estimates_the_overall(client, user, writing_mock, clock, db):
+    await login(client)
+    test_id = (await client.get("/api/tests")).json()[0]["id"]
+    a = (await client.post("/api/attempts", json={"mode": "full_mock", "test_id": test_id})).json()
+    assert [s["skill"] for s in a["sections"]] == ["reading", "writing"]  # exam order (this fixture has no Listening)
+    reading, wsec = (f"/api/attempts/{a['id']}/sections/{s['id']}" for s in a["sections"])
+    assert (await client.post(f"{wsec}/start")).status_code == 409  # Writing waits for Reading
+
+    await client.post(f"{reading}/start")
+    assert (await client.post(f"{reading}/submit")).json()["status"] == "in_progress"
+    tasks = {p["writing"]["task_number"]: p["writing"]["id"] for p in (await client.post(f"{wsec}/start")).json()["sections"][1]["parts"]}
+    await client.put(f"{wsec}/responses", json={"essays": [
+        {"writing_task_id": tasks[1], "text": "Too short to count."}, {"writing_task_id": tasks[2], "text": ESSAY}]})
+    assert (await client.post(f"{wsec}/submit")).json()["status"] == "completed"
+    report = (await client.get(f"/api/attempts/{a['id']}/report")).json()
+    assert report["overall_band"] is None  # Task 2 still waits for the examiners
+
+    async with db() as s:
+        sid = (await writing.pending(s))[0]["submission_id"]
+    for _ in range(2):
+        async with db() as s:
+            await writing.apply(s, verdict(sid, 6, 6, 6, 6), "claude-code")
+    report = (await client.get(f"/api/attempts/{a['id']}/report")).json()
+    r_band, w_band = (s["band"] for s in report["report"]["sections"])
+    assert w_band == writing_band(1, 6)
+    assert report["overall_band"] == scoring.overall_band([r_band, w_band]) and report["overall_is_estimate"]

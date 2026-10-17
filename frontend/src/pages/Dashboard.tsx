@@ -157,7 +157,7 @@ export default function DashboardPage() {
               <li key={a.id}>
                 <span className="when">{new Date(a.started_at).toLocaleDateString(undefined, { day: "numeric", month: "short" })}</span>
                 <span className="what">
-                  {a.mode === "section_mock" ? a.test_title : sentence(a.mode)}, {a.skills.join(", ")}
+                  {a.mode.endsWith("mock") ? a.test_title : sentence(a.mode)}, {a.skills.join(", ")}
                 </span>
                 {a.bands.some((b) => b !== null) && <span className="chip">Band {a.bands.map((b) => b?.toFixed(1) ?? "–").join(" / ")}</span>}
                 <Link to={`/report/${a.id}`}>Report</Link>

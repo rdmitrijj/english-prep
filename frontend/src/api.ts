@@ -147,7 +147,8 @@ export type Report = {
   test_title: string;
   mode: string;
   finished_at: string;
-  overall_band: number | null;
+  overall_band: number | null; // full mock only, once every section has a band
+  overall_is_estimate: boolean;
   report: { sections: (ReportSection | WritingReport)[] };
 };
 export type Criterion = { band: number; justification: string; evidence: string[] };

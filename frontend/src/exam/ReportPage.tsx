@@ -20,8 +20,22 @@ export default function ReportPage() {
   const practice = r.mode === "practice" || r.mode === "trainer";
   const unit = practice ? "Passage" : "Part";
 
+  const bands = r.report.sections.map((s) => s.band);
   return (
     <>
+      {r.mode === "full_mock" && (
+        <section className="hero">
+          <p className="muted">
+            {r.test_title}, {new Date(r.finished_at).toLocaleDateString(undefined, { day: "numeric", month: "long" })}
+          </p>
+          <h1>{r.overall_band === null ? "Overall band: waiting for Writing" : `Estimated overall band ${r.overall_band.toFixed(1)}`}</h1>
+          <p className="lead">
+            {r.report.sections.map((s, i) => `${s.skill[0].toUpperCase() + s.skill.slice(1)} ${bands[i]?.toFixed(1) ?? "–"}`).join(" · ")}
+            . Speaking not taken, so the overall is the average of these sections, rounded like the real one.
+          </p>
+          {r.overall_band !== null && <BandScale band={r.overall_band} target={me.data?.target_band ?? 7} estimate={r.overall_is_estimate} />}
+        </section>
+      )}
       {r.report.sections.map((s) => s.skill === "writing" ? (
         <WritingReportView key={s.skill} s={s} practice={practice} target={me.data?.target_band ?? 7} />
       ) : (
