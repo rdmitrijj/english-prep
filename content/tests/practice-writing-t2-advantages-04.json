@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-advantages-04",
+  "kind": "practice",
+  "title": "Advantages: paying for rubbish by weight",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "environment",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Some local councils now charge households for rubbish collection according to how much waste they throw away, instead of charging every home the same fixed amount.\n\nDo the advantages of this outweigh the disadvantages?",
+            "essay_type": "advantages_disadvantages",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+ "answers": [
+  {
+   "number": 1,
+   "answer": [
+    "TRUE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 2,
+   "answer": [
+    "FALSE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 3,
+   "answer": [
+    "NOT GIVEN"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 4,
+   "answer": [
+    "FALSE"
+   ],
+   "confidence": 0.8,
+   "note": "leap seconds due to be abandoned by 2035; 'foreseeable future' is loose"
+  },
+  {
+   "number": 5,
+   "answer": [
+    "NOT GIVEN"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 6,
+   "answer": [
+    "tides"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 7,
+   "answer": [
+    "temperature"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 8,
+   "answer": [
+    "1967"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 9,
+   "answer": [
+    "light"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 10,
+   "answer": [
+    "cloud"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 11,
+   "answer": [
+    "metre"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 12,
+   "answer": [
+    "microwaves"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 13,
+   "answer": [
+    "proportion"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  }
+ ]
+}

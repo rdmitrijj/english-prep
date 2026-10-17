@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-opinion-05",
+  "kind": "practice",
+  "title": "Opinion: grandparents as childcarers",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "society-family",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "When both parents go out to work, young children are better looked after by their grandparents than by professional childcare workers.\n\nTo what extent do you agree or disagree with this opinion?",
+            "essay_type": "opinion",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

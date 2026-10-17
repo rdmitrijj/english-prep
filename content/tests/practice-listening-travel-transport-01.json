@@ -1,0 +1,689 @@
+{
+  "slug": "practice-listening-travel-transport-01",
+  "kind": "practice",
+  "title": "A New Bike-Share Scheme",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T12:51:15+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "listening"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "listening",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "social_monologue",
+          "topic": "travel-transport",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "narrator",
+                "role": "Narrator",
+                "accent": "en-GB",
+                "gender": "male"
+              },
+              {
+                "id": "organiser",
+                "role": "Bike-share project coordinator",
+                "accent": "en-NZ",
+                "gender": "male"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "narrator",
+                "text": "You will hear a man talking to a community group about a new bike-share scheme in their city. First, you have some time to look at questions 1 to 5.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen carefully and answer questions 1 to 5.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "Evening, everyone, and thanks for coming along. My name's Rob Hennessy, and I'm the project coordinator for CityCycle, the new bike-share scheme that's launching here in Westbury next month. I'll explain how it's going to work, and then there'll be time for your questions at the end.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "First of all, why are we doing this? A lot of people assume it's mainly about cutting pollution, and of course fewer car trips will help with that. We'd also love to see visitors to the city using the bikes.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "But the real reason the council funded the scheme was a gap in the transport network. There's no direct bus between the railway station and the hospital and university campus, and that's a journey thousands of people make every day. The bikes are designed to fill that gap.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "Now, the size of the fleet. Our original plan was to launch with 600 bikes. Unfortunately, our supplier has had delays at the factory, so on day one there'll be 450 bikes on the streets, spread across 40 docking stations. Of those, 300 are standard bikes and 150 are electric. The rest should arrive by the end of the summer.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "I get asked about the electric bikes more than anything else. Some people think they'll be restricted to adults over 18, but the minimum age is 16 for every bike in the fleet. And you can leave them at any docking station, just like the standard bikes.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "The one real difference is the cost. A standard bike is 20 cents a minute, and the electric ones are 35 cents a minute, because we have to pay for the charging.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "So, how do you actually use the scheme? The first step is to register. Most people will do it on the CityCycle app. If you don't have a smartphone, you can sign up at the kiosk at any docking station, using a bank card. We'd hoped to offer registration on our website too, but that won't be ready until later in the year.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "Once you're registered, you can pay as you go, or you can save money with a pass. We thought about offering a weekly pass, but our research showed that very few people would use one, so we've gone for an annual pass and a monthly one. The annual pass works out cheapest if you ride every day.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Before you hear the rest of the talk, you have some time to look at questions 6 to 10.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen and answer questions 6 to 10.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "To take a bike out, you open the app and scan the code on the bike. People tend to look for it on the seat or on the frame, but it's actually on the handlebars, right in the middle, so you can see it easily. The lock opens straight away.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "Before you ride off, please check the brakes. Our maintenance team goes round every morning and checks the tyres and the lights, so you don't need to worry about those. But brakes can be damaged by one careless rider, so give them a quick squeeze before you set off.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "And if you do find a problem, please don't just leave the bike for the next person. Put it back in the dock and press the red button on the docking point. That locks the bike so no one else can take it, and it sends a message to our mechanics. You don't need to phone us or fill in a form.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "Now, our launch month. We've planned a few things to get people on the bikes. Firstly, for the whole of the first month, any ride under 30 minutes will be completely free, so it's a great chance to try it out.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "We did look at giving away free helmets at the stations, but there are hygiene issues with sharing helmets, and it was too expensive to give everyone a new one, so you'll need to bring your own.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "What we will have is volunteers at the busiest stations in the first month, who'll show you how to use the app and how to adjust the seat height. Just look for the green jackets.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "A few people have asked whether students will get a discount. There's no student rate at the moment, though it's something we'll look at again next year. And I know everyone's waiting for the new cycle lane on Harbour Road. That won't be finished until next spring, I'm afraid, so please take care on that stretch.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "organiser",
+                "text": "Right, that's the overview. Let's open it up for questions. Yes, the lady at the front.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "That is the end of the recording. You now have half a minute to check your answers.",
+                "pause_after_s": 30.0
+              }
+            ]
+          },
+          "audio": {
+            "url": "/media/audio/practice-listening-travel-transport-01-p1.mp3",
+            "duration_ms": 321013,
+            "segments": [
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 8320,
+                "text": "You will hear a man talking to a community group about a new bike-share scheme in their city. First, you have some time to look at questions 1 to 5."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 38720,
+                "end_ms": 42602,
+                "text": "Now listen carefully and answer questions 1 to 5."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 43002,
+                "end_ms": 57445,
+                "text": "Evening, everyone, and thanks for coming along. My name's Rob Hennessy, and I'm the project coordinator for CityCycle, the new bike-share scheme that's launching here in Westbury next month. I'll explain how it's going to work, and then there'll be time for your questions at the end."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 57845,
+                "end_ms": 68597,
+                "text": "First of all, why are we doing this? A lot of people assume it's mainly about cutting pollution, and of course fewer car trips will help with that. We'd also love to see visitors to the city using the bikes."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 68997,
+                "end_ms": 82992,
+                "text": "But the real reason the council funded the scheme was a gap in the transport network. There's no direct bus between the railway station and the hospital and university campus, and that's a journey thousands of people make every day. The bikes are designed to fill that gap."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 83392,
+                "end_ms": 102101,
+                "text": "Now, the size of the fleet. Our original plan was to launch with 600 bikes. Unfortunately, our supplier has had delays at the factory, so on day one there'll be 450 bikes on the streets, spread across 40 docking stations. Of those, 300 are standard bikes and 150 are electric. The rest should arrive by the end of the summer."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 102501,
+                "end_ms": 115642,
+                "text": "I get asked about the electric bikes more than anything else. Some people think they'll be restricted to adults over 18, but the minimum age is 16 for every bike in the fleet. And you can leave them at any docking station, just like the standard bikes."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 116042,
+                "end_ms": 125194,
+                "text": "The one real difference is the cost. A standard bike is 20 cents a minute, and the electric ones are 35 cents a minute, because we have to pay for the charging."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 125594,
+                "end_ms": 141744,
+                "text": "So, how do you actually use the scheme? The first step is to register. Most people will do it on the CityCycle app. If you don't have a smartphone, you can sign up at the kiosk at any docking station, using a bank card. We'd hoped to offer registration on our website too, but that won't be ready until later in the year."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 142144,
+                "end_ms": 156394,
+                "text": "Once you're registered, you can pay as you go, or you can save money with a pass. We thought about offering a weekly pass, but our research showed that very few people would use one, so we've gone for an annual pass and a monthly one. The annual pass works out cheapest if you ride every day."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 156794,
+                "end_ms": 161957,
+                "text": "Before you hear the rest of the talk, you have some time to look at questions 6 to 10."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 192357,
+                "end_ms": 195728,
+                "text": "Now listen and answer questions 6 to 10."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 196128,
+                "end_ms": 207797,
+                "text": "To take a bike out, you open the app and scan the code on the bike. People tend to look for it on the seat or on the frame, but it's actually on the handlebars, right in the middle, so you can see it easily. The lock opens straight away."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 208197,
+                "end_ms": 221210,
+                "text": "Before you ride off, please check the brakes. Our maintenance team goes round every morning and checks the tyres and the lights, so you don't need to worry about those. But brakes can be damaged by one careless rider, so give them a quick squeeze before you set off."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 221610,
+                "end_ms": 235306,
+                "text": "And if you do find a problem, please don't just leave the bike for the next person. Put it back in the dock and press the red button on the docking point. That locks the bike so no one else can take it, and it sends a message to our mechanics. You don't need to phone us or fill in a form."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 235706,
+                "end_ms": 246181,
+                "text": "Now, our launch month. We've planned a few things to get people on the bikes. Firstly, for the whole of the first month, any ride under 30 minutes will be completely free, so it's a great chance to try it out."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 246581,
+                "end_ms": 256330,
+                "text": "We did look at giving away free helmets at the stations, but there are hygiene issues with sharing helmets, and it was too expensive to give everyone a new one, so you'll need to bring your own."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 256730,
+                "end_ms": 265690,
+                "text": "What we will have is volunteers at the busiest stations in the first month, who'll show you how to use the app and how to adjust the seat height. Just look for the green jackets."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 266090,
+                "end_ms": 280682,
+                "text": "A few people have asked whether students will get a discount. There's no student rate at the moment, though it's something we'll look at again next year. And I know everyone's waiting for the new cycle lane on Harbour Road. That won't be finished until next spring, I'm afraid, so please take care on that stretch."
+              },
+              {
+                "speaker": "organiser",
+                "accent": "en-NZ",
+                "start_ms": 281082,
+                "end_ms": 285648,
+                "text": "Right, that's the overview. Let's open it up for questions. Yes, the lady at the front."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 286048,
+                "end_ms": 290613,
+                "text": "That is the end of the recording. You now have half a minute to check your answers."
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "narrator": "bm_fable",
+              "organiser": "bm_daniel"
+            }
+          },
+          "writing": null,
+          "groups": [
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "What was the main reason for starting the scheme?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "to reduce air pollution"
+                    },
+                    {
+                      "letter": "B",
+                      "text": "to attract more tourists"
+                    },
+                    {
+                      "letter": "C",
+                      "text": "to provide a journey that buses do not offer"
+                    }
+                  ],
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "inference",
+                  "explanation": {
+                    "correct": "'The real reason the council funded the scheme was a gap in the transport network': no direct bus between the station and the hospital and campus.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Cutting pollution is what people assume; it will help, but it is not the main reason."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Visitors using the bikes would be welcome, but this is not the reason for the funding."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "4",
+                    "quote": "the real reason the council funded the scheme was a gap in the transport network"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "How many bikes will be available when the scheme starts?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "300"
+                    },
+                    {
+                      "letter": "B",
+                      "text": "450"
+                    },
+                    {
+                      "letter": "C",
+                      "text": "600"
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Because of delays, 'on day one there'll be 450 bikes on the streets'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "300 is the number of standard bikes among the 450."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "600 was the original plan."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "5",
+                    "quote": "on day one there'll be 450 bikes on the streets"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "What does the speaker say about the electric bikes?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "They are more expensive to hire."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "They are only for riders over 18."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "They must be returned to particular stations."
+                    }
+                  ],
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Standard bikes cost 20 cents a minute and 'the electric ones are 35 cents a minute', so they are more expensive to hire.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "The minimum age is 16 for every bike, not 18."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "They can be left at any docking station."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "7",
+                    "quote": "the electric ones are 35 cents a minute"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose the correct letter, A, B or C.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": {
+                "title": "How to use the scheme",
+                "template": "- Register on the app or at the {4} at any docking station\n- Passes available: annual or {5}\n- To unlock a bike, scan the code on the {6}\n- Before riding, check the {7}\n- If a bike has a problem, return it to the dock and press the red {8}",
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 4,
+                  "prompt": "Where to register without the app",
+                  "options": null,
+                  "answer": [
+                    "kiosk"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Without a smartphone, 'you can sign up at the kiosk at any docking station'.",
+                    "distractors": [
+                      {
+                        "option": "website",
+                        "why_wrong": "Website registration won't be ready until later in the year."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "8",
+                    "quote": "you can sign up at the kiosk at any docking station"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "Type of pass",
+                  "options": null,
+                  "answer": [
+                    "monthly"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'We've gone for an annual pass and a monthly one.'",
+                    "distractors": [
+                      {
+                        "option": "weekly",
+                        "why_wrong": "A weekly pass was considered but rejected."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "9",
+                    "quote": "so we've gone for an annual pass and a monthly one"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 6,
+                  "prompt": "Where the code is",
+                  "options": null,
+                  "answer": [
+                    "handlebars",
+                    "handlebar"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "People look on the seat or frame, 'but it's actually on the handlebars'.",
+                    "distractors": [
+                      {
+                        "option": "seat",
+                        "why_wrong": "People tend to look there, but the code is not on the seat."
+                      },
+                      {
+                        "option": "frame",
+                        "why_wrong": "Also where people look, but wrong."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "12",
+                    "quote": "it's actually on the handlebars"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "What to check before riding",
+                  "options": null,
+                  "answer": [
+                    "brakes",
+                    "brake"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Before you ride off, please check the brakes.'",
+                    "distractors": [
+                      {
+                        "option": "tyres",
+                        "why_wrong": "The maintenance team checks the tyres every morning."
+                      },
+                      {
+                        "option": "lights",
+                        "why_wrong": "The team checks these too."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "13",
+                    "quote": "please check the brakes"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "What to press on the dock",
+                  "options": null,
+                  "answer": [
+                    "button"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Put it back in the dock and press the red button on the docking point.'",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "14",
+                    "quote": "press the red button on the docking point"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "note_completion",
+              "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+              "max_words": 1,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "Short rides will cost nothing."
+                },
+                {
+                  "letter": "B",
+                  "text": "Free helmets will be handed out."
+                },
+                {
+                  "letter": "C",
+                  "text": "Volunteers will help people use the bikes."
+                },
+                {
+                  "letter": "D",
+                  "text": "A new cycle lane will open."
+                },
+                {
+                  "letter": "E",
+                  "text": "Students will get a lower price."
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 9,
+                  "prompt": "Which TWO things will happen during the first month of the scheme?",
+                  "options": null,
+                  "answer": [
+                    "A",
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "A: 'any ride under 30 minutes will be completely free'. C: volunteers at the busiest stations will 'show you how to use the app'.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "Free helmets were considered but rejected for hygiene and cost reasons."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "The Harbour Road cycle lane won't be finished until next spring."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "There is no student rate at the moment."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "15",
+                    "quote": "any ride under 30 minutes will be completely free"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "Which TWO things will happen during the first month of the scheme?",
+                  "options": null,
+                  "answer": [
+                    "A",
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "A: 'any ride under 30 minutes will be completely free'. C: volunteers at the busiest stations will 'show you how to use the app'.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "Free helmets were considered but rejected for hygiene and cost reasons."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "The Harbour Road cycle lane won't be finished until next spring."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "There is no student rate at the moment."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "17",
+                    "quote": "What we will have is volunteers at the busiest stations in the first month"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose TWO letters, A–E.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+ "answers": [
+  {
+   "number": 1,
+   "answer": [
+    "furniture"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 2,
+   "answer": [
+    "Sunday"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 3,
+   "answer": [
+    "12"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 4,
+   "answer": [
+    "boots"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 5,
+   "answer": [
+    "lifting"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 6,
+   "answer": [
+    "14th"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 7,
+   "answer": [
+    "Whitlock"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 8,
+   "answer": [
+    "passport"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 9,
+   "answer": [
+    "greenhouse"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 10,
+   "answer": [
+    "20"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 11,
+   "answer": [
+    "B",
+    "E"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 12,
+   "answer": [
+    "B",
+    "E"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 13,
+   "answer": [
+    "A",
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 14,
+   "answer": [
+    "A",
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 15,
+   "answer": [
+    "E"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 16,
+   "answer": [
+    "F"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 17,
+   "answer": [
+    "D"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 18,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 19,
+   "answer": [
+    "G"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 20,
+   "answer": [
+    "A"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 21,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 22,
+   "answer": [
+    "A"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 23,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 24,
+   "answer": [
+    "A"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 25,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 26,
+   "answer": [
+    "A"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 27,
+   "answer": [
+    "C"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 28,
+   "answer": [
+    "D"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 29,
+   "answer": [
+    "F"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 30,
+   "answer": [
+    "E"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 31,
+   "answer": [
+    "insects"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 32,
+   "answer": [
+    "nest"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 33,
+   "answer": [
+    "larvae"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 34,
+   "answer": [
+    "nutrients"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 35,
+   "answer": [
+    "predators"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 36,
+   "answer": [
+    "fire"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 37,
+   "answer": [
+    "surface"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 38,
+   "answer": [
+    "seedlings"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 39,
+   "answer": [
+    "mismatch"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 40,
+   "answer": [
+    "dye"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  }
+ ]
+}

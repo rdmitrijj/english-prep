@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-discussion-03",
+  "kind": "practice",
+  "title": "Discussion: solar panels on every new home",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "energy-resources",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Some people believe that every new house should be required by law to have solar panels on its roof. Others feel that this decision should be left to the people who build or buy the house.\n\nDiscuss both these views and give your own opinion.",
+            "essay_type": "discussion",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

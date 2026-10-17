@@ -649,6 +649,12 @@ SRS = the spaced-repetition system from §4.5.
 - **Endpoints:** reuse attempts. `mode=full_mock` creates L/R/W sections, started in order.
 - **Tests:** section ordering is enforced; the overall band; the "Estimated overall (Speaking not taken)" label.
 - **Verify:** sit a full mock end to end, about 2 h 40 min (or use the time-scale flag) → full report.
+- **As built (2026-10-17):** the exam page already walked an attempt's sections in order, so the "between-section screen"
+  is the next section's intro with "section N of 3". Starting a section before the previous one is submitted → 409.
+  The overall band is set when the report is (re)built, so it appears once the Writing examiners finish; it is
+  always an estimate (no Speaking). Content was authored offline (READING/LISTENING/WRITING briefs in `docs/`),
+  every Reading/Listening set blind-solved; Kokoro audio runs ~15–20% shorter than the checker's estimate
+  (mocks: 24–25 min + 2 min review).
 
 ### M9: Deploy to Render + Neon
 - **Files:** production Dockerfile stage, `render.yaml`, `docs/DEPLOY.md`.

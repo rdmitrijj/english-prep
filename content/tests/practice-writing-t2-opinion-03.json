@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-opinion-03",
+  "kind": "practice",
+  "title": "Opinion: learning through group projects",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "education",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Some teachers argue that students learn more by working together on real projects than by listening to lessons and taking written exams.\n\nTo what extent do you agree or disagree with this view?",
+            "essay_type": "opinion",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

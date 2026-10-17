@@ -1,0 +1,36 @@
+{
+  "slug": "practice-writing-t1-process-03",
+  "kind": "practice",
+  "title": "Process: producing olive oil",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "work-economy",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The diagram below shows the stages in the production of olive oil.",
+            "essay_type": null,
+            "visual": {
+              "type": "process",
+              "charts": [],
+              "description": "Process diagram titled \"Producing olive oil\", with eight numbered stages linked by arrows and one by-product. Stage 1: olives are shaken from the trees onto nets (between October and December). Stage 2: they are taken to the mill within 24 hours. Stage 3: the leaves are removed and the olives are washed. Stage 4: the olives are crushed into a paste, with the stones included. Stage 5: the paste is stirred slowly for 30–40 minutes. Stage 6: it is spun in a centrifuge to separate the oil. From stage 6 an arrow also leads to a by-product (shown in a dashed box, not numbered): the solid waste (skins and stones) is sold as fuel. The oil continues to stage 7, where it is left to settle in steel tanks for 4–6 weeks. Stage 8: it is filtered and bottled.",
+              "url": "/media/visuals/practice-writing-t1-process-03-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

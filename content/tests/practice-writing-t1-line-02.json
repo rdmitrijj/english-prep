@@ -1,0 +1,89 @@
+{
+  "slug": "practice-writing-t1-line-02",
+  "kind": "practice",
+  "title": "Line graph: what happened to household waste",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "environment",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The line graph below shows the percentage of household waste in Ireland that was sent to landfill, recycled or composted between 1995 and 2025.",
+            "essay_type": null,
+            "visual": {
+              "type": "line",
+              "charts": [
+                {
+                  "type": "line",
+                  "title": "Household waste by destination, Ireland, 1995–2025",
+                  "unit": "% of household waste",
+                  "categories": [
+                    "1995",
+                    "2000",
+                    "2005",
+                    "2010",
+                    "2015",
+                    "2020",
+                    "2025"
+                  ],
+                  "series": [
+                    {
+                      "name": "Landfill",
+                      "values": [
+                        82.0,
+                        74.0,
+                        63.0,
+                        55.0,
+                        47.0,
+                        40.0,
+                        34.0
+                      ]
+                    },
+                    {
+                      "name": "Recycled",
+                      "values": [
+                        12.0,
+                        17.0,
+                        24.0,
+                        29.0,
+                        33.0,
+                        36.0,
+                        40.0
+                      ]
+                    },
+                    {
+                      "name": "Composted",
+                      "values": [
+                        6.0,
+                        9.0,
+                        13.0,
+                        16.0,
+                        20.0,
+                        24.0,
+                        26.0
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "url": "/media/visuals/practice-writing-t1-line-02-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

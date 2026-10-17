@@ -1,0 +1,326 @@
+{
+ "answers": [
+  {
+   "number": 1,
+   "answer": [
+    "D"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 2,
+   "answer": [
+    "E"
+   ],
+   "confidence": 0.85,
+   "note": ""
+  },
+  {
+   "number": 3,
+   "answer": [
+    "G"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 4,
+   "answer": [
+    "C"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 5,
+   "answer": [
+    "sawdust"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 6,
+   "answer": [
+    "fish"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 7,
+   "answer": [
+    "coal"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 8,
+   "answer": [
+    "13\u00b0C"
+   ],
+   "confidence": 0.9,
+   "note": "could also be written 13"
+  },
+  {
+   "number": 9,
+   "answer": [
+    "ripening rooms"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 10,
+   "answer": [
+    "TRUE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 11,
+   "answer": [
+    "FALSE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 12,
+   "answer": [
+    "NOT GIVEN"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 13,
+   "answer": [
+    "TRUE"
+   ],
+   "confidence": 0.85,
+   "note": "about forty vs fewer than fifteen = more than double"
+  },
+  {
+   "number": 14,
+   "answer": [
+    "vi"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 15,
+   "answer": [
+    "iii"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 16,
+   "answer": [
+    "ix"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 17,
+   "answer": [
+    "x"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 18,
+   "answer": [
+    "i"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 19,
+   "answer": [
+    "iv"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 20,
+   "answer": [
+    "vii"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 21,
+   "answer": [
+    "B",
+    "D"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 22,
+   "answer": [
+    "B",
+    "D"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 23,
+   "answer": [
+    "coins"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 24,
+   "answer": [
+    "outermost ring"
+   ],
+   "confidence": 0.85,
+   "note": "also 'outermost ring beneath the bark'"
+  },
+  {
+   "number": 25,
+   "answer": [
+    "wood-boring creatures"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 26,
+   "answer": [
+    "photogrammetry"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 27,
+   "answer": [
+    "NOT GIVEN"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 28,
+   "answer": [
+    "NO"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 29,
+   "answer": [
+    "YES"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 30,
+   "answer": [
+    "NO"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 31,
+   "answer": [
+    "NOT GIVEN"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 32,
+   "answer": [
+    "YES"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 33,
+   "answer": [
+    "D"
+   ],
+   "confidence": 0.8,
+   "note": "supervise vs watch; D fits grammar best"
+  },
+  {
+   "number": 34,
+   "answer": [
+    "A"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 35,
+   "answer": [
+    "C"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 36,
+   "answer": [
+    "H"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 37,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 38,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 39,
+   "answer": [
+    "C"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 40,
+   "answer": [
+    "A"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  }
+ ]
+}

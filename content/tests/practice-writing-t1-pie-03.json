@@ -1,0 +1,68 @@
+{
+  "slug": "practice-writing-t1-pie-03",
+  "kind": "practice",
+  "title": "Pie charts: where tourists stayed in Portugal",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "travel-tourism",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The pie charts below show the types of accommodation used by domestic and international tourists who stayed overnight in Portugal in 2024.",
+            "essay_type": null,
+            "visual": {
+              "type": "pie",
+              "charts": [
+                {
+                  "type": "pie",
+                  "title": "Accommodation used by tourists in Portugal (2024)",
+                  "unit": "%",
+                  "categories": [
+                    "Hotel",
+                    "Campsite",
+                    "Holiday rental",
+                    "Friends or family"
+                  ],
+                  "series": [
+                    {
+                      "name": "Domestic tourists",
+                      "values": [
+                        34.0,
+                        18.0,
+                        22.0,
+                        26.0
+                      ]
+                    },
+                    {
+                      "name": "International tourists",
+                      "values": [
+                        52.0,
+                        9.0,
+                        33.0,
+                        6.0
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "url": "/media/visuals/practice-writing-t1-pie-03-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

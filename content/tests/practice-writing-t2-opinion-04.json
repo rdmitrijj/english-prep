@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-opinion-04",
+  "kind": "practice",
+  "title": "Opinion: compulsory cycle helmets",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "government-law",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Laws that make it compulsory for cyclists to wear a helmet do more harm than good, because they discourage people from cycling at all.\n\nDo you agree or disagree?",
+            "essay_type": "opinion",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

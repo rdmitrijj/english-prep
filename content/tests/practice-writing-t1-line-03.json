@@ -1,0 +1,89 @@
+{
+  "slug": "practice-writing-t1-line-03",
+  "kind": "practice",
+  "title": "Line graph: young people's TV, streaming and radio time",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "media-culture",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The line graph below shows the average number of minutes per day that people aged 15 to 24 in the Netherlands spent watching live television, watching streamed video and listening to the radio between 2013 and 2025.",
+            "essay_type": null,
+            "visual": {
+              "type": "line",
+              "charts": [
+                {
+                  "type": "line",
+                  "title": "Daily media time of 15–24-year-olds, the Netherlands",
+                  "unit": "minutes per day",
+                  "categories": [
+                    "2013",
+                    "2015",
+                    "2017",
+                    "2019",
+                    "2021",
+                    "2023",
+                    "2025"
+                  ],
+                  "series": [
+                    {
+                      "name": "Live television",
+                      "values": [
+                        150.0,
+                        138.0,
+                        120.0,
+                        98.0,
+                        80.0,
+                        66.0,
+                        55.0
+                      ]
+                    },
+                    {
+                      "name": "Streamed video",
+                      "values": [
+                        25.0,
+                        45.0,
+                        70.0,
+                        95.0,
+                        120.0,
+                        140.0,
+                        155.0
+                      ]
+                    },
+                    {
+                      "name": "Radio",
+                      "values": [
+                        48.0,
+                        44.0,
+                        40.0,
+                        37.0,
+                        35.0,
+                        33.0,
+                        32.0
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "url": "/media/visuals/practice-writing-t1-line-03-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

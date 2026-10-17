@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-two-part-03",
+  "kind": "practice",
+  "title": "Two-part: returning to study in middle age",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "education",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "More and more people are going back to study in their forties and fifties, often while they continue to work.\n\nWhat are the reasons for this? What difficulties might these learners face?",
+            "essay_type": "two_part",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

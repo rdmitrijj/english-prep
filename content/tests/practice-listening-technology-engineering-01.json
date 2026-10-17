@@ -1,0 +1,753 @@
+{
+  "slug": "practice-listening-technology-engineering-01",
+  "kind": "practice",
+  "title": "Designing a Footbridge",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T12:51:16+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "listening"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "listening",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_discussion",
+          "topic": "technology-engineering",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "narrator",
+                "role": "Narrator",
+                "accent": "en-GB",
+                "gender": "male"
+              },
+              {
+                "id": "josh",
+                "role": "Engineering student",
+                "accent": "en-AU",
+                "gender": "male"
+              },
+              {
+                "id": "mei",
+                "role": "Engineering student",
+                "accent": "en-US",
+                "gender": "female"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "narrator",
+                "text": "You will hear two engineering students, Josh and Mei, discussing their design project for a footbridge. First, you have some time to look at questions 1 to 5.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen carefully and answer questions 1 to 5.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "OK, Josh, we should go over where we are before we write up the design report. Can you remind me of the brief? I've only got my scribbled notes.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "Sure. The university wants a footbridge over the canal beside the sports centre. At the moment, students coming from the new student village have to walk right round by the road bridge, which takes about fifteen minutes.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "Right, so the bridge connects the main campus with the student village. And the span is twenty-four metres, bank to bank.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "That's it. Then we looked at three types of bridge. The arch was out straight away, because the canal boats need a lot of headroom in the middle, and an arch would have to be really tall.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "And I was quite keen on a suspension bridge at first. They look great. But a suspension bridge needs massive anchor blocks on each bank to hold the cables, and there just isn't room for them. There's a cycle path on one side and the sports centre car park on the other.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "So we went for a truss. It's simple, it's stiff, and it can be made in sections off site and lifted in by crane in a single night, so the canal only has to close once.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "And it came out cheapest in our rough estimate, didn't it?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "By quite a long way, yes. Even with the crane hire included.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "Then there's the material. We started off assuming timber, because it looks natural next to the water.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "Yeah, but the maintenance costs put us off. Timber needs treating every few years, and the university said they don't have the budget for that. Aluminium's light, but it's expensive. So we've gone for weathering steel. It forms its own protective layer of rust, so it never needs painting.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "Good. What about the deck surface? I remember the brief said it has to be safe in all weather.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "We're putting down an anti-slip coating made of resin with fine grit mixed into it. We thought about rubber matting, but it tends to lift at the edges, and people trip over it.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "Right, resin it is. Oh, and the other thing Dr Okafor mentioned in the tutorial was movement. She said lightweight footbridges can sway when a crowd walks across in step, like that famous bridge in London that had to close.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "That's why we made the truss deeper than we needed for strength. It's heavier, but it should stop most of the sway.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen and answer questions 6 to 10.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "So, testing. The module guide says we have to check the design physically, not only on the computer.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "Yes, we'll build a scale model, one twentieth of the real size. That makes it just over a metre long.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "What are we making it from? I know some groups are using cardboard.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "Cardboard bends too easily, and it goes soft if the lab's at all damp. I thought about 3D printing it in plastic, but the printer queue is about three weeks long. So I'd say balsa wood. It's cheap, it's easy to cut, and it behaves a bit like a real structure.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "Balsa wood's fine with me. And how much load are we putting on it? I wrote down forty kilograms.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "That was the first figure we worked out, but the technician said the frame in the lab can only take twenty-five kilograms safely. So we'll load it with 25 kilograms of sandbags and measure how far the middle bends.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "OK, 25. And where's the test happening? I assumed it would be in the workshop where we build the model.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "No, the workshop's too crowded. We've booked the structures laboratory on the ground floor for next Thursday afternoon. They've got the loading frame and the measuring gauges there.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "Should we run the test more than once?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "Three times, I think, and then take the average. If the results are very different from each other, we'll know something's wrong with the model rather than with the design.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "Perfect. Then the last thing is the presentation at the end of term. Is Dr Okafor marking it?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "She was going to, but she's at a conference that week. So instead it'll be assessed by a visiting engineer from a consultancy in town. Apparently they actually design bridges, so we'd better get our numbers right.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "No pressure, then. Shall we split the report? I'll write the section on loads if you do the materials.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "Deal. And I'll do the drawings over the weekend, a side view and a plan, both to scale.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "mei",
+                "text": "Great. Let's meet again on Monday to put it all together.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "That is the end of the recording. You now have half a minute to check your answers.",
+                "pause_after_s": 30.0
+              }
+            ]
+          },
+          "audio": {
+            "url": "/media/audio/practice-listening-technology-engineering-01-p1.mp3",
+            "duration_ms": 408944,
+            "segments": [
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 9898,
+                "text": "You will hear two engineering students, Josh and Mei, discussing their design project for a footbridge. First, you have some time to look at questions 1 to 5."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 40298,
+                "end_ms": 43840,
+                "text": "Now listen carefully and answer questions 1 to 5."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 44240,
+                "end_ms": 57232,
+                "text": "OK, Josh, we should go over where we are before we write up the design report. Can you remind me of the brief? I've only got my scribbled notes."
+              },
+              {
+                "speaker": "josh",
+                "accent": "en-AU",
+                "start_ms": 57632,
+                "end_ms": 69002,
+                "text": "Sure. The university wants a footbridge over the canal beside the sports centre. At the moment, students coming from the new student village have to walk right round by the road bridge, which takes about fifteen minutes."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 69402,
+                "end_ms": 80304,
+                "text": "Right, so the bridge connects the main campus with the student village. And the span is twenty-four metres, bank to bank."
+              },
+              {
+                "speaker": "josh",
+                "accent": "en-AU",
+                "start_ms": 80704,
+                "end_ms": 90090,
+                "text": "That's it. Then we looked at three types of bridge. The arch was out straight away, because the canal boats need a lot of headroom in the middle, and an arch would have to be really tall."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 90490,
+                "end_ms": 113829,
+                "text": "And I was quite keen on a suspension bridge at first. They look great. But a suspension bridge needs massive anchor blocks on each bank to hold the cables, and there just isn't room for them. There's a cycle path on one side and the sports centre car park on the other."
+              },
+              {
+                "speaker": "josh",
+                "accent": "en-AU",
+                "start_ms": 114229,
+                "end_ms": 123744,
+                "text": "So we went for a truss. It's simple, it's stiff, and it can be made in sections off site and lifted in by crane in a single night, so the canal only has to close once."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 124144,
+                "end_ms": 128538,
+                "text": "And it came out cheapest in our rough estimate, didn't it?"
+              },
+              {
+                "speaker": "josh",
+                "accent": "en-AU",
+                "start_ms": 128938,
+                "end_ms": 132992,
+                "text": "By quite a long way, yes. Even with the crane hire included."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 133392,
+                "end_ms": 142096,
+                "text": "Then there's the material. We started off assuming timber, because it looks natural next to the water."
+              },
+              {
+                "speaker": "josh",
+                "accent": "en-AU",
+                "start_ms": 142496,
+                "end_ms": 157365,
+                "text": "Yeah, but the maintenance costs put us off. Timber needs treating every few years, and the university said they don't have the budget for that. Aluminium's light, but it's expensive. So we've gone for weathering steel. It forms its own protective layer of rust, so it never needs painting."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 157765,
+                "end_ms": 165146,
+                "text": "Good. What about the deck surface? I remember the brief said it has to be safe in all weather."
+              },
+              {
+                "speaker": "josh",
+                "accent": "en-AU",
+                "start_ms": 165546,
+                "end_ms": 175104,
+                "text": "We're putting down an anti-slip coating made of resin with fine grit mixed into it. We thought about rubber matting, but it tends to lift at the edges, and people trip over it."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 175504,
+                "end_ms": 197264,
+                "text": "Right, resin it is. Oh, and the other thing Dr Okafor mentioned in the tutorial was movement. She said lightweight footbridges can sway when a crowd walks across in step, like that famous bridge in London that had to close."
+              },
+              {
+                "speaker": "josh",
+                "accent": "en-AU",
+                "start_ms": 197664,
+                "end_ms": 203552,
+                "text": "That's why we made the truss deeper than we needed for strength. It's heavier, but it should stop most of the sway."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 203952,
+                "end_ms": 209328,
+                "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 239728,
+                "end_ms": 242650,
+                "text": "Now listen and answer questions 6 to 10."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 243050,
+                "end_ms": 252117,
+                "text": "So, testing. The module guide says we have to check the design physically, not only on the computer."
+              },
+              {
+                "speaker": "josh",
+                "accent": "en-AU",
+                "start_ms": 252517,
+                "end_ms": 258469,
+                "text": "Yes, we'll build a scale model, one twentieth of the real size. That makes it just over a metre long."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 258869,
+                "end_ms": 264266,
+                "text": "What are we making it from? I know some groups are using cardboard."
+              },
+              {
+                "speaker": "josh",
+                "accent": "en-AU",
+                "start_ms": 264666,
+                "end_ms": 278661,
+                "text": "Cardboard bends too easily, and it goes soft if the lab's at all damp. I thought about 3D printing it in plastic, but the printer queue is about three weeks long. So I'd say balsa wood. It's cheap, it's easy to cut, and it behaves a bit like a real structure."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 279061,
+                "end_ms": 288149,
+                "text": "Balsa wood's fine with me. And how much load are we putting on it? I wrote down forty kilograms."
+              },
+              {
+                "speaker": "josh",
+                "accent": "en-AU",
+                "start_ms": 288549,
+                "end_ms": 300240,
+                "text": "That was the first figure we worked out, but the technician said the frame in the lab can only take twenty-five kilograms safely. So we'll load it with 25 kilograms of sandbags and measure how far the middle bends."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 300640,
+                "end_ms": 310560,
+                "text": "OK, 25. And where's the test happening? I assumed it would be in the workshop where we build the model."
+              },
+              {
+                "speaker": "josh",
+                "accent": "en-AU",
+                "start_ms": 310960,
+                "end_ms": 320496,
+                "text": "No, the workshop's too crowded. We've booked the structures laboratory on the ground floor for next Thursday afternoon. They've got the loading frame and the measuring gauges there."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 320896,
+                "end_ms": 323648,
+                "text": "Should we run the test more than once?"
+              },
+              {
+                "speaker": "josh",
+                "accent": "en-AU",
+                "start_ms": 324048,
+                "end_ms": 332624,
+                "text": "Three times, I think, and then take the average. If the results are very different from each other, we'll know something's wrong with the model rather than with the design."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 333024,
+                "end_ms": 342410,
+                "text": "Perfect. Then the last thing is the presentation at the end of term. Is Dr Okafor marking it?"
+              },
+              {
+                "speaker": "josh",
+                "accent": "en-AU",
+                "start_ms": 342810,
+                "end_ms": 354074,
+                "text": "She was going to, but she's at a conference that week. So instead it'll be assessed by a visiting engineer from a consultancy in town. Apparently they actually design bridges, so we'd better get our numbers right."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 354474,
+                "end_ms": 363008,
+                "text": "No pressure, then. Shall we split the report? I'll write the section on loads if you do the materials."
+              },
+              {
+                "speaker": "josh",
+                "accent": "en-AU",
+                "start_ms": 363408,
+                "end_ms": 368570,
+                "text": "Deal. And I'll do the drawings over the weekend, a side view and a plan, both to scale."
+              },
+              {
+                "speaker": "mei",
+                "accent": "en-US",
+                "start_ms": 368970,
+                "end_ms": 373514,
+                "text": "Great. Let's meet again on Monday to put it all together."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 373914,
+                "end_ms": 378544,
+                "text": "That is the end of the recording. You now have half a minute to check your answers."
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "narrator": "bm_lewis",
+              "josh": "bm_fable",
+              "mei": "af_nicole"
+            }
+          },
+          "writing": null,
+          "groups": [
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "The footbridge will connect the main campus with the ______.",
+                  "options": null,
+                  "answer": [
+                    "student village"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Mei sums up the brief: 'the bridge connects the main campus with the student village'.",
+                    "distractors": [
+                      {
+                        "option": "sports centre",
+                        "why_wrong": "The canal runs beside the sports centre; it is not what the bridge connects to."
+                      },
+                      {
+                        "option": "road bridge",
+                        "why_wrong": "This is the long way round that students use now."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "4",
+                    "quote": "the bridge connects the main campus with the student village"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "A suspension bridge was rejected because it requires large ______ on both banks.",
+                  "options": null,
+                  "answer": [
+                    "anchor blocks"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'A suspension bridge needs massive anchor blocks on each bank… there just isn't room': 'massive' = large, 'each bank' = both banks.",
+                    "distractors": [
+                      {
+                        "option": "cables",
+                        "why_wrong": "The anchor blocks hold the cables; the cables are not what lacks room."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "6",
+                    "quote": "a suspension bridge needs massive anchor blocks on each bank"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "The students have chosen ______ as the main material for the bridge.",
+                  "options": null,
+                  "answer": [
+                    "weathering steel"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'So we've gone for weathering steel', which never needs painting.",
+                    "distractors": [
+                      {
+                        "option": "timber",
+                        "why_wrong": "Their first assumption, rejected because of maintenance costs."
+                      },
+                      {
+                        "option": "aluminium",
+                        "why_wrong": "Light but too expensive."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "11",
+                    "quote": "So we've gone for weathering steel"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "To make it safe in wet weather, the deck will have a coating of ______ containing grit.",
+                  "options": null,
+                  "answer": [
+                    "resin"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'An anti-slip coating made of resin with fine grit mixed into it'; Mei confirms 'resin it is'.",
+                    "distractors": [
+                      {
+                        "option": "rubber matting",
+                        "why_wrong": "Considered but rejected because it lifts at the edges."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "13",
+                    "quote": "an anti-slip coating made of resin with fine grit mixed into it"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "Their tutor warned that a light footbridge may ______ when a crowd walks across it in step.",
+                  "options": null,
+                  "answer": [
+                    "sway"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Dr Okafor said 'lightweight footbridges can sway when a crowd walks across in step'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "14",
+                    "quote": "lightweight footbridges can sway when a crowd walks across in step"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "sentence_completion",
+              "instructions": "Complete the sentences below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+              "max_words": 2,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 6,
+                  "prompt": "What will the students build to test their design?",
+                  "options": null,
+                  "answer": [
+                    "scale model",
+                    "a scale model"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Josh: 'we'll build a scale model, one twentieth of the real size'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "19",
+                    "quote": "we'll build a scale model, one twentieth of the real size"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "What material will they use for it?",
+                  "options": null,
+                  "answer": [
+                    "balsa wood",
+                    "balsa"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Cardboard and 3D-printed plastic are rejected; Josh says 'I'd say balsa wood' and Mei agrees.",
+                    "distractors": [
+                      {
+                        "option": "cardboard",
+                        "why_wrong": "Bends too easily and goes soft in damp conditions."
+                      },
+                      {
+                        "option": "plastic",
+                        "why_wrong": "The 3D printer queue is about three weeks long."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "21",
+                    "quote": "So I'd say balsa wood"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "How many kilograms of sandbags will they load onto it?",
+                  "options": null,
+                  "answer": [
+                    "25",
+                    "twenty-five",
+                    "twenty five",
+                    "25 kilograms"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The lab frame can only take twenty-five kilograms safely, 'so we'll load it with 25 kilograms of sandbags'.",
+                    "distractors": [
+                      {
+                        "option": "40",
+                        "why_wrong": "Mei's note says forty kilograms, but that was the first figure and it was changed."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "23",
+                    "quote": "So we'll load it with 25 kilograms of sandbags"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 9,
+                  "prompt": "Where will the test take place?",
+                  "options": null,
+                  "answer": [
+                    "structures laboratory",
+                    "the structures laboratory",
+                    "structures lab",
+                    "the structures lab"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Josh has 'booked the structures laboratory on the ground floor' for Thursday.",
+                    "distractors": [
+                      {
+                        "option": "workshop",
+                        "why_wrong": "Mei assumed the workshop, but it is too crowded."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "25",
+                    "quote": "We've booked the structures laboratory on the ground floor"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "Who will assess the students' presentation?",
+                  "options": null,
+                  "answer": [
+                    "visiting engineer",
+                    "a visiting engineer",
+                    "an engineer"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Dr Okafor is away, 'so instead it'll be assessed by a visiting engineer'.",
+                    "distractors": [
+                      {
+                        "option": "Dr Okafor",
+                        "why_wrong": "She was going to mark it but is at a conference that week."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "29",
+                    "quote": "it'll be assessed by a visiting engineer from a consultancy in town"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "short_answer",
+              "instructions": "Answer the questions below.\nWrite NO MORE THAN THREE WORDS AND/OR A NUMBER for each answer.",
+              "max_words": 3,
+              "allow_number": true,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

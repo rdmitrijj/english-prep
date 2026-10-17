@@ -1,0 +1,74 @@
+{
+  "slug": "practice-writing-t1-pie-02",
+  "kind": "practice",
+  "title": "Pie charts: how a town council spent its budget",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "government-law",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The pie charts below show how Elmsworth Town Council spent its budget in 2005 and 2025.",
+            "essay_type": null,
+            "visual": {
+              "type": "pie",
+              "charts": [
+                {
+                  "type": "pie",
+                  "title": "Elmsworth Town Council spending by service",
+                  "unit": "%",
+                  "categories": [
+                    "Social care",
+                    "Leisure",
+                    "Education",
+                    "Other",
+                    "Roads",
+                    "Waste"
+                  ],
+                  "series": [
+                    {
+                      "name": "2005",
+                      "values": [
+                        22.0,
+                        9.0,
+                        34.0,
+                        9.0,
+                        16.0,
+                        10.0
+                      ]
+                    },
+                    {
+                      "name": "2025",
+                      "values": [
+                        38.0,
+                        5.0,
+                        27.0,
+                        8.0,
+                        11.0,
+                        11.0
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "url": "/media/visuals/practice-writing-t1-pie-02-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

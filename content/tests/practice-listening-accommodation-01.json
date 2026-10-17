@@ -1,0 +1,801 @@
+{
+  "slug": "practice-listening-accommodation-01",
+  "kind": "practice",
+  "title": "Booking a Holiday Cottage",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T12:51:14+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "listening"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "listening",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "social_dialogue",
+          "topic": "accommodation",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "narrator",
+                "role": "Narrator",
+                "accent": "en-GB",
+                "gender": "male"
+              },
+              {
+                "id": "owner",
+                "role": "Cottage owner",
+                "accent": "en-AU",
+                "gender": "male"
+              },
+              {
+                "id": "woman",
+                "role": "Caller booking a holiday",
+                "accent": "en-US",
+                "gender": "female"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "narrator",
+                "text": "You will hear a woman phoning the owner of a holiday cottage to make a booking. First, you have some time to look at questions 1 to 5.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen carefully and answer questions 1 to 5.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "Hello, Greg Walsh speaking.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "woman",
+                "text": "Oh, hi. Is that the owner of Bramble Cottage? I found your listing online, and I'd like to ask about renting it this summer.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "Yes, that's me. Happy to help. Can I start by taking your name?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "woman",
+                "text": "Sure. It's Emily Danforth. That's D-A-N-F-O-R-T-H.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "Danforth, got it. And what dates were you thinking of?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "woman",
+                "text": "We were hoping for a week in July. I was originally going to ask for Saturday the 9th, but my kids don't finish school until the 14th, so it would have to be Saturday the 16th, for seven nights.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "Let me just check the calendar. The 16th... yes, you're in luck, that week's still free. How many of you will there be?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "woman",
+                "text": "Two adults and two children. They're nine and twelve. And I should ask, do you accept pets? We have a cat, but she's going to stay with our neighbour. It's really the dog I'm asking about.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "That's no problem at all. We take one dog per booking, as long as it stays off the beds and the sofas. The garden's fenced, so it can run around safely.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "woman",
+                "text": "Oh, that's great. The photos of the garden looked lovely. Is that a lake behind it?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "A lot of people think that. There is a lake, but it's about ten minutes' drive away. The garden actually backs onto the river, so you can sit outside and watch the ducks. It's quite shallow at the edges, but keep an eye on the children.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "woman",
+                "text": "Good to know. What about shopping? Is there anywhere close by for groceries?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "There's a small shop in the village that sells most things. The old listing said it was ten minutes away on foot, but they've since closed the footpath across the field, so it's 20 minutes now, walking along the lane. For a big shop, you'd need to drive into town.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen and answer questions 6 to 10.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "woman",
+                "text": "OK. So could you tell me the price for that week?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "Our high-season rate is 850 pounds a week. But the week starting the 16th is just before the main school holidays here, so it's charged at the mid-season rate, which is 720 pounds.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "woman",
+                "text": "That's better than I expected. Does that include cleaning?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "Yes, cleaning's included, and so are the bed linen and towels. The only extra is if you want the hot tub filled, which is 40 pounds, but most people don't bother with it in summer.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "woman",
+                "text": "And how do I pay the deposit? Can I do it by credit card?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "I'm afraid I can't take cards. I'm just not set up for it. And I'd rather not have cheques these days. So it has to be a bank transfer. I'll email you the details. The deposit's 200 pounds, and the rest is due four weeks before you arrive.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "woman",
+                "text": "That's fine. And how do we get the key? We probably won't get there until late afternoon.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "We used to have a key safe by the front door, but the lock kept jamming, so I took it away. My neighbour at the farm keeps a spare, but she's often out with the sheep. So the easiest thing is to pick it up from the pub in the village. It's called the Old Mill, and it's open until eleven.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "woman",
+                "text": "The pub, OK. And is there somewhere to park at the cottage? We'll be driving up from the airport.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "Yes, there's room for two cars on the drive at the side of the house. It's gravel, so it's fine even when it's been raining, and you won't need a permit or anything like that.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "woman",
+                "text": "Perfect. Is there anything we should bring with us? I want to keep the car as empty as possible.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "Well, as I said, towels are provided. There's a log basket by the stove, and you can help yourself to firewood from the shed, so there's no need to bring any. There are two adult bikes in the shed as well, but nothing for children, so if your kids like cycling, it's worth putting their bikes on the car. The lanes round here are lovely and quiet.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "woman",
+                "text": "Good idea. They'd love that. One last thing. I'll need to do a bit of work while I'm there. Is the internet OK?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "There's wi-fi in the cottage, and it works fine all over the house, upstairs and down. The mobile signal's the problem. Guests always assume it'll be better upstairs, but it isn't. The only place you'll get a decent signal is down at the bottom of the garden, by the gate.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "woman",
+                "text": "Well, at least the wi-fi works. Thanks so much, Greg. I'll look out for your email.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "owner",
+                "text": "No worries, Emily. Speak soon.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "That is the end of the recording. You now have half a minute to check your answers.",
+                "pause_after_s": 30.0
+              }
+            ]
+          },
+          "audio": {
+            "url": "/media/audio/practice-listening-accommodation-01-p1.mp3",
+            "duration_ms": 345818,
+            "segments": [
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 8362,
+                "text": "You will hear a woman phoning the owner of a holiday cottage to make a booking. First, you have some time to look at questions 1 to 5."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 38762,
+                "end_ms": 42304,
+                "text": "Now listen carefully and answer questions 1 to 5."
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 42704,
+                "end_ms": 44645,
+                "text": "Hello, Greg Walsh speaking."
+              },
+              {
+                "speaker": "woman",
+                "accent": "en-US",
+                "start_ms": 45045,
+                "end_ms": 52469,
+                "text": "Oh, hi. Is that the owner of Bramble Cottage? I found your listing online, and I'd like to ask about renting it this summer."
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 52869,
+                "end_ms": 56517,
+                "text": "Yes, that's me. Happy to help. Can I start by taking your name?"
+              },
+              {
+                "speaker": "woman",
+                "accent": "en-US",
+                "start_ms": 56917,
+                "end_ms": 60437,
+                "text": "Sure. It's Emily Danforth. That's D-A-N-F-O-R-T-H."
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 60837,
+                "end_ms": 63674,
+                "text": "Danforth, got it. And what dates were you thinking of?"
+              },
+              {
+                "speaker": "woman",
+                "accent": "en-US",
+                "start_ms": 64074,
+                "end_ms": 75936,
+                "text": "We were hoping for a week in July. I was originally going to ask for Saturday the 9th, but my kids don't finish school until the 14th, so it would have to be Saturday the 16th, for seven nights."
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 76336,
+                "end_ms": 82352,
+                "text": "Let me just check the calendar. The 16th... yes, you're in luck, that week's still free. How many of you will there be?"
+              },
+              {
+                "speaker": "woman",
+                "accent": "en-US",
+                "start_ms": 82752,
+                "end_ms": 93802,
+                "text": "Two adults and two children. They're nine and twelve. And I should ask, do you accept pets? We have a cat, but she's going to stay with our neighbour. It's really the dog I'm asking about."
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 94202,
+                "end_ms": 102565,
+                "text": "That's no problem at all. We take one dog per booking, as long as it stays off the beds and the sofas. The garden's fenced, so it can run around safely."
+              },
+              {
+                "speaker": "woman",
+                "accent": "en-US",
+                "start_ms": 102965,
+                "end_ms": 107872,
+                "text": "Oh, that's great. The photos of the garden looked lovely. Is that a lake behind it?"
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 108272,
+                "end_ms": 119941,
+                "text": "A lot of people think that. There is a lake, but it's about ten minutes' drive away. The garden actually backs onto the river, so you can sit outside and watch the ducks. It's quite shallow at the edges, but keep an eye on the children."
+              },
+              {
+                "speaker": "woman",
+                "accent": "en-US",
+                "start_ms": 120341,
+                "end_ms": 124757,
+                "text": "Good to know. What about shopping? Is there anywhere close by for groceries?"
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 125157,
+                "end_ms": 138448,
+                "text": "There's a small shop in the village that sells most things. The old listing said it was ten minutes away on foot, but they've since closed the footpath across the field, so it's 20 minutes now, walking along the lane. For a big shop, you'd need to drive into town."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 138848,
+                "end_ms": 144224,
+                "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 174624,
+                "end_ms": 177546,
+                "text": "Now listen and answer questions 6 to 10."
+              },
+              {
+                "speaker": "woman",
+                "accent": "en-US",
+                "start_ms": 177946,
+                "end_ms": 180677,
+                "text": "OK. So could you tell me the price for that week?"
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 181077,
+                "end_ms": 192768,
+                "text": "Our high-season rate is 850 pounds a week. But the week starting the 16th is just before the main school holidays here, so it's charged at the mid-season rate, which is 720 pounds."
+              },
+              {
+                "speaker": "woman",
+                "accent": "en-US",
+                "start_ms": 193168,
+                "end_ms": 196154,
+                "text": "That's better than I expected. Does that include cleaning?"
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 196554,
+                "end_ms": 206346,
+                "text": "Yes, cleaning's included, and so are the bed linen and towels. The only extra is if you want the hot tub filled, which is 40 pounds, but most people don't bother with it in summer."
+              },
+              {
+                "speaker": "woman",
+                "accent": "en-US",
+                "start_ms": 206746,
+                "end_ms": 210245,
+                "text": "And how do I pay the deposit? Can I do it by credit card?"
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 210645,
+                "end_ms": 223338,
+                "text": "I'm afraid I can't take cards. I'm just not set up for it. And I'd rather not have cheques these days. So it has to be a bank transfer. I'll email you the details. The deposit's 200 pounds, and the rest is due four weeks before you arrive."
+              },
+              {
+                "speaker": "woman",
+                "accent": "en-US",
+                "start_ms": 223738,
+                "end_ms": 228901,
+                "text": "That's fine. And how do we get the key? We probably won't get there until late afternoon."
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 229301,
+                "end_ms": 243168,
+                "text": "We used to have a key safe by the front door, but the lock kept jamming, so I took it away. My neighbour at the farm keeps a spare, but she's often out with the sheep. So the easiest thing is to pick it up from the pub in the village. It's called the Old Mill, and it's open until eleven."
+              },
+              {
+                "speaker": "woman",
+                "accent": "en-US",
+                "start_ms": 243568,
+                "end_ms": 249093,
+                "text": "The pub, OK. And is there somewhere to park at the cottage? We'll be driving up from the airport."
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 249493,
+                "end_ms": 258325,
+                "text": "Yes, there's room for two cars on the drive at the side of the house. It's gravel, so it's fine even when it's been raining, and you won't need a permit or anything like that."
+              },
+              {
+                "speaker": "woman",
+                "accent": "en-US",
+                "start_ms": 258725,
+                "end_ms": 264336,
+                "text": "Perfect. Is there anything we should bring with us? I want to keep the car as empty as possible."
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 264736,
+                "end_ms": 281098,
+                "text": "Well, as I said, towels are provided. There's a log basket by the stove, and you can help yourself to firewood from the shed, so there's no need to bring any. There are two adult bikes in the shed as well, but nothing for children, so if your kids like cycling, it's worth putting their bikes on the car. The lanes round here are lovely and quiet."
+              },
+              {
+                "speaker": "woman",
+                "accent": "en-US",
+                "start_ms": 281498,
+                "end_ms": 288154,
+                "text": "Good idea. They'd love that. One last thing. I'll need to do a bit of work while I'm there. Is the internet OK?"
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 288554,
+                "end_ms": 302656,
+                "text": "There's wi-fi in the cottage, and it works fine all over the house, upstairs and down. The mobile signal's the problem. Guests always assume it'll be better upstairs, but it isn't. The only place you'll get a decent signal is down at the bottom of the garden, by the gate."
+              },
+              {
+                "speaker": "woman",
+                "accent": "en-US",
+                "start_ms": 303056,
+                "end_ms": 307856,
+                "text": "Well, at least the wi-fi works. Thanks so much, Greg. I'll look out for your email."
+              },
+              {
+                "speaker": "owner",
+                "accent": "en-AU",
+                "start_ms": 308256,
+                "end_ms": 310389,
+                "text": "No worries, Emily. Speak soon."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 310789,
+                "end_ms": 315418,
+                "text": "That is the end of the recording. You now have half a minute to check your answers."
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "narrator": "bm_lewis",
+              "owner": "bm_daniel",
+              "woman": "af_bella"
+            }
+          },
+          "writing": null,
+          "groups": [
+            {
+              "options": null,
+              "layout": {
+                "title": "Bramble Cottage: booking details",
+                "template": "Name: Emily {1}\nArrival: Saturday {2} July (7 nights)\nGroup: 2 adults, 2 children\nPets: one {3} allowed\nGarden: backs onto the {4}\nVillage shop: {5} minutes on foot\nPrice for the week: £{6}\nDeposit: £200, to be paid by bank {7}\nKey: collect from the {8} in the village",
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "Surname",
+                  "options": null,
+                  "answer": [
+                    "Danforth"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The caller gives her surname and spells it: D-A-N-F-O-R-T-H.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "5",
+                    "quote": "It's Emily Danforth. That's D-A-N-F-O-R-T-H"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "Arrival date",
+                  "options": null,
+                  "answer": [
+                    "16th",
+                    "16",
+                    "sixteenth",
+                    "sixteen"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "She first thinks of the 9th, but school finishes on the 14th, 'so it would have to be Saturday the 16th'.",
+                    "distractors": [
+                      {
+                        "option": "9th",
+                        "why_wrong": "This was her original idea, rejected because school has not finished."
+                      },
+                      {
+                        "option": "14th",
+                        "why_wrong": "This is the day her children finish school."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "7",
+                    "quote": "so it would have to be Saturday the 16th"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "Pet allowed",
+                  "options": null,
+                  "answer": [
+                    "dog"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "She asks about the dog, and the owner says 'We take one dog per booking'.",
+                    "distractors": [
+                      {
+                        "option": "cat",
+                        "why_wrong": "The cat is staying with the neighbour, so it is not coming."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "10",
+                    "quote": "We take one dog per booking"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "What the garden backs onto",
+                  "options": null,
+                  "answer": [
+                    "river"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The owner corrects a common mistake: 'The garden actually backs onto the river'.",
+                    "distractors": [
+                      {
+                        "option": "lake",
+                        "why_wrong": "The lake is about ten minutes' drive away, not behind the garden."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "12",
+                    "quote": "The garden actually backs onto the river"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "Walking time to the shop",
+                  "options": null,
+                  "answer": [
+                    "20",
+                    "twenty"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The footpath closed, 'so it's 20 minutes now, walking along the lane'.",
+                    "distractors": [
+                      {
+                        "option": "10",
+                        "why_wrong": "The old listing said ten minutes, but that was before the footpath closed."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "14",
+                    "quote": "so it's 20 minutes now, walking along the lane"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 6,
+                  "prompt": "Price for the week",
+                  "options": null,
+                  "answer": [
+                    "720",
+                    "seven hundred and twenty",
+                    "seven hundred twenty"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The week is charged at the mid-season rate, 'which is 720 pounds'.",
+                    "distractors": [
+                      {
+                        "option": "850",
+                        "why_wrong": "This is the high-season rate, which does not apply to her week."
+                      },
+                      {
+                        "option": "40",
+                        "why_wrong": "This is the extra charge for the hot tub."
+                      },
+                      {
+                        "option": "200",
+                        "why_wrong": "This is the deposit, not the weekly price."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "18",
+                    "quote": "which is 720 pounds"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "Method of paying the deposit",
+                  "options": null,
+                  "answer": [
+                    "transfer"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Cards and cheques are ruled out: 'So it has to be a bank transfer'.",
+                    "distractors": [
+                      {
+                        "option": "card",
+                        "why_wrong": "The owner says he can't take cards."
+                      },
+                      {
+                        "option": "cheque",
+                        "why_wrong": "He would rather not have cheques."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "22",
+                    "quote": "So it has to be a bank transfer"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "Where to collect the key",
+                  "options": null,
+                  "answer": [
+                    "pub"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The easiest thing is to 'pick it up from the pub in the village'; 'pick up' is paraphrased as 'collect'.",
+                    "distractors": [
+                      {
+                        "option": "farm",
+                        "why_wrong": "The neighbour at the farm has a spare, but she is often out, so this is not the arrangement."
+                      },
+                      {
+                        "option": "safe",
+                        "why_wrong": "The key safe was removed because the lock kept jamming."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "24",
+                    "quote": "pick it up from the pub in the village"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "form_completion",
+              "instructions": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+              "max_words": 1,
+              "allow_number": true,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 9,
+                  "prompt": "What does the owner suggest the family should bring?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "towels"
+                    },
+                    {
+                      "letter": "B",
+                      "text": "firewood"
+                    },
+                    {
+                      "letter": "C",
+                      "text": "the children's bicycles"
+                    }
+                  ],
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "The shed only has adult bikes, so 'it's worth putting their bikes on the car', meaning the children's bikes.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Towels are provided at the cottage."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Guests can help themselves to firewood from the shed."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "28",
+                    "quote": "it's worth putting their bikes on the car"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "What does the owner say about phones and the internet?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "The wi-fi only works upstairs."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "The mobile signal is best in the garden."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "There is no wi-fi in the cottage."
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'The only place you'll get a decent signal is down at the bottom of the garden', so the signal is best in the garden.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The wi-fi works 'all over the house, upstairs and down'."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "There is wi-fi in the cottage."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "30",
+                    "quote": "The only place you'll get a decent signal is down at the bottom of the garden"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose the correct letter, A, B or C.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

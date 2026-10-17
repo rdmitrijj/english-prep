@@ -1,0 +1,108 @@
+{
+ "answers": [
+  {
+   "number": 1,
+   "answer": [
+    "v"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 2,
+   "answer": [
+    "vii"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 3,
+   "answer": [
+    "viii"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 4,
+   "answer": [
+    "ii"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 5,
+   "answer": [
+    "iii"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 6,
+   "answer": [
+    "property speculators"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 7,
+   "answer": [
+    "gas lighting"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 8,
+   "answer": [
+    "uniformed beadles"
+   ],
+   "confidence": 0.85,
+   "note": "'beadles' alone also fits"
+  },
+  {
+   "number": 9,
+   "answer": [
+    "enclosed shopping malls"
+   ],
+   "confidence": 0.8,
+   "note": "'shopping malls' may also be accepted"
+  },
+  {
+   "number": 10,
+   "answer": [
+    "FALSE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 11,
+   "answer": [
+    "NOT GIVEN"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 12,
+   "answer": [
+    "TRUE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 13,
+   "answer": [
+    "FALSE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  }
+ ]
+}

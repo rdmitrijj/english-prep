@@ -1,0 +1,108 @@
+{
+ "answers": [
+  {
+   "number": 1,
+   "answer": [
+    "FALSE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 2,
+   "answer": [
+    "TRUE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 3,
+   "answer": [
+    "TRUE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 4,
+   "answer": [
+    "NOT GIVEN"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 5,
+   "answer": [
+    "FALSE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 6,
+   "answer": [
+    "E"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 7,
+   "answer": [
+    "D"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 8,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 9,
+   "answer": [
+    "A"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 10,
+   "answer": [
+    "spokes"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 11,
+   "answer": [
+    "open water"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 12,
+   "answer": [
+    "fronds"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 13,
+   "answer": [
+    "outline"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  }
+ ]
+}

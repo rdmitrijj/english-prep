@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-problem-02",
+  "kind": "practice",
+  "title": "Problem and solution: services that are only online",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "technology",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Banks, doctors' surgeries and other services increasingly expect people to use websites and apps, and many older people find this difficult.\n\nWhat problems does this cause? What can be done to solve them?",
+            "essay_type": "problem_solution",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

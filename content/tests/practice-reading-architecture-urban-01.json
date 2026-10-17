@@ -1,0 +1,466 @@
+{
+  "slug": "practice-reading-architecture-urban-01",
+  "kind": "practice",
+  "title": "Under Glass",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T13:04:01+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "reading"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "reading",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_reading",
+          "topic": "architecture-urban",
+          "passage": {
+            "title": "Under Glass",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "Visitors to Paris, London or Milan often find themselves, almost by accident, in a narrow covered street lined with small shops. Light falls through a glass roof, the floor is paved with marble or tiles, and the noise of traffic seems suddenly far away. Most visitors pass through in a minute or two without wondering why such places were built at all. Today these arcades feel charming and slightly old-fashioned, home to antique dealers, stamp sellers and expensive cafés. Two hundred years ago, however, they were the most modern places to shop in Europe. Their story, from rapid rise to long decline, says a good deal about how cities and shopping changed during the nineteenth century."
+              },
+              {
+                "label": "B",
+                "text": "The arcade began as a practical answer to an unpleasant problem. Walking in Paris at the start of the nineteenth century was dirty and dangerous. Most streets had no pavements, so pedestrians shared narrow lanes with carts and carriages, and an open drain often ran down the middle. An arcade offered a dry, clean and safe short cut between two busy streets, where shoppers could look at goods without being splashed with mud. Most were built by property speculators, who bought a block of houses, cut a passage through the middle and rented out the shops on either side. One of the best known, the Passage des Panoramas, opened in 1800 and took its name from two circular buildings beside its entrance in which huge painted views of cities were displayed."
+              },
+              {
+                "label": "C",
+                "text": "What made the arcades possible was new building technology. Iron, now produced in growing quantities, could support roofs made of many panes of glass, which let daylight fall onto the shop windows below, so that goods could be examined as easily as in the open street. The roofs had to be steep enough for rain to run off, and their frames were often decorated with elaborate ironwork. After dark, the arcades were transformed again. In 1817 the Passage des Panoramas installed gas lighting, becoming one of the first public places in Paris to be lit in this way. Shoppers who had once gone home at nightfall could now stroll and browse well into the evening."
+              },
+              {
+                "label": "D",
+                "text": "The idea soon travelled. London's Burlington Arcade, opened in 1819, was built for Lord George Cavendish beside his house in Piccadilly; according to a popular story, one of its purposes was to stop passers-by throwing rubbish over his garden wall. It is still patrolled by uniformed beadles, who enforce rules against running, whistling and opening umbrellas. Arcades also appeared in Brussels, Moscow and many British and American cities. The most ambitious of all was the Galleria Vittorio Emanuele II in Milan, completed in 1877, whose four glass-roofed arms meet beneath a huge central dome. Its architect, Giuseppe Mengoni, fell from the scaffolding and died just before it was officially opened."
+              },
+              {
+                "label": "E",
+                "text": "Arcades were never only about buying things. They held cafés, reading rooms, small theatres and shops selling luxuries such as gloves, perfume and prints, and for many visitors the main attraction was simply to walk slowly and watch other people. Fashionable men and women went there to be seen in their best clothes. Upper floors were often let as apartments or workshops, so an arcade was a place where people lived and worked as well as shopped. Not everyone approved. Moralists complained that the arcades encouraged idleness and extravagance, and the police kept a close eye on them, suspecting that the crowds attracted pickpockets and gamblers."
+              },
+              {
+                "label": "F",
+                "text": "By the 1870s the arcade was clearly losing its appeal, at least in Paris, and historians still disagree about why. The historian Claire Dubreuil points to the rebuilding of the city under Baron Haussmann from the 1850s, which created wide boulevards with broad pavements, so that pedestrians no longer needed shelter. Others, including Martin Hale, argue that the real competitor was the department store, which offered a far larger range of goods under one roof at fixed, clearly marked prices. A third explanation is less dramatic: many arcades were simply demolished because the land beneath them had become more valuable for other kinds of building."
+              },
+              {
+                "label": "G",
+                "text": "Yet the arcade did not disappear. Dozens survive in Paris, and many in Britain have been carefully restored and protected. In cities such as Leeds, whose Victorian arcades now form part of a busy shopping district, they remain commercially successful rather than simply preserved as curiosities. Their influence also travelled far beyond the nineteenth century. When the first enclosed shopping malls were designed in North America in the twentieth century, their architects borrowed the arcade's basic arrangement of a covered, traffic-free walkway lined with shops on both sides. In this sense, the arcade is less a relic of the past than the ancestor of the way many of us shop today."
+              }
+            ],
+            "glossary": []
+          },
+          "script": null,
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": [
+                {
+                  "letter": "i",
+                  "text": "The profits made by developers"
+                },
+                {
+                  "letter": "ii",
+                  "text": "Places for seeing and being seen"
+                },
+                {
+                  "letter": "iii",
+                  "text": "Disagreement over why arcades lost their appeal"
+                },
+                {
+                  "letter": "iv",
+                  "text": "A fatal accident during construction"
+                },
+                {
+                  "letter": "v",
+                  "text": "Shelter from the dirt and dangers of the street"
+                },
+                {
+                  "letter": "vi",
+                  "text": "How arcades shaped later forms of shopping"
+                },
+                {
+                  "letter": "vii",
+                  "text": "Building methods that brought light indoors"
+                },
+                {
+                  "letter": "viii",
+                  "text": "A French idea taken abroad and enlarged"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "Paragraph B",
+                  "options": null,
+                  "answer": [
+                    "v"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Paragraph B explains that arcades were a response to dirty, dangerous Paris streets with no pavements, offering 'a dry, clean and safe short cut'.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "Speculators renting out shops is a supporting detail, not the main idea."
+                      },
+                      {
+                        "option": "iii",
+                        "why_wrong": "B is about why arcades began, not why they declined."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "The arcade began as a practical answer to an unpleasant problem."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "Paragraph C",
+                  "options": null,
+                  "answer": [
+                    "vii"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Paragraph C is about iron and glass roofs that let in daylight, and gas lighting after dark.",
+                    "distractors": [
+                      {
+                        "option": "v",
+                        "why_wrong": "Shelter from the street is the subject of paragraph B."
+                      },
+                      {
+                        "option": "vi",
+                        "why_wrong": "C is about how arcades were built, not their later influence."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "What made the arcades possible was new building technology."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "Paragraph D",
+                  "options": null,
+                  "answer": [
+                    "viii"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Paragraph D describes the arcade spreading from Paris to London, Brussels, Moscow and elsewhere, ending with the 'most ambitious of all' in Milan.",
+                    "distractors": [
+                      {
+                        "option": "iv",
+                        "why_wrong": "Mengoni's death is a single detail at the end of the paragraph, and it happened just before the opening."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "Social life in arcades is the subject of paragraph E."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "The idea soon travelled."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "Paragraph E",
+                  "options": null,
+                  "answer": [
+                    "ii"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Paragraph E stresses walking slowly, watching other people and going there 'to be seen in their best clothes'.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "E does not discuss developers' profits."
+                      },
+                      {
+                        "option": "iii",
+                        "why_wrong": "The moralists' complaints are about behaviour, not about the decline of arcades."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "Fashionable men and women went there to be seen in their best clothes."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "Paragraph F",
+                  "options": null,
+                  "answer": [
+                    "iii"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Paragraph F says 'historians still disagree about why' arcades declined and sets out three explanations.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "Rising land values are only one of three explanations, not the main idea."
+                      },
+                      {
+                        "option": "vi",
+                        "why_wrong": "F is about the decline, not later influence."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "historians still disagree about why"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_headings",
+              "instructions": "Reading Passage 1 has 7 paragraphs, A–G.\nChoose the correct heading for each paragraph from the list of headings below.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 6,
+                  "prompt": "Most early arcades were built by ______, who earned money by renting out the shops.",
+                  "options": null,
+                  "answer": [
+                    "property speculators"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Most were built by property speculators, who ... rented out the shops on either side'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "Most were built by property speculators"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "In 1817 the Passage des Panoramas became one of the first public places in Paris to have ______.",
+                  "options": null,
+                  "answer": [
+                    "gas lighting"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "'In 1817 the Passage des Panoramas installed gas lighting, becoming one of the first public places in Paris to be lit in this way'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "In 1817 the Passage des Panoramas installed gas lighting"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "In the Burlington Arcade, rules of behaviour are still enforced by ______.",
+                  "options": null,
+                  "answer": [
+                    "uniformed beadles",
+                    "beadles"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'It is still patrolled by uniformed beadles, who enforce rules against running, whistling and opening umbrellas'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "It is still patrolled by uniformed beadles, who enforce rules"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 9,
+                  "prompt": "The designers of the first ______ in North America copied the arcade's basic layout.",
+                  "options": null,
+                  "answer": [
+                    "enclosed shopping malls",
+                    "shopping malls"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'When the first enclosed shopping malls were designed in North America ... their architects borrowed the arcade's basic arrangement'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "When the first enclosed shopping malls were designed in North America in the twentieth century"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "sentence_completion",
+              "instructions": "Complete the sentences below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 3,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 10,
+                  "prompt": "At the start of the nineteenth century, most streets in Paris had raised pavements for pedestrians.",
+                  "options": null,
+                  "answer": [
+                    "FALSE"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The passage says 'Most streets had no pavements', which directly contradicts the statement.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "The passage states the opposite."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "Paragraph B gives this information directly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "Most streets had no pavements"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 11,
+                  "prompt": "The Burlington Arcade earned more money than the arcades of Paris.",
+                  "options": null,
+                  "answer": [
+                    "NOT GIVEN"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Paragraph D describes who the arcade was built for and how it is run today, but says nothing about its income compared with Parisian arcades.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "No comparison of earnings is made."
+                      },
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "Nothing suggests it earned less either."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "London's Burlington Arcade, opened in 1819, was built for Lord George Cavendish beside his house in Piccadilly"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 12,
+                  "prompt": "Arcades were criticised for encouraging people to be lazy and to spend too much.",
+                  "options": null,
+                  "answer": [
+                    "TRUE"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'Moralists complained that the arcades encouraged idleness and extravagance'; 'lazy' paraphrases 'idleness' and 'spend too much' paraphrases 'extravagance'.",
+                    "distractors": [
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "The passage confirms this criticism."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "Paragraph E states it directly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "Moralists complained that the arcades encouraged idleness and extravagance"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 13,
+                  "prompt": "Historians agree that Haussmann's new boulevards were the main reason for the arcades' decline.",
+                  "options": null,
+                  "answer": [
+                    "FALSE"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The passage says 'historians still disagree about why' and gives two other explanations besides the boulevards.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "Dubreuil holds this view, but others disagree."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The passage states directly that historians disagree."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "historians still disagree about why"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "tfng",
+              "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nChoose\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

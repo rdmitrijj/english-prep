@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-advantages-05",
+  "kind": "practice",
+  "title": "Advantages: museum collections online",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "media-culture",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "More and more museums and galleries are putting photographs of their entire collections online, so that anyone can view them free of charge from home.\n\nDo the advantages of this development outweigh the disadvantages?",
+            "essay_type": "advantages_disadvantages",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

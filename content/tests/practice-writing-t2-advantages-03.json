@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-advantages-03",
+  "kind": "practice",
+  "title": "Advantages: electricity prices that change during the day",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "energy-resources",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "In some countries, the price of electricity for homes changes throughout the day, so that it is cheaper at night and more expensive when demand is highest.\n\nDo the advantages of this system outweigh the disadvantages?",
+            "essay_type": "advantages_disadvantages",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-two-part-02",
+  "kind": "practice",
+  "title": "Two-part: young city dwellers who do not drive",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "cities-transport",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "In many large cities, fewer young people are learning to drive than in the past.\n\nWhy do you think this is? Is it a positive or negative development?",
+            "essay_type": "two_part",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

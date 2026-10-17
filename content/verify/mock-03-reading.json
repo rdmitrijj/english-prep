@@ -1,0 +1,324 @@
+{
+ "answers": [
+  {
+   "number": 1,
+   "answer": [
+    "FALSE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 2,
+   "answer": [
+    "NOT GIVEN"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 3,
+   "answer": [
+    "FALSE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 4,
+   "answer": [
+    "TRUE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 5,
+   "answer": [
+    "TRUE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 6,
+   "answer": [
+    "NOT GIVEN"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 7,
+   "answer": [
+    "FALSE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 8,
+   "answer": [
+    "light curve"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 9,
+   "answer": [
+    "intervals"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 10,
+   "answer": [
+    "orbital period"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 11,
+   "answer": [
+    "eclipsing binary"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 12,
+   "answer": [
+    "spectrograph"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 13,
+   "answer": [
+    "density"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 14,
+   "answer": [
+    "C"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 15,
+   "answer": [
+    "D"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 16,
+   "answer": [
+    "A"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 17,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 18,
+   "answer": [
+    "G"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 19,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 20,
+   "answer": [
+    "C"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 21,
+   "answer": [
+    "A"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 22,
+   "answer": [
+    "D"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 23,
+   "answer": [
+    "mill"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 24,
+   "answer": [
+    "name"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 25,
+   "answer": [
+    "twenties"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 26,
+   "answer": [
+    "income"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 27,
+   "answer": [
+    "iv"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 28,
+   "answer": [
+    "vii"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 29,
+   "answer": [
+    "ii"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 30,
+   "answer": [
+    "vi"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 31,
+   "answer": [
+    "viii"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 32,
+   "answer": [
+    "iii"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 33,
+   "answer": [
+    "NOT GIVEN"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 34,
+   "answer": [
+    "YES"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 35,
+   "answer": [
+    "NO"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 36,
+   "answer": [
+    "YES"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 37,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 38,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 39,
+   "answer": [
+    "C"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 40,
+   "answer": [
+    "C"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  }
+ ]
+}

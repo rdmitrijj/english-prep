@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-discussion-04",
+  "kind": "practice",
+  "title": "Discussion: classes grouped by ability",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "education",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Some people think that school students should be placed in classes according to their ability in each subject. Others believe that students of all abilities should be taught together in the same class.\n\nDiscuss both views and give your own opinion.",
+            "essay_type": "discussion",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,967 @@
+{
+  "slug": "practice-listening-study-courses-01",
+  "kind": "practice",
+  "title": "Reviewing a Fieldwork Report",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T12:51:15+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "listening"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "listening",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_discussion",
+          "topic": "study-courses",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "narrator",
+                "role": "Narrator",
+                "accent": "en-GB",
+                "gender": "male"
+              },
+              {
+                "id": "tutor",
+                "role": "Geography tutor",
+                "accent": "en-GB",
+                "gender": "female"
+              },
+              {
+                "id": "callum",
+                "role": "Student",
+                "accent": "en-NZ",
+                "gender": "male"
+              },
+              {
+                "id": "priya",
+                "role": "Student",
+                "accent": "en-CA",
+                "gender": "female"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "narrator",
+                "text": "You will hear two geography students, Callum and Priya, talking to their tutor about a fieldwork report. First, you have some time to look at questions 1 to 3.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen carefully and answer questions 1 to 3.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Come in, both of you. So, I've read the draft of your river report. Before we get into my notes, remind me why you chose Holme Beck. It isn't the obvious place.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "No, people assume it's because it's near campus, but it's actually over an hour away by minibus.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "priya",
+                "text": "The main reason was that a group from three years ago did exactly the same measurements there. Their data's in the department archive, so we could compare our results with theirs.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "That's a good reason, and you should say so more clearly in the report. Was access straightforward?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Not at all. The farmer who owns the land took nearly three weeks to answer our letter. We'd almost given up.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Now, the introduction. I know you were worried about the length, but it's well under the word limit, so that isn't a problem. And the references are fine; you've used a good range.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "priya",
+                "text": "So what's wrong with it?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "I read it twice and I still couldn't work out what you actually expected to find. There's no single sentence that says, for example, we predicted that the channel would get wider and the pebbles smaller as we moved downstream. That's your hypothesis, and it needs to be there in plain words.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Fair enough. That's easy to fix.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Good. Then there are the velocity measurements. I noticed you used floats rather than the flow meter.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "priya",
+                "text": "Yes, we'd booked the department's flow meter, but when we went to collect it, it had already been lent to another group. So we timed oranges floating along a ten-metre stretch instead.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Oranges are perfectly respectable. Did they cause you any trouble?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "No, they worked really well, actually. The real problem was the weather. It poured with rain on the second night, and by the morning the river was about thirty centimetres higher. So the lower sites were measured in completely different conditions.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Ah, that explains the odd jump in your figures. And you still managed to visit all eight sites?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "priya",
+                "text": "Yes, just about. We finished with an hour to spare.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Before you hear the rest of the conversation, you have some time to look at questions 4 to 10.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen and answer questions 4 to 10.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Right, let's go through the report section by section. First, the site description.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "priya",
+                "text": "We were thinking of adding some photographs to that part. We took loads.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Photos are nice, but they won't tell the reader where anything is, so I wouldn't bother adding more. What's really missing is a map showing the eight sampling points along the river.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "OK, I can draw one up from our survey sheets.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Next, there's a whole page listing your equipment: tape measures, poles, even your boots. My first thought was that it could go in an appendix, but to be honest, it adds nothing. The equipment is obvious from the method. Just take it out.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "priya",
+                "text": "And the data tables? They take up about six pages in the middle.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "That's the problem: they break up your argument. Keep every one of them, because the examiners like to see the raw numbers, but put them at the back in an appendix and refer to them in the text.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "What about the sediment section? I wondered whether we should merge it with the velocity section, since they're both about how the river changes downstream.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "No, I'd keep those two apart; they answer different questions. My worry with the sediment section is that you give the results without saying how you got them. How did you choose which pebbles to measure? Someone else should be able to repeat what you did, so the method needs a lot more detail.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "priya",
+                "text": "And the risk assessment? Can we drop that?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "No, that has to stay, because it's a requirement for all fieldwork reports. But it's three pages long at the moment. A short paragraph on the main hazards would be plenty, so cut it right down.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "This is a lot to do. The deadline's a week on Friday. Should we go back to Holme Beck and do the velocity readings again in dry weather?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "I wouldn't. You won't get the minibus at such short notice, and the rain is part of the story anyway. What you should do instead is write a proper section on the limitations of your study: the rain, the floats, the small number of sites. Examiners respect honesty about what went wrong.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "priya",
+                "text": "OK, we'll definitely add that. I was also going to ask the lab technician to check our sediment weights again.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "There's no need. Sam already went through them with us last week.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "priya",
+                "text": "Oh, of course. Fine.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "One more thing: your graphs. The width graph and the depth graph use different scales along the bottom, so they look as if they disagree when they don't.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "priya",
+                "text": "That was my fault. I'll redo all of them with the same scale, starting from the source of the river.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "And should we get another group to read the report before we hand it in?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "You could, but everyone's busy with their own reports now. I'd rather you read it aloud to each other. You'll catch most of the mistakes that way.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Right. Thanks, that's really helpful.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "That is the end of the recording. You now have half a minute to check your answers.",
+                "pause_after_s": 30.0
+              }
+            ]
+          },
+          "audio": {
+            "url": "/media/audio/practice-listening-study-courses-01-p1.mp3",
+            "duration_ms": 386037,
+            "segments": [
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 10410,
+                "text": "You will hear two geography students, Callum and Priya, talking to their tutor about a fieldwork report. First, you have some time to look at questions 1 to 3."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 40810,
+                "end_ms": 44629,
+                "text": "Now listen carefully and answer questions 1 to 3."
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 45029,
+                "end_ms": 53968,
+                "text": "Come in, both of you. So, I've read the draft of your river report. Before we get into my notes, remind me why you chose Holme Beck. It isn't the obvious place."
+              },
+              {
+                "speaker": "callum",
+                "accent": "en-NZ",
+                "start_ms": 54368,
+                "end_ms": 60106,
+                "text": "No, people assume it's because it's near campus, but it's actually over an hour away by minibus."
+              },
+              {
+                "speaker": "priya",
+                "accent": "en-CA",
+                "start_ms": 60506,
+                "end_ms": 70490,
+                "text": "The main reason was that a group from three years ago did exactly the same measurements there. Their data's in the department archive, so we could compare our results with theirs."
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 70890,
+                "end_ms": 76010,
+                "text": "That's a good reason, and you should say so more clearly in the report. Was access straightforward?"
+              },
+              {
+                "speaker": "callum",
+                "accent": "en-NZ",
+                "start_ms": 76410,
+                "end_ms": 83152,
+                "text": "Not at all. The farmer who owns the land took nearly three weeks to answer our letter. We'd almost given up."
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 83552,
+                "end_ms": 92448,
+                "text": "Now, the introduction. I know you were worried about the length, but it's well under the word limit, so that isn't a problem. And the references are fine; you've used a good range."
+              },
+              {
+                "speaker": "priya",
+                "accent": "en-CA",
+                "start_ms": 92848,
+                "end_ms": 94085,
+                "text": "So what's wrong with it?"
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 94485,
+                "end_ms": 109930,
+                "text": "I read it twice and I still couldn't work out what you actually expected to find. There's no single sentence that says, for example, we predicted that the channel would get wider and the pebbles smaller as we moved downstream. That's your hypothesis, and it needs to be there in plain words."
+              },
+              {
+                "speaker": "callum",
+                "accent": "en-NZ",
+                "start_ms": 110330,
+                "end_ms": 112528,
+                "text": "Fair enough. That's easy to fix."
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 112928,
+                "end_ms": 118069,
+                "text": "Good. Then there are the velocity measurements. I noticed you used floats rather than the flow meter."
+              },
+              {
+                "speaker": "priya",
+                "accent": "en-CA",
+                "start_ms": 118469,
+                "end_ms": 128922,
+                "text": "Yes, we'd booked the department's flow meter, but when we went to collect it, it had already been lent to another group. So we timed oranges floating along a ten-metre stretch instead."
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 129322,
+                "end_ms": 133269,
+                "text": "Oranges are perfectly respectable. Did they cause you any trouble?"
+              },
+              {
+                "speaker": "callum",
+                "accent": "en-NZ",
+                "start_ms": 133669,
+                "end_ms": 148368,
+                "text": "No, they worked really well, actually. The real problem was the weather. It poured with rain on the second night, and by the morning the river was about thirty centimetres higher. So the lower sites were measured in completely different conditions."
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 148768,
+                "end_ms": 153888,
+                "text": "Ah, that explains the odd jump in your figures. And you still managed to visit all eight sites?"
+              },
+              {
+                "speaker": "priya",
+                "accent": "en-CA",
+                "start_ms": 154288,
+                "end_ms": 157210,
+                "text": "Yes, just about. We finished with an hour to spare."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 157610,
+                "end_ms": 163285,
+                "text": "Before you hear the rest of the conversation, you have some time to look at questions 4 to 10."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 193685,
+                "end_ms": 196970,
+                "text": "Now listen and answer questions 4 to 10."
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 197370,
+                "end_ms": 201978,
+                "text": "Right, let's go through the report section by section. First, the site description."
+              },
+              {
+                "speaker": "priya",
+                "accent": "en-CA",
+                "start_ms": 202378,
+                "end_ms": 206112,
+                "text": "We were thinking of adding some photographs to that part. We took loads."
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 206512,
+                "end_ms": 215834,
+                "text": "Photos are nice, but they won't tell the reader where anything is, so I wouldn't bother adding more. What's really missing is a map showing the eight sampling points along the river."
+              },
+              {
+                "speaker": "callum",
+                "accent": "en-NZ",
+                "start_ms": 216234,
+                "end_ms": 218986,
+                "text": "OK, I can draw one up from our survey sheets."
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 219386,
+                "end_ms": 232037,
+                "text": "Next, there's a whole page listing your equipment: tape measures, poles, even your boots. My first thought was that it could go in an appendix, but to be honest, it adds nothing. The equipment is obvious from the method. Just take it out."
+              },
+              {
+                "speaker": "priya",
+                "accent": "en-CA",
+                "start_ms": 232437,
+                "end_ms": 236042,
+                "text": "And the data tables? They take up about six pages in the middle."
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 236442,
+                "end_ms": 246106,
+                "text": "That's the problem: they break up your argument. Keep every one of them, because the examiners like to see the raw numbers, but put them at the back in an appendix and refer to them in the text."
+              },
+              {
+                "speaker": "callum",
+                "accent": "en-NZ",
+                "start_ms": 246506,
+                "end_ms": 255082,
+                "text": "What about the sediment section? I wondered whether we should merge it with the velocity section, since they're both about how the river changes downstream."
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 255482,
+                "end_ms": 270885,
+                "text": "No, I'd keep those two apart; they answer different questions. My worry with the sediment section is that you give the results without saying how you got them. How did you choose which pebbles to measure? Someone else should be able to repeat what you did, so the method needs a lot more detail."
+              },
+              {
+                "speaker": "priya",
+                "accent": "en-CA",
+                "start_ms": 271285,
+                "end_ms": 273504,
+                "text": "And the risk assessment? Can we drop that?"
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 273904,
+                "end_ms": 284528,
+                "text": "No, that has to stay, because it's a requirement for all fieldwork reports. But it's three pages long at the moment. A short paragraph on the main hazards would be plenty, so cut it right down."
+              },
+              {
+                "speaker": "callum",
+                "accent": "en-NZ",
+                "start_ms": 284928,
+                "end_ms": 293248,
+                "text": "This is a lot to do. The deadline's a week on Friday. Should we go back to Holme Beck and do the velocity readings again in dry weather?"
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 293648,
+                "end_ms": 309029,
+                "text": "I wouldn't. You won't get the minibus at such short notice, and the rain is part of the story anyway. What you should do instead is write a proper section on the limitations of your study: the rain, the floats, the small number of sites. Examiners respect honesty about what went wrong."
+              },
+              {
+                "speaker": "priya",
+                "accent": "en-CA",
+                "start_ms": 309429,
+                "end_ms": 315658,
+                "text": "OK, we'll definitely add that. I was also going to ask the lab technician to check our sediment weights again."
+              },
+              {
+                "speaker": "callum",
+                "accent": "en-NZ",
+                "start_ms": 316058,
+                "end_ms": 319856,
+                "text": "There's no need. Sam already went through them with us last week."
+              },
+              {
+                "speaker": "priya",
+                "accent": "en-CA",
+                "start_ms": 320256,
+                "end_ms": 321770,
+                "text": "Oh, of course. Fine."
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 322170,
+                "end_ms": 329936,
+                "text": "One more thing: your graphs. The width graph and the depth graph use different scales along the bottom, so they look as if they disagree when they don't."
+              },
+              {
+                "speaker": "priya",
+                "accent": "en-CA",
+                "start_ms": 330336,
+                "end_ms": 335904,
+                "text": "That was my fault. I'll redo all of them with the same scale, starting from the source of the river."
+              },
+              {
+                "speaker": "callum",
+                "accent": "en-NZ",
+                "start_ms": 336304,
+                "end_ms": 340144,
+                "text": "And should we get another group to read the report before we hand it in?"
+              },
+              {
+                "speaker": "tutor",
+                "accent": "en-GB",
+                "start_ms": 340544,
+                "end_ms": 347797,
+                "text": "You could, but everyone's busy with their own reports now. I'd rather you read it aloud to each other. You'll catch most of the mistakes that way."
+              },
+              {
+                "speaker": "callum",
+                "accent": "en-NZ",
+                "start_ms": 348197,
+                "end_ms": 350480,
+                "text": "Right. Thanks, that's really helpful."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 350880,
+                "end_ms": 355637,
+                "text": "That is the end of the recording. You now have half a minute to check your answers."
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "narrator": "bm_george",
+              "tutor": "bf_isabella",
+              "callum": "bm_lewis",
+              "priya": "af_heart"
+            }
+          },
+          "writing": null,
+          "groups": [
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "Why did the students choose Holme Beck for their fieldwork?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "It was close to the university."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "Earlier data from the same site was available."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "The landowner was quick to give permission."
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'A group from three years ago did exactly the same measurements there' and their data is in the archive, so the students could compare results: earlier data from the same site was available.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Callum says people assume it is near campus, but it is over an hour away by minibus."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The farmer took nearly three weeks to answer their letter, so permission was slow."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "4",
+                    "quote": "a group from three years ago did exactly the same measurements there"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "What does the tutor say about the introduction to the report?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "It is longer than allowed."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "It does not state what the students predicted."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "It has too few references."
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "The tutor 'couldn't work out what you actually expected to find'; there is no sentence giving the hypothesis, i.e. what the students predicted.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "It is 'well under the word limit', so length is not a problem."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The references are fine; they used 'a good range of sources'."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "9",
+                    "quote": "I still couldn't work out what you actually expected to find"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "What problem did the students have when measuring the speed of the river?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "The flow meter stopped working."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "The water level rose during the fieldwork."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "They did not have time to visit every site."
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "After heavy rain 'the river was about thirty centimetres higher', so the lower sites were measured in different conditions: the river level rose during the fieldwork.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The flow meter did not stop working: it had been lent to another group, and the oranges they used instead 'worked really well'."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "They visited all eight sites and finished with an hour to spare."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "14",
+                    "quote": "by the morning the river was about thirty centimetres higher"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose the correct letter, A, B or C.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "shorten it"
+                },
+                {
+                  "letter": "B",
+                  "text": "move it to an appendix"
+                },
+                {
+                  "letter": "C",
+                  "text": "add a map"
+                },
+                {
+                  "letter": "D",
+                  "text": "combine it with another section"
+                },
+                {
+                  "letter": "E",
+                  "text": "add more photographs"
+                },
+                {
+                  "letter": "F",
+                  "text": "explain the method more fully"
+                },
+                {
+                  "letter": "G",
+                  "text": "remove it completely"
+                }
+              ],
+              "layout": {
+                "title": "What does the tutor suggest the students do with each of the following sections of their report?",
+                "template": null,
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 4,
+                  "prompt": "the site description",
+                  "options": null,
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'What's really missing is a map showing the eight sampling points along the river.'",
+                    "distractors": [
+                      {
+                        "option": "E",
+                        "why_wrong": "Priya suggests photographs, but the tutor says 'I wouldn't bother adding more'."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "21",
+                    "quote": "What's really missing is a map showing the eight sampling points"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "the equipment list",
+                  "options": null,
+                  "answer": [
+                    "G"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'It adds nothing… Just take it out' = remove it completely.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "The tutor's 'first thought' was an appendix, but she changes her mind."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "23",
+                    "quote": "Just take it out"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 6,
+                  "prompt": "the data tables",
+                  "options": null,
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Keep every table, 'but put them at the back in an appendix'.",
+                    "distractors": [
+                      {
+                        "option": "G",
+                        "why_wrong": "The tables must not be removed: 'Keep every one of them'."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "25",
+                    "quote": "put them at the back in an appendix"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "the sediment analysis",
+                  "options": null,
+                  "answer": [
+                    "F"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "The results are given 'without saying how you got them', so 'the method needs a lot more detail' = explain the method more fully.",
+                    "distractors": [
+                      {
+                        "option": "D",
+                        "why_wrong": "Callum suggests merging it with the velocity section, but the tutor says 'I'd keep those two apart'."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "27",
+                    "quote": "the method needs a lot more detail"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "the risk assessment",
+                  "options": null,
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Three pages is too long; 'a short paragraph… would be plenty, so cut it right down' = shorten it.",
+                    "distractors": [
+                      {
+                        "option": "G",
+                        "why_wrong": "Priya asks if they can drop it, but it 'has to stay' because it is required."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "29",
+                    "quote": "so cut it right down"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching",
+              "instructions": "Choose FIVE answers from the box and move them into the gaps next to Questions 4–8.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "collect new speed measurements at the river"
+                },
+                {
+                  "letter": "B",
+                  "text": "have the sediment results checked again"
+                },
+                {
+                  "letter": "C",
+                  "text": "write about the weaknesses of their study"
+                },
+                {
+                  "letter": "D",
+                  "text": "use the same scale on all their graphs"
+                },
+                {
+                  "letter": "E",
+                  "text": "ask other students to read the report"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 9,
+                  "prompt": "Which TWO things do the students decide to do before the deadline?",
+                  "options": null,
+                  "answer": [
+                    "C",
+                    "D"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "C: the tutor suggests 'a proper section on the limitations of your study' and Priya says 'we'll definitely add that' (limitations = weaknesses). D: Priya will 'redo all of them with the same scale'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The tutor advises against going back to Holme Beck: they won't get the minibus and the rain is 'part of the story'."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Priya planned to ask the technician, but Callum says Sam already checked the weights last week."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "The tutor says other groups are busy and suggests they read it aloud to each other instead."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "32",
+                    "quote": "OK, we'll definitely add that"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "Which TWO things do the students decide to do before the deadline?",
+                  "options": null,
+                  "answer": [
+                    "C",
+                    "D"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "D: Priya will 'redo all of them with the same scale' after the tutor points out the graphs use different scales. C: they agree to add a section on the limitations of the study.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The tutor advises against going back to Holme Beck: they won't get the minibus and the rain is 'part of the story'."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Priya planned to ask the technician, but Callum says Sam already checked the weights last week."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "The tutor says other groups are busy and suggests they read it aloud to each other instead."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "36",
+                    "quote": "I'll redo all of them with the same scale"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose TWO letters, A–E.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

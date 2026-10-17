@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-problem-05",
+  "kind": "practice",
+  "title": "Problem and solution: sitting down all day",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "health",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Many adults now spend most of their day sitting down: at a desk at work, in a car or on a train, and in front of a screen in the evening.\n\nWhat problems can this cause? How could these problems be reduced?",
+            "essay_type": "problem_solution",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

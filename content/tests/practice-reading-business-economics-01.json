@@ -1,0 +1,558 @@
+{
+  "slug": "practice-reading-business-economics-01",
+  "kind": "practice",
+  "title": "The Price of Loyalty",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T13:03:59+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "reading"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "reading",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_reading",
+          "topic": "business-economics",
+          "passage": {
+            "title": "The Price of Loyalty",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "Almost every adult in a wealthy country now carries some proof of loyalty: a plastic card for the supermarket, an app for the coffee chain, a membership number for the airline. The official explanation for these schemes is simple. Customers are rewarded for coming back, and so they come back more often. It is a story that suits both sides, since shoppers enjoy the feeling of getting something for nothing and companies enjoy an image of generosity. I want to suggest that it is largely wrong. Most loyalty schemes do remarkably little to create loyalty. What they actually purchase, and what explains their extraordinary spread, is something rather different."
+              },
+              {
+                "label": "B",
+                "text": "The idea is not new. In the 1950s and 1960s, millions of British and American households collected trading stamps, which retailers handed out with purchases and which could be stuck into books and exchanged for kettles, lawnmowers and toys. The stamps faded in the 1970s, a decline that the economic historian Martin Osei attributes mainly to rising inflation, which made shoppers more interested in low prices today than in distant rewards. The modern era began in 1981, when an American airline launched the first large frequent-flyer programme. Within a few years almost every major carrier had copied it, and supermarkets, hotel chains and retailers of every kind soon followed."
+              },
+              {
+                "label": "C",
+                "text": "If the schemes were truly building loyalty, members should spend more after joining than similar shoppers who do not join. The evidence for this is weak. Helen Marwick, an economist at the University of Castleford, compared the spending of 20,000 supermarket shoppers before and after they signed up to a scheme with that of non-members living in the same areas. She found that the people who joined were overwhelmingly those who already did most of their shopping in that chain, and that their spending barely changed afterwards. In other words, the rewards went largely to customers who would have returned regardless. Taken at face value, this looks like money thrown away."
+              },
+              {
+                "label": "D",
+                "text": "Why, then, do businesses persist? One answer, offered by the economist Tomas Lindgren, is that schemes survive because of competition rather than in spite of it. Once a rival has a scheme, a firm without one risks losing its most price-conscious customers, so each company keeps its programme not because it pays but because abandoning it alone would cost even more. The result is that every firm bears the expense and none gains a lasting advantage. I find this account persuasive as far as it goes. It explains why schemes are so hard to abolish, but not why companies remain so eager to launch new ones."
+              },
+              {
+                "label": "E",
+                "text": "The more convincing explanation lies in what members hand over at the till. Every time a card is scanned, the company learns who bought what, when, and at what price. This information allows offers to be tailored to individuals, and its commercial value can be considerable: in a two-year trial run by the Brightwater Consumer Panel, households that received vouchers matched to their own buying habits increased their spending by around four per cent, while those receiving general discounts showed no change. Priya Nair, who studies pricing at Dunmore Business School, goes further. She argues that loyalty data makes possible a quiet form of price discrimination, allowing firms to offer discounts only to customers likely to shop elsewhere while charging everyone else the full price."
+              },
+              {
+                "label": "F",
+                "text": "Airlines have taken this logic furthest. Their largest source of loyalty income is not passengers but banks, which buy miles in bulk to award to holders of their credit cards. Since many miles are never spent – a phenomenon the industry calls 'breakage' – every point that expires unused is almost pure profit. These programmes have become so lucrative that, during the pandemic, several American carriers raised billions of dollars by pledging them as security for loans, and some analysts valued the schemes above the airlines that ran them. Points, in effect, have become a private currency, issued by companies with no central bank to restrain them."
+              },
+              {
+                "label": "G",
+                "text": "None of this means that loyalty schemes are a fraud, or that they should be outlawed. Many members receive genuine savings, and the exchange of data for discounts is one that plenty of people make knowingly. But the word 'loyalty' disguises the nature of the bargain. Members pay, in part, with information about their lives, and those who do not join may pay with higher shelf prices. Regulators should require schemes to state plainly what data they collect and how it is used, so that shoppers can judge for themselves whether the reward is worth the price."
+              }
+            ],
+            "glossary": []
+          },
+          "script": null,
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "Loyalty schemes are generally effective at making customers more loyal.",
+                  "options": null,
+                  "answer": [
+                    "NO"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer says the usual explanation is 'largely wrong' and that most schemes 'do remarkably little to create loyalty'.",
+                    "distractors": [
+                      {
+                        "option": "YES",
+                        "why_wrong": "This is the official explanation the writer rejects."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer states his view clearly at the end of paragraph A."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "A",
+                    "quote": "Most loyalty schemes do remarkably little to create loyalty."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "Trading stamps gave shoppers better value than modern loyalty schemes do.",
+                  "options": null,
+                  "answer": [
+                    "NOT GIVEN"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer describes trading stamps and Osei's explanation of their decline, but never compares their value with that of modern schemes.",
+                    "distractors": [
+                      {
+                        "option": "YES",
+                        "why_wrong": "No comparison of value between stamps and modern schemes is made."
+                      },
+                      {
+                        "option": "NO",
+                        "why_wrong": "The writer does not say stamps were worse value either."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "a decline that the economic historian Martin Osei attributes mainly to rising inflation"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "Lindgren's theory explains why companies find it difficult to give up their schemes.",
+                  "options": null,
+                  "answer": [
+                    "YES"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer finds Lindgren's account 'persuasive as far as it goes' and says 'It explains why schemes are so hard to abolish'.",
+                    "distractors": [
+                      {
+                        "option": "NO",
+                        "why_wrong": "The writer's reservation is only that the theory does not explain why new schemes are launched."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer gives his judgement of Lindgren's account directly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "It explains why schemes are so hard to abolish"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "Loyalty schemes ought to be made illegal.",
+                  "options": null,
+                  "answer": [
+                    "NO"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer says none of his argument means the schemes 'should be outlawed'; he wants clearer disclosure instead.",
+                    "distractors": [
+                      {
+                        "option": "YES",
+                        "why_wrong": "The writer explicitly rejects a ban."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer states his position on outlawing the schemes in paragraph G."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "None of this means that loyalty schemes are a fraud, or that they should be outlawed."
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "ynng",
+              "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 1?\nChoose\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "Martin Osei"
+                },
+                {
+                  "letter": "B",
+                  "text": "Helen Marwick"
+                },
+                {
+                  "letter": "C",
+                  "text": "Tomas Lindgren"
+                },
+                {
+                  "letter": "D",
+                  "text": "the Brightwater Consumer Panel"
+                },
+                {
+                  "letter": "E",
+                  "text": "Priya Nair"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 5,
+                  "prompt": "Offers designed for individual customers led them to spend more.",
+                  "options": null,
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "In the Brightwater trial, households given 'vouchers matched to their own buying habits' increased spending by about four per cent.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Osei explains the decline of trading stamps by inflation."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Marwick found that rewards went to customers who were already loyal."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Lindgren explains why firms keep schemes in response to rivals."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "Nair argues that loyalty data allows price discrimination."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "households that received vouchers matched to their own buying habits increased their spending by around four per cent"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 6,
+                  "prompt": "Firms keep their schemes mainly because dropping them would be more costly than keeping them.",
+                  "options": null,
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Lindgren: each company keeps its programme 'not because it pays but because abandoning it alone would cost even more'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Osei explains the decline of trading stamps by inflation."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Marwick found that rewards went to customers who were already loyal."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Brightwater found that personalised vouchers raised spending."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "Nair argues that loyalty data allows price discrimination."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "each company keeps its programme not because it pays but because abandoning it alone would cost even more"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "Schemes enable businesses to give lower prices only to selected customers.",
+                  "options": null,
+                  "answer": [
+                    "E"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Nair says loyalty data allows firms 'to offer discounts only to customers likely to shop elsewhere while charging everyone else the full price'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Osei explains the decline of trading stamps by inflation."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Marwick found that rewards went to customers who were already loyal."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Lindgren explains why firms keep schemes in response to rivals."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Brightwater found that personalised vouchers raised spending."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "allowing firms to offer discounts only to customers likely to shop elsewhere while charging everyone else the full price"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "Most of the people who are rewarded were already regular customers before they joined.",
+                  "options": null,
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Marwick found that those who joined 'were overwhelmingly those who already did most of their shopping in that chain'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Osei explains the decline of trading stamps by inflation."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Lindgren explains why firms keep schemes in response to rivals."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Brightwater found that personalised vouchers raised spending."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "Nair argues that loyalty data allows price discrimination."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "the people who joined were overwhelmingly those who already did most of their shopping in that chain"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_features",
+              "instructions": "Look at the following statements (Questions 5–8) and the list below.\nMatch each statement with the correct option, A–E.\nNB You may use any letter more than once.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "banks"
+                },
+                {
+                  "letter": "B",
+                  "text": "passengers"
+                },
+                {
+                  "letter": "C",
+                  "text": "breakage"
+                },
+                {
+                  "letter": "D",
+                  "text": "profit"
+                },
+                {
+                  "letter": "E",
+                  "text": "guarantee"
+                },
+                {
+                  "letter": "F",
+                  "text": "currency"
+                },
+                {
+                  "letter": "G",
+                  "text": "loss"
+                },
+                {
+                  "letter": "H",
+                  "text": "inflation"
+                },
+                {
+                  "letter": "I",
+                  "text": "investment"
+                },
+                {
+                  "letter": "J",
+                  "text": "discount"
+                }
+              ],
+              "layout": {
+                "title": "Airline loyalty programmes",
+                "template": "Airlines earn most of their loyalty income from {9}, which buy miles to give to people who hold their credit cards. Many miles are never used, which the industry refers to as {10}, and each point that expires in this way is almost entirely {11} for the airline. During the pandemic, some American airlines used their programmes as a {12} for loans worth billions of dollars, and some analysts considered the programmes more valuable than the airlines themselves. According to the writer, points now work like a kind of private {13} that no central bank controls.",
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 9,
+                  "prompt": "most of their loyalty income from …",
+                  "options": null,
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Their largest source of loyalty income is not passengers but banks'.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "The passage says the income comes from banks, not passengers."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "Their largest source of loyalty income is not passengers but banks"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "the industry's name for miles that are never used",
+                  "options": null,
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "'Since many miles are never spent – a phenomenon the industry calls 'breakage''.",
+                    "distractors": [
+                      {
+                        "option": "H",
+                        "why_wrong": "Inflation is mentioned only in paragraph B, about trading stamps."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "a phenomenon the industry calls 'breakage'"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 11,
+                  "prompt": "each point that expires is almost entirely …",
+                  "options": null,
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'every point that expires unused is almost pure profit'.",
+                    "distractors": [
+                      {
+                        "option": "G",
+                        "why_wrong": "Unused points benefit the airline; they are not a loss."
+                      },
+                      {
+                        "option": "J",
+                        "why_wrong": "Nothing is said about unused points being a discount."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "every point that expires unused is almost pure profit"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 12,
+                  "prompt": "used their programmes as a … for loans",
+                  "options": null,
+                  "answer": [
+                    "E"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Carriers raised money 'by pledging them as security for loans'; 'guarantee' paraphrases 'security'.",
+                    "distractors": [
+                      {
+                        "option": "I",
+                        "why_wrong": "The programmes were pledged to back loans, not described as an investment."
+                      },
+                      {
+                        "option": "F",
+                        "why_wrong": "Currency is how the writer describes points, not how they were used in borrowing."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "raised billions of dollars by pledging them as security for loans"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 13,
+                  "prompt": "points now work like a kind of private …",
+                  "options": null,
+                  "answer": [
+                    "F"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Points, in effect, have become a private currency'.",
+                    "distractors": [
+                      {
+                        "option": "I",
+                        "why_wrong": "The writer compares points to money, not to an investment."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "The guarantee idea relates to loans, not to what points have become."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "Points, in effect, have become a private currency"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "summary_completion",
+              "instructions": "Complete the summary using the list of words, A–J, below.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

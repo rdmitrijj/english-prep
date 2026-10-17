@@ -1,0 +1,529 @@
+{
+  "slug": "practice-reading-agriculture-food-01",
+  "kind": "practice",
+  "title": "The Potato Comes to Europe",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T13:01:42+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "reading"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "reading",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_reading",
+          "topic": "agriculture-food",
+          "passage": {
+            "title": "The Potato Comes to Europe",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "Today the potato is so firmly associated with European cooking that it is easy to forget how recently it arrived. The plant was first domesticated in the Andes mountains of South America, probably in the area around Lake Titicaca, at least 7,000 years ago. Over the centuries Andean farmers developed hundreds of varieties suited to different altitudes and soils. They also invented an ingenious method of storing the harvest: tubers were left outside to freeze on cold nights, then trampled to squeeze out the water and dried in the sun. The result, known as chuño, could be kept for years without spoiling."
+              },
+              {
+                "label": "B",
+                "text": "Spanish soldiers encountered the potato in the 1530s, but it attracted little attention at first; the newcomers were far more interested in the region's silver. The crop seems to have crossed the Atlantic in the second half of the sixteenth century, perhaps as food for sailors on the return voyage. By the 1570s it was being grown in Spain, and records show that a hospital in Seville was buying potatoes for its patients in 1573. From Spain, the plant gradually reached Italy, the Low Countries and the British Isles. Yet for many decades it remained largely a botanical curiosity, grown in the gardens of wealthy collectors and described in books about plants rather than eaten at ordinary tables."
+              },
+              {
+                "label": "C",
+                "text": "There were several reasons for this slow start. The potato belongs to the same plant family as deadly nightshade, and its leaves and green shoots are indeed poisonous, so many people assumed that the tubers must be dangerous too. Some writers claimed that eating them caused leprosy, while others objected that the plant was not mentioned in the Bible. Practical difficulties mattered as well. Most early varieties had been bred for the short days of the tropics and produced tubers only late in the European autumn, when frost often destroyed the crop. Farmers who were used to sowing grain were also unfamiliar with growing a crop from pieces of tuber."
+              },
+              {
+                "label": "D",
+                "text": "Attitudes began to change in the eighteenth century, largely because of war and hunger. Fields of grain were easily destroyed or seized by passing armies, but potatoes stayed hidden underground and could be dug up only when they were needed. Rulers also noticed that a field of potatoes produced far more food than the same area of wheat or rye. In Prussia, King Frederick II issued orders in 1756 instructing officials to encourage the crop and to explain to peasants how it should be grown. In France, the pharmacist Antoine-Augustin Parmentier, who had survived on potatoes as a prisoner of war in Prussia, became the crop's most energetic promoter. According to a popular story, he had a field near Paris guarded by soldiers during the day, so that local people would assume it contained something valuable and steal the plants at night."
+              },
+              {
+                "label": "E",
+                "text": "Over the following century the potato transformed the European diet, especially among the poor. A labourer's family could feed itself from a small plot of land, and the tubers provided not only energy but also vitamin C, which helped to reduce scurvy during the winter months. Potatoes were also easy to cook: they could be boiled in a single pot over an open fire, which used little fuel and required no oven. In northern and eastern Europe, potatoes increasingly replaced bread and porridge as the main daily food. Many historians believe that this new and reliable supply of food contributed to the rapid growth of Europe's population between 1750 and 1850, although they disagree about how large that contribution was."
+              },
+              {
+                "label": "F",
+                "text": "Nowhere did the potato become more important than in Ireland. By the 1840s around a third of the Irish population depended on it almost entirely, and an adult labourer might eat several kilograms a day. Much of the crop consisted of a single high-yielding variety, the Lumper, which meant that the plants were genetically almost identical. When a plant disease called late blight arrived from North America in 1845, it spread rapidly through fields across Europe, but its effects were catastrophic in Ireland. Roughly one million people died during the famine that followed, and at least as many emigrated, many of them to Britain and North America. The population of Ireland has still not returned to its level before the famine."
+              },
+              {
+                "label": "G",
+                "text": "The Irish disaster taught a lasting lesson about the dangers of relying on a single crop, and of planting fields with too little genetic variety. Plant breeders have since developed thousands of varieties, and in many European countries the potato remains one of the most widely eaten foods. Yet it never fully regained its earlier role as the main source of nourishment for millions. As incomes rose in the twentieth century, Europeans began to eat a more varied diet, and the potato became one ingredient among many rather than the food on which survival depended."
+              }
+            ],
+            "glossary": []
+          },
+          "script": null,
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": null,
+              "layout": {
+                "title": "The potato's slow start in Europe",
+                "template": "- 1530s: Spanish soldiers first saw potatoes but cared more about the region's {1}\n- 1573: potatoes bought for patients by a {2} in Seville\n- for many decades: grown mainly as a curiosity in the {3} of rich collectors\n- some writers believed that eating potatoes led to {4}\n- early varieties formed tubers late in the year, so crops were often lost to {5}",
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "cared more about the region's …",
+                  "options": null,
+                  "answer": [
+                    "silver"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'The newcomers were far more interested in the region's silver'; 'cared more about' paraphrases 'were far more interested in'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "the newcomers were far more interested in the region's silver"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "potatoes bought for patients by a … in Seville",
+                  "options": null,
+                  "answer": [
+                    "hospital"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "'Records show that a hospital in Seville was buying potatoes for its patients in 1573'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "a hospital in Seville was buying potatoes for its patients in 1573"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "a curiosity in the … of rich collectors",
+                  "options": null,
+                  "answer": [
+                    "gardens",
+                    "garden"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "It was 'grown in the gardens of wealthy collectors'; 'rich' paraphrases 'wealthy'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "grown in the gardens of wealthy collectors"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "eating potatoes led to …",
+                  "options": null,
+                  "answer": [
+                    "leprosy"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'Some writers claimed that eating them caused leprosy'; 'led to' paraphrases 'caused'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "Some writers claimed that eating them caused leprosy"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "crops were often lost to …",
+                  "options": null,
+                  "answer": [
+                    "frost"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Early varieties formed tubers 'only late in the European autumn, when frost often destroyed the crop'; 'lost to' paraphrases 'destroyed'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "produced tubers only late in the European autumn, when frost often destroyed the crop"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "note_completion",
+              "instructions": "Complete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 1,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "the crop had first reached Europe as food for sailors."
+                },
+                {
+                  "letter": "B",
+                  "text": "the plant was related to a poisonous species."
+                },
+                {
+                  "letter": "C",
+                  "text": "he wanted local people to believe the crop was precious."
+                },
+                {
+                  "letter": "D",
+                  "text": "the tubers could stay in the ground until they were required."
+                },
+                {
+                  "letter": "E",
+                  "text": "farmers refused to give up their traditional diet of bread."
+                },
+                {
+                  "letter": "F",
+                  "text": "most of the crop was of one genetically uniform variety."
+                },
+                {
+                  "letter": "G",
+                  "text": "he had lived on potatoes while he was a prisoner of war."
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 6,
+                  "prompt": "Many people were at first afraid to eat potatoes because",
+                  "options": null,
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "The potato belongs to the same family as deadly nightshade, so 'many people assumed that the tubers must be dangerous too'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The sailors' food is only a possible route across the Atlantic, not a reason for fear."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "The passage does not say farmers refused to change their diet."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "The potato belongs to the same plant family as deadly nightshade, and its leaves and green shoots are indeed poisonous, so many people assumed that the tubers must be dangerous too."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "In wartime, potatoes were a safer crop than grain because",
+                  "options": null,
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Potatoes 'stayed hidden underground and could be dug up only when they were needed'; 'required' paraphrases 'needed'.",
+                    "distractors": [
+                      {
+                        "option": "F",
+                        "why_wrong": "Genetic uniformity is linked to the Irish famine, not to wartime safety."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "potatoes stayed hidden underground and could be dug up only when they were needed"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "According to a popular story, Parmentier had a potato field guarded because",
+                  "options": null,
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "He had it guarded 'so that local people would assume it contained something valuable'; 'precious' paraphrases 'valuable'.",
+                    "distractors": [
+                      {
+                        "option": "G",
+                        "why_wrong": "His time as a prisoner explains why he promoted potatoes, not why the field was guarded."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "so that local people would assume it contained something valuable"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 9,
+                  "prompt": "Late blight caused far greater suffering in Ireland than elsewhere because",
+                  "options": null,
+                  "answer": [
+                    "F"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "inference",
+                  "explanation": {
+                    "correct": "Much of the Irish crop was 'a single high-yielding variety ... genetically almost identical', and paragraph G names too little genetic variety as the lesson of the disaster.",
+                    "distractors": [
+                      {
+                        "option": "E",
+                        "why_wrong": "The passage says nothing about Irish farmers refusing to give up bread."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "Much of the crop consisted of a single high-yielding variety, the Lumper, which meant that the plants were genetically almost identical."
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_sentence_endings",
+              "instructions": "Complete each sentence with the correct ending, A–G, below.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 10,
+                  "prompt": "What was the main advantage of chuño?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "It could be stored for a very long time."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "It grew well at high altitudes."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "It was lighter to carry than grain."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "It was less poisonous than fresh potatoes."
+                    }
+                  ],
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Chuño 'could be kept for years without spoiling', i.e. it could be stored for a very long time.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "It is the potato varieties, not chuño, that were suited to different altitudes."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Chuño is not compared with grain."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Poison is mentioned only in paragraph C, about the leaves and shoots, not about chuño."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "A",
+                    "quote": "The result, known as chuño, could be kept for years without spoiling."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 11,
+                  "prompt": "According to paragraph D, rulers supported the potato partly because",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "it was cheaper to transport than grain."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "peasants had asked to be allowed to grow it."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "it gave a bigger harvest than grain from the same land."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "it could be planted and harvested in winter."
+                    }
+                  ],
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'Rulers also noticed that a field of potatoes produced far more food than the same area of wheat or rye.'",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Transport costs are not mentioned."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Officials had to explain the crop to peasants; peasants did not ask for it."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "No winter growing is mentioned."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "Rulers also noticed that a field of potatoes produced far more food than the same area of wheat or rye."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 12,
+                  "prompt": "What does the writer say about the potato and Europe's population growth?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "Historians agree that the potato was its main cause."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "Historians are divided over how much the potato contributed."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "The effect was limited to northern and eastern Europe."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "It led to a sharp rise in the price of bread."
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Historians believe the potato contributed, 'although they disagree about how large that contribution was'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Historians disagree about the size of the contribution, so they do not agree it was the main cause."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Northern and eastern Europe are mentioned for the change in diet, not as the only place where population grew."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Bread prices are not mentioned."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "although they disagree about how large that contribution was"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 13,
+                  "prompt": "What happened to the potato in the twentieth century?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "It disappeared from the diet in most European countries."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "It was replaced by new crops that resisted disease."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "It was grown mainly to feed animals."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "It stopped being the main food that people relied on."
+                    }
+                  ],
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "As incomes rose and diets became more varied, the potato 'became one ingredient among many rather than the food on which survival depended'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The potato 'remains one of the most widely eaten foods' in many countries."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Breeders developed new potato varieties, not replacement crops."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Animal feed is not mentioned."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "the potato became one ingredient among many rather than the food on which survival depended"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose the correct letter, A, B, C or D.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

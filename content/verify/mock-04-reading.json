@@ -1,0 +1,326 @@
+{
+ "answers": [
+  {
+   "number": 1,
+   "answer": [
+    "link boy"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 2,
+   "answer": [
+    "front door"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 3,
+   "answer": [
+    "full moon"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 4,
+   "answer": [
+    "special tax"
+   ],
+   "confidence": 0.6,
+   "note": "'a special tax': 'tax' alone also defensible"
+  },
+  {
+   "number": 5,
+   "answer": [
+    "oil lamp"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 6,
+   "answer": [
+    "1807"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 7,
+   "answer": [
+    "FALSE"
+   ],
+   "confidence": 0.65,
+   "note": "Lamplighter returned at dawn; 'middle of night' not stated but contradicted by dawn; NOT GIVEN arguable"
+  },
+  {
+   "number": 8,
+   "answer": [
+    "NOT GIVEN"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 9,
+   "answer": [
+    "TRUE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 10,
+   "answer": [
+    "TRUE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 11,
+   "answer": [
+    "FALSE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 12,
+   "answer": [
+    "TRUE"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 13,
+   "answer": [
+    "NOT GIVEN"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 14,
+   "answer": [
+    "iii"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 15,
+   "answer": [
+    "vi"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 16,
+   "answer": [
+    "viii"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 17,
+   "answer": [
+    "i"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 18,
+   "answer": [
+    "iv"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 19,
+   "answer": [
+    "senior doctor"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 20,
+   "answer": [
+    "symptoms"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 21,
+   "answer": [
+    "vaccines"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 22,
+   "answer": [
+    "fixed annual fee"
+   ],
+   "confidence": 0.85,
+   "note": "'annual fee' also possible"
+  },
+  {
+   "number": 23,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 24,
+   "answer": [
+    "C"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 25,
+   "answer": [
+    "A"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 26,
+   "answer": [
+    "D"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 27,
+   "answer": [
+    "A"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 28,
+   "answer": [
+    "E"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 29,
+   "answer": [
+    "F"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 30,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 31,
+   "answer": [
+    "C"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 32,
+   "answer": [
+    "NO"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 33,
+   "answer": [
+    "YES"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 34,
+   "answer": [
+    "NO"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 35,
+   "answer": [
+    "NOT GIVEN"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 36,
+   "answer": [
+    "YES"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 37,
+   "answer": [
+    "A",
+    "C"
+   ],
+   "confidence": 0.9,
+   "note": "either order"
+  },
+  {
+   "number": 38,
+   "answer": [
+    "A",
+    "C"
+   ],
+   "confidence": 0.9,
+   "note": "either order"
+  },
+  {
+   "number": 39,
+   "answer": [
+    "dysgraphia"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 40,
+   "answer": [
+    "hunt-and-peck"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-problem-04",
+  "kind": "practice",
+  "title": "Problem and solution: no experience, no first job",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "work-economy",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "In many countries, young people find it hard to get their first job because employers want candidates who already have work experience.\n\nWhat are the causes of this problem? What measures could be taken to solve it?",
+            "essay_type": "problem_solution",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

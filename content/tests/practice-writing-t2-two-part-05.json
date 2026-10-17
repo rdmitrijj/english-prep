@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-two-part-05",
+  "kind": "practice",
+  "title": "Two-part: wanting to save energy but not doing it",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "energy-resources",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Most people say that they want to save energy at home, but few of them actually change their everyday habits.\n\nWhy is this the case? What could be done to encourage people to use less energy?",
+            "essay_type": "two_part",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

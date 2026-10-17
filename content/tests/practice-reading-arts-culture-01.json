@@ -1,0 +1,471 @@
+{
+  "slug": "practice-reading-arts-culture-01",
+  "kind": "practice",
+  "title": "Designing for the Ear",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T13:01:42+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "reading"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "reading",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_reading",
+          "topic": "arts-culture",
+          "passage": {
+            "title": "Designing for the Ear",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "When a symphony orchestra plays, only a small part of what a listener hears travels directly from the instruments. Most of the sound arrives after bouncing off walls, ceiling, balconies and even the seats, and it is this pattern of reflections that gives every concert hall its particular character. A hall in which sound dies away too quickly makes an orchestra seem dry and distant; one in which it lingers too long turns fast passages into a blur. For most of history, builders found the balance by trial and error, copying rooms that happened to work well and abandoning those that did not."
+              },
+              {
+                "label": "B",
+                "text": "The first attempt to put the subject on a scientific footing came at the end of the nineteenth century. Wallace Sabine, a young physics lecturer at Harvard University, was asked to improve a lecture theatre in which speech was almost impossible to follow. Working at night, when the building was quiet, with an organ pipe and a stopwatch, he measured how long a sound took to fade away after its source stopped, and showed that this 'reverberation time' depended on the volume of the room and on how much sound its surfaces absorbed. Sabine applied his formula to the design of Boston's Symphony Hall, which opened in 1900 and is still widely regarded as one of the finest halls in the world. For orchestral music, a reverberation time of around two seconds is now generally considered ideal."
+              },
+              {
+                "label": "C",
+                "text": "Sabine's formula, however, proved to be only part of the story. In 1962 a new concert hall opened in New York amid great expectations, and was almost immediately criticised by musicians and audiences alike. Its designers had drawn on the best acoustic science of the day, yet listeners complained that the sound was thin and that the orchestra seemed far away. The hall was altered several times over the following decades, at enormous expense. Failures of this kind persuaded researchers that the timing of reflections, and the direction from which they arrive, matter as much as the overall length of the reverberation."
+              },
+              {
+                "label": "D",
+                "text": "One influential finding concerned reflections reaching the listener from the sides. In listening tests carried out in the late 1960s and early 1970s, volunteers heard music played through loudspeakers arranged around them. When the earliest reflections came mainly from the left and right, rather than from in front or above, listeners reported a pleasing sense of being surrounded by the music. This helps to explain the success of the traditional 'shoebox' hall: a tall, narrow rectangle such as the Musikverein in Vienna, completed in 1870, in which the side walls are close enough to send strong reflections towards every seat. The drawback is that a narrow room can hold only a limited audience, and those at the back sit a long way from the stage."
+              },
+              {
+                "label": "E",
+                "text": "Architects have therefore experimented with other shapes. In the 'vineyard' design, first used in the Berlin Philharmonie in 1963, the audience sits in terraced blocks that surround the orchestra on all sides, like vines on a hillside. The low walls at the front of each terrace act as reflecting surfaces, supplying the side reflections that a wide room would otherwise lack, and far more people can sit close to the stage. Not everyone is convinced. Critics of the approach, among them the acoustician Leonie Hartmann of the Kessling Institute, argue that its results are less predictable than those of a shoebox, and that listeners seated behind the orchestra hear an unbalanced sound in which the brass overwhelms the strings."
+              },
+              {
+                "label": "F",
+                "text": "Designers today rarely rely on rules of thumb alone. Before a hall is built, its shape is tested in computer simulations that trace the paths of millions of sound rays, and often in a scale model, built at one tenth of the real size, in which high-frequency sound stands in for music. Increasingly, engineers also use a technique called auralisation, which allows a client to listen through headphones to how an orchestra would sound from a particular seat before construction has even begun. Even so, small details can make a large difference. The upholstery of the seats is a good example: designers aim for chairs that absorb about as much sound when empty as a seated person does, so that rehearsals in an empty hall sound similar to performances."
+              },
+              {
+                "label": "G",
+                "text": "The most recent trend is towards flexibility. Many modern halls are used not only for symphonies but also for amplified music, conferences and spoken drama, each of which requires different acoustics. Some therefore contain movable panels, heavy curtains that can be lowered to absorb sound, or reverberation chambers behind the walls whose doors can be opened to lengthen the decay of a note. According to Tomasz Wielgus, an engineer who has worked on halls in several countries, this adaptability is now what clients ask for most, though he admits that a hall designed to do everything may do nothing perfectly. Whether the great halls of the future will match the reputation of Boston or Vienna remains, for now, an open question."
+              }
+            ],
+            "glossary": []
+          },
+          "script": null,
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "Paragraph A"
+                },
+                {
+                  "letter": "B",
+                  "text": "Paragraph B"
+                },
+                {
+                  "letter": "C",
+                  "text": "Paragraph C"
+                },
+                {
+                  "letter": "D",
+                  "text": "Paragraph D"
+                },
+                {
+                  "letter": "E",
+                  "text": "Paragraph E"
+                },
+                {
+                  "letter": "F",
+                  "text": "Paragraph F"
+                },
+                {
+                  "letter": "G",
+                  "text": "Paragraph G"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "a recommended value for one acoustic measurement",
+                  "options": null,
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Paragraph B says that for orchestral music 'a reverberation time of around two seconds is now generally considered ideal'; 'recommended value' paraphrases 'considered ideal'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "A says sound can die away too quickly or too slowly but gives no figure."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "C mentions the overall length of reverberation but gives no recommended value."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "For orchestral music, a reverberation time of around two seconds is now generally considered ideal."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "a reference to a way of hearing a hall before it has been built",
+                  "options": null,
+                  "answer": [
+                    "F"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Auralisation 'allows a client to listen through headphones to how an orchestra would sound from a particular seat before construction has even begun'.",
+                    "distractors": [
+                      {
+                        "option": "D",
+                        "why_wrong": "D mentions loudspeaker listening tests, but these were experiments on reflections, not previews of a hall."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "allows a client to listen through headphones to how an orchestra would sound from a particular seat before construction has even begun"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "an example of a building that disappointed people despite a scientific approach to its design",
+                  "options": null,
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "The 1962 New York hall's designers 'had drawn on the best acoustic science of the day, yet listeners complained' about the sound.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "B describes a lecture theatre that was improved, and a successful hall, not a disappointment caused despite science."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "Its designers had drawn on the best acoustic science of the day, yet listeners complained that the sound was thin and that the orchestra seemed far away."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "a disadvantage relating to the number of people a type of hall can hold",
+                  "options": null,
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Of the shoebox hall: 'The drawback is that a narrow room can hold only a limited audience'.",
+                    "distractors": [
+                      {
+                        "option": "E",
+                        "why_wrong": "E mentions that more people can sit close to the stage in a vineyard hall, which is an advantage, not a disadvantage."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "The drawback is that a narrow room can hold only a limited audience"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_information",
+              "instructions": "Reading Passage 1 has 7 paragraphs, A–G.\nWhich paragraph contains the following information?\nNB You may use any letter more than once.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": {
+                "title": "Testing a design",
+                "template": "Before a new concert hall is constructed, its shape is checked using {5} that follow the routes of millions of sound rays. Designers often also build a {6}, one tenth of the full size, in which {7} sound is used in place of music. Clients can now listen in advance through headphones, too. Small details still matter: when empty, the seats should absorb roughly the same amount of sound as a {8}, so that rehearsals sound like real concerts.",
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 5,
+                  "prompt": "checked using … that follow the routes of sound rays",
+                  "options": null,
+                  "answer": [
+                    "computer simulations",
+                    "simulations"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'Its shape is tested in computer simulations that trace the paths of millions of sound rays'; 'follow the routes' paraphrases 'trace the paths'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "its shape is tested in computer simulations that trace the paths of millions of sound rays"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 6,
+                  "prompt": "a …, one tenth of the full size",
+                  "options": null,
+                  "answer": [
+                    "scale model",
+                    "model"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'A scale model, built at one tenth of the real size'; 'full size' paraphrases 'real size'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "a scale model, built at one tenth of the real size"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "… sound is used in place of music",
+                  "options": null,
+                  "answer": [
+                    "high-frequency",
+                    "high frequency"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "In the model 'high-frequency sound stands in for music'; 'is used in place of' paraphrases 'stands in for'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "in which high-frequency sound stands in for music"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "absorb roughly the same amount of sound as …",
+                  "options": null,
+                  "answer": [
+                    "seated person"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Designers want chairs 'that absorb about as much sound when empty as a seated person does'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "designers aim for chairs that absorb about as much sound when empty as a seated person does"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "summary_completion",
+              "instructions": "Complete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 2,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "It is more expensive to build than a shoebox hall."
+                },
+                {
+                  "letter": "B",
+                  "text": "Its acoustic results are harder to forecast."
+                },
+                {
+                  "letter": "C",
+                  "text": "It provides too few reflections from the sides."
+                },
+                {
+                  "letter": "D",
+                  "text": "Some seats receive a poor balance between instruments."
+                },
+                {
+                  "letter": "E",
+                  "text": "It places most of the audience far from the stage."
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 9,
+                  "prompt": "Which TWO criticisms of the vineyard design does Leonie Hartmann make?",
+                  "options": null,
+                  "answer": [
+                    "B",
+                    "D"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Hartmann argues that vineyard results are 'less predictable than those of a shoebox' (B) and that listeners behind the orchestra hear 'an unbalanced sound in which the brass overwhelms the strings' (D).",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Cost is mentioned only for the New York hall's alterations, not as a criticism of vineyard halls."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The terraces supply side reflections; this is an advantage, not a criticism."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "The passage says far more people can sit close to the stage in a vineyard hall."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "its results are less predictable than those of a shoebox"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "Which TWO criticisms of the vineyard design does Leonie Hartmann make?",
+                  "options": null,
+                  "answer": [
+                    "B",
+                    "D"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Hartmann argues that vineyard results are 'less predictable than those of a shoebox' (B) and that listeners behind the orchestra hear 'an unbalanced sound in which the brass overwhelms the strings' (D).",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Cost is mentioned only for the New York hall's alterations, not as a criticism of vineyard halls."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The terraces supply side reflections; this is an advantage, not a criticism."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "The passage says far more people can sit close to the stage in a vineyard hall."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "listeners seated behind the orchestra hear an unbalanced sound in which the brass overwhelms the strings"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose TWO letters, A–E.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 2
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 11,
+                  "prompt": "What did Sabine use, together with a stopwatch, to produce sound for his measurements?",
+                  "options": null,
+                  "answer": [
+                    "organ pipe"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "He worked 'with an organ pipe and a stopwatch'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "with an organ pipe and a stopwatch"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 12,
+                  "prompt": "In which city is the shoebox hall that was completed in 1870?",
+                  "options": null,
+                  "answer": [
+                    "Vienna"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "'The Musikverein in Vienna, completed in 1870'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "the Musikverein in Vienna, completed in 1870"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 13,
+                  "prompt": "What spaces behind the walls of some flexible halls can be opened up to make notes take longer to fade?",
+                  "options": null,
+                  "answer": [
+                    "reverberation chambers"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'Reverberation chambers behind the walls whose doors can be opened to lengthen the decay of a note'; 'take longer to fade' paraphrases 'lengthen the decay'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "reverberation chambers behind the walls whose doors can be opened to lengthen the decay of a note"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "short_answer",
+              "instructions": "Answer the questions below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 2,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "practice-writing-t1-table-02",
+  "kind": "practice",
+  "title": "Table: hours of sleep by age group",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "health",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The table below shows the average number of hours that people in five age groups in South Korea slept per night in 2000, 2010 and 2020.",
+            "essay_type": null,
+            "visual": {
+              "type": "table",
+              "charts": [
+                {
+                  "type": "table",
+                  "title": "Average sleep per night, South Korea",
+                  "unit": "hours per night",
+                  "categories": [
+                    "13–17",
+                    "18–29",
+                    "30–44",
+                    "45–64",
+                    "65+"
+                  ],
+                  "series": [
+                    {
+                      "name": "2000",
+                      "values": [
+                        8.4,
+                        7.8,
+                        7.2,
+                        7.1,
+                        7.4
+                      ]
+                    },
+                    {
+                      "name": "2010",
+                      "values": [
+                        7.9,
+                        7.5,
+                        6.9,
+                        6.9,
+                        7.5
+                      ]
+                    },
+                    {
+                      "name": "2020",
+                      "values": [
+                        7.2,
+                        7.1,
+                        6.8,
+                        6.9,
+                        7.6
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "url": "/media/visuals/practice-writing-t1-table-02-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

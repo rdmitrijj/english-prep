@@ -1,0 +1,81 @@
+{
+  "slug": "practice-writing-t1-bar-02",
+  "kind": "practice",
+  "title": "Bar chart: evening class enrolments",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "education",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The bar chart below shows the number of people who enrolled in five types of evening class at an adult education centre in Carrowfield in 2015, 2019 and 2023.",
+            "essay_type": null,
+            "visual": {
+              "type": "bar",
+              "charts": [
+                {
+                  "type": "bar",
+                  "title": "Evening class enrolments by subject, Carrowfield Adult Education Centre",
+                  "unit": "number of students",
+                  "categories": [
+                    "Languages",
+                    "Cooking",
+                    "Computing",
+                    "Art",
+                    "Fitness"
+                  ],
+                  "series": [
+                    {
+                      "name": "2015",
+                      "values": [
+                        240.0,
+                        180.0,
+                        210.0,
+                        90.0,
+                        130.0
+                      ]
+                    },
+                    {
+                      "name": "2019",
+                      "values": [
+                        310.0,
+                        175.0,
+                        150.0,
+                        130.0,
+                        200.0
+                      ]
+                    },
+                    {
+                      "name": "2023",
+                      "values": [
+                        380.0,
+                        120.0,
+                        95.0,
+                        165.0,
+                        190.0
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "url": "/media/visuals/practice-writing-t1-bar-02-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

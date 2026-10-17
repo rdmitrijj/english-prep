@@ -1,0 +1,488 @@
+{
+  "slug": "practice-reading-earth-science-climate-01",
+  "kind": "practice",
+  "title": "Reading the Ice",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T13:03:58+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "reading"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "reading",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_reading",
+          "topic": "earth-science-climate",
+          "passage": {
+            "title": "Reading the Ice",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "Every year, snow falls on the high interiors of Greenland and Antarctica and, never melting, is buried by the next year's snow. Over millennia the layers have been compressed into ice more than three kilometres thick, and within that ice lies the most detailed archive of past climate that science possesses. The longest continuous core, drilled in East Antarctica, reaches back some 800,000 years. It is tempting to imagine the ice as a simple ledger waiting to be read. It is nothing of the kind. Almost every figure drawn from it rests on disputed assumptions. My argument, however, is that these disputes reflect the health of the field rather than its weakness: the ice has become more trustworthy precisely because its readers have argued about it."
+              },
+              {
+                "label": "B",
+                "text": "The first problem is dating the ice. Near the surface this is relatively easy. Summer snow differs in texture and chemistry from winter snow, so annual layers can be counted one by one, much as tree rings are, and in Greenland such counting has been extended back roughly 60,000 years. Large eruptions near the equator provide a valuable check, since their sulphur settles as acid across both hemispheres within a year or two; the same eruption can thus be identified in cores from opposite ends of the planet and used to align them. Deeper down, the weight of overlying ice squeezes each layer ever thinner until years can no longer be told apart. Below that point, ages are estimated with ice-flow models, and the uncertainty near the base can amount to thousands of years."
+              },
+              {
+                "label": "C",
+                "text": "Temperature is read more indirectly. Water molecules containing heavy oxygen fall as snow or rain more readily than lighter ones, so the colder the air through which moisture travels, the smaller the share of heavy oxygen that reaches the poles. For decades, the ratio of heavy to light oxygen in the ice was converted into temperature using a relationship derived from present-day snow and assumed to have held in the past. That assumption proved fragile. Temperatures measured down the borehole itself, indicated that Greenland in the last glacial period had been roughly twice as cold, relative to today, as the isotopes implied. The likeliest explanation is that in those colder times most snow fell in summer, so the record was weighted towards the warm season. This is not, in my view, a reason to abandon the method; it is a reminder that an isotope thermometer must be checked against independent evidence."
+              },
+              {
+                "label": "D",
+                "text": "The most celebrated contents of the ice are its bubbles, the only direct samples of ancient air. They show that carbon dioxide fell to about 180 parts per million in the coldest phases of ice ages and rose to roughly 280 in the warm intervals between them. Yet the air is not the same age as the ice around it. Fresh snow stays porous to a considerable depth, and air circulates through it until the pores close, often decades or centuries later. At cold sites with little snowfall, the gap between the age of the air and that of the surrounding ice can reach several thousand years, and every comparison between gas and temperature depends on how accurately that gap is estimated."
+              },
+              {
+                "label": "E",
+                "text": "That gap lay behind the most politically charged ice-core debate. Early analyses of Antarctic cores suggested that, at the end of ice ages, carbon dioxide began to rise some 800 years after temperature. Some commentators took this as proof that the gas could not drive climate. The inference was mistaken from the outset: no serious researcher had claimed that carbon dioxide started the warming, which is attributed to changes in the Earth's orbit, only that once released from the oceans it amplified a warming already under way. Moreover, when a group led by Elena Varga at the Aalund Polar Institute re-examined the timing with improved estimates of the age gap, the delay shrank to a couple of centuries at most. If the episode teaches anything, it is the danger of treating a single figure from a single core as decisive."
+              },
+              {
+                "label": "F",
+                "text": "Greenland's cores produced a still more unsettling discovery. During the last glacial period, temperatures over the ice sheet repeatedly leapt by ten degrees or more within a few decades. Whether these jumps were global is disputed. Antarctic records show gentler changes, often in the opposite direction, and the glaciologist Pieter Haldane has argued that the Greenland signal was magnified by shifts in nearby sea ice, so that it may describe conditions over the North Atlantic rather than the planet as a whole. He may well be right. Even so, the cores establish beyond reasonable doubt that parts of the climate system can reorganise themselves within a human lifetime."
+              },
+              {
+                "label": "G",
+                "text": "The latest ambition is to recover ice up to 1.5 million years old, which might explain why, around a million years ago, the rhythm of ice ages lengthened from about 41,000 years to about 100,000. Sceptics such as Ingrid Solberg point out that ice close to the bedrock may have been folded by flow or partly melted by heat from below, leaving layers jumbled out of sequence, and that an expensive project could return a record nobody can confidently date. The risk is real. But the question matters enormously, and the field's history suggests that problems which seem insoluble at the drilling site are often resolved later in the laboratory. I believe the gamble is worth taking."
+              }
+            ],
+            "glossary": []
+          },
+          "script": null,
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "Paragraph A"
+                },
+                {
+                  "letter": "B",
+                  "text": "Paragraph B"
+                },
+                {
+                  "letter": "C",
+                  "text": "Paragraph C"
+                },
+                {
+                  "letter": "D",
+                  "text": "Paragraph D"
+                },
+                {
+                  "letter": "E",
+                  "text": "Paragraph E"
+                },
+                {
+                  "letter": "F",
+                  "text": "Paragraph F"
+                },
+                {
+                  "letter": "G",
+                  "text": "Paragraph G"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "an explanation of why gas and ice found at the same depth are not the same age",
+                  "options": null,
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "Paragraph D explains that snow stays porous and air keeps circulating until the pores close decades or centuries later, so 'the air is not the same age as the ice around it'.",
+                    "distractors": [
+                      {
+                        "option": "E",
+                        "why_wrong": "E mentions 'improved estimates of the age gap' but does not explain why the gap exists."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "B is about dating the ice itself, not the air in it."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "Yet the air is not the same age as the ice around it."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "a description of how records from widely separated locations can be linked",
+                  "options": null,
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Paragraph B says acid from a large eruption settles across both hemispheres, so the same eruption can be found 'in cores from opposite ends of the planet and used to align them'.",
+                    "distractors": [
+                      {
+                        "option": "F",
+                        "why_wrong": "F compares Greenland and Antarctic records but does not describe a way of linking them."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "C checks the isotope record against borehole temperatures from the same place, not other locations."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "the same eruption can thus be identified in cores from opposite ends of the planet and used to align them"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "a suggestion that one set of records may reflect conditions in only part of the world",
+                  "options": null,
+                  "answer": [
+                    "F"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Haldane argues that the Greenland signal 'may describe conditions over the North Atlantic rather than the planet as a whole'.",
+                    "distractors": [
+                      {
+                        "option": "C",
+                        "why_wrong": "C says the Greenland isotope record was biased towards one season, not one region."
+                      },
+                      {
+                        "option": "A",
+                        "why_wrong": "A introduces Greenland and Antarctica but does not question how widely their records apply."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "it may describe conditions over the North Atlantic rather than the planet as a whole"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "a concern that the oldest ice may not preserve events in the order in which they happened",
+                  "options": null,
+                  "answer": [
+                    "G"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Solberg warns that ice near the bedrock may be folded or melted, 'leaving layers jumbled out of sequence'.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "B says deep layers become too thin to count, not that they are out of order."
+                      },
+                      {
+                        "option": "A",
+                        "why_wrong": "A mentions the oldest continuous core but raises no concern about its order."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "leaving layers jumbled out of sequence"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_information",
+              "instructions": "Reading Passage 1 has 7 paragraphs, A–G.\nWhich paragraph contains the following information?\nNB You may use any letter more than once.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": {
+                "title": "Evidence preserved in polar ice",
+                "template": null,
+                "table": {
+                  "columns": [
+                    "Evidence",
+                    "What it shows",
+                    "Main difficulty"
+                  ],
+                  "rows": [
+                    [
+                      "Annual layers",
+                      "the age of the ice, counted in the same way as {5}",
+                      "deep layers too thin to count; ages then come from {6}"
+                    ],
+                    [
+                      "Ratio of heavy to light oxygen",
+                      "air temperature when the snow fell",
+                      "in glacial Greenland, most snow fell in {7}, so the record is biased"
+                    ],
+                    [
+                      "Air bubbles",
+                      "the ancient atmosphere, e.g. carbon dioxide as low as about {8} parts per million in the coldest periods",
+                      "the air is younger than the ice that surrounds it"
+                    ]
+                  ]
+                },
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 5,
+                  "prompt": "Annual layers – what it shows: the age of the ice, counted in the same way as …",
+                  "options": null,
+                  "answer": [
+                    "tree rings"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "Annual layers 'can be counted one by one, much as tree rings are'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "annual layers can be counted one by one, much as tree rings are"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 6,
+                  "prompt": "Annual layers – main difficulty: below a certain depth, ages come from …",
+                  "options": null,
+                  "answer": [
+                    "ice-flow models"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Below that point, ages are estimated with ice-flow models'; 'come from' paraphrases 'are estimated with'. A hyphenated word counts as one word.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "Below that point, ages are estimated with ice-flow models"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "Oxygen ratio – main difficulty: in glacial Greenland, most snow fell in …",
+                  "options": null,
+                  "answer": [
+                    "summer"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'in those colder times most snow fell in summer, so the record was weighted towards the warm season'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "in those colder times most snow fell in summer"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "Air bubbles – what it shows: carbon dioxide as low as about … parts per million",
+                  "options": null,
+                  "answer": [
+                    "180"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "Carbon dioxide 'fell to about 180 parts per million in the coldest phases of ice ages'; 280 is the warm-period figure.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "carbon dioxide fell to about 180 parts per million in the coldest phases of ice ages"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "table_completion",
+              "instructions": "Complete the table below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 2,
+              "allow_number": true,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 9,
+                  "prompt": "Disagreements among researchers have made ice-core evidence less reliable.",
+                  "options": null,
+                  "answer": [
+                    "NO"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer says the disputes reflect the field's health and that the ice 'has become more trustworthy precisely because its readers have argued about it' – the opposite of the statement.",
+                    "distractors": [
+                      {
+                        "option": "YES",
+                        "why_wrong": "The writer argues that the debates have increased, not reduced, the reliability of the evidence."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer states a clear view on the effect of the disputes in paragraph A."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "A",
+                    "quote": "the ice has become more trustworthy precisely because its readers have argued about it"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "Oxygen isotope ratios have ceased to be a useful indicator of past temperature.",
+                  "options": null,
+                  "answer": [
+                    "NO"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "After describing the calibration problem, the writer says this is 'not ... a reason to abandon the method', only that it must be checked against other evidence.",
+                    "distractors": [
+                      {
+                        "option": "YES",
+                        "why_wrong": "The writer defends the method; he only says it needs independent checks."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer gives his view of the isotope method directly at the end of paragraph C."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "This is not, in my view, a reason to abandon the method"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 11,
+                  "prompt": "People who used the reported delay to deny the role of carbon dioxide misunderstood what scientists had argued.",
+                  "options": null,
+                  "answer": [
+                    "YES"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer calls their inference 'mistaken from the outset' because no researcher had claimed carbon dioxide started the warming, only that it amplified it.",
+                    "distractors": [
+                      {
+                        "option": "NO",
+                        "why_wrong": "The writer clearly rejects the commentators' reasoning."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer explicitly judges the commentators' inference in paragraph E."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "The inference was mistaken from the outset: no serious researcher had claimed that carbon dioxide started the warming"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 12,
+                  "prompt": "The sudden temperature changes found in Greenland have received less attention than they deserve.",
+                  "options": null,
+                  "answer": [
+                    "NOT GIVEN"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer calls the discovery 'unsettling' and says the cores prove rapid reorganisation is possible, but he never says whether it has had too little attention.",
+                    "distractors": [
+                      {
+                        "option": "YES",
+                        "why_wrong": "Calling the discovery unsettling is not the same as saying it has been neglected."
+                      },
+                      {
+                        "option": "NO",
+                        "why_wrong": "The writer does not claim the changes have had enough or too much attention either."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "Greenland's cores produced a still more unsettling discovery."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 13,
+                  "prompt": "The attempt to obtain much older ice is justified even though it may fail.",
+                  "options": null,
+                  "answer": [
+                    "YES"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer accepts that 'The risk is real' but concludes 'I believe the gamble is worth taking'.",
+                    "distractors": [
+                      {
+                        "option": "NO",
+                        "why_wrong": "The writer supports the project despite Solberg's objections."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer states his view in the last sentence of paragraph G."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "I believe the gamble is worth taking."
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "ynng",
+              "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 1?\nChoose\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

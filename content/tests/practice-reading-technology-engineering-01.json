@@ -1,0 +1,476 @@
+{
+  "slug": "practice-reading-technology-engineering-01",
+  "kind": "practice",
+  "title": "Digging Beneath the City",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T13:02:28+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "reading"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "reading",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_reading",
+          "topic": "technology-engineering",
+          "passage": {
+            "title": "Digging Beneath the City",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "Modern cities depend on what lies beneath their streets. Metro lines, sewers, water mains and power cables all need tunnels, and as cities grow, those tunnels must be longer, deeper and more numerous. In the past, many were built by a method known as cut-and-cover: workers dug a deep trench along a street, built the tunnel inside it and then covered it over again. The method is simple, but it closes roads and disturbs businesses for months or even years. Today, most urban tunnels are dug instead by tunnel-boring machines, huge mechanical moles that work entirely underground and leave life on the surface largely undisturbed."
+              },
+              {
+                "label": "B",
+                "text": "At the front of every tunnel-boring machine is a circular cutting head, whose diameter matches that of the finished tunnel: anything from two metres for a small sewer to more than fifteen metres for a road tunnel. The cutting head rotates slowly, perhaps two to five times a minute, while being pressed hard against the ground in front of it. Its tools depend on what it must dig through. In hard rock, it is fitted with disc cutters, rings of hardened steel that roll across the rock face under enormous force, causing it to crack into small chips. In softer ground such as clay or sand, scraping tools resembling teeth are used instead."
+              },
+              {
+                "label": "C",
+                "text": "Most cities, however, are built on soft, wet ground, where the greatest danger is not that the machine will be unable to cut but that the ground in front of it will collapse into the tunnel, causing the surface above to sink. To prevent this, engineers often use an earth pressure balance machine. Here, the soil that has just been dug out is not removed at once but packed into a sealed chamber directly behind the cutting head. The pressure of this soil pushes back against the ground ahead and holds it in place, while a long screw conveyor removes soil from the chamber at a carefully controlled rate. In very loose or waterlogged ground, a slurry machine may be chosen instead. Its chamber is filled with a mixture of water and a fine clay called bentonite, which supports the ground ahead and also carries the excavated material up to the surface through pipes. There, the material is separated out, and the slurry is cleaned and pumped back down to be used again."
+              },
+              {
+                "label": "D",
+                "text": "The machine moves forward in a repeated cycle. Large hydraulic rams arranged around the inside of the machine push against the most recently completed section of tunnel lining, driving the cutting head into the ground. Once the machine has advanced by about one and a half metres, the rams are drawn back and a mechanical arm called an erector picks up curved concrete segments, which are made in a factory on the surface, and fits them together to form a complete ring. Rubber seals between the segments keep water out. Finally, the narrow space left between the outside of the ring and the surrounding earth is filled with grout, a liquid mixture of cement and water that soon hardens, so that the ground has no room to move. On a good day in soft ground, the whole cycle may be repeated a dozen times or more."
+              },
+              {
+                "label": "E",
+                "text": "Behind the cutting head stretches a chain of platforms known as the back-up, which may make a machine well over 100 metres long. It carries the control cabin, electrical equipment, the grout supply and a conveyor belt that takes away the excavated material. The machine is steered by a pilot in the control cabin, who relies on a laser guidance system: a laser fixed to the tunnel wall further back sends a beam to a target on the machine, and a computer shows how far it has strayed from its planned route, often to within a few millimetres. One of the hardest jobs is replacing worn cutters. In soft ground this may mean working inside the pressurised chamber, which is uncomfortable and dangerous, so manufacturers have begun to fit robotic arms that can change cutters without anyone entering the space."
+              },
+              {
+                "label": "F",
+                "text": "Even with the best machines, a small amount of ground movement is almost unavoidable. Before work begins, engineers survey the buildings along the route and fix instruments to many of them to detect even slight movements. Sofia Brandt, who managed tunnelling on a recent metro extension, explains that her team received readings every few minutes and could adjust the pressure in the machine's chamber if the ground began to move. Where historic buildings were at risk, they also used a technique called compensation grouting, injecting grout into the soil beneath the foundations to make up for ground that had sunk. 'Most people living above the line,' she says, 'never knew we had passed underneath.'"
+              },
+              {
+                "label": "G",
+                "text": "Tunnelling also has its traditions. Each machine is given a name before it starts work, usually a woman's name, and many crews place a small statue of Saint Barbara, the patron saint of miners and tunnellers, at the entrance to the tunnel. When a machine finally breaks through into the shaft at the end of its route, it is usually taken apart and lifted out in pieces. Occasionally, however, it is simply left buried, because removing it would cost more than the machine is worth."
+              }
+            ],
+            "glossary": []
+          },
+          "script": null,
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": null,
+              "layout": {
+                "title": "How the machine advances and lines the tunnel",
+                "template": null,
+                "table": null,
+                "steps": [
+                  "Cutting head is driven into the ground",
+                  "Hydraulic rams press on the newest section of {1}",
+                  "After the machine moves forward about 1.5 metres, the rams are {2}",
+                  "Erector fits curved concrete segments, made in a {3} on the surface, into a ring",
+                  "Space between the ring and the surrounding earth is filled with {4}, which hardens"
+                ]
+              },
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "Hydraulic rams press on the newest section of …",
+                  "options": null,
+                  "answer": [
+                    "tunnel lining",
+                    "lining"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "The rams 'push against the most recently completed section of tunnel lining': 'newest' paraphrases 'most recently completed'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "push against the most recently completed section of tunnel lining"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "after moving forward about 1.5 metres, the rams are …",
+                  "options": null,
+                  "answer": [
+                    "drawn back"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Once the machine has advanced by about one and a half metres, the rams are drawn back'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "the rams are drawn back"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "concrete segments, made in a … on the surface",
+                  "options": null,
+                  "answer": [
+                    "factory"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "The curved concrete segments 'are made in a factory on the surface'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "which are made in a factory on the surface"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "space between the ring and the earth filled with …, which hardens",
+                  "options": null,
+                  "answer": [
+                    "grout"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The space 'is filled with grout, a liquid mixture of cement and water that soon hardens'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "is filled with grout, a liquid mixture of cement and water that soon hardens"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "flowchart_completion",
+              "instructions": "Complete the flow-chart below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 2,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "the pressure of the soil holds back the ground ahead."
+                },
+                {
+                  "letter": "B",
+                  "text": "steel rings forced against the rock make it crack into chips."
+                },
+                {
+                  "letter": "C",
+                  "text": "replacing cutters by hand in a pressurised space is dangerous."
+                },
+                {
+                  "letter": "D",
+                  "text": "the ground beneath buildings can sink as a machine passes."
+                },
+                {
+                  "letter": "E",
+                  "text": "slow rotation reduces wear on the cutting head."
+                },
+                {
+                  "letter": "F",
+                  "text": "the slurry can be cleaned and used again."
+                },
+                {
+                  "letter": "G",
+                  "text": "the machine could otherwise drift off its route."
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 5,
+                  "prompt": "Disc cutters are used in hard rock because",
+                  "options": null,
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Disc cutters are 'rings of hardened steel that roll across the rock face under enormous force, causing it to crack into small chips'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "This explains the sealed chamber of an earth pressure balance machine (C)."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "This explains why robotic arms are being fitted (E)."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "This explains why compensation grouting is used (F)."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "The passage says the head rotates slowly but never links this to wear."
+                      },
+                      {
+                        "option": "F",
+                        "why_wrong": "Cleaning and reusing slurry is a feature of slurry machines, not the reason for any of the actions in the beginnings."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "Drifting off route is what the laser guidance system checks, not the reason for any of the actions in the beginnings."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "rings of hardened steel that roll across the rock face under enormous force, causing it to crack into small chips"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 6,
+                  "prompt": "An earth pressure balance machine keeps freshly dug soil in a sealed chamber because",
+                  "options": null,
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'The pressure of this soil pushes back against the ground ahead and holds it in place', preventing collapse.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "This explains why disc cutters are used in hard rock (B)."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "This explains why robotic arms are being fitted (E)."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "This explains why compensation grouting is used (F)."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "The passage says the head rotates slowly but never links this to wear."
+                      },
+                      {
+                        "option": "F",
+                        "why_wrong": "Cleaning and reusing slurry is a feature of slurry machines, not the reason for any of the actions in the beginnings."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "Drifting off route is what the laser guidance system checks, not the reason for any of the actions in the beginnings."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "The pressure of this soil pushes back against the ground ahead and holds it in place"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "Manufacturers have started to fit robotic arms because",
+                  "options": null,
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Changing worn cutters 'may mean working inside the pressurised chamber, which is uncomfortable and dangerous, so manufacturers have begun to fit robotic arms'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "This explains the sealed chamber of an earth pressure balance machine (C)."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "This explains why disc cutters are used in hard rock (B)."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "This explains why compensation grouting is used (F)."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "The passage says the head rotates slowly but never links this to wear."
+                      },
+                      {
+                        "option": "F",
+                        "why_wrong": "Cleaning and reusing slurry is a feature of slurry machines, not the reason for any of the actions in the beginnings."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "Drifting off route is what the laser guidance system checks, not the reason for any of the actions in the beginnings."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "working inside the pressurised chamber, which is uncomfortable and dangerous, so manufacturers have begun to fit robotic arms"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "Engineers sometimes inject grout under the foundations of old buildings because",
+                  "options": null,
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "inference",
+                  "explanation": {
+                    "correct": "Ground movement 'is almost unavoidable', and compensation grouting is used 'to make up for ground that had sunk' beneath historic buildings.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "This explains the sealed chamber of an earth pressure balance machine (C)."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "This explains why disc cutters are used in hard rock (B)."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "This explains why robotic arms are being fitted (E)."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "The passage says the head rotates slowly but never links this to wear."
+                      },
+                      {
+                        "option": "F",
+                        "why_wrong": "Cleaning and reusing slurry is a feature of slurry machines, not the reason for any of the actions in the beginnings."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "Drifting off route is what the laser guidance system checks, not the reason for any of the actions in the beginnings."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "injecting grout into the soil beneath the foundations to make up for ground that had sunk"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_sentence_endings",
+              "instructions": "Complete each sentence with the correct ending, A–G, below.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 9,
+                  "prompt": "What was the name of the older method in which tunnels were built inside a trench dug along a street?",
+                  "options": null,
+                  "answer": [
+                    "cut-and-cover",
+                    "cut and cover"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "'Many were built by a method known as cut-and-cover: workers dug a deep trench along a street'. A hyphenated word counts as one word.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "A",
+                    "quote": "many were built by a method known as cut-and-cover"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "In a slurry machine, what type of clay is mixed with water?",
+                  "options": null,
+                  "answer": [
+                    "bentonite"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The chamber 'is filled with a mixture of water and a fine clay called bentonite'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "a mixture of water and a fine clay called bentonite"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 11,
+                  "prompt": "What does the pilot rely on to keep the machine on its planned route?",
+                  "options": null,
+                  "answer": [
+                    "laser guidance system",
+                    "laser guidance"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The pilot 'relies on a laser guidance system', which shows how far the machine 'has strayed from its planned route'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "who relies on a laser guidance system"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 12,
+                  "prompt": "Whose statue do many tunnelling crews put at the entrance to a tunnel?",
+                  "options": null,
+                  "answer": [
+                    "Saint Barbara",
+                    "St Barbara",
+                    "Barbara"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "'Many crews place a small statue of Saint Barbara ... at the entrance to the tunnel'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "many crews place a small statue of Saint Barbara"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "short_answer",
+              "instructions": "Answer the questions below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 3,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

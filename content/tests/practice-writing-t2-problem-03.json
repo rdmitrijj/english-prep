@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-problem-03",
+  "kind": "practice",
+  "title": "Problem and solution: homes rented to tourists",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "travel-tourism",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "In many popular holiday destinations, a large number of flats and houses are now rented out to tourists for short stays rather than to people who live and work in the area.\n\nWhat problems does this cause? What solutions can you suggest?",
+            "essay_type": "problem_solution",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "practice-writing-t1-bar-03",
+  "kind": "practice",
+  "title": "Bar chart: young adults living with parents",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "society-family",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The bar chart below shows the percentage of adults aged 25 to 34 who lived with their parents in six European countries in 2000 and 2022.",
+            "essay_type": null,
+            "visual": {
+              "type": "bar",
+              "charts": [
+                {
+                  "type": "bar",
+                  "title": "Adults aged 25–34 living with their parents",
+                  "unit": "% of people aged 25–34",
+                  "categories": [
+                    "Italy",
+                    "Spain",
+                    "Poland",
+                    "France",
+                    "UK",
+                    "Sweden"
+                  ],
+                  "series": [
+                    {
+                      "name": "2000",
+                      "values": [
+                        38.0,
+                        30.0,
+                        35.0,
+                        12.0,
+                        14.0,
+                        5.0
+                      ]
+                    },
+                    {
+                      "name": "2022",
+                      "values": [
+                        49.0,
+                        44.0,
+                        45.0,
+                        14.0,
+                        19.0,
+                        6.0
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "url": "/media/visuals/practice-writing-t1-bar-03-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

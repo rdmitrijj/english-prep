@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-advantages-02",
+  "kind": "practice",
+  "title": "Advantages: choosing your own working hours",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "work-economy",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Many companies now allow employees to start and finish work at any time they like, as long as they complete the required number of hours each week.\n\nDo the advantages of this outweigh the disadvantages?",
+            "essay_type": "advantages_disadvantages",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "practice-writing-t1-table-03",
+  "kind": "practice",
+  "title": "Table: home energy use by purpose",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "energy-resources",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The table below shows the amount of energy used by an average home in Germany for five purposes in 1990, 2000, 2010 and 2020.",
+            "essay_type": null,
+            "visual": {
+              "type": "table",
+              "charts": [
+                {
+                  "type": "table",
+                  "title": "Home energy use by purpose, Germany",
+                  "unit": "kWh per year",
+                  "categories": [
+                    "Space heating",
+                    "Water heating",
+                    "Appliances",
+                    "Lighting",
+                    "Cooking"
+                  ],
+                  "series": [
+                    {
+                      "name": "1990",
+                      "values": [
+                        14200.0,
+                        3600.0,
+                        2000.0,
+                        1100.0,
+                        900.0
+                      ]
+                    },
+                    {
+                      "name": "2000",
+                      "values": [
+                        13100.0,
+                        3400.0,
+                        2600.0,
+                        1000.0,
+                        850.0
+                      ]
+                    },
+                    {
+                      "name": "2010",
+                      "values": [
+                        11300.0,
+                        3100.0,
+                        3100.0,
+                        800.0,
+                        800.0
+                      ]
+                    },
+                    {
+                      "name": "2020",
+                      "values": [
+                        9800.0,
+                        2900.0,
+                        3400.0,
+                        400.0,
+                        800.0
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "url": "/media/visuals/practice-writing-t1-table-03-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

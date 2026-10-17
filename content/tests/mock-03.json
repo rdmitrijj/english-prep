@@ -1,0 +1,3687 @@
+{
+  "slug": "mock-03",
+  "kind": "mock",
+  "title": "Academic mock test 03",
+  "status": "needs_review",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T13:04:03+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "listening",
+      "reading"
+    ]
+  },
+  "check_errors": [
+    "L1: audio not rendered yet",
+    "L2: audio not rendered yet",
+    "L3: audio not rendered yet",
+    "L4: audio not rendered yet"
+  ],
+  "sections": [
+    {
+      "skill": "listening",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "social_dialogue",
+          "topic": "health-fitness",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "narrator",
+                "role": "Narrator",
+                "accent": "en-GB",
+                "gender": "male"
+              },
+              {
+                "id": "callum",
+                "role": "Swimming club membership secretary",
+                "accent": "en-NZ",
+                "gender": "male"
+              },
+              {
+                "id": "ruth",
+                "role": "New member",
+                "accent": "en-GB",
+                "gender": "female"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "narrator",
+                "text": "Part 1. You will hear a woman phoning a swimming club because she wants to become a member. First, you have some time to look at questions 1 to 5.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen carefully and answer questions 1 to 5.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Hello, Westbrook Swimming Club, Callum speaking.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "Oh, hi. I'm ringing about joining the club. I've just moved to the area, and I used to swim a lot, so I thought it was time to get back in the water.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Great, you've come to the right place. I can take your details over the phone now, and then you'd just need to sign the form at your first session.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "That would be perfect.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Lovely. So can I start with your name?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "Yes, it's Ruth Tennant.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Ruth. And is that Tenant like someone who rents a flat? T-E-N-A-N-T?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "Almost, but there are two Ns in the middle. So it's T-E-N-N-A-N-T. Tennant.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Got it, sorry about that. And what's your address, Ruth?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "I'm at 25 Mill Lane. Oh no, hang on, that's the number of the flat I've just left. I keep doing that. The new one is 52. So it's 52 Mill Lane.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "No problem. 52 Mill Lane. That's just past the bakery, isn't it?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "That's right, the house with the blue door.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Now, we put adult swimmers into three groups. Blue is for people still building their confidence, then there's silver, and gold is really for people who race in competitions. How would you describe your swimming?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "Well, I swam for my school team, and I can still manage about a kilometre of front crawl without stopping. So I suppose gold might be right for me?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Maybe eventually, but the gold group trains pretty hard. Since you've had a break, I'd suggest you start in silver, and the coach can move you up after a few weeks if you find it too easy.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "Yes, that sounds sensible.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Silver has two sessions a week, Monday and Wednesday, and most people come to one of them. Which would suit you better?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "Monday would be ideal, really, because I work late on Wednesdays.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Ah, I'm afraid Monday's completely full at the moment. There's a waiting list.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "Oh, that's a shame. Well, I could probably swap my late shift. Let's say Wednesday, then.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Brilliant. The Wednesday session is at the leisure centre pool on Station Road. The pool's open to the public until 8 o'clock, so our session starts at 8.15 and finishes at a quarter past nine.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "That's quite late, but it's fine.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen and answer questions 6 to 10.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "Is there anything I need to bring with me? I've still got my old goggles somewhere, I think.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Well, goggles are up to you, really. And every member gets a free club swimming cap, so don't buy one of those. But the coach does ask everyone in silver to bring their own fins, because she uses them a lot for leg training.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "Fins? You mean flippers?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Exactly, flippers. Short ones are best. We've got a few at the pool, but there are never enough to go round.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "OK. And what about the cost? I saw something about a joining fee.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Yes, there's a one-off joining fee, which covers your insurance and the club cap. It's usually 40 pounds, but if you join before the end of the month, it's only 20 pounds.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "Oh, good timing, then. And then there's a monthly fee as well?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "That's right. It's 38 pounds a month, paid by direct debit. That includes your coaching and the pool hire. Now, the form also asks about any medical conditions the coach should know about. Is there anything like that?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "Well, I had an operation on my knee a few years ago, but that's completely healed now. The only thing is that I have asthma. It's very mild, and I always keep my inhaler with me.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "OK, I'll put down asthma, then. Just leave your inhaler at the side of the pool where the coach can see it.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "Will do. Oh, and is it easy to park at the leisure centre?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Not really. The car park at the front gets very busy because of the gym. Some people use the supermarket car park across the road, but they've started giving fines to anyone who isn't shopping there. So the best thing is to use the free car park behind the church. It's only a two-minute walk. Right, last question. We like to know how people found out about us. Was it through a friend, or something else?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "I think it was an advert in the local paper. No, actually, I'm wrong. I heard about you on the radio. There was an interview with one of your coaches on the breakfast show.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "callum",
+                "text": "Oh, that would have been Helen. I'll put down radio, then. Well, that's everything, Ruth. We'll see you next Wednesday.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "ruth",
+                "text": "Thanks so much, Callum. See you then.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "That is the end of Part 1. You now have half a minute to check your answers.",
+                "pause_after_s": 30.0
+              }
+            ]
+          },
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": null,
+              "layout": {
+                "title": "Westbrook Swimming Club: new member form",
+                "template": "Name: Ruth {1}\nAddress: {2} Mill Lane, Westbrook\nGroup: {3}\nTraining night: {4}\nSession starts at: {5} pm\nVenue: leisure centre pool, Station Road\nEquipment to bring: {6}\nJoining fee: £{7}\nMonthly fee: £38 (direct debit)\nMedical condition: {8}\nParking: free car park behind the {9}\nHeard about the club on the {10}",
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "Name",
+                  "options": null,
+                  "answer": [
+                    "Tennant"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The surname is spelled T-E-N-N-A-N-T, with two Ns in the middle.",
+                    "distractors": [
+                      {
+                        "option": "Tenant",
+                        "why_wrong": "Callum's first spelling, with one N; Ruth corrects it."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "9",
+                    "quote": "T-E-N-N-A-N-T"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "Address",
+                  "options": null,
+                  "answer": [
+                    "52"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'The new one is 52. So it's 52 Mill Lane.'",
+                    "distractors": [
+                      {
+                        "option": "25",
+                        "why_wrong": "Ruth's old flat number; she corrects herself."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "11",
+                    "quote": "The new one is 52"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "Group",
+                  "options": null,
+                  "answer": [
+                    "silver"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Callum suggests she 'start in silver' and Ruth agrees it 'sounds sensible'.",
+                    "distractors": [
+                      {
+                        "option": "gold",
+                        "why_wrong": "Ruth suggests gold, but Callum says the gold group trains too hard after her break."
+                      },
+                      {
+                        "option": "blue",
+                        "why_wrong": "Blue is for people still building confidence."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "16",
+                    "quote": "I'd suggest you start in silver"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "Training night",
+                  "options": null,
+                  "answer": [
+                    "Wednesday"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Monday is full, so Ruth says 'Let's say Wednesday, then'.",
+                    "distractors": [
+                      {
+                        "option": "Monday",
+                        "why_wrong": "Ruth's first choice, but the Monday session is full and has a waiting list."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "21",
+                    "quote": "Let's say Wednesday, then"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "Session start time",
+                  "options": null,
+                  "answer": [
+                    "8.15",
+                    "8:15",
+                    "eight fifteen"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Our session starts at 8.15'.",
+                    "distractors": [
+                      {
+                        "option": "8",
+                        "why_wrong": "The pool is open to the public until 8 o'clock."
+                      },
+                      {
+                        "option": "9.15",
+                        "why_wrong": "The session finishes at a quarter past nine."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "22",
+                    "quote": "our session starts at 8.15"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 6,
+                  "prompt": "Equipment to bring",
+                  "options": null,
+                  "answer": [
+                    "fins",
+                    "flippers"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The coach asks everyone in silver 'to bring their own fins' (flippers).",
+                    "distractors": [
+                      {
+                        "option": "goggles",
+                        "why_wrong": "Goggles are optional ('up to you')."
+                      },
+                      {
+                        "option": "cap",
+                        "why_wrong": "Every member is given a club swimming cap."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "27",
+                    "quote": "bring their own fins"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "Joining fee",
+                  "options": null,
+                  "answer": [
+                    "20"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The fee is usually 40 pounds, but with this month's offer 'it's only 20 pounds'.",
+                    "distractors": [
+                      {
+                        "option": "40",
+                        "why_wrong": "The usual joining fee, not the offer price."
+                      },
+                      {
+                        "option": "38",
+                        "why_wrong": "The monthly fee."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "31",
+                    "quote": "it's only 20 pounds"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "Medical condition",
+                  "options": null,
+                  "answer": [
+                    "asthma"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'The only thing is that I have asthma' and Callum puts down asthma.",
+                    "distractors": [
+                      {
+                        "option": "knee",
+                        "why_wrong": "Her knee operation has completely healed, so it is not recorded."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "35",
+                    "quote": "I'll put down asthma"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 9,
+                  "prompt": "Parking",
+                  "options": null,
+                  "answer": [
+                    "church"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'The best thing is to use the free car park behind the church'.",
+                    "distractors": [
+                      {
+                        "option": "supermarket",
+                        "why_wrong": "Drivers who are not shopping get fined there."
+                      },
+                      {
+                        "option": "gym",
+                        "why_wrong": "The front car park is very busy because of the gym."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "37",
+                    "quote": "the free car park behind the church"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "How she heard about the club",
+                  "options": null,
+                  "answer": [
+                    "radio"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "She first says the local paper, then corrects herself: 'I heard about you on the radio'.",
+                    "distractors": [
+                      {
+                        "option": "paper",
+                        "why_wrong": "Ruth's first guess, which she says is wrong."
+                      },
+                      {
+                        "option": "friend",
+                        "why_wrong": "Callum suggests a friend, but she heard an interview on the radio."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "38",
+                    "quote": "I heard about you on the radio"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "form_completion",
+              "instructions": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.",
+              "max_words": 1,
+              "allow_number": true,
+              "pick": 1
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "context": "social_monologue",
+          "topic": "local-services",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "narrator",
+                "role": "Narrator",
+                "accent": "en-GB",
+                "gender": "male"
+              },
+              {
+                "id": "librarian",
+                "role": "Library manager",
+                "accent": "en-CA",
+                "gender": "female"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "narrator",
+                "text": "Part 2. You will hear a librarian talking to a group of local residents about their refurbished community library. First, you have some time to look at questions 11 to 15.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen carefully and answer questions 11 to 15.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "librarian",
+                "text": "Good evening, everyone, and thank you for coming. My name's Carla Novak, and I'm the manager here at Kingsmead Community Library. As you know, we've been closed for eight months while the building was refurbished, and we're finally ready to reopen on Saturday. So I wanted to tell you what's changed and what's stayed the same.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "librarian",
+                "text": "Let's start with the children's corner, which is still in the same place on the ground floor, just to the left of the main entrance. We did think about moving it upstairs, where there's more room, but parents told us very clearly that they didn't want to carry pushchairs up the stairs, so it's exactly the same size as before. What's different is the design. We held three workshops last spring with local families, and the children themselves drew the reading den and the little stage you'll see there.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "librarian",
+                "text": "Next to that, where the old magazine section used to be, are our four new study rooms. These are quiet rooms with a table, six chairs and a large screen, ideal for revising together or holding a meeting. A lot of libraries charge for rooms like these, but ours are completely free. The one thing to remember is that they're very popular, so you'll need to reserve one online, up to a week ahead.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "librarian",
+                "text": "Now, the local history room. For years it was squeezed into the basement, and the damp down there wasn't doing the old maps any good. So it's now on the top floor, in what used to be the staff office, and it has proper climate control. Many people think you need an appointment to look at the collection, but that's not the case. You can just walk in any time the library's open.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "librarian",
+                "text": "Something many of you asked for in our survey was a café, and I'm happy to say we now have one, run by a local charity that trains young people in catering. The library itself opens at nine, but the café opens its doors at eight every weekday, so you can grab a coffee on your way to work. It closes when we do, at six.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "librarian",
+                "text": "And finally, the digital lab on the first floor. It'll have computers with design software, a laser cutter and two 3D printers. When we first planned it, the idea was to keep it just for teenagers, but we've decided it should be open to all ages. Unfortunately, the printers have been held up by the supplier, and the room still needs its electrics checking, so the lab won't actually be ready until the spring.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Before you hear the rest of the talk, you have some time to look at questions 16 to 20.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen and answer questions 16 to 20.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "librarian",
+                "text": "Now, a few practical changes. First, opening hours. In the survey, the most common request was for later opening on weekday evenings, but the budget simply wouldn't stretch to the extra staff. We also looked at opening earlier on Saturdays, but hardly anyone said they'd come in before ten. What we have managed to do is open on Sundays for the first time, from one until five in the afternoon. Weekday and Saturday hours stay exactly as they were.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "librarian",
+                "text": "You'll also notice the self-service machines by the entrance. They work just like the old ones for borrowing and returning, and the limit is still twelve items per card, so nothing's changed there. The new thing is that they can now take payments, so if you've used the printer or the photocopier, you can pay for it at the machine with a card instead of queuing at the desk. And the machines aren't there to replace staff: there will always be someone at the desk.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "librarian",
+                "text": "Joining the library has also become easier. Until now you had to come in person and fill in a paper form, but you can now join online through our website, and your card will be ready to collect the next time you visit. Children under twelve still need a parent or carer to sign for them, I'm afraid; that rule hasn't changed. And a question I get asked every week: no, your card won't work in other libraries in the county yet.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "librarian",
+                "text": "Now, Saturday's reopening. We'd originally planned for the day to begin with a talk by Grace Allardyce, the crime writer, but her train doesn't get in until eleven, so she'll be speaking just before lunch instead. So at ten o'clock, the doors will open with the choir from Hill Street Primary School singing on the front steps, and after that there'll be guided tours of the building every hour through the afternoon.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "librarian",
+                "text": "Last of all, how you can help. Lots of you have offered to donate books, which is kind, but our shelves are full, so please keep them for the summer book sale. The Friends of Kingsmead group is also doing well; they've got more members now than at any time in the last ten years. What we're really short of is volunteers for the after-school homework club, which starts again next month. If you could spare one afternoon a week, please put your name on the list by the door. Thank you, and see you on Saturday.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "That is the end of Part 2. You now have half a minute to check your answers.",
+                "pause_after_s": 30.0
+              }
+            ]
+          },
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "It opens earlier than the rest of the building."
+                },
+                {
+                  "letter": "B",
+                  "text": "It can be booked in advance."
+                },
+                {
+                  "letter": "C",
+                  "text": "It is not ready for use yet."
+                },
+                {
+                  "letter": "D",
+                  "text": "It has moved to a different floor."
+                },
+                {
+                  "letter": "E",
+                  "text": "It has been made larger."
+                },
+                {
+                  "letter": "F",
+                  "text": "It is only for teenagers."
+                },
+                {
+                  "letter": "G",
+                  "text": "It was designed with help from local people."
+                }
+              ],
+              "layout": {
+                "title": "What does the speaker say about each of the following areas of the library?",
+                "template": null,
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 11,
+                  "prompt": "the children's corner",
+                  "options": null,
+                  "answer": [
+                    "G"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'We held three workshops last spring with local families, and the children themselves drew the reading den' = designed with help from local people.",
+                    "distractors": [
+                      {
+                        "option": "D",
+                        "why_wrong": "It is 'still in the same place on the ground floor'; moving it upstairs was rejected."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "It is 'exactly the same size as before'."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "3",
+                    "quote": "we held three workshops last spring with local families"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 12,
+                  "prompt": "the study rooms",
+                  "options": null,
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'You'll need to reserve one online, up to a week ahead' = they can be booked in advance.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "4",
+                    "quote": "you'll need to reserve one online, up to a week ahead"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 13,
+                  "prompt": "the local history room",
+                  "options": null,
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "It was in the basement and 'it's now on the top floor' = it has moved to a different floor.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "People think you need an appointment, but you can just walk in."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "5",
+                    "quote": "So it's now on the top floor"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 14,
+                  "prompt": "the café",
+                  "options": null,
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "The library opens at nine 'but the café opens its doors at eight' = it opens earlier than the rest of the building.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "6",
+                    "quote": "the café opens its doors at eight every weekday"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 15,
+                  "prompt": "the digital lab",
+                  "options": null,
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'The lab won't actually be ready until the spring' = it is not ready for use yet.",
+                    "distractors": [
+                      {
+                        "option": "F",
+                        "why_wrong": "It was first meant for teenagers, but it will be open to all ages."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "7",
+                    "quote": "the lab won't actually be ready until the spring"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching",
+              "instructions": "Choose FIVE answers from the box and move them into the gaps next to Questions 11–15.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 16,
+                  "prompt": "What change has been made to the library's opening hours?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "It stays open later on weekday evenings."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "It opens earlier on Saturdays."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "It opens on Sunday afternoons."
+                    }
+                  ],
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'What we have managed to do is open on Sundays for the first time, from one until five in the afternoon.'",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Later weekday opening was the most popular request, but the budget would not pay for it."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Earlier Saturday opening was considered, but hardly anyone wanted it."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "10",
+                    "quote": "open on Sundays for the first time, from one until five in the afternoon"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 17,
+                  "prompt": "What is new about the self-service machines?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "Users can borrow more items at once."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "Users can pay for printing at them."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "They will replace the staff at the desk."
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'If you've used the printer or the photocopier, you can pay for it at the machine' = users can pay for printing at them.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The limit is 'still twelve items per card', so nothing has changed."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "She says 'the machines aren't there to replace staff'."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "11",
+                    "quote": "you can pay for it at the machine with a card"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 18,
+                  "prompt": "What does the speaker say about joining the library?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "Children can now join without an adult."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "People can now apply on the internet."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "The card can now be used in other libraries in the county."
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'You can now join online through our website' = people can now apply on the internet.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Children under twelve still need a parent or carer to sign; 'that rule hasn't changed'."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The card won't work in other libraries in the county yet."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "12",
+                    "quote": "you can now join online through our website"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 19,
+                  "prompt": "What will happen first at the reopening on Saturday?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "a talk by a local writer"
+                    },
+                    {
+                      "letter": "B",
+                      "text": "a performance by schoolchildren"
+                    },
+                    {
+                      "letter": "C",
+                      "text": "a guided tour of the building"
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "At ten o'clock 'the doors will open with the choir from Hill Street Primary School singing' = a performance by schoolchildren.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The talk was planned to come first, but the writer's train arrives at eleven, so she speaks before lunch."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Guided tours come after the choir, through the afternoon."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "13",
+                    "quote": "the doors will open with the choir from Hill Street Primary School"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 20,
+                  "prompt": "What does the library need most at the moment?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "donated books"
+                    },
+                    {
+                      "letter": "B",
+                      "text": "new members for the Friends group"
+                    },
+                    {
+                      "letter": "C",
+                      "text": "helpers for a homework club"
+                    }
+                  ],
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'What we're really short of is volunteers for the after-school homework club' = helpers for a homework club.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The shelves are full, so people should keep their books for the summer book sale."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "The Friends group has more members than at any time in ten years."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "14",
+                    "quote": "What we're really short of is volunteers for the after-school homework club"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose the correct letter, A, B or C.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "context": "academic_discussion",
+          "topic": "business-economics",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "narrator",
+                "role": "Narrator",
+                "accent": "en-GB",
+                "gender": "male"
+              },
+              {
+                "id": "tutor",
+                "role": "Business studies tutor",
+                "accent": "en-GB",
+                "gender": "female"
+              },
+              {
+                "id": "maya",
+                "role": "Student",
+                "accent": "en-AU",
+                "gender": "female"
+              },
+              {
+                "id": "josh",
+                "role": "Student",
+                "accent": "en-US",
+                "gender": "male"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "narrator",
+                "text": "Part 3. You will hear two business students, Maya and Josh, discussing their case study of a small chocolate company with their tutor. First, you have some time to look at questions 21 to 26.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen carefully and answer questions 21 to 26.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Come in, both of you. So, you've chosen Fernhill Chocolate for your small business case study. How's it going?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "maya",
+                "text": "Really well. Just to recap, it was set up about six years ago by a woman called Clare Dunmore, in a converted barn, and it now employs twenty-two people.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "We've mostly been trying to work out why it grew so quickly in its first three years.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "And what have you found?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "Well, my first thought was the award. They won a prize for their dark chocolate in their second year. But when we looked at the sales figures, there wasn't really any jump afterwards. And it was only a regional award anyway, so I don't think many people heard about it.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "maya",
+                "text": "No. And it wasn't supermarkets either. A big chain actually offered them a contract in year two, but Clare turned it down because they wanted a forty per cent discount.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "So where did the growth come from?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "maya",
+                "text": "Mostly from the way they used social media. Instead of just posting pictures of the chocolate, Clare shared stories about the farmers in Ecuador who grow the beans: their families, how they dry the beans, that kind of thing. Their followers went from a few hundred to thirty thousand in a year, and online orders rose just as fast.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "The other big thing was the workshops. Every Saturday they run a chocolate-making class in the barn, and they're booked up months in advance. People also buy loads of bars to take home.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Did they ever consider a shop or a café on site?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "maya",
+                "text": "They looked into opening a café next to the barn, but the planning rules for the site made it far too expensive, so they dropped the idea.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Good. Now, you said you'd describe how the chocolate is actually made. Have you got that worked out?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "Yes, we visited last week. They do every stage themselves. The beans come in sacks straight from a cooperative of growers in Ecuador, and the first job is sorting them by hand to take out any broken ones.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "maya",
+                "text": "Then they're roasted. When Clare started, she tried using a coffee roaster, but the beans kept burning on the outside. So now she uses a second-hand pizza oven. Apparently it gives a much more even heat.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "After roasting, the shells have to come off. The beans are cracked into small pieces, called nibs, and then the shells are blown away. Commercial machines cost thousands, so Clare's brother built one out of a plastic pipe and an ordinary hair dryer. It looks ridiculous, but it works perfectly.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Wonderful. And then the grinding?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "maya",
+                "text": "Yes, the nibs go into a stone grinder with sugar. I assumed that would take a few hours, but it's much longer than that. They leave it running for three days, until the chocolate is completely smooth. Some big manufacturers only grind for about twelve hours.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "And then it's tempered, poured into moulds and wrapped. The wrapping's interesting, actually. For the first two years they used foil and plastic, but customers kept complaining, so now the bars come in a compostable film made from corn starch.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Before you hear the rest of the discussion, you have some time to look at questions 27 to 30.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen and answer questions 27 to 30.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Let's move on to the more recent period. Last year they moved out of the barn into a proper factory unit. What did you find out about that?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "I expected the big issue would be finding staff, because chocolate making is quite a specialist skill. But Clare said recruitment was easy: they had over a hundred applications for six jobs. And all the new machinery was delivered on schedule.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "maya",
+                "text": "The real shock was energy. The factory has to be kept cool all year round, and their electricity bills were nearly three times what they'd paid in the barn.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "And on top of that, the price of cocoa rose sharply. How did they respond?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "maya",
+                "text": "Well, a lot of companies have been quietly making their bars smaller and keeping the price the same, but Clare thought customers would feel cheated if they noticed. She also refused to switch to cheaper beans from a different supplier.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "So in the end they just put the price up by thirty pence a bar, and Clare wrote a blog post explaining exactly why. Sales hardly dropped at all.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Interesting. Now, I've read your draft, and overall it's good. The financial section is very thorough, and your conclusion follows logically from the evidence. Where I think it's weakest is the comparison with other businesses. You only looked at one competitor, and it's a huge multinational, so it isn't really a fair comparison.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "That's fair. We could add two or three other small chocolate makers, I suppose.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "Yes, do that. And what are you planning to do next?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "I thought we should read more about the global cocoa market, to put the price rise in context.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "maya",
+                "text": "Hmm, I think we've already got enough on that. What would really help is talking to Clare again. She said she'd be happy to do a video call.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "tutor",
+                "text": "I agree with Maya. The market background is fine as it is. A second interview with the founder would give you much stronger material for your final section.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "josh",
+                "text": "OK, I'll email her this afternoon to set it up.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "That is the end of Part 3. You now have half a minute to check your answers.",
+                "pause_after_s": 30.0
+              }
+            ]
+          },
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "winning a national prize"
+                },
+                {
+                  "letter": "B",
+                  "text": "a contract with a supermarket chain"
+                },
+                {
+                  "letter": "C",
+                  "text": "posts about the people who grow its cocoa"
+                },
+                {
+                  "letter": "D",
+                  "text": "opening a café next to the factory"
+                },
+                {
+                  "letter": "E",
+                  "text": "running weekend classes for the public"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 21,
+                  "prompt": "Which TWO things helped Fernhill Chocolate to grow in its first three years?",
+                  "options": null,
+                  "answer": [
+                    "C",
+                    "E"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "C: 'Clare shared stories about the farmers in Ecuador who grow the beans' on social media = posts about the people who grow its cocoa. E: 'Every Saturday they run a chocolate-making class' = running weekend classes for the public.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The award was only regional, and sales did not jump afterwards."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Clare turned the supermarket contract down."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "The café idea was dropped because planning rules made it too expensive."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "9",
+                    "quote": "Clare shared stories about the farmers in Ecuador who grow the beans"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 22,
+                  "prompt": "Which TWO things helped Fernhill Chocolate to grow in its first three years?",
+                  "options": null,
+                  "answer": [
+                    "C",
+                    "E"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "C: 'Clare shared stories about the farmers in Ecuador who grow the beans' on social media = posts about the people who grow its cocoa. E: 'Every Saturday they run a chocolate-making class' = running weekend classes for the public.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The award was only regional, and sales did not jump afterwards."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Clare turned the supermarket contract down."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "The café idea was dropped because planning rules made it too expensive."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "10",
+                    "quote": "Every Saturday they run a chocolate-making class in the barn"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose TWO letters, A–E.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 2
+            },
+            {
+              "options": null,
+              "layout": {
+                "title": "Fernhill Chocolate: how the chocolate is made",
+                "template": null,
+                "table": null,
+                "steps": [
+                  "Beans delivered from a cooperative of growers in Ecuador",
+                  "Beans sorted by hand to remove broken ones",
+                  "Beans roasted in a second-hand {23}",
+                  "Beans cracked into nibs; shells blown away by a home-made machine using a {24}",
+                  "Nibs and sugar ground in a stone grinder for {25}",
+                  "Chocolate tempered and poured into moulds",
+                  "Bars wrapped in compostable film made from {26}"
+                ]
+              },
+              "questions": [
+                {
+                  "number": 23,
+                  "prompt": "Roasting",
+                  "options": null,
+                  "answer": [
+                    "pizza oven"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Now she uses a second-hand pizza oven'.",
+                    "distractors": [
+                      {
+                        "option": "coffee roaster",
+                        "why_wrong": "Clare's first attempt; the beans burned on the outside."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "15",
+                    "quote": "she uses a second-hand pizza oven"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 24,
+                  "prompt": "Removing the shells",
+                  "options": null,
+                  "answer": [
+                    "hair dryer",
+                    "hairdryer",
+                    "hair-dryer"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Her brother built the machine 'out of a plastic pipe and an ordinary hair dryer'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "16",
+                    "quote": "an ordinary hair dryer"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 25,
+                  "prompt": "Grinding time",
+                  "options": null,
+                  "answer": [
+                    "three days",
+                    "3 days"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'They leave it running for three days, until the chocolate is completely smooth.'",
+                    "distractors": [
+                      {
+                        "option": "a few hours",
+                        "why_wrong": "Maya's assumption, which was wrong."
+                      },
+                      {
+                        "option": "twelve hours",
+                        "why_wrong": "How long some big manufacturers grind for."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "18",
+                    "quote": "They leave it running for three days"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 26,
+                  "prompt": "Wrapping",
+                  "options": null,
+                  "answer": [
+                    "corn starch",
+                    "cornstarch",
+                    "corn-starch"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The bars come 'in a compostable film made from corn starch'.",
+                    "distractors": [
+                      {
+                        "option": "foil",
+                        "why_wrong": "Foil and plastic were used only in the first two years."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "19",
+                    "quote": "a compostable film made from corn starch"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "flowchart_completion",
+              "instructions": "Complete the flow-chart below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+              "max_words": 2,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 27,
+                  "prompt": "What was the main difficulty after the company moved into a factory?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "recruiting skilled staff"
+                    },
+                    {
+                      "letter": "B",
+                      "text": "the cost of energy"
+                    },
+                    {
+                      "letter": "C",
+                      "text": "delays in receiving equipment"
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'The real shock was energy': electricity bills were nearly three times higher = the cost of energy.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Josh expected staffing to be a problem, but recruitment was easy."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The machinery was delivered on schedule."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "24",
+                    "quote": "The real shock was energy"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 28,
+                  "prompt": "How did the company respond to the rise in the price of cocoa?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "It reduced the size of its bars."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "It began buying cheaper beans."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "It charged customers more."
+                    }
+                  ],
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'They just put the price up by thirty pence a bar' = it charged customers more.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Other companies made their bars smaller; Clare thought customers would feel cheated."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Clare refused to switch to cheaper beans."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "27",
+                    "quote": "they just put the price up by thirty pence a bar"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 29,
+                  "prompt": "What does the tutor think is the weakest part of the students' draft?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "the financial section"
+                    },
+                    {
+                      "letter": "B",
+                      "text": "the comparison with competitors"
+                    },
+                    {
+                      "letter": "C",
+                      "text": "the conclusion"
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Where I think it's weakest is the comparison with other businesses': they only looked at one competitor.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The tutor says the financial section is very thorough."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The tutor says the conclusion follows logically from the evidence."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "28",
+                    "quote": "Where I think it's weakest is the comparison with other businesses"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 30,
+                  "prompt": "What will the students do next?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "arrange another interview with the company's founder"
+                    },
+                    {
+                      "letter": "B",
+                      "text": "do more research on the cocoa market"
+                    },
+                    {
+                      "letter": "C",
+                      "text": "rewrite their conclusion"
+                    }
+                  ],
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "inference",
+                  "explanation": {
+                    "correct": "Maya suggests talking to Clare again, the tutor agrees that 'a second interview with the founder' would help, and Josh will email her to set it up.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "Josh suggests reading more about the cocoa market, but Maya and the tutor say the background is fine as it is."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The tutor has already said the conclusion is logical; they will add material to the final section, not rewrite the conclusion."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "33",
+                    "quote": "A second interview with the founder would give you much stronger material"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose the correct letter, A, B or C.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "context": "academic_lecture",
+          "topic": "history-archaeology",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "narrator",
+                "role": "Narrator",
+                "accent": "en-GB",
+                "gender": "male"
+              },
+              {
+                "id": "lecturer",
+                "role": "Lecturer",
+                "accent": "en-AU",
+                "gender": "male"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "narrator",
+                "text": "Part 4. You will hear a lecture about the history of lighthouses. First, you have some time to look at questions 31 to 40.",
+                "pause_after_s": 45.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen carefully and answer questions 31 to 40.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Good morning, everyone. Today, in our series on maritime history, I'm going to look at lighthouses: how the technology behind them changed, and how sailors learned to tell one light from another.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "The most famous lighthouse of the ancient world was, of course, the Pharos of Alexandria, built in Egypt in the third century BC. Ancient accounts suggest it was well over a hundred metres tall, with a fire burning at the top. Remarkably, it stood for something like fifteen hundred years. It's often assumed that it was destroyed in a war, or by invaders, but in fact the historical records point clearly to a series of earthquakes, which damaged it again and again until the last parts collapsed in the fourteenth century.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "After the Roman period, very few new lighthouses were built in Europe for centuries. Where coastal lights did exist in the medieval period, they were usually looked after not by governments or by merchants but by monks, who saw keeping a light burning for sailors as a religious duty.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "By the seventeenth century, though, lighthouses had become a business. In England, for example, private individuals could obtain the right to build a lighthouse, and they made their money by collecting a toll from every ship that passed it or came into a nearby port. People sometimes describe this as a tax, but that's misleading, because none of the money went to the state. Some owners became extremely rich, and shipowners complained about the quality of the lights they were paying for.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "And they had a point. Most early lighthouses burned coal in an open iron basket at the top of the tower. On a calm night this worked quite well, but in wind and rain the fire would die down, and the keeper had to spend hours working a pair of bellows to keep it bright enough to be seen. It was exhausting work, and a single coal light could use several hundred tonnes of fuel a year.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Enclosing the light behind glass solved the problem of the wind, so towers began to use candles, and later oil lamps, inside a glass room called the lantern. But this created a new difficulty. The lamps produced a great deal of smoke, and soot built up on the inside of the glass so quickly that half the light could be hidden within a few hours.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "The real breakthrough came in the 1820s, from the French physicist Augustin Fresnel. Until then, the best lighthouses used large curved mirrors behind the lamp to direct the light out to sea. These mirrors were heavy, and they wasted a lot of the light. Fresnel replaced them with a lens made of rings of glass prisms, arranged around the lamp a bit like a beehive, which bent almost all of the light into a single powerful beam. A light that had been visible for a few miles could now be seen from more than twenty miles away.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Now, as the number of lighthouses grew, a new problem appeared. If a sailor could see a light, how did he know which lighthouse it was? Mistaking one for another could be just as dangerous as having no light at all.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "During the day, the answer was the tower itself. Many lighthouses were painted with stripes, either horizontal bands or spirals, in black and white or red and white, so that each one had its own distinctive appearance from the sea. These patterns are known as daymarks, and many of them are still in use today.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "At night, of course, the paint is no help, so each light was given what's called a characteristic: a particular pattern of flashes and dark periods. One light might flash twice every ten seconds, another once every five. To produce these flashes, the lens had to turn smoothly at a precise speed. The solution, from the 1890s onwards, was to float the whole lens on a bath of mercury, which allowed a lens weighing several tonnes to be turned by a simple clockwork mechanism. The disadvantage, as we now know, is that mercury is highly toxic, and many keepers suffered from its effects.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "The third method was for fog, when neither the tower nor the light could be seen. The earliest fog signals were bells, and at some stations cannons were fired at regular intervals. By the late nineteenth century, these had largely been replaced by sirens, powered by compressed air, which could be heard several miles away. Even so, sound behaves unpredictably over water, and sailors were warned never to rely on a fog signal alone.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Finally, in the twentieth century, lighthouses began to send out radio signals. From the 1920s, radio beacons allowed ships with the right equipment to identify a station, and even work out its direction, in thick fog and from far beyond the range of any light. Each beacon transmitted its own identity in Morse code, a short sequence of dots and dashes repeated over and over.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Today, of course, most ships rely on satellite navigation, and almost every lighthouse in the world is automatic. Next week, we'll look at the lives of the keepers themselves.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "That is the end of Part 4. You now have half a minute to check your answers.",
+                "pause_after_s": 30.0
+              }
+            ]
+          },
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": null,
+              "layout": {
+                "title": "The history of lighthouses",
+                "template": "Early lights\n- the Pharos of Alexandria stood for about 1,500 years and was finally destroyed by {31}\n- in medieval Europe, coastal lights were usually kept by {32}\n\nPrivate lighthouses (17th century)\n- owners earned money by collecting a {33} from ships\n- shipowners complained about the quality of the lights\n\nLight sources\n- coal fires: in wind and rain, keepers used {34} to keep the fire bright\n- oil lamps: {35} on the glass could hide much of the light\n- Fresnel lens (1820s): rings of glass prisms replaced heavy curved {36}",
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 31,
+                  "prompt": "Pharos of Alexandria destroyed by",
+                  "options": null,
+                  "answer": [
+                    "earthquakes",
+                    "earthquake"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The records 'point clearly to a series of earthquakes' that damaged it until it collapsed.",
+                    "distractors": [
+                      {
+                        "option": "war",
+                        "why_wrong": "It is 'often assumed' it was destroyed in a war, but the lecturer rejects this."
+                      },
+                      {
+                        "option": "invaders",
+                        "why_wrong": "Rejected together with war."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "3",
+                    "quote": "a series of earthquakes"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 32,
+                  "prompt": "medieval lights kept by",
+                  "options": null,
+                  "answer": [
+                    "monks"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Lights were 'looked after not by governments or by merchants but by monks' (looked after = kept).",
+                    "distractors": [
+                      {
+                        "option": "governments",
+                        "why_wrong": "Explicitly ruled out."
+                      },
+                      {
+                        "option": "merchants",
+                        "why_wrong": "Explicitly ruled out."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "4",
+                    "quote": "not by governments or by merchants but by monks"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 33,
+                  "prompt": "owners' income",
+                  "options": null,
+                  "answer": [
+                    "toll"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Owners 'made their money by collecting a toll from every ship'.",
+                    "distractors": [
+                      {
+                        "option": "tax",
+                        "why_wrong": "The lecturer says calling it a tax is misleading, because none of the money went to the state."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "5",
+                    "quote": "collecting a toll from every ship"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 34,
+                  "prompt": "keeping coal fires bright",
+                  "options": null,
+                  "answer": [
+                    "bellows"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "In wind and rain the keeper had to spend hours 'working a pair of bellows to keep it bright enough to be seen'.",
+                    "distractors": [
+                      {
+                        "option": "coal",
+                        "why_wrong": "Coal is the fuel, not what keepers used to keep the fire bright."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "6",
+                    "quote": "working a pair of bellows"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 35,
+                  "prompt": "problem with oil lamps",
+                  "options": null,
+                  "answer": [
+                    "soot"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'Soot built up on the inside of the glass so quickly that half the light could be hidden'.",
+                    "distractors": [
+                      {
+                        "option": "smoke",
+                        "why_wrong": "The smoke produced the soot; what built up on the glass was soot."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "7",
+                    "quote": "soot built up on the inside of the glass"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 36,
+                  "prompt": "replaced by the Fresnel lens",
+                  "options": null,
+                  "answer": [
+                    "mirrors"
+                  ],
+                  "difficulty": 5,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "The best lighthouses used 'large curved mirrors'; 'these mirrors were heavy' and 'Fresnel replaced them' with a lens of glass prisms.",
+                    "distractors": [
+                      {
+                        "option": "prisms",
+                        "why_wrong": "The prisms are what the Fresnel lens is made of, not what it replaced."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "8",
+                    "quote": "large curved mirrors behind the lamp"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "note_completion",
+              "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+              "max_words": 1,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": {
+                "title": "Ways of identifying lighthouses",
+                "template": null,
+                "table": {
+                  "columns": [
+                    "Method",
+                    "Used",
+                    "Details"
+                  ],
+                  "rows": [
+                    [
+                      "Daymarks",
+                      "by day",
+                      "towers painted with {37}, e.g. red and white"
+                    ],
+                    [
+                      "Light characteristic",
+                      "at night",
+                      "each light has its own pattern of flashes; heavy lens floated on {38} so it could turn smoothly (toxic to keepers)"
+                    ],
+                    [
+                      "Fog signals",
+                      "in fog",
+                      "first bells and cannons; later {39} powered by compressed air"
+                    ],
+                    [
+                      "Radio beacons",
+                      "from the 1920s",
+                      "each station sent its identity in {40} code"
+                    ]
+                  ]
+                },
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 37,
+                  "prompt": "Daymarks",
+                  "options": null,
+                  "answer": [
+                    "stripes"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Many lighthouses were painted with stripes, either horizontal bands or spirals'.",
+                    "distractors": [
+                      {
+                        "option": "spirals",
+                        "why_wrong": "A type of stripe pattern, not the general word that fits with 'e.g. red and white'."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "10",
+                    "quote": "Many lighthouses were painted with stripes"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 38,
+                  "prompt": "Light characteristic",
+                  "options": null,
+                  "answer": [
+                    "mercury"
+                  ],
+                  "difficulty": 5,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The solution was 'to float the whole lens on a bath of mercury', which is highly toxic.",
+                    "distractors": [
+                      {
+                        "option": "clockwork",
+                        "why_wrong": "Clockwork turned the lens; the lens floated on mercury."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "11",
+                    "quote": "float the whole lens on a bath of mercury"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 39,
+                  "prompt": "Fog signals",
+                  "options": null,
+                  "answer": [
+                    "sirens",
+                    "siren"
+                  ],
+                  "difficulty": 5,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Bells and cannons 'had largely been replaced by sirens, powered by compressed air'.",
+                    "distractors": [
+                      {
+                        "option": "bells",
+                        "why_wrong": "The earliest fog signals, which sirens replaced."
+                      },
+                      {
+                        "option": "cannons",
+                        "why_wrong": "Also replaced by sirens."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "12",
+                    "quote": "replaced by sirens, powered by compressed air"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 40,
+                  "prompt": "Radio beacons",
+                  "options": null,
+                  "answer": [
+                    "Morse"
+                  ],
+                  "difficulty": 5,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Each beacon transmitted its own identity in Morse code'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "13",
+                    "quote": "Each beacon transmitted its own identity in Morse code"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "table_completion",
+              "instructions": "Complete the table below.\nWrite ONE WORD ONLY for each answer.",
+              "max_words": 1,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "reading",
+      "duration_s": 3600,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_reading",
+          "topic": "astronomy-physics",
+          "passage": {
+            "title": "Searching for distant worlds",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "For most of human history, the idea that other stars might have planets of their own was a matter for philosophers rather than astronomers. Today it is a matter of routine measurement. More than five thousand planets orbiting other stars, known as exoplanets, have now been confirmed, and new candidates are announced almost every week. Yet very few of these worlds have ever been seen directly. A planet shines only by reflecting the light of its star, and from many light years away it is lost in that star's glare, rather like a firefly circling a powerful searchlight. Instead, astronomers have learnt to detect planets by the effects they have on the stars they orbit."
+              },
+              {
+                "label": "B",
+                "text": "The first successful technique relied on the fact that a planet does not simply circle a stationary star. Both bodies actually orbit a shared centre of mass, so as the planet travels around, the star makes a small, regular movement of its own, drifting slightly towards the Earth and then away again. This wobble cannot be seen in photographs, but it can be detected in the star's light, which appears very slightly bluer as the star approaches and redder as it moves away. In 1995 this method revealed the first planet known to orbit an ordinary Sun-like star: a giant world, about half the mass of Jupiter, that completes an orbit in just over four days. Its discovery surprised many astronomers, who had not expected such a large planet to exist so close to its star."
+              },
+              {
+                "label": "C",
+                "text": "The method that has since produced the largest number of discoveries works in a different way. If a planet's orbit happens to be lined up so that, seen from the Earth, it passes directly in front of its star, it blocks a tiny fraction of the star's light. This event is called a transit. A planet the size of Jupiter crossing a star like the Sun reduces its brightness by about one per cent; an Earth-sized planet, by less than one hundredth of one per cent. Because only a small proportion of planetary orbits are aligned in this way, astronomers cannot study stars one at a time. They need to watch huge numbers simultaneously. The Kepler space telescope, launched in 2009, monitored roughly 150,000 stars in a single patch of sky, measuring the brightness of each one every half an hour for four years."
+              },
+              {
+                "label": "D",
+                "text": "According to Dr Ingrid Solberg of the Halvard Observatory, who has spent fifteen years analysing data of this kind, the work begins with a graph. For every star, the measurements of brightness are plotted against time to produce what is called a light curve. Computer programs then search each light curve for a shallow dip, the sign that something may have crossed the face of the star. A single dip, Solberg warns, proves very little, since dark spots on the star's surface or a brief fault in the instrument can produce a similar effect. The team therefore waits until it has recorded at least three dips of the same depth, separated by equal intervals. The time between them gives the planet's orbital period, while the depth of each dip reveals how large the planet is compared with its star."
+              },
+              {
+                "label": "E",
+                "text": "Even a regular signal may be misleading. The most common source of confusion is a so-called eclipsing binary: a pair of stars that orbit each other and take turns to pass in front of one another. If such a pair lies far behind the target star, its faint light can blend with the target's, creating dips that look remarkably like those of a planet. In one survey, Solberg's group found that roughly one candidate in five had to be rejected for this reason. Astronomers therefore look carefully at the shape of each dip, since a star partly hidden by another star tends to produce a V-shaped curve, while a planet usually produces a flatter, U-shaped one. They also compare alternate dips: if every second dip is deeper than the others, two stars of different brightness are probably responsible."
+              },
+              {
+                "label": "F",
+                "text": "A candidate that survives these tests is not yet a confirmed planet. The next step is to turn a large ground-based telescope towards the star and, using an instrument called a spectrograph, look for the wobble described earlier. This combination of methods is especially powerful. The transit reveals the planet's diameter, while the wobble reveals its mass, and from these two figures astronomers can calculate its density. Dr Kwame Asante of Northmoor University, who leads a follow-up programme, describes density as 'the first real clue to what a world is made of'. A dense planet is likely to be rocky, like the Earth, whereas one with a low density is probably composed largely of gas."
+              },
+              {
+                "label": "G",
+                "text": "Transits offer one further opportunity. As a planet crosses its star, a little starlight passes through the planet's atmosphere on its way to us, and the gases there absorb particular colours. By comparing the light during and outside a transit, astronomers have detected water vapour, carbon dioxide and other substances in the atmospheres of distant worlds. The technique has limitations, however. Large planets in tight orbits are the easiest to find, so current catalogues contain far more of them than the galaxy probably does. A planet resembling the Earth, orbiting a star like the Sun once a year, produces only one faint dip every twelve months, and confirming it requires several years of patient observation."
+              }
+            ],
+            "glossary": []
+          },
+          "script": null,
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "Most of the exoplanets known today have been observed directly.",
+                  "options": null,
+                  "answer": [
+                    "FALSE"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Paragraph A says 'very few of these worlds have ever been seen directly', which contradicts 'most'.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "The passage says very few have been seen directly, the opposite of most."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The passage gives a clear statement on this: very few have been seen directly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "A",
+                    "quote": "Yet very few of these worlds have ever been seen directly"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "The planet discovered in 1995 was found with a telescope in space.",
+                  "options": null,
+                  "answer": [
+                    "NOT GIVEN"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Paragraph B says the 1995 planet was found by the wobble method but does not say what kind of telescope was used or where it was. The only space telescope mentioned (Kepler, paragraph C) was launched in 2009.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "Nothing in paragraph B says the observation was made from space."
+                      },
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "The passage does not say it was a ground-based telescope either, so it cannot be contradicted."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "In 1995 this method revealed the first planet known to orbit an ordinary Sun-like star"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "Most planetary orbits are positioned so that transits can be seen from the Earth.",
+                  "options": null,
+                  "answer": [
+                    "FALSE"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Paragraph C says 'only a small proportion of planetary orbits are aligned in this way', contradicting 'most'.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "Only a small proportion of orbits are aligned, which is why many stars must be watched at once."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The passage states directly that only a small proportion are aligned."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "only a small proportion of planetary orbits are aligned in this way"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "Kepler measured the brightness of each of its target stars more than once an hour.",
+                  "options": null,
+                  "answer": [
+                    "TRUE"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Kepler measured each star 'every half an hour', i.e. twice an hour, which is more than once an hour.",
+                    "distractors": [
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "Every half an hour is more frequent than once an hour, so the statement agrees with the text."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The frequency is given: every half an hour."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "measuring the brightness of each one every half an hour for four years"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "How much a star's brightness falls during a transit indicates how big the planet is relative to the star.",
+                  "options": null,
+                  "answer": [
+                    "TRUE"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'The depth of each dip reveals how large the planet is compared with its star': depth of dip = how much the brightness falls; compared with = relative to.",
+                    "distractors": [
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "The passage confirms this; it is the time between dips, not their depth, that gives the period."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "Paragraph D states this directly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "the depth of each dip reveals how large the planet is compared with its star"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 6,
+                  "prompt": "Eclipsing binaries are more common in some regions of the sky than in others.",
+                  "options": null,
+                  "answer": [
+                    "NOT GIVEN"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Paragraph E describes eclipsing binaries and how often they caused rejections in one survey, but says nothing about where in the sky they are more or less common.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "No comparison between regions of the sky is made."
+                      },
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "Nothing says they are evenly spread either; the point is simply not discussed."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "The most common source of confusion is a so-called eclipsing binary"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "Existing lists of exoplanets probably give an accurate picture of the planets in the galaxy.",
+                  "options": null,
+                  "answer": [
+                    "FALSE"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "inference",
+                  "explanation": {
+                    "correct": "Paragraph G says current catalogues 'contain far more of them [large planets in tight orbits] than the galaxy probably does', so the catalogues are biased, not accurate.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "The passage says the catalogues over-represent large, close-in planets."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The passage directly says the catalogues differ from the galaxy's real population."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "so current catalogues contain far more of them than the galaxy probably does"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "tfng",
+              "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nChoose\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": {
+                "title": "Finding a planet by the transit method",
+                "template": null,
+                "table": null,
+                "steps": [
+                  "Measure each star's brightness repeatedly and plot it against time on a graph known as a {8}",
+                  "Search for a shallow dip in brightness",
+                  "Wait for at least three dips of the same depth, separated by equal {9}",
+                  "Use the time between dips to calculate the planet's {10}",
+                  "Check the shape of each dip to rule out an {11} (two stars passing in front of each other)",
+                  "Point a large ground-based telescope at the star and measure its wobble with a {12}",
+                  "Combine the planet's diameter and mass to calculate its {13}, which suggests whether it is rocky or gaseous"
+                ]
+              },
+              "questions": [
+                {
+                  "number": 8,
+                  "prompt": "plot brightness on a graph known as a …",
+                  "options": null,
+                  "answer": [
+                    "light curve"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "Measurements of brightness 'are plotted against time to produce what is called a light curve'.",
+                    "distractors": [
+                      {
+                        "option": "graph",
+                        "why_wrong": "The flow-chart already says the plot is a graph; the gap asks for its name, 'light curve'."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "plotted against time to produce what is called a light curve"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 9,
+                  "prompt": "dips separated by equal …",
+                  "options": null,
+                  "answer": [
+                    "intervals"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The team waits for 'at least three dips of the same depth, separated by equal intervals'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "separated by equal intervals"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "use the time between dips to calculate the planet's …",
+                  "options": null,
+                  "answer": [
+                    "orbital period"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'The time between them gives the planet's orbital period'.",
+                    "distractors": [
+                      {
+                        "option": "size",
+                        "why_wrong": "Size comes from the depth of the dips, not the time between them."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "The time between them gives the planet's orbital period"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 11,
+                  "prompt": "check the shape of each dip to rule out an …",
+                  "options": null,
+                  "answer": [
+                    "eclipsing binary"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The most common source of confusion is 'a so-called eclipsing binary'; astronomers examine the shape of each dip (V-shaped versus U-shaped) to tell it apart from a planet.",
+                    "distractors": [
+                      {
+                        "option": "background pair",
+                        "why_wrong": "Not a phrase used in the passage."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "The most common source of confusion is a so-called eclipsing binary"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 12,
+                  "prompt": "measure the star's wobble with a …",
+                  "options": null,
+                  "answer": [
+                    "spectrograph"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "A large ground-based telescope is used with 'an instrument called a spectrograph' to look for the wobble.",
+                    "distractors": [
+                      {
+                        "option": "telescope",
+                        "why_wrong": "The telescope carries the instrument; the gap asks for the instrument used to detect the wobble."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "using an instrument called a spectrograph, look for the wobble"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 13,
+                  "prompt": "combine diameter and mass to calculate the planet's …",
+                  "options": null,
+                  "answer": [
+                    "density"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'From these two figures astronomers can calculate its density'.",
+                    "distractors": [
+                      {
+                        "option": "mass",
+                        "why_wrong": "Mass is one of the two figures combined, not the result."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "from these two figures astronomers can calculate its density"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "flowchart_completion",
+              "instructions": "Complete the flow-chart below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 2,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "context": "academic_reading",
+          "topic": "arts-culture",
+          "passage": {
+            "title": "The return of the hand loom",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "On a weekday morning in Kelderby, a small market town in the north of England, the clatter of wooden looms can be heard from a converted chapel on the high street. Inside, eleven weavers are at work, and a notice by the door explains that the waiting list for apprenticeships is now closed for the year. Thirty years ago this scene would have seemed impossible. Kelderby cloth, a dense woollen fabric once worn by farmers and shepherds across the region, was widely regarded as a dead craft, of interest only to museums. Its return raises questions not only about how traditional skills are rescued, but about what exactly is being rescued, and for whom."
+              },
+              {
+                "label": "B",
+                "text": "The cloth has a long history. From the early eighteenth century it was woven by families in their own cottages, using wool from local sheep, and sold to merchants who visited the town on market days. At the height of the trade, in the 1850s, there were said to be around two thousand hand looms in Kelderby and the surrounding villages. The arrival of power looms in large mills, which could produce cloth far more cheaply, brought a long decline. By 1900 only a few hundred hand-weavers remained, and after the Second World War their number fell to a handful. In 1987 the last of them, Walter Penrose, closed his workshop, and his looms were stored in a neighbour's barn."
+              },
+              {
+                "label": "C",
+                "text": "The revival began almost by accident. In 1994 Elspeth Rowan, a textile designer from Glasgow, bought Penrose's looms at an auction, intending to use them for her own experimental work. She soon became fascinated by the cloth itself. Penrose, then in his eighties, agreed to teach her, but much of what she needed to know was contained in a set of family pattern books written in a private notation that even he could only partly read. Rowan spent two winters decoding it with the help of a retired engineer before she could reproduce the traditional designs. From the start, she insisted that the cloth should not become a museum piece. 'A craft survives only if people want to wear what it makes,' she says. 'Otherwise you are just preserving a performance.'"
+              },
+              {
+                "label": "D",
+                "text": "Not everyone accepts that what Kelderby produces today is the same cloth. Dr Anil Mehta, a textile historian at Northgate University, points out that most of the revived fabric is woven from soft merino wool imported from abroad, and coloured with synthetic dyes in shades that would have astonished Penrose's grandparents. The original cloth, by contrast, was made from coarse local fleece and dyed with plants such as heather and lichen. Yet Mehta does not regard this as a failure. Traditions, he argues, have always changed to suit new markets, and the weavers of the 1850s were themselves quick to copy fashionable patterns from elsewhere. In his view, a revival is always partly an invention, and there is nothing dishonest about that."
+              },
+              {
+                "label": "E",
+                "text": "The economics of the craft remain difficult. A length of cloth large enough for a single jacket takes an experienced weaver about three days to make, and as a result hand-woven Kelderby cloth costs roughly ten times as much as a similar fabric from a modern mill. Hannah Kowalczyk, who advises a regional crafts council, describes the market as small but loyal. Buyers, she says, are paying for the story and for the maker's name as much as for the cloth itself. Since online sales began in 2011, demand has grown steadily, but Kowalczyk sees a danger in this. Weavers cannot easily increase their output, and some have been tempted to use partly mechanised looms, a practice she believes could damage the reputation that the revival has built."
+              },
+              {
+                "label": "F",
+                "text": "Learning the craft properly takes time. Rowan estimates that an apprentice needs around five years to become fully skilled, and the workshop accepts only two new trainees each year. Most are in their twenties, and a surprising number have left office jobs to take up the loom. The sociologist Dr Grace Okafor, who interviewed forty craft workers in northern England for a recent study, found that few of them were motivated mainly by money. What they valued most was control over how they spent their working day and the satisfaction of producing a finished object. However, Okafor also found that more than half depended on a partner's income or a second job, which suggests that the revival rests on a fragile base."
+              },
+              {
+                "label": "G",
+                "text": "The cloth's recent fame has brought its own tensions. In 2016 the Swedish fashion designer Tobias Lindqvist used Kelderby cloth in a collection shown in Paris, arguing that hand-made fabric gives clothing an authenticity that factories cannot imitate. Orders increased sharply. Some residents, however, felt that the cloth their grandparents had worn for work was being turned into a luxury that they could no longer afford. Rowan takes these concerns seriously. The question, she suggests, is no longer whether the craft will survive, but who it will survive for."
+              }
+            ],
+            "glossary": []
+          },
+          "script": null,
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "Paragraph A"
+                },
+                {
+                  "letter": "B",
+                  "text": "Paragraph B"
+                },
+                {
+                  "letter": "C",
+                  "text": "Paragraph C"
+                },
+                {
+                  "letter": "D",
+                  "text": "Paragraph D"
+                },
+                {
+                  "letter": "E",
+                  "text": "Paragraph E"
+                },
+                {
+                  "letter": "F",
+                  "text": "Paragraph F"
+                },
+                {
+                  "letter": "G",
+                  "text": "Paragraph G"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 14,
+                  "prompt": "a reference to a written record that was difficult to understand",
+                  "options": null,
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "Penrose's pattern books were 'written in a private notation that even he could only partly read', and Rowan needed two winters to decode it.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "B mentions Penrose's workshop and looms, not any written record."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "D discusses materials and dyes, not documents."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "written in a private notation that even he could only partly read"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 15,
+                  "prompt": "a contrast between how the cloth was coloured in the past and how it is coloured now",
+                  "options": null,
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "D sets the modern 'synthetic dyes' against the original cloth 'dyed with plants such as heather and lichen'.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "B mentions the wool from local sheep but says nothing about colour or dyes."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "G is about price and fashion, not colouring."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "dyed with plants such as heather and lichen"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 16,
+                  "prompt": "a description of the building where the weavers work today",
+                  "options": null,
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "The looms are heard 'from a converted chapel on the high street', where eleven weavers now work.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "B mentions cottages and a barn, but these belong to the past, not to today's workshop."
+                      },
+                      {
+                        "option": "F",
+                        "why_wrong": "F describes the workshop's trainees, not the building."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "A",
+                    "quote": "from a converted chapel on the high street"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 17,
+                  "prompt": "an estimate of how many looms there were when the trade was most successful",
+                  "options": null,
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "'At the height of the trade, in the 1850s, there were said to be around two thousand hand looms'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "A gives the number of weavers working today (eleven), not the historical peak."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "E mentions partly mechanised looms but gives no number."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "At the height of the trade, in the 1850s, there were said to be around two thousand hand looms"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 18,
+                  "prompt": "a concern that local people can no longer buy the cloth",
+                  "options": null,
+                  "answer": [
+                    "G"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "Some residents felt the cloth 'was being turned into a luxury that they could no longer afford'.",
+                    "distractors": [
+                      {
+                        "option": "E",
+                        "why_wrong": "E says the cloth is expensive, but the concern there is about mechanised looms and reputation."
+                      },
+                      {
+                        "option": "A",
+                        "why_wrong": "A asks 'for whom' the craft is rescued but does not mention buying the cloth."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "was being turned into a luxury that they could no longer afford"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_information",
+              "instructions": "Reading Passage 2 has 7 paragraphs, A–G.\nWhich paragraph contains the following information?\nNB You may use any letter more than once.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "Elspeth Rowan"
+                },
+                {
+                  "letter": "B",
+                  "text": "Anil Mehta"
+                },
+                {
+                  "letter": "C",
+                  "text": "Hannah Kowalczyk"
+                },
+                {
+                  "letter": "D",
+                  "text": "Grace Okafor"
+                },
+                {
+                  "letter": "E",
+                  "text": "Tobias Lindqvist"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 19,
+                  "prompt": "Altering a traditional product is not a form of deception.",
+                  "options": null,
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Mehta says a revival is always partly an invention 'and there is nothing dishonest about that'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Rowan's views concern the craft needing to make things people wear, and who the craft survives for."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Kowalczyk talks about the market, buyers' motives and the risk of mechanised looms."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Okafor studied craft workers' motives and finances."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "Lindqvist's view is that hand-made fabric gives clothing authenticity."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "there is nothing dishonest about that"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 20,
+                  "prompt": "Rising demand could lead to methods that harm the craft's good name.",
+                  "options": null,
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Kowalczyk 'sees a danger' in growing demand: partly mechanised looms could 'damage the reputation that the revival has built'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Rowan's views concern the craft needing to make things people wear, and who the craft survives for."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Mehta's view is that changing a tradition is not dishonest."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Okafor studied craft workers' motives and finances."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "Lindqvist's view is that hand-made fabric gives clothing authenticity."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "a practice she believes could damage the reputation that the revival has built"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 21,
+                  "prompt": "A traditional skill will only last if it produces things people actually use.",
+                  "options": null,
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Rowan: 'A craft survives only if people want to wear what it makes'.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "Mehta's view is that changing a tradition is not dishonest."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Kowalczyk talks about the market, buyers' motives and the risk of mechanised looms."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Okafor studied craft workers' motives and finances."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "Lindqvist's view is that hand-made fabric gives clothing authenticity."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "A craft survives only if people want to wear what it makes"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 22,
+                  "prompt": "Independence at work matters more to many craftspeople than their earnings.",
+                  "options": null,
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Okafor found few were 'motivated mainly by money'; they most valued 'control over how they spent their working day'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Rowan's views concern the craft needing to make things people wear, and who the craft survives for."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Mehta's view is that changing a tradition is not dishonest."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Kowalczyk talks about the market, buyers' motives and the risk of mechanised looms."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "Lindqvist's view is that hand-made fabric gives clothing authenticity."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "What they valued most was control over how they spent their working day"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_features",
+              "instructions": "Look at the following statements (Questions 19–22) and the list below.\nMatch each statement with the correct option, A–E.\nNB You may use any letter more than once.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": {
+                "title": "Making a living from hand-weaving",
+                "template": "Because a jacket length takes about three days to weave, Kelderby cloth costs around ten times as much as fabric from a {23}. Even so, customers are willing to pay for the story behind the cloth and for the {24} of the weaver. Becoming fully skilled takes about five years, and most of the apprentices who undertake this training are in their {25}. Many craft workers are not financially secure: more than half of those in Okafor's study rely on a second job or on a partner's {26}.",
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 23,
+                  "prompt": "fabric from a …",
+                  "options": null,
+                  "answer": [
+                    "mill"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Kelderby cloth costs 'roughly ten times as much as a similar fabric from a modern mill'.",
+                    "distractors": [
+                      {
+                        "option": "factory",
+                        "why_wrong": "'Factories' appears only in paragraph G, in Lindqvist's comment, not in the price comparison."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "roughly ten times as much as a similar fabric from a modern mill"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 24,
+                  "prompt": "the … of the weaver",
+                  "options": null,
+                  "answer": [
+                    "name"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Buyers 'are paying for the story and for the maker's name'; maker = weaver.",
+                    "distractors": [
+                      {
+                        "option": "story",
+                        "why_wrong": "The story is already mentioned in the same sentence of the summary."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "paying for the story and for the maker's name"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 25,
+                  "prompt": "most apprentices are in their …",
+                  "options": null,
+                  "answer": [
+                    "twenties"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "'Most are in their twenties', referring to the workshop's trainees.",
+                    "distractors": [
+                      {
+                        "option": "eighties",
+                        "why_wrong": "Penrose was in his eighties; this is not about the apprentices."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "Most are in their twenties"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 26,
+                  "prompt": "a second job or a partner's …",
+                  "options": null,
+                  "answer": [
+                    "income"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "More than half 'depended on a partner's income or a second job'.",
+                    "distractors": [
+                      {
+                        "option": "money",
+                        "why_wrong": "Money is mentioned as a motive, but the passage's phrase is 'a partner's income'."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "depended on a partner's income or a second job"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "summary_completion",
+              "instructions": "Complete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 1,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "context": "academic_reading",
+          "topic": "business-economics",
+          "passage": {
+            "title": "The four-day week: a result, not a remedy",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "Few ideas about work have travelled so quickly from the margins to the mainstream as the four-day week. A decade ago it was the preserve of a handful of campaigning groups and unusually idealistic employers; today it is debated in parliaments, tested by large companies and promised in election manifestos. The appeal is obvious. The five-day week, itself the outcome of long campaigns in the early twentieth century, has remained essentially unchanged for generations, while the technology with which we work has been transformed beyond recognition. Surely, the argument runs, the dividends of that transformation should be paid partly in time. I have some sympathy with this view. But the evidence offered in its support is thinner, and far more conditional, than its advocates tend to admit."
+              },
+              {
+                "label": "B",
+                "text": "The case rests largely on a series of organised trials. The most widely cited, coordinated by the Corran Institute, involved 74 organisations, ranging from software developers to a fish-and-chip shop, which reduced working hours by a fifth for six months while keeping pay unchanged. The reported outcomes were remarkable. Sickness absence fell by around a third, staff described markedly lower levels of exhaustion, and revenues across the participating firms remained broadly stable. Perhaps most tellingly, nine in ten of the organisations chose to continue with the shorter week once the trial had ended. For many commentators, the matter was settled."
+              },
+              {
+                "label": "C",
+                "text": "It should not have been. Every firm in the trial had volunteered, and organisations that volunteer for such an experiment are, almost by definition, those whose managers already believe it will succeed and whose work is most easily reorganised. Much of the evidence, moreover, came from surveys in which employees reported their own well-being and productivity, knowing that a favourable verdict would help to secure the extra day off. Even the revenue figures are difficult to interpret over a period as short as six months, during which the novelty of the arrangement may itself have lifted morale and effort. None of this proves that the results were wrong. It means only that they tell us what happened in an enthusiastic and self-selected group, not what would happen if the policy were adopted widely."
+              },
+              {
+                "label": "D",
+                "text": "A more useful question is where the gains came from, when they did occur. Dr Leonie Marchetti of the Valemont School of Management, who has studied the trial firms in detail, finds a striking pattern. Organisations that used the change as an opportunity to redesign work – cancelling routine meetings, protecting periods of uninterrupted concentration and abandoning tasks that no longer served any purpose – generally maintained their output. Those that simply compressed forty hours into four longer days fared much worse, reporting fatigue, mistakes and, eventually, a quiet return to the old pattern. The lesson, as I read it, is that the extra day is not in itself the source of any benefit. It is the reward for eliminating waste, and where there is little waste to eliminate, there is little to reward."
+              },
+              {
+                "label": "E",
+                "text": "That distinction matters enormously, because a large part of the economy does not work in the way that offices do. In a hospital ward, a classroom or a care home, the service consists largely of being present: a nurse who works fewer hours is not a nurse who finishes the same work faster, but one who is absent for a day that someone else must cover. When the city of Strandvik shortened shifts in two of its residential homes for the elderly, staff reported better health and lower turnover, but the authority had to recruit fourteen additional carers to maintain the same level of care, and the experiment was abandoned after two years on grounds of cost. The improvement was real; so was the bill."
+              },
+              {
+                "label": "F",
+                "text": "There is a further risk, which advocates rarely address. If the four-day week spreads chiefly among professionals whose output is hard to observe and easy to compress, while nurses, drivers and shop assistants continue to work five days or more, the result will be a new and highly visible division in the labour market. Leisure time, already unequally distributed, would become still more so, and the gain would go to precisely those workers who are already the best paid. Surveys suggest that many employees would in any case prefer greater flexibility over when they work to a fixed reduction in the number of days, but this preference receives far less attention than the more eye-catching proposal."
+              },
+              {
+                "label": "G",
+                "text": "None of this means that the four-day week should be dismissed. Where it emerges from a genuine reorganisation of work, it appears to benefit both employees and employers, and firms should be free to pursue it. What I doubt is the wisdom of treating it as a target, still less of imposing it by law, as some politicians now propose. A legal requirement would push hospitals and schools towards the costly arithmetic of Strandvik, while doing little for productivity in offices where the necessary reorganisation has not taken place. A better course would be for governments to invest in measuring output more accurately, particularly in services, so that firms can see where time is being wasted. Shorter weeks may well follow. They should be the result of working better, not a substitute for it."
+              }
+            ],
+            "glossary": []
+          },
+          "script": null,
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": [
+                {
+                  "letter": "i",
+                  "text": "The historical origins of the five-day week"
+                },
+                {
+                  "letter": "ii",
+                  "text": "The real source of the benefits"
+                },
+                {
+                  "letter": "iii",
+                  "text": "Allowing rather than requiring a shorter week"
+                },
+                {
+                  "letter": "iv",
+                  "text": "Impressive findings from a large-scale test"
+                },
+                {
+                  "letter": "v",
+                  "text": "Employees who would rather choose their own hours"
+                },
+                {
+                  "letter": "vi",
+                  "text": "Work in which being there is the job itself"
+                },
+                {
+                  "letter": "vii",
+                  "text": "Why early evidence may not apply more widely"
+                },
+                {
+                  "letter": "viii",
+                  "text": "A change that could widen an existing gap"
+                },
+                {
+                  "letter": "ix",
+                  "text": "How technology has reduced the need for office work"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 27,
+                  "prompt": "Paragraph B",
+                  "options": null,
+                  "answer": [
+                    "iv"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "B reports the Corran trial (74 organisations) and its 'remarkable' outcomes.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "The origins of the five-day week are a passing detail in paragraph A only."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Employees' preference for flexibility is a minor point at the end of paragraph F, not its main idea."
+                      },
+                      {
+                        "option": "ix",
+                        "why_wrong": "Technology is mentioned only briefly in paragraph A, and the passage never says it reduced office work."
+                      },
+                      {
+                        "option": "vii",
+                        "why_wrong": "Doubts about the evidence come in paragraph C, not B."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "The reported outcomes were remarkable"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 28,
+                  "prompt": "Paragraph C",
+                  "options": null,
+                  "answer": [
+                    "vii"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "C argues the trial firms were volunteers and self-selected, so the results show what happened in an enthusiastic group, 'not what would happen if the policy were adopted widely'.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "The origins of the five-day week are a passing detail in paragraph A only."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Employees' preference for flexibility is a minor point at the end of paragraph F, not its main idea."
+                      },
+                      {
+                        "option": "ix",
+                        "why_wrong": "Technology is mentioned only briefly in paragraph A, and the passage never says it reduced office work."
+                      },
+                      {
+                        "option": "iv",
+                        "why_wrong": "C questions the findings rather than presenting them."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "not what would happen if the policy were adopted widely"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 29,
+                  "prompt": "Paragraph D",
+                  "options": null,
+                  "answer": [
+                    "ii"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "D asks 'where the gains came from' and concludes they came from redesigning work, not from the extra day.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "The origins of the five-day week are a passing detail in paragraph A only."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Employees' preference for flexibility is a minor point at the end of paragraph F, not its main idea."
+                      },
+                      {
+                        "option": "ix",
+                        "why_wrong": "Technology is mentioned only briefly in paragraph A, and the passage never says it reduced office work."
+                      },
+                      {
+                        "option": "vii",
+                        "why_wrong": "D does not question the evidence; it explains where the gains originated."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "A more useful question is where the gains came from, when they did occur"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 30,
+                  "prompt": "Paragraph E",
+                  "options": null,
+                  "answer": [
+                    "vi"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "E says that in hospitals, classrooms and care homes 'the service consists largely of being present'.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "The origins of the five-day week are a passing detail in paragraph A only."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Employees' preference for flexibility is a minor point at the end of paragraph F, not its main idea."
+                      },
+                      {
+                        "option": "ix",
+                        "why_wrong": "Technology is mentioned only briefly in paragraph A, and the passage never says it reduced office work."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "E is about jobs where gains cannot come from working faster, not about the source of gains."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "the service consists largely of being present"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 31,
+                  "prompt": "Paragraph F",
+                  "options": null,
+                  "answer": [
+                    "viii"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "F warns of 'a new and highly visible division in the labour market', with leisure 'already unequally distributed' becoming 'still more so'.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "The origins of the five-day week are a passing detail in paragraph A only."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Employees' preference for flexibility is a minor point at the end of paragraph F, not its main idea."
+                      },
+                      {
+                        "option": "ix",
+                        "why_wrong": "Technology is mentioned only briefly in paragraph A, and the passage never says it reduced office work."
+                      },
+                      {
+                        "option": "vi",
+                        "why_wrong": "Nurses and drivers are mentioned, but the main idea is inequality between groups of workers."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "Leisure time, already unequally distributed, would become still more so"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 32,
+                  "prompt": "Paragraph G",
+                  "options": null,
+                  "answer": [
+                    "iii"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "G says firms 'should be free to pursue it' but doubts the wisdom of 'imposing it by law'.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "The origins of the five-day week are a passing detail in paragraph A only."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "Employees' preference for flexibility is a minor point at the end of paragraph F, not its main idea."
+                      },
+                      {
+                        "option": "ix",
+                        "why_wrong": "Technology is mentioned only briefly in paragraph A, and the passage never says it reduced office work."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "G recommends a policy approach rather than explaining where benefits come from."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "firms should be free to pursue it"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_headings",
+              "instructions": "Reading Passage 3 has 7 paragraphs, A–G.\nChoose the correct heading for each paragraph from the list of headings below.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 33,
+                  "prompt": "Small businesses find it easier than large ones to introduce a four-day week.",
+                  "options": null,
+                  "answer": [
+                    "NOT GIVEN"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The Corran trial included firms from software developers to a fish-and-chip shop, but the writer never compares how easily small and large firms adopt the shorter week.",
+                    "distractors": [
+                      {
+                        "option": "YES",
+                        "why_wrong": "Firm size is not discussed as a factor anywhere."
+                      },
+                      {
+                        "option": "NO",
+                        "why_wrong": "The writer does not say large firms find it easier either."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "ranging from software developers to a fish-and-chip shop"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 34,
+                  "prompt": "The organisations in the Corran trial were probably better suited to a shorter week than most businesses.",
+                  "options": null,
+                  "answer": [
+                    "YES"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer says volunteering firms are 'almost by definition' those whose managers believe it will work 'and whose work is most easily reorganised', so they were not typical.",
+                    "distractors": [
+                      {
+                        "option": "NO",
+                        "why_wrong": "The writer argues exactly this: the firms were self-selected and easy to reorganise."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer clearly expresses this view in paragraph C."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "those whose managers already believe it will succeed and whose work is most easily reorganised"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 35,
+                  "prompt": "The additional free day is itself the main cause of the improvements some firms experienced.",
+                  "options": null,
+                  "answer": [
+                    "NO"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer says 'the extra day is not in itself the source of any benefit'; the benefits come from eliminating waste.",
+                    "distractors": [
+                      {
+                        "option": "YES",
+                        "why_wrong": "The writer explicitly rejects this idea."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer gives a clear view in paragraph D."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "the extra day is not in itself the source of any benefit"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 36,
+                  "prompt": "More accurate measurement of output would help firms to identify wasted time.",
+                  "options": null,
+                  "answer": [
+                    "YES"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer recommends investment in 'measuring output more accurately … so that firms can see where time is being wasted'.",
+                    "distractors": [
+                      {
+                        "option": "NO",
+                        "why_wrong": "The writer proposes better measurement precisely for this reason."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The writer states this in paragraph G."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "so that firms can see where time is being wasted"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "ynng",
+              "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3?\nChoose\nYES if the statement agrees with the claims of the writer\nNO if the statement contradicts the claims of the writer\nNOT GIVEN if it is impossible to say what the writer thinks about this",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 37,
+                  "prompt": "What point does the writer make about the employee surveys in the Corran trial?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "Too few employees took part in them for the results to be reliable."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "Those answering had a personal reason to give positive responses."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "They measured how employees felt but not how much they produced."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "They were carried out only after the trial had ended."
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "inference",
+                  "explanation": {
+                    "correct": "Employees reported their own well-being and productivity 'knowing that a favourable verdict would help to secure the extra day off', so they had a personal interest in positive answers.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The number of employees surveyed is never criticised."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "The surveys covered both 'well-being and productivity'."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "The timing of the surveys is not mentioned."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "knowing that a favourable verdict would help to secure the extra day off"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 38,
+                  "prompt": "According to Marchetti, the organisations that maintained their output were those that",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "recruited extra staff to cover the day off."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "changed the way their work was organised."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "made each of the remaining working days longer."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "had been most eager to join the trial."
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Firms that 'used the change as an opportunity to redesign work' generally 'maintained their output'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Hiring extra staff is mentioned only for Strandvik, not by Marchetti."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Firms that compressed hours into longer days 'fared much worse'."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Volunteering is discussed by the writer in paragraph C, not as Marchetti's finding."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "used the change as an opportunity to redesign work"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 39,
+                  "prompt": "The writer uses the example of Strandvik to show that",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "shorter shifts did not improve care workers' health."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "staff are more likely to leave when their hours are reduced."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "in some jobs a shorter week can only be achieved by employing more people."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "residential homes are often less efficiently managed than offices."
+                    }
+                  ],
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "Staff health improved but 'the authority had to recruit fourteen additional carers to maintain the same level of care': in jobs based on being present, a shorter week means employing more people.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Staff 'reported better health', the opposite."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Turnover fell ('lower turnover'), it did not rise."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Nothing suggests the homes were badly run; the problem was cost."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "the authority had to recruit fourteen additional carers to maintain the same level of care"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 40,
+                  "prompt": "What is the writer's main argument in the passage?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "The four-day week is an unrealistic idea that should be abandoned."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "Governments should require all employers to offer a four-day week."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "A shorter week should follow from better ways of working rather than be imposed as a goal."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "The trials have proved that a four-day week benefits employers and employees alike."
+                    }
+                  ],
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 5,
+                  "sub_skill": "writer_view",
+                  "explanation": {
+                    "correct": "The writer says the four-day week benefits firms where it 'emerges from a genuine reorganisation of work' but doubts 'treating it as a target' or 'imposing it by law': shorter weeks 'should be the result of working better'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The writer says 'None of this means that the four-day week should be dismissed'."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "The writer doubts the wisdom of imposing it by law."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "The writer argues the trials show what happened in a self-selected group, not that it works generally."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "They should be the result of working better, not a substitute for it"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose the correct letter, A, B, C or D.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "skill": "writing",
+      "duration_s": 3600,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "energy-resources",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The diagram below shows how drinking water is produced from seawater.",
+            "essay_type": null,
+            "visual": {
+              "type": "process",
+              "charts": [],
+              "description": "Process diagram titled \"Producing drinking water from seawater\", with eight numbered stages linked by arrows and one waste product. Stage 1: seawater is drawn in through an intake pipe. Stage 2: it passes through screens that remove fish and seaweed. Stage 3: it is filtered through sand to remove smaller particles. Stage 4: high-pressure pumps force the water through fine membranes. From stage 4 the process divides: the salty waste water (brine) is pumped back into the sea (shown in a dashed box, not numbered), while the fresh water (labelled \"fresh water\" on the arrow) continues to stage 5, where minerals are added to improve its taste. Stage 6: it is disinfected with chlorine. Stage 7: it is stored in covered tanks. Stage 8: it is piped to homes and businesses.",
+              "url": "/media/visuals/mock-03-t1.svg"
+            }
+          },
+          "groups": []
+        },
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "work-economy",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Because of email and messaging apps, many employees are now expected to stay in contact with their workplace in the evenings, at weekends and even on holiday.\n\nWhat problems does this cause? What solutions can you suggest?",
+            "essay_type": "problem_solution",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

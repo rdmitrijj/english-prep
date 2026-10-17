@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-discussion-02",
+  "kind": "practice",
+  "title": "Discussion: employers and employee health",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "health",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Some people think that employers should take responsibility for the physical and mental health of their staff. Others believe that health is a private matter and should be left to each individual.\n\nDiscuss both these views and give your own opinion.",
+            "essay_type": "discussion",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "practice-writing-t1-mixed-03",
+  "kind": "practice",
+  "title": "Table and bar: jobs and wages by sector",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "work-economy",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The table below shows the number of people employed in four sectors in the city of Halverton in 1980, 2000 and 2020, and the bar chart shows the average weekly wage in each sector in 2020.",
+            "essay_type": null,
+            "visual": {
+              "type": "mixed",
+              "charts": [
+                {
+                  "type": "table",
+                  "title": "Employment by sector, Halverton",
+                  "unit": "thousands of workers",
+                  "categories": [
+                    "Manufacturing",
+                    "Retail",
+                    "Health and education",
+                    "Finance and IT"
+                  ],
+                  "series": [
+                    {
+                      "name": "1980",
+                      "values": [
+                        42.0,
+                        18.0,
+                        15.0,
+                        4.0
+                      ]
+                    },
+                    {
+                      "name": "2000",
+                      "values": [
+                        23.0,
+                        24.0,
+                        26.0,
+                        12.0
+                      ]
+                    },
+                    {
+                      "name": "2020",
+                      "values": [
+                        11.0,
+                        22.0,
+                        38.0,
+                        21.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "bar",
+                  "title": "Average weekly wage by sector, Halverton (2020)",
+                  "unit": "dollars per week",
+                  "categories": [
+                    "Manufacturing",
+                    "Retail",
+                    "Health and education",
+                    "Finance and IT"
+                  ],
+                  "series": [
+                    {
+                      "name": "2020",
+                      "values": [
+                        820.0,
+                        540.0,
+                        760.0,
+                        1180.0
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "url": "/media/visuals/practice-writing-t1-mixed-03-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

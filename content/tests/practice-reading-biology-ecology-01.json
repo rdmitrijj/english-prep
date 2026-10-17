@@ -1,0 +1,484 @@
+{
+  "slug": "practice-reading-biology-ecology-01",
+  "kind": "practice",
+  "title": "Masters of Disguise",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T13:02:25+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "reading"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "reading",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_reading",
+          "topic": "biology-ecology",
+          "passage": {
+            "title": "Masters of Disguise",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "A diver swimming over a reef may pass within a metre of an octopus without ever noticing it. Pressed against a rock, the animal can match not only the colour of the stone but also its bumps and ridges, and if it is disturbed it can turn from mottled grey to vivid red in less than a second. Octopuses, cuttlefish and squid, the group of molluscs known as cephalopods, possess what is probably the most versatile system of camouflage in the animal kingdom. It is built from a few fairly simple parts and controlled almost entirely by the nervous system rather than by slower chemical messages carried in the blood."
+              },
+              {
+                "label": "B",
+                "text": "The fastest changes are produced by chromatophores, tiny elastic sacs of pigment that lie just beneath the surface of the skin. Each sac holds a single colour, usually yellow, red or brown, and is surrounded by between fifteen and twenty-five minute muscles that radiate outwards like the spokes of a wheel. These muscles are connected by nerves directly to the brain. When they contract, they stretch the sac into a broad, flat disc and its colour spreads across the skin; when they relax, the elastic sac shrinks back to a speck that is almost invisible. Because a patch of skin the size of a fingernail may contain several hundred chromatophores, each of which can be operated separately, the animal can display patterns of great complexity and alter them almost instantly."
+              },
+              {
+                "label": "C",
+                "text": "Beneath the chromatophores lie two further layers of cells that contain no pigment at all. Iridophores are made of thin stacked plates that reflect light in much the same way as a film of oil on a puddle, producing the shimmering blues and greens seen on many squid. These reflections can be adjusted, but only gradually, because they depend on slower chemical processes inside the cells, and a change may take several seconds or even minutes. Deepest of all are the leucophores, which in octopuses and cuttlefish form bright white patches. They scatter every wavelength of light equally, and so they simply take on the colour of whatever light falls on them: blue in open water, greenish among seaweed. Part of the camouflage therefore works without any effort at all."
+              },
+              {
+                "label": "D",
+                "text": "Colour alone cannot explain how completely an octopus disappears; the second part of the trick is texture. Scattered across the skin are hundreds of papillae, small areas that muscles can raise from a flat surface into bumps, ridges or even branching points that resemble the fronds of seaweed. At the Marlow Bay Marine Laboratory, Rosa Ketteridge has studied how cuttlefish keep these structures raised. Holding a muscle tight normally consumes a great deal of energy, but Ketteridge found that the papillae of resting cuttlefish could stay extended for more than an hour after the nerves supplying them had stopped sending signals. She believes the muscles contain a locking mechanism, similar to one found in mussels, that lets the animals remain in disguise at very little cost."
+              },
+              {
+                "label": "E",
+                "text": "The most puzzling feature of cephalopod camouflage is that the animals appear to be colour-blind. The eyes of almost all species contain only one type of light-sensitive pigment, whereas human eyes have three, and in laboratory tests cuttlefish fail to tell apart colours of equal brightness. How, then, do they match their surroundings? Henrik Aalto, of the Nordvik Institute, has detected light-sensitive proteins in the skin of the octopus, which suggests that the skin itself may respond to light. Aalto admits, though, that these proteins seem to be the same single type as those in the eye, so they cannot by themselves account for colour matching. A more speculative idea comes from Leila Moradi, who points out that the unusual U-shaped pupil of many cephalopods brings different colours into focus at slightly different distances. By adjusting its focus, she suggests, an animal might work out colour indirectly, although this has yet to be tested."
+              },
+              {
+                "label": "F",
+                "text": "Other researchers argue that exact colour matching may be unnecessary. In experiments at Westhaven University, Callum Fraser and his colleagues placed cuttlefish in tanks lined with black-and-white chequerboards. On a fine pattern of small squares the animals became evenly mottled, while on a board whose squares were roughly the size of the white patch on their own backs they produced a bold 'disruptive' pattern of light and dark blocks, which breaks up the outline of the body. When the edges of the squares were blurred, however, the disruptive pattern disappeared, even though the proportion of black and white was unchanged. Fraser concludes that cuttlefish respond chiefly to the size, contrast and edges of nearby objects, and that to most predators an animal that matches these features is effectively invisible."
+              },
+              {
+                "label": "G",
+                "text": "Not every display is meant to conceal. Male cuttlefish competing for a mate cover themselves in bold zebra stripes, and smaller males sometimes adopt the appearance of females in order to slip past a larger rival. Naomi Achebe, who filmed octopuses hunting in shallow water off the coast of Mozambique, recorded a pattern known as the 'passing cloud', in which dark bands sweep rapidly across the animal's body. Crabs that had been hiding motionless often began to move as soon as the display started, and were then quickly caught. Engineers, meanwhile, are developing flexible materials that change colour and texture to suit their surroundings, though none yet matches the speed of the animals that inspired them."
+              }
+            ],
+            "glossary": []
+          },
+          "script": null,
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "Cephalopods change colour mainly by means of hormones carried in their blood.",
+                  "options": null,
+                  "answer": [
+                    "FALSE"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The system is 'controlled almost entirely by the nervous system rather than by slower chemical messages carried in the blood', which contradicts 'mainly by means of hormones'.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "The passage says the opposite: control is by nerves, not by chemical messages in the blood."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The passage directly states how the system is controlled."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "A",
+                    "quote": "controlled almost entirely by the nervous system rather than by slower chemical messages carried in the blood"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "A chromatophore becomes very hard to see when the muscles around it stop contracting.",
+                  "options": null,
+                  "answer": [
+                    "TRUE"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'When they relax, the elastic sac shrinks back to a speck that is almost invisible': 'stop contracting' = relax, 'very hard to see' = almost invisible.",
+                    "distractors": [
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "The passage agrees: relaxed muscles leave only an almost invisible speck."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The effect of the muscles relaxing is described directly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "when they relax, the elastic sac shrinks back to a speck that is almost invisible"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "Iridophores alter the animal's appearance more slowly than chromatophores do.",
+                  "options": null,
+                  "answer": [
+                    "TRUE"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "inference",
+                  "explanation": {
+                    "correct": "Chromatophores change patterns 'almost instantly', while iridophore reflections change 'only gradually', taking 'several seconds or even minutes'.",
+                    "distractors": [
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "Iridophores are described as the slower system, not the faster one."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "Both speeds are given: 'almost instantly' (B) versus 'several seconds or even minutes' (C)."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "These reflections can be adjusted, but only gradually"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "Leucophores were discovered more recently than the other two types of cell.",
+                  "options": null,
+                  "answer": [
+                    "NOT GIVEN"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The passage describes what leucophores do and where they lie, but says nothing about when any of the cell types were discovered.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "No dates or order of discovery are mentioned for any cell type."
+                      },
+                      {
+                        "option": "FALSE",
+                        "why_wrong": "Nothing suggests leucophores were found earlier either; 'Deepest of all' refers to position in the skin, not to time."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "Deepest of all are the leucophores, which in octopuses and cuttlefish form bright white patches."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "Experiments have shown that cuttlefish can distinguish between colours that are equally bright.",
+                  "options": null,
+                  "answer": [
+                    "FALSE"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'In laboratory tests cuttlefish fail to tell apart colours of equal brightness' directly contradicts the statement.",
+                    "distractors": [
+                      {
+                        "option": "TRUE",
+                        "why_wrong": "The tests showed that cuttlefish could not tell such colours apart."
+                      },
+                      {
+                        "option": "NOT GIVEN",
+                        "why_wrong": "The result of the laboratory tests is stated directly."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "in laboratory tests cuttlefish fail to tell apart colours of equal brightness"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "tfng",
+              "instructions": "Do the following statements agree with the information given in Reading Passage 1?\nChoose\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "Rosa Ketteridge"
+                },
+                {
+                  "letter": "B",
+                  "text": "Henrik Aalto"
+                },
+                {
+                  "letter": "C",
+                  "text": "Leila Moradi"
+                },
+                {
+                  "letter": "D",
+                  "text": "Callum Fraser"
+                },
+                {
+                  "letter": "E",
+                  "text": "Naomi Achebe"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 6,
+                  "prompt": "A display appeared to make hidden prey give away its position.",
+                  "options": null,
+                  "answer": [
+                    "E"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Achebe found that crabs 'hiding motionless often began to move as soon as the display started, and were then quickly caught': moving reveals where they are.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Ketteridge studied how papillae stay raised with little energy."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Aalto found light-sensitive proteins in octopus skin."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Moradi suggested the U-shaped pupil might allow colour to be worked out through focus."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Fraser studied which chequerboard patterns triggered mottled or disruptive patterns."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "Crabs that had been hiding motionless often began to move as soon as the display started"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "One kind of pattern stopped appearing when the borders of shapes in the background were made less sharp.",
+                  "options": null,
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "In Fraser's experiments, 'When the edges of the squares were blurred, however, the disruptive pattern disappeared'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Ketteridge studied how papillae stay raised with little energy."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Aalto found light-sensitive proteins in octopus skin."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Moradi suggested the U-shaped pupil might allow colour to be worked out through focus."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "Achebe filmed the 'passing cloud' display used while hunting crabs."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "When the edges of the squares were blurred, however, the disruptive pattern disappeared"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "A part of the body other than the eye may be able to sense light.",
+                  "options": null,
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Aalto detected light-sensitive proteins in octopus skin, 'which suggests that the skin itself may respond to light'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Ketteridge studied how papillae stay raised with little energy."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Moradi's idea concerns the eye itself (its pupil), not another part of the body."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Fraser studied which chequerboard patterns triggered mottled or disruptive patterns."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "Achebe filmed the 'passing cloud' display used while hunting crabs."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "which suggests that the skin itself may respond to light"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 9,
+                  "prompt": "Certain structures can be held in position without continuing signals from the nerves.",
+                  "options": null,
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Ketteridge found papillae 'could stay extended for more than an hour after the nerves supplying them had stopped sending signals'.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "Aalto found light-sensitive proteins in octopus skin."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Moradi suggested the U-shaped pupil might allow colour to be worked out through focus."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Fraser studied which chequerboard patterns triggered mottled or disruptive patterns."
+                      },
+                      {
+                        "option": "E",
+                        "why_wrong": "Achebe filmed the 'passing cloud' display used while hunting crabs."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "could stay extended for more than an hour after the nerves supplying them had stopped sending signals"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_features",
+              "instructions": "Look at the following statements (Questions 6–9) and the list below.\nMatch each statement with the correct option, A–E.\nNB You may use any letter more than once.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 10,
+                  "prompt": "The muscles surrounding each chromatophore are arranged like the ______ of a wheel.",
+                  "options": null,
+                  "answer": [
+                    "spokes"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "The muscles 'radiate outwards like the spokes of a wheel'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "radiate outwards like the spokes of a wheel"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 11,
+                  "prompt": "Because leucophores reflect the light around them, they look blue when the animal is in ______.",
+                  "options": null,
+                  "answer": [
+                    "open water"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Leucophores 'take on the colour of whatever light falls on them: blue in open water'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "blue in open water"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 12,
+                  "prompt": "When raised, some papillae form branching points similar to the ______ of seaweed.",
+                  "options": null,
+                  "answer": [
+                    "fronds"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "Papillae can become 'branching points that resemble the fronds of seaweed': 'similar to' = resemble.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "branching points that resemble the fronds of seaweed"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 13,
+                  "prompt": "On boards with larger squares, cuttlefish displayed a pattern that disguises the ______ of their bodies.",
+                  "options": null,
+                  "answer": [
+                    "outline"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "The disruptive pattern 'breaks up the outline of the body': 'disguises' paraphrases 'breaks up'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "which breaks up the outline of the body"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "sentence_completion",
+              "instructions": "Complete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 2,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

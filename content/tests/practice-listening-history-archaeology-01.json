@@ -1,0 +1,481 @@
+{
+  "slug": "practice-listening-history-archaeology-01",
+  "kind": "practice",
+  "title": "How Roman Roads Were Built",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T12:51:16+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "listening"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "listening",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_lecture",
+          "topic": "history-archaeology",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "narrator",
+                "role": "Narrator",
+                "accent": "en-GB",
+                "gender": "male"
+              },
+              {
+                "id": "lecturer",
+                "role": "Lecturer in archaeology",
+                "accent": "en-US",
+                "gender": "male"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "narrator",
+                "text": "You will hear a lecturer talking about how the Romans built their roads. First, you have some time to look at questions 1 to 10.",
+                "pause_after_s": 45.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen carefully and answer questions 1 to 10.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Good morning, everyone. Last week we looked at Roman towns, and today I want to look at what connected them: the road network. At its height, the empire had something like eighty thousand kilometres of paved roads, and some of them are still in use today, or at least modern roads follow exactly the same lines. I'll concentrate on the main roads, the ones built by the state, rather than the thousands of local tracks that linked farms and villages. So how were they built?",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "The first stage was surveying. Roman roads are famous for being straight, and that straightness came from a fairly simple instrument called a groma, that's G-R-O-M-A. It was basically a wooden cross on top of a pole, with a weight hanging from each arm on a string. The surveyor would look along two of the strings and line them up with a marker some distance away, and in that way he could set out a straight line across many kilometres of country.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Now, it's often said that Roman roads went straight over everything, whatever was in the way. That's not quite true. The engineers were practical people. On level ground they kept to straight lines, yes, but where the ground was steep, they would zigzag up the slope, because carts and pack animals simply couldn't manage a very steep climb.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Once the line was fixed, the builders dug a trench along it, removing the soft topsoil until they reached firm ground. Where there was no firm ground, for example when a road had to cross a marsh, they drove timber piles deep into the mud and built the road on top of them. Some of these wooden supports have survived for two thousand years, because the wet conditions kept the air away from the wood.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Then came the layers. The descriptions you'll read in textbooks usually list four layers, but archaeologists rarely find all four, so treat that as an ideal rather than a rule. At the bottom there were large stones, packed tightly together. Above those was a layer of smaller broken stones, and these were often bound together not with clay, as you might expect, but with lime, which set hard and held everything in place.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "The top surface depended very much on where the road was. Out in the countryside it was usually just compacted gravel. But near towns, where traffic was heaviest, the surface was paved with large, closely fitted blocks of hard volcanic stone. In Italy, that was mostly basalt, which is extremely hard-wearing. You can still see the ruts worn into it by cart wheels in places like Pompeii.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "One more feature of the surface is easy to miss. It wasn't flat. It was built with a curve, higher in the middle than at the sides, so that rainwater ran off into ditches on either side of the road. Water is the great enemy of any road, because once it gets into the foundations, the whole structure starts to break up. Many main roads were also raised on a bank of earth, sometimes more than a metre high, which kept them drier still and gave travellers a good view of the country around them.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "So who did all this work? People often imagine large numbers of slaves, and slaves certainly were used in some places. But the main roads, especially in the provinces, were mostly built by soldiers. The legions included trained engineers and surveyors, and building roads kept the troops busy in peacetime. It also meant the army could move quickly to wherever it was needed.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Along the main routes, the Romans set up stone pillars at regular intervals, which we call milestones. A Roman mile was a little shorter than a modern one. These stones usually carried the name of the emperor who had ordered the road to be built or repaired, and below that, they gave the distance to the nearest town. For historians, they're extremely useful, because they help us to date different stretches of road. On the busiest routes there were also official rest stops, roughly a day's journey apart, where government messengers could change horses and travellers could find a bed.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Of course, a road is only as good as its upkeep. Major repairs were sometimes paid for by the emperor, but the routine maintenance was the responsibility of local landowners whose land the road passed through. That explains why the quality of the same road could vary so much from one district to the next: some landowners took the job seriously and others did as little as possible.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "lecturer",
+                "text": "Finally, how do we find these roads today? For decades, the main tool was aerial photography, which can show the line of a buried road as a mark in a field of crops. But that doesn't work under trees. In the last fifteen years or so, a technique called laser scanning, carried out from aircraft, has changed the picture completely. It can see through woodland to the shape of the ground beneath, and in Britain alone it has revealed hundreds of kilometres of previously unknown Roman road. Next week, we'll look at the bridges that carried these roads across rivers.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "That is the end of the recording. You now have half a minute to check your answers.",
+                "pause_after_s": 30.0
+              }
+            ]
+          },
+          "audio": {
+            "url": "/media/audio/practice-listening-history-archaeology-01-p1.mp3",
+            "duration_ms": 338054,
+            "segments": [
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 8128,
+                "text": "You will hear a lecturer talking about how the Romans built their roads. First, you have some time to look at questions 1 to 10."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 53528,
+                "end_ms": 57304,
+                "text": "Now listen carefully and answer questions 1 to 10."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-US",
+                "start_ms": 57704,
+                "end_ms": 77117,
+                "text": "Good morning, everyone. Last week we looked at Roman towns, and today I want to look at what connected them: the road network. At its height, the empire had something like eighty thousand kilometres of paved roads, and some of them are still in use today, or at least modern roads follow exactly the same lines. I'll concentrate on the main roads, the ones built by the state, rather than the thousands of local tracks that linked farms and villages. So how were they built?"
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-US",
+                "start_ms": 77517,
+                "end_ms": 96312,
+                "text": "The first stage was surveying. Roman roads are famous for being straight, and that straightness came from a fairly simple instrument called a groma, that's G-R-O-M-A. It was basically a wooden cross on top of a pole, with a weight hanging from each arm on a string. The surveyor would look along two of the strings and line them up with a marker some distance away, and in that way he could set out a straight line across many kilometres of country."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-US",
+                "start_ms": 96712,
+                "end_ms": 113608,
+                "text": "Now, it's often said that Roman roads went straight over everything, whatever was in the way. That's not quite true. The engineers were practical people. On level ground they kept to straight lines, yes, but where the ground was steep, they would zigzag up the slope, because carts and pack animals simply couldn't manage a very steep climb."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-US",
+                "start_ms": 114008,
+                "end_ms": 132376,
+                "text": "Once the line was fixed, the builders dug a trench along it, removing the soft topsoil until they reached firm ground. Where there was no firm ground, for example when a road had to cross a marsh, they drove timber piles deep into the mud and built the road on top of them. Some of these wooden supports have survived for two thousand years, because the wet conditions kept the air away from the wood."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-US",
+                "start_ms": 132776,
+                "end_ms": 151656,
+                "text": "Then came the layers. The descriptions you'll read in textbooks usually list four layers, but archaeologists rarely find all four, so treat that as an ideal rather than a rule. At the bottom there were large stones, packed tightly together. Above those was a layer of smaller broken stones, and these were often bound together not with clay, as you might expect, but with lime, which set hard and held everything in place."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-US",
+                "start_ms": 152056,
+                "end_ms": 171341,
+                "text": "The top surface depended very much on where the road was. Out in the countryside it was usually just compacted gravel. But near towns, where traffic was heaviest, the surface was paved with large, closely fitted blocks of hard volcanic stone. In Italy, that was mostly basalt, which is extremely hard-wearing. You can still see the ruts worn into it by cart wheels in places like Pompeii."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-US",
+                "start_ms": 171741,
+                "end_ms": 199852,
+                "text": "One more feature of the surface is easy to miss. It wasn't flat. It was built with a curve, higher in the middle than at the sides, so that rainwater ran off into ditches on either side of the road. Water is the great enemy of any road, because once it gets into the foundations, the whole structure starts to break up. Many main roads were also raised on a bank of earth, sometimes more than a metre high, which kept them drier still and gave travellers a good view of the country around them."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-US",
+                "start_ms": 200252,
+                "end_ms": 218876,
+                "text": "So who did all this work? People often imagine large numbers of slaves, and slaves certainly were used in some places. But the main roads, especially in the provinces, were mostly built by soldiers. The legions included trained engineers and surveyors, and building roads kept the troops busy in peacetime. It also meant the army could move quickly to wherever it was needed."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-US",
+                "start_ms": 219276,
+                "end_ms": 251228,
+                "text": "Along the main routes, the Romans set up stone pillars at regular intervals, which we call milestones. A Roman mile was a little shorter than a modern one. These stones usually carried the name of the emperor who had ordered the road to be built or repaired, and below that, they gave the distance to the nearest town. For historians, they're extremely useful, because they help us to date different stretches of road. On the busiest routes there were also official rest stops, roughly a day's journey apart, where government messengers could change horses and travellers could find a bed."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-US",
+                "start_ms": 251628,
+                "end_ms": 270870,
+                "text": "Of course, a road is only as good as its upkeep. Major repairs were sometimes paid for by the emperor, but the routine maintenance was the responsibility of local landowners whose land the road passed through. That explains why the quality of the same road could vary so much from one district to the next: some landowners took the job seriously and others did as little as possible."
+              },
+              {
+                "speaker": "lecturer",
+                "accent": "en-US",
+                "start_ms": 271270,
+                "end_ms": 302496,
+                "text": "Finally, how do we find these roads today? For decades, the main tool was aerial photography, which can show the line of a buried road as a mark in a field of crops. But that doesn't work under trees. In the last fifteen years or so, a technique called laser scanning, carried out from aircraft, has changed the picture completely. It can see through woodland to the shape of the ground beneath, and in Britain alone it has revealed hundreds of kilometres of previously unknown Roman road. Next week, we'll look at the bridges that carried these roads across rivers."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 302896,
+                "end_ms": 307654,
+                "text": "That is the end of the recording. You now have half a minute to check your answers."
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "narrator": "bm_george",
+              "lecturer": "am_puck"
+            }
+          },
+          "writing": null,
+          "groups": [
+            {
+              "options": null,
+              "layout": {
+                "title": "Building a Roman road",
+                "template": "Planning the route\n- a straight line was set out with an instrument called a {1}\n- the road did not always go straight: on {2} ground it would zigzag\n\nFoundations\n- soft soil removed down to firm ground\n- across marshes, the road was supported by timber {3}\n\nLayers\n- bottom: large stones\n- middle: smaller broken stones, bound with {4}\n- surface in the countryside: compacted gravel\n- surface near towns: blocks of volcanic stone, e.g. {5} in Italy\n- surface higher in the middle so that {6} ran into ditches",
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "surveying instrument",
+                  "options": null,
+                  "answer": [
+                    "groma"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The instrument is 'called a groma', spelled G-R-O-M-A.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "3",
+                    "quote": "instrument called a groma"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "where the road zigzagged",
+                  "options": null,
+                  "answer": [
+                    "steep"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Where the ground was steep, they would zigzag up the slope.'",
+                    "distractors": [
+                      {
+                        "option": "level",
+                        "why_wrong": "On level ground the roads kept to straight lines."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "4",
+                    "quote": "where the ground was steep, they would zigzag up the slope"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "support across marshes",
+                  "options": null,
+                  "answer": [
+                    "piles"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "When crossing a marsh, 'they drove timber piles deep into the mud and built the road on top of them'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "5",
+                    "quote": "they drove timber piles deep into the mud"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "what bound the middle layer",
+                  "options": null,
+                  "answer": [
+                    "lime"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The broken stones were bound 'not with clay, as you might expect, but with lime'.",
+                    "distractors": [
+                      {
+                        "option": "clay",
+                        "why_wrong": "Mentioned as what students might expect, but rejected."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "6",
+                    "quote": "not with clay, as you might expect, but with lime"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "volcanic stone used in Italy",
+                  "options": null,
+                  "answer": [
+                    "basalt"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'In Italy, that was mostly basalt', a hard-wearing volcanic stone.",
+                    "distractors": [
+                      {
+                        "option": "gravel",
+                        "why_wrong": "Compacted gravel was the countryside surface, not the surface near towns."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "7",
+                    "quote": "In Italy, that was mostly basalt"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 6,
+                  "prompt": "what ran into the ditches",
+                  "options": null,
+                  "answer": [
+                    "rainwater",
+                    "water"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "The surface was curved, higher in the middle, 'so that rainwater ran off into ditches'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "8",
+                    "quote": "so that rainwater ran off into ditches on either side of the road"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "note_completion",
+              "instructions": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.",
+              "max_words": 1,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 7,
+                  "prompt": "Most of the main roads in the provinces were built by ______.",
+                  "options": null,
+                  "answer": [
+                    "soldiers"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'The main roads, especially in the provinces, were mostly built by soldiers.'",
+                    "distractors": [
+                      {
+                        "option": "slaves",
+                        "why_wrong": "Slaves were used in some places, but the lecturer says the main roads were mostly built by soldiers."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "9",
+                    "quote": "the main roads, especially in the provinces, were mostly built by soldiers"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "Milestones showed the name of an emperor and the ______ to the nearest town.",
+                  "options": null,
+                  "answer": [
+                    "distance"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Below the emperor's name, milestones 'gave the distance to the nearest town'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "10",
+                    "quote": "they gave the distance to the nearest town"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 9,
+                  "prompt": "Day-to-day repairs to a road were the responsibility of ______.",
+                  "options": null,
+                  "answer": [
+                    "local landowners",
+                    "landowners"
+                  ],
+                  "difficulty": 5,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'Routine maintenance' is paraphrased as 'day-to-day repairs'; it was 'the responsibility of local landowners'.",
+                    "distractors": [
+                      {
+                        "option": "emperor",
+                        "why_wrong": "The emperor sometimes paid for major repairs, not routine ones."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "11",
+                    "quote": "the routine maintenance was the responsibility of local landowners"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "Many Roman roads hidden under woodland have recently been found by ______ from aircraft.",
+                  "options": null,
+                  "answer": [
+                    "laser scanning"
+                  ],
+                  "difficulty": 5,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'Laser scanning, carried out from aircraft… can see through woodland.'",
+                    "distractors": [
+                      {
+                        "option": "aerial photography",
+                        "why_wrong": "The older method, which 'doesn't work under trees'."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "12",
+                    "quote": "a technique called laser scanning, carried out from aircraft"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "sentence_completion",
+              "instructions": "Complete the sentences below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+              "max_words": 2,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

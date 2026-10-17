@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" fill="#222">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="900" height="560" fill="#fff"/>
+<text x="450" y="46" text-anchor="middle" font-size="20" font-weight="bold">Producing drinking water from seawater</text>
+<rect x="15" y="125" width="146" height="104" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="88.0" y="163.0" text-anchor="middle">Seawater drawn</text><text x="88.0" y="183.0" text-anchor="middle">in through</text><text x="88.0" y="203.0" text-anchor="middle">intake pipe</text>
+<circle cx="88.0" cy="125" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="88.0" y="130" text-anchor="middle" font-weight="bold">1</text>
+<rect x="196" y="125" width="146" height="104" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="269.0" y="163.0" text-anchor="middle">Screens remove</text><text x="269.0" y="183.0" text-anchor="middle">fish and</text><text x="269.0" y="203.0" text-anchor="middle">seaweed</text>
+<circle cx="269.0" cy="125" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="269.0" y="130" text-anchor="middle" font-weight="bold">2</text>
+<rect x="377" y="125" width="146" height="104" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="450.0" y="163.0" text-anchor="middle">Filtered through</text><text x="450.0" y="183.0" text-anchor="middle">sand to remove</text><text x="450.0" y="203.0" text-anchor="middle">small particles</text>
+<circle cx="450.0" cy="125" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="450.0" y="130" text-anchor="middle" font-weight="bold">3</text>
+<rect x="558" y="125" width="146" height="104" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="631.0" y="163.0" text-anchor="middle">Pumped at high</text><text x="631.0" y="183.0" text-anchor="middle">pressure through</text><text x="631.0" y="203.0" text-anchor="middle">membranes</text>
+<circle cx="631.0" cy="125" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="631.0" y="130" text-anchor="middle" font-weight="bold">4</text>
+<rect x="739" y="125" width="146" height="104" rx="10" fill="#f1ebdf" stroke="#333" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="812.0" y="163.0" text-anchor="middle">Brine (salty</text><text x="812.0" y="183.0" text-anchor="middle">waste) pumped</text><text x="812.0" y="203.0" text-anchor="middle">back into sea</text>
+<rect x="558" y="355" width="146" height="104" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="631.0" y="393.0" text-anchor="middle">Minerals</text><text x="631.0" y="413.0" text-anchor="middle">added to</text><text x="631.0" y="433.0" text-anchor="middle">improve taste</text>
+<circle cx="631.0" cy="355" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="631.0" y="360" text-anchor="middle" font-weight="bold">5</text>
+<rect x="377" y="355" width="146" height="104" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="450.0" y="403.0" text-anchor="middle">Disinfected</text><text x="450.0" y="423.0" text-anchor="middle">with chlorine</text>
+<circle cx="450.0" cy="355" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="450.0" y="360" text-anchor="middle" font-weight="bold">6</text>
+<rect x="196" y="355" width="146" height="104" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="269.0" y="403.0" text-anchor="middle">Stored in</text><text x="269.0" y="423.0" text-anchor="middle">covered tanks</text>
+<circle cx="269.0" cy="355" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="269.0" y="360" text-anchor="middle" font-weight="bold">7</text>
+<rect x="15" y="355" width="146" height="104" rx="10" fill="#e6edf3" stroke="#333" stroke-width="1.5"/>
+<text x="88.0" y="403.0" text-anchor="middle">Piped to homes</text><text x="88.0" y="423.0" text-anchor="middle">and businesses</text>
+<circle cx="88.0" cy="355" r="15" fill="#fff" stroke="#333" stroke-width="1.5"/><text x="88.0" y="360" text-anchor="middle" font-weight="bold">8</text>
+<line x1="164" y1="177.0" x2="192" y2="177.0" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<line x1="345" y1="177.0" x2="373" y2="177.0" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<line x1="526" y1="177.0" x2="554" y2="177.0" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<line x1="707" y1="177.0" x2="735" y2="177.0" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<line x1="631.0" y1="233" x2="631.0" y2="336" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<text x="641.0" y="294.0" font-size="14" font-style="italic">fresh water</text>
+<line x1="554" y1="407.0" x2="527" y2="407.0" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<line x1="373" y1="407.0" x2="346" y2="407.0" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<line x1="192" y1="407.0" x2="165" y2="407.0" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+</svg>

@@ -1,0 +1,113 @@
+{
+  "slug": "practice-writing-t1-mixed-02",
+  "kind": "practice",
+  "title": "Line and pie: how people pay in shops",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "technology",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The line graph below shows the percentage of payments in shops in Sweden that were made by cash, bank card and mobile phone between 2012 and 2024, and the pie chart shows the main reasons people gave for still paying with cash in 2024.",
+            "essay_type": null,
+            "visual": {
+              "type": "mixed",
+              "charts": [
+                {
+                  "type": "line",
+                  "title": "In-store payments by method, Sweden, 2012–2024",
+                  "unit": "% of payments",
+                  "categories": [
+                    "2012",
+                    "2014",
+                    "2016",
+                    "2018",
+                    "2020",
+                    "2022",
+                    "2024"
+                  ],
+                  "series": [
+                    {
+                      "name": "Cash",
+                      "values": [
+                        39.0,
+                        32.0,
+                        24.0,
+                        17.0,
+                        12.0,
+                        9.0,
+                        8.0
+                      ]
+                    },
+                    {
+                      "name": "Bank card",
+                      "values": [
+                        55.0,
+                        60.0,
+                        63.0,
+                        62.0,
+                        58.0,
+                        52.0,
+                        47.0
+                      ]
+                    },
+                    {
+                      "name": "Mobile phone",
+                      "values": [
+                        6.0,
+                        8.0,
+                        13.0,
+                        21.0,
+                        30.0,
+                        39.0,
+                        45.0
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "pie",
+                  "title": "Main reason for paying with cash (2024)",
+                  "unit": "%",
+                  "categories": [
+                    "Habit",
+                    "Easier to budget",
+                    "Small amounts",
+                    "Privacy",
+                    "Card not accepted"
+                  ],
+                  "series": [
+                    {
+                      "name": "Cash users",
+                      "values": [
+                        31.0,
+                        24.0,
+                        18.0,
+                        18.0,
+                        9.0
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "description": null,
+              "url": "/media/visuals/practice-writing-t1-mixed-02-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

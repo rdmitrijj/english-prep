@@ -1,0 +1,36 @@
+{
+  "slug": "practice-writing-t1-map-02",
+  "kind": "practice",
+  "title": "Maps: changes to a village",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "cities-transport",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The maps below show the village of Hollinsby in 2005 and 2025.",
+            "essay_type": null,
+            "visual": {
+              "type": "map",
+              "charts": [],
+              "description": "Two maps of the village of Hollinsby side by side, headed \"2005\" (left) and \"2025\" (right), with a north arrow (north is at the top) and a scale bar of 100 metres. In both maps the River Wend flows from north to south along the east side of the village, and Main Road runs east–west across the middle, crossing the river by a bridge. North of the road and east of the river there is woodland. A church stands in the north-west, north of the road, and a row of four houses stands just south of the road in the centre. 2005: north of the road, between the church and the river, there are allotments, with a school between them and the road. South of the road there is a shop in the west, and a large area of farmland covers the south of the village between the western edge and the river. 2025: the river, Main Road, the bridge, the woodland, the church and the row of four houses are unchanged. The allotments have been replaced by a medical centre (on the west side) and a car park (on the east side). The school has been extended to the east. The shop has become a café. The farmland has been replaced by a housing estate: a new road, Meadow Close, runs south from Main Road between the café and the row of houses and ends in a turning circle, with 14 new houses on both sides of it (5 to the west and 9 to the east).",
+              "url": "/media/visuals/practice-writing-t1-map-02-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

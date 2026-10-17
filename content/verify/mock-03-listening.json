@@ -1,0 +1,326 @@
+{
+ "answers": [
+  {
+   "number": 1,
+   "answer": [
+    "Tennant"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 2,
+   "answer": [
+    "52"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 3,
+   "answer": [
+    "silver"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 4,
+   "answer": [
+    "Wednesday"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 5,
+   "answer": [
+    "8.15"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 6,
+   "answer": [
+    "fins"
+   ],
+   "confidence": 0.85,
+   "note": "also 'flippers' said by speaker"
+  },
+  {
+   "number": 7,
+   "answer": [
+    "20"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 8,
+   "answer": [
+    "asthma"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 9,
+   "answer": [
+    "church"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 10,
+   "answer": [
+    "radio"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 11,
+   "answer": [
+    "G"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 12,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 13,
+   "answer": [
+    "D"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 14,
+   "answer": [
+    "A"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 15,
+   "answer": [
+    "C"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 16,
+   "answer": [
+    "C"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 17,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 18,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 19,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 20,
+   "answer": [
+    "C"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 21,
+   "answer": [
+    "C",
+    "E"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 22,
+   "answer": [
+    "C",
+    "E"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 23,
+   "answer": [
+    "pizza oven"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 24,
+   "answer": [
+    "hair dryer"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 25,
+   "answer": [
+    "three days"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 26,
+   "answer": [
+    "corn starch"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 27,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 28,
+   "answer": [
+    "C"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 29,
+   "answer": [
+    "B"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 30,
+   "answer": [
+    "A"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 31,
+   "answer": [
+    "earthquakes"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 32,
+   "answer": [
+    "monks"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 33,
+   "answer": [
+    "toll"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 34,
+   "answer": [
+    "bellows"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 35,
+   "answer": [
+    "soot"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 36,
+   "answer": [
+    "mirrors"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 37,
+   "answer": [
+    "stripes"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 38,
+   "answer": [
+    "mercury"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 39,
+   "answer": [
+    "sirens"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  },
+  {
+   "number": 40,
+   "answer": [
+    "Morse"
+   ],
+   "confidence": 0.95,
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-two-part-04",
+  "kind": "practice",
+  "title": "Two-part: working holidays",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "travel-tourism",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Some travellers now choose holidays on which they do unpaid work, such as helping on a farm or repairing hiking paths, in exchange for free food and accommodation.\n\nWhy do people choose this kind of holiday? Who benefits more from it, the travellers or the local community?",
+            "essay_type": "two_part",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

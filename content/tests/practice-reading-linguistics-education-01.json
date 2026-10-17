@@ -1,0 +1,655 @@
+{
+  "slug": "practice-reading-linguistics-education-01",
+  "kind": "practice",
+  "title": "How a Language Is Born",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T13:02:27+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "reading"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "reading",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "academic_reading",
+          "topic": "linguistics-education",
+          "passage": {
+            "title": "How a Language Is Born",
+            "paragraphs": [
+              {
+                "label": "A",
+                "text": "Nobody has ever watched a spoken language come into existence. Every language spoken today descends from an earlier one, and the origins of human speech lie tens of thousands of years in the past, far beyond the reach of any record. Sign languages are different. Because most deaf children are born to hearing parents, a deaf community can sometimes form where none existed before, and in the past half-century linguists have been able to observe several new sign languages as they took shape. These cases have become central to an old debate: is the structure of language largely built into the human mind, or is it shaped by the way people use it together?"
+              },
+              {
+                "label": "B",
+                "text": "The starting point is usually what researchers call 'homesign'. A deaf child who has no contact with an established sign language does not remain silent. Instead, the child invents gestures for objects and actions, points to people and places, and often strings gestures together in a fairly consistent order. Yet homesign rarely develops further. Hearing parents tend to use gestures only as an accompaniment to their speech, so they seldom learn their child's system, let alone add to it. The result is a means of expression that belongs to one person alone and which, however inventive, never becomes a shared code."
+              },
+              {
+                "label": "C",
+                "text": "The best-known example of what happens when homesigners meet comes from Nicaragua. Until the late 1970s, deaf Nicaraguans had little contact with one another, but a new school in the capital, Managua, then brought hundreds of deaf children together. The teachers concentrated on lip-reading and spoken Spanish, with very limited success. Outside lessons, however, in the playground and on the school buses, the children began combining their gestures into a common system. By the mid-1980s it had become so rich that the staff, unable to follow it, asked linguists to help them understand what their pupils were saying."
+              },
+              {
+                "label": "D",
+                "text": "What interested linguists most was how the language changed as new pupils arrived. The first group of children produced signing that was expressive but inconsistent. Those who joined the school later, at a younger age, learned from the older pupils but did not simply copy them. Comparing signers who had entered the school in different years, the linguist Elena Varga found that the younger arrivals used locations in the space in front of the body far more consistently, placing one character on the left and another on the right, for instance, to show who did what to whom. Strikingly, they did this more reliably than older signers who had been using the language for longer. For Varga, the conclusion is clear: it is young children, rather than adults, who turn a rough system into a language with a grammar."
+              },
+              {
+                "label": "E",
+                "text": "Not every researcher accepts that childhood is the whole story. Tomas Lindgren has spent many years studying 'village sign languages', which arise in small communities where an inherited form of deafness is common, as in certain villages in Bali and Ghana. There, deaf people are not separated into schools, and many hearing relatives and neighbours sign as well. These languages have developed over several generations, and in some respects they look quite different from Nicaraguan signing: rather than using imaginary positions in space, for instance, signers often point towards the actual direction of a place or person. To Lindgren, this shows that the shape a new language takes depends at least as much on its community, including how large it is and who uses it, as on the age of its learners."
+              },
+              {
+                "label": "F",
+                "text": "A third view attempts to reconcile these positions. Priya Nandakumar, who has compared several young sign languages, argues that the key factor is how often signers must communicate with people they do not know well. In a village, almost everyone shares the same background knowledge, so much can be left unsaid. In a large school, by contrast, children constantly meet strangers and are pushed to make their meaning explicit, which favours a fixed and systematic grammar. This account has the advantage of explaining differences between communities without denying the role of young learners, although Nandakumar concedes that it is difficult to test directly."
+              },
+              {
+                "label": "G",
+                "text": "Whatever the explanation, the opportunity to study such languages may not last. Many village sign languages are now used by only a few hundred people, and as deaf children increasingly attend boarding schools where a national sign language is taught, younger members of these communities are abandoning the local one. Linguists are therefore working to record them, through video archives and dictionaries, before they disappear. Each offers rare evidence of how human beings, given nothing more than the need to communicate and one another's company, can build a language from the beginning."
+              }
+            ],
+            "glossary": []
+          },
+          "script": null,
+          "audio": null,
+          "writing": null,
+          "groups": [
+            {
+              "options": [
+                {
+                  "letter": "i",
+                  "text": "Comparing the speed of signed and spoken communication"
+                },
+                {
+                  "letter": "ii",
+                  "text": "A system of communication that remains private"
+                },
+                {
+                  "letter": "iii",
+                  "text": "The limits of lip-reading as a teaching method"
+                },
+                {
+                  "letter": "iv",
+                  "text": "Younger learners transform an inherited system"
+                },
+                {
+                  "letter": "v",
+                  "text": "A different setting that produces different results"
+                },
+                {
+                  "letter": "vi",
+                  "text": "An explanation based on contact with unfamiliar people"
+                },
+                {
+                  "letter": "vii",
+                  "text": "The need to document languages before they are lost"
+                },
+                {
+                  "letter": "viii",
+                  "text": "How governments have supported deaf education"
+                }
+              ],
+              "layout": null,
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "Paragraph B",
+                  "options": null,
+                  "answer": [
+                    "ii"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Homesign is invented by one child, parents 'seldom learn their child's system', so it 'belongs to one person alone' and 'never becomes a shared code': it remains private.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "Speed of signing is never discussed in the passage."
+                      },
+                      {
+                        "option": "iii",
+                        "why_wrong": "Lip-reading is only a minor detail of paragraph C, which is about children creating a language outside lessons."
+                      },
+                      {
+                        "option": "iv",
+                        "why_wrong": "This is the main idea of paragraph D (younger pupils made the signing more systematic)."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "This is the main idea of paragraph E (village sign languages develop differently in a different kind of community)."
+                      },
+                      {
+                        "option": "vi",
+                        "why_wrong": "This is the main idea of paragraph F (Nandakumar's account based on meeting strangers)."
+                      },
+                      {
+                        "option": "vii",
+                        "why_wrong": "This is the main idea of paragraph G (recording endangered village sign languages)."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "Government policy on deaf education is not the subject of any paragraph."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "The result is a means of expression that belongs to one person alone"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "Paragraph D",
+                  "options": null,
+                  "answer": [
+                    "iv"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Later, younger pupils 'learned from the older pupils but did not simply copy them', using space far more consistently: they transformed the system they inherited.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "Speed of signing is never discussed in the passage."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "This is the main idea of paragraph B (homesign belongs to one person and never becomes shared)."
+                      },
+                      {
+                        "option": "iii",
+                        "why_wrong": "Lip-reading is only a minor detail of paragraph C, which is about children creating a language outside lessons."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "This is the main idea of paragraph E (village sign languages develop differently in a different kind of community)."
+                      },
+                      {
+                        "option": "vi",
+                        "why_wrong": "This is the main idea of paragraph F (Nandakumar's account based on meeting strangers)."
+                      },
+                      {
+                        "option": "vii",
+                        "why_wrong": "This is the main idea of paragraph G (recording endangered village sign languages)."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "Government policy on deaf education is not the subject of any paragraph."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "Those who joined the school later, at a younger age, learned from the older pupils but did not simply copy them."
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "Paragraph E",
+                  "options": null,
+                  "answer": [
+                    "v"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Village sign languages arise in a different kind of community (no separate schools, hearing people sign) and 'look quite different from Nicaraguan signing'.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "Speed of signing is never discussed in the passage."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "This is the main idea of paragraph B (homesign belongs to one person and never becomes shared)."
+                      },
+                      {
+                        "option": "iii",
+                        "why_wrong": "Lip-reading is only a minor detail of paragraph C, which is about children creating a language outside lessons."
+                      },
+                      {
+                        "option": "iv",
+                        "why_wrong": "This is the main idea of paragraph D (younger pupils made the signing more systematic)."
+                      },
+                      {
+                        "option": "vi",
+                        "why_wrong": "This is the main idea of paragraph F (Nandakumar's account based on meeting strangers)."
+                      },
+                      {
+                        "option": "vii",
+                        "why_wrong": "This is the main idea of paragraph G (recording endangered village sign languages)."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "Government policy on deaf education is not the subject of any paragraph."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "in some respects they look quite different from Nicaraguan signing"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "Paragraph F",
+                  "options": null,
+                  "answer": [
+                    "vi"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Nandakumar's 'key factor is how often signers must communicate with people they do not know well': 'unfamiliar people' paraphrases 'people they do not know well' and 'strangers'.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "Speed of signing is never discussed in the passage."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "This is the main idea of paragraph B (homesign belongs to one person and never becomes shared)."
+                      },
+                      {
+                        "option": "iii",
+                        "why_wrong": "Lip-reading is only a minor detail of paragraph C, which is about children creating a language outside lessons."
+                      },
+                      {
+                        "option": "iv",
+                        "why_wrong": "This is the main idea of paragraph D (younger pupils made the signing more systematic)."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "This is the main idea of paragraph E (village sign languages develop differently in a different kind of community)."
+                      },
+                      {
+                        "option": "vii",
+                        "why_wrong": "This is the main idea of paragraph G (recording endangered village sign languages)."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "Government policy on deaf education is not the subject of any paragraph."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "the key factor is how often signers must communicate with people they do not know well"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "Paragraph G",
+                  "options": null,
+                  "answer": [
+                    "vii"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "skimming",
+                  "explanation": {
+                    "correct": "Village sign languages are being abandoned, so linguists are 'working to record them ... before they disappear': 'document' = record, 'lost' = disappear.",
+                    "distractors": [
+                      {
+                        "option": "i",
+                        "why_wrong": "Speed of signing is never discussed in the passage."
+                      },
+                      {
+                        "option": "ii",
+                        "why_wrong": "This is the main idea of paragraph B (homesign belongs to one person and never becomes shared)."
+                      },
+                      {
+                        "option": "iii",
+                        "why_wrong": "Lip-reading is only a minor detail of paragraph C, which is about children creating a language outside lessons."
+                      },
+                      {
+                        "option": "iv",
+                        "why_wrong": "This is the main idea of paragraph D (younger pupils made the signing more systematic)."
+                      },
+                      {
+                        "option": "v",
+                        "why_wrong": "This is the main idea of paragraph E (village sign languages develop differently in a different kind of community)."
+                      },
+                      {
+                        "option": "vi",
+                        "why_wrong": "This is the main idea of paragraph F (Nandakumar's account based on meeting strangers)."
+                      },
+                      {
+                        "option": "viii",
+                        "why_wrong": "Government policy on deaf education is not the subject of any paragraph."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "G",
+                    "quote": "Linguists are therefore working to record them, through video archives and dictionaries, before they disappear."
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching_headings",
+              "instructions": "Reading Passage 1 has 7 paragraphs, A–G.\nChoose the correct heading for each paragraph from the list of headings below.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": {
+                "title": "The emergence of Nicaraguan Sign Language",
+                "template": "- Before the late 1970s: deaf people had little contact with each other\n- A new school brought hundreds of deaf children together\n- Lessons focused on lip-reading and {6}, with little success\n- Children formed a shared system in the playground and on the {7}\n- By the mid-1980s, staff who could not follow it asked {8} for help\n- Later, younger pupils used {9} in the signing space more consistently than the first group, e.g. one character on the left, another on the right",
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 6,
+                  "prompt": "lessons focused on lip-reading and …",
+                  "options": null,
+                  "answer": [
+                    "spoken Spanish",
+                    "Spanish"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "'The teachers concentrated on lip-reading and spoken Spanish, with very limited success': 'focused on' = concentrated on.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "The teachers concentrated on lip-reading and spoken Spanish"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "in the playground and on the …",
+                  "options": null,
+                  "answer": [
+                    "school buses",
+                    "buses"
+                  ],
+                  "difficulty": 1,
+                  "sub_skill": "scanning",
+                  "explanation": {
+                    "correct": "The children built their common system 'in the playground and on the school buses'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "in the playground and on the school buses"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "staff asked … for help",
+                  "options": null,
+                  "answer": [
+                    "linguists"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The staff, 'unable to follow it, asked linguists to help them understand' the pupils.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "C",
+                    "quote": "asked linguists to help them understand what their pupils were saying"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 9,
+                  "prompt": "younger pupils used … in the signing space more consistently",
+                  "options": null,
+                  "answer": [
+                    "locations"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Varga found the younger arrivals 'used locations in the space in front of the body far more consistently'.",
+                    "distractors": []
+                  },
+                  "evidence": {
+                    "paragraph": "D",
+                    "quote": "used locations in the space in front of the body far more consistently"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "note_completion",
+              "instructions": "Complete the notes below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in the gaps.",
+              "max_words": 2,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 10,
+                  "prompt": "According to the writer, why are new sign languages of special interest to linguists?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "They are simpler in structure than spoken languages."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "They make it possible to see a language at the moment it forms."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "They are older than most spoken languages."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "They are used by unusually large populations."
+                    }
+                  ],
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Nobody has watched a spoken language begin, but with sign languages 'linguists have been able to observe several new sign languages as they took shape'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "The passage does not say sign languages are simpler than spoken ones."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Sign languages are contrasted with spoken languages, whose origins are ancient; no age comparison of sign languages is made."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "Nothing is said about the size of the populations using sign languages."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "A",
+                    "quote": "linguists have been able to observe several new sign languages as they took shape"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 11,
+                  "prompt": "What does the writer say is the main reason that homesign seldom develops further?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "Children give it up when they begin school."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "Its gestures are not combined in any regular order."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "The people around the child do not adopt or extend it."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "Deaf children are discouraged from using gestures."
+                    }
+                  ],
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "Hearing parents use gestures only alongside speech, 'so they seldom learn their child's system, let alone add to it': the parents do not adopt or extend it.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Nothing is said about children abandoning homesign when they start school."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "The gestures are strung together 'in a fairly consistent order', so lack of order is not the problem."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "The child 'does not remain silent' and nothing suggests children are discouraged from gesturing."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "B",
+                    "quote": "so they seldom learn their child's system, let alone add to it"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 12,
+                  "prompt": "Lindgren uses the way village signers point to real directions as evidence that",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "the features of a community influence the form its language takes."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "deaf children learn to sign faster in villages than in schools."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "hearing signers tend to make a sign language simpler."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "the age of learners has no effect on a language's grammar."
+                    }
+                  ],
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 4,
+                  "sub_skill": "inference",
+                  "explanation": {
+                    "correct": "Village signing differs from Nicaraguan signing (e.g. pointing to actual directions), which to Lindgren 'shows that the shape a new language takes depends at least as much on its community ... as on the age of its learners'.",
+                    "distractors": [
+                      {
+                        "option": "B",
+                        "why_wrong": "Nothing is said about how quickly deaf children learn in villages compared with schools."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "Hearing neighbours sign too, but Lindgren does not claim they simplify the language."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "He does not reject a role for age; he says community matters 'at least as much' as the age of learners."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "E",
+                    "quote": "this shows that the shape a new language takes depends at least as much on its community"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 13,
+                  "prompt": "What does Nandakumar accept about her own explanation?",
+                  "options": [
+                    {
+                      "letter": "A",
+                      "text": "It cannot explain why communities differ."
+                    },
+                    {
+                      "letter": "B",
+                      "text": "It ignores the contribution of young learners."
+                    },
+                    {
+                      "letter": "C",
+                      "text": "It applies only to languages that develop in schools."
+                    },
+                    {
+                      "letter": "D",
+                      "text": "It is hard to check by direct investigation."
+                    }
+                  ],
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Nandakumar concedes that it is difficult to test directly': 'accept' = concedes, 'hard to check by experiment' paraphrases 'difficult to test directly'.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "Explaining differences between communities is presented as an advantage of her account."
+                      },
+                      {
+                        "option": "B",
+                        "why_wrong": "Her account explicitly does not deny 'the role of young learners'."
+                      },
+                      {
+                        "option": "C",
+                        "why_wrong": "She compares several young sign languages, not only schools; nothing limits her account to schools."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "F",
+                    "quote": "although Nandakumar concedes that it is difficult to test directly"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "mcq",
+              "instructions": "Choose the correct letter, A, B, C or D.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

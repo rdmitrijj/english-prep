@@ -1,0 +1,31 @@
+{
+  "slug": "practice-writing-t2-discussion-05",
+  "kind": "practice",
+  "title": "Discussion: daily limits on visitors",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 2,
+          "context": "writing_task2",
+          "topic": "travel-tourism",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 2,
+            "prompt": "Some people argue that famous tourist sites should limit the number of people allowed to visit them each day. Others say that everyone should have the right to visit such places whenever they wish.\n\nDiscuss both these views and give your own opinion.",
+            "essay_type": "discussion",
+            "visual": null
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

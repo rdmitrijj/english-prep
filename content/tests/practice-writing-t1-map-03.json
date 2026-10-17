@@ -1,0 +1,36 @@
+{
+  "slug": "practice-writing-t1-map-03",
+  "kind": "practice",
+  "title": "Maps: changes to a university campus",
+  "status": "published",
+  "generator_meta": {},
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "writing",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "writing_task1",
+          "topic": "education",
+          "passage": null,
+          "script": null,
+          "audio": null,
+          "writing": {
+            "task_number": 1,
+            "prompt": "The maps below show the campus of Calderwick University in 1995 and today.",
+            "essay_type": null,
+            "visual": {
+              "type": "map",
+              "charts": [],
+              "description": "Two maps of the Calderwick University campus side by side, headed \"1995\" (left) and \"Today\" (right), with a north arrow (north is at the top) and a scale bar of 100 metres. In both maps University Road runs east–west along the southern edge of the campus. The entrance is in the middle of the south side, and a straight path leads north from it to the Main Building in the centre of the campus. The library is west of the Main Building and the lecture halls are east of it. A lake lies in the north-east, and a block of student halls stands south-east of the Main Building, just east of the entrance path. 1995: sports fields occupy the north-west of the campus; there is a car park in the south-west, west of the entrance path; and there is a bus stop by the road in the south-east. Today: the Main Building, the library, the lecture halls, the lake, the entrance and path, the original block of student halls and University Road are unchanged. The northern part of the sports fields remains as a smaller sports field, but a sports centre has been built on the southern part. The car park has been replaced by a science building. A second block of student halls has been built to the east of the first. A footpath now runs around the lake, and a café has been built on its south-east side. The bus stop has been replaced by a tram stop, and a tram line now runs along University Road.",
+              "url": "/media/visuals/practice-writing-t1-map-03-t1.svg"
+            }
+          },
+          "groups": []
+        }
+      ]
+    }
+  ]
+}

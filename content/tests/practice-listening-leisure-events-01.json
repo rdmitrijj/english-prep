@@ -1,0 +1,634 @@
+{
+  "slug": "practice-listening-leisure-events-01",
+  "kind": "practice",
+  "title": "City Arts Week",
+  "status": "published",
+  "generator_meta": {
+    "prompt_version": "reading-v1",
+    "generated_at": "2026-10-17T12:51:14+00:00",
+    "models": {
+      "generate": "claude-code",
+      "verify": "claude-code blind subagent"
+    },
+    "verified": [
+      "listening"
+    ]
+  },
+  "check_errors": [],
+  "sections": [
+    {
+      "skill": "listening",
+      "duration_s": null,
+      "parts": [
+        {
+          "number": 1,
+          "context": "social_monologue",
+          "topic": "leisure-events",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "narrator",
+                "role": "Narrator",
+                "accent": "en-GB",
+                "gender": "male"
+              },
+              {
+                "id": "presenter",
+                "role": "Local radio presenter",
+                "accent": "en-CA",
+                "gender": "female"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "narrator",
+                "text": "You will hear a presenter on a local radio station talking about a city arts week. First, you have some time to look at questions 1 to 5.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen carefully and answer questions 1 to 5.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "Good morning, and welcome back to The Morning Mix on Riverton Community Radio. If you've walked through the city centre lately, you'll have seen the banners going up, because Riverton Arts Week starts this Saturday.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "The festival's actually longer this year, nine days instead of the usual seven, so there's plenty of time to fit things in. I've been looking through the programme, and I want to pick out a few highlights for you.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "Let's start with the lantern parade on the opening night. It follows the same route as always, from the old bridge up to Market Square. What's different this year is that you don't have to just stand and watch. The organisers are running lantern-making sessions all week, where you can make your own lantern, and then you can walk in the parade with it.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "Next, the photography exhibition, which is called City at Night. In previous years the exhibition has always been held in the museum, but the museum's being renovated, so this year it'll be in the old tram depot on Foundry Lane. Entry's five dollars, and it's open daily from ten until six.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "If music's more your thing, there's the jazz evening in the botanic gardens on the Wednesday. Last year it ran over two nights, but it's just the one this time. Tickets are 15 dollars, and please bring your own picnic, because there's no food on sale.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "The important thing to know is that there are only 300 seats, and you won't be able to buy tickets at the gate. You have to reserve them on the festival website before the night.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "For families, the Paper Moon puppet company is back at the Kingsway Theatre. Their show this year is a gentle one, designed especially for toddlers and pre-school children, so it's probably a bit young for anyone over six. Tickets are four dollars, and you can just turn up on the day. There's no café in the building, though, so you might want to bring a snack.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "And finally in this part of the programme, there's the storytelling night at the Central Library, which has been held there every year since the festival began. In the past, members of the public could get up and tell a story themselves, but sadly the organisers have dropped the open-mic section, so this year you'll just be listening. The good news is that there's no charge at all, and you don't need a ticket.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Before you hear the rest of the talk, you have some time to look at questions 6 to 10.",
+                "pause_after_s": 30.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "Now listen and answer questions 6 to 10.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "Now, a few practical points. If you'd like a copy of the full programme, it's online, of course. But if you prefer paper, printed copies are available at any public library. They used to be handed out at the tourist information centre as well, but the centre's closed for refurbishment this month, so don't go there.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "Getting around should be easy. The buses are running their normal timetable, so the last one leaves the city centre at about half past eleven. But the city council has arranged for the trams to keep running until one in the morning on both Saturdays, so that's the best way home after the late events.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "There's also a new sculpture trail along the riverbank this year, with twelve pieces by local artists. It's about four kilometres long, and I walked it last weekend. A word of warning, though. Some of the path still hasn't been surfaced, and after all the rain we've had, it's very muddy in places.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "I saw people trying it in trainers and having a miserable time. You'll really need walking boots.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "Now, for any young artists listening, there's a drawing competition for children aged five to twelve. The theme is My Favourite Place in Riverton, and entries need to be handed in at the library by the first Friday.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "In past years the prize has been a tablet computer, but the organisers felt that didn't really suit an arts festival. So this year the winner will get a term of art lessons at the Riverside Studio, which I think is a lovely idea.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "And the week finishes, as always, with fireworks over the harbour. They were originally planned for the final Saturday night. But that's when the harbour's hosting the sailing regatta, and the boats won't be cleared away in time, so the fireworks have been moved to Sunday, starting at nine o'clock. The forecast looks good, so fingers crossed.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "presenter",
+                "text": "That's all from me on Arts Week for now. I'll be talking to some of the artists later in the week, so stay tuned. And after the break, we'll have the weather and the traffic.",
+                "pause_after_s": 0.0
+              },
+              {
+                "speaker": "narrator",
+                "text": "That is the end of the recording. You now have half a minute to check your answers.",
+                "pause_after_s": 30.0
+              }
+            ]
+          },
+          "audio": {
+            "url": "/media/audio/practice-listening-leisure-events-01-p1.mp3",
+            "duration_ms": 498208,
+            "segments": [
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 8810,
+                "text": "You will hear a presenter on a local radio station talking about a city arts week. First, you have some time to look at questions 1 to 5."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 39210,
+                "end_ms": 42752,
+                "text": "Now listen carefully and answer questions 1 to 5."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 43152,
+                "end_ms": 60944,
+                "text": "Good morning, and welcome back to The Morning Mix on Riverton Community Radio. If you've walked through the city centre lately, you'll have seen the banners going up, because Riverton Arts Week starts this Saturday."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 61344,
+                "end_ms": 79029,
+                "text": "The festival's actually longer this year, nine days instead of the usual seven, so there's plenty of time to fit things in. I've been looking through the programme, and I want to pick out a few highlights for you."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 79429,
+                "end_ms": 109573,
+                "text": "Let's start with the lantern parade on the opening night. It follows the same route as always, from the old bridge up to Market Square. What's different this year is that you don't have to just stand and watch. The organisers are running lantern-making sessions all week, where you can make your own lantern, and then you can walk in the parade with it."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 109973,
+                "end_ms": 138816,
+                "text": "Next, the photography exhibition, which is called City at Night. In previous years the exhibition has always been held in the museum, but the museum's being renovated, so this year it'll be in the old tram depot on Foundry Lane. Entry's five dollars, and it's open daily from ten until six."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 139216,
+                "end_ms": 162256,
+                "text": "If music's more your thing, there's the jazz evening in the botanic gardens on the Wednesday. Last year it ran over two nights, but it's just the one this time. Tickets are 15 dollars, and please bring your own picnic, because there's no food on sale."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 162656,
+                "end_ms": 178378,
+                "text": "The important thing to know is that there are only 300 seats, and you won't be able to buy tickets at the gate. You have to reserve them on the festival website before the night."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 178778,
+                "end_ms": 209861,
+                "text": "For families, the Paper Moon puppet company is back at the Kingsway Theatre. Their show this year is a gentle one, designed especially for toddlers and pre-school children, so it's probably a bit young for anyone over six. Tickets are four dollars, and you can just turn up on the day. There's no café in the building, though, so you might want to bring a snack."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 210261,
+                "end_ms": 244800,
+                "text": "And finally in this part of the programme, there's the storytelling night at the Central Library, which has been held there every year since the festival began. In the past, members of the public could get up and tell a story themselves, but sadly the organisers have dropped the open-mic section, so this year you'll just be listening. The good news is that there's no charge at all, and you don't need a ticket."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 245200,
+                "end_ms": 250128,
+                "text": "Before you hear the rest of the talk, you have some time to look at questions 6 to 10."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 280528,
+                "end_ms": 283450,
+                "text": "Now listen and answer questions 6 to 10."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 283850,
+                "end_ms": 311584,
+                "text": "Now, a few practical points. If you'd like a copy of the full programme, it's online, of course. But if you prefer paper, printed copies are available at any public library. They used to be handed out at the tourist information centre as well, but the centre's closed for refurbishment this month, so don't go there."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 311984,
+                "end_ms": 339482,
+                "text": "Getting around should be easy. The buses are running their normal timetable, so the last one leaves the city centre at about half past eleven. But the city council has arranged for the trams to keep running until one in the morning on both Saturdays, so that's the best way home after the late events."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 339882,
+                "end_ms": 367360,
+                "text": "There's also a new sculpture trail along the riverbank this year, with twelve pieces by local artists. It's about four kilometres long, and I walked it last weekend. A word of warning, though. Some of the path still hasn't been surfaced, and after all the rain we've had, it's very muddy in places."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 367760,
+                "end_ms": 375973,
+                "text": "I saw people trying it in trainers and having a miserable time. You'll really need walking boots."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 376373,
+                "end_ms": 396448,
+                "text": "Now, for any young artists listening, there's a drawing competition for children aged five to twelve. The theme is My Favourite Place in Riverton, and entries need to be handed in at the library by the first Friday."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 396848,
+                "end_ms": 418501,
+                "text": "In past years the prize has been a tablet computer, but the organisers felt that didn't really suit an arts festival. So this year the winner will get a term of art lessons at the Riverside Studio, which I think is a lovely idea."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 418901,
+                "end_ms": 447872,
+                "text": "And the week finishes, as always, with fireworks over the harbour. They were originally planned for the final Saturday night. But that's when the harbour's hosting the sailing regatta, and the boats won't be cleared away in time, so the fireworks have been moved to Sunday, starting at nine o'clock. The forecast looks good, so fingers crossed."
+              },
+              {
+                "speaker": "presenter",
+                "accent": "en-CA",
+                "start_ms": 448272,
+                "end_ms": 462778,
+                "text": "That's all from me on Arts Week for now. I'll be talking to some of the artists later in the week, so stay tuned. And after the break, we'll have the weather and the traffic."
+              },
+              {
+                "speaker": "narrator",
+                "accent": "en-GB",
+                "start_ms": 463178,
+                "end_ms": 467808,
+                "text": "That is the end of the recording. You now have half a minute to check your answers."
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "narrator": "bm_lewis",
+              "presenter": "af_nicole"
+            }
+          },
+          "writing": null,
+          "groups": [
+            {
+              "options": [
+                {
+                  "letter": "A",
+                  "text": "Visitors must book in advance."
+                },
+                {
+                  "letter": "B",
+                  "text": "It is aimed at very young children."
+                },
+                {
+                  "letter": "C",
+                  "text": "It is free to attend."
+                },
+                {
+                  "letter": "D",
+                  "text": "It is in a different place from usual."
+                },
+                {
+                  "letter": "E",
+                  "text": "The audience can take part."
+                },
+                {
+                  "letter": "F",
+                  "text": "It runs for longer than last year."
+                },
+                {
+                  "letter": "G",
+                  "text": "Refreshments are on sale."
+                }
+              ],
+              "layout": {
+                "title": "What does the presenter say about each of the following events?",
+                "template": null,
+                "table": null,
+                "steps": null
+              },
+              "questions": [
+                {
+                  "number": 1,
+                  "prompt": "the lantern parade",
+                  "options": null,
+                  "answer": [
+                    "E"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "People can make their own lantern 'and then you can walk in the parade with it', so they take part rather than just watch.",
+                    "distractors": [
+                      {
+                        "option": "D",
+                        "why_wrong": "It 'follows the same route as always'."
+                      },
+                      {
+                        "option": "F",
+                        "why_wrong": "It is the festival as a whole that is longer this year."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "4",
+                    "quote": "you can walk in the parade with it"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 2,
+                  "prompt": "the photography exhibition",
+                  "options": null,
+                  "answer": [
+                    "D"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "It has always been in the museum, but 'this year it'll be in the old tram depot', a different place.",
+                    "distractors": [
+                      {
+                        "option": "C",
+                        "why_wrong": "Entry costs five dollars."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "5",
+                    "quote": "so this year it'll be in the old tram depot"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 3,
+                  "prompt": "the jazz evening",
+                  "options": null,
+                  "answer": [
+                    "A"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "Tickets cannot be bought at the gate: 'You have to reserve them on the festival website before the night'.",
+                    "distractors": [
+                      {
+                        "option": "F",
+                        "why_wrong": "Last year it ran over two nights; this year it is only one."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "There is 'no food on sale'."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "7",
+                    "quote": "You have to reserve them on the festival website before the night"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 4,
+                  "prompt": "the puppet show",
+                  "options": null,
+                  "answer": [
+                    "B"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "The show is 'designed especially for toddlers and pre-school children', i.e. very young children.",
+                    "distractors": [
+                      {
+                        "option": "A",
+                        "why_wrong": "You can 'just turn up on the day'."
+                      },
+                      {
+                        "option": "G",
+                        "why_wrong": "There is no café in the building."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "8",
+                    "quote": "designed especially for toddlers and pre-school children"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 5,
+                  "prompt": "the storytelling night",
+                  "options": null,
+                  "answer": [
+                    "C"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "paraphrase",
+                  "explanation": {
+                    "correct": "'There's no charge at all, and you don't need a ticket' means it is free to attend.",
+                    "distractors": [
+                      {
+                        "option": "E",
+                        "why_wrong": "The open-mic section has been dropped, so the audience only listens."
+                      },
+                      {
+                        "option": "D",
+                        "why_wrong": "It has been held in the Central Library every year."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "9",
+                    "quote": "there's no charge at all"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "matching",
+              "instructions": "Choose FIVE answers from the box and move them into the gaps next to Questions 1–5.",
+              "max_words": null,
+              "allow_number": false,
+              "pick": 1
+            },
+            {
+              "options": null,
+              "layout": null,
+              "questions": [
+                {
+                  "number": 6,
+                  "prompt": "Where can people get a printed copy of the programme?",
+                  "options": null,
+                  "answer": [
+                    "public library",
+                    "library",
+                    "public libraries",
+                    "libraries"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'Printed copies are available at any public library.'",
+                    "distractors": [
+                      {
+                        "option": "tourist information centre",
+                        "why_wrong": "It used to hand out programmes but is closed this month."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "12",
+                    "quote": "printed copies are available at any public library"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 7,
+                  "prompt": "Which form of public transport will run later than usual?",
+                  "options": null,
+                  "answer": [
+                    "trams",
+                    "the trams",
+                    "tram"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The council 'arranged for the trams to keep running until one in the morning'.",
+                    "distractors": [
+                      {
+                        "option": "buses",
+                        "why_wrong": "The buses are running their normal timetable."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "13",
+                    "quote": "arranged for the trams to keep running until one in the morning"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 8,
+                  "prompt": "What does the presenter say people need to wear on the sculpture trail?",
+                  "options": null,
+                  "answer": [
+                    "walking boots",
+                    "boots"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "The path is muddy and trainers were a bad idea: 'You'll really need walking boots'.",
+                    "distractors": [
+                      {
+                        "option": "trainers",
+                        "why_wrong": "People who wore trainers had 'a miserable time'."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "15",
+                    "quote": "You'll really need walking boots"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 9,
+                  "prompt": "What will the winner of the children's drawing competition receive?",
+                  "options": null,
+                  "answer": [
+                    "art lessons"
+                  ],
+                  "difficulty": 3,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "'This year the winner will get a term of art lessons at the Riverside Studio.'",
+                    "distractors": [
+                      {
+                        "option": "tablet computer",
+                        "why_wrong": "This was the prize in past years."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "17",
+                    "quote": "the winner will get a term of art lessons"
+                  },
+                  "review": null
+                },
+                {
+                  "number": 10,
+                  "prompt": "On which day will the fireworks take place?",
+                  "options": null,
+                  "answer": [
+                    "Sunday"
+                  ],
+                  "difficulty": 2,
+                  "sub_skill": "detail",
+                  "explanation": {
+                    "correct": "They were planned for Saturday but 'have been moved to Sunday' because of the regatta.",
+                    "distractors": [
+                      {
+                        "option": "Saturday",
+                        "why_wrong": "This was the original plan, changed because of the sailing regatta."
+                      }
+                    ]
+                  },
+                  "evidence": {
+                    "paragraph": "18",
+                    "quote": "so the fireworks have been moved to Sunday"
+                  },
+                  "review": null
+                }
+              ],
+              "qtype": "short_answer",
+              "instructions": "Answer the questions below.\nWrite NO MORE THAN TWO WORDS for each answer.",
+              "max_words": 2,
+              "allow_number": false,
+              "pick": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
