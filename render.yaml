@@ -1,0 +1,20 @@
+# Render blueprint: one free web service built from the Dockerfile's last (prod) stage. See docs/DEPLOY.md.
+services:
+  - type: web
+    name: english-prep
+    runtime: docker
+    plan: free
+    region: frankfurt
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: DATABASE_URL
+        sync: false # asked for when the blueprint is created (Neon direct URL, see DEPLOY.md step 1)
+      - key: JWT_SECRET
+        generateValue: true
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: LOG_LEVEL
+        value: info

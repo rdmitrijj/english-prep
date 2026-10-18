@@ -1,0 +1,10 @@
+.git
+.env
+**/node_modules
+**/dist
+**/__pycache__
+**/.venv
+**/.pytest_cache
+frontend/tsconfig.tsbuildinfo
+content/drafts
+content/.tts-cache

@@ -659,6 +659,11 @@ SRS = the spaced-repetition system from §4.5.
 ### M9: Deploy to Render + Neon
 - **Files:** production Dockerfile stage, `render.yaml`, `docs/DEPLOY.md`.
 - **Verify:** follow DEPLOY.md: create a Neon project, a Render blueprint and env vars, then create a user via Render Shell and log in at `https://<name>.onrender.com`.
+- **As built (2026-10-18):** `prod` is the Dockerfile's last stage (Render builds the default target): Node builds the
+  SPA, the Python stage gets prod deps only, `content/media` and `frontend/dist`, runs as a non-root user. FastAPI
+  serves `/assets` and answers every other non-`/api` path with `index.html`. Render's free plan has no Shell, so
+  seeding, user creation and essay scoring run from the local dev image with `-e DATABASE_URL=<Neon>`. Behind Render's
+  proxy the login limit is effectively global (5/min), fine for a few users.
 
 ### M10 (optional, `FEATURE_SPEAKING`): Speaking examiner
 - **Files:** `services/speaking.py`, `routers/speaking.py`, `SpeakingView` (WebRTC, part timers, cue card with 1-min prep), evaluator prompt B2.

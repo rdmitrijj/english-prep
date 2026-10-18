@@ -17,6 +17,8 @@ _DUMMY_HASH = hash_password("dummy-password-for-timing")
 
 @router.post("/login", response_model=UserOut)
 async def login(body: LoginIn, request: Request, response: Response, session: Annotated[AsyncSession, Depends(get_session)]):
+    # ponytail: behind Render's proxy every client shares one host, so this is a global 5/min login limit;
+    # key on the proxy's client IP header if there are ever more than a handful of users.
     check_login_rate(request.client.host if request.client else "unknown")
     user = await users_repo.get_by_email(session, body.email)
     if not verify_password(body.password, user.password_hash if user else _DUMMY_HASH) or user is None:
