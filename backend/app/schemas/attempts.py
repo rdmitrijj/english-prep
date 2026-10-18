@@ -57,6 +57,13 @@ class SegmentOut(BaseModel):
     start_ms: int
     end_ms: int
     text: str
+    answer_s: int | None = None  # Speaking: the candidate answers this line, for at most this long
+
+
+class CueCardOut(BaseModel):
+    task: str
+    bullets: list[str]
+    final: str
 
 
 class WritingTaskOut(Orm):
@@ -70,14 +77,20 @@ class PartOut(Orm):
     number: int
     passage: PassageOut | None
     audio: AudioOut | None = None
-    transcript: list[SegmentOut] | None = None  # practice only: in a mock the transcript would give answers away
+    transcript: list[SegmentOut] | None = None  # Listening practice (a mock's would give answers away); Speaking
     writing: WritingTaskOut | None = None
+    cue_card: CueCardOut | None = None  # Speaking Part 2
     groups: list[GroupOut]
 
 
 class EssayOut(BaseModel):
     writing_task_id: int
     text: str
+
+
+class RecordedOut(Orm):
+    part_number: int
+    line_no: int
 
 
 class ResponseOut(Orm):
@@ -113,6 +126,7 @@ class SectionOut(Orm):
     parts: list[PartOut] | None  # only once the section has started
     feedback: list[FeedbackOut] = []  # practice: checked groups only
     essays: list[EssayOut] = []  # writing
+    recorded: list[RecordedOut] = []  # speaking: answers already uploaded (to resume after a refresh)
 
 
 class AttemptOut(BaseModel):

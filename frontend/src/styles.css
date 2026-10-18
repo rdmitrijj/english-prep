@@ -441,6 +441,31 @@ table.grid th {
   margin-top: 28px;
 }
 
+/* Speaking report */
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+.stats li {
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 8px 14px;
+}
+.stats b {
+  font-size: 1.3rem;
+}
+.spoken {
+  margin: 16px 0;
+}
+.spoken audio {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+}
+
 /* Writing report */
 .essay {
   margin-top: 32px;

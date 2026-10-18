@@ -23,6 +23,7 @@ class Settings(BaseSettings):
     elevenlabs_api_key: str | None = None
     elevenlabs_model: str = "eleven_multilingual_v2"  # the API's documented default; newer models via env
     kokoro_dir: str = "~/.cache/kokoro"
+    whisper_model: str = "small.en"  # Speaking transcription (scripts.speaking); "medium.en" is slower but more exact
 
     exam_time_scale: float = 1.0  # dev only: 0.05 turns a 60-minute section into 3 minutes
     dev_clock_offset_days: float = 0  # dev only: 1 = the server lives one day ahead (to see reviews fall due)

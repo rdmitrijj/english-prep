@@ -7,8 +7,8 @@ from app.models.enums import QType, Skill, TestKind
 from app.services.normalize import count_words, normalize_answer
 from scripts.content.schema import CGroup, CPart, CTest, PassageDraft
 from scripts.content.spec import (
-    LINE_GAP_S, LISTENING_AUDIO_MIN, LISTENING_CONTEXTS, ORDERED_TYPES, READING_TOTAL_WORDS, READING_WORDS, SPEECH_WPS,
-    TEXT_TYPES, WRITING_TOPICS, letters,
+    LINE_GAP_S, LISTENING_AUDIO_MIN, LISTENING_CONTEXTS, ORDERED_TYPES, READING_TOTAL_WORDS, READING_WORDS, SPEAKING_ANSWER_S,
+    SPEAKING_DEADLINE_S, SPEAKING_QUESTIONS, SPEECH_WPS, TEXT_TYPES, WRITING_TOPICS, letters,
 )
 
 TFNG = {"TRUE", "FALSE", "NOT GIVEN"}
@@ -23,6 +23,9 @@ def check_test(test: CTest, word_range: tuple[int, int] = READING_WORDS) -> list
             continue
         if section.skill == Skill.writing:
             errors += check_writing_section(section, test.kind)
+            continue
+        if section.skill == Skill.speaking:
+            errors += check_speaking_section(section)
             continue
         if section.skill != Skill.reading:
             continue
@@ -86,6 +89,37 @@ def check_writing_part(part: CPart) -> list[str]:
         errors.append("visual not drawn yet (python -m scripts.content.visuals render <slug>)")
     elif not (Path(get_settings().content_dir) / v.url.removeprefix("/")).exists():
         errors.append(f"visual file missing: {v.url}")
+    return errors
+
+
+def check_speaking_section(section) -> list[str]:
+    errors: list[str] = []
+    if [p.number for p in section.parts] != [1, 2, 3] or section.duration_s != SPEAKING_DEADLINE_S:
+        errors.append(f"speaking: need parts 1–3 and duration_s {SPEAKING_DEADLINE_S}")
+    for part in section.parts:
+        errors += [f"S{part.number} {e}" for e in check_speaking_part(part)]
+    return errors
+
+
+def check_speaking_part(part: CPart) -> list[str]:
+    if part.script is None:
+        return ["missing script (the examiner's lines)"]
+    errors: list[str] = []
+    if [s.id for s in part.script.speakers] != ["examiner"] or part.groups:
+        errors.append("one speaker, 'examiner', and no question groups")
+    if (part.cue_card is None) != (part.number != 2) or (part.cue_card and len(part.cue_card.bullets) not in (3, 4)):
+        errors.append("Part 2, and only Part 2, has a cue card with 3–4 bullets")
+    asks = [ln for ln in part.script.lines if ln.answer_s]
+    lo, hi = SPEAKING_QUESTIONS[part.number]
+    if not lo <= len(asks) <= hi:
+        errors.append(f"{len(asks)} questions, expected {lo}–{hi}")
+    a_lo, a_hi = SPEAKING_ANSWER_S[part.number]
+    errors += [f"line {i}: answer_s {ln.answer_s} outside {a_lo}–{a_hi}" for i, ln in enumerate(part.script.lines)
+               if ln.answer_s and not (a_lo <= ln.answer_s <= a_hi or (part.number == 2 and ln.answer_s <= 45))]
+    if part.number == 2 and (not asks or asks[0].answer_s != 120):
+        errors.append("the first answered line of Part 2 is the long turn (answer_s 120)")
+    if part.audio and len(part.audio.segments) != len(part.script.lines):
+        errors.append("audio is out of date with the script: render it again")
     return errors
 
 

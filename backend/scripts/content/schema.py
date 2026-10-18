@@ -134,6 +134,7 @@ class Line(BaseModel):
     speaker: str  # a Speaker.id
     text: str
     pause_after_s: float = 0.0  # extra silence after the line: reading time before questions, review time
+    answer_s: int | None = None  # Speaking: the candidate answers this line, for at most this long
 
 
 class CScript(BaseModel):
@@ -149,6 +150,7 @@ class Segment(BaseModel):
     start_ms: int
     end_ms: int
     text: str
+    answer_s: int | None = None  # Speaking: copied from the script line
 
 
 class CAudio(BaseModel):
@@ -194,12 +196,21 @@ class CWriting(BaseModel):
     visual: CVisual | None = None  # Task 1
 
 
+class CueCard(BaseModel):
+    """Speaking Part 2. Shown as: task, "You should say:", the bullets, then the final line."""
+
+    task: str  # "Describe a time when you helped someone."
+    bullets: list[str]  # "who you helped", "why they needed help"…
+    final: str  # "and explain how you felt about helping them."
+
+
 class CPart(BaseModel):
     number: int
     context: str
     topic: str  # topic tag slug, e.g. "biology-ecology"
     passage: CPassage | None = None
-    script: CScript | None = None  # listening
+    script: CScript | None = None  # listening; speaking (the examiner's lines)
+    cue_card: CueCard | None = None  # speaking Part 2
     audio: CAudio | None = None  # listening, after rendering
     writing: CWriting | None = None
     groups: list[CGroup] = []  # none for writing

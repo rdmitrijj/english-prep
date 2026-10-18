@@ -665,11 +665,24 @@ SRS = the spaced-repetition system from §4.5.
   seeding, user creation and essay scoring run from the local dev image with `-e DATABASE_URL=<Neon>`. Behind Render's
   proxy the login limit is effectively global (5/min), fine for a few users.
 
-### M10 (optional, `FEATURE_SPEAKING`): Speaking examiner
+### M10: Speaking examiner
 - **Files:** `services/speaking.py`, `routers/speaking.py`, `SpeakingView` (WebRTC, part timers, cue card with 1-min prep), evaluator prompt B2.
 - **Endpoints:** `POST /api/speaking/sessions` (mints the ephemeral key, after `guard_ai`), `POST /api/speaking/sessions/{id}/transcript`, `POST /api/speaking/sessions/{id}/evaluate`.
 - **Tests:** key minting mocked; the session duration cap; band rounding; pronunciation flagged as an estimate.
 - **Verify:** do a 14-minute interview → transcript plus a scored report.
+- **As built (2026-10-18), free instead of Realtime** (no budget for paid AI): the examiner's lines are part of each
+  mock's content (a `speaking` section, parts 1–3, `script` lines with `answer_s` on the ones that expect an answer,
+  a `cue_card` on Part 2), voiced once with Kokoro (`audio render <slug> --skill speaking` → `<slug>-s<n>.mp3`).
+  The browser plays one line at a time, records each answer with MediaRecorder and uploads it at once
+  (`PUT …/speaking/{part}/{line}`, raw audio body, stored in `speaking_answers`); Part 2 has 1 min prep + 2 min,
+  Parts 1 and 3 stop after ~5 min, the server deadline (20 min, never time-scaled) is a safety net. Scoring is the
+  Writing loop: `python -m scripts.speaking pending` transcribes new answers with faster-whisper (dev dependency,
+  ffmpeg decode) and exports interviews with fluency numbers (wpm, pauses ≥2 s, fillers, low-confidence words);
+  two blind Claude Code examiners follow `scripts/speaking_examiner.md`; `apply` combines runs like Writing
+  (agree / lower / third run → median). Band = mean of 4 criteria, rounded half-up. Pronunciation is always
+  labelled an estimate. Nothing recorded, or nothing recognised → band 0. A full mock is now L → R → W → S and its
+  overall band is no longer an estimate once Speaking is scored. No `FEATURE_SPEAKING` flag: it costs nothing.
+  Not built: Speaking practice sets beyond the 4 mocks.
 
 ---
 

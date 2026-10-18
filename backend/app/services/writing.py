@@ -67,11 +67,11 @@ def rule_band(word_count: int) -> int | None:
     return 0 if word_count == 0 else 1 if word_count <= 20 else None
 
 
-def combine(runs: list[dict[str, int]]) -> dict[str, int] | None:
+def combine(runs: list[dict[str, int]], criteria: tuple[str, ...] = CRITERIA) -> dict[str, int] | None:
     """Per criterion: two runs agree → that band; differ by 1 → the lower (the descriptors' "must fully fit" rule);
     differ by more → None until a third run arrives, then the median."""
     out = {}
-    for c in CRITERIA:
+    for c in criteria:
         a, b = runs[0][c], runs[1][c]
         if abs(a - b) <= 1:
             out[c] = min(a, b)
@@ -87,27 +87,28 @@ def writing_band(task1: float, task2: float) -> float:
     return scoring.round_half_up((task1 + 2 * task2) / 3)
 
 
-def bands(e: WritingEvaluation) -> dict[str, int]:
-    return {c: e.criteria[c]["band"] for c in CRITERIA}
+def bands(e: WritingEvaluation, criteria: tuple[str, ...] = CRITERIA) -> dict[str, int]:
+    return {c: e.criteria[c]["band"] for c in criteria}
 
 
-def runs_missing(evals: list[WritingEvaluation]) -> bool:
+def runs_missing(evals: list, criteria: tuple[str, ...] = CRITERIA) -> bool:
+    """Also used for Speaking evaluations, which have the same shape with other criteria."""
     if evals and evals[0].model == RULE:
         return False
-    return len(evals) < 2 or combine([bands(e) for e in evals]) is None
+    return len(evals) < 2 or combine([bands(e, criteria) for e in evals], criteria) is None
 
 
-def result(evals: list[WritingEvaluation]) -> dict[str, Any] | None:
+def result(evals: list, criteria: tuple[str, ...] = CRITERIA) -> dict[str, Any] | None:
     """The final verdict on one essay, or None while examiner runs are still missing."""
-    if not evals or runs_missing(evals):
+    if not evals or runs_missing(evals, criteria):
         return None
-    final = bands(evals[0]) if evals[0].model == RULE else combine([bands(e) for e in evals])
+    final = bands(evals[0], criteria) if evals[0].model == RULE else combine([bands(e, criteria) for e in evals], criteria)
     # The final band always comes from some run (the lower of two, or the median of three), so its words fit it.
-    criteria = {c: {**next(e.criteria[c] for e in evals if e.criteria[c]["band"] == final[c]), "band": final[c]}
-                for c in CRITERIA}
-    closest = min(evals, key=lambda e: sum(abs(bands(e)[c] - final[c]) for c in CRITERIA))
+    verdict = {c: {**next(e.criteria[c] for e in evals if e.criteria[c]["band"] == final[c]), "band": final[c]}
+                for c in criteria}
+    closest = min(evals, key=lambda e: sum(abs(bands(e, criteria)[c] - final[c]) for c in criteria))
     return {
-        "criteria": criteria, "task_band": mean(final.values()), "runs": len(evals), "inconsistent": len(evals) == 3,
+        "criteria": verdict, "task_band": mean(final.values()), "runs": len(evals), "inconsistent": len(evals) == 3,
         "errors": closest.errors, "weakness_tags": closest.weakness_tags,
         "to_reach_next_half_band": closest.raw.get("to_reach_next_half_band", []),
         "improved_paragraph_example": closest.raw.get("improved_paragraph_example", ""),

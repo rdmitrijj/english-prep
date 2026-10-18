@@ -326,6 +326,7 @@ input.gap::placeholder {
 }
 .toast {
   position: fixed;
+  z-index: 30;
   bottom: 60px;
   left: 50%;
   transform: translateX(-50%);
@@ -539,4 +540,53 @@ input.gap.wrong {
 .writing .wordcount {
   margin: 0;
   font-size: 0.9em;
+}
+
+/* Speaking: plain, like the rest of the exam. */
+.speaking .stage {
+  max-width: 720px;
+  margin: 6vh auto;
+  padding: 0 16px;
+  display: grid;
+  gap: 16px;
+  justify-items: start;
+}
+.speaking .status {
+  font-size: 1.15em;
+  margin: 0;
+}
+.speaking .rec .dot {
+  display: inline-block;
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 50%;
+  background: #c00;
+  animation: flash 1s steps(1) infinite;
+}
+.cuecard {
+  border: 2px solid var(--fg, #000);
+  padding: 12px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.cuecard p {
+  margin: 6px 0;
+}
+.speaking .notes {
+  width: 100%;
+  min-height: 6em;
+  box-sizing: border-box;
+  font: inherit;
+}
+.miclevel {
+  display: block;
+  width: 240px;
+  height: 8px;
+  border: 1px solid #999;
+}
+.miclevel > span {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: #2a7a2a;
 }

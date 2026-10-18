@@ -6,6 +6,7 @@ import "./exam.css";
 import QuestionGroup from "./Questions";
 import ListeningAudio from "./ListeningAudio";
 import ReadingView from "./ReadingView";
+import SpeakingView, { MicCheck } from "./SpeakingView";
 import { isAnswered, useResponses } from "./useResponses";
 import WritingView, { wordCount } from "./WritingView";
 
@@ -36,6 +37,7 @@ export default function ExamPage({ user }: { user: User }) {
     const minutes = Math.round((section.duration_s ?? 0) / 60);
     const listening = section.skill === "listening";
     const writing = section.skill === "writing";
+    if (section.skill === "speaking") return <SpeakingIntro attempt={a} section={section} start={() => start.mutate(section.id)} error={start.error} />;
     return (
       <div className="intro">
         {a.sections.length > 1 && (
@@ -71,7 +73,78 @@ export default function ExamPage({ user }: { user: User }) {
       </div>
     );
   }
+  if (section.skill === "speaking") return <SpeakingExam key={section.id} attempt={a} section={section} user={user} />;
   return <ExamShell key={section.id} attempt={a} section={section} user={user} />;
+}
+
+function SpeakingIntro(props: { attempt: Attempt; section: AttemptSection; start: () => void; error: Error | null }) {
+  const { attempt: a, section } = props;
+  const [micOk, setMicOk] = useState(false);
+  return (
+    <div className="intro">
+      {a.sections.length > 1 && (
+        <p className="muted">
+          Full mock: section {a.sections.indexOf(section) + 1} of {a.sections.length}. The previous section is submitted; start
+          this one when you are ready.
+        </p>
+      )}
+      <h1>{a.test_title}: Speaking</h1>
+      <p>About 11–14 minutes. Three parts: questions about yourself, a long turn on a topic card, then a discussion.</p>
+      <ul>
+        <li>The examiner asks each question once. Answer aloud, then click <b>Finish answer</b>.</li>
+        <li>Part 2: you get a topic card and one minute to prepare (you can make notes), then speak for up to two minutes.</li>
+        <li>As in the real test, the examiner moves on when the time for an answer or a part is up.</li>
+        <li>Your answers are recorded and saved one by one. They are scored afterwards, not during the test.</li>
+      </ul>
+      <MicCheck onOk={() => setMicOk(true)} />
+      {props.error && <p className="error">{props.error.message}</p>}
+      <button className="primary" disabled={!micOk} onClick={props.start}>
+        Start test
+      </button>
+      {!micOk && <p className="muted">Test your microphone first.</p>}
+    </div>
+  );
+}
+
+function SpeakingExam({ attempt, section, user }: { attempt: Attempt; section: AttemptSection; user: User }) {
+  const navigate = useNavigate();
+  const qc = useQueryClient();
+  const submitted = useRef(false);
+  const submit = useMutation({
+    mutationFn: () => api<Attempt>(`/attempts/${attempt.id}/sections/${section.id}/submit`, { method: "POST" }),
+    onSuccess: (a) => {
+      qc.setQueryData(["attempt", attempt.id], a);
+      navigate(a.status === "completed" ? `/report/${attempt.id}` : `/exam/${attempt.id}`, { replace: true });
+    },
+  });
+  const finish = useCallback(() => {
+    if (submitted.current) return;
+    submitted.current = true;
+    submit.mutate();
+  }, [submit]);
+  return (
+    <div className="exam">
+      <header className="examhead">
+        <span>{user.display_name}</span>
+        <span className="timer">Speaking</span>
+        <span />
+      </header>
+      <SpeakingView attempt={attempt} section={section} onFinish={finish} />
+      {submit.error && (
+        <p className="toast error">
+          {submit.error.message}{" "}
+          <button
+            onClick={() => {
+              submitted.current = false;
+              finish();
+            }}
+          >
+            Try again
+          </button>
+        </p>
+      )}
+    </div>
+  );
 }
 
 type Prefs = {

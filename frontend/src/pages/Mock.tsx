@@ -2,7 +2,9 @@ import { useMutation, useQuery } from "@tanstack/react-query";
 import { Link, useNavigate } from "react-router";
 import { api, type Attempt, type AttemptSummary, type MockTest, type Skill } from "../api";
 
-const READY: Skill[] = ["listening", "reading", "writing"];
+const READY: Skill[] = ["listening", "reading", "writing", "speaking"];
+const SPEAKING_S = 14 * 60; // the interview itself; the section's server deadline (20 min) is only a safety net
+const seconds = (s: { skill: Skill; duration_s: number | null }) => (s.skill === "speaking" ? SPEAKING_S : (s.duration_s ?? 0));
 const hours = (s: number) => `${Math.floor(s / 3600)} h ${Math.round((s % 3600) / 60)} min`;
 
 export default function Mock() {
@@ -21,8 +23,8 @@ export default function Mock() {
       <section className="hero">
         <h1>Mock exam</h1>
         <p className="lead">
-          The whole test (Listening, Reading, then Writing) or one section, under real conditions: the clock runs on the server, and
-          your answers are submitted when time is up.
+          The whole test (Listening, Reading, Writing, then Speaking) or one section, under real conditions: the clock runs on the
+          server, and your answers are submitted when time is up.
         </p>
       </section>
       {start.error && <p className="error">{start.error.message}</p>}
@@ -33,7 +35,7 @@ export default function Mock() {
             <h2>{t.title}</h2>
             <div className="actions">
               <button className="button" disabled={start.isPending} onClick={() => start.mutate({ test_id: t.id })}>
-                Full mock, {hours(t.sections.filter((s) => READY.includes(s.skill)).reduce((n, s) => n + (s.duration_s ?? 0), 0))}
+                Full mock, {hours(t.sections.filter((s) => READY.includes(s.skill)).reduce((n, s) => n + seconds(s), 0))}
               </button>
               {t.sections
                 .filter((s) => READY.includes(s.skill))
@@ -44,7 +46,7 @@ export default function Mock() {
                     disabled={start.isPending}
                     onClick={() => start.mutate({ test_id: t.id, skill: s.skill })}
                   >
-                    Start {s.skill}, {Math.round((s.duration_s ?? 0) / 60)} min
+                    Start {s.skill}, {Math.round(seconds(s) / 60)} min
                   </button>
                 ))}
             </div>

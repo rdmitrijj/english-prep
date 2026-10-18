@@ -124,8 +124,8 @@ async def build_part(spec: PassageSpec, number: int, passage_no: int, first: int
 
 def finalize(test: CTest) -> CTest:
     test.check_errors = check_test(test)
-    # Listening can only be published with its audio (python -m scripts.content.audio render <slug>).
-    test.check_errors += [f"L{p.number}: audio not rendered yet" for s in test.sections for p in s.parts
+    # Listening and Speaking can only be published with their audio (python -m scripts.content.audio render <slug>).
+    test.check_errors += [f"{s.skill.value[0].upper()}{p.number}: audio not rendered yet" for s in test.sections for p in s.parts
                           if p.script and p.audio is None]
     # ponytail: only Listening records its blind check here; Reading (M2) was verified before this field existed.
     if any(s.skill == Skill.listening for s in test.sections) and Skill.listening not in test.generator_meta.get("verified", []):

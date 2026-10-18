@@ -49,7 +49,7 @@ async def db():
     engine = create_async_engine(TEST_URL, poolclass=NullPool)
     yield async_sessionmaker(engine, expire_on_commit=False)
     async with engine.begin() as conn:
-        await conn.execute(text("TRUNCATE users, tests, tags, speaking_prompts, ai_usage RESTART IDENTITY CASCADE"))
+        await conn.execute(text("TRUNCATE users, tests, tags, ai_usage RESTART IDENTITY CASCADE"))
     await engine.dispose()
 
 

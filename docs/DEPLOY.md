@@ -64,6 +64,8 @@ Open `https://<name>.onrender.com` → log in → start a mock.
   docker compose run --rm --no-deps --user 1000:1000 -e DATABASE_URL="$NEON_URL" backend \
     python -m scripts.essays apply /srv/content/drafts/run-a.json
   ```
+- **Score Speaking:** the same, with `scripts.speaking pending --out /srv/content/drafts/speaking.json` and
+  `scripts.speaking apply …` (it transcribes the recordings on your machine first; see PLAN.md M10).
 - **Logs:** Render dashboard → the service → **Logs**.
 
 ## Free-plan behaviour to expect

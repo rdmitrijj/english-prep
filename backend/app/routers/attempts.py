@@ -1,27 +1,32 @@
 from typing import Annotated
 
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Query, Request, status
+from fastapi.responses import Response as RawResponse
 from sqlalchemy import select
+from sqlalchemy.orm import undefer
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db import get_session
 from app.models.attempts import Attempt, AttemptSection, Response
 from app.models.content import Part, Section, Test, WritingTask
 from app.models.enums import AttemptMode, AttemptStatus, ContentStatus, Skill, SubmitReason, TestKind
+from app.models.speaking import SpeakingAnswer
 from app.models.writing import WritingSubmission
 from app.repositories import attempts as repo
 from app.schemas.attempts import (
-    AttemptCreate, AttemptOut, AttemptSummary, AudioOut, EssayOut, FeedbackOut, GroupOut, PartOut, PassageOut, QuestionOut, ReportOut,
-    ResponseOut, SaveIn, SaveOut, SectionOut, SegmentOut, WritingTaskOut,
+    AttemptCreate, AttemptOut, AttemptSummary, AudioOut, EssayOut, FeedbackOut, GroupOut, PartOut, PassageOut, QuestionOut, RecordedOut,
+    ReportOut, ResponseOut, SaveIn, SaveOut, SectionOut, SegmentOut, WritingTaskOut,
 )
 from app.security import CurrentUser
-from app.services import scoring, timer, writing
+from app.services import scoring, speaking, timer, writing
 from app.services.normalize import count_words
 
 router = APIRouter(prefix="/attempts", tags=["attempts"])
 Session = Annotated[AsyncSession, Depends(get_session)]
 
-FULL_MOCK_ORDER = (Skill.listening, Skill.reading, Skill.writing)  # the real test's order, with no choice of skipping
+FULL_MOCK_ORDER = (Skill.listening, Skill.reading, Skill.writing, Skill.speaking)  # the real order, no skipping
+# Their time comes from recordings (the Listening audio, the candidate's own answers), which EXAM_TIME_SCALE can't shrink.
+UNSCALED = (Skill.listening, Skill.speaking)
 
 # Autosave runs every 5 s; a delta above 5 s + 3 s grace means a bug or a sleeping laptop, so it is capped.
 MAX_TIME_DELTA_MS = 8_000
@@ -52,7 +57,7 @@ async def feedback(session: AsyncSession, asec: AttemptSection) -> list[Feedback
 
 async def shown_seconds(session: AsyncSession, section: Section | None) -> int | None:
     seconds = await repo.section_seconds(session, section) if section else None
-    return seconds and (seconds if section.skill == Skill.listening else timer.scaled(seconds))
+    return seconds and (seconds if section.skill in UNSCALED else timer.scaled(seconds))
 
 
 async def attempt_out(session: AsyncSession, attempt: Attempt) -> AttemptOut:
@@ -60,8 +65,14 @@ async def attempt_out(session: AsyncSession, attempt: Attempt) -> AttemptOut:
     sections = []
     for asec in attempt.sections:
         section = await session.get(Section, asec.section_id) if asec.section_id else None
-        parts, essays = None, []
-        if asec.skill == Skill.writing:
+        parts, essays, recorded = None, [], []
+        if asec.skill == Skill.speaking:
+            recorded = [RecordedOut.model_validate(a) for a in await speaking.answers(session, asec.id)]
+            if asec.started_at:
+                parts = [PartOut(number=p.number, passage=None, audio=AudioOut.model_validate(a), cue_card=p.cue_card, groups=[],
+                                 transcript=[SegmentOut.model_validate(seg) for seg in a.segments])
+                         for p, a in await speaking.parts(session, asec.section_id)]
+        elif asec.skill == Skill.writing:
             rows = await writing.essays(session, asec.id)
             essays = [EssayOut(writing_task_id=t.id, text=sub.text) for sub, t in rows]
             if asec.started_at:
@@ -90,6 +101,7 @@ async def attempt_out(session: AsyncSession, attempt: Attempt) -> AttemptOut:
             # Keys only ever leave the server for practice groups the user has already checked.
             feedback=await feedback(session, asec) if asec.section_id is None else [],
             essays=essays,
+            recorded=recorded,
         ))
     return AttemptOut(id=attempt.id, mode=attempt.mode, status=attempt.status,
                       test_title=test.title if test else "Practice", server_now=timer.now(), sections=sections)
@@ -140,7 +152,7 @@ async def start_section(attempt_id: int, asec_id: int, user: CurrentUser, sessio
         raise HTTPException(status.HTTP_409_CONFLICT, "Finish the previous section first")
     section = await session.get(Section, asec.section_id) if asec.section_id else None
     if section:
-        timer.start(asec, await repo.section_seconds(session, section), scale=section.skill != Skill.listening)
+        timer.start(asec, await repo.section_seconds(session, section), scale=section.skill not in UNSCALED)
     if section and section.skill == Skill.writing and not await writing.essays(session, asec.id):
         tasks = await session.scalars(select(WritingTask).join(Part).where(Part.section_id == section.id))
         session.add_all(WritingSubmission(attempt_section_id=asec.id, writing_task_id=t.id) for t in tasks)
@@ -211,3 +223,37 @@ async def get_report(attempt_id: int, user: CurrentUser, session: Session):
     test = await session.get(Test, attempt.test_id) if attempt.test_id else None
     return ReportOut(id=attempt.id, test_title=test.title if test else "Practice", mode=attempt.mode, finished_at=attempt.finished_at,
                      overall_band=attempt.overall_band, overall_is_estimate=attempt.overall_is_estimate, report=attempt.report)
+
+
+@router.put("/{attempt_id}/sections/{asec_id}/speaking/{part_number}/{line_no}", status_code=status.HTTP_204_NO_CONTENT)
+async def save_speaking_answer(attempt_id: int, asec_id: int, part_number: int, line_no: int, request: Request,
+                               user: CurrentUser, session: Session, duration_ms: Annotated[int, Query(ge=0)]):
+    """One recorded answer as the raw request body (audio/webm, audio/ogg or audio/mp4, whatever the browser records)."""
+    attempt = await load(session, attempt_id, user.id)
+    asec = find_section(attempt, asec_id)
+    if asec.skill != Skill.speaking or not timer.accepts_saves(asec):
+        raise HTTPException(status.HTTP_409_CONFLICT, "This section is closed")
+    mime = request.headers.get("content-type", "")
+    if not mime.startswith("audio/"):
+        raise HTTPException(status.HTTP_415_UNSUPPORTED_MEDIA_TYPE, "Send the recording as audio/*")
+    audio = bytearray()
+    async for chunk in request.stream():
+        audio += chunk
+        if len(audio) > speaking.MAX_AUDIO_BYTES:
+            raise HTTPException(status.HTTP_413_CONTENT_TOO_LARGE, "Recording too large")
+    if not audio:
+        raise HTTPException(status.HTTP_422_UNPROCESSABLE_CONTENT, "Empty recording")
+    if await speaking.save_answer(session, asec, part_number, line_no, bytes(audio), mime[:60], duration_ms) is None:
+        raise HTTPException(status.HTTP_422_UNPROCESSABLE_CONTENT, "The examiner asks no question there")
+    await session.commit()
+
+
+@router.get("/{attempt_id}/speaking/{answer_id}/audio")
+async def speaking_audio(attempt_id: int, answer_id: int, user: CurrentUser, session: Session):
+    """Play back your own answer (report page)."""
+    attempt = await load(session, attempt_id, user.id)
+    answer = await session.scalar(select(SpeakingAnswer).options(undefer(SpeakingAnswer.audio)).where(
+        SpeakingAnswer.id == answer_id, SpeakingAnswer.attempt_section_id.in_([s.id for s in attempt.sections])))
+    if answer is None:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "Recording not found")
+    return RawResponse(answer.audio, media_type=answer.mime.split(";")[0], headers={"Cache-Control": "private, max-age=86400"})

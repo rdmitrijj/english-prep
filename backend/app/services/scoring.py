@@ -15,7 +15,7 @@ from app.models.attempts import Attempt, AttemptSection, Response
 from app.models.content import AnswerKey, BandTable, Part, Question, QuestionGroup
 from app.models.enums import AttemptMode, AttemptStatus, QType, Skill, SubmitReason
 from app.repositories import attempts as repo
-from app.services import srs, timer, writing  # module imports: timer and writing import this module too
+from app.services import speaking, srs, timer, writing  # module imports: these import this module too
 from app.services.normalize import classify_choice, classify_text
 
 BAND_TABLE_SKILL = {Skill.reading: "reading_academic", Skill.listening: "listening"}
@@ -106,6 +106,8 @@ async def submit_section(session: AsyncSession, attempt: Attempt, asec: AttemptS
                          reason: SubmitReason, at: datetime) -> None:
     if asec.skill == Skill.writing:
         await writing.submit(session, asec, at)  # the band follows once the essays are scored
+    elif asec.skill == Skill.speaking:
+        await speaking.submit(session, asec, at)  # likewise, once the answers are transcribed and scored
     else:
         await score_section(session, asec)
     asec.submitted_at, asec.submit_reason = at, reason
@@ -120,6 +122,9 @@ async def build_report(session: AsyncSession, attempt: Attempt) -> dict[str, Any
     for asec in attempt.sections:
         if asec.skill == Skill.writing:
             sections.append(await writing.report_section(session, asec))
+            continue
+        if asec.skill == Skill.speaking:
+            sections.append(await speaking.report_section(session, asec))
             continue
         items = await repo.items(session, asec)
         responses = await repo.responses_by_question(session, asec.id)
@@ -156,9 +161,9 @@ async def build_report(session: AsyncSession, attempt: Attempt) -> dict[str, Any
                               key=lambda x: -x["time_ms"])[:5],
             "questions": questions,
         })
-    # Rebuilt whenever a Writing band arrives too, so the overall appears with the last section band.
+    # Rebuilt whenever a Writing or Speaking band arrives too, so the overall appears with the last section band.
     if attempt.mode == AttemptMode.full_mock:
         bands = [s.band for s in attempt.sections]
         attempt.overall_band = overall_band(bands) if None not in bands else None
-        attempt.overall_is_estimate = True  # Speaking is never taken here
+        attempt.overall_is_estimate = Skill.speaking not in {s.skill for s in attempt.sections}
     return {"sections": sections}

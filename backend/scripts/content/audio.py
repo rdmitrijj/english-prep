@@ -5,6 +5,7 @@ transcript timestamps are exact and free.
     python -m scripts.content.audio render mock-01                     # TTS_PROVIDER from .env
     python -m scripts.content.audio render mock-01 --provider fake     # free tones, for trying the app
     uv run --with kokoro-onnx python -m scripts.content.audio render mock-01 --provider kokoro   # free local voices
+    ... render mock-01 --skill speaking                                 # only the Speaking examiner's lines
 
 Synthesised lines are cached in content/.tts-cache/, so re-rendering after an edit only pays for changed lines.
 """
@@ -18,6 +19,7 @@ import wave
 from pathlib import Path
 
 from app.config import get_settings
+from app.models.enums import Skill
 from scripts.content.generate import finalize, save
 from scripts.content.offline import load
 from scripts.content.schema import CAudio, CPart, Segment, Speaker
@@ -93,7 +95,7 @@ def render_part(part: CPart, name: str, provider: str, fixed: dict[str, str] | N
     encode_mp3(pcm, Path(get_settings().content_dir) / "media" / "audio" / f"{name}.mp3")
     return CAudio(
         url=f"/media/audio/{name}.mp3", duration_ms=ms(len(pcm)), tts_provider=provider, voices=voices,
-        segments=[Segment(speaker=ln.speaker, accent=accents[ln.speaker], start_ms=a, end_ms=b, text=ln.text)
+        segments=[Segment(speaker=ln.speaker, accent=accents[ln.speaker], start_ms=a, end_ms=b, text=ln.text, answer_s=ln.answer_s)
                   for ln, (a, b) in zip(lines, spans)],
     )
 
@@ -103,16 +105,19 @@ def main() -> None:
     parser.add_argument("cmd", choices=["render"])
     parser.add_argument("slug")
     parser.add_argument("--provider", choices=list(PROVIDERS))
+    parser.add_argument("--skill", type=Skill, choices=[Skill.listening, Skill.speaking], help="render only this section")
     args = parser.parse_args()
     provider = args.provider or get_settings().tts_provider
     test = load(args.slug)
-    parts = [p for s in test.sections for p in s.parts if p.script]
-    # One narrator for the whole test, as in the real recordings.
-    narrator = next(sp for sp in parts[0].script.speakers if sp.id == "narrator")
-    fixed = assign_voices([narrator], voice_pool(provider), random.Random(args.slug))
-    for part in parts:
-        part.audio = render_part(part, f"{args.slug}-p{part.number}", provider, fixed)
-        print(f"L{part.number}: {part.audio.duration_ms / 60000:.1f} min, voices {part.audio.voices}")
+    sections = [s for s in test.sections if args.skill in (None, s.skill) and any(p.script for p in s.parts)]
+    # One narrator for the whole Listening test and one examiner for the whole interview, as in the real test.
+    recurring = {sp.id: sp for s in sections for p in s.parts for sp in p.script.speakers if sp.id in ("narrator", "examiner")}
+    fixed = assign_voices(list(recurring.values()), voice_pool(provider), random.Random(args.slug))
+    for s in sections:
+        tag = "p" if s.skill == Skill.listening else "s"  # mock-01-p1.mp3 (Listening), mock-01-s1.mp3 (Speaking)
+        for part in s.parts:
+            part.audio = render_part(part, f"{args.slug}-{tag}{part.number}", provider, fixed)
+            print(f"{tag.upper()}{part.number}: {part.audio.duration_ms / 60000:.1f} min, voices {part.audio.voices}")
     save(finalize(test))
     total = sum(p.audio.duration_ms for s in test.sections for p in s.parts if p.audio) / 60000
     print(f"{test.status.value}: {args.slug}  ({total:.1f} min of audio, {len(test.check_errors)} check errors)")

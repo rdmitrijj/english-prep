@@ -24,6 +24,8 @@ const CRITERION: Record<string, string> = {
   coherence_cohesion: "Coherence and Cohesion",
   lexical_resource: "Lexical Resource",
   grammar: "Grammatical Range and Accuracy",
+  fluency_coherence: "Fluency and Coherence",
+  pronunciation: "Pronunciation",
 };
 export const criterionLabel = (c: string) => CRITERION[c] ?? sentence(c);
 

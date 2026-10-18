@@ -49,14 +49,16 @@ export type Group = {
   questions: Question[];
 };
 export type Passage = { title: string; paragraphs: { label: string; text: string }[]; glossary: Record<string, string> };
-export type Segment = { speaker: string; start_ms: number; end_ms: number; text: string };
+export type Segment = { speaker: string; start_ms: number; end_ms: number; text: string; answer_s?: number | null };
+export type CueCard = { task: string; bullets: string[]; final: string };
 export type WritingTask = { id: number; task_number: number; prompt: string; visual_url: string | null };
 export type Part = {
   number: number;
   passage: Passage | null;
   audio: { url: string; duration_ms: number } | null;
-  transcript: Segment[] | null; // practice only
+  transcript: Segment[] | null; // Listening practice; Speaking (the examiner's lines)
   writing: WritingTask | null;
+  cue_card?: CueCard | null; // Speaking Part 2
   groups: Group[];
 };
 
@@ -76,6 +78,7 @@ export type AttemptSection = {
   parts: Part[] | null;
   feedback: Feedback[];
   essays: { writing_task_id: number; text: string }[];
+  recorded: { part_number: number; line_no: number }[]; // Speaking: answers already uploaded
 };
 export type Feedback = {
   question_id: number;
@@ -129,7 +132,7 @@ export type ReportQuestion = {
   flagged: boolean;
 };
 export type ReportSection = {
-  skill: Exclude<Skill, "writing">;
+  skill: "listening" | "reading";
   raw: number;
   total: number;
   band: number | null; // null for practice
@@ -149,11 +152,11 @@ export type Report = {
   finished_at: string;
   overall_band: number | null; // full mock only, once every section has a band
   overall_is_estimate: boolean;
-  report: { sections: (ReportSection | WritingReport)[] };
+  report: { sections: (ReportSection | WritingReport | SpeakingReport)[] };
 };
 export type Criterion = { band: number; justification: string; evidence: string[] };
 export type EssayResult = {
-  criteria: Record<"task" | "coherence_cohesion" | "lexical_resource" | "grammar", Criterion>;
+  criteria: Record<string, Criterion>; // Writing: task, coherence_cohesion, lexical_resource, grammar (Speaking: see SpeakingReport)
   task_band: number; // unrounded mean of the four criteria
   runs: number;
   inconsistent: boolean;
@@ -178,6 +181,21 @@ export type WritingReport = {
     time_ms: number;
     result: EssayResult | null; // null = waiting for the examiners
   }[];
+};
+export type SpeakingStats = { words: number; wpm: number; fillers: number; long_pauses: number; unsure_words: string[] };
+export type SpeakingReport = {
+  skill: "speaking";
+  band: number | null; // once transcribed and scored
+  submit_reason: "user" | "timeout";
+  time_used_ms: number;
+  transcribed: boolean;
+  stats: SpeakingStats;
+  parts: {
+    number: number;
+    cue_card: CueCard | null;
+    answers: { id: number; question: string; duration_ms: number; transcript: string | null }[];
+  }[];
+  result: EssayResult | null; // criteria: fluency_coherence, lexical_resource, grammar, pronunciation
 };
 export type WritingOption = {
   task_id: number;

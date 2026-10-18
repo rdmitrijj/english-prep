@@ -16,11 +16,12 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.config import get_settings
 from app.db import SessionLocal
-from app.models.attempts import Response
+from app.models.attempts import AttemptSection, Response
 from app.models.content import (
     AnswerKey, AudioAsset, Part, Passage, Question, QuestionGroup, Section, Tag, Test, WritingTask,
 )
 from app.models.enums import ContentStatus, TagKind
+from app.models.speaking import SpeakingAnswer
 from app.models.writing import WritingSubmission
 from app.services.normalize import count_words
 from scripts.content.schema import CSection, CTest, CWriting
@@ -49,11 +50,13 @@ async def writing_task(session: AsyncSession, part_id: int, w: CWriting) -> Writ
 
 
 async def answered(session: AsyncSession, section_id: int) -> bool:
-    """Someone answered a question or started an essay in this section."""
+    """Someone answered a question, started an essay or recorded an answer in this section."""
     return bool(await session.scalar(select(exists().where(
         Response.question_id == Question.id, Question.group_id == QuestionGroup.id,
         QuestionGroup.part_id == Part.id, Part.section_id == section_id)))) or bool(await session.scalar(select(exists().where(
-            WritingSubmission.writing_task_id == WritingTask.id, WritingTask.part_id == Part.id, Part.section_id == section_id))))
+            WritingSubmission.writing_task_id == WritingTask.id, WritingTask.part_id == Part.id, Part.section_id == section_id)))) or bool(
+        await session.scalar(select(exists().where(
+            SpeakingAnswer.attempt_section_id == AttemptSection.id, AttemptSection.section_id == section_id))))
 
 
 async def seed_test(session: AsyncSession, t: CTest) -> str:
@@ -105,7 +108,7 @@ async def seed_test(session: AsyncSession, t: CTest) -> str:
 
 def audio_row(part_id: int, audio) -> dict:
     return dict(part_id=part_id, url=audio.url, duration_ms=audio.duration_ms, tts_provider=audio.tts_provider,
-                voices=audio.voices, segments=[seg.model_dump() for seg in audio.segments])
+                voices=audio.voices, segments=[seg.model_dump(exclude_none=True) for seg in audio.segments])
 
 
 async def sync_audio(session: AsyncSession, section_id: int, cs: CSection) -> bool:
@@ -134,7 +137,8 @@ async def insert_section(session: AsyncSession, test_id: int, order: int, cs: CS
     await session.flush()
     for cp in cs.parts:
         tag = await get_tag(session, cp.topic)
-        part = Part(section_id=section.id, number=cp.number, context=cp.context, topic_tag_id=tag.id)
+        part = Part(section_id=section.id, number=cp.number, context=cp.context, topic_tag_id=tag.id,
+                    cue_card=cp.cue_card.model_dump() if cp.cue_card else None)
         session.add(part)
         await session.flush()
         if cp.passage:

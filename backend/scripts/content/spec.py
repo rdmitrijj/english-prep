@@ -72,6 +72,9 @@ def writing_rubric(task_number: int, prompt: str) -> str:
 LISTENING_CONTEXTS = ("social_dialogue", "social_monologue", "academic_discussion", "academic_lecture")
 SPEECH_WPS = 2.6  # words per second of natural TTS speech, for duration estimates before rendering
 LINE_GAP_S = 0.4  # silence between consecutive lines
+SPEAKING_DEADLINE_S = 1200  # server safety net; the browser runs the 11–14 min interview (RESEARCH §2.4)
+SPEAKING_ANSWER_S = {1: (20, 45), 2: (60, 120), 3: (30, 75)}  # allowed answer_s per part (P2: the long turn)
+SPEAKING_QUESTIONS = {1: (9, 14), 2: (2, 3), 3: (5, 8)}  # examiner lines expecting an answer, per part
 LISTENING_AUDIO_MIN = (26, 32)  # a whole mock recording; + 2 min review = the official 30–34 min (RESEARCH §2.1)
 
 TEXT_TYPES = {

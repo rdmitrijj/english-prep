@@ -60,14 +60,21 @@ export default function WritingReportView({ s, practice, target }: { s: WritingR
             <summary>Your answer</summary>
             <p className="essaytext">{t.text || "(no answer)"}</p>
           </details>
-          {t.result && <Feedback r={t.result} task={t.task_number} />}
+          {t.result && (
+            <Feedback
+              r={t.result}
+              criteria={CRITERIA.map(([key, label]) => [key, label(t.task_number)])}
+              example="One paragraph, about a band higher"
+            />
+          )}
         </section>
       ))}
     </article>
   );
 }
 
-function Feedback({ r, task }: { r: EssayResult; task: number }) {
+/** Examiner feedback: per-criterion bands with quotes, next steps, errors and an improved example (Writing and Speaking). */
+export function Feedback({ r, criteria, example }: { r: EssayResult; criteria: [string, string][]; example: string }) {
   return (
     <>
       {r.inconsistent && (
@@ -78,9 +85,9 @@ function Feedback({ r, task }: { r: EssayResult; task: number }) {
       {r.off_topic_flags.length > 0 && <p className="error">Off-topic: {r.off_topic_flags.join("; ")}</p>}
       <table className="grid criteria">
         <tbody>
-          {CRITERIA.map(([key, label]) => (
+          {criteria.map(([key, label]) => (
             <tr key={key}>
-              <th>{label(task)}</th>
+              <th>{label}</th>
               <td className="num">{r.criteria[key].band}</td>
               <td>
                 {r.criteria[key].justification}
@@ -127,7 +134,7 @@ function Feedback({ r, task }: { r: EssayResult; task: number }) {
       )}
       {r.improved_paragraph_example && (
         <>
-          <h3>One paragraph, about a band higher</h3>
+          <h3>{example}</h3>
           <blockquote>{r.improved_paragraph_example}</blockquote>
         </>
       )}

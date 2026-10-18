@@ -57,6 +57,7 @@ class Part(Base):
     number: Mapped[int] = mapped_column(SmallInteger)  # L 1–4, R 1–3, W 1–2
     context: Mapped[str | None] = mapped_column(String(40))  # e.g. social_dialogue, academic_lecture
     topic_tag_id: Mapped[int | None] = mapped_column(ForeignKey("tags.id"))
+    cue_card: Mapped[dict[str, Any] | None] = mapped_column(JSONB)  # Speaking Part 2: {task, bullets, final}
 
     section: Mapped[Section] = relationship(back_populates="parts")
     question_groups: Mapped[list["QuestionGroup"]] = relationship(
@@ -106,26 +107,6 @@ class WritingTask(Base):
     visual_data: Mapped[dict[str, Any] | None] = mapped_column(JSONB)  # source data, given to the evaluator
 
     tags: Mapped[list[Tag]] = relationship(secondary=writing_task_tags)
-
-
-speaking_prompt_tags = Table(
-    "speaking_prompt_tags",
-    Base.metadata,
-    Column("speaking_prompt_id", ForeignKey("speaking_prompts.id", ondelete="CASCADE"), primary_key=True),
-    Column("tag_id", ForeignKey("tags.id", ondelete="CASCADE"), primary_key=True),
-)
-
-
-class SpeakingPrompt(Base):
-    __tablename__ = "speaking_prompts"
-
-    id: Mapped[int] = mapped_column(primary_key=True)
-    slug: Mapped[str] = mapped_column(String(100), unique=True)
-    part_number: Mapped[int] = mapped_column(SmallInteger)
-    topic: Mapped[str] = mapped_column(String(120))
-    content: Mapped[dict[str, Any]] = mapped_column(JSONB)  # P1 questions | P2 cue card | P3 questions
-
-    tags: Mapped[list[Tag]] = relationship(secondary=speaking_prompt_tags)
 
 
 class QuestionGroup(Base):
