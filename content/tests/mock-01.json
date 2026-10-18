@@ -50,205 +50,246 @@
               {
                 "speaker": "narrator",
                 "text": "Part 1. You will hear a man phoning a removal company to arrange a house move. First, you have some time to look at questions 1 to 5.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 1 to 5.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "Good morning, Kingfisher Removals, Jess speaking. How can I help you?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "Oh, hello. I'm moving house next month and I'd like to get a quote, and maybe book a date if you've got anything free.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "Of course. I'll just take a few details first. Can I have your name, please?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "Yes, it's Martin Pelham.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "Is that P-E-L-L-A-M?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "Not quite. It's P-E-L-H-A-M. There's an H in the middle. People always miss it.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "Sorry about that. Pelham, with an H. Got it. And where are you moving from at the moment?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "I'm in a flat at 27 Tanner Street. That's T-A-N-N-E-R. It's in Bramford, just behind the railway station.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "Lovely, I know it. Is there a lift in the building?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "There is, but it's tiny, and I'm on the second floor, so I don't think your team will want to squeeze a sofa into it.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "No, they'll probably use the stairs, then. Now, do you have a date in mind?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "Well, originally we were going to move on Saturday the 9th of August, but the people buying our flat have asked for an extra week.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "So that would make it the following Saturday?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "Exactly, Saturday the 16th of August. Is that possible?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "Let me have a look... yes, we've still got a team free that day, so I'll pencil you in. And how big is the place you're moving to?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "It's a house this time. At the moment we've only got two bedrooms, but the new one has three, plus a small garden, so it'll be a lot more space.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "Very nice. And are there any items we should know about? Anything particularly heavy or fragile?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "Let me think. There's a grandfather clock that belonged to my grandmother. Oh, no, actually, my sister's taking that, so you won't need to worry about it. But there is an antique mirror. It's quite large and the frame's very delicate.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "Okay, I'll make a note of the mirror, and the team will bring special padding for it.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen and answer questions 6 to 10.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "So, Mr Pelham, based on what you've told me, the full price would be 640 pounds for the day. That includes the van, the fuel and three removal staff.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "That sounds reasonable. Do I need to pay anything now?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "Yes, there's a deposit to secure the date. It used to be 75 pounds, but it went up in April, so it's now 90 pounds. The rest is paid on the day of the move.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "Fine. And is there anything I need to organise at my end?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "Parking is the main thing. Our van is quite long, so it needs a space right outside the building. Is there a car park, or is it street parking on Tanner Street?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "Street parking. I suppose I'd better ask my landlord about it?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "Actually, your landlord can't help with the street, I'm afraid. You'll need a parking permit from the council. You can usually get one online, but do it at least a week before.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "Right, I'll sort that out this week. Anything else?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "Just one thing people often forget. Please defrost the freezer the day before, otherwise there's water all over the van. You don't need to empty the bookshelves, though. The team can box those up for you.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "Good to know. What about boxes for everything else? Do I have to buy my own?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "No, you get 20 cardboard boxes free with every booking, and a roll of tape. Bubble wrap isn't included, but we can sell you some if you need it.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "I think I'll be okay for bubble wrap, thanks.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "No problem. Last question, then. How did you hear about us? Was it our website?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "No, not the website, though I did have a look at it afterwards. It was my neighbour, actually. She used you last year and said you were brilliant.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "text": "Oh, that's lovely to hear. Right, I'll email you a booking confirmation this afternoon, with a link for paying the deposit.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "text": "Brilliant. Thanks very much for your help.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 1. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-01-p1.mp3",
             "duration_ms": 320144,
@@ -258,280 +299,320 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 8768,
-                "text": "Part 1. You will hear a man phoning a removal company to arrange a house move. First, you have some time to look at questions 1 to 5."
+                "text": "Part 1. You will hear a man phoning a removal company to arrange a house move. First, you have some time to look at questions 1 to 5.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 39168,
                 "end_ms": 42709,
-                "text": "Now listen carefully and answer questions 1 to 5."
+                "text": "Now listen carefully and answer questions 1 to 5.",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 43109,
                 "end_ms": 46970,
-                "text": "Good morning, Kingfisher Removals, Jess speaking. How can I help you?"
+                "text": "Good morning, Kingfisher Removals, Jess speaking. How can I help you?",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 47370,
                 "end_ms": 53408,
-                "text": "Oh, hello. I'm moving house next month and I'd like to get a quote, and maybe book a date if you've got anything free."
+                "text": "Oh, hello. I'm moving house next month and I'd like to get a quote, and maybe book a date if you've got anything free.",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 53808,
                 "end_ms": 57925,
-                "text": "Of course. I'll just take a few details first. Can I have your name, please?"
+                "text": "Of course. I'll just take a few details first. Can I have your name, please?",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 58325,
                 "end_ms": 60096,
-                "text": "Yes, it's Martin Pelham."
+                "text": "Yes, it's Martin Pelham.",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 60496,
                 "end_ms": 62266,
-                "text": "Is that P-E-L-L-A-M?"
+                "text": "Is that P-E-L-L-A-M?",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 62666,
                 "end_ms": 67296,
-                "text": "Not quite. It's P-E-L-H-A-M. There's an H in the middle. People always miss it."
+                "text": "Not quite. It's P-E-L-H-A-M. There's an H in the middle. People always miss it.",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 67696,
                 "end_ms": 72410,
-                "text": "Sorry about that. Pelham, with an H. Got it. And where are you moving from at the moment?"
+                "text": "Sorry about that. Pelham, with an H. Got it. And where are you moving from at the moment?",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 72810,
                 "end_ms": 79253,
-                "text": "I'm in a flat at 27 Tanner Street. That's T-A-N-N-E-R. It's in Bramford, just behind the railway station."
+                "text": "I'm in a flat at 27 Tanner Street. That's T-A-N-N-E-R. It's in Bramford, just behind the railway station.",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 79653,
                 "end_ms": 82597,
-                "text": "Lovely, I know it. Is there a lift in the building?"
+                "text": "Lovely, I know it. Is there a lift in the building?",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 82997,
                 "end_ms": 88928,
-                "text": "There is, but it's tiny, and I'm on the second floor, so I don't think your team will want to squeeze a sofa into it."
+                "text": "There is, but it's tiny, and I'm on the second floor, so I don't think your team will want to squeeze a sofa into it.",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 89328,
                 "end_ms": 93424,
-                "text": "No, they'll probably use the stairs, then. Now, do you have a date in mind?"
+                "text": "No, they'll probably use the stairs, then. Now, do you have a date in mind?",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 93824,
                 "end_ms": 100650,
-                "text": "Well, originally we were going to move on Saturday the 9th of August, but the people buying our flat have asked for an extra week."
+                "text": "Well, originally we were going to move on Saturday the 9th of August, but the people buying our flat have asked for an extra week.",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 101050,
                 "end_ms": 103482,
-                "text": "So that would make it the following Saturday?"
+                "text": "So that would make it the following Saturday?",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 103882,
                 "end_ms": 107424,
-                "text": "Exactly, Saturday the 16th of August. Is that possible?"
+                "text": "Exactly, Saturday the 16th of August. Is that possible?",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 107824,
                 "end_ms": 114501,
-                "text": "Let me have a look... yes, we've still got a team free that day, so I'll pencil you in. And how big is the place you're moving to?"
+                "text": "Let me have a look... yes, we've still got a team free that day, so I'll pencil you in. And how big is the place you're moving to?",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 114901,
                 "end_ms": 122304,
-                "text": "It's a house this time. At the moment we've only got two bedrooms, but the new one has three, plus a small garden, so it'll be a lot more space."
+                "text": "It's a house this time. At the moment we've only got two bedrooms, but the new one has three, plus a small garden, so it'll be a lot more space.",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 122704,
                 "end_ms": 128293,
-                "text": "Very nice. And are there any items we should know about? Anything particularly heavy or fragile?"
+                "text": "Very nice. And are there any items we should know about? Anything particularly heavy or fragile?",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 128693,
                 "end_ms": 140298,
-                "text": "Let me think. There's a grandfather clock that belonged to my grandmother. Oh, no, actually, my sister's taking that, so you won't need to worry about it. But there is an antique mirror. It's quite large and the frame's very delicate."
+                "text": "Let me think. There's a grandfather clock that belonged to my grandmother. Oh, no, actually, my sister's taking that, so you won't need to worry about it. But there is an antique mirror. It's quite large and the frame's very delicate.",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 140698,
                 "end_ms": 145029,
-                "text": "Okay, I'll make a note of the mirror, and the team will bring special padding for it."
+                "text": "Okay, I'll make a note of the mirror, and the team will bring special padding for it.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 145429,
                 "end_ms": 150805,
-                "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10."
+                "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 181205,
                 "end_ms": 184128,
-                "text": "Now listen and answer questions 6 to 10."
+                "text": "Now listen and answer questions 6 to 10.",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 184528,
                 "end_ms": 193722,
-                "text": "So, Mr Pelham, based on what you've told me, the full price would be 640 pounds for the day. That includes the van, the fuel and three removal staff."
+                "text": "So, Mr Pelham, based on what you've told me, the full price would be 640 pounds for the day. That includes the van, the fuel and three removal staff.",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 194122,
                 "end_ms": 197216,
-                "text": "That sounds reasonable. Do I need to pay anything now?"
+                "text": "That sounds reasonable. Do I need to pay anything now?",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 197616,
                 "end_ms": 207130,
-                "text": "Yes, there's a deposit to secure the date. It used to be 75 pounds, but it went up in April, so it's now 90 pounds. The rest is paid on the day of the move."
+                "text": "Yes, there's a deposit to secure the date. It used to be 75 pounds, but it went up in April, so it's now 90 pounds. The rest is paid on the day of the move.",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 207530,
                 "end_ms": 210922,
-                "text": "Fine. And is there anything I need to organise at my end?"
+                "text": "Fine. And is there anything I need to organise at my end?",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 211322,
                 "end_ms": 219770,
-                "text": "Parking is the main thing. Our van is quite long, so it needs a space right outside the building. Is there a car park, or is it street parking on Tanner Street?"
+                "text": "Parking is the main thing. Our van is quite long, so it needs a space right outside the building. Is there a car park, or is it street parking on Tanner Street?",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 220170,
                 "end_ms": 223818,
-                "text": "Street parking. I suppose I'd better ask my landlord about it?"
+                "text": "Street parking. I suppose I'd better ask my landlord about it?",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 224218,
                 "end_ms": 233157,
-                "text": "Actually, your landlord can't help with the street, I'm afraid. You'll need a parking permit from the council. You can usually get one online, but do it at least a week before."
+                "text": "Actually, your landlord can't help with the street, I'm afraid. You'll need a parking permit from the council. You can usually get one online, but do it at least a week before.",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 233557,
                 "end_ms": 236309,
-                "text": "Right, I'll sort that out this week. Anything else?"
+                "text": "Right, I'll sort that out this week. Anything else?",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 236709,
                 "end_ms": 247440,
-                "text": "Just one thing people often forget. Please defrost the freezer the day before, otherwise there's water all over the van. You don't need to empty the bookshelves, though. The team can box those up for you."
+                "text": "Just one thing people often forget. Please defrost the freezer the day before, otherwise there's water all over the van. You don't need to empty the bookshelves, though. The team can box those up for you.",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 247840,
                 "end_ms": 251936,
-                "text": "Good to know. What about boxes for everything else? Do I have to buy my own?"
+                "text": "Good to know. What about boxes for everything else? Do I have to buy my own?",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 252336,
                 "end_ms": 260336,
-                "text": "No, you get 20 cardboard boxes free with every booking, and a roll of tape. Bubble wrap isn't included, but we can sell you some if you need it."
+                "text": "No, you get 20 cardboard boxes free with every booking, and a roll of tape. Bubble wrap isn't included, but we can sell you some if you need it.",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 260736,
                 "end_ms": 263189,
-                "text": "I think I'll be okay for bubble wrap, thanks."
+                "text": "I think I'll be okay for bubble wrap, thanks.",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 263589,
                 "end_ms": 267877,
-                "text": "No problem. Last question, then. How did you hear about us? Was it our website?"
+                "text": "No problem. Last question, then. How did you hear about us? Was it our website?",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 268277,
                 "end_ms": 275466,
-                "text": "No, not the website, though I did have a look at it afterwards. It was my neighbour, actually. She used you last year and said you were brilliant."
+                "text": "No, not the website, though I did have a look at it afterwards. It was my neighbour, actually. She used you last year and said you were brilliant.",
+                "answer_s": null
               },
               {
                 "speaker": "receptionist",
                 "accent": "en-AU",
                 "start_ms": 275866,
                 "end_ms": 282309,
-                "text": "Oh, that's lovely to hear. Right, I'll email you a booking confirmation this afternoon, with a link for paying the deposit."
+                "text": "Oh, that's lovely to hear. Right, I'll email you a booking confirmation this afternoon, with a link for paying the deposit.",
+                "answer_s": null
               },
               {
                 "speaker": "customer",
                 "accent": "en-GB",
                 "start_ms": 282709,
                 "end_ms": 284992,
-                "text": "Brilliant. Thanks very much for your help."
+                "text": "Brilliant. Thanks very much for your help.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 285392,
                 "end_ms": 289744,
-                "text": "That is the end of Part 1. You now have half a minute to check your answers."
+                "text": "That is the end of Part 1. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -833,110 +914,132 @@
               {
                 "speaker": "narrator",
                 "text": "Part 2. You will hear a volunteer coordinator talking to a group of new volunteers about a lantern festival. First, you have some time to look at questions 11 to 14.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 11 to 14.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "Kia ora, everyone, and thanks for coming along tonight. My name's Rob Fletcher and I'm the volunteer coordinator for this year's Riverbend Lantern Festival. It's great to see so many new faces. About half of you have never volunteered with us before, so I'll go through the basics, and then there'll be time for questions at the end.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "First, a bit of news you've probably already heard. After eleven years in the old Wharf Street car park, the festival is moving to Riverside Park. A lot of people have asked me why. Some think we were after a bigger crowd, but honestly, our numbers have been fine for years.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "And yes, the park is right on the main bus routes, which is great, but that's really just a bonus. The actual reason is that the car park has been sold, and the council's turning it into apartments, so we simply had to find a new home.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "Now, what to wear. We'd planned to give everyone a festival T-shirt this year, but unfortunately our supplier let us down and they won't arrive in time. So when you sign in, please pick up one of the yellow high-vis vests from the volunteer tent and keep it on all evening.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "What you wear underneath is up to you, but do bring a waterproof jacket of your own. We can't supply those, and it gets pretty cold and damp down by the river.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "On the day itself, that's Saturday the 14th of March, the gates open to the public at five. In previous years we've asked volunteers to come at four, but hanging all the lanterns along the new path takes longer than you'd think, so this year please be here by half past three.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "Right, one thing I want to be really clear about is lost children. With a big crowd in the dark, it happens every year. In the past, volunteers would walk the child over to the information tent, but we've found that parents usually go back to the spot where they last saw their child, so the child's no longer there.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "So this year, if you find a lost child, stay with them exactly where you are and call the safety team on your radio. They'll come to you. And please don't go to the main stage to ask for an announcement. That tends to cause more panic than it solves.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Before you hear the rest of the talk, you have some time to look at questions 15 to 20.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen and answer questions 15 to 20.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "Okay, now let me take you round the different areas of the festival, because there are a few changes you'll need to know about.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "Starting with the craft tent, where people make their own lanterns. Last year it was absolutely packed, and we did look into hiring a bigger tent, but the cost was just too high, so it's the same size as before. The real problem there is staffing. We've still only got four helpers for the whole evening, so if anyone's keen, please let me know.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "Next to it you'll find the food market. You won't remember it from previous years, because until now we've only ever had one coffee van. This is the first time we've had proper food stalls. Entry to the market's free, of course. The stallholders pay us a fee instead.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "Then there's the children's zone, on the grass beside the playground. Some parents think it's only for toddlers, but there are activities for kids of all ages. Because that part of the park isn't lit, though, it shuts at seven, a couple of hours before everything else.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "The main stage is at the far end of the park. It's got a roof, so even if it rains, the bands will keep playing. What has changed is the space in front of it. We've made the dance area twice as big as last year, so there's plenty of room for everyone.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "The riverside path is where the floating lanterns are released, and it's the highlight of the night. However, it's very exposed, so if the wind picks up, we'll have to close it for safety. We'll make that call on the night.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "And finally, the bike park by the north gate. We had one last year, so it's nothing new, but this year there's a charge of two dollars a bike, because we're paying security staff to keep an eye on it. All the money goes back into the festival.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "text": "Right, that's everything from me for now. Grab yourselves a cup of tea, and then I'll take your questions.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 2. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-01-p2.mp3",
             "duration_ms": 369653,
@@ -946,147 +1049,168 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 11648,
-                "text": "Part 2. You will hear a volunteer coordinator talking to a group of new volunteers about a lantern festival. First, you have some time to look at questions 11 to 14."
+                "text": "Part 2. You will hear a volunteer coordinator talking to a group of new volunteers about a lantern festival. First, you have some time to look at questions 11 to 14.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 42048,
                 "end_ms": 46080,
-                "text": "Now listen carefully and answer questions 11 to 14."
+                "text": "Now listen carefully and answer questions 11 to 14.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 46480,
                 "end_ms": 67493,
-                "text": "Kia ora, everyone, and thanks for coming along tonight. My name's Rob Fletcher and I'm the volunteer coordinator for this year's Riverbend Lantern Festival. It's great to see so many new faces. About half of you have never volunteered with us before, so I'll go through the basics, and then there'll be time for questions at the end."
+                "text": "Kia ora, everyone, and thanks for coming along tonight. My name's Rob Fletcher and I'm the volunteer coordinator for this year's Riverbend Lantern Festival. It's great to see so many new faces. About half of you have never volunteered with us before, so I'll go through the basics, and then there'll be time for questions at the end.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 67893,
                 "end_ms": 84576,
-                "text": "First, a bit of news you've probably already heard. After eleven years in the old Wharf Street car park, the festival is moving to Riverside Park. A lot of people have asked me why. Some think we were after a bigger crowd, but honestly, our numbers have been fine for years."
+                "text": "First, a bit of news you've probably already heard. After eleven years in the old Wharf Street car park, the festival is moving to Riverside Park. A lot of people have asked me why. Some think we were after a bigger crowd, but honestly, our numbers have been fine for years.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 84976,
                 "end_ms": 99973,
-                "text": "And yes, the park is right on the main bus routes, which is great, but that's really just a bonus. The actual reason is that the car park has been sold, and the council's turning it into apartments, so we simply had to find a new home."
+                "text": "And yes, the park is right on the main bus routes, which is great, but that's really just a bonus. The actual reason is that the car park has been sold, and the council's turning it into apartments, so we simply had to find a new home.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 100373,
                 "end_ms": 117205,
-                "text": "Now, what to wear. We'd planned to give everyone a festival T-shirt this year, but unfortunately our supplier let us down and they won't arrive in time. So when you sign in, please pick up one of the yellow high-vis vests from the volunteer tent and keep it on all evening."
+                "text": "Now, what to wear. We'd planned to give everyone a festival T-shirt this year, but unfortunately our supplier let us down and they won't arrive in time. So when you sign in, please pick up one of the yellow high-vis vests from the volunteer tent and keep it on all evening.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 117605,
                 "end_ms": 127610,
-                "text": "What you wear underneath is up to you, but do bring a waterproof jacket of your own. We can't supply those, and it gets pretty cold and damp down by the river."
+                "text": "What you wear underneath is up to you, but do bring a waterproof jacket of your own. We can't supply those, and it gets pretty cold and damp down by the river.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 128010,
                 "end_ms": 145610,
-                "text": "On the day itself, that's Saturday the 14th of March, the gates open to the public at five. In previous years we've asked volunteers to come at four, but hanging all the lanterns along the new path takes longer than you'd think, so this year please be here by half past three."
+                "text": "On the day itself, that's Saturday the 14th of March, the gates open to the public at five. In previous years we've asked volunteers to come at four, but hanging all the lanterns along the new path takes longer than you'd think, so this year please be here by half past three.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 146010,
                 "end_ms": 165082,
-                "text": "Right, one thing I want to be really clear about is lost children. With a big crowd in the dark, it happens every year. In the past, volunteers would walk the child over to the information tent, but we've found that parents usually go back to the spot where they last saw their child, so the child's no longer there."
+                "text": "Right, one thing I want to be really clear about is lost children. With a big crowd in the dark, it happens every year. In the past, volunteers would walk the child over to the information tent, but we've found that parents usually go back to the spot where they last saw their child, so the child's no longer there.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 165482,
                 "end_ms": 180864,
-                "text": "So this year, if you find a lost child, stay with them exactly where you are and call the safety team on your radio. They'll come to you. And please don't go to the main stage to ask for an announcement. That tends to cause more panic than it solves."
+                "text": "So this year, if you find a lost child, stay with them exactly where you are and call the safety team on your radio. They'll come to you. And please don't go to the main stage to ask for an announcement. That tends to cause more panic than it solves.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 181264,
                 "end_ms": 186448,
-                "text": "Before you hear the rest of the talk, you have some time to look at questions 15 to 20."
+                "text": "Before you hear the rest of the talk, you have some time to look at questions 15 to 20.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 216848,
                 "end_ms": 220176,
-                "text": "Now listen and answer questions 15 to 20."
+                "text": "Now listen and answer questions 15 to 20.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 220576,
                 "end_ms": 227850,
-                "text": "Okay, now let me take you round the different areas of the festival, because there are a few changes you'll need to know about."
+                "text": "Okay, now let me take you round the different areas of the festival, because there are a few changes you'll need to know about.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 228250,
                 "end_ms": 248453,
-                "text": "Starting with the craft tent, where people make their own lanterns. Last year it was absolutely packed, and we did look into hiring a bigger tent, but the cost was just too high, so it's the same size as before. The real problem there is staffing. We've still only got four helpers for the whole evening, so if anyone's keen, please let me know."
+                "text": "Starting with the craft tent, where people make their own lanterns. Last year it was absolutely packed, and we did look into hiring a bigger tent, but the cost was just too high, so it's the same size as before. The real problem there is staffing. We've still only got four helpers for the whole evening, so if anyone's keen, please let me know.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 248853,
                 "end_ms": 265237,
-                "text": "Next to it you'll find the food market. You won't remember it from previous years, because until now we've only ever had one coffee van. This is the first time we've had proper food stalls. Entry to the market's free, of course. The stallholders pay us a fee instead."
+                "text": "Next to it you'll find the food market. You won't remember it from previous years, because until now we've only ever had one coffee van. This is the first time we've had proper food stalls. Entry to the market's free, of course. The stallholders pay us a fee instead.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 265637,
                 "end_ms": 282405,
-                "text": "Then there's the children's zone, on the grass beside the playground. Some parents think it's only for toddlers, but there are activities for kids of all ages. Because that part of the park isn't lit, though, it shuts at seven, a couple of hours before everything else."
+                "text": "Then there's the children's zone, on the grass beside the playground. Some parents think it's only for toddlers, but there are activities for kids of all ages. Because that part of the park isn't lit, though, it shuts at seven, a couple of hours before everything else.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 282805,
                 "end_ms": 298826,
-                "text": "The main stage is at the far end of the park. It's got a roof, so even if it rains, the bands will keep playing. What has changed is the space in front of it. We've made the dance area twice as big as last year, so there's plenty of room for everyone."
+                "text": "The main stage is at the far end of the park. It's got a roof, so even if it rains, the bands will keep playing. What has changed is the space in front of it. We've made the dance area twice as big as last year, so there's plenty of room for everyone.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 299226,
                 "end_ms": 312538,
-                "text": "The riverside path is where the floating lanterns are released, and it's the highlight of the night. However, it's very exposed, so if the wind picks up, we'll have to close it for safety. We'll make that call on the night."
+                "text": "The riverside path is where the floating lanterns are released, and it's the highlight of the night. However, it's very exposed, so if the wind picks up, we'll have to close it for safety. We'll make that call on the night.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 312938,
                 "end_ms": 328064,
-                "text": "And finally, the bike park by the north gate. We had one last year, so it's nothing new, but this year there's a charge of two dollars a bike, because we're paying security staff to keep an eye on it. All the money goes back into the festival."
+                "text": "And finally, the bike park by the north gate. We had one last year, so it's nothing new, but this year there's a charge of two dollars a bike, because we're paying security staff to keep an eye on it. All the money goes back into the festival.",
+                "answer_s": null
               },
               {
                 "speaker": "coordinator",
                 "accent": "en-NZ",
                 "start_ms": 328464,
                 "end_ms": 334629,
-                "text": "Right, that's everything from me for now. Grab yourselves a cup of tea, and then I'll take your questions."
+                "text": "Right, that's everything from me for now. Grab yourselves a cup of tea, and then I'll take your questions.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 335029,
                 "end_ms": 339253,
-                "text": "That is the end of Part 2. You now have half a minute to check your answers."
+                "text": "That is the end of Part 2. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -1488,210 +1612,252 @@
               {
                 "speaker": "narrator",
                 "text": "Part 3. You will hear two students, Hannah and Liam, discussing their research project on how students choose where to sit in the university library. First, you have some time to look at questions 21 to 25.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 21 to 25.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "So, Liam, now the observations are finished, shall we talk through how it went before we write up the report?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "Sure. It mostly went well, but there were a few problems we ought to mention in the method section.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "Yeah. The one that bothered me most was that a few people came over and asked what we were writing down. Once they knew we were watching, they probably didn't behave naturally.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "True, although that only happened three or four times. For me, the bigger issue was lunchtime. Between twelve and two it was so crowded that we just couldn't keep track of who sat where.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "Right. And we were lucky with the opening hours. They were going to start closing at eight, but in the end they kept them the same all term.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "And I panicked in week two when I thought I'd lost the Tuesday sheets, but they turned up in my bag, so we didn't lose any data.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "Good. What about the staff study area on the top floor? Should we count that as a problem?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "Not really. It was closed to students, but we'd left it out of the plan from the start, so it didn't make any difference.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "Okay. Then the results. The morning data surprised me. I was certain the window seats would go first, because of the view and the light.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "So was I. But they were usually only about half full by ten o'clock. The ones that filled up first were the seats with their backs against a wall, especially in the corners.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "And the seats near the power sockets? I thought those would be popular too.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "They were, but only in the afternoon, when laptop batteries started running out. First thing, nobody cared.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "Which fits well with that article we read on prospect-refuge theory, the idea that people like a spot where they can see what's going on but feel protected from behind. I'd say it explains pretty much everything we found.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "Mm, partly. It fits the wall seats. But the original paper came from studies of landscapes, you know, how people feel in open countryside. So I'm not convinced it transfers neatly to the inside of a building.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "Fair point. Did you find any criticism of how the original studies were done?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "No, I looked, but the methods seem to be generally accepted. The question is more about where the theory's being applied.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "One other thing. Did you notice the female students seemed to prefer corner seats more than the male students?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "I did. It's interesting, but we only had about forty people in each group. I don't think we can claim anything from that.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "We could run a quick survey next week to look into it?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "We haven't got time before the deadline, honestly. And Dr Morgan's away until the end of the month, so we can't check with her either.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "Then let's just include it as a short comment in the discussion, and say clearly that the numbers are too small to draw any conclusions.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "Agreed.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Before you hear the rest of the discussion, you have some time to look at questions 26 to 30.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen and answer questions 26 to 30.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "Okay, the draft report. The literature review first. It's nearly two thousand words at the moment.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "I know, it's far too long. Should we just start it again from scratch?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "I don't think we need to. The content is fine; it's just that we've summarised every single study we read. Let's cut it down to the five or six most relevant ones.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "Fine. Then there's my description of the library layout. It's a whole page, and quite hard to follow.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "What if we drew a floor plan instead, showing where the tables and windows are? Readers would get it at a glance.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "Much better. What about all our observation sheets? There are about sixty pages of them. I was tempted to leave them out altogether.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "We can't. The guidelines say the raw data has to be included somewhere. But they shouldn't interrupt the main text, so let's stick them at the back, after the references, where anyone who's interested can look at them.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "Okay. The statistical analysis worries me a bit. I'm not sure we used the right test.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "Should we add more explanation of how we did it?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "I don't think more detail will help if the test itself is wrong. Priya did a statistics module last year. Why don't we ask her to look over it?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "Good idea. I'll message her tonight.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "And finally, the recommendations for the library. I thought we might merge them with the conclusion, to save a bit of space.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "text": "I'd keep them separate, actually. The library staff said they'd read that part. The problem is they're too vague. Just saying 'more sockets' isn't enough. We need to say where they should go and how many, and back that up with our figures.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "text": "Okay, so I'll start on the floor plan, and you can take the recommendations.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 3. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-01-p3.mp3",
             "duration_ms": 382672,
@@ -1701,287 +1867,328 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 14165,
-                "text": "Part 3. You will hear two students, Hannah and Liam, discussing their research project on how students choose where to sit in the university library. First, you have some time to look at questions 21 to 25."
+                "text": "Part 3. You will hear two students, Hannah and Liam, discussing their research project on how students choose where to sit in the university library. First, you have some time to look at questions 21 to 25.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 44565,
                 "end_ms": 49024,
-                "text": "Now listen carefully and answer questions 21 to 25."
+                "text": "Now listen carefully and answer questions 21 to 25.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 49424,
                 "end_ms": 55354,
-                "text": "So, Liam, now the observations are finished, shall we talk through how it went before we write up the report?"
+                "text": "So, Liam, now the observations are finished, shall we talk through how it went before we write up the report?",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 55754,
                 "end_ms": 61258,
-                "text": "Sure. It mostly went well, but there were a few problems we ought to mention in the method section."
+                "text": "Sure. It mostly went well, but there were a few problems we ought to mention in the method section.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 61658,
                 "end_ms": 71344,
-                "text": "Yeah. The one that bothered me most was that a few people came over and asked what we were writing down. Once they knew we were watching, they probably didn't behave naturally."
+                "text": "Yeah. The one that bothered me most was that a few people came over and asked what we were writing down. Once they knew we were watching, they probably didn't behave naturally.",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 71744,
                 "end_ms": 81152,
-                "text": "True, although that only happened three or four times. For me, the bigger issue was lunchtime. Between twelve and two it was so crowded that we just couldn't keep track of who sat where."
+                "text": "True, although that only happened three or four times. For me, the bigger issue was lunchtime. Between twelve and two it was so crowded that we just couldn't keep track of who sat where.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 81552,
                 "end_ms": 88976,
-                "text": "Right. And we were lucky with the opening hours. They were going to start closing at eight, but in the end they kept them the same all term."
+                "text": "Right. And we were lucky with the opening hours. They were going to start closing at eight, but in the end they kept them the same all term.",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 89376,
                 "end_ms": 96288,
-                "text": "And I panicked in week two when I thought I'd lost the Tuesday sheets, but they turned up in my bag, so we didn't lose any data."
+                "text": "And I panicked in week two when I thought I'd lost the Tuesday sheets, but they turned up in my bag, so we didn't lose any data.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 96688,
                 "end_ms": 101381,
-                "text": "Good. What about the staff study area on the top floor? Should we count that as a problem?"
+                "text": "Good. What about the staff study area on the top floor? Should we count that as a problem?",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 101781,
                 "end_ms": 108053,
-                "text": "Not really. It was closed to students, but we'd left it out of the plan from the start, so it didn't make any difference."
+                "text": "Not really. It was closed to students, but we'd left it out of the plan from the start, so it didn't make any difference.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 108453,
                 "end_ms": 116090,
-                "text": "Okay. Then the results. The morning data surprised me. I was certain the window seats would go first, because of the view and the light."
+                "text": "Okay. Then the results. The morning data surprised me. I was certain the window seats would go first, because of the view and the light.",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 116490,
                 "end_ms": 125600,
-                "text": "So was I. But they were usually only about half full by ten o'clock. The ones that filled up first were the seats with their backs against a wall, especially in the corners."
+                "text": "So was I. But they were usually only about half full by ten o'clock. The ones that filled up first were the seats with their backs against a wall, especially in the corners.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 126000,
                 "end_ms": 129925,
-                "text": "And the seats near the power sockets? I thought those would be popular too."
+                "text": "And the seats near the power sockets? I thought those would be popular too.",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 130325,
                 "end_ms": 136426,
-                "text": "They were, but only in the afternoon, when laptop batteries started running out. First thing, nobody cared."
+                "text": "They were, but only in the afternoon, when laptop batteries started running out. First thing, nobody cared.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 136826,
                 "end_ms": 150010,
-                "text": "Which fits well with that article we read on prospect-refuge theory, the idea that people like a spot where they can see what's going on but feel protected from behind. I'd say it explains pretty much everything we found."
+                "text": "Which fits well with that article we read on prospect-refuge theory, the idea that people like a spot where they can see what's going on but feel protected from behind. I'd say it explains pretty much everything we found.",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 150410,
                 "end_ms": 162229,
-                "text": "Mm, partly. It fits the wall seats. But the original paper came from studies of landscapes, you know, how people feel in open countryside. So I'm not convinced it transfers neatly to the inside of a building."
+                "text": "Mm, partly. It fits the wall seats. But the original paper came from studies of landscapes, you know, how people feel in open countryside. So I'm not convinced it transfers neatly to the inside of a building.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 162629,
                 "end_ms": 166981,
-                "text": "Fair point. Did you find any criticism of how the original studies were done?"
+                "text": "Fair point. Did you find any criticism of how the original studies were done?",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 167381,
                 "end_ms": 173930,
-                "text": "No, I looked, but the methods seem to be generally accepted. The question is more about where the theory's being applied."
+                "text": "No, I looked, but the methods seem to be generally accepted. The question is more about where the theory's being applied.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 174330,
                 "end_ms": 180069,
-                "text": "One other thing. Did you notice the female students seemed to prefer corner seats more than the male students?"
+                "text": "One other thing. Did you notice the female students seemed to prefer corner seats more than the male students?",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 180469,
                 "end_ms": 187189,
-                "text": "I did. It's interesting, but we only had about forty people in each group. I don't think we can claim anything from that."
+                "text": "I did. It's interesting, but we only had about forty people in each group. I don't think we can claim anything from that.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 187589,
                 "end_ms": 190170,
-                "text": "We could run a quick survey next week to look into it?"
+                "text": "We could run a quick survey next week to look into it?",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 190570,
                 "end_ms": 197866,
-                "text": "We haven't got time before the deadline, honestly. And Dr Morgan's away until the end of the month, so we can't check with her either."
+                "text": "We haven't got time before the deadline, honestly. And Dr Morgan's away until the end of the month, so we can't check with her either.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 198266,
                 "end_ms": 206010,
-                "text": "Then let's just include it as a short comment in the discussion, and say clearly that the numbers are too small to draw any conclusions."
+                "text": "Then let's just include it as a short comment in the discussion, and say clearly that the numbers are too small to draw any conclusions.",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 206410,
                 "end_ms": 207440,
-                "text": "Agreed."
+                "text": "Agreed.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 207840,
                 "end_ms": 213600,
-                "text": "Before you hear the rest of the discussion, you have some time to look at questions 26 to 30."
+                "text": "Before you hear the rest of the discussion, you have some time to look at questions 26 to 30.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 244000,
                 "end_ms": 247520,
-                "text": "Now listen and answer questions 26 to 30."
+                "text": "Now listen and answer questions 26 to 30.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 247920,
                 "end_ms": 253872,
-                "text": "Okay, the draft report. The literature review first. It's nearly two thousand words at the moment."
+                "text": "Okay, the draft report. The literature review first. It's nearly two thousand words at the moment.",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 254272,
                 "end_ms": 258666,
-                "text": "I know, it's far too long. Should we just start it again from scratch?"
+                "text": "I know, it's far too long. Should we just start it again from scratch?",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 259066,
                 "end_ms": 269050,
-                "text": "I don't think we need to. The content is fine; it's just that we've summarised every single study we read. Let's cut it down to the five or six most relevant ones."
+                "text": "I don't think we need to. The content is fine; it's just that we've summarised every single study we read. Let's cut it down to the five or six most relevant ones.",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 269450,
                 "end_ms": 275296,
-                "text": "Fine. Then there's my description of the library layout. It's a whole page, and quite hard to follow."
+                "text": "Fine. Then there's my description of the library layout. It's a whole page, and quite hard to follow.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 275696,
                 "end_ms": 281648,
-                "text": "What if we drew a floor plan instead, showing where the tables and windows are? Readers would get it at a glance."
+                "text": "What if we drew a floor plan instead, showing where the tables and windows are? Readers would get it at a glance.",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 282048,
                 "end_ms": 289322,
-                "text": "Much better. What about all our observation sheets? There are about sixty pages of them. I was tempted to leave them out altogether."
+                "text": "Much better. What about all our observation sheets? There are about sixty pages of them. I was tempted to leave them out altogether.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 289722,
                 "end_ms": 301904,
-                "text": "We can't. The guidelines say the raw data has to be included somewhere. But they shouldn't interrupt the main text, so let's stick them at the back, after the references, where anyone who's interested can look at them."
+                "text": "We can't. The guidelines say the raw data has to be included somewhere. But they shouldn't interrupt the main text, so let's stick them at the back, after the references, where anyone who's interested can look at them.",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 302304,
                 "end_ms": 307829,
-                "text": "Okay. The statistical analysis worries me a bit. I'm not sure we used the right test."
+                "text": "Okay. The statistical analysis worries me a bit. I'm not sure we used the right test.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 308229,
                 "end_ms": 310661,
-                "text": "Should we add more explanation of how we did it?"
+                "text": "Should we add more explanation of how we did it?",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 311061,
                 "end_ms": 318805,
-                "text": "I don't think more detail will help if the test itself is wrong. Priya did a statistics module last year. Why don't we ask her to look over it?"
+                "text": "I don't think more detail will help if the test itself is wrong. Priya did a statistics module last year. Why don't we ask her to look over it?",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 319205,
                 "end_ms": 321274,
-                "text": "Good idea. I'll message her tonight."
+                "text": "Good idea. I'll message her tonight.",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 321674,
                 "end_ms": 328650,
-                "text": "And finally, the recommendations for the library. I thought we might merge them with the conclusion, to save a bit of space."
+                "text": "And finally, the recommendations for the library. I thought we might merge them with the conclusion, to save a bit of space.",
+                "answer_s": null
               },
               {
                 "speaker": "hannah",
                 "accent": "en-US",
                 "start_ms": 329050,
                 "end_ms": 342426,
-                "text": "I'd keep them separate, actually. The library staff said they'd read that part. The problem is they're too vague. Just saying 'more sockets' isn't enough. We need to say where they should go and how many, and back that up with our figures."
+                "text": "I'd keep them separate, actually. The library staff said they'd read that part. The problem is they're too vague. Just saying 'more sockets' isn't enough. We need to say where they should go and how many, and back that up with our figures.",
+                "answer_s": null
               },
               {
                 "speaker": "liam",
                 "accent": "en-GB",
                 "start_ms": 342826,
                 "end_ms": 347477,
-                "text": "Okay, so I'll start on the floor plan, and you can take the recommendations."
+                "text": "Okay, so I'll start on the floor plan, and you can take the recommendations.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 347877,
                 "end_ms": 352272,
-                "text": "That is the end of Part 3. You now have half a minute to check your answers."
+                "text": "That is the end of Part 3. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -2411,85 +2618,102 @@
               {
                 "speaker": "narrator",
                 "text": "Part 4. You will hear a lecture about the history of blue pigments used in art. First, you have some time to look at questions 31 to 40.",
-                "pause_after_s": 45.0
+                "pause_after_s": 45.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 31 to 40.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Good morning, everyone. In this series we've been looking at the materials artists have used over the centuries, and today I want to focus on one colour in particular: blue. It might seem strange to give a whole lecture to a single colour, but blue has a surprisingly dramatic history.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Let's start with a simple question. Why is blue so rare in early art? You'll find plenty of reds, browns and yellows in cave paintings, for example, because those colours come from earth and clay, which are everywhere. Blue is a different story.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "There are blue plants, of course, and people did make dyes from them. The trouble is that, as paints, plant-based blues are unreliable. Leave them in strong light and they fade within a few years, sometimes within months. So for a very long time, a lasting blue was something painters could only dream of.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "The first real solution came from ancient Egypt, roughly four and a half thousand years ago. Egyptian craftsmen discovered that if they heated sand, lime and copper together at a very high temperature, they got a beautiful, stable blue. Some textbooks will tell you the key ingredient was bronze, and it's true that bronze scraps were sometimes used, but only because bronze contains copper. Copper is what gives the colour.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "What makes Egyptian blue so important is that it's generally considered the first synthetic pigment. In other words, it was the first colour that was manufactured rather than simply dug out of the ground. It was used for over three thousand years, right through the Roman period, and then, rather mysteriously, the recipe was forgotten.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "There's a lovely modern twist to this story. Egyptian blue has an unusual property: when light falls on it, it glows. Not in a way we can see, but in the infrared, which a special camera can pick up. So archaeologists can now photograph a statue that looks completely white, and tiny traces of blue paint suddenly light up on the screen.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Now, the second pigment I want to talk about is ultramarine, which many people consider the most beautiful blue of all. Ultramarine comes from a stone called lapis lazuli. For centuries, almost all of the lapis used in Europe came from a single group of mines in the mountains of what is now Afghanistan. The name 'ultramarine' actually means 'beyond the sea', which tells you how far it had to travel.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Turning the stone into paint was slow, difficult work, and so the pigment was extraordinarily expensive. In Renaissance Italy, the finest ultramarine could cost more than gold, weight for weight. Painters didn't usually buy it themselves. The wealthy clients who commissioned a painting would supply it, and their contracts often stated exactly how much was to be used.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Because of the cost, artists used it with great care. Rather than spreading it across the background, they usually saved it for the most important part of a picture, very often the cloak of the Virgin Mary, which is why she's so frequently shown dressed in blue. Less important areas, such as skies, were generally painted with cheaper blues.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Let's move forward to the early eighteenth century and to Berlin, where our third blue appeared. Prussian blue is unusual because nobody set out to make it. It was discovered entirely by accident, by a colour maker who was actually trying to produce a red. One of his ingredients had been contaminated, and instead of red, he got a deep blue.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Prussian blue was cheap and very strong, and it spread quickly, not just across Europe but as far as Japan. When it reached Japan in the nineteenth century, it was taken up enthusiastically by artists who made woodblock prints. Some of the most famous Japanese images of waves and mountains owe their intense blue to this accidental discovery in Germany.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "That brings us to our final blue. Even in the nineteenth century, real ultramarine was still too expensive for most painters. So in 1824, a French society that supported industry offered a prize to anyone who could find a cheap way of making it artificially. Within four years, a chemist had succeeded, and synthetic ultramarine was soon being produced in factories at a tiny fraction of the old price.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "This made blue available to everyone, from the Impressionists to people decorating their homes. And in a sense, it closes the circle: blue started out as one of the rarest colours in art and ended up as one of the most ordinary. Next week, we'll look at what happened when chemists turned their attention to purple.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 4. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-01-p4.mp3",
             "duration_ms": 508898,
@@ -2499,112 +2723,128 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 9408,
-                "text": "Part 4. You will hear a lecture about the history of blue pigments used in art. First, you have some time to look at questions 31 to 40."
+                "text": "Part 4. You will hear a lecture about the history of blue pigments used in art. First, you have some time to look at questions 31 to 40.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 54808,
                 "end_ms": 58925,
-                "text": "Now listen carefully and answer questions 31 to 40."
+                "text": "Now listen carefully and answer questions 31 to 40.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-CA",
                 "start_ms": 59325,
                 "end_ms": 85885,
-                "text": "Good morning, everyone. In this series we've been looking at the materials artists have used over the centuries, and today I want to focus on one colour in particular: blue. It might seem strange to give a whole lecture to a single colour, but blue has a surprisingly dramatic history."
+                "text": "Good morning, everyone. In this series we've been looking at the materials artists have used over the centuries, and today I want to focus on one colour in particular: blue. It might seem strange to give a whole lecture to a single colour, but blue has a surprisingly dramatic history.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-CA",
                 "start_ms": 86285,
                 "end_ms": 109325,
-                "text": "Let's start with a simple question. Why is blue so rare in early art? You'll find plenty of reds, browns and yellows in cave paintings, for example, because those colours come from earth and clay, which are everywhere. Blue is a different story."
+                "text": "Let's start with a simple question. Why is blue so rare in early art? You'll find plenty of reds, browns and yellows in cave paintings, for example, because those colours come from earth and clay, which are everywhere. Blue is a different story.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-CA",
                 "start_ms": 109725,
                 "end_ms": 138098,
-                "text": "There are blue plants, of course, and people did make dyes from them. The trouble is that, as paints, plant-based blues are unreliable. Leave them in strong light and they fade within a few years, sometimes within months. So for a very long time, a lasting blue was something painters could only dream of."
+                "text": "There are blue plants, of course, and people did make dyes from them. The trouble is that, as paints, plant-based blues are unreliable. Leave them in strong light and they fade within a few years, sometimes within months. So for a very long time, a lasting blue was something painters could only dream of.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-CA",
                 "start_ms": 138498,
                 "end_ms": 175597,
-                "text": "The first real solution came from ancient Egypt, roughly four and a half thousand years ago. Egyptian craftsmen discovered that if they heated sand, lime and copper together at a very high temperature, they got a beautiful, stable blue. Some textbooks will tell you the key ingredient was bronze, and it's true that bronze scraps were sometimes used, but only because bronze contains copper. Copper is what gives the colour."
+                "text": "The first real solution came from ancient Egypt, roughly four and a half thousand years ago. Egyptian craftsmen discovered that if they heated sand, lime and copper together at a very high temperature, they got a beautiful, stable blue. Some textbooks will tell you the key ingredient was bronze, and it's true that bronze scraps were sometimes used, but only because bronze contains copper. Copper is what gives the colour.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-CA",
                 "start_ms": 175997,
                 "end_ms": 206973,
-                "text": "What makes Egyptian blue so important is that it's generally considered the first synthetic pigment. In other words, it was the first colour that was manufactured rather than simply dug out of the ground. It was used for over three thousand years, right through the Roman period, and then, rather mysteriously, the recipe was forgotten."
+                "text": "What makes Egyptian blue so important is that it's generally considered the first synthetic pigment. In other words, it was the first colour that was manufactured rather than simply dug out of the ground. It was used for over three thousand years, right through the Roman period, and then, rather mysteriously, the recipe was forgotten.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-CA",
                 "start_ms": 207373,
                 "end_ms": 239138,
-                "text": "There's a lovely modern twist to this story. Egyptian blue has an unusual property: when light falls on it, it glows. Not in a way we can see, but in the infrared, which a special camera can pick up. So archaeologists can now photograph a statue that looks completely white, and tiny traces of blue paint suddenly light up on the screen."
+                "text": "There's a lovely modern twist to this story. Egyptian blue has an unusual property: when light falls on it, it glows. Not in a way we can see, but in the infrared, which a special camera can pick up. So archaeologists can now photograph a statue that looks completely white, and tiny traces of blue paint suddenly light up on the screen.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-CA",
                 "start_ms": 239538,
                 "end_ms": 276296,
-                "text": "Now, the second pigment I want to talk about is ultramarine, which many people consider the most beautiful blue of all. Ultramarine comes from a stone called lapis lazuli. For centuries, almost all of the lapis used in Europe came from a single group of mines in the mountains of what is now Afghanistan. The name 'ultramarine' actually means 'beyond the sea', which tells you how far it had to travel."
+                "text": "Now, the second pigment I want to talk about is ultramarine, which many people consider the most beautiful blue of all. Ultramarine comes from a stone called lapis lazuli. For centuries, almost all of the lapis used in Europe came from a single group of mines in the mountains of what is now Afghanistan. The name 'ultramarine' actually means 'beyond the sea', which tells you how far it had to travel.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-CA",
                 "start_ms": 276696,
                 "end_ms": 311320,
-                "text": "Turning the stone into paint was slow, difficult work, and so the pigment was extraordinarily expensive. In Renaissance Italy, the finest ultramarine could cost more than gold, weight for weight. Painters didn't usually buy it themselves. The wealthy clients who commissioned a painting would supply it, and their contracts often stated exactly how much was to be used."
+                "text": "Turning the stone into paint was slow, difficult work, and so the pigment was extraordinarily expensive. In Renaissance Italy, the finest ultramarine could cost more than gold, weight for weight. Painters didn't usually buy it themselves. The wealthy clients who commissioned a painting would supply it, and their contracts often stated exactly how much was to be used.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-CA",
                 "start_ms": 311720,
                 "end_ms": 342546,
-                "text": "Because of the cost, artists used it with great care. Rather than spreading it across the background, they usually saved it for the most important part of a picture, very often the cloak of the Virgin Mary, which is why she's so frequently shown dressed in blue. Less important areas, such as skies, were generally painted with cheaper blues."
+                "text": "Because of the cost, artists used it with great care. Rather than spreading it across the background, they usually saved it for the most important part of a picture, very often the cloak of the Virgin Mary, which is why she's so frequently shown dressed in blue. Less important areas, such as skies, were generally painted with cheaper blues.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-CA",
                 "start_ms": 342946,
                 "end_ms": 373794,
-                "text": "Let's move forward to the early eighteenth century and to Berlin, where our third blue appeared. Prussian blue is unusual because nobody set out to make it. It was discovered entirely by accident, by a colour maker who was actually trying to produce a red. One of his ingredients had been contaminated, and instead of red, he got a deep blue."
+                "text": "Let's move forward to the early eighteenth century and to Berlin, where our third blue appeared. Prussian blue is unusual because nobody set out to make it. It was discovered entirely by accident, by a colour maker who was actually trying to produce a red. One of his ingredients had been contaminated, and instead of red, he got a deep blue.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-CA",
                 "start_ms": 374194,
                 "end_ms": 406941,
-                "text": "Prussian blue was cheap and very strong, and it spread quickly, not just across Europe but as far as Japan. When it reached Japan in the nineteenth century, it was taken up enthusiastically by artists who made woodblock prints. Some of the most famous Japanese images of waves and mountains owe their intense blue to this accidental discovery in Germany."
+                "text": "Prussian blue was cheap and very strong, and it spread quickly, not just across Europe but as far as Japan. When it reached Japan in the nineteenth century, it was taken up enthusiastically by artists who made woodblock prints. Some of the most famous Japanese images of waves and mountains owe their intense blue to this accidental discovery in Germany.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-CA",
                 "start_ms": 407341,
                 "end_ms": 445549,
-                "text": "That brings us to our final blue. Even in the nineteenth century, real ultramarine was still too expensive for most painters. So in 1824, a French society that supported industry offered a prize to anyone who could find a cheap way of making it artificially. Within four years, a chemist had succeeded, and synthetic ultramarine was soon being produced in factories at a tiny fraction of the old price."
+                "text": "That brings us to our final blue. Even in the nineteenth century, real ultramarine was still too expensive for most painters. So in 1824, a French society that supported industry offered a prize to anyone who could find a cheap way of making it artificially. Within four years, a chemist had succeeded, and synthetic ultramarine was soon being produced in factories at a tiny fraction of the old price.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-CA",
                 "start_ms": 445949,
                 "end_ms": 473810,
-                "text": "This made blue available to everyone, from the Impressionists to people decorating their homes. And in a sense, it closes the circle: blue started out as one of the rarest colours in art and ended up as one of the most ordinary. Next week, we'll look at what happened when chemists turned their attention to purple."
+                "text": "This made blue available to everyone, from the Impressionists to people decorating their homes. And in a sense, it closes the circle: blue started out as one of the rarest colours in art and ended up as one of the most ordinary. Next week, we'll look at what happened when chemists turned their attention to purple.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 474210,
                 "end_ms": 478498,
-                "text": "That is the end of Part 4. You now have half a minute to check your answers."
+                "text": "That is the end of Part 4. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -2883,6 +3123,7 @@
             "glossary": []
           },
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": null,
           "groups": [
@@ -3252,6 +3493,7 @@
             "glossary": []
           },
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": null,
           "groups": [
@@ -3795,6 +4037,7 @@
             ]
           },
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": null,
           "groups": [
@@ -4435,6 +4678,7 @@
           "topic": "technology",
           "passage": null,
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": {
             "task_number": 1,
@@ -4525,6 +4769,7 @@
           "topic": "media-culture",
           "passage": null,
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": {
             "task_number": 2,
@@ -4532,6 +4777,421 @@
             "essay_type": "discussion",
             "visual": null
           },
+          "groups": []
+        }
+      ]
+    },
+    {
+      "skill": "speaking",
+      "duration_s": 1200,
+      "parts": [
+        {
+          "number": 1,
+          "context": "speaking_interview",
+          "topic": "education",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "examiner",
+                "role": "Speaking examiner",
+                "accent": "en-GB",
+                "gender": "female"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "examiner",
+                "text": "Good morning. In this first part of the test, I'd like to ask you some questions about yourself.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "text": "Let's talk about work or studies. Do you work or are you a student?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "What do you like most about your job or your studies?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Is there anything you would like to change about it?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Now let's talk about daily routines. What part of the day do you like best?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Has your daily routine changed much in recent years?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do you prefer to plan your day or take things as they come?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Now let's talk about music. How often do you listen to music?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "What kind of music did you enjoy as a child?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Have you ever learned to play a musical instrument?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do you think music should be taught in schools?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              }
+            ]
+          },
+          "cue_card": null,
+          "audio": {
+            "url": "/media/audio/mock-01-s1.mp3",
+            "duration_ms": 42288,
+            "segments": [
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 5376,
+                "text": "Good morning. In this first part of the test, I'd like to ask you some questions about yourself.",
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 5776,
+                "end_ms": 9616,
+                "text": "Let's talk about work or studies. Do you work or are you a student?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 10016,
+                "end_ms": 13109,
+                "text": "What do you like most about your job or your studies?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 13509,
+                "end_ms": 16304,
+                "text": "Is there anything you would like to change about it?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 16704,
+                "end_ms": 20970,
+                "text": "Now let's talk about daily routines. What part of the day do you like best?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 21370,
+                "end_ms": 24698,
+                "text": "Has your daily routine changed much in recent years?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 25098,
+                "end_ms": 28256,
+                "text": "Do you prefer to plan your day or take things as they come?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 28656,
+                "end_ms": 32325,
+                "text": "Now let's talk about music. How often do you listen to music?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 32725,
+                "end_ms": 35584,
+                "text": "What kind of music did you enjoy as a child?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 35984,
+                "end_ms": 38821,
+                "text": "Have you ever learned to play a musical instrument?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 39221,
+                "end_ms": 41888,
+                "text": "Do you think music should be taught in schools?",
+                "answer_s": 35
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "examiner": "bf_alice"
+            }
+          },
+          "writing": null,
+          "groups": []
+        },
+        {
+          "number": 2,
+          "context": "speaking_interview",
+          "topic": "education",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "examiner",
+                "role": "Speaking examiner",
+                "accent": "en-GB",
+                "gender": "female"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "examiner",
+                "text": "Now, I'm going to give you a topic, and I'd like you to talk about it for one to two minutes. Before you talk, you'll have one minute to think about what you're going to say. You can make some notes if you wish. Here is your paper and pencil, and here is your topic. I'd like you to describe a skill that took you a long time to learn.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "text": "All right? Remember, you have one to two minutes for this, so don't worry if I stop you. I'll tell you when the time is up. Can you start speaking now, please?",
+                "pause_after_s": 0.0,
+                "answer_s": 120
+              },
+              {
+                "speaker": "examiner",
+                "text": "Thank you. Do you still use this skill today?",
+                "pause_after_s": 0.0,
+                "answer_s": 30
+              }
+            ]
+          },
+          "cue_card": {
+            "task": "Describe a skill that took you a long time to learn.",
+            "bullets": [
+              "what the skill is",
+              "when you started learning it",
+              "how you learned it"
+            ],
+            "final": "and explain why it took you so long to learn it."
+          },
+          "audio": {
+            "url": "/media/audio/mock-01-s2.mp3",
+            "duration_ms": 28826,
+            "segments": [
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 16832,
+                "text": "Now, I'm going to give you a topic, and I'd like you to talk about it for one to two minutes. Before you talk, you'll have one minute to think about what you're going to say. You can make some notes if you wish. Here is your paper and pencil, and here is your topic. I'd like you to describe a skill that took you a long time to learn.",
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 17232,
+                "end_ms": 25466,
+                "text": "All right? Remember, you have one to two minutes for this, so don't worry if I stop you. I'll tell you when the time is up. Can you start speaking now, please?",
+                "answer_s": 120
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 25866,
+                "end_ms": 28426,
+                "text": "Thank you. Do you still use this skill today?",
+                "answer_s": 30
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "examiner": "bf_alice"
+            }
+          },
+          "writing": null,
+          "groups": []
+        },
+        {
+          "number": 3,
+          "context": "speaking_interview",
+          "topic": "education",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "examiner",
+                "role": "Speaking examiner",
+                "accent": "en-GB",
+                "gender": "female"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "examiner",
+                "text": "We've been talking about a skill you learned, and I'd like to discuss with you one or two more general questions related to this. Let's consider first learning new skills.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "text": "Why do you think some people learn new skills faster than others?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Is it better to learn a skill from a teacher or by yourself?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Now let's talk about education and technology. How has technology changed the way young people learn?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Some people say that practical skills are more useful than academic knowledge. What do you think?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do you think schools in the future will still need teachers in classrooms?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Should employers be responsible for training their workers, or is that the job of the individual?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Thank you very much. That is the end of the speaking test.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              }
+            ]
+          },
+          "cue_card": null,
+          "audio": {
+            "url": "/media/audio/mock-01-s3.mp3",
+            "duration_ms": 44309,
+            "segments": [
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 9536,
+                "text": "We've been talking about a skill you learned, and I'd like to discuss with you one or two more general questions related to this. Let's consider first learning new skills.",
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 9936,
+                "end_ms": 13456,
+                "text": "Why do you think some people learn new skills faster than others?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 13856,
+                "end_ms": 17397,
+                "text": "Is it better to learn a skill from a teacher or by yourself?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 17797,
+                "end_ms": 23856,
+                "text": "Now let's talk about education and technology. How has technology changed the way young people learn?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 24256,
+                "end_ms": 29610,
+                "text": "Some people say that practical skills are more useful than academic knowledge. What do you think?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 30010,
+                "end_ms": 34106,
+                "text": "Do you think schools in the future will still need teachers in classrooms?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 34506,
+                "end_ms": 40202,
+                "text": "Should employers be responsible for training their workers, or is that the job of the individual?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 40602,
+                "end_ms": 43909,
+                "text": "Thank you very much. That is the end of the speaking test.",
+                "answer_s": null
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "examiner": "bf_alice"
+            }
+          },
+          "writing": null,
           "groups": []
         }
       ]

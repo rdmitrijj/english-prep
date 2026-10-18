@@ -51,215 +51,258 @@
               {
                 "speaker": "narrator",
                 "text": "Part 1. You will hear a woman phoning a swimming club because she wants to become a member. First, you have some time to look at questions 1 to 5.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 1 to 5.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Hello, Westbrook Swimming Club, Callum speaking.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "Oh, hi. I'm ringing about joining the club. I've just moved to the area, and I used to swim a lot, so I thought it was time to get back in the water.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Great, you've come to the right place. I can take your details over the phone now, and then you'd just need to sign the form at your first session.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "That would be perfect.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Lovely. So can I start with your name?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "Yes, it's Ruth Tennant.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Ruth. And is that Tenant like someone who rents a flat? T-E-N-A-N-T?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "Almost, but there are two Ns in the middle. So it's T-E-N-N-A-N-T. Tennant.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Got it, sorry about that. And what's your address, Ruth?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "I'm at 25 Mill Lane. Oh no, hang on, that's the number of the flat I've just left. I keep doing that. The new one is 52. So it's 52 Mill Lane.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "No problem. 52 Mill Lane. That's just past the bakery, isn't it?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "That's right, the house with the blue door.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Now, we put adult swimmers into three groups. Blue is for people still building their confidence, then there's silver, and gold is really for people who race in competitions. How would you describe your swimming?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "Well, I swam for my school team, and I can still manage about a kilometre of front crawl without stopping. So I suppose gold might be right for me?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Maybe eventually, but the gold group trains pretty hard. Since you've had a break, I'd suggest you start in silver, and the coach can move you up after a few weeks if you find it too easy.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "Yes, that sounds sensible.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Silver has two sessions a week, Monday and Wednesday, and most people come to one of them. Which would suit you better?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "Monday would be ideal, really, because I work late on Wednesdays.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Ah, I'm afraid Monday's completely full at the moment. There's a waiting list.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "Oh, that's a shame. Well, I could probably swap my late shift. Let's say Wednesday, then.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Brilliant. The Wednesday session is at the leisure centre pool on Station Road. The pool's open to the public until 8 o'clock, so our session starts at 8.15 and finishes at a quarter past nine.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "That's quite late, but it's fine.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen and answer questions 6 to 10.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "Is there anything I need to bring with me? I've still got my old goggles somewhere, I think.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Well, goggles are up to you, really. And every member gets a free club swimming cap, so don't buy one of those. But the coach does ask everyone in silver to bring their own fins, because she uses them a lot for leg training.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "Fins? You mean flippers?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Exactly, flippers. Short ones are best. We've got a few at the pool, but there are never enough to go round.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "OK. And what about the cost? I saw something about a joining fee.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Yes, there's a one-off joining fee, which covers your insurance and the club cap. It's usually 40 pounds, but if you join before the end of the month, it's only 20 pounds.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "Oh, good timing, then. And then there's a monthly fee as well?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "That's right. It's 38 pounds a month, paid by direct debit. That includes your coaching and the pool hire. Now, the form also asks about any medical conditions the coach should know about. Is there anything like that?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "Well, I had an operation on my knee a few years ago, but that's completely healed now. The only thing is that I have asthma. It's very mild, and I always keep my inhaler with me.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "OK, I'll put down asthma, then. Just leave your inhaler at the side of the pool where the coach can see it.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "Will do. Oh, and is it easy to park at the leisure centre?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Not really. The car park at the front gets very busy because of the gym. Some people use the supermarket car park across the road, but they've started giving fines to anyone who isn't shopping there. So the best thing is to use the free car park behind the church. It's only a two-minute walk. Right, last question. We like to know how people found out about us. Was it through a friend, or something else?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "I think it was an advert in the local paper. No, actually, I'm wrong. I heard about you on the radio. There was an interview with one of your coaches on the breakfast show.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "text": "Oh, that would have been Helen. I'll put down radio, then. Well, that's everything, Ruth. We'll see you next Wednesday.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "text": "Thanks so much, Callum. See you then.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 1. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-03-p1.mp3",
             "duration_ms": 362394,
@@ -269,294 +312,336 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 9408,
-                "text": "Part 1. You will hear a woman phoning a swimming club because she wants to become a member. First, you have some time to look at questions 1 to 5."
+                "text": "Part 1. You will hear a woman phoning a swimming club because she wants to become a member. First, you have some time to look at questions 1 to 5.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 39808,
                 "end_ms": 43626,
-                "text": "Now listen carefully and answer questions 1 to 5."
+                "text": "Now listen carefully and answer questions 1 to 5.",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 44026,
                 "end_ms": 47440,
-                "text": "Hello, Westbrook Swimming Club, Callum speaking."
+                "text": "Hello, Westbrook Swimming Club, Callum speaking.",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 47840,
                 "end_ms": 56096,
-                "text": "Oh, hi. I'm ringing about joining the club. I've just moved to the area, and I used to swim a lot, so I thought it was time to get back in the water."
+                "text": "Oh, hi. I'm ringing about joining the club. I've just moved to the area, and I used to swim a lot, so I thought it was time to get back in the water.",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 56496,
                 "end_ms": 63920,
-                "text": "Great, you've come to the right place. I can take your details over the phone now, and then you'd just need to sign the form at your first session."
+                "text": "Great, you've come to the right place. I can take your details over the phone now, and then you'd just need to sign the form at your first session.",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 64320,
                 "end_ms": 65920,
-                "text": "That would be perfect."
+                "text": "That would be perfect.",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 66320,
                 "end_ms": 69008,
-                "text": "Lovely. So can I start with your name?"
+                "text": "Lovely. So can I start with your name?",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 69408,
                 "end_ms": 71050,
-                "text": "Yes, it's Ruth Tennant."
+                "text": "Yes, it's Ruth Tennant.",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 71450,
                 "end_ms": 75909,
-                "text": "Ruth. And is that Tenant like someone who rents a flat? T-E-N-A-N-T?"
+                "text": "Ruth. And is that Tenant like someone who rents a flat? T-E-N-A-N-T?",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 76309,
                 "end_ms": 80896,
-                "text": "Almost, but there are two Ns in the middle. So it's T-E-N-N-A-N-T. Tennant."
+                "text": "Almost, but there are two Ns in the middle. So it's T-E-N-N-A-N-T. Tennant.",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 81296,
                 "end_ms": 84880,
-                "text": "Got it, sorry about that. And what's your address, Ruth?"
+                "text": "Got it, sorry about that. And what's your address, Ruth?",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 85280,
                 "end_ms": 94453,
-                "text": "I'm at 25 Mill Lane. Oh no, hang on, that's the number of the flat I've just left. I keep doing that. The new one is 52. So it's 52 Mill Lane."
+                "text": "I'm at 25 Mill Lane. Oh no, hang on, that's the number of the flat I've just left. I keep doing that. The new one is 52. So it's 52 Mill Lane.",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 94853,
                 "end_ms": 99525,
-                "text": "No problem. 52 Mill Lane. That's just past the bakery, isn't it?"
+                "text": "No problem. 52 Mill Lane. That's just past the bakery, isn't it?",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 99925,
                 "end_ms": 102357,
-                "text": "That's right, the house with the blue door."
+                "text": "That's right, the house with the blue door.",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 102757,
                 "end_ms": 114085,
-                "text": "Now, we put adult swimmers into three groups. Blue is for people still building their confidence, then there's silver, and gold is really for people who race in competitions. How would you describe your swimming?"
+                "text": "Now, we put adult swimmers into three groups. Blue is for people still building their confidence, then there's silver, and gold is really for people who race in competitions. How would you describe your swimming?",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 114485,
                 "end_ms": 122933,
-                "text": "Well, I swam for my school team, and I can still manage about a kilometre of front crawl without stopping. So I suppose gold might be right for me?"
+                "text": "Well, I swam for my school team, and I can still manage about a kilometre of front crawl without stopping. So I suppose gold might be right for me?",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 123333,
                 "end_ms": 133125,
-                "text": "Maybe eventually, but the gold group trains pretty hard. Since you've had a break, I'd suggest you start in silver, and the coach can move you up after a few weeks if you find it too easy."
+                "text": "Maybe eventually, but the gold group trains pretty hard. Since you've had a break, I'd suggest you start in silver, and the coach can move you up after a few weeks if you find it too easy.",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 133525,
                 "end_ms": 135360,
-                "text": "Yes, that sounds sensible."
+                "text": "Yes, that sounds sensible.",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 135760,
                 "end_ms": 142352,
-                "text": "Silver has two sessions a week, Monday and Wednesday, and most people come to one of them. Which would suit you better?"
+                "text": "Silver has two sessions a week, Monday and Wednesday, and most people come to one of them. Which would suit you better?",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 142752,
                 "end_ms": 146400,
-                "text": "Monday would be ideal, really, because I work late on Wednesdays."
+                "text": "Monday would be ideal, really, because I work late on Wednesdays.",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 146800,
                 "end_ms": 151514,
-                "text": "Ah, I'm afraid Monday's completely full at the moment. There's a waiting list."
+                "text": "Ah, I'm afraid Monday's completely full at the moment. There's a waiting list.",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 151914,
                 "end_ms": 156885,
-                "text": "Oh, that's a shame. Well, I could probably swap my late shift. Let's say Wednesday, then."
+                "text": "Oh, that's a shame. Well, I could probably swap my late shift. Let's say Wednesday, then.",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 157285,
                 "end_ms": 168080,
-                "text": "Brilliant. The Wednesday session is at the leisure centre pool on Station Road. The pool's open to the public until 8 o'clock, so our session starts at 8.15 and finishes at a quarter past nine."
+                "text": "Brilliant. The Wednesday session is at the leisure centre pool on Station Road. The pool's open to the public until 8 o'clock, so our session starts at 8.15 and finishes at a quarter past nine.",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 168480,
                 "end_ms": 170528,
-                "text": "That's quite late, but it's fine."
+                "text": "That's quite late, but it's fine.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 170928,
                 "end_ms": 176645,
-                "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10."
+                "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 207045,
                 "end_ms": 210373,
-                "text": "Now listen and answer questions 6 to 10."
+                "text": "Now listen and answer questions 6 to 10.",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 210773,
                 "end_ms": 215829,
-                "text": "Is there anything I need to bring with me? I've still got my old goggles somewhere, I think."
+                "text": "Is there anything I need to bring with me? I've still got my old goggles somewhere, I think.",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 216229,
                 "end_ms": 227941,
-                "text": "Well, goggles are up to you, really. And every member gets a free club swimming cap, so don't buy one of those. But the coach does ask everyone in silver to bring their own fins, because she uses them a lot for leg training."
+                "text": "Well, goggles are up to you, really. And every member gets a free club swimming cap, so don't buy one of those. But the coach does ask everyone in silver to bring their own fins, because she uses them a lot for leg training.",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 228341,
                 "end_ms": 230133,
-                "text": "Fins? You mean flippers?"
+                "text": "Fins? You mean flippers?",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 230533,
                 "end_ms": 236272,
-                "text": "Exactly, flippers. Short ones are best. We've got a few at the pool, but there are never enough to go round."
+                "text": "Exactly, flippers. Short ones are best. We've got a few at the pool, but there are never enough to go round.",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 236672,
                 "end_ms": 240618,
-                "text": "OK. And what about the cost? I saw something about a joining fee."
+                "text": "OK. And what about the cost? I saw something about a joining fee.",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 241018,
                 "end_ms": 250490,
-                "text": "Yes, there's a one-off joining fee, which covers your insurance and the club cap. It's usually 40 pounds, but if you join before the end of the month, it's only 20 pounds."
+                "text": "Yes, there's a one-off joining fee, which covers your insurance and the club cap. It's usually 40 pounds, but if you join before the end of the month, it's only 20 pounds.",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 250890,
                 "end_ms": 254645,
-                "text": "Oh, good timing, then. And then there's a monthly fee as well?"
+                "text": "Oh, good timing, then. And then there's a monthly fee as well?",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 255045,
                 "end_ms": 266928,
-                "text": "That's right. It's 38 pounds a month, paid by direct debit. That includes your coaching and the pool hire. Now, the form also asks about any medical conditions the coach should know about. Is there anything like that?"
+                "text": "That's right. It's 38 pounds a month, paid by direct debit. That includes your coaching and the pool hire. Now, the form also asks about any medical conditions the coach should know about. Is there anything like that?",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 267328,
                 "end_ms": 277546,
-                "text": "Well, I had an operation on my knee a few years ago, but that's completely healed now. The only thing is that I have asthma. It's very mild, and I always keep my inhaler with me."
+                "text": "Well, I had an operation on my knee a few years ago, but that's completely healed now. The only thing is that I have asthma. It's very mild, and I always keep my inhaler with me.",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 277946,
                 "end_ms": 283941,
-                "text": "OK, I'll put down asthma, then. Just leave your inhaler at the side of the pool where the coach can see it."
+                "text": "OK, I'll put down asthma, then. Just leave your inhaler at the side of the pool where the coach can see it.",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 284341,
                 "end_ms": 287797,
-                "text": "Will do. Oh, and is it easy to park at the leisure centre?"
+                "text": "Will do. Oh, and is it easy to park at the leisure centre?",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 288197,
                 "end_ms": 307930,
-                "text": "Not really. The car park at the front gets very busy because of the gym. Some people use the supermarket car park across the road, but they've started giving fines to anyone who isn't shopping there. So the best thing is to use the free car park behind the church. It's only a two-minute walk. Right, last question. We like to know how people found out about us. Was it through a friend, or something else?"
+                "text": "Not really. The car park at the front gets very busy because of the gym. Some people use the supermarket car park across the road, but they've started giving fines to anyone who isn't shopping there. So the best thing is to use the free car park behind the church. It's only a two-minute walk. Right, last question. We like to know how people found out about us. Was it through a friend, or something else?",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 308330,
                 "end_ms": 317674,
-                "text": "I think it was an advert in the local paper. No, actually, I'm wrong. I heard about you on the radio. There was an interview with one of your coaches on the breakfast show."
+                "text": "I think it was an advert in the local paper. No, actually, I'm wrong. I heard about you on the radio. There was an interview with one of your coaches on the breakfast show.",
+                "answer_s": null
               },
               {
                 "speaker": "callum",
                 "accent": "en-NZ",
                 "start_ms": 318074,
                 "end_ms": 324368,
-                "text": "Oh, that would have been Helen. I'll put down radio, then. Well, that's everything, Ruth. We'll see you next Wednesday."
+                "text": "Oh, that would have been Helen. I'll put down radio, then. Well, that's everything, Ruth. We'll see you next Wednesday.",
+                "answer_s": null
               },
               {
                 "speaker": "ruth",
                 "accent": "en-GB",
                 "start_ms": 324768,
                 "end_ms": 327072,
-                "text": "Thanks so much, Callum. See you then."
+                "text": "Thanks so much, Callum. See you then.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 327472,
                 "end_ms": 331994,
-                "text": "That is the end of Part 1. You now have half a minute to check your answers."
+                "text": "That is the end of Part 1. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -877,85 +962,102 @@
               {
                 "speaker": "narrator",
                 "text": "Part 2. You will hear a librarian talking to a group of local residents about their refurbished community library. First, you have some time to look at questions 11 to 15.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 11 to 15.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "text": "Good evening, everyone, and thank you for coming. My name's Carla Novak, and I'm the manager here at Kingsmead Community Library. As you know, we've been closed for eight months while the building was refurbished, and we're finally ready to reopen on Saturday. So I wanted to tell you what's changed and what's stayed the same.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "text": "Let's start with the children's corner, which is still in the same place on the ground floor, just to the left of the main entrance. We did think about moving it upstairs, where there's more room, but parents told us very clearly that they didn't want to carry pushchairs up the stairs, so it's exactly the same size as before. What's different is the design. We held three workshops last spring with local families, and the children themselves drew the reading den and the little stage you'll see there.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "text": "Next to that, where the old magazine section used to be, are our four new study rooms. These are quiet rooms with a table, six chairs and a large screen, ideal for revising together or holding a meeting. A lot of libraries charge for rooms like these, but ours are completely free. The one thing to remember is that they're very popular, so you'll need to reserve one online, up to a week ahead.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "text": "Now, the local history room. For years it was squeezed into the basement, and the damp down there wasn't doing the old maps any good. So it's now on the top floor, in what used to be the staff office, and it has proper climate control. Many people think you need an appointment to look at the collection, but that's not the case. You can just walk in any time the library's open.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "text": "Something many of you asked for in our survey was a café, and I'm happy to say we now have one, run by a local charity that trains young people in catering. The library itself opens at nine, but the café opens its doors at eight every weekday, so you can grab a coffee on your way to work. It closes when we do, at six.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "text": "And finally, the digital lab on the first floor. It'll have computers with design software, a laser cutter and two 3D printers. When we first planned it, the idea was to keep it just for teenagers, but we've decided it should be open to all ages. Unfortunately, the printers have been held up by the supplier, and the room still needs its electrics checking, so the lab won't actually be ready until the spring.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Before you hear the rest of the talk, you have some time to look at questions 16 to 20.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen and answer questions 16 to 20.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "text": "Now, a few practical changes. First, opening hours. In the survey, the most common request was for later opening on weekday evenings, but the budget simply wouldn't stretch to the extra staff. We also looked at opening earlier on Saturdays, but hardly anyone said they'd come in before ten. What we have managed to do is open on Sundays for the first time, from one until five in the afternoon. Weekday and Saturday hours stay exactly as they were.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "text": "You'll also notice the self-service machines by the entrance. They work just like the old ones for borrowing and returning, and the limit is still twelve items per card, so nothing's changed there. The new thing is that they can now take payments, so if you've used the printer or the photocopier, you can pay for it at the machine with a card instead of queuing at the desk. And the machines aren't there to replace staff: there will always be someone at the desk.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "text": "Joining the library has also become easier. Until now you had to come in person and fill in a paper form, but you can now join online through our website, and your card will be ready to collect the next time you visit. Children under twelve still need a parent or carer to sign for them, I'm afraid; that rule hasn't changed. And a question I get asked every week: no, your card won't work in other libraries in the county yet.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "text": "Now, Saturday's reopening. We'd originally planned for the day to begin with a talk by Grace Allardyce, the crime writer, but her train doesn't get in until eleven, so she'll be speaking just before lunch instead. So at ten o'clock, the doors will open with the choir from Hill Street Primary School singing on the front steps, and after that there'll be guided tours of the building every hour through the afternoon.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "text": "Last of all, how you can help. Lots of you have offered to donate books, which is kind, but our shelves are full, so please keep them for the summer book sale. The Friends of Kingsmead group is also doing well; they've got more members now than at any time in the last ten years. What we're really short of is volunteers for the after-school homework club, which starts again next month. If you could spare one afternoon a week, please put your name on the list by the door. Thank you, and see you on Saturday.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 2. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-03-p2.mp3",
             "duration_ms": 528046,
@@ -965,112 +1067,128 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 11648,
-                "text": "Part 2. You will hear a librarian talking to a group of local residents about their refurbished community library. First, you have some time to look at questions 11 to 15."
+                "text": "Part 2. You will hear a librarian talking to a group of local residents about their refurbished community library. First, you have some time to look at questions 11 to 15.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 42048,
                 "end_ms": 46314,
-                "text": "Now listen carefully and answer questions 11 to 15."
+                "text": "Now listen carefully and answer questions 11 to 15.",
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "accent": "en-CA",
                 "start_ms": 46714,
                 "end_ms": 74725,
-                "text": "Good evening, everyone, and thank you for coming. My name's Carla Novak, and I'm the manager here at Kingsmead Community Library. As you know, we've been closed for eight months while the building was refurbished, and we're finally ready to reopen on Saturday. So I wanted to tell you what's changed and what's stayed the same."
+                "text": "Good evening, everyone, and thank you for coming. My name's Carla Novak, and I'm the manager here at Kingsmead Community Library. As you know, we've been closed for eight months while the building was refurbished, and we're finally ready to reopen on Saturday. So I wanted to tell you what's changed and what's stayed the same.",
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "accent": "en-CA",
                 "start_ms": 75125,
                 "end_ms": 118724,
-                "text": "Let's start with the children's corner, which is still in the same place on the ground floor, just to the left of the main entrance. We did think about moving it upstairs, where there's more room, but parents told us very clearly that they didn't want to carry pushchairs up the stairs, so it's exactly the same size as before. What's different is the design. We held three workshops last spring with local families, and the children themselves drew the reading den and the little stage you'll see there."
+                "text": "Let's start with the children's corner, which is still in the same place on the ground floor, just to the left of the main entrance. We did think about moving it upstairs, where there's more room, but parents told us very clearly that they didn't want to carry pushchairs up the stairs, so it's exactly the same size as before. What's different is the design. We held three workshops last spring with local families, and the children themselves drew the reading den and the little stage you'll see there.",
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "accent": "en-CA",
                 "start_ms": 119124,
                 "end_ms": 154111,
-                "text": "Next to that, where the old magazine section used to be, are our four new study rooms. These are quiet rooms with a table, six chairs and a large screen, ideal for revising together or holding a meeting. A lot of libraries charge for rooms like these, but ours are completely free. The one thing to remember is that they're very popular, so you'll need to reserve one online, up to a week ahead."
+                "text": "Next to that, where the old magazine section used to be, are our four new study rooms. These are quiet rooms with a table, six chairs and a large screen, ideal for revising together or holding a meeting. A lot of libraries charge for rooms like these, but ours are completely free. The one thing to remember is that they're very popular, so you'll need to reserve one online, up to a week ahead.",
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "accent": "en-CA",
                 "start_ms": 154511,
                 "end_ms": 185978,
-                "text": "Now, the local history room. For years it was squeezed into the basement, and the damp down there wasn't doing the old maps any good. So it's now on the top floor, in what used to be the staff office, and it has proper climate control. Many people think you need an appointment to look at the collection, but that's not the case. You can just walk in any time the library's open."
+                "text": "Now, the local history room. For years it was squeezed into the basement, and the damp down there wasn't doing the old maps any good. So it's now on the top floor, in what used to be the staff office, and it has proper climate control. Many people think you need an appointment to look at the collection, but that's not the case. You can just walk in any time the library's open.",
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "accent": "en-CA",
                 "start_ms": 186378,
                 "end_ms": 216500,
-                "text": "Something many of you asked for in our survey was a café, and I'm happy to say we now have one, run by a local charity that trains young people in catering. The library itself opens at nine, but the café opens its doors at eight every weekday, so you can grab a coffee on your way to work. It closes when we do, at six."
+                "text": "Something many of you asked for in our survey was a café, and I'm happy to say we now have one, run by a local charity that trains young people in catering. The library itself opens at nine, but the café opens its doors at eight every weekday, so you can grab a coffee on your way to work. It closes when we do, at six.",
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "accent": "en-CA",
                 "start_ms": 216900,
                 "end_ms": 252399,
-                "text": "And finally, the digital lab on the first floor. It'll have computers with design software, a laser cutter and two 3D printers. When we first planned it, the idea was to keep it just for teenagers, but we've decided it should be open to all ages. Unfortunately, the printers have been held up by the supplier, and the room still needs its electrics checking, so the lab won't actually be ready until the spring."
+                "text": "And finally, the digital lab on the first floor. It'll have computers with design software, a laser cutter and two 3D printers. When we first planned it, the idea was to keep it just for teenagers, but we've decided it should be open to all ages. Unfortunately, the printers have been held up by the supplier, and the room still needs its electrics checking, so the lab won't actually be ready until the spring.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 252799,
                 "end_ms": 258516,
-                "text": "Before you hear the rest of the talk, you have some time to look at questions 16 to 20."
+                "text": "Before you hear the rest of the talk, you have some time to look at questions 16 to 20.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 288916,
                 "end_ms": 292799,
-                "text": "Now listen and answer questions 16 to 20."
+                "text": "Now listen and answer questions 16 to 20.",
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "accent": "en-CA",
                 "start_ms": 293199,
                 "end_ms": 332495,
-                "text": "Now, a few practical changes. First, opening hours. In the survey, the most common request was for later opening on weekday evenings, but the budget simply wouldn't stretch to the extra staff. We also looked at opening earlier on Saturdays, but hardly anyone said they'd come in before ten. What we have managed to do is open on Sundays for the first time, from one until five in the afternoon. Weekday and Saturday hours stay exactly as they were."
+                "text": "Now, a few practical changes. First, opening hours. In the survey, the most common request was for later opening on weekday evenings, but the budget simply wouldn't stretch to the extra staff. We also looked at opening earlier on Saturdays, but hardly anyone said they'd come in before ten. What we have managed to do is open on Sundays for the first time, from one until five in the afternoon. Weekday and Saturday hours stay exactly as they were.",
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "accent": "en-CA",
                 "start_ms": 332895,
                 "end_ms": 370100,
-                "text": "You'll also notice the self-service machines by the entrance. They work just like the old ones for borrowing and returning, and the limit is still twelve items per card, so nothing's changed there. The new thing is that they can now take payments, so if you've used the printer or the photocopier, you can pay for it at the machine with a card instead of queuing at the desk. And the machines aren't there to replace staff: there will always be someone at the desk."
+                "text": "You'll also notice the self-service machines by the entrance. They work just like the old ones for borrowing and returning, and the limit is still twelve items per card, so nothing's changed there. The new thing is that they can now take payments, so if you've used the printer or the photocopier, you can pay for it at the machine with a card instead of queuing at the desk. And the machines aren't there to replace staff: there will always be someone at the desk.",
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "accent": "en-CA",
                 "start_ms": 370500,
                 "end_ms": 408580,
-                "text": "Joining the library has also become easier. Until now you had to come in person and fill in a paper form, but you can now join online through our website, and your card will be ready to collect the next time you visit. Children under twelve still need a parent or carer to sign for them, I'm afraid; that rule hasn't changed. And a question I get asked every week: no, your card won't work in other libraries in the county yet."
+                "text": "Joining the library has also become easier. Until now you had to come in person and fill in a paper form, but you can now join online through our website, and your card will be ready to collect the next time you visit. Children under twelve still need a parent or carer to sign for them, I'm afraid; that rule hasn't changed. And a question I get asked every week: no, your card won't work in other libraries in the county yet.",
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "accent": "en-CA",
                 "start_ms": 408980,
                 "end_ms": 445503,
-                "text": "Now, Saturday's reopening. We'd originally planned for the day to begin with a talk by Grace Allardyce, the crime writer, but her train doesn't get in until eleven, so she'll be speaking just before lunch instead. So at ten o'clock, the doors will open with the choir from Hill Street Primary School singing on the front steps, and after that there'll be guided tours of the building every hour through the afternoon."
+                "text": "Now, Saturday's reopening. We'd originally planned for the day to begin with a talk by Grace Allardyce, the crime writer, but her train doesn't get in until eleven, so she'll be speaking just before lunch instead. So at ten o'clock, the doors will open with the choir from Hill Street Primary School singing on the front steps, and after that there'll be guided tours of the building every hour through the afternoon.",
+                "answer_s": null
               },
               {
                 "speaker": "librarian",
                 "accent": "en-CA",
                 "start_ms": 445903,
                 "end_ms": 492916,
-                "text": "Last of all, how you can help. Lots of you have offered to donate books, which is kind, but our shelves are full, so please keep them for the summer book sale. The Friends of Kingsmead group is also doing well; they've got more members now than at any time in the last ten years. What we're really short of is volunteers for the after-school homework club, which starts again next month. If you could spare one afternoon a week, please put your name on the list by the door. Thank you, and see you on Saturday."
+                "text": "Last of all, how you can help. Lots of you have offered to donate books, which is kind, but our shelves are full, so please keep them for the summer book sale. The Friends of Kingsmead group is also doing well; they've got more members now than at any time in the last ten years. What we're really short of is volunteers for the after-school homework club, which starts again next month. If you could spare one afternoon a week, please put your name on the list by the door. Thank you, and see you on Saturday.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 493316,
                 "end_ms": 497646,
-                "text": "That is the end of Part 2. You now have half a minute to check your answers."
+                "text": "That is the end of Part 2. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -1494,185 +1612,222 @@
               {
                 "speaker": "narrator",
                 "text": "Part 3. You will hear two business students, Maya and Josh, discussing their case study of a small chocolate company with their tutor. First, you have some time to look at questions 21 to 26.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 21 to 26.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Come in, both of you. So, you've chosen Fernhill Chocolate for your small business case study. How's it going?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "text": "Really well. Just to recap, it was set up about six years ago by a woman called Clare Dunmore, in a converted barn, and it now employs twenty-two people.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "text": "We've mostly been trying to work out why it grew so quickly in its first three years.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "And what have you found?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "text": "Well, my first thought was the award. They won a prize for their dark chocolate in their second year. But when we looked at the sales figures, there wasn't really any jump afterwards. And it was only a regional award anyway, so I don't think many people heard about it.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "text": "No. And it wasn't supermarkets either. A big chain actually offered them a contract in year two, but Clare turned it down because they wanted a forty per cent discount.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "So where did the growth come from?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "text": "Mostly from the way they used social media. Instead of just posting pictures of the chocolate, Clare shared stories about the farmers in Ecuador who grow the beans: their families, how they dry the beans, that kind of thing. Their followers went from a few hundred to thirty thousand in a year, and online orders rose just as fast.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "text": "The other big thing was the workshops. Every Saturday they run a chocolate-making class in the barn, and they're booked up months in advance. People also buy loads of bars to take home.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Did they ever consider a shop or a café on site?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "text": "They looked into opening a café next to the barn, but the planning rules for the site made it far too expensive, so they dropped the idea.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Good. Now, you said you'd describe how the chocolate is actually made. Have you got that worked out?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "text": "Yes, we visited last week. They do every stage themselves. The beans come in sacks straight from a cooperative of growers in Ecuador, and the first job is sorting them by hand to take out any broken ones.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "text": "Then they're roasted. When Clare started, she tried using a coffee roaster, but the beans kept burning on the outside. So now she uses a second-hand pizza oven. Apparently it gives a much more even heat.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "text": "After roasting, the shells have to come off. The beans are cracked into small pieces, called nibs, and then the shells are blown away. Commercial machines cost thousands, so Clare's brother built one out of a plastic pipe and an ordinary hair dryer. It looks ridiculous, but it works perfectly.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Wonderful. And then the grinding?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "text": "Yes, the nibs go into a stone grinder with sugar. I assumed that would take a few hours, but it's much longer than that. They leave it running for three days, until the chocolate is completely smooth. Some big manufacturers only grind for about twelve hours.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "text": "And then it's tempered, poured into moulds and wrapped. The wrapping's interesting, actually. For the first two years they used foil and plastic, but customers kept complaining, so now the bars come in a compostable film made from corn starch.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Before you hear the rest of the discussion, you have some time to look at questions 27 to 30.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen and answer questions 27 to 30.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Let's move on to the more recent period. Last year they moved out of the barn into a proper factory unit. What did you find out about that?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "text": "I expected the big issue would be finding staff, because chocolate making is quite a specialist skill. But Clare said recruitment was easy: they had over a hundred applications for six jobs. And all the new machinery was delivered on schedule.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "text": "The real shock was energy. The factory has to be kept cool all year round, and their electricity bills were nearly three times what they'd paid in the barn.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "And on top of that, the price of cocoa rose sharply. How did they respond?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "text": "Well, a lot of companies have been quietly making their bars smaller and keeping the price the same, but Clare thought customers would feel cheated if they noticed. She also refused to switch to cheaper beans from a different supplier.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "text": "So in the end they just put the price up by thirty pence a bar, and Clare wrote a blog post explaining exactly why. Sales hardly dropped at all.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Interesting. Now, I've read your draft, and overall it's good. The financial section is very thorough, and your conclusion follows logically from the evidence. Where I think it's weakest is the comparison with other businesses. You only looked at one competitor, and it's a huge multinational, so it isn't really a fair comparison.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "text": "That's fair. We could add two or three other small chocolate makers, I suppose.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Yes, do that. And what are you planning to do next?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "text": "I thought we should read more about the global cocoa market, to put the price rise in context.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "text": "Hmm, I think we've already got enough on that. What would really help is talking to Clare again. She said she'd be happy to do a video call.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "I agree with Maya. The market background is fine as it is. A second interview with the founder would give you much stronger material for your final section.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "text": "OK, I'll email her this afternoon to set it up.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 3. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-03-p3.mp3",
             "duration_ms": 405029,
@@ -1682,252 +1837,288 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 13269,
-                "text": "Part 3. You will hear two business students, Maya and Josh, discussing their case study of a small chocolate company with their tutor. First, you have some time to look at questions 21 to 26."
+                "text": "Part 3. You will hear two business students, Maya and Josh, discussing their case study of a small chocolate company with their tutor. First, you have some time to look at questions 21 to 26.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 43669,
                 "end_ms": 48320,
-                "text": "Now listen carefully and answer questions 21 to 26."
+                "text": "Now listen carefully and answer questions 21 to 26.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 48720,
                 "end_ms": 54736,
-                "text": "Come in, both of you. So, you've chosen Fernhill Chocolate for your small business case study. How's it going?"
+                "text": "Come in, both of you. So, you've chosen Fernhill Chocolate for your small business case study. How's it going?",
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "accent": "en-AU",
                 "start_ms": 55136,
                 "end_ms": 63754,
-                "text": "Really well. Just to recap, it was set up about six years ago by a woman called Clare Dunmore, in a converted barn, and it now employs twenty-two people."
+                "text": "Really well. Just to recap, it was set up about six years ago by a woman called Clare Dunmore, in a converted barn, and it now employs twenty-two people.",
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "accent": "en-US",
                 "start_ms": 64154,
                 "end_ms": 68826,
-                "text": "We've mostly been trying to work out why it grew so quickly in its first three years."
+                "text": "We've mostly been trying to work out why it grew so quickly in its first three years.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 69226,
                 "end_ms": 70869,
-                "text": "And what have you found?"
+                "text": "And what have you found?",
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "accent": "en-US",
                 "start_ms": 71269,
                 "end_ms": 85498,
-                "text": "Well, my first thought was the award. They won a prize for their dark chocolate in their second year. But when we looked at the sales figures, there wasn't really any jump afterwards. And it was only a regional award anyway, so I don't think many people heard about it."
+                "text": "Well, my first thought was the award. They won a prize for their dark chocolate in their second year. But when we looked at the sales figures, there wasn't really any jump afterwards. And it was only a regional award anyway, so I don't think many people heard about it.",
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "accent": "en-AU",
                 "start_ms": 85898,
                 "end_ms": 94944,
-                "text": "No. And it wasn't supermarkets either. A big chain actually offered them a contract in year two, but Clare turned it down because they wanted a forty per cent discount."
+                "text": "No. And it wasn't supermarkets either. A big chain actually offered them a contract in year two, but Clare turned it down because they wanted a forty per cent discount.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 95344,
                 "end_ms": 97413,
-                "text": "So where did the growth come from?"
+                "text": "So where did the growth come from?",
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "accent": "en-AU",
                 "start_ms": 97813,
                 "end_ms": 115541,
-                "text": "Mostly from the way they used social media. Instead of just posting pictures of the chocolate, Clare shared stories about the farmers in Ecuador who grow the beans: their families, how they dry the beans, that kind of thing. Their followers went from a few hundred to thirty thousand in a year, and online orders rose just as fast."
+                "text": "Mostly from the way they used social media. Instead of just posting pictures of the chocolate, Clare shared stories about the farmers in Ecuador who grow the beans: their families, how they dry the beans, that kind of thing. Their followers went from a few hundred to thirty thousand in a year, and online orders rose just as fast.",
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "accent": "en-US",
                 "start_ms": 115941,
                 "end_ms": 127333,
-                "text": "The other big thing was the workshops. Every Saturday they run a chocolate-making class in the barn, and they're booked up months in advance. People also buy loads of bars to take home."
+                "text": "The other big thing was the workshops. Every Saturday they run a chocolate-making class in the barn, and they're booked up months in advance. People also buy loads of bars to take home.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 127733,
                 "end_ms": 130976,
-                "text": "Did they ever consider a shop or a café on site?"
+                "text": "Did they ever consider a shop or a café on site?",
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "accent": "en-AU",
                 "start_ms": 131376,
                 "end_ms": 138864,
-                "text": "They looked into opening a café next to the barn, but the planning rules for the site made it far too expensive, so they dropped the idea."
+                "text": "They looked into opening a café next to the barn, but the planning rules for the site made it far too expensive, so they dropped the idea.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 139264,
                 "end_ms": 144554,
-                "text": "Good. Now, you said you'd describe how the chocolate is actually made. Have you got that worked out?"
+                "text": "Good. Now, you said you'd describe how the chocolate is actually made. Have you got that worked out?",
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "accent": "en-US",
                 "start_ms": 144954,
                 "end_ms": 157434,
-                "text": "Yes, we visited last week. They do every stage themselves. The beans come in sacks straight from a cooperative of growers in Ecuador, and the first job is sorting them by hand to take out any broken ones."
+                "text": "Yes, we visited last week. They do every stage themselves. The beans come in sacks straight from a cooperative of growers in Ecuador, and the first job is sorting them by hand to take out any broken ones.",
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "accent": "en-AU",
                 "start_ms": 157834,
                 "end_ms": 169418,
-                "text": "Then they're roasted. When Clare started, she tried using a coffee roaster, but the beans kept burning on the outside. So now she uses a second-hand pizza oven. Apparently it gives a much more even heat."
+                "text": "Then they're roasted. When Clare started, she tried using a coffee roaster, but the beans kept burning on the outside. So now she uses a second-hand pizza oven. Apparently it gives a much more even heat.",
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "accent": "en-US",
                 "start_ms": 169818,
                 "end_ms": 186032,
-                "text": "After roasting, the shells have to come off. The beans are cracked into small pieces, called nibs, and then the shells are blown away. Commercial machines cost thousands, so Clare's brother built one out of a plastic pipe and an ordinary hair dryer. It looks ridiculous, but it works perfectly."
+                "text": "After roasting, the shells have to come off. The beans are cracked into small pieces, called nibs, and then the shells are blown away. Commercial machines cost thousands, so Clare's brother built one out of a plastic pipe and an ordinary hair dryer. It looks ridiculous, but it works perfectly.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 186432,
                 "end_ms": 188458,
-                "text": "Wonderful. And then the grinding?"
+                "text": "Wonderful. And then the grinding?",
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "accent": "en-AU",
                 "start_ms": 188858,
                 "end_ms": 202896,
-                "text": "Yes, the nibs go into a stone grinder with sugar. I assumed that would take a few hours, but it's much longer than that. They leave it running for three days, until the chocolate is completely smooth. Some big manufacturers only grind for about twelve hours."
+                "text": "Yes, the nibs go into a stone grinder with sugar. I assumed that would take a few hours, but it's much longer than that. They leave it running for three days, until the chocolate is completely smooth. Some big manufacturers only grind for about twelve hours.",
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "accent": "en-US",
                 "start_ms": 203296,
                 "end_ms": 217546,
-                "text": "And then it's tempered, poured into moulds and wrapped. The wrapping's interesting, actually. For the first two years they used foil and plastic, but customers kept complaining, so now the bars come in a compostable film made from corn starch."
+                "text": "And then it's tempered, poured into moulds and wrapped. The wrapping's interesting, actually. For the first two years they used foil and plastic, but customers kept complaining, so now the bars come in a compostable film made from corn starch.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 217946,
                 "end_ms": 224112,
-                "text": "Before you hear the rest of the discussion, you have some time to look at questions 27 to 30."
+                "text": "Before you hear the rest of the discussion, you have some time to look at questions 27 to 30.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 254512,
                 "end_ms": 258522,
-                "text": "Now listen and answer questions 27 to 30."
+                "text": "Now listen and answer questions 27 to 30.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 258922,
                 "end_ms": 266816,
-                "text": "Let's move on to the more recent period. Last year they moved out of the barn into a proper factory unit. What did you find out about that?"
+                "text": "Let's move on to the more recent period. Last year they moved out of the barn into a proper factory unit. What did you find out about that?",
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "accent": "en-US",
                 "start_ms": 267216,
                 "end_ms": 281744,
-                "text": "I expected the big issue would be finding staff, because chocolate making is quite a specialist skill. But Clare said recruitment was easy: they had over a hundred applications for six jobs. And all the new machinery was delivered on schedule."
+                "text": "I expected the big issue would be finding staff, because chocolate making is quite a specialist skill. But Clare said recruitment was easy: they had over a hundred applications for six jobs. And all the new machinery was delivered on schedule.",
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "accent": "en-AU",
                 "start_ms": 282144,
                 "end_ms": 290485,
-                "text": "The real shock was energy. The factory has to be kept cool all year round, and their electricity bills were nearly three times what they'd paid in the barn."
+                "text": "The real shock was energy. The factory has to be kept cool all year round, and their electricity bills were nearly three times what they'd paid in the barn.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 290885,
                 "end_ms": 295301,
-                "text": "And on top of that, the price of cocoa rose sharply. How did they respond?"
+                "text": "And on top of that, the price of cocoa rose sharply. How did they respond?",
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "accent": "en-AU",
                 "start_ms": 295701,
                 "end_ms": 307818,
-                "text": "Well, a lot of companies have been quietly making their bars smaller and keeping the price the same, but Clare thought customers would feel cheated if they noticed. She also refused to switch to cheaper beans from a different supplier."
+                "text": "Well, a lot of companies have been quietly making their bars smaller and keeping the price the same, but Clare thought customers would feel cheated if they noticed. She also refused to switch to cheaper beans from a different supplier.",
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "accent": "en-US",
                 "start_ms": 308218,
                 "end_ms": 317285,
-                "text": "So in the end they just put the price up by thirty pence a bar, and Clare wrote a blog post explaining exactly why. Sales hardly dropped at all."
+                "text": "So in the end they just put the price up by thirty pence a bar, and Clare wrote a blog post explaining exactly why. Sales hardly dropped at all.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 317685,
                 "end_ms": 335690,
-                "text": "Interesting. Now, I've read your draft, and overall it's good. The financial section is very thorough, and your conclusion follows logically from the evidence. Where I think it's weakest is the comparison with other businesses. You only looked at one competitor, and it's a huge multinational, so it isn't really a fair comparison."
+                "text": "Interesting. Now, I've read your draft, and overall it's good. The financial section is very thorough, and your conclusion follows logically from the evidence. Where I think it's weakest is the comparison with other businesses. You only looked at one competitor, and it's a huge multinational, so it isn't really a fair comparison.",
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "accent": "en-US",
                 "start_ms": 336090,
                 "end_ms": 340613,
-                "text": "That's fair. We could add two or three other small chocolate makers, I suppose."
+                "text": "That's fair. We could add two or three other small chocolate makers, I suppose.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 341013,
                 "end_ms": 343765,
-                "text": "Yes, do that. And what are you planning to do next?"
+                "text": "Yes, do that. And what are you planning to do next?",
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "accent": "en-US",
                 "start_ms": 344165,
                 "end_ms": 349690,
-                "text": "I thought we should read more about the global cocoa market, to put the price rise in context."
+                "text": "I thought we should read more about the global cocoa market, to put the price rise in context.",
+                "answer_s": null
               },
               {
                 "speaker": "maya",
                 "accent": "en-AU",
                 "start_ms": 350090,
                 "end_ms": 357194,
-                "text": "Hmm, I think we've already got enough on that. What would really help is talking to Clare again. She said she'd be happy to do a video call."
+                "text": "Hmm, I think we've already got enough on that. What would really help is talking to Clare again. She said she'd be happy to do a video call.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 357594,
                 "end_ms": 366597,
-                "text": "I agree with Maya. The market background is fine as it is. A second interview with the founder would give you much stronger material for your final section."
+                "text": "I agree with Maya. The market background is fine as it is. A second interview with the founder would give you much stronger material for your final section.",
+                "answer_s": null
               },
               {
                 "speaker": "josh",
                 "accent": "en-US",
                 "start_ms": 366997,
                 "end_ms": 369770,
-                "text": "OK, I'll email her this afternoon to set it up."
+                "text": "OK, I'll email her this afternoon to set it up.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 370170,
                 "end_ms": 374629,
-                "text": "That is the end of Part 3. You now have half a minute to check your answers."
+                "text": "That is the end of Part 3. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -2363,85 +2554,102 @@
               {
                 "speaker": "narrator",
                 "text": "Part 4. You will hear a lecture about the history of lighthouses. First, you have some time to look at questions 31 to 40.",
-                "pause_after_s": 45.0
+                "pause_after_s": 45.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 31 to 40.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Good morning, everyone. Today, in our series on maritime history, I'm going to look at lighthouses: how the technology behind them changed, and how sailors learned to tell one light from another.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "The most famous lighthouse of the ancient world was, of course, the Pharos of Alexandria, built in Egypt in the third century BC. Ancient accounts suggest it was well over a hundred metres tall, with a fire burning at the top. Remarkably, it stood for something like fifteen hundred years. It's often assumed that it was destroyed in a war, or by invaders, but in fact the historical records point clearly to a series of earthquakes, which damaged it again and again until the last parts collapsed in the fourteenth century.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "After the Roman period, very few new lighthouses were built in Europe for centuries. Where coastal lights did exist in the medieval period, they were usually looked after not by governments or by merchants but by monks, who saw keeping a light burning for sailors as a religious duty.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "By the seventeenth century, though, lighthouses had become a business. In England, for example, private individuals could obtain the right to build a lighthouse, and they made their money by collecting a toll from every ship that passed it or came into a nearby port. People sometimes describe this as a tax, but that's misleading, because none of the money went to the state. Some owners became extremely rich, and shipowners complained about the quality of the lights they were paying for.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "And they had a point. Most early lighthouses burned coal in an open iron basket at the top of the tower. On a calm night this worked quite well, but in wind and rain the fire would die down, and the keeper had to spend hours working a pair of bellows to keep it bright enough to be seen. It was exhausting work, and a single coal light could use several hundred tonnes of fuel a year.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Enclosing the light behind glass solved the problem of the wind, so towers began to use candles, and later oil lamps, inside a glass room called the lantern. But this created a new difficulty. The lamps produced a great deal of smoke, and soot built up on the inside of the glass so quickly that half the light could be hidden within a few hours.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "The real breakthrough came in the 1820s, from the French physicist Augustin Fresnel. Until then, the best lighthouses used large curved mirrors behind the lamp to direct the light out to sea. These mirrors were heavy, and they wasted a lot of the light. Fresnel replaced them with a lens made of rings of glass prisms, arranged around the lamp a bit like a beehive, which bent almost all of the light into a single powerful beam. A light that had been visible for a few miles could now be seen from more than twenty miles away.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Now, as the number of lighthouses grew, a new problem appeared. If a sailor could see a light, how did he know which lighthouse it was? Mistaking one for another could be just as dangerous as having no light at all.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "During the day, the answer was the tower itself. Many lighthouses were painted with stripes, either horizontal bands or spirals, in black and white or red and white, so that each one had its own distinctive appearance from the sea. These patterns are known as daymarks, and many of them are still in use today.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "At night, of course, the paint is no help, so each light was given what's called a characteristic: a particular pattern of flashes and dark periods. One light might flash twice every ten seconds, another once every five. To produce these flashes, the lens had to turn smoothly at a precise speed. The solution, from the 1890s onwards, was to float the whole lens on a bath of mercury, which allowed a lens weighing several tonnes to be turned by a simple clockwork mechanism. The disadvantage, as we now know, is that mercury is highly toxic, and many keepers suffered from its effects.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "The third method was for fog, when neither the tower nor the light could be seen. The earliest fog signals were bells, and at some stations cannons were fired at regular intervals. By the late nineteenth century, these had largely been replaced by sirens, powered by compressed air, which could be heard several miles away. Even so, sound behaves unpredictably over water, and sailors were warned never to rely on a fog signal alone.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Finally, in the twentieth century, lighthouses began to send out radio signals. From the 1920s, radio beacons allowed ships with the right equipment to identify a station, and even work out its direction, in thick fog and from far beyond the range of any light. Each beacon transmitted its own identity in Morse code, a short sequence of dots and dashes repeated over and over.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Today, of course, most ships rely on satellite navigation, and almost every lighthouse in the world is automatic. Next week, we'll look at the lives of the keepers themselves.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 4. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-03-p4.mp3",
             "duration_ms": 349392,
@@ -2451,112 +2659,128 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 8405,
-                "text": "Part 4. You will hear a lecture about the history of lighthouses. First, you have some time to look at questions 31 to 40."
+                "text": "Part 4. You will hear a lecture about the history of lighthouses. First, you have some time to look at questions 31 to 40.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 53805,
                 "end_ms": 58221,
-                "text": "Now listen carefully and answer questions 31 to 40."
+                "text": "Now listen carefully and answer questions 31 to 40.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-AU",
                 "start_ms": 58621,
                 "end_ms": 69138,
-                "text": "Good morning, everyone. Today, in our series on maritime history, I'm going to look at lighthouses: how the technology behind them changed, and how sailors learned to tell one light from another."
+                "text": "Good morning, everyone. Today, in our series on maritime history, I'm going to look at lighthouses: how the technology behind them changed, and how sailors learned to tell one light from another.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-AU",
                 "start_ms": 69538,
                 "end_ms": 97714,
-                "text": "The most famous lighthouse of the ancient world was, of course, the Pharos of Alexandria, built in Egypt in the third century BC. Ancient accounts suggest it was well over a hundred metres tall, with a fire burning at the top. Remarkably, it stood for something like fifteen hundred years. It's often assumed that it was destroyed in a war, or by invaders, but in fact the historical records point clearly to a series of earthquakes, which damaged it again and again until the last parts collapsed in the fourteenth century."
+                "text": "The most famous lighthouse of the ancient world was, of course, the Pharos of Alexandria, built in Egypt in the third century BC. Ancient accounts suggest it was well over a hundred metres tall, with a fire burning at the top. Remarkably, it stood for something like fifteen hundred years. It's often assumed that it was destroyed in a war, or by invaders, but in fact the historical records point clearly to a series of earthquakes, which damaged it again and again until the last parts collapsed in the fourteenth century.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-AU",
                 "start_ms": 98114,
                 "end_ms": 112919,
-                "text": "After the Roman period, very few new lighthouses were built in Europe for centuries. Where coastal lights did exist in the medieval period, they were usually looked after not by governments or by merchants but by monks, who saw keeping a light burning for sailors as a religious duty."
+                "text": "After the Roman period, very few new lighthouses were built in Europe for centuries. Where coastal lights did exist in the medieval period, they were usually looked after not by governments or by merchants but by monks, who saw keeping a light burning for sailors as a religious duty.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-AU",
                 "start_ms": 113319,
                 "end_ms": 135228,
-                "text": "By the seventeenth century, though, lighthouses had become a business. In England, for example, private individuals could obtain the right to build a lighthouse, and they made their money by collecting a toll from every ship that passed it or came into a nearby port. People sometimes describe this as a tax, but that's misleading, because none of the money went to the state. Some owners became extremely rich, and shipowners complained about the quality of the lights they were paying for."
+                "text": "By the seventeenth century, though, lighthouses had become a business. In England, for example, private individuals could obtain the right to build a lighthouse, and they made their money by collecting a toll from every ship that passed it or came into a nearby port. People sometimes describe this as a tax, but that's misleading, because none of the money went to the state. Some owners became extremely rich, and shipowners complained about the quality of the lights they were paying for.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-AU",
                 "start_ms": 135628,
                 "end_ms": 154188,
-                "text": "And they had a point. Most early lighthouses burned coal in an open iron basket at the top of the tower. On a calm night this worked quite well, but in wind and rain the fire would die down, and the keeper had to spend hours working a pair of bellows to keep it bright enough to be seen. It was exhausting work, and a single coal light could use several hundred tonnes of fuel a year."
+                "text": "And they had a point. Most early lighthouses burned coal in an open iron basket at the top of the tower. On a calm night this worked quite well, but in wind and rain the fire would die down, and the keeper had to spend hours working a pair of bellows to keep it bright enough to be seen. It was exhausting work, and a single coal light could use several hundred tonnes of fuel a year.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-AU",
                 "start_ms": 154588,
                 "end_ms": 171975,
-                "text": "Enclosing the light behind glass solved the problem of the wind, so towers began to use candles, and later oil lamps, inside a glass room called the lantern. But this created a new difficulty. The lamps produced a great deal of smoke, and soot built up on the inside of the glass so quickly that half the light could be hidden within a few hours."
+                "text": "Enclosing the light behind glass solved the problem of the wind, so towers began to use candles, and later oil lamps, inside a glass room called the lantern. But this created a new difficulty. The lamps produced a great deal of smoke, and soot built up on the inside of the glass so quickly that half the light could be hidden within a few hours.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-AU",
                 "start_ms": 172375,
                 "end_ms": 201489,
-                "text": "The real breakthrough came in the 1820s, from the French physicist Augustin Fresnel. Until then, the best lighthouses used large curved mirrors behind the lamp to direct the light out to sea. These mirrors were heavy, and they wasted a lot of the light. Fresnel replaced them with a lens made of rings of glass prisms, arranged around the lamp a bit like a beehive, which bent almost all of the light into a single powerful beam. A light that had been visible for a few miles could now be seen from more than twenty miles away."
+                "text": "The real breakthrough came in the 1820s, from the French physicist Augustin Fresnel. Until then, the best lighthouses used large curved mirrors behind the lamp to direct the light out to sea. These mirrors were heavy, and they wasted a lot of the light. Fresnel replaced them with a lens made of rings of glass prisms, arranged around the lamp a bit like a beehive, which bent almost all of the light into a single powerful beam. A light that had been visible for a few miles could now be seen from more than twenty miles away.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-AU",
                 "start_ms": 201889,
                 "end_ms": 213089,
-                "text": "Now, as the number of lighthouses grew, a new problem appeared. If a sailor could see a light, how did he know which lighthouse it was? Mistaking one for another could be just as dangerous as having no light at all."
+                "text": "Now, as the number of lighthouses grew, a new problem appeared. If a sailor could see a light, how did he know which lighthouse it was? Mistaking one for another could be just as dangerous as having no light at all.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-AU",
                 "start_ms": 213489,
                 "end_ms": 228742,
-                "text": "During the day, the answer was the tower itself. Many lighthouses were painted with stripes, either horizontal bands or spirals, in black and white or red and white, so that each one had its own distinctive appearance from the sea. These patterns are known as daymarks, and many of them are still in use today."
+                "text": "During the day, the answer was the tower itself. Many lighthouses were painted with stripes, either horizontal bands or spirals, in black and white or red and white, so that each one had its own distinctive appearance from the sea. These patterns are known as daymarks, and many of them are still in use today.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-AU",
                 "start_ms": 229142,
                 "end_ms": 261904,
-                "text": "At night, of course, the paint is no help, so each light was given what's called a characteristic: a particular pattern of flashes and dark periods. One light might flash twice every ten seconds, another once every five. To produce these flashes, the lens had to turn smoothly at a precise speed. The solution, from the 1890s onwards, was to float the whole lens on a bath of mercury, which allowed a lens weighing several tonnes to be turned by a simple clockwork mechanism. The disadvantage, as we now know, is that mercury is highly toxic, and many keepers suffered from its effects."
+                "text": "At night, of course, the paint is no help, so each light was given what's called a characteristic: a particular pattern of flashes and dark periods. One light might flash twice every ten seconds, another once every five. To produce these flashes, the lens had to turn smoothly at a precise speed. The solution, from the 1890s onwards, was to float the whole lens on a bath of mercury, which allowed a lens weighing several tonnes to be turned by a simple clockwork mechanism. The disadvantage, as we now know, is that mercury is highly toxic, and many keepers suffered from its effects.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-AU",
                 "start_ms": 262304,
                 "end_ms": 283382,
-                "text": "The third method was for fog, when neither the tower nor the light could be seen. The earliest fog signals were bells, and at some stations cannons were fired at regular intervals. By the late nineteenth century, these had largely been replaced by sirens, powered by compressed air, which could be heard several miles away. Even so, sound behaves unpredictably over water, and sailors were warned never to rely on a fog signal alone."
+                "text": "The third method was for fog, when neither the tower nor the light could be seen. The earliest fog signals were bells, and at some stations cannons were fired at regular intervals. By the late nineteenth century, these had largely been replaced by sirens, powered by compressed air, which could be heard several miles away. Even so, sound behaves unpredictably over water, and sailors were warned never to rely on a fog signal alone.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-AU",
                 "start_ms": 283782,
                 "end_ms": 304155,
-                "text": "Finally, in the twentieth century, lighthouses began to send out radio signals. From the 1920s, radio beacons allowed ships with the right equipment to identify a station, and even work out its direction, in thick fog and from far beyond the range of any light. Each beacon transmitted its own identity in Morse code, a short sequence of dots and dashes repeated over and over."
+                "text": "Finally, in the twentieth century, lighthouses began to send out radio signals. From the 1920s, radio beacons allowed ships with the right equipment to identify a station, and even work out its direction, in thick fog and from far beyond the range of any light. Each beacon transmitted its own identity in Morse code, a short sequence of dots and dashes repeated over and over.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-AU",
                 "start_ms": 304555,
                 "end_ms": 314198,
-                "text": "Today, of course, most ships rely on satellite navigation, and almost every lighthouse in the world is automatic. Next week, we'll look at the lives of the keepers themselves."
+                "text": "Today, of course, most ships rely on satellite navigation, and almost every lighthouse in the world is automatic. Next week, we'll look at the lives of the keepers themselves.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 314598,
                 "end_ms": 318992,
-                "text": "That is the end of Part 4. You now have half a minute to check your answers."
+                "text": "That is the end of Part 4. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -2923,6 +3147,7 @@
             "glossary": []
           },
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": null,
           "groups": [
@@ -3337,6 +3562,7 @@
             "glossary": []
           },
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": null,
           "groups": [
@@ -3849,6 +4075,7 @@
             "glossary": []
           },
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": null,
           "groups": [
@@ -4460,6 +4687,7 @@
           "topic": "energy-resources",
           "passage": null,
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": {
             "task_number": 1,
@@ -4480,6 +4708,7 @@
           "topic": "work-economy",
           "passage": null,
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": {
             "task_number": 2,
@@ -4487,6 +4716,421 @@
             "essay_type": "problem_solution",
             "visual": null
           },
+          "groups": []
+        }
+      ]
+    },
+    {
+      "skill": "speaking",
+      "duration_s": 1200,
+      "parts": [
+        {
+          "number": 1,
+          "context": "speaking_interview",
+          "topic": "people-society",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "examiner",
+                "role": "Speaking examiner",
+                "accent": "en-GB",
+                "gender": "female"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "examiner",
+                "text": "Good morning. In this first part of the test, I'd like to ask you some questions about yourself.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "text": "Let's talk about your hometown. Where is your hometown?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "What is the best thing about your hometown?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "How has your hometown changed since you were a child?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Now let's talk about reading. Do you enjoy reading?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "What did you like to read when you were younger?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do you prefer reading on paper or on a screen?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Now let's talk about getting around. How do you usually travel to work or school?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Is public transport good where you live?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Have you ever wanted to learn to drive?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do you prefer to travel alone or with other people?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              }
+            ]
+          },
+          "cue_card": null,
+          "audio": {
+            "url": "/media/audio/mock-03-s1.mp3",
+            "duration_ms": 35589,
+            "segments": [
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 4800,
+                "text": "Good morning. In this first part of the test, I'd like to ask you some questions about yourself.",
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 5200,
+                "end_ms": 8186,
+                "text": "Let's talk about your hometown. Where is your hometown?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 8586,
+                "end_ms": 10762,
+                "text": "What is the best thing about your hometown?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 11162,
+                "end_ms": 13936,
+                "text": "How has your hometown changed since you were a child?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 14336,
+                "end_ms": 17152,
+                "text": "Now let's talk about reading. Do you enjoy reading?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 17552,
+                "end_ms": 19621,
+                "text": "What did you like to read when you were younger?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 20021,
+                "end_ms": 22474,
+                "text": "Do you prefer reading on paper or on a screen?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 22874,
+                "end_ms": 27205,
+                "text": "Now let's talk about getting around. How do you usually travel to work or school?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 27605,
+                "end_ms": 29781,
+                "text": "Is public transport good where you live?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 30181,
+                "end_ms": 32272,
+                "text": "Have you ever wanted to learn to drive?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 32672,
+                "end_ms": 35189,
+                "text": "Do you prefer to travel alone or with other people?",
+                "answer_s": 35
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "examiner": "bf_emma"
+            }
+          },
+          "writing": null,
+          "groups": []
+        },
+        {
+          "number": 2,
+          "context": "speaking_interview",
+          "topic": "people-society",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "examiner",
+                "role": "Speaking examiner",
+                "accent": "en-GB",
+                "gender": "female"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "examiner",
+                "text": "Now, I'm going to give you a topic, and I'd like you to talk about it for one to two minutes. Before you talk, you'll have one minute to think about what you're going to say. You can make some notes if you wish. Here is your paper and pencil, and here is your topic. I'd like you to describe a person who has had an important influence on your life.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "text": "All right? Remember, you have one to two minutes for this, so don't worry if I stop you. I'll tell you when the time is up. Can you start speaking now, please?",
+                "pause_after_s": 0.0,
+                "answer_s": 120
+              },
+              {
+                "speaker": "examiner",
+                "text": "Thank you. Have you ever told this person how important they are to you?",
+                "pause_after_s": 0.0,
+                "answer_s": 30
+              }
+            ]
+          },
+          "cue_card": {
+            "task": "Describe a person who has had an important influence on your life.",
+            "bullets": [
+              "who this person is",
+              "how you know them",
+              "what they are like"
+            ],
+            "final": "and explain how they have influenced you."
+          },
+          "audio": {
+            "url": "/media/audio/mock-03-s2.mp3",
+            "duration_ms": 29808,
+            "segments": [
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 17386,
+                "text": "Now, I'm going to give you a topic, and I'd like you to talk about it for one to two minutes. Before you talk, you'll have one minute to think about what you're going to say. You can make some notes if you wish. Here is your paper and pencil, and here is your topic. I'd like you to describe a person who has had an important influence on your life.",
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 17786,
+                "end_ms": 25573,
+                "text": "All right? Remember, you have one to two minutes for this, so don't worry if I stop you. I'll tell you when the time is up. Can you start speaking now, please?",
+                "answer_s": 120
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 25973,
+                "end_ms": 29408,
+                "text": "Thank you. Have you ever told this person how important they are to you?",
+                "answer_s": 30
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "examiner": "bf_emma"
+            }
+          },
+          "writing": null,
+          "groups": []
+        },
+        {
+          "number": 3,
+          "context": "speaking_interview",
+          "topic": "people-society",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "examiner",
+                "role": "Speaking examiner",
+                "accent": "en-GB",
+                "gender": "female"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "examiner",
+                "text": "We've been talking about a person who has influenced you, and I'd like to discuss with you one or two more general questions related to this. Let's consider first role models.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "text": "What kind of people do young people look up to nowadays?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do famous people have a responsibility to behave well in public?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Now let's talk about families. How much influence do parents have on their children's choices compared with the past?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Is it a good thing for grandparents to help bring up children?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Why do some people become leaders while others prefer to follow?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do you think social media has changed who people admire? In what way?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Thank you very much. That is the end of the speaking test.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              }
+            ]
+          },
+          "cue_card": null,
+          "audio": {
+            "url": "/media/audio/mock-03-s3.mp3",
+            "duration_ms": 38570,
+            "segments": [
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 9322,
+                "text": "We've been talking about a person who has influenced you, and I'd like to discuss with you one or two more general questions related to this. Let's consider first role models.",
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 9722,
+                "end_ms": 12560,
+                "text": "What kind of people do young people look up to nowadays?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 12960,
+                "end_ms": 16480,
+                "text": "Do famous people have a responsibility to behave well in public?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 16880,
+                "end_ms": 22960,
+                "text": "Now let's talk about families. How much influence do parents have on their children's choices compared with the past?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 23360,
+                "end_ms": 26410,
+                "text": "Is it a good thing for grandparents to help bring up children?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 26810,
+                "end_ms": 30160,
+                "text": "Why do some people become leaders while others prefer to follow?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 30560,
+                "end_ms": 34506,
+                "text": "Do you think social media has changed who people admire? In what way?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 34906,
+                "end_ms": 38170,
+                "text": "Thank you very much. That is the end of the speaking test.",
+                "answer_s": null
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "examiner": "bf_emma"
+            }
+          },
+          "writing": null,
           "groups": []
         }
       ]

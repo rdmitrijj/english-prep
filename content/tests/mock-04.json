@@ -51,180 +51,216 @@
               {
                 "speaker": "narrator",
                 "text": "Part 1. You will hear a woman phoning the organiser of a weekend food festival to book a stall. First, you have some time to look at questions 1 to 4.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 1 to 4.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "Good morning, Harbourside Food Festival, Dan speaking.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Oh, hi. I saw on your website that you've still got a few stalls available for the festival in June, and I'd like to book one, if that's possible.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "Yes, we've got a handful left, so you're in luck. I'll fill in the booking form as we go. Can I start with your name?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Sure. It's Grace Thornbury.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "Thornbury. Is that B-E-R-R-Y at the end, like the fruit?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "No, it's B-U-R-Y. So the whole thing is T-H-O-R-N-B-U-R-Y. Everyone gets that wrong, don't worry.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "Got it, thanks. And what kind of food will you be selling?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "I run a small business from my kitchen at home. Last year I was doing noodles as well, at the farmers' market, but it was too much work for one person, so now it's just dumplings.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "Lovely. We haven't got anyone doing those yet, so you should be busy. Now, stall sizes. We've got stalls that are two, three or four metres wide. Which would you like?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "I was going to say two metres, because it's only me. But I'm bringing a fridge with me this time, so I'd better go for three.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "Three metres, then. That's our most popular size. And is there anywhere in particular you'd like to be? Most people ask to be near the stage, but I'm afraid that area's fully booked already.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "That's fine, it's a bit noisy there anyway. What about somewhere near the entrance?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "Hmm, the entrance is mostly taken by the bigger food vans. But I do have a space next to the fountain, right in the middle of the square. Lots of people sit around it to eat.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Oh, the fountain sounds perfect. I'll take that one.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "Great, I'll put you down for it.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Before you hear the rest of the conversation, you have some time to look at questions 5 to 10.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen and answer questions 5 to 10.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "So, can you tell me how much it costs?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "Sure. You can book for just one day, which is 120 pounds, or for the whole weekend. The weekend price was 180 pounds last year, but it's gone up a little, so it's now 210 pounds.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "I'll do the whole weekend, I think. Is electricity included in that?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "Not quite. The price covers the stall itself and a table, but electricity is extra. We charge 15 pounds for each socket you need. With a fridge, you'll probably want two.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Okay, two sockets, then. Do you need any documents from me before the festival?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "Yes, just one. Because you're preparing food, we need a copy of your food hygiene certificate. Could you email it to us by the end of May? Your insurance papers you can simply bring with you on the day.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "No problem, I've got that somewhere. And what time should I get there on the Saturday?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "Traders can drive onto the square from six in the morning. But the public come in at eight, and every vehicle has to be off the square by then, so don't leave it too late.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Right, I'll aim to arrive at six, then. Is there anything I should know about packaging? At the market I usually use plastic boxes.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "Ah, that's changed this year. Plastic isn't allowed at all now. And last year we said recyclable was fine, but now all takeaway containers have to be compostable. There are some good local suppliers, and I can send you a list.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Yes, please, that would be really helpful. And finally, where do I park once I've unloaded?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "A lot of traders use the station car park because it's closer, but it's pay and display and it fills up fast. We've arranged free parking for stallholders in the car park behind the library, so I'd go there. It's only about a five-minute walk.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Brilliant. I think that's everything I needed to ask.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "text": "Okay, Grace. I'll send you a confirmation email with a payment link this afternoon. See you in June!",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Thanks very much, Dan. Bye.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 1. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-04-p1.mp3",
             "duration_ms": 337258,
@@ -234,245 +270,280 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 8853,
-                "text": "Part 1. You will hear a woman phoning the organiser of a weekend food festival to book a stall. First, you have some time to look at questions 1 to 4."
+                "text": "Part 1. You will hear a woman phoning the organiser of a weekend food festival to book a stall. First, you have some time to look at questions 1 to 4.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 39253,
                 "end_ms": 43008,
-                "text": "Now listen carefully and answer questions 1 to 4."
+                "text": "Now listen carefully and answer questions 1 to 4.",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 43408,
                 "end_ms": 47013,
-                "text": "Good morning, Harbourside Food Festival, Dan speaking."
+                "text": "Good morning, Harbourside Food Festival, Dan speaking.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 47413,
                 "end_ms": 55050,
-                "text": "Oh, hi. I saw on your website that you've still got a few stalls available for the festival in June, and I'd like to book one, if that's possible."
+                "text": "Oh, hi. I saw on your website that you've still got a few stalls available for the festival in June, and I'd like to book one, if that's possible.",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 55450,
                 "end_ms": 62725,
-                "text": "Yes, we've got a handful left, so you're in luck. I'll fill in the booking form as we go. Can I start with your name?"
+                "text": "Yes, we've got a handful left, so you're in luck. I'll fill in the booking form as we go. Can I start with your name?",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 63125,
                 "end_ms": 64981,
-                "text": "Sure. It's Grace Thornbury."
+                "text": "Sure. It's Grace Thornbury.",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 65381,
                 "end_ms": 68965,
-                "text": "Thornbury. Is that B-E-R-R-Y at the end, like the fruit?"
+                "text": "Thornbury. Is that B-E-R-R-Y at the end, like the fruit?",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 69365,
                 "end_ms": 75701,
-                "text": "No, it's B-U-R-Y. So the whole thing is T-H-O-R-N-B-U-R-Y. Everyone gets that wrong, don't worry."
+                "text": "No, it's B-U-R-Y. So the whole thing is T-H-O-R-N-B-U-R-Y. Everyone gets that wrong, don't worry.",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 76101,
                 "end_ms": 79322,
-                "text": "Got it, thanks. And what kind of food will you be selling?"
+                "text": "Got it, thanks. And what kind of food will you be selling?",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 79722,
                 "end_ms": 89365,
-                "text": "I run a small business from my kitchen at home. Last year I was doing noodles as well, at the farmers' market, but it was too much work for one person, so now it's just dumplings."
+                "text": "I run a small business from my kitchen at home. Last year I was doing noodles as well, at the farmers' market, but it was too much work for one person, so now it's just dumplings.",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 89765,
                 "end_ms": 100112,
-                "text": "Lovely. We haven't got anyone doing those yet, so you should be busy. Now, stall sizes. We've got stalls that are two, three or four metres wide. Which would you like?"
+                "text": "Lovely. We haven't got anyone doing those yet, so you should be busy. Now, stall sizes. We've got stalls that are two, three or four metres wide. Which would you like?",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 100512,
                 "end_ms": 106933,
-                "text": "I was going to say two metres, because it's only me. But I'm bringing a fridge with me this time, so I'd better go for three."
+                "text": "I was going to say two metres, because it's only me. But I'm bringing a fridge with me this time, so I'd better go for three.",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 107333,
                 "end_ms": 119365,
-                "text": "Three metres, then. That's our most popular size. And is there anywhere in particular you'd like to be? Most people ask to be near the stage, but I'm afraid that area's fully booked already."
+                "text": "Three metres, then. That's our most popular size. And is there anywhere in particular you'd like to be? Most people ask to be near the stage, but I'm afraid that area's fully booked already.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 119765,
                 "end_ms": 124160,
-                "text": "That's fine, it's a bit noisy there anyway. What about somewhere near the entrance?"
+                "text": "That's fine, it's a bit noisy there anyway. What about somewhere near the entrance?",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 124560,
                 "end_ms": 135162,
-                "text": "Hmm, the entrance is mostly taken by the bigger food vans. But I do have a space next to the fountain, right in the middle of the square. Lots of people sit around it to eat."
+                "text": "Hmm, the entrance is mostly taken by the bigger food vans. But I do have a space next to the fountain, right in the middle of the square. Lots of people sit around it to eat.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 135562,
                 "end_ms": 138613,
-                "text": "Oh, the fountain sounds perfect. I'll take that one."
+                "text": "Oh, the fountain sounds perfect. I'll take that one.",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 139013,
                 "end_ms": 140890,
-                "text": "Great, I'll put you down for it."
+                "text": "Great, I'll put you down for it.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 141290,
                 "end_ms": 146816,
-                "text": "Before you hear the rest of the conversation, you have some time to look at questions 5 to 10."
+                "text": "Before you hear the rest of the conversation, you have some time to look at questions 5 to 10.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 177216,
                 "end_ms": 180629,
-                "text": "Now listen and answer questions 5 to 10."
+                "text": "Now listen and answer questions 5 to 10.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 181029,
                 "end_ms": 183269,
-                "text": "So, can you tell me how much it costs?"
+                "text": "So, can you tell me how much it costs?",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 183669,
                 "end_ms": 197664,
-                "text": "Sure. You can book for just one day, which is 120 pounds, or for the whole weekend. The weekend price was 180 pounds last year, but it's gone up a little, so it's now 210 pounds."
+                "text": "Sure. You can book for just one day, which is 120 pounds, or for the whole weekend. The weekend price was 180 pounds last year, but it's gone up a little, so it's now 210 pounds.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 198064,
                 "end_ms": 202010,
-                "text": "I'll do the whole weekend, I think. Is electricity included in that?"
+                "text": "I'll do the whole weekend, I think. Is electricity included in that?",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 202410,
                 "end_ms": 213888,
-                "text": "Not quite. The price covers the stall itself and a table, but electricity is extra. We charge 15 pounds for each socket you need. With a fridge, you'll probably want two."
+                "text": "Not quite. The price covers the stall itself and a table, but electricity is extra. We charge 15 pounds for each socket you need. With a fridge, you'll probably want two.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 214288,
                 "end_ms": 218597,
-                "text": "Okay, two sockets, then. Do you need any documents from me before the festival?"
+                "text": "Okay, two sockets, then. Do you need any documents from me before the festival?",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 218997,
                 "end_ms": 231221,
-                "text": "Yes, just one. Because you're preparing food, we need a copy of your food hygiene certificate. Could you email it to us by the end of May? Your insurance papers you can simply bring with you on the day."
+                "text": "Yes, just one. Because you're preparing food, we need a copy of your food hygiene certificate. Could you email it to us by the end of May? Your insurance papers you can simply bring with you on the day.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 231621,
                 "end_ms": 236016,
-                "text": "No problem, I've got that somewhere. And what time should I get there on the Saturday?"
+                "text": "No problem, I've got that somewhere. And what time should I get there on the Saturday?",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 236416,
                 "end_ms": 246016,
-                "text": "Traders can drive onto the square from six in the morning. But the public come in at eight, and every vehicle has to be off the square by then, so don't leave it too late."
+                "text": "Traders can drive onto the square from six in the morning. But the public come in at eight, and every vehicle has to be off the square by then, so don't leave it too late.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 246416,
                 "end_ms": 253797,
-                "text": "Right, I'll aim to arrive at six, then. Is there anything I should know about packaging? At the market I usually use plastic boxes."
+                "text": "Right, I'll aim to arrive at six, then. Is there anything I should know about packaging? At the market I usually use plastic boxes.",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 254197,
                 "end_ms": 268576,
-                "text": "Ah, that's changed this year. Plastic isn't allowed at all now. And last year we said recyclable was fine, but now all takeaway containers have to be compostable. There are some good local suppliers, and I can send you a list."
+                "text": "Ah, that's changed this year. Plastic isn't allowed at all now. And last year we said recyclable was fine, but now all takeaway containers have to be compostable. There are some good local suppliers, and I can send you a list.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 268976,
                 "end_ms": 273925,
-                "text": "Yes, please, that would be really helpful. And finally, where do I park once I've unloaded?"
+                "text": "Yes, please, that would be really helpful. And finally, where do I park once I've unloaded?",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 274325,
                 "end_ms": 289728,
-                "text": "A lot of traders use the station car park because it's closer, but it's pay and display and it fills up fast. We've arranged free parking for stallholders in the car park behind the library, so I'd go there. It's only about a five-minute walk."
+                "text": "A lot of traders use the station car park because it's closer, but it's pay and display and it fills up fast. We've arranged free parking for stallholders in the car park behind the library, so I'd go there. It's only about a five-minute walk.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 290128,
                 "end_ms": 292922,
-                "text": "Brilliant. I think that's everything I needed to ask."
+                "text": "Brilliant. I think that's everything I needed to ask.",
+                "answer_s": null
               },
               {
                 "speaker": "organiser",
                 "accent": "en-AU",
                 "start_ms": 293322,
                 "end_ms": 299658,
-                "text": "Okay, Grace. I'll send you a confirmation email with a payment link this afternoon. See you in June!"
+                "text": "Okay, Grace. I'll send you a confirmation email with a payment link this afternoon. See you in June!",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 300058,
                 "end_ms": 302064,
-                "text": "Thanks very much, Dan. Bye."
+                "text": "Thanks very much, Dan. Bye.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 302464,
                 "end_ms": 306858,
-                "text": "That is the end of Part 1. You now have half a minute to check your answers."
+                "text": "That is the end of Part 1. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -800,110 +871,132 @@
               {
                 "speaker": "narrator",
                 "text": "Part 2. You will hear the manager of a student residence talking to a group of new tenants. First, you have some time to look at questions 11 to 17.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 11 to 17.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Good evening, everyone, and welcome to Larchfield House. I'm Megan Doyle, the residence manager, and my office is the one just behind reception. I know you've all had a long day of unpacking, so I'll try to keep this short, but there are a few things you really do need to know before you settle in.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Let's start with your rent, because it's the thing I get asked about most. A lot of you seem to think your rent covers a gym membership. That was true until last year, but the university changed the deal, so now you just get a discount at the sports centre if you show your residence card.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "What your rent does include is contents insurance, so if your laptop or your phone is stolen from your room, you're covered, as long as the door was locked. Please don't pay for a separate policy, as some students did last year without realising.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "The kitchens on each floor are cleaned every weekday by our staff. Your bedrooms, though, are your own responsibility, and we do check them once a term. The laundry is in the basement, and the machines cost two pounds a wash, which you pay through the residence app.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Right next to the laundry you'll find the bike store. You don't need to pay anything extra for that, it's part of what you're already paying for, but please register your bike at reception so we know whose it is.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Now, let me tell you about the shared facilities in the building. First, the study room on the ground floor. It never closes, so you can use it at any hour of the day or night. People often ask me whether they need to book a desk, but you don't. Just turn up and find a free seat.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Then there's the roof terrace. It isn't new, actually, it's been there since the building opened, but a surprising number of residents don't know it exists. The views are wonderful. It's open from eight in the morning until sunset, so not at night, partly for safety and partly out of respect for our neighbours. It had some work done on the railings over the summer, but that's all finished now.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "On the first floor there's a music practice room, which is fully soundproofed. Some people assume they can just drop in whenever they like, but it's very popular, so you'll need to reserve a slot on the app beforehand. You can have it for up to two hours at a time.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Next, the common room, with the big screen and the sofas. You're welcome to eat in there, as long as you clear up after yourselves. It's also the only place in the building where you can bring friends who don't live here. They'll need to sign in at reception, though.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "And finally, the games room. I'm sorry to say the pool table there is out of use at the moment. Someone damaged the cloth last week, and we're waiting for a specialist to come and fix it, so it'll be a couple of weeks before you can play.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Before you hear the rest of the talk, you have some time to look at questions 18 to 20.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen and answer questions 18 to 20.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Okay, a few practical points. Fire safety first. The alarm is tested once a week, so if you hear it ringing for about thirty seconds at that time, there's no need to leave. It used to be Monday mornings, but so many of you had nine o'clock lectures that we moved it, and now it's every Wednesday at two in the afternoon.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Separately, there's a full evacuation drill once a term, and that one isn't announced in advance. So if the alarm goes off at any other time, you must leave the building straight away.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Next, key cards. If you lose yours, please don't come to reception first, because they can't issue new cards anymore. What you need to do is report it on the residents' website straight away, so we can switch the old card off. You can then collect a new one the next working day.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "There is a ten-pound replacement fee, but you don't pay that at the time. It's simply added to your next rent payment.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "And lastly, some advice for your first week. On Friday there's a pizza night in the common room, which is great fun, but it's entirely optional. You'll also hear about the residents' committee, but elections for that aren't until November, so there's no rush.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "If you only do one thing this week, go and knock on the door of the resident assistant for your floor. They're all second- or third-year students, they've lived here themselves, and they're the people who'll help you most when something goes wrong. Right, that's all from me. Any questions?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 2. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-04-p2.mp3",
             "duration_ms": 344416,
@@ -913,147 +1006,168 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 9258,
-                "text": "Part 2. You will hear the manager of a student residence talking to a group of new tenants. First, you have some time to look at questions 11 to 17."
+                "text": "Part 2. You will hear the manager of a student residence talking to a group of new tenants. First, you have some time to look at questions 11 to 17.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 39658,
                 "end_ms": 44010,
-                "text": "Now listen carefully and answer questions 11 to 17."
+                "text": "Now listen carefully and answer questions 11 to 17.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 44410,
                 "end_ms": 60496,
-                "text": "Good evening, everyone, and welcome to Larchfield House. I'm Megan Doyle, the residence manager, and my office is the one just behind reception. I know you've all had a long day of unpacking, so I'll try to keep this short, but there are a few things you really do need to know before you settle in."
+                "text": "Good evening, everyone, and welcome to Larchfield House. I'm Megan Doyle, the residence manager, and my office is the one just behind reception. I know you've all had a long day of unpacking, so I'll try to keep this short, but there are a few things you really do need to know before you settle in.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 60896,
                 "end_ms": 75936,
-                "text": "Let's start with your rent, because it's the thing I get asked about most. A lot of you seem to think your rent covers a gym membership. That was true until last year, but the university changed the deal, so now you just get a discount at the sports centre if you show your residence card."
+                "text": "Let's start with your rent, because it's the thing I get asked about most. A lot of you seem to think your rent covers a gym membership. That was true until last year, but the university changed the deal, so now you just get a discount at the sports centre if you show your residence card.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 76336,
                 "end_ms": 89541,
-                "text": "What your rent does include is contents insurance, so if your laptop or your phone is stolen from your room, you're covered, as long as the door was locked. Please don't pay for a separate policy, as some students did last year without realising."
+                "text": "What your rent does include is contents insurance, so if your laptop or your phone is stolen from your room, you're covered, as long as the door was locked. Please don't pay for a separate policy, as some students did last year without realising.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 89941,
                 "end_ms": 103552,
-                "text": "The kitchens on each floor are cleaned every weekday by our staff. Your bedrooms, though, are your own responsibility, and we do check them once a term. The laundry is in the basement, and the machines cost two pounds a wash, which you pay through the residence app."
+                "text": "The kitchens on each floor are cleaned every weekday by our staff. Your bedrooms, though, are your own responsibility, and we do check them once a term. The laundry is in the basement, and the machines cost two pounds a wash, which you pay through the residence app.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 103952,
                 "end_ms": 114320,
-                "text": "Right next to the laundry you'll find the bike store. You don't need to pay anything extra for that, it's part of what you're already paying for, but please register your bike at reception so we know whose it is."
+                "text": "Right next to the laundry you'll find the bike store. You don't need to pay anything extra for that, it's part of what you're already paying for, but please register your bike at reception so we know whose it is.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 114720,
                 "end_ms": 129077,
-                "text": "Now, let me tell you about the shared facilities in the building. First, the study room on the ground floor. It never closes, so you can use it at any hour of the day or night. People often ask me whether they need to book a desk, but you don't. Just turn up and find a free seat."
+                "text": "Now, let me tell you about the shared facilities in the building. First, the study room on the ground floor. It never closes, so you can use it at any hour of the day or night. People often ask me whether they need to book a desk, but you don't. Just turn up and find a free seat.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 129477,
                 "end_ms": 149978,
-                "text": "Then there's the roof terrace. It isn't new, actually, it's been there since the building opened, but a surprising number of residents don't know it exists. The views are wonderful. It's open from eight in the morning until sunset, so not at night, partly for safety and partly out of respect for our neighbours. It had some work done on the railings over the summer, but that's all finished now."
+                "text": "Then there's the roof terrace. It isn't new, actually, it's been there since the building opened, but a surprising number of residents don't know it exists. The views are wonderful. It's open from eight in the morning until sunset, so not at night, partly for safety and partly out of respect for our neighbours. It had some work done on the railings over the summer, but that's all finished now.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 150378,
                 "end_ms": 164032,
-                "text": "On the first floor there's a music practice room, which is fully soundproofed. Some people assume they can just drop in whenever they like, but it's very popular, so you'll need to reserve a slot on the app beforehand. You can have it for up to two hours at a time."
+                "text": "On the first floor there's a music practice room, which is fully soundproofed. Some people assume they can just drop in whenever they like, but it's very popular, so you'll need to reserve a slot on the app beforehand. You can have it for up to two hours at a time.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 164432,
                 "end_ms": 177210,
-                "text": "Next, the common room, with the big screen and the sofas. You're welcome to eat in there, as long as you clear up after yourselves. It's also the only place in the building where you can bring friends who don't live here. They'll need to sign in at reception, though."
+                "text": "Next, the common room, with the big screen and the sofas. You're welcome to eat in there, as long as you clear up after yourselves. It's also the only place in the building where you can bring friends who don't live here. They'll need to sign in at reception, though.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 177610,
                 "end_ms": 190304,
-                "text": "And finally, the games room. I'm sorry to say the pool table there is out of use at the moment. Someone damaged the cloth last week, and we're waiting for a specialist to come and fix it, so it'll be a couple of weeks before you can play."
+                "text": "And finally, the games room. I'm sorry to say the pool table there is out of use at the moment. Someone damaged the cloth last week, and we're waiting for a specialist to come and fix it, so it'll be a couple of weeks before you can play.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 190704,
                 "end_ms": 196208,
-                "text": "Before you hear the rest of the talk, you have some time to look at questions 18 to 20."
+                "text": "Before you hear the rest of the talk, you have some time to look at questions 18 to 20.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 226608,
                 "end_ms": 230490,
-                "text": "Now listen and answer questions 18 to 20."
+                "text": "Now listen and answer questions 18 to 20.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 230890,
                 "end_ms": 248448,
-                "text": "Okay, a few practical points. Fire safety first. The alarm is tested once a week, so if you hear it ringing for about thirty seconds at that time, there's no need to leave. It used to be Monday mornings, but so many of you had nine o'clock lectures that we moved it, and now it's every Wednesday at two in the afternoon."
+                "text": "Okay, a few practical points. Fire safety first. The alarm is tested once a week, so if you hear it ringing for about thirty seconds at that time, there's no need to leave. It used to be Monday mornings, but so many of you had nine o'clock lectures that we moved it, and now it's every Wednesday at two in the afternoon.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 248848,
                 "end_ms": 258640,
-                "text": "Separately, there's a full evacuation drill once a term, and that one isn't announced in advance. So if the alarm goes off at any other time, you must leave the building straight away."
+                "text": "Separately, there's a full evacuation drill once a term, and that one isn't announced in advance. So if the alarm goes off at any other time, you must leave the building straight away.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 259040,
                 "end_ms": 273696,
-                "text": "Next, key cards. If you lose yours, please don't come to reception first, because they can't issue new cards anymore. What you need to do is report it on the residents' website straight away, so we can switch the old card off. You can then collect a new one the next working day."
+                "text": "Next, key cards. If you lose yours, please don't come to reception first, because they can't issue new cards anymore. What you need to do is report it on the residents' website straight away, so we can switch the old card off. You can then collect a new one the next working day.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 274096,
                 "end_ms": 280218,
-                "text": "There is a ten-pound replacement fee, but you don't pay that at the time. It's simply added to your next rent payment."
+                "text": "There is a ten-pound replacement fee, but you don't pay that at the time. It's simply added to your next rent payment.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 280618,
                 "end_ms": 294357,
-                "text": "And lastly, some advice for your first week. On Friday there's a pizza night in the common room, which is great fun, but it's entirely optional. You'll also hear about the residents' committee, but elections for that aren't until November, so there's no rush."
+                "text": "And lastly, some advice for your first week. On Friday there's a pizza night in the common room, which is great fun, but it's entirely optional. You'll also hear about the residents' committee, but elections for that aren't until November, so there's no rush.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-NZ",
                 "start_ms": 294757,
                 "end_ms": 309370,
-                "text": "If you only do one thing this week, go and knock on the door of the resident assistant for your floor. They're all second- or third-year students, they've lived here themselves, and they're the people who'll help you most when something goes wrong. Right, that's all from me. Any questions?"
+                "text": "If you only do one thing this week, go and knock on the door of the resident assistant for your floor. They're all second- or third-year students, they've lived here themselves, and they're the people who'll help you most when something goes wrong. Right, that's all from me. Any questions?",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 309770,
                 "end_ms": 314016,
-                "text": "That is the end of Part 2. You now have half a minute to check your answers."
+                "text": "That is the end of Part 2. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -1498,210 +1612,252 @@
               {
                 "speaker": "narrator",
                 "text": "Part 3. You will hear two students, Chloe and Owen, talking to their tutor about a presentation they are preparing on vertical farming. First, you have some time to look at questions 21 to 25.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 21 to 25.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Come in, both of you. So, you're presenting on vertical farming next month. How's it going?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "text": "Pretty well, I think. We've done most of the research, and we've decided to organise the middle section around the different crops that are grown in vertical farms, because that's what people find easiest to picture.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Good idea. Which crops are you including?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "text": "Five, so far. We start with lettuce. Most people would guess it's the crop that makes vertical farms the most money, but actually the profit on lettuce is pretty low.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "text": "The reason it's always mentioned is that it was where the whole industry began. The very first vertical farms to sell to supermarkets were all growing lettuce, because it grows quickly and doesn't need much height.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "That's a nice way in. What comes next?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "text": "Strawberries. I'd assumed they'd be hard to grow indoors because they're so easily damaged when they're picked, but the farms grow them at waist height, so they actually get bruised less than in a field.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "text": "The tricky part is that there are no bees inside a sealed building. So someone has to move the pollen from flower to flower, either staff with little brushes, or, in a couple of farms we read about, small robots.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Interesting. And after that?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "text": "Herbs, and basil in particular. Some of the companies claim that basil grown indoors tastes stronger, but the one independent taste test we found showed no real difference.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "text": "What does make basil stand out, though, is the money. Per square metre, it earns more than anything else these farms grow, so a lot of them have switched to it.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Then I'd make sure you put a figure on that. What about grains?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "text": "We've got a short bit on wheat. It's been tried, and it does grow, but the plants are too tall to stack many layers on top of each other, so the farm needs far more floor space for each kilo of grain. For now, it just isn't practical.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "text": "And we finish with mushrooms, which are a bit of a special case. They don't need any light at all to grow, so they're the cheapest crop to run by far.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "That's a good spread of examples. I'd keep those five.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Before you hear the rest of the discussion, you have some time to look at questions 26 to 30.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen and answer questions 26 to 30.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Now, I've read through your draft slides, and I have a few comments. Let's start with the introduction.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "text": "Is it too long? We were worried about that.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "No, the length is fine. The problem is that you never actually explain what vertical farming is. Not everyone in the audience will know, so you need to say exactly what you mean by it before you go any further.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "text": "We were also thinking of opening with a statistic about world population, to grab people's attention.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "You could, but that's optional. Getting the basic idea across is what matters most.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "text": "Okay. Another thing we wanted to ask about was visiting the vertical farm on the edge of town. We were hoping to take some photos for the slides.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "That would be great. Have you contacted them?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "text": "Yes, and they're really happy to have visitors. It's only forty minutes away by train, too. The trouble is their next open day isn't until March, and our presentation is in February, so it's just too late for us.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "That's a shame. Use photos from their website instead, and say where they're from. Now, the section on drawbacks. Which disadvantage are you going to focus on?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "text": "I'd thought the cost of building the farms was the biggest issue. Some of them cost millions before they've grown a single plant.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "True, but investors have been quite willing to pay for that. The cost that really decides whether these farms survive is the electricity for the lights and the cooling, and they have to pay it every single day.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "text": "Yes, several of the companies that closed down last year blamed their power bills. And we've already said that only a limited number of crops work, in the crops section. So it makes sense to focus on energy as the main problem.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "text": "Agreed. Energy it is.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Good. Next, your data on water use. At the moment it's in a big table.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "text": "I thought a table would be clearest, because it shows all the numbers.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "In a written report, yes. But on a slide nobody at the back will be able to read it. You could hand out copies, I suppose, but then people stop listening to you and start reading.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "text": "So what about a simple bar chart, comparing a field and a vertical farm?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Exactly. One bar for each, and the difference will be obvious at a glance.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "text": "Okay, I'll make the chart. Is there anything else?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Just one thing, Owen. Your conclusion repeats the introduction almost word for word. It should pull together what you've found. And please don't add any more slides. You've got plenty already.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "text": "The conclusion was my part, so I'll redo that this week, before we practise together on Friday.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 3. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-04-p3.mp3",
             "duration_ms": 398389,
@@ -1711,287 +1867,328 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 11498,
-                "text": "Part 3. You will hear two students, Chloe and Owen, talking to their tutor about a presentation they are preparing on vertical farming. First, you have some time to look at questions 21 to 25."
+                "text": "Part 3. You will hear two students, Chloe and Owen, talking to their tutor about a presentation they are preparing on vertical farming. First, you have some time to look at questions 21 to 25.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 41898,
                 "end_ms": 46400,
-                "text": "Now listen carefully and answer questions 21 to 25."
+                "text": "Now listen carefully and answer questions 21 to 25.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 46800,
                 "end_ms": 52538,
-                "text": "Come in, both of you. So, you're presenting on vertical farming next month. How's it going?"
+                "text": "Come in, both of you. So, you're presenting on vertical farming next month. How's it going?",
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "accent": "en-US",
                 "start_ms": 52938,
                 "end_ms": 64736,
-                "text": "Pretty well, I think. We've done most of the research, and we've decided to organise the middle section around the different crops that are grown in vertical farms, because that's what people find easiest to picture."
+                "text": "Pretty well, I think. We've done most of the research, and we've decided to organise the middle section around the different crops that are grown in vertical farms, because that's what people find easiest to picture.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 65136,
                 "end_ms": 67802,
-                "text": "Good idea. Which crops are you including?"
+                "text": "Good idea. Which crops are you including?",
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "accent": "en-GB",
                 "start_ms": 68202,
                 "end_ms": 77141,
-                "text": "Five, so far. We start with lettuce. Most people would guess it's the crop that makes vertical farms the most money, but actually the profit on lettuce is pretty low."
+                "text": "Five, so far. We start with lettuce. Most people would guess it's the crop that makes vertical farms the most money, but actually the profit on lettuce is pretty low.",
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "accent": "en-US",
                 "start_ms": 77541,
                 "end_ms": 89829,
-                "text": "The reason it's always mentioned is that it was where the whole industry began. The very first vertical farms to sell to supermarkets were all growing lettuce, because it grows quickly and doesn't need much height."
+                "text": "The reason it's always mentioned is that it was where the whole industry began. The very first vertical farms to sell to supermarkets were all growing lettuce, because it grows quickly and doesn't need much height.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 90229,
                 "end_ms": 92853,
-                "text": "That's a nice way in. What comes next?"
+                "text": "That's a nice way in. What comes next?",
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "accent": "en-GB",
                 "start_ms": 93253,
                 "end_ms": 103365,
-                "text": "Strawberries. I'd assumed they'd be hard to grow indoors because they're so easily damaged when they're picked, but the farms grow them at waist height, so they actually get bruised less than in a field."
+                "text": "Strawberries. I'd assumed they'd be hard to grow indoors because they're so easily damaged when they're picked, but the farms grow them at waist height, so they actually get bruised less than in a field.",
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "accent": "en-US",
                 "start_ms": 103765,
                 "end_ms": 116160,
-                "text": "The tricky part is that there are no bees inside a sealed building. So someone has to move the pollen from flower to flower, either staff with little brushes, or, in a couple of farms we read about, small robots."
+                "text": "The tricky part is that there are no bees inside a sealed building. So someone has to move the pollen from flower to flower, either staff with little brushes, or, in a couple of farms we read about, small robots.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 116560,
                 "end_ms": 118458,
-                "text": "Interesting. And after that?"
+                "text": "Interesting. And after that?",
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "accent": "en-US",
                 "start_ms": 118858,
                 "end_ms": 129098,
-                "text": "Herbs, and basil in particular. Some of the companies claim that basil grown indoors tastes stronger, but the one independent taste test we found showed no real difference."
+                "text": "Herbs, and basil in particular. Some of the companies claim that basil grown indoors tastes stronger, but the one independent taste test we found showed no real difference.",
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "accent": "en-GB",
                 "start_ms": 129498,
                 "end_ms": 137221,
-                "text": "What does make basil stand out, though, is the money. Per square metre, it earns more than anything else these farms grow, so a lot of them have switched to it."
+                "text": "What does make basil stand out, though, is the money. Per square metre, it earns more than anything else these farms grow, so a lot of them have switched to it.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 137621,
                 "end_ms": 141354,
-                "text": "Then I'd make sure you put a figure on that. What about grains?"
+                "text": "Then I'd make sure you put a figure on that. What about grains?",
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "accent": "en-GB",
                 "start_ms": 141754,
                 "end_ms": 153872,
-                "text": "We've got a short bit on wheat. It's been tried, and it does grow, but the plants are too tall to stack many layers on top of each other, so the farm needs far more floor space for each kilo of grain. For now, it just isn't practical."
+                "text": "We've got a short bit on wheat. It's been tried, and it does grow, but the plants are too tall to stack many layers on top of each other, so the farm needs far more floor space for each kilo of grain. For now, it just isn't practical.",
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "accent": "en-US",
                 "start_ms": 154272,
                 "end_ms": 162186,
-                "text": "And we finish with mushrooms, which are a bit of a special case. They don't need any light at all to grow, so they're the cheapest crop to run by far."
+                "text": "And we finish with mushrooms, which are a bit of a special case. They don't need any light at all to grow, so they're the cheapest crop to run by far.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 162586,
                 "end_ms": 166000,
-                "text": "That's a good spread of examples. I'd keep those five."
+                "text": "That's a good spread of examples. I'd keep those five.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 166400,
                 "end_ms": 172202,
-                "text": "Before you hear the rest of the discussion, you have some time to look at questions 26 to 30."
+                "text": "Before you hear the rest of the discussion, you have some time to look at questions 26 to 30.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 202602,
                 "end_ms": 206506,
-                "text": "Now listen and answer questions 26 to 30."
+                "text": "Now listen and answer questions 26 to 30.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 206906,
                 "end_ms": 213029,
-                "text": "Now, I've read through your draft slides, and I have a few comments. Let's start with the introduction."
+                "text": "Now, I've read through your draft slides, and I have a few comments. Let's start with the introduction.",
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "accent": "en-US",
                 "start_ms": 213429,
                 "end_ms": 215498,
-                "text": "Is it too long? We were worried about that."
+                "text": "Is it too long? We were worried about that.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 215898,
                 "end_ms": 229786,
-                "text": "No, the length is fine. The problem is that you never actually explain what vertical farming is. Not everyone in the audience will know, so you need to say exactly what you mean by it before you go any further."
+                "text": "No, the length is fine. The problem is that you never actually explain what vertical farming is. Not everyone in the audience will know, so you need to say exactly what you mean by it before you go any further.",
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "accent": "en-GB",
                 "start_ms": 230186,
                 "end_ms": 235818,
-                "text": "We were also thinking of opening with a statistic about world population, to grab people's attention."
+                "text": "We were also thinking of opening with a statistic about world population, to grab people's attention.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 236218,
                 "end_ms": 241509,
-                "text": "You could, but that's optional. Getting the basic idea across is what matters most."
+                "text": "You could, but that's optional. Getting the basic idea across is what matters most.",
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "accent": "en-US",
                 "start_ms": 241909,
                 "end_ms": 250101,
-                "text": "Okay. Another thing we wanted to ask about was visiting the vertical farm on the edge of town. We were hoping to take some photos for the slides."
+                "text": "Okay. Another thing we wanted to ask about was visiting the vertical farm on the edge of town. We were hoping to take some photos for the slides.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 250501,
                 "end_ms": 253168,
-                "text": "That would be great. Have you contacted them?"
+                "text": "That would be great. Have you contacted them?",
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "accent": "en-GB",
                 "start_ms": 253568,
                 "end_ms": 264768,
-                "text": "Yes, and they're really happy to have visitors. It's only forty minutes away by train, too. The trouble is their next open day isn't until March, and our presentation is in February, so it's just too late for us."
+                "text": "Yes, and they're really happy to have visitors. It's only forty minutes away by train, too. The trouble is their next open day isn't until March, and our presentation is in February, so it's just too late for us.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 265168,
                 "end_ms": 275493,
-                "text": "That's a shame. Use photos from their website instead, and say where they're from. Now, the section on drawbacks. Which disadvantage are you going to focus on?"
+                "text": "That's a shame. Use photos from their website instead, and say where they're from. Now, the section on drawbacks. Which disadvantage are you going to focus on?",
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "accent": "en-GB",
                 "start_ms": 275893,
                 "end_ms": 282229,
-                "text": "I'd thought the cost of building the farms was the biggest issue. Some of them cost millions before they've grown a single plant."
+                "text": "I'd thought the cost of building the farms was the biggest issue. Some of them cost millions before they've grown a single plant.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 282629,
                 "end_ms": 295408,
-                "text": "True, but investors have been quite willing to pay for that. The cost that really decides whether these farms survive is the electricity for the lights and the cooling, and they have to pay it every single day."
+                "text": "True, but investors have been quite willing to pay for that. The cost that really decides whether these farms survive is the electricity for the lights and the cooling, and they have to pay it every single day.",
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "accent": "en-US",
                 "start_ms": 295808,
                 "end_ms": 308608,
-                "text": "Yes, several of the companies that closed down last year blamed their power bills. And we've already said that only a limited number of crops work, in the crops section. So it makes sense to focus on energy as the main problem."
+                "text": "Yes, several of the companies that closed down last year blamed their power bills. And we've already said that only a limited number of crops work, in the crops section. So it makes sense to focus on energy as the main problem.",
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "accent": "en-GB",
                 "start_ms": 309008,
                 "end_ms": 310821,
-                "text": "Agreed. Energy it is."
+                "text": "Agreed. Energy it is.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 311221,
                 "end_ms": 315978,
-                "text": "Good. Next, your data on water use. At the moment it's in a big table."
+                "text": "Good. Next, your data on water use. At the moment it's in a big table.",
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "accent": "en-US",
                 "start_ms": 316378,
                 "end_ms": 319877,
-                "text": "I thought a table would be clearest, because it shows all the numbers."
+                "text": "I thought a table would be clearest, because it shows all the numbers.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 320277,
                 "end_ms": 331605,
-                "text": "In a written report, yes. But on a slide nobody at the back will be able to read it. You could hand out copies, I suppose, but then people stop listening to you and start reading."
+                "text": "In a written report, yes. But on a slide nobody at the back will be able to read it. You could hand out copies, I suppose, but then people stop listening to you and start reading.",
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "accent": "en-GB",
                 "start_ms": 332005,
                 "end_ms": 336229,
-                "text": "So what about a simple bar chart, comparing a field and a vertical farm?"
+                "text": "So what about a simple bar chart, comparing a field and a vertical farm?",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 336629,
                 "end_ms": 341578,
-                "text": "Exactly. One bar for each, and the difference will be obvious at a glance."
+                "text": "Exactly. One bar for each, and the difference will be obvious at a glance.",
+                "answer_s": null
               },
               {
                 "speaker": "chloe",
                 "accent": "en-US",
                 "start_ms": 341978,
                 "end_ms": 344816,
-                "text": "Okay, I'll make the chart. Is there anything else?"
+                "text": "Okay, I'll make the chart. Is there anything else?",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-CA",
                 "start_ms": 345216,
                 "end_ms": 357696,
-                "text": "Just one thing, Owen. Your conclusion repeats the introduction almost word for word. It should pull together what you've found. And please don't add any more slides. You've got plenty already."
+                "text": "Just one thing, Owen. Your conclusion repeats the introduction almost word for word. It should pull together what you've found. And please don't add any more slides. You've got plenty already.",
+                "answer_s": null
               },
               {
                 "speaker": "owen",
                 "accent": "en-GB",
                 "start_ms": 358096,
                 "end_ms": 363301,
-                "text": "The conclusion was my part, so I'll redo that this week, before we practise together on Friday."
+                "text": "The conclusion was my part, so I'll redo that this week, before we practise together on Friday.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 363701,
                 "end_ms": 367989,
-                "text": "That is the end of Part 3. You now have half a minute to check your answers."
+                "text": "That is the end of Part 3. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -2401,90 +2598,108 @@
               {
                 "speaker": "narrator",
                 "text": "Part 4. You will hear a lecture about the history of the telescope. First, you have some time to look at questions 31 to 40.",
-                "pause_after_s": 45.0
+                "pause_after_s": 45.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 31 to 40.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Good morning. Today I'm going to trace the history of the telescope, from a curiosity sold at markets to the machines we now send into space. And I want to start with a slightly surprising fact, which is that the telescope wasn't invented by an astronomer at all.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "The earliest telescopes we have records of appeared in the Netherlands around 1608, and they were the work of spectacle makers. Their workshops were full of lenses of different strengths, so it's not hard to imagine one of them holding two of them up in a line and noticing that a distant church tower suddenly looked much closer.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "What's revealing is how the device was first sold. Nobody was thinking about the stars. A tool that let you see an enemy's ships or soldiers hours before they could see you was obviously valuable to governments, so the telescope was offered, above all, as a military instrument. Its value for navigation and trade came a little later.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "News of the invention spread remarkably fast, and within a year Galileo in Italy had built his own, improved version. When he turned it to the night sky, he found mountains and craters on the Moon and saw that Venus has phases, just as the Moon does.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "But the discovery that caused the most trouble was four small moons circling Jupiter. At the time, the accepted view was that every heavenly body moved around the Earth. Here was clear evidence that some objects did not, and that was a very uncomfortable idea for the authorities of the day.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Now, these early instruments all used lenses, and lenses have a basic weakness. Glass bends different colours of light by slightly different amounts, so they never come to a focus in exactly the same place. The result was that every bright star or planet appeared surrounded by coloured fringes, which made fine detail very hard to see.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Astronomers found that the effect was reduced if the lens was very weakly curved, but that meant the telescope had to be extremely long. By the 1670s, some were more than forty metres in length, with the lens hung from a tall pole and the observer standing far below. They were, as you can imagine, almost impossible to use in any kind of wind.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "The real breakthrough came from Isaac Newton, who reasoned that a mirror reflects all colours in the same way. So in his telescope, he replaced the main lens with a curved mirror, and the coloured fringes disappeared. This design, the reflecting telescope, is the ancestor of nearly every large research telescope in use today.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "However, there was a practical problem. Good glass mirrors couldn't be made yet, so the mirrors were cast from a polished alloy of copper and tin. This reflected less than two thirds of the light that hit it, and worse, it soon became tarnished, so mirrors had to be taken out and repolished every few months, which often ruined their shape.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "The solution only arrived in the 1850s, when chemists found a way of depositing a very thin layer of silver onto a surface. From then on, telescope mirrors were made of glass coated with silver, which was lighter, far more reflective, and could simply be re-coated when it lost its shine.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "With good mirrors available, telescopes grew rapidly in size, and astronomers also began to think much more carefully about where to put them. In the early twentieth century, major observatories were moved out of universities in the middle of cities and up onto mountains. The thin, dry air was part of the reason, but the main aim was to get far away from the light pollution of growing cities, which washed out faint objects.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Size, though, brought its own difficulties. A single mirror more than about eight metres across sags under its own weight and distorts the image. So the largest modern telescopes don't use one mirror at all. Instead, the mirror is made of dozens of hexagonal segments, fitted together like tiles, with each one adjusted by computer many times a second.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "The final step, of course, was to leave the Earth altogether. Even from a mountain top, the atmosphere is never completely still, and its turbulence is what makes stars appear to twinkle. A telescope in orbit avoids that entirely and produces images of extraordinary sharpness.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "But it has one great weakness: if anything goes wrong, a space telescope is extremely difficult to repair. When the Hubble Space Telescope was launched in 1990, its mirror turned out to have a tiny error in its shape, and it took a mission by astronauts three years later to correct it. Next week, we'll look at telescopes that don't collect visible light at all.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 4. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-04-p4.mp3",
             "duration_ms": 349298,
@@ -2494,119 +2709,136 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 7765,
-                "text": "Part 4. You will hear a lecture about the history of the telescope. First, you have some time to look at questions 31 to 40."
+                "text": "Part 4. You will hear a lecture about the history of the telescope. First, you have some time to look at questions 31 to 40.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 53165,
                 "end_ms": 57581,
-                "text": "Now listen carefully and answer questions 31 to 40."
+                "text": "Now listen carefully and answer questions 31 to 40.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 57981,
                 "end_ms": 73533,
-                "text": "Good morning. Today I'm going to trace the history of the telescope, from a curiosity sold at markets to the machines we now send into space. And I want to start with a slightly surprising fact, which is that the telescope wasn't invented by an astronomer at all."
+                "text": "Good morning. Today I'm going to trace the history of the telescope, from a curiosity sold at markets to the machines we now send into space. And I want to start with a slightly surprising fact, which is that the telescope wasn't invented by an astronomer at all.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 73933,
                 "end_ms": 91853,
-                "text": "The earliest telescopes we have records of appeared in the Netherlands around 1608, and they were the work of spectacle makers. Their workshops were full of lenses of different strengths, so it's not hard to imagine one of them holding two of them up in a line and noticing that a distant church tower suddenly looked much closer."
+                "text": "The earliest telescopes we have records of appeared in the Netherlands around 1608, and they were the work of spectacle makers. Their workshops were full of lenses of different strengths, so it's not hard to imagine one of them holding two of them up in a line and noticing that a distant church tower suddenly looked much closer.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 92253,
                 "end_ms": 110792,
-                "text": "What's revealing is how the device was first sold. Nobody was thinking about the stars. A tool that let you see an enemy's ships or soldiers hours before they could see you was obviously valuable to governments, so the telescope was offered, above all, as a military instrument. Its value for navigation and trade came a little later."
+                "text": "What's revealing is how the device was first sold. Nobody was thinking about the stars. A tool that let you see an enemy's ships or soldiers hours before they could see you was obviously valuable to governments, so the telescope was offered, above all, as a military instrument. Its value for navigation and trade came a little later.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 111192,
                 "end_ms": 126466,
-                "text": "News of the invention spread remarkably fast, and within a year Galileo in Italy had built his own, improved version. When he turned it to the night sky, he found mountains and craters on the Moon and saw that Venus has phases, just as the Moon does."
+                "text": "News of the invention spread remarkably fast, and within a year Galileo in Italy had built his own, improved version. When he turned it to the night sky, he found mountains and craters on the Moon and saw that Venus has phases, just as the Moon does.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 126866,
                 "end_ms": 143741,
-                "text": "But the discovery that caused the most trouble was four small moons circling Jupiter. At the time, the accepted view was that every heavenly body moved around the Earth. Here was clear evidence that some objects did not, and that was a very uncomfortable idea for the authorities of the day."
+                "text": "But the discovery that caused the most trouble was four small moons circling Jupiter. At the time, the accepted view was that every heavenly body moved around the Earth. Here was clear evidence that some objects did not, and that was a very uncomfortable idea for the authorities of the day.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 144141,
                 "end_ms": 163042,
-                "text": "Now, these early instruments all used lenses, and lenses have a basic weakness. Glass bends different colours of light by slightly different amounts, so they never come to a focus in exactly the same place. The result was that every bright star or planet appeared surrounded by coloured fringes, which made fine detail very hard to see."
+                "text": "Now, these early instruments all used lenses, and lenses have a basic weakness. Glass bends different colours of light by slightly different amounts, so they never come to a focus in exactly the same place. The result was that every bright star or planet appeared surrounded by coloured fringes, which made fine detail very hard to see.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 163442,
                 "end_ms": 182472,
-                "text": "Astronomers found that the effect was reduced if the lens was very weakly curved, but that meant the telescope had to be extremely long. By the 1670s, some were more than forty metres in length, with the lens hung from a tall pole and the observer standing far below. They were, as you can imagine, almost impossible to use in any kind of wind."
+                "text": "Astronomers found that the effect was reduced if the lens was very weakly curved, but that meant the telescope had to be extremely long. By the 1670s, some were more than forty metres in length, with the lens hung from a tall pole and the observer standing far below. They were, as you can imagine, almost impossible to use in any kind of wind.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 182872,
                 "end_ms": 201538,
-                "text": "The real breakthrough came from Isaac Newton, who reasoned that a mirror reflects all colours in the same way. So in his telescope, he replaced the main lens with a curved mirror, and the coloured fringes disappeared. This design, the reflecting telescope, is the ancestor of nearly every large research telescope in use today."
+                "text": "The real breakthrough came from Isaac Newton, who reasoned that a mirror reflects all colours in the same way. So in his telescope, he replaced the main lens with a curved mirror, and the coloured fringes disappeared. This design, the reflecting telescope, is the ancestor of nearly every large research telescope in use today.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 201938,
                 "end_ms": 219773,
-                "text": "However, there was a practical problem. Good glass mirrors couldn't be made yet, so the mirrors were cast from a polished alloy of copper and tin. This reflected less than two thirds of the light that hit it, and worse, it soon became tarnished, so mirrors had to be taken out and repolished every few months, which often ruined their shape."
+                "text": "However, there was a practical problem. Good glass mirrors couldn't be made yet, so the mirrors were cast from a polished alloy of copper and tin. This reflected less than two thirds of the light that hit it, and worse, it soon became tarnished, so mirrors had to be taken out and repolished every few months, which often ruined their shape.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 220173,
                 "end_ms": 238370,
-                "text": "The solution only arrived in the 1850s, when chemists found a way of depositing a very thin layer of silver onto a surface. From then on, telescope mirrors were made of glass coated with silver, which was lighter, far more reflective, and could simply be re-coated when it lost its shine."
+                "text": "The solution only arrived in the 1850s, when chemists found a way of depositing a very thin layer of silver onto a surface. From then on, telescope mirrors were made of glass coated with silver, which was lighter, far more reflective, and could simply be re-coated when it lost its shine.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 238770,
                 "end_ms": 259037,
-                "text": "With good mirrors available, telescopes grew rapidly in size, and astronomers also began to think much more carefully about where to put them. In the early twentieth century, major observatories were moved out of universities in the middle of cities and up onto mountains. The thin, dry air was part of the reason, but the main aim was to get far away from the light pollution of growing cities, which washed out faint objects."
+                "text": "With good mirrors available, telescopes grew rapidly in size, and astronomers also began to think much more carefully about where to put them. In the early twentieth century, major observatories were moved out of universities in the middle of cities and up onto mountains. The thin, dry air was part of the reason, but the main aim was to get far away from the light pollution of growing cities, which washed out faint objects.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 259437,
                 "end_ms": 278253,
-                "text": "Size, though, brought its own difficulties. A single mirror more than about eight metres across sags under its own weight and distorts the image. So the largest modern telescopes don't use one mirror at all. Instead, the mirror is made of dozens of hexagonal segments, fitted together like tiles, with each one adjusted by computer many times a second."
+                "text": "Size, though, brought its own difficulties. A single mirror more than about eight metres across sags under its own weight and distorts the image. So the largest modern telescopes don't use one mirror at all. Instead, the mirror is made of dozens of hexagonal segments, fitted together like tiles, with each one adjusted by computer many times a second.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 278653,
                 "end_ms": 295336,
-                "text": "The final step, of course, was to leave the Earth altogether. Even from a mountain top, the atmosphere is never completely still, and its turbulence is what makes stars appear to twinkle. A telescope in orbit avoids that entirely and produces images of extraordinary sharpness."
+                "text": "The final step, of course, was to leave the Earth altogether. Even from a mountain top, the atmosphere is never completely still, and its turbulence is what makes stars appear to twinkle. A telescope in orbit avoids that entirely and produces images of extraordinary sharpness.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 295736,
                 "end_ms": 314146,
-                "text": "But it has one great weakness: if anything goes wrong, a space telescope is extremely difficult to repair. When the Hubble Space Telescope was launched in 1990, its mirror turned out to have a tiny error in its shape, and it took a mission by astronauts three years later to correct it. Next week, we'll look at telescopes that don't collect visible light at all."
+                "text": "But it has one great weakness: if anything goes wrong, a space telescope is extremely difficult to repair. When the Hubble Space Telescope was launched in 1990, its mirror turned out to have a tiny error in its shape, and it took a mission by astronauts three years later to correct it. Next week, we'll look at telescopes that don't collect visible light at all.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 314546,
                 "end_ms": 318898,
-                "text": "That is the end of Part 4. You now have half a minute to check your answers."
+                "text": "That is the end of Part 4. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -2938,6 +3170,7 @@
             "glossary": []
           },
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": null,
           "groups": [
@@ -3336,6 +3569,7 @@
             ]
           },
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": null,
           "groups": [
@@ -3863,6 +4097,7 @@
             ]
           },
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": null,
           "groups": [
@@ -4364,6 +4599,7 @@
           "topic": "travel-tourism",
           "passage": null,
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": {
             "task_number": 1,
@@ -4416,6 +4652,7 @@
           "topic": "health",
           "passage": null,
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": {
             "task_number": 2,
@@ -4423,6 +4660,435 @@
             "essay_type": "two_part",
             "visual": null
           },
+          "groups": []
+        }
+      ]
+    },
+    {
+      "skill": "speaking",
+      "duration_s": 1200,
+      "parts": [
+        {
+          "number": 1,
+          "context": "speaking_interview",
+          "topic": "work-careers",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "examiner",
+                "role": "Speaking examiner",
+                "accent": "en-GB",
+                "gender": "male"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "examiner",
+                "text": "Good morning. In this first part of the test, I'd like to ask you some questions about yourself.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "text": "Let's talk about work or studies. What do you do, do you work or are you a student?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Why did you choose this job or subject?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "What would you like to do in the next few years?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Now let's talk about friends. How often do you see your friends?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do you prefer to have a few close friends or many friends?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Where do you usually meet your friends?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Now let's talk about mobile phones. How much time do you spend on your phone every day?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "What do you mainly use your phone for?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do you think you use your phone too much?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Would you find it difficult to live without a mobile phone?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              }
+            ]
+          },
+          "cue_card": null,
+          "audio": {
+            "url": "/media/audio/mock-04-s1.mp3",
+            "duration_ms": 44421,
+            "segments": [
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 5482,
+                "text": "Good morning. In this first part of the test, I'd like to ask you some questions about yourself.",
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 5882,
+                "end_ms": 10448,
+                "text": "Let's talk about work or studies. What do you do, do you work or are you a student?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 10848,
+                "end_ms": 13813,
+                "text": "Why did you choose this job or subject?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 14213,
+                "end_ms": 16901,
+                "text": "What would you like to do in the next few years?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 17301,
+                "end_ms": 21312,
+                "text": "Now let's talk about friends. How often do you see your friends?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 21712,
+                "end_ms": 25189,
+                "text": "Do you prefer to have a few close friends or many friends?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 25589,
+                "end_ms": 28085,
+                "text": "Where do you usually meet your friends?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 28485,
+                "end_ms": 33818,
+                "text": "Now let's talk about mobile phones. How much time do you spend on your phone every day?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 34218,
+                "end_ms": 36757,
+                "text": "What do you mainly use your phone for?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 37157,
+                "end_ms": 39802,
+                "text": "Do you think you use your phone too much?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 40202,
+                "end_ms": 44021,
+                "text": "Would you find it difficult to live without a mobile phone?",
+                "answer_s": 35
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "examiner": "bm_fable"
+            }
+          },
+          "writing": null,
+          "groups": []
+        },
+        {
+          "number": 2,
+          "context": "speaking_interview",
+          "topic": "work-careers",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "examiner",
+                "role": "Speaking examiner",
+                "accent": "en-GB",
+                "gender": "male"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "examiner",
+                "text": "Now, I'm going to give you a topic, and I'd like you to talk about it for one to two minutes. Before you talk, you'll have one minute to think about what you're going to say. You can make some notes if you wish. Here is your paper and pencil, and here is your topic. I'd like you to describe an important decision you made.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "text": "All right? Remember, you have one to two minutes for this, so don't worry if I stop you. I'll tell you when the time is up. Can you start speaking now, please?",
+                "pause_after_s": 0.0,
+                "answer_s": 120
+              },
+              {
+                "speaker": "examiner",
+                "text": "Thank you. Was it a difficult decision to make?",
+                "pause_after_s": 0.0,
+                "answer_s": 30
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do you usually ask other people for advice?",
+                "pause_after_s": 0.0,
+                "answer_s": 30
+              }
+            ]
+          },
+          "cue_card": {
+            "task": "Describe an important decision you made.",
+            "bullets": [
+              "what the decision was",
+              "when you made it",
+              "how you made the decision"
+            ],
+            "final": "and explain why it was important to you."
+          },
+          "audio": {
+            "url": "/media/audio/mock-04-s2.mp3",
+            "duration_ms": 31082,
+            "segments": [
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 15338,
+                "text": "Now, I'm going to give you a topic, and I'd like you to talk about it for one to two minutes. Before you talk, you'll have one minute to think about what you're going to say. You can make some notes if you wish. Here is your paper and pencil, and here is your topic. I'd like you to describe an important decision you made.",
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 15738,
+                "end_ms": 23930,
+                "text": "All right? Remember, you have one to two minutes for this, so don't worry if I stop you. I'll tell you when the time is up. Can you start speaking now, please?",
+                "answer_s": 120
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 24330,
+                "end_ms": 27274,
+                "text": "Thank you. Was it a difficult decision to make?",
+                "answer_s": 30
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 27674,
+                "end_ms": 30682,
+                "text": "Do you usually ask other people for advice?",
+                "answer_s": 30
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "examiner": "bm_fable"
+            }
+          },
+          "writing": null,
+          "groups": []
+        },
+        {
+          "number": 3,
+          "context": "speaking_interview",
+          "topic": "work-careers",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "examiner",
+                "role": "Speaking examiner",
+                "accent": "en-GB",
+                "gender": "male"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "examiner",
+                "text": "We've been talking about an important decision you made, and I'd like to discuss with you one or two more general questions related to this. Let's consider first decisions in everyday life.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "text": "What kinds of decisions do young people have to make today?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Why do some people find it hard to make decisions?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Now let's talk about careers. Should young people choose a job they enjoy or a job that pays well?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "How important is it to get advice from older people before making a big decision?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do people have more choices in life now than their grandparents did?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Is it a good idea for teenagers to have part-time jobs while they are still at school?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Thank you very much. That is the end of the speaking test.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              }
+            ]
+          },
+          "cue_card": null,
+          "audio": {
+            "url": "/media/audio/mock-04-s3.mp3",
+            "duration_ms": 44736,
+            "segments": [
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 10432,
+                "text": "We've been talking about an important decision you made, and I'd like to discuss with you one or two more general questions related to this. Let's consider first decisions in everyday life.",
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 10832,
+                "end_ms": 14458,
+                "text": "What kinds of decisions do young people have to make today?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 14858,
+                "end_ms": 18272,
+                "text": "Why do some people find it hard to make decisions?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 18672,
+                "end_ms": 24794,
+                "text": "Now let's talk about careers. Should young people choose a job they enjoy or a job that pays well?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 25194,
+                "end_ms": 30250,
+                "text": "How important is it to get advice from older people before making a big decision?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 30650,
+                "end_ms": 34832,
+                "text": "Do people have more choices in life now than their grandparents did?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 35232,
+                "end_ms": 40266,
+                "text": "Is it a good idea for teenagers to have part-time jobs while they are still at school?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 40666,
+                "end_ms": 44336,
+                "text": "Thank you very much. That is the end of the speaking test.",
+                "answer_s": null
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "examiner": "bm_fable"
+            }
+          },
+          "writing": null,
           "groups": []
         }
       ]

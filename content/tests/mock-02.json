@@ -51,205 +51,246 @@
               {
                 "speaker": "narrator",
                 "text": "Part 1. You will hear a woman phoning a garden centre about a part-time job. First, you have some time to look at questions 1 to 5.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 1 to 5.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Good afternoon, Larkfield Garden Centre, Neil speaking. How can I help?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Oh, hi. I'm calling about the part-time job you advertised in the local paper last week. Is it still available?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "It is, yes. We haven't filled it yet. Can I take your name first?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "It's Amy Clarke. I'm a student at the college in town, so I'm really looking for something at weekends.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Right, well, that should suit you nicely. What do you know about the job so far?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Not much, to be honest. The advert just said general assistant. I was hoping it might be in the café, because I've done a bit of waitressing before.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Ah, I'm afraid the café jobs all went at Easter. This one's in our garden furniture section, so tables, chairs, benches, parasols, that kind of thing. You'd be helping customers, keeping the displays tidy and arranging home deliveries.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Oh, that sounds fine. I don't mind at all, really. And which days would it be?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Every Saturday, from nine till five. Then we'd want you every other Sunday as well. We did think about asking for Friday evenings too, but we've got enough people for those now.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Every other Sunday is no problem. My lectures are all on weekdays anyway. Can I ask about the pay?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Sure. Everyone starts on 12 pounds an hour. Once you've finished your three-month trial period, it goes up to 13.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "That's better than I expected, actually.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Good. Now, there are a few practical things. We give you a company fleece and a pair of gloves, because some of the furniture's heavy and the edges can be quite rough.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Do I need to wear anything in particular?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Yes, you'll need your own boots, the kind with a hard toe. We can't supply those, I'm afraid, because everyone's a different size. And ordinary trainers aren't allowed on the shop floor.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "That's okay. I've got a pair from a summer job I did on a farm.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Perfect. And before you start, there's some training. Everyone does a half-day course with our health and safety officer. It's mostly about lifting, so how to move heavy items without hurting your back. You'd be surprised how many people injure themselves with a stone bench.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "I can imagine. I'm happy to do that.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen and answer questions 6 to 10.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "So, Amy, would you like to come in for an interview?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Yes, please, that would be great.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "We're interviewing next week. How about Tuesday the 12th of May, in the afternoon?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Ah, I've got an exam that day. Is there any chance of a different day?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Let me see. What about Thursday the 14th? Same time, two o'clock.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Yes, Thursday the 14th is perfect.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Great. You won't be seeing me, though. The interviews are done by our assistant manager, Clare Whitlock.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Sorry, how do you spell her surname?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "It's W-H-I-T-L-O-C-K. Just ask for her at the main desk when you arrive.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Okay. Should I bring anything with me?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "We'll need to see some proof of identity. A student card isn't enough, unfortunately. It has to be your passport. You don't need to bring a CV, though, because you'll fill in a form on the day.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Fine. Oh, and I'll probably cycle over. Is there anywhere to leave a bike?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "There is. A lot of people look for it by the main entrance, but we moved the bike rack last year. It's now right next to the greenhouse, at the back of the car park.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "Great. And one last thing. Is there a staff discount? My mum's a keen gardener, so she'll definitely want to know.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Ha, everyone asks that. Staff get 20 percent off anything in the shop. It used to be 15, but we increased it in January. It doesn't apply in the café, though, because that's run by a separate company.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "text": "She'll be pleased. Thanks very much, Neil. I'll see Clare on Thursday, then.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "text": "Good luck, Amy. Bye now.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 1. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-02-p1.mp3",
             "duration_ms": 324517,
@@ -259,280 +300,320 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 7701,
-                "text": "Part 1. You will hear a woman phoning a garden centre about a part-time job. First, you have some time to look at questions 1 to 5."
+                "text": "Part 1. You will hear a woman phoning a garden centre about a part-time job. First, you have some time to look at questions 1 to 5.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 38101,
                 "end_ms": 41429,
-                "text": "Now listen carefully and answer questions 1 to 5."
+                "text": "Now listen carefully and answer questions 1 to 5.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 41829,
                 "end_ms": 46416,
-                "text": "Good afternoon, Larkfield Garden Centre, Neil speaking. How can I help?"
+                "text": "Good afternoon, Larkfield Garden Centre, Neil speaking. How can I help?",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 46816,
                 "end_ms": 53301,
-                "text": "Oh, hi. I'm calling about the part-time job you advertised in the local paper last week. Is it still available?"
+                "text": "Oh, hi. I'm calling about the part-time job you advertised in the local paper last week. Is it still available?",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 53701,
                 "end_ms": 57904,
-                "text": "It is, yes. We haven't filled it yet. Can I take your name first?"
+                "text": "It is, yes. We haven't filled it yet. Can I take your name first?",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 58304,
                 "end_ms": 63786,
-                "text": "It's Amy Clarke. I'm a student at the college in town, so I'm really looking for something at weekends."
+                "text": "It's Amy Clarke. I'm a student at the college in town, so I'm really looking for something at weekends.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 64186,
                 "end_ms": 68602,
-                "text": "Right, well, that should suit you nicely. What do you know about the job so far?"
+                "text": "Right, well, that should suit you nicely. What do you know about the job so far?",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 69002,
                 "end_ms": 76746,
-                "text": "Not much, to be honest. The advert just said general assistant. I was hoping it might be in the café, because I've done a bit of waitressing before."
+                "text": "Not much, to be honest. The advert just said general assistant. I was hoping it might be in the café, because I've done a bit of waitressing before.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 77146,
                 "end_ms": 90608,
-                "text": "Ah, I'm afraid the café jobs all went at Easter. This one's in our garden furniture section, so tables, chairs, benches, parasols, that kind of thing. You'd be helping customers, keeping the displays tidy and arranging home deliveries."
+                "text": "Ah, I'm afraid the café jobs all went at Easter. This one's in our garden furniture section, so tables, chairs, benches, parasols, that kind of thing. You'd be helping customers, keeping the displays tidy and arranging home deliveries.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 91008,
                 "end_ms": 94912,
-                "text": "Oh, that sounds fine. I don't mind at all, really. And which days would it be?"
+                "text": "Oh, that sounds fine. I don't mind at all, really. And which days would it be?",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 95312,
                 "end_ms": 104869,
-                "text": "Every Saturday, from nine till five. Then we'd want you every other Sunday as well. We did think about asking for Friday evenings too, but we've got enough people for those now."
+                "text": "Every Saturday, from nine till five. Then we'd want you every other Sunday as well. We did think about asking for Friday evenings too, but we've got enough people for those now.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 105269,
                 "end_ms": 110944,
-                "text": "Every other Sunday is no problem. My lectures are all on weekdays anyway. Can I ask about the pay?"
+                "text": "Every other Sunday is no problem. My lectures are all on weekdays anyway. Can I ask about the pay?",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 111344,
                 "end_ms": 118170,
-                "text": "Sure. Everyone starts on 12 pounds an hour. Once you've finished your three-month trial period, it goes up to 13."
+                "text": "Sure. Everyone starts on 12 pounds an hour. Once you've finished your three-month trial period, it goes up to 13.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 118570,
                 "end_ms": 120853,
-                "text": "That's better than I expected, actually."
+                "text": "That's better than I expected, actually.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 121253,
                 "end_ms": 129872,
-                "text": "Good. Now, there are a few practical things. We give you a company fleece and a pair of gloves, because some of the furniture's heavy and the edges can be quite rough."
+                "text": "Good. Now, there are a few practical things. We give you a company fleece and a pair of gloves, because some of the furniture's heavy and the edges can be quite rough.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 130272,
                 "end_ms": 132405,
-                "text": "Do I need to wear anything in particular?"
+                "text": "Do I need to wear anything in particular?",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 132805,
                 "end_ms": 142576,
-                "text": "Yes, you'll need your own boots, the kind with a hard toe. We can't supply those, I'm afraid, because everyone's a different size. And ordinary trainers aren't allowed on the shop floor."
+                "text": "Yes, you'll need your own boots, the kind with a hard toe. We can't supply those, I'm afraid, because everyone's a different size. And ordinary trainers aren't allowed on the shop floor.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 142976,
                 "end_ms": 146346,
-                "text": "That's okay. I've got a pair from a summer job I did on a farm."
+                "text": "That's okay. I've got a pair from a summer job I did on a farm.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 146746,
                 "end_ms": 160506,
-                "text": "Perfect. And before you start, there's some training. Everyone does a half-day course with our health and safety officer. It's mostly about lifting, so how to move heavy items without hurting your back. You'd be surprised how many people injure themselves with a stone bench."
+                "text": "Perfect. And before you start, there's some training. Everyone does a half-day course with our health and safety officer. It's mostly about lifting, so how to move heavy items without hurting your back. You'd be surprised how many people injure themselves with a stone bench.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 160906,
                 "end_ms": 163104,
-                "text": "I can imagine. I'm happy to do that."
+                "text": "I can imagine. I'm happy to do that.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 163504,
                 "end_ms": 168474,
-                "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10."
+                "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 198874,
                 "end_ms": 201733,
-                "text": "Now listen and answer questions 6 to 10."
+                "text": "Now listen and answer questions 6 to 10.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 202133,
                 "end_ms": 205162,
-                "text": "So, Amy, would you like to come in for an interview?"
+                "text": "So, Amy, would you like to come in for an interview?",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 205562,
                 "end_ms": 207312,
-                "text": "Yes, please, that would be great."
+                "text": "Yes, please, that would be great.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 207712,
                 "end_ms": 212490,
-                "text": "We're interviewing next week. How about Tuesday the 12th of May, in the afternoon?"
+                "text": "We're interviewing next week. How about Tuesday the 12th of May, in the afternoon?",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 212890,
                 "end_ms": 216730,
-                "text": "Ah, I've got an exam that day. Is there any chance of a different day?"
+                "text": "Ah, I've got an exam that day. Is there any chance of a different day?",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 217130,
                 "end_ms": 221589,
-                "text": "Let me see. What about Thursday the 14th? Same time, two o'clock."
+                "text": "Let me see. What about Thursday the 14th? Same time, two o'clock.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 221989,
                 "end_ms": 224272,
-                "text": "Yes, Thursday the 14th is perfect."
+                "text": "Yes, Thursday the 14th is perfect.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 224672,
                 "end_ms": 230154,
-                "text": "Great. You won't be seeing me, though. The interviews are done by our assistant manager, Clare Whitlock."
+                "text": "Great. You won't be seeing me, though. The interviews are done by our assistant manager, Clare Whitlock.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 230554,
                 "end_ms": 232432,
-                "text": "Sorry, how do you spell her surname?"
+                "text": "Sorry, how do you spell her surname?",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 232832,
                 "end_ms": 237952,
-                "text": "It's W-H-I-T-L-O-C-K. Just ask for her at the main desk when you arrive."
+                "text": "It's W-H-I-T-L-O-C-K. Just ask for her at the main desk when you arrive.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 238352,
                 "end_ms": 240314,
-                "text": "Okay. Should I bring anything with me?"
+                "text": "Okay. Should I bring anything with me?",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 240714,
                 "end_ms": 250698,
-                "text": "We'll need to see some proof of identity. A student card isn't enough, unfortunately. It has to be your passport. You don't need to bring a CV, though, because you'll fill in a form on the day."
+                "text": "We'll need to see some proof of identity. A student card isn't enough, unfortunately. It has to be your passport. You don't need to bring a CV, though, because you'll fill in a form on the day.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 251098,
                 "end_ms": 255472,
-                "text": "Fine. Oh, and I'll probably cycle over. Is there anywhere to leave a bike?"
+                "text": "Fine. Oh, and I'll probably cycle over. Is there anywhere to leave a bike?",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 255872,
                 "end_ms": 264597,
-                "text": "There is. A lot of people look for it by the main entrance, but we moved the bike rack last year. It's now right next to the greenhouse, at the back of the car park."
+                "text": "There is. A lot of people look for it by the main entrance, but we moved the bike rack last year. It's now right next to the greenhouse, at the back of the car park.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 264997,
                 "end_ms": 271162,
-                "text": "Great. And one last thing. Is there a staff discount? My mum's a keen gardener, so she'll definitely want to know."
+                "text": "Great. And one last thing. Is there a staff discount? My mum's a keen gardener, so she'll definitely want to know.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 271562,
                 "end_ms": 282912,
-                "text": "Ha, everyone asks that. Staff get 20 percent off anything in the shop. It used to be 15, but we increased it in January. It doesn't apply in the café, though, because that's run by a separate company."
+                "text": "Ha, everyone asks that. Staff get 20 percent off anything in the shop. It used to be 15, but we increased it in January. It doesn't apply in the café, though, because that's run by a separate company.",
+                "answer_s": null
               },
               {
                 "speaker": "caller",
                 "accent": "en-GB",
                 "start_ms": 283312,
                 "end_ms": 287130,
-                "text": "She'll be pleased. Thanks very much, Neil. I'll see Clare on Thursday, then."
+                "text": "She'll be pleased. Thanks very much, Neil. I'll see Clare on Thursday, then.",
+                "answer_s": null
               },
               {
                 "speaker": "manager",
                 "accent": "en-AU",
                 "start_ms": 287530,
                 "end_ms": 289792,
-                "text": "Good luck, Amy. Bye now."
+                "text": "Good luck, Amy. Bye now.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 290192,
                 "end_ms": 294117,
-                "text": "That is the end of Part 1. You now have half a minute to check your answers."
+                "text": "That is the end of Part 1. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -829,105 +910,126 @@
               {
                 "speaker": "narrator",
                 "text": "Part 2. You will hear a tour guide talking to a group of visitors about a day trip on a heritage railway. First, you have some time to look at questions 11 to 14.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 11 to 14.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "Morning, everyone, and welcome aboard. My name's Callum, and I'll be your guide for today's trip on the Ashcombe Valley Railway. We'll be at the station in about twenty minutes, so I thought I'd use the time to tell you how the day's going to work.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "First, a little background. The railway opened in 1868 to carry slate from the quarries down to the coast. It closed in the 1960s, like so many small lines, but a group of volunteers bought the track and spent nearly thirty years restoring it. Today the trains are all pulled by steam engines, and almost everyone you'll meet working on the line is still a volunteer.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "Right, a quick word about what your ticket covers, because I always get asked. Some of you have been wondering about lunch. There is a dining car on the train, and the food's very good, but it isn't part of the package, so you'll need to pay for that yourselves on board. Or you can do what a lot of people do and bring a picnic.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "What is included is entry to the railway museum at Ashcombe station, which has a lovely collection of old engines and signalling equipment. Just show your wristband at the door. You'll also notice a guidebook for sale in the station shop. It's five pounds, and it's well worth it, but again, that's up to you.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "Now, I know a few of you were hoping to ride on the footplate, up in the cab with the driver. Unfortunately, those places are booked months in advance, so that won't be possible today. But here's the good news. When we reach the far end of the line, afternoon tea is waiting for you in the old waiting room at Hartfield, and that's all been paid for. There'll be scones, sandwiches and a very large pot of tea.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "Next, a bit of advice for the journey itself. When you get on, most people head straight for the seats on the right-hand side, because that's where the river is as you leave the station. But the river disappears after about five minutes, and from then on all the best views of the valley are on the left. So if you want good photos, sit on the left.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "These are the original carriages, so the windows open. You just pull the leather strap and the window drops down. That's lovely on a warm day, but there are two tunnels on the line, and if the window's open when we go into one, the whole carriage fills with smoke and soot. So please, make sure you close it before we go into a tunnel. The guard will blow a whistle to warn you.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "Some people expect the old carriages to be freezing, but they're actually steam-heated, so you can leave your heavy coats here on the coach. There's no need to rush to the platform when we arrive, either. The train won't leave until everyone in our group is on board. Oh, and photographers, flash is absolutely fine. It doesn't bother the crew at all.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Before you hear the rest of the talk, you have some time to look at questions 15 to 20.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen and answer questions 15 to 20.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "Okay, let me take you along the line, stop by stop, so you know what to look out for. We start, of course, at Ashcombe. Have a good look at the station building itself while you're there. It's the original one from 1868, which makes it the oldest building on the whole railway. People often assume the signal box is older, because it looks so worn, but it was actually rebuilt after a fire in the 1920s.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "The first stop after that is Millbrook Halt. It's tiny, just one platform and a wooden bench. In fact, the train won't stop there at all unless someone asks the guard beforehand, so if you'd like to get off there, you'll need to tell him when we leave Ashcombe.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "Then comes Kelsey Woods. There used to be a little café on the platform, but sadly it's closed this year while they look for a new owner. Don't let that put you off, though, because from the station there's a path through the trees to a waterfall. It's only about ten minutes on foot, and it's well signposted.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "After Kelsey Woods the line climbs quite steeply up to Brindle Junction. This is where the engine stops to take on water. It takes about fifteen minutes, so you'll have time to get off and watch the crew fill the tank. Years ago there was a picnic area beside the line here, but it was removed when the car park was built.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "The next station, Stavely, might look familiar to some of you. A few years ago it appeared in a television drama set in the 1930s. The production team even repainted the station sign to make it look older, and the volunteers liked it so much they kept it.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "And finally, at the end of the line, there's Hartfield. Apart from the afternoon tea I mentioned, there's a farm shop just outside the station that sells cheese, honey and bread, all made in the valley. If you want to take something home with you, that's the place. We'll have about an hour there before the coach picks us up for the drive back.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "text": "Right, I can see the station coming up now. Make sure you've got your wristbands, and I'll see you all on the platform.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 2. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-02-p2.mp3",
             "duration_ms": 409253,
@@ -937,140 +1039,160 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 9258,
-                "text": "Part 2. You will hear a tour guide talking to a group of visitors about a day trip on a heritage railway. First, you have some time to look at questions 11 to 14."
+                "text": "Part 2. You will hear a tour guide talking to a group of visitors about a day trip on a heritage railway. First, you have some time to look at questions 11 to 14.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 39658,
                 "end_ms": 43434,
-                "text": "Now listen carefully and answer questions 11 to 14."
+                "text": "Now listen carefully and answer questions 11 to 14.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 43834,
                 "end_ms": 58746,
-                "text": "Morning, everyone, and welcome aboard. My name's Callum, and I'll be your guide for today's trip on the Ashcombe Valley Railway. We'll be at the station in about twenty minutes, so I thought I'd use the time to tell you how the day's going to work."
+                "text": "Morning, everyone, and welcome aboard. My name's Callum, and I'll be your guide for today's trip on the Ashcombe Valley Railway. We'll be at the station in about twenty minutes, so I thought I'd use the time to tell you how the day's going to work.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 59146,
                 "end_ms": 84341,
-                "text": "First, a little background. The railway opened in 1868 to carry slate from the quarries down to the coast. It closed in the 1960s, like so many small lines, but a group of volunteers bought the track and spent nearly thirty years restoring it. Today the trains are all pulled by steam engines, and almost everyone you'll meet working on the line is still a volunteer."
+                "text": "First, a little background. The railway opened in 1868 to carry slate from the quarries down to the coast. It closed in the 1960s, like so many small lines, but a group of volunteers bought the track and spent nearly thirty years restoring it. Today the trains are all pulled by steam engines, and almost everyone you'll meet working on the line is still a volunteer.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 84741,
                 "end_ms": 103557,
-                "text": "Right, a quick word about what your ticket covers, because I always get asked. Some of you have been wondering about lunch. There is a dining car on the train, and the food's very good, but it isn't part of the package, so you'll need to pay for that yourselves on board. Or you can do what a lot of people do and bring a picnic."
+                "text": "Right, a quick word about what your ticket covers, because I always get asked. Some of you have been wondering about lunch. There is a dining car on the train, and the food's very good, but it isn't part of the package, so you'll need to pay for that yourselves on board. Or you can do what a lot of people do and bring a picnic.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 103957,
                 "end_ms": 122282,
-                "text": "What is included is entry to the railway museum at Ashcombe station, which has a lovely collection of old engines and signalling equipment. Just show your wristband at the door. You'll also notice a guidebook for sale in the station shop. It's five pounds, and it's well worth it, but again, that's up to you."
+                "text": "What is included is entry to the railway museum at Ashcombe station, which has a lovely collection of old engines and signalling equipment. Just show your wristband at the door. You'll also notice a guidebook for sale in the station shop. It's five pounds, and it's well worth it, but again, that's up to you.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 122682,
                 "end_ms": 146682,
-                "text": "Now, I know a few of you were hoping to ride on the footplate, up in the cab with the driver. Unfortunately, those places are booked months in advance, so that won't be possible today. But here's the good news. When we reach the far end of the line, afternoon tea is waiting for you in the old waiting room at Hartfield, and that's all been paid for. There'll be scones, sandwiches and a very large pot of tea."
+                "text": "Now, I know a few of you were hoping to ride on the footplate, up in the cab with the driver. Unfortunately, those places are booked months in advance, so that won't be possible today. But here's the good news. When we reach the far end of the line, afternoon tea is waiting for you in the old waiting room at Hartfield, and that's all been paid for. There'll be scones, sandwiches and a very large pot of tea.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 147082,
                 "end_ms": 167520,
-                "text": "Next, a bit of advice for the journey itself. When you get on, most people head straight for the seats on the right-hand side, because that's where the river is as you leave the station. But the river disappears after about five minutes, and from then on all the best views of the valley are on the left. So if you want good photos, sit on the left."
+                "text": "Next, a bit of advice for the journey itself. When you get on, most people head straight for the seats on the right-hand side, because that's where the river is as you leave the station. But the river disappears after about five minutes, and from then on all the best views of the valley are on the left. So if you want good photos, sit on the left.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 167920,
                 "end_ms": 190192,
-                "text": "These are the original carriages, so the windows open. You just pull the leather strap and the window drops down. That's lovely on a warm day, but there are two tunnels on the line, and if the window's open when we go into one, the whole carriage fills with smoke and soot. So please, make sure you close it before we go into a tunnel. The guard will blow a whistle to warn you."
+                "text": "These are the original carriages, so the windows open. You just pull the leather strap and the window drops down. That's lovely on a warm day, but there are two tunnels on the line, and if the window's open when we go into one, the whole carriage fills with smoke and soot. So please, make sure you close it before we go into a tunnel. The guard will blow a whistle to warn you.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 190592,
                 "end_ms": 211477,
-                "text": "Some people expect the old carriages to be freezing, but they're actually steam-heated, so you can leave your heavy coats here on the coach. There's no need to rush to the platform when we arrive, either. The train won't leave until everyone in our group is on board. Oh, and photographers, flash is absolutely fine. It doesn't bother the crew at all."
+                "text": "Some people expect the old carriages to be freezing, but they're actually steam-heated, so you can leave your heavy coats here on the coach. There's no need to rush to the platform when we arrive, either. The train won't leave until everyone in our group is on board. Oh, and photographers, flash is absolutely fine. It doesn't bother the crew at all.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 211877,
                 "end_ms": 216762,
-                "text": "Before you hear the rest of the talk, you have some time to look at questions 15 to 20."
+                "text": "Before you hear the rest of the talk, you have some time to look at questions 15 to 20.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 247162,
                 "end_ms": 250341,
-                "text": "Now listen and answer questions 15 to 20."
+                "text": "Now listen and answer questions 15 to 20.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 250741,
                 "end_ms": 276469,
-                "text": "Okay, let me take you along the line, stop by stop, so you know what to look out for. We start, of course, at Ashcombe. Have a good look at the station building itself while you're there. It's the original one from 1868, which makes it the oldest building on the whole railway. People often assume the signal box is older, because it looks so worn, but it was actually rebuilt after a fire in the 1920s."
+                "text": "Okay, let me take you along the line, stop by stop, so you know what to look out for. We start, of course, at Ashcombe. Have a good look at the station building itself while you're there. It's the original one from 1868, which makes it the oldest building on the whole railway. People often assume the signal box is older, because it looks so worn, but it was actually rebuilt after a fire in the 1920s.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 276869,
                 "end_ms": 291866,
-                "text": "The first stop after that is Millbrook Halt. It's tiny, just one platform and a wooden bench. In fact, the train won't stop there at all unless someone asks the guard beforehand, so if you'd like to get off there, you'll need to tell him when we leave Ashcombe."
+                "text": "The first stop after that is Millbrook Halt. It's tiny, just one platform and a wooden bench. In fact, the train won't stop there at all unless someone asks the guard beforehand, so if you'd like to get off there, you'll need to tell him when we leave Ashcombe.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 292266,
                 "end_ms": 310336,
-                "text": "Then comes Kelsey Woods. There used to be a little café on the platform, but sadly it's closed this year while they look for a new owner. Don't let that put you off, though, because from the station there's a path through the trees to a waterfall. It's only about ten minutes on foot, and it's well signposted."
+                "text": "Then comes Kelsey Woods. There used to be a little café on the platform, but sadly it's closed this year while they look for a new owner. Don't let that put you off, though, because from the station there's a path through the trees to a waterfall. It's only about ten minutes on foot, and it's well signposted.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 310736,
                 "end_ms": 330234,
-                "text": "After Kelsey Woods the line climbs quite steeply up to Brindle Junction. This is where the engine stops to take on water. It takes about fifteen minutes, so you'll have time to get off and watch the crew fill the tank. Years ago there was a picnic area beside the line here, but it was removed when the car park was built."
+                "text": "After Kelsey Woods the line climbs quite steeply up to Brindle Junction. This is where the engine stops to take on water. It takes about fifteen minutes, so you'll have time to get off and watch the crew fill the tank. Years ago there was a picnic area beside the line here, but it was removed when the car park was built.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 330634,
                 "end_ms": 347616,
-                "text": "The next station, Stavely, might look familiar to some of you. A few years ago it appeared in a television drama set in the 1930s. The production team even repainted the station sign to make it look older, and the volunteers liked it so much they kept it."
+                "text": "The next station, Stavely, might look familiar to some of you. A few years ago it appeared in a television drama set in the 1930s. The production team even repainted the station sign to make it look older, and the volunteers liked it so much they kept it.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 348016,
                 "end_ms": 367514,
-                "text": "And finally, at the end of the line, there's Hartfield. Apart from the afternoon tea I mentioned, there's a farm shop just outside the station that sells cheese, honey and bread, all made in the valley. If you want to take something home with you, that's the place. We'll have about an hour there before the coach picks us up for the drive back."
+                "text": "And finally, at the end of the line, there's Hartfield. Apart from the afternoon tea I mentioned, there's a farm shop just outside the station that sells cheese, honey and bread, all made in the valley. If you want to take something home with you, that's the place. We'll have about an hour there before the coach picks us up for the drive back.",
+                "answer_s": null
               },
               {
                 "speaker": "guide",
                 "accent": "en-NZ",
                 "start_ms": 367914,
                 "end_ms": 374592,
-                "text": "Right, I can see the station coming up now. Make sure you've got your wristbands, and I'll see you all on the platform."
+                "text": "Right, I can see the station coming up now. Make sure you've got your wristbands, and I'll see you all on the platform.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 374992,
                 "end_ms": 378853,
-                "text": "That is the end of Part 2. You now have half a minute to check your answers."
+                "text": "That is the end of Part 2. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -1498,175 +1620,210 @@
               {
                 "speaker": "narrator",
                 "text": "Part 3. You will hear two students, Priya and Jack, talking to their tutor about their project on children who grow up speaking two languages. First, you have some time to look at questions 21 to 24.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 21 to 24.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Come in, both of you. So, you wanted to talk through your bilingualism project before you start writing it up?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "text": "Yes, if that's okay. We've got most of the data now, but we're not sure how to organise it.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Fine. Remind me first, though. Why did you pick this topic? There were plenty of others on the list.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "text": "Well, everyone assumes it's because Priya grew up with two languages.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "text": "Which I didn't, actually. We only ever spoke English at home. My parents decided against teaching me Gujarati, and I've always regretted it.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "text": "For me, it really started with that lecture in week three, on myths about language development. The speaker said lots of parents still believe that learning two languages at once confuses young children, and we both wanted to know whether there was any truth in it.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "text": "And it certainly wasn't the easy option. Finding families who'd agree to be recorded took us nearly two months.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "I can believe it. And what did you find when you looked at vocabulary?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "text": "This was the most interesting part. If you only count the words a child knows in one language, the bilingual toddlers seem to be behind. But when we added both languages together, their total was about the same as the children who only spoke one language.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "That fits the published research quite well. Did anything surprise you?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "text": "I'd assumed they'd know more words in the language they hear at home than in the one they hear outside, but it really varied from family to family. And we expected their progress to slow down after the age of three, but it was the opposite. Most of them sped up once they started nursery.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Good. Now, you mentioned in your email that some of the children mix their languages, sometimes in the middle of a sentence.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "text": "Yes, all the time. A lot of the parents were quite worried about it. They thought it meant their child didn't know the right word.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "That's a very common worry, but it's not really what's going on. Researchers call it code-switching, and when you analyse it, it's far from random. Children tend to switch only at points where the grammar of both languages allows it. So it's actually a sign that they're following rules, not breaking them.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "text": "Does it stop as they get older? Say, by the time they start school?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Not necessarily. Plenty of adult bilinguals do it every day, especially when they're talking to someone who shares both languages. What about the interviews with the parents? How did those go?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "text": "Mostly well. We'd been worried about fitting them around people's working hours, but everyone was really flexible about when we came. And they were quick, too. Most were finished in under half an hour.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "text": "The real issue was what people told us. Several parents said they only ever spoke their home language to the child. But then in the recordings, we'd hear them using English quite a lot. I think they were telling us what they thought we wanted to hear.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "That's a well-known problem with asking people to report on their own behaviour. It's worth discussing in your limitations section.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Before you hear the rest of the discussion, you have some time to look at questions 25 to 30.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen and answer questions 25 to 30.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Now, you said you weren't sure how to organise the families. Why not group them by the approach each one takes? Talk me through them.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "text": "Okay. The Haddad family first. When we started, they were doing one parent, one language. The father spoke Arabic and the mother spoke English. But then the father began working abroad for long periods, so now they both speak Arabic at home, and the children only use English outside, at school and with friends.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "text": "The Lindqvists are the most consistent. The mother has only ever spoken Swedish to their son, and the father only English, since the day he was born. They've never changed it.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "text": "Then there's the Morenos. They looked into a Saturday Spanish school, but it was an hour's drive away, so instead they have a system based on the calendar. Monday, Wednesday and Friday are Spanish days, and the rest of the week is English.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "text": "With the Tanakas, neither parent is very confident in Japanese any more. They tried Japanese cartoons for a while, but their daughter got bored of them. What really works is her grandmother, who moved in with them last year and doesn't speak any English at all.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "text": "The Kowalskis' grandparents are still in Poland, and they only visit once a year, so that's not much help. But the two boys go to a Polish school every Saturday morning, and they love it. It's where all their friends are.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "text": "And finally the Brennans. They want their daughter to learn Irish, but neither of them speaks it well. There's an evening class in town, but it's for adults only. So most evenings they put on Irish-language videos online, and the father watches them with her and tries to pick up a few words himself.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "That's a nice spread. I was half expecting one of the families to have given up on the home language altogether.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "text": "We thought the Haddads might, when the father went abroad, but if anything they're using Arabic more now.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "text": "Then grouping them by approach should work well. Let's look at your chapter plan next.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 3. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-02-p3.mp3",
             "duration_ms": 406448,
@@ -1676,238 +1833,272 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 11541,
-                "text": "Part 3. You will hear two students, Priya and Jack, talking to their tutor about their project on children who grow up speaking two languages. First, you have some time to look at questions 21 to 24."
+                "text": "Part 3. You will hear two students, Priya and Jack, talking to their tutor about their project on children who grow up speaking two languages. First, you have some time to look at questions 21 to 24.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 41941,
                 "end_ms": 45909,
-                "text": "Now listen carefully and answer questions 21 to 24."
+                "text": "Now listen carefully and answer questions 21 to 24.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 46309,
                 "end_ms": 52666,
-                "text": "Come in, both of you. So, you wanted to talk through your bilingualism project before you start writing it up?"
+                "text": "Come in, both of you. So, you wanted to talk through your bilingualism project before you start writing it up?",
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "accent": "en-CA",
                 "start_ms": 53066,
                 "end_ms": 58570,
-                "text": "Yes, if that's okay. We've got most of the data now, but we're not sure how to organise it."
+                "text": "Yes, if that's okay. We've got most of the data now, but we're not sure how to organise it.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 58970,
                 "end_ms": 63941,
-                "text": "Fine. Remind me first, though. Why did you pick this topic? There were plenty of others on the list."
+                "text": "Fine. Remind me first, though. Why did you pick this topic? There were plenty of others on the list.",
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "accent": "en-US",
                 "start_ms": 64341,
                 "end_ms": 68288,
-                "text": "Well, everyone assumes it's because Priya grew up with two languages."
+                "text": "Well, everyone assumes it's because Priya grew up with two languages.",
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "accent": "en-CA",
                 "start_ms": 68688,
                 "end_ms": 77114,
-                "text": "Which I didn't, actually. We only ever spoke English at home. My parents decided against teaching me Gujarati, and I've always regretted it."
+                "text": "Which I didn't, actually. We only ever spoke English at home. My parents decided against teaching me Gujarati, and I've always regretted it.",
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "accent": "en-US",
                 "start_ms": 77514,
                 "end_ms": 92213,
-                "text": "For me, it really started with that lecture in week three, on myths about language development. The speaker said lots of parents still believe that learning two languages at once confuses young children, and we both wanted to know whether there was any truth in it."
+                "text": "For me, it really started with that lecture in week three, on myths about language development. The speaker said lots of parents still believe that learning two languages at once confuses young children, and we both wanted to know whether there was any truth in it.",
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "accent": "en-CA",
                 "start_ms": 92613,
                 "end_ms": 99184,
-                "text": "And it certainly wasn't the easy option. Finding families who'd agree to be recorded took us nearly two months."
+                "text": "And it certainly wasn't the easy option. Finding families who'd agree to be recorded took us nearly two months.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 99584,
                 "end_ms": 103317,
-                "text": "I can believe it. And what did you find when you looked at vocabulary?"
+                "text": "I can believe it. And what did you find when you looked at vocabulary?",
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "accent": "en-CA",
                 "start_ms": 103717,
                 "end_ms": 118842,
-                "text": "This was the most interesting part. If you only count the words a child knows in one language, the bilingual toddlers seem to be behind. But when we added both languages together, their total was about the same as the children who only spoke one language."
+                "text": "This was the most interesting part. If you only count the words a child knows in one language, the bilingual toddlers seem to be behind. But when we added both languages together, their total was about the same as the children who only spoke one language.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 119242,
                 "end_ms": 123168,
-                "text": "That fits the published research quite well. Did anything surprise you?"
+                "text": "That fits the published research quite well. Did anything surprise you?",
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "accent": "en-US",
                 "start_ms": 123568,
                 "end_ms": 139781,
-                "text": "I'd assumed they'd know more words in the language they hear at home than in the one they hear outside, but it really varied from family to family. And we expected their progress to slow down after the age of three, but it was the opposite. Most of them sped up once they started nursery."
+                "text": "I'd assumed they'd know more words in the language they hear at home than in the one they hear outside, but it really varied from family to family. And we expected their progress to slow down after the age of three, but it was the opposite. Most of them sped up once they started nursery.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 140181,
                 "end_ms": 147136,
-                "text": "Good. Now, you mentioned in your email that some of the children mix their languages, sometimes in the middle of a sentence."
+                "text": "Good. Now, you mentioned in your email that some of the children mix their languages, sometimes in the middle of a sentence.",
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "accent": "en-CA",
                 "start_ms": 147536,
                 "end_ms": 154085,
-                "text": "Yes, all the time. A lot of the parents were quite worried about it. They thought it meant their child didn't know the right word."
+                "text": "Yes, all the time. A lot of the parents were quite worried about it. They thought it meant their child didn't know the right word.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 154485,
                 "end_ms": 170848,
-                "text": "That's a very common worry, but it's not really what's going on. Researchers call it code-switching, and when you analyse it, it's far from random. Children tend to switch only at points where the grammar of both languages allows it. So it's actually a sign that they're following rules, not breaking them."
+                "text": "That's a very common worry, but it's not really what's going on. Researchers call it code-switching, and when you analyse it, it's far from random. Children tend to switch only at points where the grammar of both languages allows it. So it's actually a sign that they're following rules, not breaking them.",
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "accent": "en-US",
                 "start_ms": 171248,
                 "end_ms": 174810,
-                "text": "Does it stop as they get older? Say, by the time they start school?"
+                "text": "Does it stop as they get older? Say, by the time they start school?",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 175210,
                 "end_ms": 186112,
-                "text": "Not necessarily. Plenty of adult bilinguals do it every day, especially when they're talking to someone who shares both languages. What about the interviews with the parents? How did those go?"
+                "text": "Not necessarily. Plenty of adult bilinguals do it every day, especially when they're talking to someone who shares both languages. What about the interviews with the parents? How did those go?",
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "accent": "en-US",
                 "start_ms": 186512,
                 "end_ms": 197370,
-                "text": "Mostly well. We'd been worried about fitting them around people's working hours, but everyone was really flexible about when we came. And they were quick, too. Most were finished in under half an hour."
+                "text": "Mostly well. We'd been worried about fitting them around people's working hours, but everyone was really flexible about when we came. And they were quick, too. Most were finished in under half an hour.",
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "accent": "en-CA",
                 "start_ms": 197770,
                 "end_ms": 211552,
-                "text": "The real issue was what people told us. Several parents said they only ever spoke their home language to the child. But then in the recordings, we'd hear them using English quite a lot. I think they were telling us what they thought we wanted to hear."
+                "text": "The real issue was what people told us. Several parents said they only ever spoke their home language to the child. But then in the recordings, we'd hear them using English quite a lot. I think they were telling us what they thought we wanted to hear.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 211952,
                 "end_ms": 219290,
-                "text": "That's a well-known problem with asking people to report on their own behaviour. It's worth discussing in your limitations section."
+                "text": "That's a well-known problem with asking people to report on their own behaviour. It's worth discussing in your limitations section.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 219690,
                 "end_ms": 225002,
-                "text": "Before you hear the rest of the discussion, you have some time to look at questions 25 to 30."
+                "text": "Before you hear the rest of the discussion, you have some time to look at questions 25 to 30.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 255402,
                 "end_ms": 258773,
-                "text": "Now listen and answer questions 25 to 30."
+                "text": "Now listen and answer questions 25 to 30.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 259173,
                 "end_ms": 266234,
-                "text": "Now, you said you weren't sure how to organise the families. Why not group them by the approach each one takes? Talk me through them."
+                "text": "Now, you said you weren't sure how to organise the families. Why not group them by the approach each one takes? Talk me through them.",
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "accent": "en-CA",
                 "start_ms": 266634,
                 "end_ms": 284896,
-                "text": "Okay. The Haddad family first. When we started, they were doing one parent, one language. The father spoke Arabic and the mother spoke English. But then the father began working abroad for long periods, so now they both speak Arabic at home, and the children only use English outside, at school and with friends."
+                "text": "Okay. The Haddad family first. When we started, they were doing one parent, one language. The father spoke Arabic and the mother spoke English. But then the father began working abroad for long periods, so now they both speak Arabic at home, and the children only use English outside, at school and with friends.",
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "accent": "en-US",
                 "start_ms": 285296,
                 "end_ms": 295749,
-                "text": "The Lindqvists are the most consistent. The mother has only ever spoken Swedish to their son, and the father only English, since the day he was born. They've never changed it."
+                "text": "The Lindqvists are the most consistent. The mother has only ever spoken Swedish to their son, and the father only English, since the day he was born. They've never changed it.",
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "accent": "en-CA",
                 "start_ms": 296149,
                 "end_ms": 310293,
-                "text": "Then there's the Morenos. They looked into a Saturday Spanish school, but it was an hour's drive away, so instead they have a system based on the calendar. Monday, Wednesday and Friday are Spanish days, and the rest of the week is English."
+                "text": "Then there's the Morenos. They looked into a Saturday Spanish school, but it was an hour's drive away, so instead they have a system based on the calendar. Monday, Wednesday and Friday are Spanish days, and the rest of the week is English.",
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "accent": "en-US",
                 "start_ms": 310693,
                 "end_ms": 325178,
-                "text": "With the Tanakas, neither parent is very confident in Japanese any more. They tried Japanese cartoons for a while, but their daughter got bored of them. What really works is her grandmother, who moved in with them last year and doesn't speak any English at all."
+                "text": "With the Tanakas, neither parent is very confident in Japanese any more. They tried Japanese cartoons for a while, but their daughter got bored of them. What really works is her grandmother, who moved in with them last year and doesn't speak any English at all.",
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "accent": "en-CA",
                 "start_ms": 325578,
                 "end_ms": 337909,
-                "text": "The Kowalskis' grandparents are still in Poland, and they only visit once a year, so that's not much help. But the two boys go to a Polish school every Saturday morning, and they love it. It's where all their friends are."
+                "text": "The Kowalskis' grandparents are still in Poland, and they only visit once a year, so that's not much help. But the two boys go to a Polish school every Saturday morning, and they love it. It's where all their friends are.",
+                "answer_s": null
               },
               {
                 "speaker": "jack",
                 "accent": "en-US",
                 "start_ms": 338309,
                 "end_ms": 354138,
-                "text": "And finally the Brennans. They want their daughter to learn Irish, but neither of them speaks it well. There's an evening class in town, but it's for adults only. So most evenings they put on Irish-language videos online, and the father watches them with her and tries to pick up a few words himself."
+                "text": "And finally the Brennans. They want their daughter to learn Irish, but neither of them speaks it well. There's an evening class in town, but it's for adults only. So most evenings they put on Irish-language videos online, and the father watches them with her and tries to pick up a few words himself.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 354538,
                 "end_ms": 360832,
-                "text": "That's a nice spread. I was half expecting one of the families to have given up on the home language altogether."
+                "text": "That's a nice spread. I was half expecting one of the families to have given up on the home language altogether.",
+                "answer_s": null
               },
               {
                 "speaker": "priya",
                 "accent": "en-CA",
                 "start_ms": 361232,
                 "end_ms": 366586,
-                "text": "We thought the Haddads might, when the father went abroad, but if anything they're using Arabic more now."
+                "text": "We thought the Haddads might, when the father went abroad, but if anything they're using Arabic more now.",
+                "answer_s": null
               },
               {
                 "speaker": "tutor",
                 "accent": "en-GB",
                 "start_ms": 366986,
                 "end_ms": 371722,
-                "text": "Then grouping them by approach should work well. Let's look at your chapter plan next."
+                "text": "Then grouping them by approach should work well. Let's look at your chapter plan next.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 372122,
                 "end_ms": 376048,
-                "text": "That is the end of Part 3. You now have half a minute to check your answers."
+                "text": "That is the end of Part 3. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -2309,85 +2500,102 @@
               {
                 "speaker": "narrator",
                 "text": "Part 4. You will hear a lecture about how ants help to spread the seeds of plants. First, you have some time to look at questions 31 to 40.",
-                "pause_after_s": 45.0
+                "pause_after_s": 45.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "Now listen carefully and answer questions 31 to 40.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Good morning. In the last few sessions we've looked at the ways plants spread their seeds using wind, water and birds. Today I want to turn to a partnership that's much less obvious, but surprisingly widespread: the dispersal of seeds by ants. The scientific term for it is myrmecochory, from the Greek word for ant, and it's been recorded in more than eleven thousand plant species, from tiny woodland flowers to shrubs in dry grasslands.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "So how does it work? The seeds of these plants carry a small attachment called an elaiosome. It's usually pale and soft, and it's packed with fats and proteins. At first, researchers assumed the ants were simply attracted by its food value. But it turns out there's more to it than that. The elaiosome gives off a chemical signal that's almost identical to the one produced by dead insects, which, of course, ants normally collect and carry home as food. In other words, the plant is exploiting a behaviour the ants already have.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "When a worker ant finds one of these seeds, it grips the elaiosome in its jaws and carries the whole thing back to the nest. That might be a distance of only a metre or two, but for a seed that would otherwise just drop beneath its parent, it makes a real difference.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Once the seed is inside, the adult ants don't eat the elaiosome themselves, as you might expect. Instead, they feed it to their larvae. And studies of several species have shown that colonies with access to these seeds raise heavier young and, in some cases, produce more new queens. So the ants are getting a genuine benefit from the arrangement.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "What happens to the seed itself? Well, the seed coat is too hard for the ants to bite through, and once the elaiosome has gone, there's nothing left to interest them. So they get rid of it, usually by dumping it in an underground chamber that the colony uses for waste. And this is where the plant benefits, because that chamber is full of food scraps, droppings and old cocoons, which means it's far richer in nutrients than the surrounding soil.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "There are other advantages, too. A seed lying on the forest floor is an easy meal for mice and for some kinds of beetle. Once it's buried in an ant nest, it's out of sight of these predators, and its chances of survival go up dramatically. Being moved away from the parent plant also means the young plant won't have to compete with it for light and water.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "And in some parts of the world, burial matters for another reason. In the shrublands of southern Australia and South Africa, which have an unusually large number of ant-dispersed plants, the vegetation burns every ten to twenty years. Seeds lying on the surface are destroyed, but seeds a few centimetres underground survive the fire, and many of them actually need the heat and smoke to trigger germination.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Now, all of this depends on the right ants being present, and that's where some worrying research comes in. In many places, native ants are being pushed out by invasive species, the best known being the Argentine ant. In South Africa, ecologists compared sites where native ants were still present with sites that had been taken over by Argentine ants.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "What they found was that the Argentine ants were perfectly happy to eat the elaiosomes. The difference was that they ate them where they found them. They didn't carry the seeds home, so the seeds were simply left lying on the surface, where they were eaten by mice or destroyed by the next fire.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Over several years, the sites with invasive ants had far fewer seedlings of the large-seeded shrubs. Small-seeded plants did rather better, because they don't rely so heavily on ants. So the whole make-up of the plant community was starting to change.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Climate change may be adding further pressure. Ants become active when the soil warms up in spring, while many plants release their seeds according to day length. As temperatures rise, the ants are appearing earlier and earlier, but the plants aren't changing their timing to match. Ecologists describe this as a mismatch, and if it grows, seeds may be released when the ants have already moved on to other sources of food.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "Finally, a word about how this is studied, because following a seed that's a couple of millimetres long is not easy. Early researchers simply sat and watched, which took an enormous amount of time. Some teams have tried attaching tiny radio tags, but even the smallest ones are too heavy for most ants to lift. The method that's really taken off recently is to coat seeds in a fluorescent dye, which glows under ultraviolet light. That means you can go out at night with a lamp and find exactly where the ants have taken them.",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "text": "In the next session, we'll look at a case where the relationship has gone even further, and the plant can't germinate at all without its ant partner. But for now, are there any questions?",
-                "pause_after_s": 0.0
+                "pause_after_s": 0.0,
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "text": "That is the end of Part 4. You now have half a minute to check your answers.",
-                "pause_after_s": 30.0
+                "pause_after_s": 30.0,
+                "answer_s": null
               }
             ]
           },
+          "cue_card": null,
           "audio": {
             "url": "/media/audio/mock-02-p4.mp3",
             "duration_ms": 373718,
@@ -2397,112 +2605,128 @@
                 "accent": "en-GB",
                 "start_ms": 0,
                 "end_ms": 8149,
-                "text": "Part 4. You will hear a lecture about how ants help to spread the seeds of plants. First, you have some time to look at questions 31 to 40."
+                "text": "Part 4. You will hear a lecture about how ants help to spread the seeds of plants. First, you have some time to look at questions 31 to 40.",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 53549,
                 "end_ms": 57346,
-                "text": "Now listen carefully and answer questions 31 to 40."
+                "text": "Now listen carefully and answer questions 31 to 40.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 57746,
                 "end_ms": 82600,
-                "text": "Good morning. In the last few sessions we've looked at the ways plants spread their seeds using wind, water and birds. Today I want to turn to a partnership that's much less obvious, but surprisingly widespread: the dispersal of seeds by ants. The scientific term for it is myrmecochory, from the Greek word for ant, and it's been recorded in more than eleven thousand plant species, from tiny woodland flowers to shrubs in dry grasslands."
+                "text": "Good morning. In the last few sessions we've looked at the ways plants spread their seeds using wind, water and birds. Today I want to turn to a partnership that's much less obvious, but surprisingly widespread: the dispersal of seeds by ants. The scientific term for it is myrmecochory, from the Greek word for ant, and it's been recorded in more than eleven thousand plant species, from tiny woodland flowers to shrubs in dry grasslands.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 83000,
                 "end_ms": 114588,
-                "text": "So how does it work? The seeds of these plants carry a small attachment called an elaiosome. It's usually pale and soft, and it's packed with fats and proteins. At first, researchers assumed the ants were simply attracted by its food value. But it turns out there's more to it than that. The elaiosome gives off a chemical signal that's almost identical to the one produced by dead insects, which, of course, ants normally collect and carry home as food. In other words, the plant is exploiting a behaviour the ants already have."
+                "text": "So how does it work? The seeds of these plants carry a small attachment called an elaiosome. It's usually pale and soft, and it's packed with fats and proteins. At first, researchers assumed the ants were simply attracted by its food value. But it turns out there's more to it than that. The elaiosome gives off a chemical signal that's almost identical to the one produced by dead insects, which, of course, ants normally collect and carry home as food. In other words, the plant is exploiting a behaviour the ants already have.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 114988,
                 "end_ms": 130156,
-                "text": "When a worker ant finds one of these seeds, it grips the elaiosome in its jaws and carries the whole thing back to the nest. That might be a distance of only a metre or two, but for a seed that would otherwise just drop beneath its parent, it makes a real difference."
+                "text": "When a worker ant finds one of these seeds, it grips the elaiosome in its jaws and carries the whole thing back to the nest. That might be a distance of only a metre or two, but for a seed that would otherwise just drop beneath its parent, it makes a real difference.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 130556,
                 "end_ms": 150802,
-                "text": "Once the seed is inside, the adult ants don't eat the elaiosome themselves, as you might expect. Instead, they feed it to their larvae. And studies of several species have shown that colonies with access to these seeds raise heavier young and, in some cases, produce more new queens. So the ants are getting a genuine benefit from the arrangement."
+                "text": "Once the seed is inside, the adult ants don't eat the elaiosome themselves, as you might expect. Instead, they feed it to their larvae. And studies of several species have shown that colonies with access to these seeds raise heavier young and, in some cases, produce more new queens. So the ants are getting a genuine benefit from the arrangement.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 151202,
                 "end_ms": 175522,
-                "text": "What happens to the seed itself? Well, the seed coat is too hard for the ants to bite through, and once the elaiosome has gone, there's nothing left to interest them. So they get rid of it, usually by dumping it in an underground chamber that the colony uses for waste. And this is where the plant benefits, because that chamber is full of food scraps, droppings and old cocoons, which means it's far richer in nutrients than the surrounding soil."
+                "text": "What happens to the seed itself? Well, the seed coat is too hard for the ants to bite through, and once the elaiosome has gone, there's nothing left to interest them. So they get rid of it, usually by dumping it in an underground chamber that the colony uses for waste. And this is where the plant benefits, because that chamber is full of food scraps, droppings and old cocoons, which means it's far richer in nutrients than the surrounding soil.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 175922,
                 "end_ms": 195655,
-                "text": "There are other advantages, too. A seed lying on the forest floor is an easy meal for mice and for some kinds of beetle. Once it's buried in an ant nest, it's out of sight of these predators, and its chances of survival go up dramatically. Being moved away from the parent plant also means the young plant won't have to compete with it for light and water."
+                "text": "There are other advantages, too. A seed lying on the forest floor is an easy meal for mice and for some kinds of beetle. Once it's buried in an ant nest, it's out of sight of these predators, and its chances of survival go up dramatically. Being moved away from the parent plant also means the young plant won't have to compete with it for light and water.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 196055,
                 "end_ms": 219628,
-                "text": "And in some parts of the world, burial matters for another reason. In the shrublands of southern Australia and South Africa, which have an unusually large number of ant-dispersed plants, the vegetation burns every ten to twenty years. Seeds lying on the surface are destroyed, but seeds a few centimetres underground survive the fire, and many of them actually need the heat and smoke to trigger germination."
+                "text": "And in some parts of the world, burial matters for another reason. In the shrublands of southern Australia and South Africa, which have an unusually large number of ant-dispersed plants, the vegetation burns every ten to twenty years. Seeds lying on the surface are destroyed, but seeds a few centimetres underground survive the fire, and many of them actually need the heat and smoke to trigger germination.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 220028,
                 "end_ms": 241170,
-                "text": "Now, all of this depends on the right ants being present, and that's where some worrying research comes in. In many places, native ants are being pushed out by invasive species, the best known being the Argentine ant. In South Africa, ecologists compared sites where native ants were still present with sites that had been taken over by Argentine ants."
+                "text": "Now, all of this depends on the right ants being present, and that's where some worrying research comes in. In many places, native ants are being pushed out by invasive species, the best known being the Argentine ant. In South Africa, ecologists compared sites where native ants were still present with sites that had been taken over by Argentine ants.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 241570,
                 "end_ms": 257612,
-                "text": "What they found was that the Argentine ants were perfectly happy to eat the elaiosomes. The difference was that they ate them where they found them. They didn't carry the seeds home, so the seeds were simply left lying on the surface, where they were eaten by mice or destroyed by the next fire."
+                "text": "What they found was that the Argentine ants were perfectly happy to eat the elaiosomes. The difference was that they ate them where they found them. They didn't carry the seeds home, so the seeds were simply left lying on the surface, where they were eaten by mice or destroyed by the next fire.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 258012,
                 "end_ms": 272668,
-                "text": "Over several years, the sites with invasive ants had far fewer seedlings of the large-seeded shrubs. Small-seeded plants did rather better, because they don't rely so heavily on ants. So the whole make-up of the plant community was starting to change."
+                "text": "Over several years, the sites with invasive ants had far fewer seedlings of the large-seeded shrubs. Small-seeded plants did rather better, because they don't rely so heavily on ants. So the whole make-up of the plant community was starting to change.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 273068,
                 "end_ms": 296663,
-                "text": "Climate change may be adding further pressure. Ants become active when the soil warms up in spring, while many plants release their seeds according to day length. As temperatures rise, the ants are appearing earlier and earlier, but the plants aren't changing their timing to match. Ecologists describe this as a mismatch, and if it grows, seeds may be released when the ants have already moved on to other sources of food."
+                "text": "Climate change may be adding further pressure. Ants become active when the soil warms up in spring, while many plants release their seeds according to day length. As temperatures rise, the ants are appearing earlier and earlier, but the plants aren't changing their timing to match. Ecologists describe this as a mismatch, and if it grows, seeds may be released when the ants have already moved on to other sources of food.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 297063,
                 "end_ms": 328204,
-                "text": "Finally, a word about how this is studied, because following a seed that's a couple of millimetres long is not easy. Early researchers simply sat and watched, which took an enormous amount of time. Some teams have tried attaching tiny radio tags, but even the smallest ones are too heavy for most ants to lift. The method that's really taken off recently is to coat seeds in a fluorescent dye, which glows under ultraviolet light. That means you can go out at night with a lamp and find exactly where the ants have taken them."
+                "text": "Finally, a word about how this is studied, because following a seed that's a couple of millimetres long is not easy. Early researchers simply sat and watched, which took an enormous amount of time. Some teams have tried attaching tiny radio tags, but even the smallest ones are too heavy for most ants to lift. The method that's really taken off recently is to coat seeds in a fluorescent dye, which glows under ultraviolet light. That means you can go out at night with a lamp and find exactly where the ants have taken them.",
+                "answer_s": null
               },
               {
                 "speaker": "lecturer",
                 "accent": "en-US",
                 "start_ms": 328604,
                 "end_ms": 338972,
-                "text": "In the next session, we'll look at a case where the relationship has gone even further, and the plant can't germinate at all without its ant partner. But for now, are there any questions?"
+                "text": "In the next session, we'll look at a case where the relationship has gone even further, and the plant can't germinate at all without its ant partner. But for now, are there any questions?",
+                "answer_s": null
               },
               {
                 "speaker": "narrator",
                 "accent": "en-GB",
                 "start_ms": 339372,
                 "end_ms": 343318,
-                "text": "That is the end of Part 4. You now have half a minute to check your answers."
+                "text": "That is the end of Part 4. You now have half a minute to check your answers.",
+                "answer_s": null
               }
             ],
             "tts_provider": "kokoro",
@@ -2803,6 +3027,7 @@
             "glossary": []
           },
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": null,
           "groups": [
@@ -3284,6 +3509,7 @@
             "glossary": []
           },
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": null,
           "groups": [
@@ -3783,6 +4009,7 @@
             "glossary": []
           },
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": null,
           "groups": [
@@ -4322,6 +4549,7 @@
           "topic": "cities-transport",
           "passage": null,
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": {
             "task_number": 1,
@@ -4387,6 +4615,7 @@
           "topic": "education",
           "passage": null,
           "script": null,
+          "cue_card": null,
           "audio": null,
           "writing": {
             "task_number": 2,
@@ -4394,6 +4623,435 @@
             "essay_type": "opinion",
             "visual": null
           },
+          "groups": []
+        }
+      ]
+    },
+    {
+      "skill": "speaking",
+      "duration_s": 1200,
+      "parts": [
+        {
+          "number": 1,
+          "context": "speaking_interview",
+          "topic": "urban-life",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "examiner",
+                "role": "Speaking examiner",
+                "accent": "en-GB",
+                "gender": "male"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "examiner",
+                "text": "Good morning. In this first part of the test, I'd like to ask you some questions about yourself.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "text": "Let's talk about where you live. Do you live in a house or a flat?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "What do you like about the area where you live?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Would you like to move somewhere else in the future?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Now let's talk about cooking. Do you enjoy cooking?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Who usually does the cooking in your family?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Is there a dish you would like to learn to make?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Now let's talk about weekends. What do you usually do at weekends?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do you prefer to spend your weekends at home or going out?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Was there anything special you did last weekend?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do you think weekends are long enough?",
+                "pause_after_s": 0.0,
+                "answer_s": 35
+              }
+            ]
+          },
+          "cue_card": null,
+          "audio": {
+            "url": "/media/audio/mock-02-s1.mp3",
+            "duration_ms": 37616,
+            "segments": [
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 5034,
+                "text": "Good morning. In this first part of the test, I'd like to ask you some questions about yourself.",
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 5434,
+                "end_ms": 8805,
+                "text": "Let's talk about where you live. Do you live in a house or a flat?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 9205,
+                "end_ms": 11594,
+                "text": "What do you like about the area where you live?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 11994,
+                "end_ms": 14533,
+                "text": "Would you like to move somewhere else in the future?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 14933,
+                "end_ms": 17834,
+                "text": "Now let's talk about cooking. Do you enjoy cooking?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 18234,
+                "end_ms": 20794,
+                "text": "Who usually does the cooking in your family?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 21194,
+                "end_ms": 23712,
+                "text": "Is there a dish you would like to learn to make?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 24112,
+                "end_ms": 27781,
+                "text": "Now let's talk about weekends. What do you usually do at weekends?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 28181,
+                "end_ms": 31338,
+                "text": "Do you prefer to spend your weekends at home or going out?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 31738,
+                "end_ms": 34618,
+                "text": "Was there anything special you did last weekend?",
+                "answer_s": 35
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 35018,
+                "end_ms": 37216,
+                "text": "Do you think weekends are long enough?",
+                "answer_s": 35
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "examiner": "bm_daniel"
+            }
+          },
+          "writing": null,
+          "groups": []
+        },
+        {
+          "number": 2,
+          "context": "speaking_interview",
+          "topic": "urban-life",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "examiner",
+                "role": "Speaking examiner",
+                "accent": "en-GB",
+                "gender": "male"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "examiner",
+                "text": "Now, I'm going to give you a topic, and I'd like you to talk about it for one to two minutes. Before you talk, you'll have one minute to think about what you're going to say. You can make some notes if you wish. Here is your paper and pencil, and here is your topic. I'd like you to describe a public place in your town or city that you like to visit.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "text": "All right? Remember, you have one to two minutes for this, so don't worry if I stop you. I'll tell you when the time is up. Can you start speaking now, please?",
+                "pause_after_s": 0.0,
+                "answer_s": 120
+              },
+              {
+                "speaker": "examiner",
+                "text": "Thank you. Do you think this place will change in the future?",
+                "pause_after_s": 0.0,
+                "answer_s": 30
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do other people in your town like it too?",
+                "pause_after_s": 0.0,
+                "answer_s": 30
+              }
+            ]
+          },
+          "cue_card": {
+            "task": "Describe a public place in your town or city that you like to visit.",
+            "bullets": [
+              "where it is",
+              "what it looks like",
+              "what people do there"
+            ],
+            "final": "and explain why you like going there."
+          },
+          "audio": {
+            "url": "/media/audio/mock-02-s2.mp3",
+            "duration_ms": 31061,
+            "segments": [
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 16469,
+                "text": "Now, I'm going to give you a topic, and I'd like you to talk about it for one to two minutes. Before you talk, you'll have one minute to think about what you're going to say. You can make some notes if you wish. Here is your paper and pencil, and here is your topic. I'd like you to describe a public place in your town or city that you like to visit.",
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 16869,
+                "end_ms": 24485,
+                "text": "All right? Remember, you have one to two minutes for this, so don't worry if I stop you. I'll tell you when the time is up. Can you start speaking now, please?",
+                "answer_s": 120
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 24885,
+                "end_ms": 27872,
+                "text": "Thank you. Do you think this place will change in the future?",
+                "answer_s": 30
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 28272,
+                "end_ms": 30661,
+                "text": "Do other people in your town like it too?",
+                "answer_s": 30
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "examiner": "bm_daniel"
+            }
+          },
+          "writing": null,
+          "groups": []
+        },
+        {
+          "number": 3,
+          "context": "speaking_interview",
+          "topic": "urban-life",
+          "passage": null,
+          "script": {
+            "speakers": [
+              {
+                "id": "examiner",
+                "role": "Speaking examiner",
+                "accent": "en-GB",
+                "gender": "male"
+              }
+            ],
+            "lines": [
+              {
+                "speaker": "examiner",
+                "text": "We've been talking about a public place you like, and I'd like to discuss with you one or two more general questions related to this. Let's consider first public spaces in cities.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "text": "Why are parks and squares important in a city?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Who should pay for public spaces, the government or private companies?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Now let's talk about city life. What are the main advantages of living in a big city compared with the countryside?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "How could cities be made more pleasant for the people who live in them?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Do you think more people will live in cities in the future? Why?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Some people think old buildings should be replaced with modern ones. What is your opinion?",
+                "pause_after_s": 0.0,
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "text": "Thank you very much. That is the end of the speaking test.",
+                "pause_after_s": 0.0,
+                "answer_s": null
+              }
+            ]
+          },
+          "cue_card": null,
+          "audio": {
+            "url": "/media/audio/mock-02-s3.mp3",
+            "duration_ms": 41109,
+            "segments": [
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 0,
+                "end_ms": 9834,
+                "text": "We've been talking about a public place you like, and I'd like to discuss with you one or two more general questions related to this. Let's consider first public spaces in cities.",
+                "answer_s": null
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 10234,
+                "end_ms": 12986,
+                "text": "Why are parks and squares important in a city?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 13386,
+                "end_ms": 17205,
+                "text": "Who should pay for public spaces, the government or private companies?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 17605,
+                "end_ms": 23962,
+                "text": "Now let's talk about city life. What are the main advantages of living in a big city compared with the countryside?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 24362,
+                "end_ms": 27861,
+                "text": "How could cities be made more pleasant for the people who live in them?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 28261,
+                "end_ms": 31845,
+                "text": "Do you think more people will live in cities in the future? Why?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 32245,
+                "end_ms": 37066,
+                "text": "Some people think old buildings should be replaced with modern ones. What is your opinion?",
+                "answer_s": 60
+              },
+              {
+                "speaker": "examiner",
+                "accent": "en-GB",
+                "start_ms": 37466,
+                "end_ms": 40709,
+                "text": "Thank you very much. That is the end of the speaking test.",
+                "answer_s": null
+              }
+            ],
+            "tts_provider": "kokoro",
+            "voices": {
+              "examiner": "bm_daniel"
+            }
+          },
+          "writing": null,
           "groups": []
         }
       ]
