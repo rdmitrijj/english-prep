@@ -45,6 +45,10 @@ later you run the same command.
 `--no-deps` stops Compose from starting the local Postgres, and `-e DATABASE_URL=...` overrides the local database URL.
 
 ## 4. Create your user
+Easiest: set `ADMIN_EMAIL` and `ADMIN_PASSWORD` (min 10 chars) in the service's **Environment** tab. The user is
+created on the next start. Changing them later does not change an existing user's password.
+
+Or from your machine:
 ```bash
 docker compose run --rm --no-deps -e DATABASE_URL="$NEON_URL" backend \
   python -m app.cli create-user --email you@example.com --name "Your Name"

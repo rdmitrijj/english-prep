@@ -13,6 +13,8 @@ class Settings(BaseSettings):
     jwt_ttl_days: int = 7
     cookie_secure: bool = True  # False only for local http dev
     default_monthly_ai_budget_usd: float = 10.0
+    admin_email: str | None = None  # prod: this user is created on start if missing (app.cli ensure-admin)
+    admin_password: str | None = None
 
     openai_api_key: str | None = None
     llm_model_generate: str = "gpt-6.1-sol"

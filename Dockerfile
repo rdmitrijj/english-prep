@@ -30,4 +30,4 @@ COPY --from=frontend-build /srv/frontend/dist /srv/frontend/dist
 RUN useradd --system app
 USER app
 # Render sets $PORT. Migrations run at start because Render's pre-deploy command is paid-only.
-CMD ["sh", "-c", "alembic upgrade head && exec uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
+CMD ["sh", "-c", "alembic upgrade head && python -m app.cli ensure-admin && exec uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]

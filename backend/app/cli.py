@@ -28,13 +28,30 @@ async def create_user(email: str, name: str, password: str) -> None:
     print(f"Created user {email}")
 
 
+async def ensure_admin() -> None:
+    """Create ADMIN_EMAIL / ADMIN_PASSWORD on start if missing. An existing user is left as is (password included)."""
+    s = get_settings()
+    if not (s.admin_email and s.admin_password):
+        return
+    if len(s.admin_password) < 10:
+        sys.exit("ADMIN_PASSWORD too short (min 10 chars)")
+    async with SessionLocal() as session:
+        if await users_repo.get_by_email(session, s.admin_email):
+            return
+    await create_user(s.admin_email, s.admin_email.split("@")[0], s.admin_password)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(prog="python -m app.cli")
     sub = parser.add_subparsers(dest="command", required=True)
     cu = sub.add_parser("create-user")
     cu.add_argument("--email", required=True)
     cu.add_argument("--name", required=True)
+    sub.add_parser("ensure-admin")
     args = parser.parse_args()
+
+    if args.command == "ensure-admin":
+        asyncio.run(ensure_admin())
 
     if args.command == "create-user":
         password = getpass.getpass("Password (min 10 chars): ")
