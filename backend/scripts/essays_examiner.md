@@ -44,6 +44,27 @@ A JSON export: `{"essays": [{submission_id, run, task_number, prompt, visual, mi
 | 5 | key features not adequately covered; mechanical recounting; little data / main parts incompletely addressed, position unclear | organisation not wholly logical; limited or overused devices; paragraphing may be missing | limited but minimally adequate; frequent word-choice lapses; noticeable spelling errors | limited, repetitive range; complex sentences faulty; frequent errors |
 | 4 and below | — | — | memorised or formulaic chunks are a band 4 feature; over-reliance on memorised language is band 3 | — |
 
+### Task 1 Task Achievement: apply this wording (Academic lines; it overrides the T1 column above)
+
+| Band | Descriptor |
+|---|---|
+| 9 | Fully satisfies all the requirements of the task. Clearly presents a fully developed response. |
+| 8 | Covers all requirements of the task sufficiently. Presents, highlights and illustrates key features clearly and appropriately. |
+| 7 | Covers the requirements of the task. Presents a clear overview of main trends, differences or stages. Clearly presents and highlights key features but could be more fully extended. |
+| 6 | Addresses the requirements of the task. Presents an overview with information appropriately selected. Presents and adequately highlights key features, but details may be irrelevant, inappropriate or inaccurate. |
+| 5 | Generally addresses the task; the format may be inappropriate in places. Recounts detail mechanically with no clear overview; there may be no data to support the description. Presents, but inadequately covers, key features; there may be a tendency to focus on details. |
+| 4 | Attempts to address the task but does not cover all key features; the format may be inappropriate. May confuse key features with detail; parts may be unclear, irrelevant, repetitive or inaccurate. |
+| 3 | Fails to address the task, which may have been completely misunderstood. Presents limited ideas which may be largely irrelevant or repetitive. |
+| 2 | Answer is barely related to the task. |
+| 1 | Answer is completely unrelated to the task. |
+| 0 | Does not attend, does not attempt the task in any way, or writes a totally memorised response. |
+
+### The candidate's target is band 9
+
+For every criterion scored below 9, the `justification` must name which band-9 descriptor wording the essay does
+not yet meet, and why. `to_reach_next_half_band` still lists the next step first; you may add a last item on the
+biggest gap to band 9. The target never changes the score: mark exactly as strictly as before.
+
 Notes or bullet points instead of connected prose are penalised. A totally memorised answer scores 0 (only with
 clear proof). The app already gives 0 to empty answers and 1 to answers of 20 words or fewer; you won't see those.
 
