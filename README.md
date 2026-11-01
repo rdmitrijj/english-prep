@@ -10,3 +10,8 @@ That's because I have an IELTS exam soon, and I need to prepare well for this, f
 just open this link here and all the service is deployed on render + neon
 
 https://english-prep.onrender.com
+
+It contains:
+
+- Writing Parts 1 & 2
+- Reading Parts 1, 2 & 3
