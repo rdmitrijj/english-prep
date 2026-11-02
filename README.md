@@ -15,3 +15,7 @@ It contains:
 
 - Writing Parts 1 & 2
 - Reading Parts 1, 2 & 3
+
+## Personally for me
+
+02.11 - Writing 1 & 2 is Band 5
